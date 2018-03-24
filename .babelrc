@@ -1,0 +1,17 @@
+{
+  "presets": ["razzle/babel"],
+  "plugins": [
+    "transform-export-default-name",
+    [
+      "babel-plugin-styled-components",
+      {
+        "ssr": true
+      }
+    ]
+  ],
+  "env": {
+    "production": {
+      "plugins": ["react-remove-properties"]
+    }
+  }
+}
