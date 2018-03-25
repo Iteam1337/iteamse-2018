@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Home renders Home page 1`] = `
+<Unknown>
+  <Header
+    backgroundImage=""
+    messageBgColor=""
+    messageOne=""
+    messageTwo=""
+  />
+  <Home__Row>
+    <Home__Content>
+      <Home__StylizedIteam
+        alt=""
+        src="iteam_stylized.png"
+      />
+      <Home__Texts>
+        <Home__TextBlock>
+          <H1 />
+          <Paragraph />
+          <Home__CompanyLogo
+            alt=""
+            src="logo_af.png"
+          />
+          <Link__StyledLink
+            to="/case/arbetsformedlingen"
+          >
+            Läs om hur vi hjälper Arbetsförmedlingen med kod
+          </Link__StyledLink>
+        </Home__TextBlock>
+        <Home__TextBlock>
+          <H1 />
+          <Paragraph />
+           
+          <Home__CompanyLogo
+            alt=""
+            src="logo_tsab.png"
+          />
+          <Link__StyledLink
+            to="/case/tsab"
+          >
+            Läs om hur vi hjälper Taxi Stockholm med strategi
+          </Link__StyledLink>
+        </Home__TextBlock>
+        <Home__TextBlock>
+          <H1 />
+          <Paragraph />
+           
+          <Home__CompanyLogo
+            alt=""
+            src="logo_seb.png"
+          />
+          <Link__StyledLink
+            to="/case/seb"
+          >
+            Läs om hur vi hjälper SEB med kultur
+          </Link__StyledLink>
+        </Home__TextBlock>
+      </Home__Texts>
+    </Home__Content>
+  </Home__Row>
+  <OperationsBanner />
+  <Team
+    shortName={
+      Array [
+        "met",
+        "rln",
+      ]
+    }
+  />
+</Unknown>
+`;

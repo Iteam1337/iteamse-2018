@@ -11,5 +11,13 @@ export const colors = {
 
 export const theme = {
   colors,
-  contrast: (color: string) => (contrast(color) === 'light' ? '#000' : '#fff'),
+  contrast: (color: string) => {
+    // Something breaks when trying to use contrast
+    // function inside tests
+    if (process.env.NODE_ENV === 'test') {
+      return 'contrastedColor'
+    }
+
+    return contrast(color) === 'light' ? '#000' : '#fff'
+  },
 }

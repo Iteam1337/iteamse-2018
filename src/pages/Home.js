@@ -19,7 +19,7 @@ import styled from 'styled-components'
 
 type Props = Iteam.ApolloBase<IteamCMS.HomePage>
 
-const HomePageQuery = gql`
+export const HomePageQuery = gql`
   query HomePage {
     pageStart {
       headerImage
