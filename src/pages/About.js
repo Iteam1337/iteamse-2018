@@ -9,6 +9,7 @@ import Header from '../components/Header/Header'
 import aboutUsFullImage from './img/bleed_aboutus.jpg'
 import aboutUsImage from './img/block_aboutus.png'
 import Block from '../components/Blocks/Block'
+import Team from '../components/Team/Team'
 import ImageBleed from '../components/Blocks/ImageBleed'
 import ImageBlock from '../components/Blocks/ImageBlock'
 import styled from 'styled-components'
@@ -63,6 +64,7 @@ const About = () => {
               messageOne={pageAboutUs.headerText1}
               messageTwo={pageAboutUs.headerText2}
             />
+
             <Content>
               <Block title={pageAboutUs.valueTitle}>
                 {pageAboutUs.valueText}
@@ -77,6 +79,8 @@ const About = () => {
                 {pageAboutUs.stabilityText}
               </Block>
             </Content>
+
+            <Team bgColor="green" shortName={['rln', 'msr']} />
           </React.Fragment>
         )
       }}

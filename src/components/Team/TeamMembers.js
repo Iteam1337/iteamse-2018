@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import { colors } from '../../theme'
 
 type Props = {
-  bgColor?: string,
+  bgColor: string,
   children: React.Node,
 }
 
@@ -17,6 +17,10 @@ const Wrap = styled.div`
 
   @media (min-width: 1024px) {
     grid-template-columns: 1fr 1024px 1fr;
+  }
+
+  a {
+    color: ${({ bgColor, theme }) => theme.contrast(bgColor)};
   }
 `
 

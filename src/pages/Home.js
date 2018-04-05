@@ -133,7 +133,7 @@ const Home = () => {
             </Row>
 
             <OperationsBanner />
-            <Team shortName={['met', 'rln']} />
+            <Team shortName={['met', 'rln', 'msr']} />
           </React.Fragment>
         )
       }}
