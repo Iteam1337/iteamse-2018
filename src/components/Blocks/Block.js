@@ -16,6 +16,11 @@ type Props = {
   title: string,
 }
 
+const BlockRow = GridRow.extend`
+  padding-bottom: 60px;
+  padding-top: 60px;
+`
+
 const Content = GridContent.extend`
   @media (min-width: 1024px) {
     grid-column-gap: 60px;
@@ -43,7 +48,7 @@ const Block = ({
   title,
 }: Props) => {
   return (
-    <GridRow data-test={`block-${dataTest}`}>
+    <BlockRow data-test={`block-${dataTest}`}>
       <Content>
         <TitleWrap>
           <H3>{title}</H3>
@@ -55,7 +60,7 @@ const Block = ({
           {id && <Link to={`/jobba-hos-oss/${id}`}>Läs mer</Link>}
         </Text>
       </Content>
-    </GridRow>
+    </BlockRow>
   )
 }
 

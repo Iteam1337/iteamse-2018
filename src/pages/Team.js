@@ -51,7 +51,7 @@ const Team = () => {
             />
             <FilterByLocation>
               {location => (
-                <TeamMembers bgColor="#fff">
+                <TeamMembers bgColor="#fff" teamMembers={team.length}>
                   {team
                     .filter(filterByLocation(location))
                     .map(member => (

@@ -10,6 +10,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import HowWeWork from './pages/HowWeWork'
 import Team from './pages/Team'
+import Cases from './pages/Cases'
 import Case from './pages/Case'
 import Work from './pages/Work'
 import OpenPosition from './pages/OpenPosition'
@@ -34,7 +35,7 @@ const App = () => (
       <Route path="/om-oss" component={About} />
       <Route path="/hur-vi-jobbar" component={HowWeWork} />
       <Route path="/teamet" component={Team} />
-      <Route path="/case" component={Case} />
+      <Route exact path="/case" component={Cases} />
       <Route path="/case/:id" component={Case} />
       <Route exact path="/jobba-hos-oss" component={Work} />
       <Route path="/jobba-hos-oss/:id" component={OpenPosition} />
