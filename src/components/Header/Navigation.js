@@ -1,7 +1,7 @@
 // @flow
 
 import * as React from 'react'
-import styled, { injectGlobal } from 'styled-components'
+import styled, { injectGlobal, keyframes } from 'styled-components'
 import logo from './img/iteam.png'
 import { NavLink, Link } from 'react-router-dom'
 import { withApollo } from 'react-apollo'
@@ -12,10 +12,13 @@ import { TeamPageQuery } from '../../pages/Team'
 import { OperationsPageQuery } from '../../pages/Ops'
 import { WorkPageQuery } from '../../pages/Work'
 
-type State = {
+type Props = {
   client: {
     query: Function,
   },
+}
+
+type State = {
   indicatorLocation: number,
   indicatorWidth: number,
 }
@@ -53,14 +56,25 @@ const NavigationItems = styled.div`
   }
 `
 
+const slideDown = keyframes`
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+`
+
 const Indicator = styled.div`
+  animation: ${slideDown} 300ms ease-in-out 1;
   background-color: #fff;
   top: 0;
   height: 5px;
-  left: 0;
+  left: ${({ indicatorLocation }) => `${indicatorLocation}px`};
   position: absolute;
-  transform: ${({ indicatorLocation }) => `translateX(${indicatorLocation}px)`};
-  transition: transform 300ms ease-in-out, width 300ms ease-in-out;
   width: ${({ indicatorWidth }) => `${indicatorWidth}px`};
 `
 
@@ -97,7 +111,7 @@ injectGlobal`
   }
 `
 
-class Navigation extends React.Component<*, State> {
+class Navigation extends React.Component<Props, State> {
   state = {
     indicatorLocation: 0,
     indicatorWidth: 0,

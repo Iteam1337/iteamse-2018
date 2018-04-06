@@ -8,8 +8,8 @@ exports[`components/Home renders Home page 1`] = `
     messageOne=""
     messageTwo=""
   />
-  <Home__Row>
-    <Home__Content>
+  <GridRow>
+    <GridContent>
       <Home__StylizedIteam
         alt=""
         src="iteam_stylized.png"
@@ -57,8 +57,8 @@ exports[`components/Home renders Home page 1`] = `
           </Link__StyledLink>
         </Home__TextBlock>
       </Home__Texts>
-    </Home__Content>
-  </Home__Row>
+    </GridContent>
+  </GridRow>
   <OperationsBanner />
   <Team
     shortName={

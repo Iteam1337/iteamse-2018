@@ -6,7 +6,7 @@ import GridRow from '../Grid/GridRow'
 import GridContent from '../Grid/GridContent'
 
 type Props = {
-  children: React.Node,
+  children: string,
   'data-test'?: string,
   person: string,
 }
