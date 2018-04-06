@@ -10,7 +10,6 @@ type Props = {
 
 const AvatarImage = styled.img`
   border-radius: 100%;
-  margin-bottom: 20px;
   max-width: 100%;
   vertical-align: top;
 `
