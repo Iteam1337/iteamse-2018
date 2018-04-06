@@ -14,9 +14,14 @@ type Props = {
 const Wrap = GridRow.extend`
   background-color: ${({ bgColor }) => bgColor};
   color: ${({ bgColor, theme }) => theme.contrast(bgColor)};
+  padding: 40px;
 
   a {
     color: ${({ bgColor, theme }) => theme.contrast(bgColor)};
+  }
+
+  @media (min-width: 1024px) {
+    padding: 0;
   }
 `
 

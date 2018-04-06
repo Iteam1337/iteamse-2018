@@ -17,8 +17,10 @@ type Props = {
 }
 
 const BlockRow = GridRow.extend`
-  padding-bottom: 60px;
-  padding-top: 60px;
+  @media (min-width: 1024px) {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
 `
 
 const Content = GridContent.extend`

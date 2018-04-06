@@ -15,9 +15,11 @@ const Colleague = styled.div`
   display: grid;
   grid-column-gap: 40px;
   grid-row-gap: 20px;
+  text-align: center;
 
   @media (min-width: 768px) {
     grid-template-columns: 150px 1fr;
+    text-align: left;
   }
 
   @media (min-width: 1024px) {

@@ -4,7 +4,10 @@ import styled from 'styled-components'
 
 const GridContent = styled.div`
   display: grid;
-  grid-column: 2;
+
+  @media (min-width: 1024px) {
+    grid-column: 2;
+  }
 `
 
 export default GridContent
