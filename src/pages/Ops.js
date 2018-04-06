@@ -12,7 +12,7 @@ import ImageBleed from '../components/Blocks/ImageBleed'
 
 type Props = Iteam.ApolloBase<IteamCMS.OperationsPage>
 
-const OperationsPageQuery = gql`
+export const OperationsPageQuery = gql`
   query OperationsPage {
     pageOps {
       headerImage

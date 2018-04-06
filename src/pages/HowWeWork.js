@@ -16,7 +16,7 @@ import styled from 'styled-components'
 
 type Props = Iteam.ApolloBase<IteamCMS.HowWeWorkPage>
 
-const HowWeWorkPageQuery = gql`
+export const HowWeWorkPageQuery = gql`
   query HowWeWorkPage {
     pageHowWeWork {
       headerImage

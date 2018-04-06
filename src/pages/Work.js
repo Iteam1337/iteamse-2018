@@ -13,7 +13,7 @@ import Block from '../components/Blocks/Block'
 
 type Props = Iteam.ApolloBase<IteamCMS.WorkPage>
 
-const WorkPageQuery = gql`
+export const WorkPageQuery = gql`
   query WorkPage {
     pageWork {
       headerImage

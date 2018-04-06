@@ -13,7 +13,7 @@ import Header from '../components/Header/Header'
 
 type Props = Iteam.ApolloBase<IteamCMS.TeamPage>
 
-const TeamPageQuery = gql`
+export const TeamPageQuery = gql`
   query TeamPage {
     pageTeam {
       headerImage

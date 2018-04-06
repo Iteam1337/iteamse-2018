@@ -4,8 +4,18 @@ import * as React from 'react'
 import styled, { injectGlobal } from 'styled-components'
 import logo from './img/iteam.png'
 import { NavLink, Link } from 'react-router-dom'
+import { withApollo } from 'react-apollo'
+import { HomePageQuery } from '../../pages/Home'
+import { AboutPageQuery } from '../../pages/About'
+import { HowWeWorkPageQuery } from '../../pages/HowWeWork'
+import { TeamPageQuery } from '../../pages/Team'
+import { OperationsPageQuery } from '../../pages/Ops'
+import { WorkPageQuery } from '../../pages/Work'
 
 type State = {
+  client: {
+    query: Function,
+  },
   indicatorLocation: number,
   indicatorWidth: number,
 }
@@ -104,32 +114,87 @@ class Navigation extends React.Component<*, State> {
     }
   }
 
+  prefetchPage = (page: string) => () => {
+    let query
+
+    switch (page) {
+      case 'home':
+        query = HomePageQuery
+        break
+      case 'about':
+        query = AboutPageQuery
+        break
+      case 'how-we-work':
+        query = HowWeWorkPageQuery
+        break
+      case 'team':
+        query = TeamPageQuery
+        break
+      case 'ops':
+        query = OperationsPageQuery
+        break
+      case 'work':
+        query = WorkPageQuery
+        break
+    }
+
+    if (query) {
+      this.props.client.query({
+        query,
+      })
+    }
+  }
+
   render () {
     const { indicatorLocation, indicatorWidth } = this.state
 
     return (
       <Wrap>
-        <LogoLink to="/">
+        <LogoLink onMouseEnter={this.prefetchPage('home')} to="/">
           <Logo src={logo} />
         </LogoLink>
 
         <NavigationItems>
-          <StyledLink activeClassName="active-nav" to="/om-oss">
+          <StyledLink
+            activeClassName="active-nav"
+            onMouseEnter={this.prefetchPage('about')}
+            to="/om-oss"
+          >
             Om oss
           </StyledLink>
-          <StyledLink activeClassName="active-nav" to="/hur-vi-jobbar">
+          <StyledLink
+            activeClassName="active-nav"
+            onMouseEnter={this.prefetchPage('how-we-work')}
+            to="/hur-vi-jobbar"
+          >
             Hur vi jobbar
           </StyledLink>
-          <StyledLink activeClassName="active-nav" to="/teamet">
+          <StyledLink
+            activeClassName="active-nav"
+            onMouseEnter={this.prefetchPage('team')}
+            to="/teamet"
+          >
             Teamet
           </StyledLink>
-          <StyledLink activeClassName="active-nav" to="/case">
+          <StyledLink
+            activeClassName="active-nav"
+            onMouseEnter={this.prefetchPage('case')}
+            to="/case"
+          >
             Våra case
           </StyledLink>
-          <StyledLink activeClassName="active-nav" to="/jobba-hos-oss">
+          <StyledLink
+            activeClassName="active-nav"
+            onMouseEnter={this.prefetchPage('work')}
+            to="/jobba-hos-oss"
+          >
             Jobba hos oss
           </StyledLink>
-          <StyledLink activeClassName="active-nav" to="/ops">
+          <StyledLink
+            activeClassName="active-nav"
+            onMouseEnter={this.prefetchPage('ops')}
+            to="/ops"
+          >
             Drift & Support
           </StyledLink>
           <Indicator
@@ -142,4 +207,4 @@ class Navigation extends React.Component<*, State> {
   }
 }
 
-export default Navigation
+export default withApollo(Navigation)
