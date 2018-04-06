@@ -9,11 +9,18 @@ import { filterByLocation } from '../utils/filterByLocation'
 import FilterByLocation from '../components/FilterByLocation/FilterByLocation'
 import Team from '../components/Team/Team'
 import Header from '../components/Header/Header'
-import { Query } from 'react-apollo'
+import { Query, withApollo } from 'react-apollo'
 import { Link } from 'react-router-dom'
 import gql from 'graphql-tag'
+import { CasePageQuery } from './Case'
 
-type Props = Iteam.ApolloBase<IteamCMS.CasesPage>
+type Props = {
+  client: {
+    query: Function,
+  },
+}
+
+type QueryProps = Iteam.ApolloBase<IteamCMS.CasesPage>
 
 export const CasesPageQuery = gql`
   query CasesPage {
@@ -65,10 +72,10 @@ const ShortDescription = styled.div`
   font-weight: 300;
 `
 
-const CasePage = () => {
+const CasePage = ({ client }: Props) => {
   return (
     <Query query={CasesPageQuery}>
-      {({ loading, data: { pageCases, cases } }: Props) => {
+      {({ loading, data: { pageCases, cases } }: QueryProps) => {
         if (loading) {
           return null
         }
@@ -89,6 +96,14 @@ const CasePage = () => {
                     {cases.filter(filterByLocation(location)).map(workCase => (
                       <CaseLink
                         key={workCase.title}
+                        onMouseOver={() =>
+                          client.query({
+                            query: CasePageQuery,
+                            variables: {
+                              slug: workCase.slug,
+                            },
+                          })
+                        }
                         to={`/case/${workCase.slug}`}
                       >
                         <Case>
@@ -117,4 +132,4 @@ const CasePage = () => {
   )
 }
 
-export default CasePage
+export default withApollo(CasePage)

@@ -11,6 +11,7 @@ import logoTsab from './img/logo_tsab.png'
 import logoSeb from './img/logo_seb.png'
 import Header from '../components/Header/Header'
 import Team from '../components/Team/Team'
+
 import GridRow from '../components/Grid/GridRow'
 import OperationsBanner from '../components/Banners/Operations'
 import H1 from '../components/Typography/H1'
@@ -101,6 +102,7 @@ const Home = () => {
                       Läs om hur vi hjälper Arbetsförmedlingen med kod
                     </Link>
                   </TextBlock>
+
                   <TextBlock>
                     <H1>{pageStart.strategyTitle}</H1>
                     <Paragraph>{pageStart.strategyText}</Paragraph>{' '}
@@ -109,6 +111,7 @@ const Home = () => {
                       Läs om hur vi hjälper Taxi Stockholm med strategi
                     </Link>
                   </TextBlock>
+
                   <TextBlock>
                     <H1>{pageStart.cultureTitle}</H1>
                     <Paragraph>{pageStart.cultureText}</Paragraph>{' '}
@@ -120,6 +123,7 @@ const Home = () => {
                 </Texts>
               </Content>
             </GridRow>
+
             <OperationsBanner />
             <Team shortName={['met', 'rln']} />
           </React.Fragment>

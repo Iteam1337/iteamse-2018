@@ -3,7 +3,7 @@
 import * as React from 'react'
 import * as Iteam from '../typings/iteam.flow'
 import * as IteamCMS from './__generated__/WorkPage'
-import { Query } from 'react-apollo'
+import { Query, withApollo } from 'react-apollo'
 import gql from 'graphql-tag'
 import { filterByLocation } from '../utils/filterByLocation'
 import FilterByLocation from '../components/FilterByLocation/FilterByLocation'
@@ -11,8 +11,16 @@ import Header from '../components/Header/Header'
 import GridRow from '../components/Grid/GridRow'
 import Block from '../components/Blocks/Block'
 import Team from '../components/Team/Team'
+import Link from '../components/Link/Link'
+import { OpenPositionPageQuery } from './OpenPosition'
 
-type Props = Iteam.ApolloBase<IteamCMS.WorkPage>
+type Props = {
+  client: {
+    query: Function,
+  },
+}
+
+type QueryProps = Iteam.ApolloBase<IteamCMS.WorkPage>
 
 export const WorkPageQuery = gql`
   query WorkPage {
@@ -31,10 +39,10 @@ export const WorkPageQuery = gql`
   }
 `
 
-const Work = () => {
+const Work = ({ client }: Props) => {
   return (
     <Query query={WorkPageQuery}>
-      {({ loading, data: { openpositions, pageWork } }: Props) => {
+      {({ loading, data: { openpositions, pageWork } }: QueryProps) => {
         if (loading) {
           return null
         }
@@ -59,8 +67,23 @@ const Work = () => {
                           data-test="location"
                           key={annons.title}
                           id={annons.id}
-                          title={annons.title}
+                          readMore={
+                            <Link
+                              onMouseOver={() =>
+                                client.query({
+                                  query: OpenPositionPageQuery,
+                                  variables: {
+                                    id: annons.id,
+                                  },
+                                })
+                              }
+                              to={`/jobba-hos-oss/${annons.id}`}
+                            >
+                              Läs mer
+                            </Link>
+                          }
                           subtitle={annons.location}
+                          title={annons.title}
                         >
                           {annons.role}
                         </Block>
@@ -78,4 +101,4 @@ const Work = () => {
   )
 }
 
-export default Work
+export default withApollo(Work)

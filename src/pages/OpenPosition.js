@@ -22,7 +22,7 @@ type Props = {
 
 type QueryProps = Iteam.ApolloBase<IteamCMS.OpenPositionPage>
 
-const OpenPositionPageQuery = gql`
+export const OpenPositionPageQuery = gql`
   query OpenPositionPage($id: String!) {
     pageOpenPosition(id: $id) {
       headerImage

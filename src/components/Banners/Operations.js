@@ -6,6 +6,14 @@ import Button from '../Button/Button'
 import H2 from '../Typography/H2'
 import banner from './img/banner_ops.jpg'
 import { GridRowClean } from '../Grid/GridRow'
+import { OperationsPageQuery } from '../../pages/Ops'
+import { withApollo } from 'react-apollo'
+
+type Props = {
+  client: {
+    query: Function,
+  },
+}
 
 const Row = GridRowClean.extend`
   align-items: center;
@@ -44,16 +52,25 @@ const Content = styled.div`
   }
 `
 
-const OperationsBanner = () => {
+const OperationsBanner = ({ client }: Props) => {
   return (
     <Row>
       <Overlay />
       <Content>
         <H2>Visste du att vi även erbjuder drift & support?</H2>
-        <Button to="/ops">Iteam Operations</Button>
+        <Button
+          onMouseOver={() =>
+            client.query({
+              query: OperationsPageQuery,
+            })
+          }
+          to="/ops"
+        >
+          Iteam Operations
+        </Button>
       </Content>
     </Row>
   )
 }
 
-export default OperationsBanner
+export default withApollo(OperationsBanner)
