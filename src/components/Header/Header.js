@@ -7,6 +7,7 @@ import H1 from '../Typography/H1'
 import LazyLoad from 'react-lazyload'
 import GridRow from '../Grid/GridRow'
 import GridContent from '../Grid/GridContent'
+import { handleColors } from '../../utils/handleColors'
 
 type Props = {
   backgroundImage?: string | null,
@@ -74,6 +75,8 @@ const Header = ({
   messageOne,
   messageTwo,
 }: Props) => {
+  const backgroundColor = handleColors(messageBgColor)
+
   return (
     <LazyLoad height={700} once>
       <Wrap image={backgroundImage}>
@@ -81,12 +84,12 @@ const Header = ({
           <Navigation />
           <MessageRow>
             {messageOne && (
-              <Message bgColor={messageBgColor}>
+              <Message bgColor={backgroundColor}>
                 <span>{messageOne}</span>
               </Message>
             )}
             {messageTwo && (
-              <Message bgColor={messageBgColor}>
+              <Message bgColor={backgroundColor}>
                 <span>{messageTwo}</span>
               </Message>
             )}

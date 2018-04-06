@@ -9,6 +9,7 @@ import TeamMemberDuo from './TeamMemberDuo'
 import TeamMembers from './TeamMembers'
 import TeamMember from './TeamMember'
 import { colors } from '../../theme'
+import { handleColors } from '../../utils/handleColors'
 
 type Props = {
   bgColor?: string | 'blue' | 'red' | 'green',
@@ -30,19 +31,6 @@ const TeamQuery = gql`
     }
   }
 `
-
-const handleColors = bgColor => {
-  switch (bgColor) {
-    case 'blue':
-      return colors.cornflowerBlue
-    case 'red':
-      return colors.radicalRed
-    case 'green':
-      return colors.aquamarine
-    default:
-      return bgColor
-  }
-}
 
 const Team = ({ bgColor = colors.radicalRed, shortName }: Props) => {
   const backgroundColor = handleColors(bgColor)
