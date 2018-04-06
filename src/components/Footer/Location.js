@@ -3,6 +3,7 @@
 import React from 'react'
 import * as IteamCMS from './__generated__/Footer'
 import styled from 'styled-components'
+import UnstyledList from '../List/UnstyledList'
 
 type Props = {
   address: IteamCMS.Footer_addresses,
@@ -10,12 +11,6 @@ type Props = {
 
 const Wrap = styled.div`
   color: #000;
-
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
 `
 
 const Title = styled.div`
@@ -32,18 +27,18 @@ const Location = ({ address }: Props) => {
     <Wrap key={address.zip}>
       <Title>{address.title}</Title>
       <Address>
-        <ul>
+        <UnstyledList>
           <li>{address.address1}</li>
           <li>
             {address.zip} {address.city}
           </li>
-        </ul>
+        </UnstyledList>
       </Address>
-      <ul>
+      <UnstyledList>
         <li>{address.contactPhone}</li>
         <li>{address.contactMail}</li>
         <li>ORG: {address.orgNumber}</li>
-      </ul>
+      </UnstyledList>
     </Wrap>
   )
 }
