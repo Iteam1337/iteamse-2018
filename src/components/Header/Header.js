@@ -7,6 +7,7 @@ import H1 from '../Typography/H1'
 import LazyLoad from 'react-lazyload'
 import { handleColors } from '../../utils/handleColors'
 import { GridRowClean } from '../Grid/GridRow'
+import PaddedRow from '../Grid/PaddedRow'
 
 type Props = {
   backgroundImage?: string | null,
@@ -30,19 +31,12 @@ const Content = styled.div`
   grid-template-rows: auto 1fr;
 `
 
-const MessageRow = styled.div`
+const MessageRow = PaddedRow.extend`
   align-self: flex-end;
   padding-bottom: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
 
   @media (min-width: 481px) {
     padding-bottom: 80px;
-  }
-
-  @media (min-width: 1024px) {
-    padding-left: 0;
-    padding-right: 0;
   }
 `
 

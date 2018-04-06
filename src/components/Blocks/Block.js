@@ -4,26 +4,16 @@ import * as React from 'react'
 import styled from 'styled-components'
 import H3 from '../Typography/H3'
 import Paragraph from '../Typography/Paragraph'
-import Link from '../Link/Link'
+import PaddedRow from '../Grid/PaddedRow'
 
 type Props = {
   children: React.Node,
   concrete?: boolean,
   'data-test'?: string,
-  id?: string,
+  readMore?: React.Node,
   subtitle?: string,
   title: string,
 }
-
-const Wrap = styled.div`
-  padding-left: 20px;
-  padding-right: 20px;
-
-  @media (min-width: 1024px) {
-    padding-left: 0;
-    padding-right: 0;
-  }
-`
 
 const Content = styled.div`
   display: grid;
@@ -49,12 +39,12 @@ const Text = styled.div`
 const Block = ({
   children,
   'data-test': dataTest = '',
-  id,
+  readMore,
   subtitle,
   title,
 }: Props) => {
   return (
-    <Wrap data-test={`block-${dataTest}`}>
+    <PaddedRow data-test={`block-${dataTest}`}>
       <Content>
         <TitleWrap>
           <H3>{title}</H3>
@@ -63,10 +53,10 @@ const Block = ({
 
         <Text>
           <Paragraph>{children}</Paragraph>
-          {id && <Link to={`/jobba-hos-oss/${id}`}>Läs mer</Link>}
+          {readMore}
         </Text>
       </Content>
-    </Wrap>
+    </PaddedRow>
   )
 }
 

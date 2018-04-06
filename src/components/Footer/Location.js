@@ -10,6 +10,12 @@ type Props = {
 
 const Wrap = styled.div`
   color: #000;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
 `
 
 const Title = styled.div`
@@ -26,16 +32,18 @@ const Location = ({ address }: Props) => {
     <Wrap key={address.zip}>
       <Title>{address.title}</Title>
       <Address>
-        {address.address1}
-        <br />
-        {address.zip} {address.city}
+        <ul>
+          <li>{address.address1}</li>
+          <li>
+            {address.zip} {address.city}
+          </li>
+        </ul>
       </Address>
-      {address.contactPhone}
-      <br />
-      {address.contactMail}
-      <br />
-      ORG: {address.orgNumber}
-      <br />
+      <ul>
+        <li>{address.contactPhone}</li>
+        <li>{address.contactMail}</li>
+        <li>ORG: {address.orgNumber}</li>
+      </ul>
     </Wrap>
   )
 }

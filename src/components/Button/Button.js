@@ -1,15 +1,9 @@
 // @flow
 
-import * as React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
-type Props = {
-  children: React.Node,
-  to: string,
-}
-
-const StyledButton = styled(Link)`
+const Button = styled(Link)`
   background-color: ${({ theme }) => theme.colors.radicalRed};
   border-radius: 6px;
   color: #fff;
@@ -20,9 +14,5 @@ const StyledButton = styled(Link)`
   text-align: center;
   text-decoration: none;
 `
-
-const Button = ({ children, to }: Props) => {
-  return <StyledButton to={to}>{children}</StyledButton>
-}
 
 export default Button

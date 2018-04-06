@@ -2,8 +2,8 @@
 
 import * as React from 'react'
 import * as Iteam from '../../typings/iteam.flow'
-import styled from 'styled-components'
 import Filter from './Filter'
+import PaddedRow from '../Grid/PaddedRow'
 
 type Props = {
   children: (location: Iteam.ValidLocation) => React.Node,
@@ -13,15 +13,8 @@ type State = {
   location: Iteam.ValidLocation,
 }
 
-const Filters = styled.div`
+const Filters = PaddedRow.extend`
   display: flex;
-  padding-left: 20px;
-  padding-right: 20px;
-
-  @media (min-width: 1024px) {
-    padding-left: 0;
-    padding-right: 0;
-  }
 `
 
 const LOCATIONS = ['', 'Stockholm', 'Göteborg']
