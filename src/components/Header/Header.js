@@ -5,9 +5,8 @@ import styled from 'styled-components'
 import Navigation from './Navigation'
 import H1 from '../Typography/H1'
 import LazyLoad from 'react-lazyload'
-import GridRow from '../Grid/GridRow'
-import GridContent from '../Grid/GridContent'
 import { handleColors } from '../../utils/handleColors'
+import { GridRowClean } from '../Grid/GridRow'
 
 type Props = {
   backgroundImage?: string | null,
@@ -16,7 +15,7 @@ type Props = {
   messageTwo: ?string,
 }
 
-const Wrap = GridRow.extend`
+const Wrap = GridRowClean.extend`
   background-image: ${({ image }) => `url(${image})`};
   background-size: cover;
   height: 430px;
@@ -26,7 +25,8 @@ const Wrap = GridRow.extend`
   }
 `
 
-const Content = GridContent.extend`
+const Content = styled.div`
+  display: grid;
   grid-template-rows: auto 1fr;
 `
 

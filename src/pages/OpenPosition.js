@@ -7,7 +7,10 @@ import { Query } from 'react-apollo'
 import gql from 'graphql-tag'
 import Header from '../components/Header/Header'
 import Block from '../components/Blocks/Block'
+import GridRow from '../components/Grid/GridRow'
 import ImageBleed from '../components/Blocks/ImageBleed'
+import Team from '../components/Team/Team'
+import Breadcrumbs from '../components/Breadcrumbs/Breadcrumbs'
 
 type Props = {
   match: {
@@ -62,31 +65,37 @@ const Work = ({ match }: Props) => {
               messageTwo={pageOpenPosition.headerText2}
             />
 
-            <Block title={pageOpenPosition.roleTitle}>
-              {pageOpenPosition.role}
-            </Block>
+            <GridRow>
+              <Breadcrumbs title={pageOpenPosition.roleTitle} />
 
-            <Block title={pageOpenPosition.knowledgeTitle}>
-              {pageOpenPosition.knowledge}
-            </Block>
+              <Block title={pageOpenPosition.roleTitle}>
+                {pageOpenPosition.role}
+              </Block>
 
-            <Block title={pageOpenPosition.bonusKnowledgeTitle}>
-              {pageOpenPosition.bonusKnowledge}
-            </Block>
+              <Block title={pageOpenPosition.knowledgeTitle}>
+                {pageOpenPosition.knowledge}
+              </Block>
 
-            <ImageBleed image={pageOpenPosition.contentImage} />
+              <Block title={pageOpenPosition.bonusKnowledgeTitle}>
+                {pageOpenPosition.bonusKnowledge}
+              </Block>
 
-            <Block concrete title={pageOpenPosition.aboutUsTitle}>
-              {pageOpenPosition.aboutUs}
-            </Block>
+              <ImageBleed image={pageOpenPosition.contentImage} />
 
-            <Block title={pageOpenPosition.technicalitiesTitle}>
-              {pageOpenPosition.technicalities}
-            </Block>
+              <Block concrete title={pageOpenPosition.aboutUsTitle}>
+                {pageOpenPosition.aboutUs}
+              </Block>
 
-            <Block title={pageOpenPosition.applicationTitle}>
-              {pageOpenPosition.application}
-            </Block>
+              <Block title={pageOpenPosition.technicalitiesTitle}>
+                {pageOpenPosition.technicalities}
+              </Block>
+
+              <Block title={pageOpenPosition.applicationTitle}>
+                {pageOpenPosition.application}
+              </Block>
+            </GridRow>
+
+            <Team bgColor="green" shortName={['rln', 'msr']} />
           </React.Fragment>
         )
       }}

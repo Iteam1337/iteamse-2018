@@ -15,6 +15,9 @@ type State = {
 }
 
 const Wrap = styled.div`
+  padding-left: 40px;
+  padding-right: 40px;
+
   @media (min-width: 1024px) {
     display: none;
   }

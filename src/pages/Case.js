@@ -10,6 +10,7 @@ import Quote from '../components/Blocks/Quote'
 import Breadcrumbs from '../components/Breadcrumbs/Breadcrumbs'
 import { Query } from 'react-apollo'
 import gql from 'graphql-tag'
+import GridRow from '../components/Grid/GridRow'
 
 type Props = {
   match: {
@@ -64,29 +65,31 @@ const CasePage = ({ match }: Props) => {
               tags={workCase.tags}
             />
 
-            <Breadcrumbs title={workCase.title} />
+            <GridRow>
+              <Breadcrumbs title={workCase.title} />
 
-            <Block title={workCase.introductionTitle}>
-              {workCase.introduction}
-            </Block>
+              <Block title={workCase.introductionTitle}>
+                {workCase.introduction}
+              </Block>
 
-            <Block title={workCase.processTitle}>{workCase.process}</Block>
+              <Block title={workCase.processTitle}>{workCase.process}</Block>
 
-            {workCase.quote && (
-              <Quote person={workCase.quoteTitle}>{workCase.quote}</Quote>
-            )}
+              {workCase.quote && (
+                <Quote person={workCase.quotePerson}>{workCase.quote}</Quote>
+              )}
 
-            <Block title={workCase.developmentTitle}>
-              {workCase.development}
-            </Block>
+              <Block title={workCase.developmentTitle}>
+                {workCase.development}
+              </Block>
 
-            <Block title={workCase.aboutCompanyTitle}>
-              {workCase.aboutCompany}
-            </Block>
+              <Block title={workCase.aboutCompanyTitle}>
+                {workCase.aboutCompany}
+              </Block>
 
-            <Block title={workCase.partnersTitle}>{workCase.partners}</Block>
+              <Block title={workCase.partnersTitle}>{workCase.partners}</Block>
 
-            <Block title={workCase.contactTitle}>{workCase.contact}</Block>
+              <Block title={workCase.contactTitle}>{workCase.contact}</Block>
+            </GridRow>
 
             <Team bgColor="green" shortName={['hrn', 'jmn']} />
           </React.Fragment>

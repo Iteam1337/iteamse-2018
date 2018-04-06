@@ -5,8 +5,6 @@ import styled from 'styled-components'
 import H3 from '../Typography/H3'
 import Paragraph from '../Typography/Paragraph'
 import Link from '../Link/Link'
-import GridRow from '../Grid/GridRow'
-import GridContent from '../Grid/GridContent'
 
 type Props = {
   children: React.Node,
@@ -17,17 +15,19 @@ type Props = {
   title: string,
 }
 
-const BlockRow = GridRow.extend`
-  background-color: ${({ concrete, theme }) =>
-    concrete ? theme.colors.concrete : '#fff'};
+const Wrap = styled.div`
+  padding-left: 20px;
+  padding-right: 20px;
 
   @media (min-width: 1024px) {
-    padding-bottom: 60px;
-    padding-top: 60px;
+    padding-left: 0;
+    padding-right: 0;
   }
 `
 
-const Content = GridContent.extend`
+const Content = styled.div`
+  display: grid;
+
   @media (min-width: 1024px) {
     grid-column-gap: 60px;
     grid-template-columns: 320px 1fr;
@@ -48,14 +48,13 @@ const Text = styled.div`
 
 const Block = ({
   children,
-  concrete,
   'data-test': dataTest = '',
   id,
   subtitle,
   title,
 }: Props) => {
   return (
-    <BlockRow concrete={concrete} data-test={`block-${dataTest}`}>
+    <Wrap data-test={`block-${dataTest}`}>
       <Content>
         <TitleWrap>
           <H3>{title}</H3>
@@ -67,7 +66,7 @@ const Block = ({
           {id && <Link to={`/jobba-hos-oss/${id}`}>Läs mer</Link>}
         </Text>
       </Content>
-    </BlockRow>
+    </Wrap>
   )
 }
 

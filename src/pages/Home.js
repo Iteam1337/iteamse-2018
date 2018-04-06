@@ -12,7 +12,6 @@ import logoSeb from './img/logo_seb.png'
 import Header from '../components/Header/Header'
 import Team from '../components/Team/Team'
 import GridRow from '../components/Grid/GridRow'
-import GridContent from '../components/Grid/GridContent'
 import OperationsBanner from '../components/Banners/Operations'
 import H1 from '../components/Typography/H1'
 import Paragraph from '../components/Typography/Paragraph'
@@ -38,7 +37,8 @@ export const HomePageQuery = gql`
   }
 `
 
-const Content = GridContent.extend`
+const Content = styled.div`
+  display: grid;
   grid-column-gap: 40px;
   grid-template-columns: 1fr;
   padding-bottom: 40px;
@@ -120,7 +120,6 @@ const Home = () => {
                 </Texts>
               </Content>
             </GridRow>
-
             <OperationsBanner />
             <Team shortName={['met', 'rln']} />
           </React.Fragment>

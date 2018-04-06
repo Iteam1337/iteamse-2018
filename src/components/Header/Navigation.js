@@ -11,6 +11,7 @@ import { HowWeWorkPageQuery } from '../../pages/HowWeWork'
 import { TeamPageQuery } from '../../pages/Team'
 import { OperationsPageQuery } from '../../pages/Ops'
 import { WorkPageQuery } from '../../pages/Work'
+import { CasesPageQuery } from '../../pages/Cases'
 
 type Props = {
   client: {
@@ -139,6 +140,9 @@ class Navigation extends React.Component<Props, State> {
         break
       case 'about':
         query = AboutPageQuery
+        break
+      case 'case':
+        query = CasesPageQuery
         break
       case 'how-we-work':
         query = HowWeWorkPageQuery

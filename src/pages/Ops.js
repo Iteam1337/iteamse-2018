@@ -6,8 +6,10 @@ import * as IteamCMS from './__generated__/OperationsPage'
 import { Query } from 'react-apollo'
 import gql from 'graphql-tag'
 import Header from '../components/Header/Header'
+import GridRow from '../components/Grid/GridRow'
 import Block from '../components/Blocks/Block'
 import ImageBleed from '../components/Blocks/ImageBleed'
+import Team from '../components/Team/Team'
 
 type Props = Iteam.ApolloBase<IteamCMS.OperationsPage>
 
@@ -48,21 +50,25 @@ const Operations = () => {
               messageTwo={pageOps.headerText2}
             />
 
-            <Block title={pageOps.aboutTitle}>{pageOps.aboutText}</Block>
+            <GridRow>
+              <Block title={pageOps.aboutTitle}>{pageOps.aboutText}</Block>
 
-            <ImageBleed image={pageOps.contentImage} />
+              <ImageBleed image={pageOps.contentImage} />
 
-            <Block concrete title={pageOps.networkTitle}>
-              {pageOps.networkText}
-            </Block>
+              <Block concrete title={pageOps.networkTitle}>
+                {pageOps.networkText}
+              </Block>
 
-            <Block concrete title={pageOps.softwareTitle}>
-              {pageOps.softwareText}
-            </Block>
+              <Block concrete title={pageOps.softwareTitle}>
+                {pageOps.softwareText}
+              </Block>
 
-            <Block concrete title={pageOps.hardwareTitle}>
-              {pageOps.hardwareText}
-            </Block>
+              <Block concrete title={pageOps.hardwareTitle}>
+                {pageOps.hardwareText}
+              </Block>
+            </GridRow>
+
+            <Team bgColor="red" shortName={['rln', 'msr']} />
           </React.Fragment>
         )
       }}

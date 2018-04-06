@@ -12,7 +12,8 @@ import howWeWorkImage2 from './img/block_howwework2.png'
 import Block from '../components/Blocks/Block'
 import ImageBleed from '../components/Blocks/ImageBleed'
 import ImageBlock from '../components/Blocks/ImageBlock'
-import styled from 'styled-components'
+import GridRow from '../components/Grid/GridRow'
+import Team from '../components/Team/Team'
 
 type Props = Iteam.ApolloBase<IteamCMS.HowWeWorkPage>
 
@@ -36,19 +37,6 @@ export const HowWeWorkPageQuery = gql`
   }
 `
 
-const Content = styled.div`
-  display: grid;
-  grid-row-gap: 40px;
-  padding-bottom: 40px;
-  padding-top: 40px;
-
-  @media (min-width: 1024px) {
-    grid-row-gap: 100px;
-    padding-bottom: 100px;
-    padding-top: 100px;
-  }
-`
-
 const HowWeWork = () => {
   return (
     <Query query={HowWeWorkPageQuery}>
@@ -65,7 +53,8 @@ const HowWeWork = () => {
               messageOne={pageHowWeWork.headerText1}
               messageTwo={pageHowWeWork.headerText2}
             />
-            <Content>
+
+            <GridRow>
               <Block title={pageHowWeWork.teamTitle}>
                 {pageHowWeWork.teamText}
               </Block>
@@ -81,7 +70,9 @@ const HowWeWork = () => {
               <Block title={pageHowWeWork.customersTitle}>
                 {pageHowWeWork.customersText}
               </Block>
-            </Content>
+            </GridRow>
+
+            <Team bgColor="blue" shortName={['rln', 'msr']} />
           </React.Fragment>
         )
       }}

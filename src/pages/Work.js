@@ -8,7 +8,9 @@ import gql from 'graphql-tag'
 import { filterByLocation } from '../utils/filterByLocation'
 import FilterByLocation from '../components/FilterByLocation/FilterByLocation'
 import Header from '../components/Header/Header'
+import GridRow from '../components/Grid/GridRow'
 import Block from '../components/Blocks/Block'
+import Team from '../components/Team/Team'
 
 type Props = Iteam.ApolloBase<IteamCMS.WorkPage>
 
@@ -45,25 +47,30 @@ const Work = () => {
               messageOne={pageWork.headerText1}
               messageTwo={pageWork.headerText2}
             />
-            <FilterByLocation>
-              {location => (
-                <React.Fragment>
-                  {openpositions
-                    .filter(filterByLocation(location))
-                    .map(annons => (
-                      <Block
-                        data-test="location"
-                        key={annons.title}
-                        id={annons.id}
-                        title={annons.title}
-                        subtitle={annons.location}
-                      >
-                        {annons.role}
-                      </Block>
-                    ))}
-                </React.Fragment>
-              )}
-            </FilterByLocation>
+
+            <GridRow>
+              <FilterByLocation>
+                {location => (
+                  <React.Fragment>
+                    {openpositions
+                      .filter(filterByLocation(location))
+                      .map(annons => (
+                        <Block
+                          data-test="location"
+                          key={annons.title}
+                          id={annons.id}
+                          title={annons.title}
+                          subtitle={annons.location}
+                        >
+                          {annons.role}
+                        </Block>
+                      ))}
+                  </React.Fragment>
+                )}
+              </FilterByLocation>
+            </GridRow>
+
+            <Team bgColor="red" shortName={['rln', 'msr']} />
           </React.Fragment>
         )
       }}

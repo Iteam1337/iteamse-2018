@@ -10,6 +10,7 @@ import FilterByLocation from '../components/FilterByLocation/FilterByLocation'
 import TeamMembers from '../components/Team/TeamMembers'
 import TeamPageMember from '../components/Team/TeamPageMember'
 import Header from '../components/Header/Header'
+import GridRow from '../components/Grid/GridRow'
 
 type Props = Iteam.ApolloBase<IteamCMS.TeamPage>
 
@@ -49,17 +50,20 @@ const Team = () => {
               messageOne={pageTeam.headerText1}
               messageTwo={pageTeam.headerText2}
             />
-            <FilterByLocation>
-              {location => (
-                <TeamMembers bgColor="#fff" teamMembers={team.length}>
-                  {team
-                    .filter(filterByLocation(location))
-                    .map(member => (
-                      <TeamPageMember key={member.name} member={member} />
-                    ))}
-                </TeamMembers>
-              )}
-            </FilterByLocation>
+
+            <GridRow>
+              <FilterByLocation>
+                {location => (
+                  <TeamMembers bgColor="#fff" teamMembers={team.length}>
+                    {team
+                      .filter(filterByLocation(location))
+                      .map(member => (
+                        <TeamPageMember key={member.name} member={member} />
+                      ))}
+                  </TeamMembers>
+                )}
+              </FilterByLocation>
+            </GridRow>
           </React.Fragment>
         )
       }}

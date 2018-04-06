@@ -3,8 +3,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import Navigation from './Navigation'
-import GridRow from '../Grid/GridRow'
-import GridContent from '../Grid/GridContent'
 
 type Props = {
   bgColor: ?string,
@@ -13,16 +11,27 @@ type Props = {
   tags: Array<?string>,
 }
 
-const Wrap = GridRow.extend`
+const Wrap = styled.div`
   background-color: ${({ bgColor }) => bgColor};
+  display: grid;
+  grid-template-columns: 1fr;
   height: 430px;
 
   @media (min-width: 481px) {
     height: 700px;
   }
+
+  @media (min-width: 1024px) {
+    grid-template-columns: 1fr 1024px 1fr;
+
+    > * {
+      grid-column: 2;
+    }
+  }
 `
 
-const Content = GridContent.extend`
+const Content = styled.div`
+  display: grid;
   grid-template-rows: auto 1fr;
 `
 
@@ -30,9 +39,13 @@ const Information = styled.div`
   align-items: center;
   align-self: flex-end;
   display: grid;
+  grid-template-columns: 1fr;
   grid-column-gap: 100px;
-  grid-template-columns: repeat(2, 1fr);
   padding-bottom: 60px;
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 `
 
 const Meta = styled.div``
@@ -47,7 +60,9 @@ const Logo = styled.img`
 `
 
 const Tags = styled.div`
-  max-width: 70%;
+  @media (min-width: 1024px) {
+    max-width: 70%;
+  }
 `
 
 const Tag = styled.div`
@@ -65,10 +80,14 @@ const Tag = styled.div`
 
 const CaseImage = styled.div`
   align-items: center;
-  display: flex;
+  display: none;
   height: 500px;
   justify-content: center;
   width: 500px;
+
+  @media (min-width: 1024px) {
+    display: flex;
+  }
 `
 
 const CaseHeader = ({ bgColor, caseImage, logo, tags }: Props) => {

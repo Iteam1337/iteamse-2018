@@ -8,6 +8,7 @@ type Props = {
 }
 
 const ImageContainer = styled.img`
+  grid-column: -1 / 1 !important;
   vertical-align: top;
   width: 100%;
 `

@@ -5,12 +5,12 @@ import styled from 'styled-components'
 import Button from '../Button/Button'
 import H2 from '../Typography/H2'
 import banner from './img/banner_ops.jpg'
-import GridRow from '../Grid/GridRow'
-import GridContent from '../Grid/GridContent'
+import { GridRowClean } from '../Grid/GridRow'
 
-const Row = GridRow.extend`
+const Row = GridRowClean.extend`
   align-items: center;
   background-image: ${`url(${banner})`};
+  background-size: cover;
   height: 360px;
   position: relative;
 `
@@ -18,15 +18,17 @@ const Row = GridRow.extend`
 const Overlay = styled.div`
   background-color: rgba(0, 0, 0, 0.56);
   bottom: 0;
+  grid-column: -1 / 1;
   left: 0;
   position: absolute;
   right: 0;
   top: 0;
 `
 
-const Content = GridContent.extend`
+const Content = styled.div`
   align-items: center;
   color: #fff;
+  display: grid;
   grid-column-gap: 80px;
   grid-row-gap: 40px;
   grid-template-columns: 1fr;

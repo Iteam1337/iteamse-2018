@@ -4,7 +4,6 @@ import * as React from 'react'
 import * as Iteam from '../typings/iteam.flow'
 import * as IteamCMS from './__generated__/CasesPage'
 import GridRow from '../components/Grid/GridRow'
-import GridContent from '../components/Grid/GridContent'
 import styled from 'styled-components'
 import { filterByLocation } from '../utils/filterByLocation'
 import FilterByLocation from '../components/FilterByLocation/FilterByLocation'
@@ -39,8 +38,6 @@ const Cases = styled.div`
   grid-column-gap: 30px;
   grid-row-gap: 40px;
   grid-template-columns: repeat(2, 1fr);
-  padding-bottom: 120px;
-  padding-top: 60px;
 `
 const CaseLink = styled(Link)`
   color: #000;
@@ -86,34 +83,30 @@ const CasePage = () => {
             />
 
             <GridRow>
-              <GridContent>
-                <FilterByLocation>
-                  {location => (
-                    <Cases>
-                      {cases
-                        .filter(filterByLocation(location))
-                        .map(workCase => (
-                          <CaseLink
-                            key={workCase.title}
-                            to={`/case/${workCase.slug}`}
-                          >
-                            <Case>
-                              <CaseImage>
-                                <img src={workCase.thumbnailImage} alt="" />
-                              </CaseImage>
-                              <Meta>
-                                <Title>{workCase.title}</Title>
-                                <ShortDescription>
-                                  {workCase.shortDescription}
-                                </ShortDescription>
-                              </Meta>
-                            </Case>
-                          </CaseLink>
-                        ))}
-                    </Cases>
-                  )}
-                </FilterByLocation>
-              </GridContent>
+              <FilterByLocation>
+                {location => (
+                  <Cases>
+                    {cases.filter(filterByLocation(location)).map(workCase => (
+                      <CaseLink
+                        key={workCase.title}
+                        to={`/case/${workCase.slug}`}
+                      >
+                        <Case>
+                          <CaseImage>
+                            <img src={workCase.thumbnailImage} alt="" />
+                          </CaseImage>
+                          <Meta>
+                            <Title>{workCase.title}</Title>
+                            <ShortDescription>
+                              {workCase.shortDescription}
+                            </ShortDescription>
+                          </Meta>
+                        </Case>
+                      </CaseLink>
+                    ))}
+                  </Cases>
+                )}
+              </FilterByLocation>
             </GridRow>
 
             <Team bgColor="green" shortName={['hrn', 'jmn']} />

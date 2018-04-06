@@ -3,8 +3,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import { withRouter, Link, type ContextRouter } from 'react-router-dom'
-import GridRow from '../Grid/GridRow'
-import GridContent from '../Grid/GridContent'
 
 type Props = {
   ...ContextRouter,
@@ -12,14 +10,19 @@ type Props = {
 }
 
 const Wrap = styled.div`
-  margin-bottom: 60px;
-  margin-top: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
 
   > :not(:last-child):after {
     font-weight: 300;
     content: '/';
     margin-left: 5px;
     margin-right: 5px;
+  }
+
+  @media (min-width: 1024px) {
+    padding-left: 0;
+    padding-right: 0;
   }
 `
 
@@ -56,13 +59,9 @@ const handleLocation = title => (location, i, self) => {
 
 const Breadcrumbs = ({ location, title }: Props) => {
   return (
-    <GridRow>
-      <GridContent>
-        <Wrap data-test="breadcrumbs">
-          {location.pathname.split('/').map(handleLocation(title))}
-        </Wrap>
-      </GridContent>
-    </GridRow>
+    <Wrap data-test="breadcrumbs">
+      {location.pathname.split('/').map(handleLocation(title))}
+    </Wrap>
   )
 }
 

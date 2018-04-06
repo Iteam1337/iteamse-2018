@@ -12,7 +12,7 @@ import Block from '../components/Blocks/Block'
 import Team from '../components/Team/Team'
 import ImageBleed from '../components/Blocks/ImageBleed'
 import ImageBlock from '../components/Blocks/ImageBlock'
-import styled from 'styled-components'
+import GridRow from '../components/Grid/GridRow'
 
 type Props = Iteam.ApolloBase<IteamCMS.AboutPage>
 
@@ -35,19 +35,6 @@ export const AboutPageQuery = gql`
   }
 `
 
-const Content = styled.div`
-  display: grid;
-  grid-row-gap: 40px;
-  padding-bottom: 40px;
-  padding-top: 40px;
-
-  @media (min-width: 1024px) {
-    grid-row-gap: 100px;
-    padding-bottom: 100px;
-    padding-top: 100px;
-  }
-`
-
 const About = () => {
   return (
     <Query query={AboutPageQuery}>
@@ -65,7 +52,7 @@ const About = () => {
               messageTwo={pageAboutUs.headerText2}
             />
 
-            <Content>
+            <GridRow>
               <Block title={pageAboutUs.valueTitle}>
                 {pageAboutUs.valueText}
               </Block>
@@ -78,7 +65,7 @@ const About = () => {
               <Block title={pageAboutUs.stabilityTitle}>
                 {pageAboutUs.stabilityText}
               </Block>
-            </Content>
+            </GridRow>
 
             <Team bgColor="green" shortName={['rln', 'msr']} />
           </React.Fragment>

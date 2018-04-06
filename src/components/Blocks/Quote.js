@@ -2,21 +2,20 @@
 
 import * as React from 'react'
 import styled from 'styled-components'
-import GridRow from '../Grid/GridRow'
-import GridContent from '../Grid/GridContent'
+import { GridRowClean } from '../Grid/GridRow'
 
 type Props = {
   children: string,
   'data-test'?: string,
-  person: string,
+  person: ?string,
 }
 
-const QuoteWrap = GridRow.extend`
+const QuoteWrap = GridRowClean.extend`
   background-color: ${({ theme }) => theme.colors.concrete};
+  grid-column: -1 / 1;
   padding-bottom: 100px;
   padding-top: 100px;
 `
-const QuoteContent = GridContent.extend``
 
 const ActualQuote = styled.div`
   font-size: 36px;
@@ -33,10 +32,8 @@ const Person = styled.div`
 const Quote = ({ children, 'data-test': dataTest = '', person }: Props) => {
   return (
     <QuoteWrap data-test={`block-${dataTest}`}>
-      <QuoteContent>
-        <ActualQuote>{`"${children}"`}</ActualQuote>
-        <Person>{person}</Person>
-      </QuoteContent>
+      <ActualQuote>{`"${children}"`}</ActualQuote>
+      <Person>{person}</Person>
     </QuoteWrap>
   )
 }

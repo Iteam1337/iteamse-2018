@@ -7,7 +7,7 @@ import { Query } from 'react-apollo'
 import gql from 'graphql-tag'
 import Location from './Location'
 import GridRow from '../Grid/GridRow'
-import GridContent from '../Grid/GridContent'
+import styled from 'styled-components'
 
 type Props = Iteam.ApolloBase<IteamCMS.Footer>
 
@@ -26,16 +26,19 @@ const FooterQuery = gql`
 `
 
 const Wrap = GridRow.extend`
+  padding-left: 20px;
+  padding-right: 20px;
   padding-bottom: 40px;
   padding-top: 40px;
 
   @media (min-width: 1024px) {
-    padding-bottom: 150px;
-    padding-top: 150px;
+    padding-left: 0;
+    padding-right: 0;
   }
 `
 
-const Locations = GridContent.extend`
+const Locations = styled.div`
+  display: grid;
   grid-gap: 30px;
 
   @media (min-width: 1024px) {

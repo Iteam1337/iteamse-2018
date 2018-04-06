@@ -2,14 +2,28 @@
 
 import styled from 'styled-components'
 
-const GridRow = styled.div`
+export const GridRowClean = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  padding-left: 20px;
-  padding-right: 20px;
 
   @media (min-width: 1024px) {
     grid-template-columns: 1fr 1024px 1fr;
+
+    > * {
+      grid-column: 2;
+    }
+  }
+`
+
+const GridRow = GridRowClean.extend`
+  grid-row-gap: 40px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+
+  @media (min-width: 1024px) {
+    grid-row-gap: 100px;
+    margin-bottom: 100px;
+    margin-top: 100px;
   }
 `
 

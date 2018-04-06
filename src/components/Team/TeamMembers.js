@@ -2,8 +2,8 @@
 
 import * as React from 'react'
 import { colors } from '../../theme'
-import GridRow from '../Grid/GridRow'
-import GridContent from '../Grid/GridContent'
+import styled from 'styled-components'
+import { GridRowClean } from '../Grid/GridRow'
 
 type Props = {
   bgColor: string,
@@ -11,9 +11,10 @@ type Props = {
   teamMembers: number,
 }
 
-const Wrap = GridRow.extend`
+const Wrap = GridRowClean.extend`
   background-color: ${({ bgColor }) => bgColor};
   color: ${({ bgColor, theme }) => theme.contrast(bgColor)};
+  grid-column: -1 / 1;
   padding: 40px;
 
   a {
@@ -21,11 +22,13 @@ const Wrap = GridRow.extend`
   }
 
   @media (min-width: 1024px) {
-    padding: 0;
+    padding-bottom: 100px;
+    padding-top: 100px;
   }
 `
 
-const Members = GridContent.extend`
+const Members = styled.div`
+  display: grid;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
   grid-template-columns: 1fr;
@@ -33,8 +36,6 @@ const Members = GridContent.extend`
   @media (min-width: 1024px) {
     grid-template-columns: ${({ teamMembers }) =>
       teamMembers === 2 ? 'repeat(2, 1fr)' : 'repeat(4, 1fr)'};
-    padding-bottom: 60px;
-    padding-top: 60px;
   }
 `
 
