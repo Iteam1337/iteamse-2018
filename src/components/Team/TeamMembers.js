@@ -22,8 +22,7 @@ const Wrap = GridRowClean.extend`
   }
 
   @media (min-width: 1024px) {
-    padding-bottom: 100px;
-    padding-top: 100px;
+    padding: ${({ teamMembers }) => (teamMembers <= 4 ? '100px 0' : '0px')};
   }
 `
 
@@ -45,7 +44,7 @@ const TeamMembers = ({
   teamMembers,
 }: Props) => {
   return (
-    <Wrap bgColor={bgColor}>
+    <Wrap bgColor={bgColor} teamMembers={teamMembers}>
       <Members teamMembers={teamMembers}>{children}</Members>
     </Wrap>
   )
