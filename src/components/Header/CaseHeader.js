@@ -7,8 +7,10 @@ import GridRow from '../Grid/GridRow'
 import GridContent from '../Grid/GridContent'
 
 type Props = {
-  bgColor: string,
-  tags: string[],
+  bgColor: ?string,
+  caseImage: string,
+  logo: string,
+  tags: Array<?string>,
 }
 
 const Wrap = GridRow.extend`
@@ -61,17 +63,27 @@ const Tag = styled.div`
   }
 `
 
-const CaseHeader = ({ bgColor, tags }: Props) => {
+const CaseImage = styled.div`
+  align-items: center;
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  width: 500px;
+`
+
+const CaseHeader = ({ bgColor, caseImage, logo, tags }: Props) => {
   return (
     <Wrap bgColor={bgColor} data-test="header-case">
       <Content>
         <Navigation />
         <Information>
           <Meta>
-            <Logo alt="" src="http://lorempixel.com/600/55" />
+            <Logo alt="" src={logo} />
             <Tags>{tags.map(tag => <Tag key={tag}>{tag}</Tag>)}</Tags>
           </Meta>
-          <ProjectImage alt="" src="http://lorempixel.com/500/500" />
+          <CaseImage>
+            <ProjectImage alt="" src={caseImage} />
+          </CaseImage>
         </Information>
       </Content>
     </Wrap>

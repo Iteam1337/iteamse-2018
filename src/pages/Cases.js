@@ -1,6 +1,8 @@
 // @flow
 
 import * as React from 'react'
+import * as Iteam from '../typings/iteam.flow'
+import * as IteamCMS from './__generated__/CasesPage'
 import GridRow from '../components/Grid/GridRow'
 import GridContent from '../components/Grid/GridContent'
 import styled from 'styled-components'
@@ -8,31 +10,29 @@ import { filterByLocation } from '../utils/filterByLocation'
 import FilterByLocation from '../components/FilterByLocation/FilterByLocation'
 import Team from '../components/Team/Team'
 import Header from '../components/Header/Header'
+import { Query } from 'react-apollo'
 import { Link } from 'react-router-dom'
+import gql from 'graphql-tag'
 
-const CASES = [
-  {
-    location: 'Stockholm',
-    shortDescription:
-      'Synliggörande av asylsökandes kompetens med digitala verktyg',
-    title: 'Arbetsförmedlingen | Digital tjänst',
-  },
-  {
-    location: 'Göteborg',
-    shortDescription: 'API som strategisk framtidssatsning',
-    title: 'Taxi Stockholm | API',
-  },
-  {
-    location: 'Stockholm',
-    shortDescription: 'Från styrelsebeslut till agil verklighet',
-    title: 'SEB | Lorem Ipsum',
-  },
-  {
-    location: 'Stockholm',
-    shortDescription: 'En rubrik om vad vi gjort för Vimla',
-    title: 'Vimla | Backend',
-  },
-]
+type Props = Iteam.ApolloBase<IteamCMS.CasesPage>
+
+export const CasesPageQuery = gql`
+  query CasesPage {
+    pageCases {
+      headerImage
+      headerText1
+      headerText2
+      headerTextBgColor
+    }
+    cases {
+      location
+      shortDescription
+      slug
+      thumbnailImage
+      title
+    }
+  }
+`
 
 const Cases = styled.div`
   display: grid;
@@ -42,10 +42,17 @@ const Cases = styled.div`
   padding-bottom: 120px;
   padding-top: 60px;
 `
+const CaseLink = styled(Link)`
+  color: #000;
+  text-decoration: none;
+`
 const Case = styled.div``
 const CaseImage = styled.div`
+  align-items: center;
   background-color: #f1f1f1;
+  display: flex;
   height: 500px;
+  justify-content: center;
   width: 500px;
 `
 const Meta = styled.div`
@@ -63,40 +70,57 @@ const ShortDescription = styled.div`
 
 const CasePage = () => {
   return (
-    <React.Fragment>
-      <Header
-        backgroundImage="http://lorempixel.com/1920/1080"
-        messageBgColor="green"
-        messageOne="Några exempel på"
-        messageTwo="sådant vi gjort"
-      />
+    <Query query={CasesPageQuery}>
+      {({ loading, data: { pageCases, cases } }: Props) => {
+        if (loading) {
+          return null
+        }
 
-      <GridRow>
-        <GridContent>
-          <FilterByLocation>
-            {location => (
-              <Cases>
-                {CASES.filter(filterByLocation(location)).map(workCase => (
-                  <Link key={workCase.title} to="/case/1">
-                    <Case>
-                      <CaseImage />
-                      <Meta>
-                        <Title>{workCase.title}</Title>
-                        <ShortDescription>
-                          {workCase.shortDescription}
-                        </ShortDescription>
-                      </Meta>
-                    </Case>
-                  </Link>
-                ))}
-              </Cases>
-            )}
-          </FilterByLocation>
-        </GridContent>
-      </GridRow>
+        return (
+          <React.Fragment>
+            <Header
+              backgroundImage={pageCases.headerImage}
+              messageBgColor={pageCases.headerTextBgColor}
+              messageOne={pageCases.headerText1}
+              messageTwo={pageCases.headerText2}
+            />
 
-      <Team bgColor="green" shortName={['hrn', 'jmn']} />
-    </React.Fragment>
+            <GridRow>
+              <GridContent>
+                <FilterByLocation>
+                  {location => (
+                    <Cases>
+                      {cases
+                        .filter(filterByLocation(location))
+                        .map(workCase => (
+                          <CaseLink
+                            key={workCase.title}
+                            to={`/case/${workCase.slug}`}
+                          >
+                            <Case>
+                              <CaseImage>
+                                <img src={workCase.thumbnailImage} alt="" />
+                              </CaseImage>
+                              <Meta>
+                                <Title>{workCase.title}</Title>
+                                <ShortDescription>
+                                  {workCase.shortDescription}
+                                </ShortDescription>
+                              </Meta>
+                            </Case>
+                          </CaseLink>
+                        ))}
+                    </Cases>
+                  )}
+                </FilterByLocation>
+              </GridContent>
+            </GridRow>
+
+            <Team bgColor="green" shortName={['hrn', 'jmn']} />
+          </React.Fragment>
+        )
+      }}
+    </Query>
   )
 }
 

@@ -33,14 +33,22 @@ const StyledLink = styled(Link)`
 // eslint-disable-next-line
 const handleLocation = title => (location, i, self) => {
   if (i === self.length - 1) {
-    return <span>{title}</span>
+    return <span key={`link-${i}`}>{title}</span>
   }
 
   switch (location) {
     case 'case':
-      return <StyledLink to="/case">Våra case</StyledLink>
+      return (
+        <StyledLink key={`link-${i}`} to="/case">
+          Våra case
+        </StyledLink>
+      )
     case 'jobba-hos-oss':
-      return <StyledLink to="/jobba-hos-oss">Jobba hos oss</StyledLink>
+      return (
+        <StyledLink key={`link-${i}`} to="/jobba-hos-oss">
+          Jobba hos oss
+        </StyledLink>
+      )
     default:
       return null
   }
