@@ -1,9 +1,14 @@
 // @flow
 
 import * as React from 'react'
+import { withRouter, type ContextRouter } from 'react-router-dom'
 import styled from 'styled-components'
 import MenuButton from './MenuButton'
 import MenuNavigation from './MenuNavigation'
+
+type Props = {
+  ...ContextRouter,
+}
 
 type State = {
   open: boolean,
@@ -15,9 +20,17 @@ const Wrap = styled.div`
   }
 `
 
-class MobileMenu extends React.Component<*, State> {
+class MobileMenu extends React.Component<Props, State> {
+  props: Props
+
   state = {
     open: false,
+  }
+
+  componentDidUpdate (prevProps) {
+    if (prevProps.location.pathname !== this.props.location.pathname) {
+      this.setState({ open: false })
+    }
   }
 
   toggleMenu = () => {
@@ -38,4 +51,4 @@ class MobileMenu extends React.Component<*, State> {
   }
 }
 
-export default MobileMenu
+export default withRouter(MobileMenu)

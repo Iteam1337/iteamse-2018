@@ -112,6 +112,8 @@ injectGlobal`
 `
 
 class Navigation extends React.Component<Props, State> {
+  props: Props
+
   state = {
     indicatorLocation: 0,
     indicatorWidth: 0,
