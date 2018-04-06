@@ -24,7 +24,7 @@ server
         cache: new InMemoryCache(),
         link: createHttpLink({
           fetch,
-          uri: process.env.RAZZLE_CMS_URL,
+          uri: process.env.RAZZLE_CMS_NODE_URL,
         }),
         ssrMode: true,
       })
