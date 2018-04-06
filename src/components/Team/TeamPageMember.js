@@ -24,11 +24,16 @@ const Title = styled.div`
 const Name = styled.div`
   font-weight: 500;
 `
+const AvatarWrap = styled.div`
+  margin-bottom: 20px;
+`
 
 const TeamPageMember = ({ member }: Props) => {
   return (
     <Colleague key={member.name}>
-      <Avatar image={member.avatar || member.gravatar} />
+      <AvatarWrap>
+        <Avatar image={member.avatar || member.gravatar} />
+      </AvatarWrap>
       <Name>{member.name}</Name>
       <Title>{member.title}</Title>
       {member.phoneNumber}

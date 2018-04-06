@@ -11,6 +11,8 @@ import logoTsab from './img/logo_tsab.png'
 import logoSeb from './img/logo_seb.png'
 import Header from '../components/Header/Header'
 import Team from '../components/Team/Team'
+import GridRow from '../components/Grid/GridRow'
+import GridContent from '../components/Grid/GridContent'
 import OperationsBanner from '../components/Banners/Operations'
 import H1 from '../components/Typography/H1'
 import Paragraph from '../components/Typography/Paragraph'
@@ -36,20 +38,7 @@ export const HomePageQuery = gql`
   }
 `
 
-const Row = styled.div`
-  display: grid;
-  grid-template-columns: 1fr;
-  padding-left: 20px;
-  padding-right: 20px;
-
-  @media (min-width: 1024px) {
-    grid-template-columns: 1fr 1024px 1fr;
-  }
-`
-
-const Content = styled.div`
-  display: grid;
-  grid-column: 2;
+const Content = GridContent.extend`
   grid-column-gap: 40px;
   grid-template-columns: 1fr;
   padding-bottom: 40px;
@@ -100,7 +89,7 @@ const Home = () => {
               messageTwo={pageStart.headerText2}
             />
 
-            <Row>
+            <GridRow>
               <Content>
                 <StylizedIteam src={iteamStylized} alt="" />
                 <Texts>
@@ -130,10 +119,10 @@ const Home = () => {
                   </TextBlock>
                 </Texts>
               </Content>
-            </Row>
+            </GridRow>
 
             <OperationsBanner />
-            <Team shortName={['met', 'rln', 'msr']} />
+            <Team shortName={['met', 'rln']} />
           </React.Fragment>
         )
       }}

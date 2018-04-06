@@ -27,19 +27,15 @@ const AvatarWrap = styled.div`
   margin-top: 20px;
 `
 
-const Name = styled.div`
-  font-weight: 500;
-`
-
 const TeamMember = ({ member }: Props) => {
   return (
-    <Colleague key={member.name}>
+    <Colleague>
       <Title>{member.title}</Title>
       <Location data-test="team-member-location">{member.location}</Location>
       <AvatarWrap>
         <Avatar image={member.avatar || member.gravatar} />
       </AvatarWrap>
-      <Name>{member.name}</Name>
+      <Title>{member.name}</Title>
       <Mailto email={member.email}>{member.email}</Mailto>
     </Colleague>
   )

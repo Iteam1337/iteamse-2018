@@ -1,47 +1,46 @@
 // @flow
 
 import * as React from 'react'
-import styled from 'styled-components'
 import { colors } from '../../theme'
+import GridRow from '../Grid/GridRow'
+import GridContent from '../Grid/GridContent'
 
 type Props = {
   bgColor: string,
   children: React.Node,
+  teamMembers: number,
 }
 
-const Wrap = styled.div`
+const Wrap = GridRow.extend`
   background-color: ${({ bgColor }) => bgColor};
   color: ${({ bgColor, theme }) => theme.contrast(bgColor)};
-  display: grid;
-  grid-template-columns: 1fr;
-
-  @media (min-width: 1024px) {
-    grid-template-columns: 1fr 1024px 1fr;
-  }
 
   a {
     color: ${({ bgColor, theme }) => theme.contrast(bgColor)};
   }
 `
 
-const Members = styled.div`
-  display: grid;
+const Members = GridContent.extend`
   grid-column-gap: 30px;
   grid-row-gap: 30px;
   grid-template-columns: 1fr;
 
   @media (min-width: 1024px) {
-    grid-column: 2;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: ${({ teamMembers }) =>
+      teamMembers === 2 ? 'repeat(2, 1fr)' : 'repeat(4, 1fr)'};
     padding-bottom: 60px;
     padding-top: 60px;
   }
 `
 
-const TeamMembers = ({ bgColor = colors.radicalRed, children }: Props) => {
+const TeamMembers = ({
+  bgColor = colors.radicalRed,
+  children,
+  teamMembers,
+}: Props) => {
   return (
     <Wrap bgColor={bgColor}>
-      <Members>{children}</Members>
+      <Members teamMembers={teamMembers}>{children}</Members>
     </Wrap>
   )
 }

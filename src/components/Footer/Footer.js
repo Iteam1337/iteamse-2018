@@ -5,8 +5,9 @@ import * as Iteam from '../../typings/iteam.flow'
 import * as IteamCMS from './__generated__/Footer'
 import { Query } from 'react-apollo'
 import gql from 'graphql-tag'
-import styled from 'styled-components'
 import Location from './Location'
+import GridRow from '../Grid/GridRow'
+import GridContent from '../Grid/GridContent'
 
 type Props = Iteam.ApolloBase<IteamCMS.Footer>
 
@@ -24,24 +25,20 @@ const FooterQuery = gql`
   }
 `
 
-const Wrap = styled.div`
-  display: grid;
-  grid-template-columns: 1fr;
-  padding: 40px 20px;
+const Wrap = GridRow.extend`
+  padding-bottom: 40px;
+  padding-top: 40px;
 
   @media (min-width: 1024px) {
-    grid-template-columns: 1fr 1024px 1fr;
     padding-bottom: 150px;
     padding-top: 150px;
   }
 `
 
-const Locations = styled.div`
-  display: grid;
+const Locations = GridContent.extend`
   grid-gap: 30px;
 
   @media (min-width: 1024px) {
-    grid-column: 2;
     grid-template-columns: repeat(2, 315px);
   }
 `

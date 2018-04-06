@@ -5,20 +5,14 @@ import styled from 'styled-components'
 import Button from '../Button/Button'
 import H2 from '../Typography/H2'
 import banner from './img/banner_ops.jpg'
+import GridRow from '../Grid/GridRow'
+import GridContent from '../Grid/GridContent'
 
-const Row = styled.div`
+const Row = GridRow.extend`
   align-items: center;
   background-image: ${`url(${banner})`};
-  display: grid;
-  grid-template-columns: 1fr;
   height: 360px;
-  padding-left: 20px;
-  padding-right: 20px;
   position: relative;
-
-  @media (min-width: 1024px) {
-    grid-template-columns: 1fr 1024px 1fr;
-  }
 `
 
 const Overlay = styled.div`
@@ -30,11 +24,9 @@ const Overlay = styled.div`
   top: 0;
 `
 
-const Content = styled.div`
+const Content = GridContent.extend`
   align-items: center;
   color: #fff;
-  display: grid;
-  grid-column: 2;
   grid-column-gap: 80px;
   grid-row-gap: 40px;
   grid-template-columns: 1fr;
