@@ -6,7 +6,6 @@ import * as IteamCMS from './__generated__/OperationsPage'
 import { Query } from 'react-apollo'
 import gql from 'graphql-tag'
 import Header from '../components/Header/Header'
-import Content from '../components/Grid/Content'
 import Block from '../components/Blocks/Block'
 import ImageBleed from '../components/Blocks/ImageBleed'
 
@@ -49,23 +48,21 @@ const Operations = () => {
               messageTwo={pageOps.headerText2}
             />
 
-            <Content>
-              <Block title={pageOps.aboutTitle}>{pageOps.aboutText}</Block>
-            </Content>
+            <Block title={pageOps.aboutTitle}>{pageOps.aboutText}</Block>
 
             <ImageBleed image={pageOps.contentImage} />
 
-            <Content concrete>
-              <Block title={pageOps.networkTitle}>{pageOps.networkText}</Block>
+            <Block concrete title={pageOps.networkTitle}>
+              {pageOps.networkText}
+            </Block>
 
-              <Block title={pageOps.softwareTitle}>
-                {pageOps.softwareText}
-              </Block>
+            <Block concrete title={pageOps.softwareTitle}>
+              {pageOps.softwareText}
+            </Block>
 
-              <Block title={pageOps.hardwareTitle}>
-                {pageOps.hardwareText}
-              </Block>
-            </Content>
+            <Block concrete title={pageOps.hardwareTitle}>
+              {pageOps.hardwareText}
+            </Block>
           </React.Fragment>
         )
       }}

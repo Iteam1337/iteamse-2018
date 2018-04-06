@@ -10,6 +10,7 @@ import GridContent from '../Grid/GridContent'
 
 type Props = {
   children: React.Node,
+  concrete?: boolean,
   'data-test'?: string,
   id?: string,
   subtitle?: string,
@@ -17,6 +18,9 @@ type Props = {
 }
 
 const BlockRow = GridRow.extend`
+  background-color: ${({ concrete, theme }) =>
+    concrete ? theme.colors.concrete : '#fff'};
+
   @media (min-width: 1024px) {
     padding-bottom: 60px;
     padding-top: 60px;
@@ -44,13 +48,14 @@ const Text = styled.div`
 
 const Block = ({
   children,
+  concrete,
   'data-test': dataTest = '',
   id,
   subtitle,
   title,
 }: Props) => {
   return (
-    <BlockRow data-test={`block-${dataTest}`}>
+    <BlockRow concrete={concrete} data-test={`block-${dataTest}`}>
       <Content>
         <TitleWrap>
           <H3>{title}</H3>

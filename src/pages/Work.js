@@ -8,7 +8,6 @@ import gql from 'graphql-tag'
 import { filterByLocation } from '../utils/filterByLocation'
 import FilterByLocation from '../components/FilterByLocation/FilterByLocation'
 import Header from '../components/Header/Header'
-import Content from '../components/Grid/Content'
 import Block from '../components/Blocks/Block'
 
 type Props = Iteam.ApolloBase<IteamCMS.WorkPage>
@@ -48,7 +47,7 @@ const Work = () => {
             />
             <FilterByLocation>
               {location => (
-                <Content>
+                <React.Fragment>
                   {openpositions
                     .filter(filterByLocation(location))
                     .map(annons => (
@@ -62,7 +61,7 @@ const Work = () => {
                         {annons.role}
                       </Block>
                     ))}
-                </Content>
+                </React.Fragment>
               )}
             </FilterByLocation>
           </React.Fragment>
