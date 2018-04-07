@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import H3 from '../Typography/H3'
 import Paragraph from '../Typography/Paragraph'
 import PaddedRow from '../Grid/PaddedRow'
+import Fade from 'react-reveal/Fade'
 
 type Props = {
   children: React.Node,
@@ -43,19 +44,21 @@ const Block = ({
   title,
 }: Props) => {
   return (
-    <PaddedRow data-test={`block-${dataTest}`}>
-      <Content>
-        <TitleWrap>
-          <H3>{title}</H3>
-          {subtitle && <Subtitle>{subtitle}</Subtitle>}
-        </TitleWrap>
+    <Fade bottom>
+      <PaddedRow data-test={`block-${dataTest}`}>
+        <Content>
+          <TitleWrap>
+            <H3>{title}</H3>
+            {subtitle && <Subtitle>{subtitle}</Subtitle>}
+          </TitleWrap>
 
-        <Text>
-          <Paragraph>{children}</Paragraph>
-          {readMore}
-        </Text>
-      </Content>
-    </PaddedRow>
+          <Text>
+            <Paragraph>{children}</Paragraph>
+            {readMore}
+          </Text>
+        </Content>
+      </PaddedRow>
+    </Fade>
   )
 }
 
