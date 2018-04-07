@@ -13,7 +13,7 @@ export type CasePage_workCase = {
   headerBgColor: ?string,
   logo: string,
   slug: string,
-  thumbnailImage: string,
+  thumbnailImage: ?string,
   tags: Array<?string>,
   title: string,
   introduction: string,

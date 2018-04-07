@@ -51,13 +51,16 @@ const CaseLink = styled(Link)`
   text-decoration: none;
 `
 const Case = styled.div``
-const CaseImage = styled.div`
+const CaseImageWrap = styled.div`
   align-items: center;
   background-color: #f1f1f1;
   display: flex;
   height: 500px;
   justify-content: center;
   width: 500px;
+`
+const CaseImage = styled.img`
+  max-width: 90%;
 `
 const Meta = styled.div`
   margin-top: 30px;
@@ -107,9 +110,11 @@ const CasePage = ({ client }: Props) => {
                         to={`/case/${workCase.slug}`}
                       >
                         <Case>
-                          <CaseImage>
-                            <img src={workCase.thumbnailImage} alt="" />
-                          </CaseImage>
+                          <CaseImageWrap>
+                            {workCase.thumbnailImage && (
+                              <CaseImage src={workCase.thumbnailImage} alt="" />
+                            )}
+                          </CaseImageWrap>
                           <Meta>
                             <Title>{workCase.title}</Title>
                             <ShortDescription>

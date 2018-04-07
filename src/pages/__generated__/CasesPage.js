@@ -21,7 +21,7 @@ export type CasesPage_cases = {
   location: string,
   shortDescription: string,
   slug: string,
-  thumbnailImage: string,
+  thumbnailImage: ?string,
   title: string,
 };
 

@@ -7,7 +7,7 @@ import { GridColumnClean } from '../Grid/GridColumn'
 
 type Props = {
   bgColor: ?string,
-  caseImage: string,
+  caseImage: ?string,
   logo: string,
   tags: Array<?string>,
 }
@@ -92,7 +92,7 @@ const CaseHeader = ({ bgColor, caseImage, logo, tags }: Props) => {
             <Tags>{tags.map(tag => <Tag key={tag}>{tag}</Tag>)}</Tags>
           </Meta>
           <CaseImage>
-            <ProjectImage alt="" src={caseImage} />
+            {caseImage && <ProjectImage alt="" src={caseImage} />}
           </CaseImage>
         </Information>
       </Content>
