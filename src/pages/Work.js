@@ -39,7 +39,7 @@ export const WorkPageQuery = gql`
   }
 `
 
-const Work = ({ client }: Props) => {
+export const Work = ({ client }: Props) => {
   return (
     <Query query={WorkPageQuery}>
       {({ loading, data: { openpositions, pageWork } }: QueryProps) => {
@@ -69,14 +69,14 @@ const Work = ({ client }: Props) => {
                           id={annons.id}
                           readMore={
                             <Link
-                              onMouseOver={() =>
+                              onMouseEnter={() => {
                                 client.query({
                                   query: OpenPositionPageQuery,
                                   variables: {
                                     id: annons.id,
                                   },
                                 })
-                              }
+                              }}
                               to={`/jobba-hos-oss/${annons.id}`}
                             >
                               Läs mer

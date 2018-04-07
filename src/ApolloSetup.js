@@ -7,15 +7,7 @@ const httpLink = createHttpLink({
 })
 
 export const client = new ApolloClient({
-  cache: new InMemoryCache({
-    dataIdFromObject: r => {
-      if (r.uid) {
-        return `${r.__typename}:${r.uid}`
-      }
-
-      return r.id
-    },
-  }).restore(window.__APOLLO_STATE__),
+  cache: new InMemoryCache().restore(window.__APOLLO_STATE__),
   link: httpLink,
   ssrForceFetchDelay: 100,
 })

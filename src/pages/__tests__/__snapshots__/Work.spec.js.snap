@@ -1,0 +1,466 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Work renders Work 1`] = `
+<div>
+  <div
+    style="height: 700px;"
+    class="lazyload-placeholder"
+  />
+  <div
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD ikGgaF"
+  >
+    <div
+      class="s3nsc5b-0-PaddedRow-hWTqUj gztodZ"
+    >
+      <div
+        class="Filter__Wrap-s16ccbkk-0 evelsV"
+        data-test="filter-"
+        tabindex="0"
+      >
+        Alla
+      </div>
+      <div
+        class="Filter__Wrap-s16ccbkk-0 lgKsfF"
+        data-test="filter-Stockholm"
+        tabindex="0"
+      >
+        Stockholm
+      </div>
+      <div
+        class="Filter__Wrap-s16ccbkk-0 lgKsfF"
+        data-test="filter-Göteborg"
+        tabindex="0"
+      >
+        Göteborg
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        data-test="block-location"
+      >
+        <div
+          class="Block__Content-jdahsb-0 eIdLjk"
+        >
+          <div
+            class="Block__TitleWrap-jdahsb-1 dkYDLt"
+          >
+            <h3
+              class="H3-s19jy0q4-0 cqQxoo"
+            >
+              Junior UX Designer
+            </h3>
+            <div
+              class="Block__Subtitle-jdahsb-2 enSAoq"
+            >
+              Stockholm
+            </div>
+          </div>
+          <div
+            class="Block__Text-jdahsb-3 bdZkSQ"
+          >
+            <div
+              class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
+            >
+              <div>
+                <p>
+                  Som UX designer på Iteam är din roll att hjälpa våra kunder med digitala lösningar som skapar värde på riktigt. Som gör något bra både för kunden, slutanvändaren och samhället. Med hjälp av olika researchmetoder undersöker du både användarens och kundens behov och kontext, samt definierar och testar användarupplevelser.
+                </p>
+                <p>
+                  Du delar med dig av din kunskap inom user experience. Du förstår också att om lösningar ska vara verkligt användarvänliga behöver även arbetsprocesserna och kulturen vara användarcentrerad. Vi strävar mot att UX aldrig ska få vara bara en fas eller en eftertanke. Det ska genomsyra hela projektet. Alltid. 
+                </p>
+              </div>
+            </div>
+            <a
+              class="Link__StyledLink-kqcp4a-0 dzFnFw"
+              href="/jobba-hos-oss/junior-ux-designer"
+            >
+              Läs mer
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD dGQjgn"
+  >
+    <div
+      class="TeamMembers__Members-gavpkf-0 fuDfYD"
+    >
+      <div
+        class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
+      >
+        <div
+          style="height: 226px;"
+          class="lazyload-placeholder"
+        />
+        <div
+          class="TeamMemberDuo__Meta-s9kjazo-1 gzvJxw"
+        >
+          <div
+            class="TeamMemberDuo__MetaSection-s9kjazo-3 XeOZD"
+          >
+            <div
+              class="TeamMemberDuo__Title-s9kjazo-2 dFgPDl"
+            >
+              Cookie master
+            </div>
+            <div>
+              Stockholm
+            </div>
+          </div>
+          <div
+            class="TeamMemberDuo__Title-s9kjazo-2 dFgPDl"
+          >
+            Cookie M
+          </div>
+          <div>
+            0701234567
+          </div>
+          <a
+            class="NativeLink-s1qo6rwq-0 jNinQt"
+            href="mailto:cm@sesame.com"
+          >
+            cm@sesame.com
+          </a>
+        </div>
+      </div>
+      <div
+        class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
+      >
+        <div
+          style="height: 226px;"
+          class="lazyload-placeholder"
+        />
+        <div
+          class="TeamMemberDuo__Meta-s9kjazo-1 gzvJxw"
+        >
+          <div
+            class="TeamMemberDuo__MetaSection-s9kjazo-3 XeOZD"
+          >
+            <div
+              class="TeamMemberDuo__Title-s9kjazo-2 dFgPDl"
+            >
+              1 ahahah
+            </div>
+            <div>
+              Göteborg
+            </div>
+          </div>
+          <div
+            class="TeamMemberDuo__Title-s9kjazo-2 dFgPDl"
+          >
+            Count van Count
+          </div>
+          <div>
+            0707654321
+          </div>
+          <a
+            class="NativeLink-s1qo6rwq-0 jNinQt"
+            href="mailto:count@sesame.com"
+          >
+            count@sesame.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`components/Work should handle prefetching any work when hovering link 1`] = `
+Object {
+  "query": Object {
+    "definitions": Array [
+      Object {
+        "directives": Array [],
+        "kind": "OperationDefinition",
+        "name": Object {
+          "kind": "Name",
+          "value": "OpenPositionPage",
+        },
+        "operation": "query",
+        "selectionSet": Object {
+          "kind": "SelectionSet",
+          "selections": Array [
+            Object {
+              "alias": undefined,
+              "arguments": Array [
+                Object {
+                  "kind": "Argument",
+                  "name": Object {
+                    "kind": "Name",
+                    "value": "id",
+                  },
+                  "value": Object {
+                    "kind": "Variable",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "id",
+                    },
+                  },
+                },
+              ],
+              "directives": Array [],
+              "kind": "Field",
+              "name": Object {
+                "kind": "Name",
+                "value": "pageOpenPosition",
+              },
+              "selectionSet": Object {
+                "kind": "SelectionSet",
+                "selections": Array [
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "headerImage",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "headerText1",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "headerText2",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "headerTextBgColor",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "application",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "applicationTitle",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "aboutUs",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "aboutUsTitle",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "bonusKnowledge",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "bonusKnowledgeTitle",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "contentImage",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "knowledge",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "knowledgeTitle",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "location",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "role",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "roleTitle",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "technicalities",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "technicalitiesTitle",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "title",
+                    },
+                    "selectionSet": undefined,
+                  },
+                ],
+              },
+            },
+          ],
+        },
+        "variableDefinitions": Array [
+          Object {
+            "defaultValue": undefined,
+            "kind": "VariableDefinition",
+            "type": Object {
+              "kind": "NonNullType",
+              "type": Object {
+                "kind": "NamedType",
+                "name": Object {
+                  "kind": "Name",
+                  "value": "String",
+                },
+              },
+            },
+            "variable": Object {
+              "kind": "Variable",
+              "name": Object {
+                "kind": "Name",
+                "value": "id",
+              },
+            },
+          },
+        ],
+      },
+    ],
+    "kind": "Document",
+    "loc": Object {
+      "end": 440,
+      "start": 0,
+    },
+  },
+  "variables": Object {
+    "id": "junior-ux-designer",
+  },
+}
+`;

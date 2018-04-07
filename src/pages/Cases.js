@@ -75,7 +75,7 @@ const ShortDescription = styled.div`
   font-weight: 300;
 `
 
-const CasePage = ({ client }: Props) => {
+export const CasePage = ({ client }: Props) => {
   return (
     <Query query={CasesPageQuery}>
       {({ loading, data: { pageCases, cases } }: QueryProps) => {

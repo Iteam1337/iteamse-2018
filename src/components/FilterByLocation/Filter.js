@@ -39,12 +39,12 @@ injectGlobal`
 class Filter extends React.Component<Props> {
   props: Props
 
-  handleChange = (
-    e:
-      | SyntheticMouseEvent<HTMLDivElement>
-      | SyntheticKeyboardEvent<HTMLDivElement>
-  ) => {
-    if (e.keyCode && (e.keyCode !== 13 && e.keyCode !== 32)) {
+  handleClick = () => {
+    this.props.changeLocation(this.props.location)
+  }
+
+  handleKeyUp = (e: SyntheticKeyboardEvent<HTMLDivElement>) => {
+    if (e.keyCode !== 13 && e.keyCode !== 32) {
       e.preventDefault()
       e.stopPropagation()
 
@@ -58,8 +58,8 @@ class Filter extends React.Component<Props> {
     return (
       <Wrap
         data-test={`filter-${this.props.location}`}
-        onClick={this.handleChange}
-        onKeyUp={this.handleChange}
+        onClick={this.handleClick}
+        onKeyUp={this.handleKeyUp}
         selected={this.props.selected}
         tabIndex="0"
       >

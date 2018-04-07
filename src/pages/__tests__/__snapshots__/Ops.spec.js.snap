@@ -192,7 +192,7 @@ exports[`components/Ops renders Ops 1`] = `
               Cookie master
             </div>
             <div>
-              New York
+              Stockholm
             </div>
           </div>
           <div
@@ -208,6 +208,44 @@ exports[`components/Ops renders Ops 1`] = `
             href="mailto:cm@sesame.com"
           >
             cm@sesame.com
+          </a>
+        </div>
+      </div>
+      <div
+        class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
+      >
+        <div
+          style="height: 226px;"
+          class="lazyload-placeholder"
+        />
+        <div
+          class="TeamMemberDuo__Meta-s9kjazo-1 gzvJxw"
+        >
+          <div
+            class="TeamMemberDuo__MetaSection-s9kjazo-3 XeOZD"
+          >
+            <div
+              class="TeamMemberDuo__Title-s9kjazo-2 dFgPDl"
+            >
+              1 ahahah
+            </div>
+            <div>
+              Göteborg
+            </div>
+          </div>
+          <div
+            class="TeamMemberDuo__Title-s9kjazo-2 dFgPDl"
+          >
+            Count van Count
+          </div>
+          <div>
+            0707654321
+          </div>
+          <a
+            class="NativeLink-s1qo6rwq-0 jNinQt"
+            href="mailto:count@sesame.com"
+          >
+            count@sesame.com
           </a>
         </div>
       </div>

@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Header renders Header 1`] = `
+<div>
+  <div>
+    <div
+      class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD hioqA"
+    >
+      <div
+        class="Header__Content-s2wl2qd-0 hGrCcr"
+      >
+        <div
+          class="Navigation__Wrap-s51g7mr-0 cjKvAH"
+        >
+          <a
+            class="Navigation__LogoLink-s51g7mr-1 jRAxmQ"
+            href="/"
+          >
+            <img
+              class="Navigation__Logo-s51g7mr-2 jqPavq"
+              alt="Iteam logo"
+              src="iteam.png"
+            />
+          </a>
+          <div
+            class="Navigation__NavigationItems-s51g7mr-3 kIWVTO"
+          >
+            <a
+              class="Navigation__StyledLink-s51g7mr-5 glcmOL"
+              aria-current="false"
+              href="/om-oss"
+            >
+              Om oss
+            </a>
+            <a
+              class="Navigation__StyledLink-s51g7mr-5 glcmOL"
+              aria-current="false"
+              href="/hur-vi-jobbar"
+            >
+              Hur vi jobbar
+            </a>
+            <a
+              class="Navigation__StyledLink-s51g7mr-5 glcmOL"
+              aria-current="false"
+              href="/teamet"
+            >
+              Teamet
+            </a>
+            <a
+              class="Navigation__StyledLink-s51g7mr-5 glcmOL"
+              aria-current="false"
+              href="/case"
+            >
+              Våra case
+            </a>
+            <a
+              class="Navigation__StyledLink-s51g7mr-5 glcmOL"
+              aria-current="false"
+              href="/jobba-hos-oss"
+            >
+              Jobba hos oss
+            </a>
+            <a
+              class="Navigation__StyledLink-s51g7mr-5 glcmOL"
+              aria-current="false"
+              href="/ops"
+            >
+              Drift & Support
+            </a>
+            <div
+              class="Navigation__Indicator-s51g7mr-4 iPuIfj"
+            />
+          </div>
+        </div>
+        <div
+          class="s3nsc5b-0-PaddedRow-hWTqUj fCmQnc"
+        >
+          <h1
+            class="x5hh3k-0-H1-gsrphG egRCWJ"
+          >
+            <span>
+              Vi digitaliserar företag och organisationer
+            </span>
+          </h1>
+          <h1
+            class="x5hh3k-0-H1-gsrphG egRCWJ"
+          >
+            <span>
+              genom strategi, kod och kultur
+            </span>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

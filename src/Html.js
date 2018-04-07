@@ -15,7 +15,7 @@ function Html ({ apolloState, content, styleTags }: Props) {
   const isProduction = process.env.NODE_ENV === 'production'
 
   return (
-    <html lang="">
+    <html lang="sv">
       <head>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta charSet="utf-8" />

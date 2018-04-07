@@ -59,7 +59,7 @@ const OperationsBanner = ({ client }: Props) => {
       <Content>
         <H2>Visste du att vi även erbjuder drift & support?</H2>
         <Button
-          onMouseOver={() =>
+          onMouseEnter={() =>
             client.query({
               query: OperationsPageQuery,
             })

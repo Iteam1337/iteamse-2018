@@ -112,7 +112,7 @@ injectGlobal`
   }
 `
 
-class Navigation extends React.Component<Props, State> {
+export class Navigation extends React.Component<Props, State> {
   props: Props
 
   state = {
@@ -171,7 +171,7 @@ class Navigation extends React.Component<Props, State> {
     return (
       <Wrap>
         <LogoLink onMouseEnter={this.prefetchPage('home')} to="/">
-          <Logo src={logo} />
+          <Logo alt="Iteam logo" src={logo} />
         </LogoLink>
 
         <NavigationItems>

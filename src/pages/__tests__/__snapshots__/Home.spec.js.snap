@@ -118,45 +118,75 @@ exports[`components/Home renders Home 1`] = `
     class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD dGQjgn"
   >
     <div
-      class="TeamMembers__Members-gavpkf-0 fuDfYD"
+      class="TeamMembers__Members-gavpkf-0 hZpEAh"
     >
       <div
-        class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
+        class="TeamMember__Colleague-ahjagd-0 jsoPzM"
       >
         <div
-          style="height: 226px;"
-          class="lazyload-placeholder"
-        />
+          class="TeamMember__Title-ahjagd-1 eWbIRQ"
+        >
+          Cookie master
+        </div>
         <div
-          class="TeamMemberDuo__Meta-s9kjazo-1 gzvJxw"
+          class="TeamMember__Location-ahjagd-2 jnAMTb"
+          data-test="team-member-location"
+        >
+          Stockholm
+        </div>
+        <div
+          class="TeamMember__AvatarWrap-ahjagd-3 eERYRm"
         >
           <div
-            class="TeamMemberDuo__MetaSection-s9kjazo-3 XeOZD"
-          >
-            <div
-              class="TeamMemberDuo__Title-s9kjazo-2 dFgPDl"
-            >
-              Cookie master
-            </div>
-            <div>
-              New York
-            </div>
-          </div>
-          <div
-            class="TeamMemberDuo__Title-s9kjazo-2 dFgPDl"
-          >
-            Cookie M
-          </div>
-          <div>
-            0701234567
-          </div>
-          <a
-            class="NativeLink-s1qo6rwq-0 jNinQt"
-            href="mailto:cm@sesame.com"
-          >
-            cm@sesame.com
-          </a>
+            style="height: 226px;"
+            class="lazyload-placeholder"
+          />
         </div>
+        <div
+          class="TeamMember__Title-ahjagd-1 eWbIRQ"
+        >
+          Cookie M
+        </div>
+        <a
+          class="NativeLink-s1qo6rwq-0 jNinQt"
+          href="mailto:cm@sesame.com"
+        >
+          cm@sesame.com
+        </a>
+      </div>
+      <div
+        class="TeamMember__Colleague-ahjagd-0 jsoPzM"
+      >
+        <div
+          class="TeamMember__Title-ahjagd-1 eWbIRQ"
+        >
+          1 ahahah
+        </div>
+        <div
+          class="TeamMember__Location-ahjagd-2 jnAMTb"
+          data-test="team-member-location"
+        >
+          Göteborg
+        </div>
+        <div
+          class="TeamMember__AvatarWrap-ahjagd-3 eERYRm"
+        >
+          <div
+            style="height: 226px;"
+            class="lazyload-placeholder"
+          />
+        </div>
+        <div
+          class="TeamMember__Title-ahjagd-1 eWbIRQ"
+        >
+          Count van Count
+        </div>
+        <a
+          class="NativeLink-s1qo6rwq-0 jNinQt"
+          href="mailto:count@sesame.com"
+        >
+          count@sesame.com
+        </a>
       </div>
     </div>
   </div>

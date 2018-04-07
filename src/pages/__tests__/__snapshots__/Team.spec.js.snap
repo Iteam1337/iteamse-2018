@@ -1,0 +1,359 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Team renders Team 1`] = `
+<div>
+  <div
+    style="height: 700px;"
+    class="lazyload-placeholder"
+  />
+  <div
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD ikGgaF"
+  >
+    <div
+      class="s3nsc5b-0-PaddedRow-hWTqUj gztodZ"
+    >
+      <div
+        class="Filter__Wrap-s16ccbkk-0 evelsV"
+        data-test="filter-"
+        tabindex="0"
+      >
+        Alla
+      </div>
+      <div
+        class="Filter__Wrap-s16ccbkk-0 lgKsfF"
+        data-test="filter-Stockholm"
+        tabindex="0"
+      >
+        Stockholm
+      </div>
+      <div
+        class="Filter__Wrap-s16ccbkk-0 lgKsfF"
+        data-test="filter-Göteborg"
+        tabindex="0"
+      >
+        Göteborg
+      </div>
+    </div>
+    <div
+      class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD tjXoD"
+    >
+      <div
+        class="TeamMembers__Members-gavpkf-0 fuDfYD"
+      >
+        <div
+          class="TeamPageMember__Colleague-s1ndkn07-0 bbOPRB"
+        >
+          <div
+            class="TeamPageMember__AvatarWrap-s1ndkn07-3 dufFQn"
+          >
+            <div
+              style="height: 226px;"
+              class="lazyload-placeholder"
+            />
+          </div>
+          <div
+            class="TeamPageMember__Name-s1ndkn07-2 kqwnJE"
+          >
+            Cookie M
+          </div>
+          <div
+            class="TeamPageMember__Title-s1ndkn07-1 eNodBS"
+          >
+            Cookie master
+          </div>
+          0701234567
+          <a
+            class="NativeLink-s1qo6rwq-0 jNinQt"
+            href="mailto:cm@sesame.com"
+          >
+            cm@sesame.com
+          </a>
+        </div>
+        <div
+          class="TeamPageMember__Colleague-s1ndkn07-0 bbOPRB"
+        >
+          <div
+            class="TeamPageMember__AvatarWrap-s1ndkn07-3 dufFQn"
+          >
+            <div
+              style="height: 226px;"
+              class="lazyload-placeholder"
+            />
+          </div>
+          <div
+            class="TeamPageMember__Name-s1ndkn07-2 kqwnJE"
+          >
+            Count van Count
+          </div>
+          <div
+            class="TeamPageMember__Title-s1ndkn07-1 eNodBS"
+          >
+            1 ahahah
+          </div>
+          0707654321
+          <a
+            class="NativeLink-s1qo6rwq-0 jNinQt"
+            href="mailto:count@sesame.com"
+          >
+            count@sesame.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`components/Team should handle changing location using keyboard 1`] = `
+<div>
+  <div
+    style="height: 700px;"
+    class="lazyload-placeholder"
+  />
+  <div
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD ikGgaF"
+  >
+    <div
+      class="s3nsc5b-0-PaddedRow-hWTqUj gztodZ"
+    >
+      <div
+        class="Filter__Wrap-s16ccbkk-0 lgKsfF"
+        data-test="filter-"
+        tabindex="0"
+      >
+        Alla
+      </div>
+      <div
+        class="Filter__Wrap-s16ccbkk-0 lgKsfF"
+        data-test="filter-Stockholm"
+        tabindex="0"
+      >
+        Stockholm
+      </div>
+      <div
+        class="Filter__Wrap-s16ccbkk-0 evelsV"
+        data-test="filter-Göteborg"
+        tabindex="0"
+      >
+        Göteborg
+      </div>
+    </div>
+    <div
+      class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD tjXoD"
+    >
+      <div
+        class="TeamMembers__Members-gavpkf-0 fuDfYD"
+      >
+        <div
+          class="TeamPageMember__Colleague-s1ndkn07-0 bbOPRB"
+        >
+          <div
+            class="TeamPageMember__AvatarWrap-s1ndkn07-3 dufFQn"
+          >
+            <div
+              style="height: 226px;"
+              class="lazyload-placeholder"
+            />
+          </div>
+          <div
+            class="TeamPageMember__Name-s1ndkn07-2 kqwnJE"
+          >
+            Count van Count
+          </div>
+          <div
+            class="TeamPageMember__Title-s1ndkn07-1 eNodBS"
+          >
+            1 ahahah
+          </div>
+          0707654321
+          <a
+            class="NativeLink-s1qo6rwq-0 jNinQt"
+            href="mailto:count@sesame.com"
+          >
+            count@sesame.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`components/Team should handle changing location using mouse 1`] = `
+<div>
+  <div
+    style="height: 700px;"
+    class="lazyload-placeholder"
+  />
+  <div
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD ikGgaF"
+  >
+    <div
+      class="s3nsc5b-0-PaddedRow-hWTqUj gztodZ"
+    >
+      <div
+        class="Filter__Wrap-s16ccbkk-0 lgKsfF"
+        data-test="filter-"
+        tabindex="0"
+      >
+        Alla
+      </div>
+      <div
+        class="Filter__Wrap-s16ccbkk-0 evelsV"
+        data-test="filter-Stockholm"
+        tabindex="0"
+      >
+        Stockholm
+      </div>
+      <div
+        class="Filter__Wrap-s16ccbkk-0 lgKsfF"
+        data-test="filter-Göteborg"
+        tabindex="0"
+      >
+        Göteborg
+      </div>
+    </div>
+    <div
+      class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD tjXoD"
+    >
+      <div
+        class="TeamMembers__Members-gavpkf-0 fuDfYD"
+      >
+        <div
+          class="TeamPageMember__Colleague-s1ndkn07-0 bbOPRB"
+        >
+          <div
+            class="TeamPageMember__AvatarWrap-s1ndkn07-3 dufFQn"
+          >
+            <div
+              style="height: 226px;"
+              class="lazyload-placeholder"
+            />
+          </div>
+          <div
+            class="TeamPageMember__Name-s1ndkn07-2 kqwnJE"
+          >
+            Cookie M
+          </div>
+          <div
+            class="TeamPageMember__Title-s1ndkn07-1 eNodBS"
+          >
+            Cookie master
+          </div>
+          0701234567
+          <a
+            class="NativeLink-s1qo6rwq-0 jNinQt"
+            href="mailto:cm@sesame.com"
+          >
+            cm@sesame.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`components/Team should not change using keyboard if not enter or space key 1`] = `
+<div>
+  <div
+    style="height: 700px;"
+    class="lazyload-placeholder"
+  />
+  <div
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD ikGgaF"
+  >
+    <div
+      class="s3nsc5b-0-PaddedRow-hWTqUj gztodZ"
+    >
+      <div
+        class="Filter__Wrap-s16ccbkk-0 evelsV"
+        data-test="filter-"
+        tabindex="0"
+      >
+        Alla
+      </div>
+      <div
+        class="Filter__Wrap-s16ccbkk-0 lgKsfF"
+        data-test="filter-Stockholm"
+        tabindex="0"
+      >
+        Stockholm
+      </div>
+      <div
+        class="Filter__Wrap-s16ccbkk-0 lgKsfF"
+        data-test="filter-Göteborg"
+        tabindex="0"
+      >
+        Göteborg
+      </div>
+    </div>
+    <div
+      class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD tjXoD"
+    >
+      <div
+        class="TeamMembers__Members-gavpkf-0 fuDfYD"
+      >
+        <div
+          class="TeamPageMember__Colleague-s1ndkn07-0 bbOPRB"
+        >
+          <div
+            class="TeamPageMember__AvatarWrap-s1ndkn07-3 dufFQn"
+          >
+            <div
+              style="height: 226px;"
+              class="lazyload-placeholder"
+            />
+          </div>
+          <div
+            class="TeamPageMember__Name-s1ndkn07-2 kqwnJE"
+          >
+            Cookie M
+          </div>
+          <div
+            class="TeamPageMember__Title-s1ndkn07-1 eNodBS"
+          >
+            Cookie master
+          </div>
+          0701234567
+          <a
+            class="NativeLink-s1qo6rwq-0 jNinQt"
+            href="mailto:cm@sesame.com"
+          >
+            cm@sesame.com
+          </a>
+        </div>
+        <div
+          class="TeamPageMember__Colleague-s1ndkn07-0 bbOPRB"
+        >
+          <div
+            class="TeamPageMember__AvatarWrap-s1ndkn07-3 dufFQn"
+          >
+            <div
+              style="height: 226px;"
+              class="lazyload-placeholder"
+            />
+          </div>
+          <div
+            class="TeamPageMember__Name-s1ndkn07-2 kqwnJE"
+          >
+            Count van Count
+          </div>
+          <div
+            class="TeamPageMember__Title-s1ndkn07-1 eNodBS"
+          >
+            1 ahahah
+          </div>
+          0707654321
+          <a
+            class="NativeLink-s1qo6rwq-0 jNinQt"
+            href="mailto:count@sesame.com"
+          >
+            count@sesame.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Navigation handle hover of about page 1`] = `
+Object {
+  "query": Array [
+    "
+  query AboutPage {
+    pageAboutUs {
+      headerImage
+      headerText1
+      headerText2
+      headerTextBgColor
+      funText
+      funTitle
+      goodText
+      goodTitle
+      stabilityText
+      stabilityTitle
+      valueText
+      valueTitle
+    }
+  }
+",
+  ],
+}
+`;
+
+exports[`components/Navigation handle hover of how we work 1`] = `
+Object {
+  "query": Array [
+    "
+  query HowWeWorkPage {
+    pageHowWeWork {
+      headerImage
+      headerText1
+      headerText2
+      headerTextBgColor
+      customersText
+      customersTitle
+      hiringTitle
+      methodText
+      methodTitle
+      sharingText
+      sharingTitle
+      teamText
+      teamTitle
+    }
+  }
+",
+  ],
+}
+`;
+
+exports[`components/Navigation handle hover of logo 1`] = `
+Object {
+  "query": Array [
+    "
+  query HomePage {
+    pageStart {
+      headerImage
+      headerText1
+      headerText2
+      headerTextBgColor
+      codeText
+      codeTitle
+      cultureText
+      cultureTitle
+      strategyText
+      strategyTitle
+    }
+  }
+",
+  ],
+}
+`;
+
+exports[`components/Navigation handle hover of operations 1`] = `
+Object {
+  "query": Array [
+    "
+  query OperationsPage {
+    pageOps {
+      headerImage
+      headerText1
+      headerText2
+      headerTextBgColor
+      aboutText
+      aboutTitle
+      contentImage
+      hardwareText
+      hardwareTitle
+      networkText
+      networkTitle
+      softwareText
+      softwareTitle
+    }
+  }
+",
+  ],
+}
+`;
+
+exports[`components/Navigation handle hover of our projects 1`] = `
+Object {
+  "query": Array [
+    "
+  query CasesPage {
+    pageCases {
+      headerImage
+      headerText1
+      headerText2
+      headerTextBgColor
+    }
+    cases {
+      location
+      shortDescription
+      slug
+      thumbnailImage
+      title
+    }
+  }
+",
+  ],
+}
+`;
+
+exports[`components/Navigation handle hover of the team page 1`] = `
+Object {
+  "query": Array [
+    "
+  query TeamPage {
+    pageTeam {
+      headerImage
+      headerText1
+      headerText2
+      headerTextBgColor
+    }
+    team {
+      avatar
+      email
+      gravatar
+      location
+      name
+      phoneNumber
+      title
+    }
+  }
+",
+  ],
+}
+`;
+
+exports[`components/Navigation handle hover of work with us 1`] = `
+Object {
+  "query": Array [
+    "
+  query WorkPage {
+    pageWork {
+      headerImage
+      headerText1
+      headerText2
+      headerTextBgColor
+    }
+    openpositions {
+      id
+      location
+      role
+      title
+    }
+  }
+",
+  ],
+}
+`;

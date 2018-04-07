@@ -65,7 +65,15 @@
       "!**/__generated__/**",
       "!**/__fixtures__/**",
       "!**/typings/**",
-      "!src/utils/test-utils/**"
+      "!src/utils/test-utils/**",
+      "!src/client.js",
+      "!src/server.js",
+      "!src/index.js",
+      "!src/ApolloSetup.js",
+      "!src/Html.js",
+      "!src/ScrollToTop.js",
+      "!src/setupTests.js",
+      "!src/theme.js"
     ],
     "coverageThreshold": {
       "global": {

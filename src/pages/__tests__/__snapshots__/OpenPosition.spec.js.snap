@@ -1,0 +1,392 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/OpenPosition renders OpenPosition 1`] = `
+<div>
+  <div
+    style="height: 700px;"
+    class="lazyload-placeholder"
+  />
+  <div
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD ikGgaF"
+  >
+    <div
+      class="s3nsc5b-0-PaddedRow-hWTqUj eoUcyC"
+      data-test="breadcrumbs"
+    >
+      <span>
+        Din roll
+      </span>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        data-test="block-"
+      >
+        <div
+          class="Block__Content-jdahsb-0 eIdLjk"
+        >
+          <div
+            class="Block__TitleWrap-jdahsb-1 dkYDLt"
+          >
+            <h3
+              class="H3-s19jy0q4-0 cqQxoo"
+            >
+              Din roll
+            </h3>
+          </div>
+          <div
+            class="Block__Text-jdahsb-3 bdZkSQ"
+          >
+            <div
+              class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
+            >
+              <div>
+                <p>
+                  Som UX designer på Iteam är din roll att hjälpa våra kunder med digitala lösningar som skapar värde på riktigt. Som gör något bra både för kunden, slutanvändaren och samhället. Med hjälp av olika researchmetoder undersöker du både användarens och kundens behov och kontext, samt definierar och testar användarupplevelser.
+                </p>
+                <p>
+                  Du delar med dig av din kunskap inom user experience. Du förstår också att om lösningar ska vara verkligt användarvänliga behöver även arbetsprocesserna och kulturen vara användarcentrerad. Vi strävar mot att UX aldrig ska få vara bara en fas eller en eftertanke. Det ska genomsyra hela projektet. Alltid. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        data-test="block-"
+      >
+        <div
+          class="Block__Content-jdahsb-0 eIdLjk"
+        >
+          <div
+            class="Block__TitleWrap-jdahsb-1 dkYDLt"
+          >
+            <h3
+              class="H3-s19jy0q4-0 cqQxoo"
+            >
+              Du behöver kunna
+            </h3>
+          </div>
+          <div
+            class="Block__Text-jdahsb-3 bdZkSQ"
+          >
+            <div
+              class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
+            >
+              <div>
+                <ul>
+                  <li>
+                    Kvalitativa researchmetoder (t.ex. användbarhetstester, observationer, intervjuer och workshops)
+                  </li>
+                  <li>
+                    Kommunicera dina insikter med hjälp av lämpliga leverabler (t.ex. rapporter, användarresor, prototyper eller skrynkliga pappersskisser)
+                  </li>
+                  <li>
+                    Interaktionsdesign
+                  </li>
+                  <li>
+                    Vara användarens representant i projekt och stötta både kollegor och kunder med användarens perspektiv
+                  </li>
+                  <li>
+                    Jobba agilt
+                  </li>
+                  <li>
+                    Arbeta korsfunktionellt och förstå behoven hos kollegor ur andra yrkesgrupper
+                  </li>
+                  <li>
+                    Goda kunskaper i engelska (för att kunna kommincera med dina kollegor)
+                  </li>
+                  <li>
+                    Goda kunskaper i svenska (för att kunna genomföra användarstudier i kontexter där det primära användarspråket är svenska)
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        data-test="block-"
+      >
+        <div
+          class="Block__Content-jdahsb-0 eIdLjk"
+        >
+          <div
+            class="Block__TitleWrap-jdahsb-1 dkYDLt"
+          >
+            <h3
+              class="H3-s19jy0q4-0 cqQxoo"
+            >
+              Plus i kanten
+            </h3>
+          </div>
+          <div
+            class="Block__Text-jdahsb-3 bdZkSQ"
+          >
+            <div
+              class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
+            >
+              <div>
+                <ul>
+                  <li>
+                    Kvantitativa researchmetoder (t.ex. enkäter och användningsdata i Google Analytics)
+                  </li>
+                  <li>
+                    Förståelse för den tekniska miljö dina lösningar kommer att implementeras i (t.ex. grundläggande HTML och CSS)
+                  </li>
+                  <li>
+                    Utbildning inom interaktionsdesign, människa-datorinteraktion, beteendevetenskap, kognitionspsykologi, digital design eller närliggande område
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      class="ImageBleed__ImageContainer-vnhpmd-0 fRWLkh"
+      src="//images.ctfassets.net/rj4r6yfcesw5/62hgzE8G3ueMa2YSEuG4og/db2b643db6041f9d26936bc2d6006607/bleed_howwework.jpg"
+    />
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        data-test="block-"
+      >
+        <div
+          class="Block__Content-jdahsb-0 eIdLjk"
+        >
+          <div
+            class="Block__TitleWrap-jdahsb-1 dkYDLt"
+          >
+            <h3
+              class="H3-s19jy0q4-0 cqQxoo"
+            >
+              Om oss
+            </h3>
+          </div>
+          <div
+            class="Block__Text-jdahsb-3 bdZkSQ"
+          >
+            <div
+              class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
+            >
+              <div>
+                <p>
+                  Vi digitaliserar företag och organisationer genom strategi, kod och kultur. Med hjälp av de tre bitarna skapar vi innovativa tekniska lösningar som skapar värde, gör något bra för samhället och låter oss ha roligt längs vägen.
+                </p>
+                <p>
+                  Våra kunder har spännande utmaningar både tekniskt och affärsmässigt, och stor potential att göra skillnad inom sina områden. Vi jobbar bland annat med Taxi Stockholm, Vimla, Läkare utan gränser och Arbetsförmedlingen.
+                </p>
+                <p>
+                  Vi är ca 30 personer fördelade i Stockholm och Göteborg. Hos oss tar du av dig skorna vid dörren och känner dig som hemma. Vi lär oss ständigt nya saker av varandra - genom mentorskap, utbyte inom projekt, måndagsfrukostar, kodlunch eller under labbtimmarna. Vi har kul tillsammans och tar hand om varandra i vardagen, löparspåret, på yogamattan, spelkvällar, after works och vid andra speciella tillfällen. Vi arbetar aktivt för att sätta ihop team med så varierande och kompletterande bakgrund som möjligt – oavsett om det gäller kön, könsidentitet och -uttryck, etnisk tillhörighet, religion och trosuppfattning, funktionalitet, sexuell läggning, ålder, utbildning eller social bakgrund. Våra team är alltid korsfunktionella. Alltid agila. Alltid nära beställaren, deras anställda, användare och intressenter.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        data-test="block-"
+      >
+        <div
+          class="Block__Content-jdahsb-0 eIdLjk"
+        >
+          <div
+            class="Block__TitleWrap-jdahsb-1 dkYDLt"
+          >
+            <h3
+              class="H3-s19jy0q4-0 cqQxoo"
+            >
+              Teknikaliteter
+            </h3>
+          </div>
+          <div
+            class="Block__Text-jdahsb-3 bdZkSQ"
+          >
+            <div
+              class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
+            >
+              <div>
+                <p>
+                  <strong>
+                    Några av våra kunder:
+                  </strong>
+                  Taxi Stockholm, Vimla, Swedbank, Läkare Utan Gränser, Arbetsförmedlningen, Alcro Beckers, Scania, SoundIdeas.
+                </p>
+                <p>
+                  <strong>
+                    Anställningsform:
+                  </strong>
+                  Tillsvidareanställning. 6 månaders provanställning, sedan fast anställning.
+                </p>
+                <p>
+                  <strong>
+                    Plats:
+                  </strong>
+                  Stockholm.
+                </p>
+                <p>
+                  <strong>
+                    Start:
+                  </strong>
+                  Omgående.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        data-test="block-"
+      >
+        <div
+          class="Block__Content-jdahsb-0 eIdLjk"
+        >
+          <div
+            class="Block__TitleWrap-jdahsb-1 dkYDLt"
+          >
+            <h3
+              class="H3-s19jy0q4-0 cqQxoo"
+            >
+              Ansökan
+            </h3>
+          </div>
+          <div
+            class="Block__Text-jdahsb-3 bdZkSQ"
+          >
+            <div
+              class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
+            >
+              <div>
+                <p>
+                  Maila CV, personligt brev och beskrivning av ett case till: 
+                  <a
+                    href="mailto:work@iteam.se"
+                  >
+                    work@iteam.se
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD dHdzVv"
+  >
+    <div
+      class="TeamMembers__Members-gavpkf-0 fuDfYD"
+    >
+      <div
+        class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
+      >
+        <div
+          style="height: 226px;"
+          class="lazyload-placeholder"
+        />
+        <div
+          class="TeamMemberDuo__Meta-s9kjazo-1 gzvJxw"
+        >
+          <div
+            class="TeamMemberDuo__MetaSection-s9kjazo-3 XeOZD"
+          >
+            <div
+              class="TeamMemberDuo__Title-s9kjazo-2 dFgPDl"
+            >
+              Cookie master
+            </div>
+            <div>
+              Stockholm
+            </div>
+          </div>
+          <div
+            class="TeamMemberDuo__Title-s9kjazo-2 dFgPDl"
+          >
+            Cookie M
+          </div>
+          <div>
+            0701234567
+          </div>
+          <a
+            class="NativeLink-s1qo6rwq-0 jNinQt"
+            href="mailto:cm@sesame.com"
+          >
+            cm@sesame.com
+          </a>
+        </div>
+      </div>
+      <div
+        class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
+      >
+        <div
+          style="height: 226px;"
+          class="lazyload-placeholder"
+        />
+        <div
+          class="TeamMemberDuo__Meta-s9kjazo-1 gzvJxw"
+        >
+          <div
+            class="TeamMemberDuo__MetaSection-s9kjazo-3 XeOZD"
+          >
+            <div
+              class="TeamMemberDuo__Title-s9kjazo-2 dFgPDl"
+            >
+              1 ahahah
+            </div>
+            <div>
+              Göteborg
+            </div>
+          </div>
+          <div
+            class="TeamMemberDuo__Title-s9kjazo-2 dFgPDl"
+          >
+            Count van Count
+          </div>
+          <div>
+            0707654321
+          </div>
+          <a
+            class="NativeLink-s1qo6rwq-0 jNinQt"
+            href="mailto:count@sesame.com"
+          >
+            count@sesame.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
