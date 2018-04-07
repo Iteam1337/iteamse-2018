@@ -6,12 +6,15 @@ import { ApolloProvider } from 'react-apollo'
 import { client } from './ApolloSetup'
 import { ThemeProvider } from 'styled-components'
 import { theme } from './theme'
+import ScrollToTop from './ScrollToTop'
 
 hydrate(
   <ApolloProvider client={client}>
     <ThemeProvider theme={theme}>
       <BrowserRouter>
-        <App />
+        <ScrollToTop>
+          <App />
+        </ScrollToTop>
       </BrowserRouter>
     </ThemeProvider>
   </ApolloProvider>,
