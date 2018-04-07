@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Footer renders Footer 1`] = `
+<div>
+  <div
+    class="GridColumn__GridColumnClean-lcQAdD cQDRoU"
+  >
+    <div
+      class="Footer__FooterSections-xtla5m-0 kwZzbT"
+    >
+      <div
+        class="Location__Wrap-s1et3i43-0 gDiDVe"
+      >
+        <div
+          class="Location__Title-s1et3i43-1 hOnjvR"
+        >
+          Iteam Göteborg
+        </div>
+        <div
+          class="Location__Address-s1et3i43-2 bVugku"
+        >
+          <ul
+            class="UnstyledList-s1ntpurm-0 gEDRFE"
+          >
+            <li>
+              Haga Kyrkogata 28
+            </li>
+            <li>
+              411 23
+              Göteborg
+            </li>
+          </ul>
+        </div>
+        <ul
+          class="UnstyledList-s1ntpurm-0 gEDRFE"
+        >
+          <li>
+            +46 734 029 112
+          </li>
+          <li>
+            johanna.grahn@iteam.se
+          </li>
+          <li>
+            ORG: 
+            556551-6928
+          </li>
+        </ul>
+      </div>
+      <div
+        class="Location__Wrap-s1et3i43-0 gDiDVe"
+      >
+        <div
+          class="Location__Title-s1et3i43-1 hOnjvR"
+        >
+          Iteam Stockholm
+        </div>
+        <div
+          class="Location__Address-s1et3i43-2 bVugku"
+        >
+          <ul
+            class="UnstyledList-s1ntpurm-0 gEDRFE"
+          >
+            <li>
+              Östermalmsgatan 26A
+            </li>
+            <li>
+              114 26
+              Stockholm
+            </li>
+          </ul>
+        </div>
+        <ul
+          class="UnstyledList-s1ntpurm-0 gEDRFE"
+        >
+          <li>
+            +46 826 70 90
+          </li>
+          <li>
+            info@iteam.se
+          </li>
+          <li>
+            ORG: 
+            556551-6928
+          </li>
+        </ul>
+      </div>
+      <div
+        class="Footer__SocialMedia-xtla5m-2 fltlKn"
+      >
+        <div
+          class="Footer__Title-xtla5m-1 hAElLH"
+        >
+          Följ oss
+        </div>
+        <ul
+          class="UnstyledList-s1ntpurm-0 gEDRFE"
+        >
+          <div
+            class="Footer__SocialMediaItem-xtla5m-3 eUeiui"
+          >
+            <img
+              class="Footer__SocialMediaIcon-xtla5m-4 bRvQuN"
+              src="icon_fb.svg"
+              alt=""
+            />
+            <a
+              class="NativeLink-s1qo6rwq-0 jNinQt"
+              href="https://www.facebook.com/iteam1337/"
+            >
+              Facebook
+            </a>
+          </div>
+          <div
+            class="Footer__SocialMediaItem-xtla5m-3 eUeiui"
+          >
+            <img
+              class="Footer__SocialMediaIcon-xtla5m-4 bRvQuN"
+              src="icon_instagram.svg"
+              alt=""
+            />
+            <a
+              class="NativeLink-s1qo6rwq-0 jNinQt"
+              href="https://instagram.com/iteam1337"
+            >
+              Instagram
+            </a>
+          </div>
+          <div
+            class="Footer__SocialMediaItem-xtla5m-3 eUeiui"
+          >
+            <img
+              class="Footer__SocialMediaIcon-xtla5m-4 bRvQuN"
+              src="icon_linkedin.svg"
+              alt=""
+            />
+            <a
+              class="NativeLink-s1qo6rwq-0 jNinQt"
+              href="https://www.linkedin.com/company/270569/"
+            >
+              LinkedIn
+            </a>
+          </div>
+          <div
+            class="Footer__SocialMediaItem-xtla5m-3 eUeiui"
+          >
+            <img
+              class="Footer__SocialMediaIcon-xtla5m-4 bRvQuN"
+              src="icon_youtube.svg"
+              alt=""
+            />
+            <a
+              class="NativeLink-s1qo6rwq-0 jNinQt"
+              href="https://www.youtube.com/channel/UCU2TdLZ7p0jEuuGUxaod4lw"
+            >
+              YouTube
+            </a>
+          </div>
+          <div
+            class="Footer__SocialMediaItem-xtla5m-3 eUeiui"
+          >
+            <img
+              class="Footer__SocialMediaIcon-xtla5m-4 bRvQuN"
+              src="icon_mynewsdesk.svg"
+              alt=""
+            />
+            <a
+              class="NativeLink-s1qo6rwq-0 jNinQt"
+              href="http://www.mynewsdesk.com/se/iteam"
+            >
+              MyNewsDesk
+            </a>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;

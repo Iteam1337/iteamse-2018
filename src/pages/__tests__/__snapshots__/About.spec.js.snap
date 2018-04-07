@@ -1,0 +1,216 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/About renders About 1`] = `
+<div>
+  <div
+    style="height: 700px;"
+    class="lazyload-placeholder"
+  />
+  <div
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD ikGgaF"
+  >
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        data-test="block-"
+      >
+        <div
+          class="Block__Content-jdahsb-0 eIdLjk"
+        >
+          <div
+            class="Block__TitleWrap-jdahsb-1 dkYDLt"
+          >
+            <h3
+              class="H3-s19jy0q4-0 cqQxoo"
+            >
+              Skapa värde
+            </h3>
+          </div>
+          <div
+            class="Block__Text-jdahsb-3 bdZkSQ"
+          >
+            <div
+              class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
+            >
+              <div>
+                <p>
+                  Vi ger dig det du behöver. Även när du tror du behöver något annat. Det kan låta kaxigt men vi vet att många företag och organisationer ofta blandar ihop det som är bråttom med det som är viktigt. Vi hjälper dig att fokusera på det som är viktigt och som skapar värde för dig och dina kunder.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        data-test="block-"
+      >
+        <div
+          class="Block__Content-jdahsb-0 eIdLjk"
+        >
+          <div
+            class="Block__TitleWrap-jdahsb-1 dkYDLt"
+          >
+            <h3
+              class="H3-s19jy0q4-0 cqQxoo"
+            >
+              Ha kul
+            </h3>
+          </div>
+          <div
+            class="Block__Text-jdahsb-3 bdZkSQ"
+          >
+            <div
+              class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
+            >
+              <div>
+                <p>
+                  Vi utvecklar din tjänst tillsammans med dig. Det blir mycket bättre så. Och roligare. För oss är det viktigt att ha kul. Därför väljer vi uppdrag med omsorg. Det blir liksom ett löfte till våra kunder: “Vi lovar att bara jobba med dig så länge vi tycker det är kul och brinner för det du gör”. Det lovar vi därför att då blir resultatet bättre.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ImageBlock__Content-z1m3xf-0 gvUfre"
+    >
+      <img
+        class="ImageBlock__ImageContainer-z1m3xf-1 kfYBxS"
+        src="block_aboutus.png"
+      />
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        data-test="block-"
+      >
+        <div
+          class="Block__Content-jdahsb-0 eIdLjk"
+        >
+          <div
+            class="Block__TitleWrap-jdahsb-1 dkYDLt"
+          >
+            <h3
+              class="H3-s19jy0q4-0 cqQxoo"
+            >
+              Göra något bra
+            </h3>
+          </div>
+          <div
+            class="Block__Text-jdahsb-3 bdZkSQ"
+          >
+            <div
+              class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
+            >
+              <div>
+                <p>
+                  Teknik ska vara tillgänglig för alla. Teknik ska göra gott. Därför väljer vi kunder där vi tror att vi kan göra något bra och där vi kan göra skillnad. Det betyder också att om vi jobbar ihop så tror vi 100% på din tjänst.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      class="ImageBleed__ImageContainer-vnhpmd-0 fRWLkh"
+      src="bleed_aboutus.jpg"
+    />
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        data-test="block-"
+      >
+        <div
+          class="Block__Content-jdahsb-0 eIdLjk"
+        >
+          <div
+            class="Block__TitleWrap-jdahsb-1 dkYDLt"
+          >
+            <h3
+              class="H3-s19jy0q4-0 cqQxoo"
+            >
+              Vi står stabilt
+            </h3>
+          </div>
+          <div
+            class="Block__Text-jdahsb-3 bdZkSQ"
+          >
+            <div
+              class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
+            >
+              <div>
+                <p>
+                  Löksås ipsum plats upprätthållande från sorgliga se, denna precis från brunsås strand år dock, stig färdväg genom äng varit. Erfarenheter regn groda tidigare trevnadens hwila ännu dimma kunde mjuka sällan, oss genom tidigare annat sista stora tid plats inom.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD dHdzVv"
+  >
+    <div
+      class="TeamMembers__Members-gavpkf-0 fuDfYD"
+    >
+      <div
+        class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
+      >
+        <div
+          style="height: 226px;"
+          class="lazyload-placeholder"
+        />
+        <div
+          class="TeamMemberDuo__Meta-s9kjazo-1 gzvJxw"
+        >
+          <div
+            class="TeamMemberDuo__MetaSection-s9kjazo-3 XeOZD"
+          >
+            <div
+              class="TeamMemberDuo__Title-s9kjazo-2 dFgPDl"
+            >
+              Cookie master
+            </div>
+            <div>
+              New York
+            </div>
+          </div>
+          <div
+            class="TeamMemberDuo__Title-s9kjazo-2 dFgPDl"
+          >
+            Cookie M
+          </div>
+          <div>
+            0701234567
+          </div>
+          <a
+            class="NativeLink-s1qo6rwq-0 jNinQt"
+            href="mailto:cm@sesame.com"
+          >
+            cm@sesame.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -55,7 +55,7 @@ const Hamburger = styled.div`
 
 const MenuButton = ({ open, toggle }: Props) => {
   return (
-    <Button data-test="btn-mobile-menu" onClick={toggle}>
+    <Button data-testid="btn-mobile-menu" onClick={toggle}>
       <Hamburger open={open}>
         <Bar />
         <Bar />

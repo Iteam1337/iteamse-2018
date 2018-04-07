@@ -1,0 +1,358 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders App 1`] = `
+<div>
+  <div
+    style="height: 700px;"
+    class="lazyload-placeholder"
+  />
+  <div
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD ikGgaF"
+  >
+    <div
+      class="Home__Content-s15fccpq-0 fmYNJk"
+    >
+      <img
+        class="Home__StylizedIteam-s15fccpq-3 gyjCqw"
+        src="iteam_stylized.png"
+        alt=""
+      />
+      <div
+        class="Home__Texts-s15fccpq-1 eCpoTV"
+      >
+        <div
+          class="Home__TextBlock-s15fccpq-2 jodzPN"
+        >
+          <h1
+            class="H1-x5hh3k-0 fsdjyK"
+          />
+          <div
+            class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
+          >
+            <div />
+          </div>
+          <img
+            class="Home__CompanyLogo-s15fccpq-4 hcZyvJ"
+            src="logo_af.png"
+            alt=""
+          />
+          <a
+            class="Link__StyledLink-kqcp4a-0 dzFnFw"
+            href="/case/arbetsformedlingen"
+          >
+            Läs om hur vi hjälper Arbetsförmedlingen med kod
+          </a>
+        </div>
+        <div
+          class="Home__TextBlock-s15fccpq-2 jodzPN"
+        >
+          <h1
+            class="H1-x5hh3k-0 fsdjyK"
+          />
+          <div
+            class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
+          >
+            <div />
+          </div>
+          <img
+            class="Home__CompanyLogo-s15fccpq-4 hcZyvJ"
+            src="logo_tsab.png"
+            alt=""
+          />
+          <a
+            class="Link__StyledLink-kqcp4a-0 dzFnFw"
+            href="/case/tsab"
+          >
+            Läs om hur vi hjälper Taxi Stockholm med strategi
+          </a>
+        </div>
+        <div
+          class="Home__TextBlock-s15fccpq-2 jodzPN"
+        >
+          <h1
+            class="H1-x5hh3k-0 fsdjyK"
+          />
+          <div
+            class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
+          >
+            <div />
+          </div>
+          <img
+            class="Home__CompanyLogo-s15fccpq-4 hcZyvJ"
+            src="logo_seb.png"
+            alt=""
+          />
+          <a
+            class="Link__StyledLink-kqcp4a-0 dzFnFw"
+            href="/case/seb"
+          >
+            Läs om hur vi hjälper SEB med kultur
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD wWXKU"
+  >
+    <div
+      class="Operations__Overlay-s1eevg97-0 kOQcOa"
+    />
+    <div
+      class="Operations__Content-s1eevg97-1 fCJEWn"
+    >
+      <h2
+        class="H2-s1x2w9v8-0 jJUQzY"
+      >
+        Visste du att vi även erbjuder drift & support?
+      </h2>
+      <a
+        class="Button-s1kb8b7s-0 bPEEoo"
+        href="/ops"
+      >
+        Iteam Operations
+      </a>
+    </div>
+  </div>
+  <div
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD dGQjgn"
+  >
+    <div
+      class="TeamMembers__Members-gavpkf-0 fuDfYD"
+    >
+      <div
+        class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
+      >
+        <div
+          style="height: 226px;"
+          class="lazyload-placeholder"
+        />
+        <div
+          class="TeamMemberDuo__Meta-s9kjazo-1 gzvJxw"
+        >
+          <div
+            class="TeamMemberDuo__MetaSection-s9kjazo-3 XeOZD"
+          >
+            <div
+              class="TeamMemberDuo__Title-s9kjazo-2 dFgPDl"
+            >
+              Cookie master
+            </div>
+            <div>
+              New York
+            </div>
+          </div>
+          <div
+            class="TeamMemberDuo__Title-s9kjazo-2 dFgPDl"
+          >
+            Cookie M
+          </div>
+          <div>
+            0701234567
+          </div>
+          <a
+            class="NativeLink-s1qo6rwq-0 jNinQt"
+            href="mailto:cm@sesame.com"
+          >
+            cm@sesame.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MobileMenu__Wrap-s128ahbw-0 gexOtz"
+  >
+    <button
+      class="MenuButton__Button-cyy49g-0 xzjBp"
+      data-testid="btn-mobile-menu"
+    >
+      <div
+        class="MenuButton__Hamburger-cyy49g-2 ivvWAI"
+      >
+        <div
+          class="MenuButton__Bar-cyy49g-1 dymejY"
+        />
+        <div
+          class="MenuButton__Bar-cyy49g-1 dymejY"
+        />
+        <div
+          class="MenuButton__Bar-cyy49g-1 dymejY"
+        />
+      </div>
+    </button>
+  </div>
+  <div
+    class="GridColumn__GridColumnClean-lcQAdD cQDRoU"
+  >
+    <div
+      class="Footer__FooterSections-xtla5m-0 kwZzbT"
+    >
+      <div
+        class="Location__Wrap-s1et3i43-0 gDiDVe"
+      >
+        <div
+          class="Location__Title-s1et3i43-1 hOnjvR"
+        >
+          Iteam Göteborg
+        </div>
+        <div
+          class="Location__Address-s1et3i43-2 bVugku"
+        >
+          <ul
+            class="UnstyledList-s1ntpurm-0 gEDRFE"
+          >
+            <li>
+              Haga Kyrkogata 28
+            </li>
+            <li>
+              411 23
+              Göteborg
+            </li>
+          </ul>
+        </div>
+        <ul
+          class="UnstyledList-s1ntpurm-0 gEDRFE"
+        >
+          <li>
+            +46 734 029 112
+          </li>
+          <li>
+            johanna.grahn@iteam.se
+          </li>
+          <li>
+            ORG: 
+            556551-6928
+          </li>
+        </ul>
+      </div>
+      <div
+        class="Location__Wrap-s1et3i43-0 gDiDVe"
+      >
+        <div
+          class="Location__Title-s1et3i43-1 hOnjvR"
+        >
+          Iteam Stockholm
+        </div>
+        <div
+          class="Location__Address-s1et3i43-2 bVugku"
+        >
+          <ul
+            class="UnstyledList-s1ntpurm-0 gEDRFE"
+          >
+            <li>
+              Östermalmsgatan 26A
+            </li>
+            <li>
+              114 26
+              Stockholm
+            </li>
+          </ul>
+        </div>
+        <ul
+          class="UnstyledList-s1ntpurm-0 gEDRFE"
+        >
+          <li>
+            +46 826 70 90
+          </li>
+          <li>
+            info@iteam.se
+          </li>
+          <li>
+            ORG: 
+            556551-6928
+          </li>
+        </ul>
+      </div>
+      <div
+        class="Footer__SocialMedia-xtla5m-2 fltlKn"
+      >
+        <div
+          class="Footer__Title-xtla5m-1 hAElLH"
+        >
+          Följ oss
+        </div>
+        <ul
+          class="UnstyledList-s1ntpurm-0 gEDRFE"
+        >
+          <div
+            class="Footer__SocialMediaItem-xtla5m-3 eUeiui"
+          >
+            <img
+              class="Footer__SocialMediaIcon-xtla5m-4 bRvQuN"
+              src="icon_fb.svg"
+              alt=""
+            />
+            <a
+              class="NativeLink-s1qo6rwq-0 jNinQt"
+              href="https://www.facebook.com/iteam1337/"
+            >
+              Facebook
+            </a>
+          </div>
+          <div
+            class="Footer__SocialMediaItem-xtla5m-3 eUeiui"
+          >
+            <img
+              class="Footer__SocialMediaIcon-xtla5m-4 bRvQuN"
+              src="icon_instagram.svg"
+              alt=""
+            />
+            <a
+              class="NativeLink-s1qo6rwq-0 jNinQt"
+              href="https://instagram.com/iteam1337"
+            >
+              Instagram
+            </a>
+          </div>
+          <div
+            class="Footer__SocialMediaItem-xtla5m-3 eUeiui"
+          >
+            <img
+              class="Footer__SocialMediaIcon-xtla5m-4 bRvQuN"
+              src="icon_linkedin.svg"
+              alt=""
+            />
+            <a
+              class="NativeLink-s1qo6rwq-0 jNinQt"
+              href="https://www.linkedin.com/company/270569/"
+            >
+              LinkedIn
+            </a>
+          </div>
+          <div
+            class="Footer__SocialMediaItem-xtla5m-3 eUeiui"
+          >
+            <img
+              class="Footer__SocialMediaIcon-xtla5m-4 bRvQuN"
+              src="icon_youtube.svg"
+              alt=""
+            />
+            <a
+              class="NativeLink-s1qo6rwq-0 jNinQt"
+              href="https://www.youtube.com/channel/UCU2TdLZ7p0jEuuGUxaod4lw"
+            >
+              YouTube
+            </a>
+          </div>
+          <div
+            class="Footer__SocialMediaItem-xtla5m-3 eUeiui"
+          >
+            <img
+              class="Footer__SocialMediaIcon-xtla5m-4 bRvQuN"
+              src="icon_mynewsdesk.svg"
+              alt=""
+            />
+            <a
+              class="NativeLink-s1qo6rwq-0 jNinQt"
+              href="http://www.mynewsdesk.com/se/iteam"
+            >
+              MyNewsDesk
+            </a>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -23,14 +23,14 @@ const Wrap = styled.div`
   }
 `
 
-class MobileMenu extends React.Component<Props, State> {
+export class MobileMenu extends React.Component<Props, State> {
   props: Props
 
   state = {
     open: false,
   }
 
-  componentDidUpdate (prevProps) {
+  componentDidUpdate (prevProps: Props) {
     if (prevProps.location.pathname !== this.props.location.pathname) {
       this.setState({ open: false })
     }

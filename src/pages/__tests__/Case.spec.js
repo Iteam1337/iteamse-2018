@@ -1,24 +1,30 @@
 import React from 'react'
-import Home from '../Home'
+import Case from '../Case'
 import { render, wait } from 'react-testing-library'
 import MockedQuery from '../../utils/test-utils/MockedQuery'
-import { pageStart } from '../__fixtures__/pageStart'
+import { workCase } from '../__fixtures__/case'
 import { teamMember } from '../__fixtures__/teamMember'
 
-describe('components/Home', () => {
+describe('components/Case', () => {
   const mockedResponse = {
-    pageStart,
+    workCase,
     teamMember,
   }
 
-  it('renders Home', async () => {
+  const match = {
+    params: {
+      slug: 'arbetsformedlingen',
+    },
+  }
+
+  it('renders Case', async () => {
     const { getByText, container } = render(
       <MockedQuery response={mockedResponse}>
-        <Home />
+        <Case match={match} />
       </MockedQuery>
     )
 
-    await wait(() => getByText('iteam'))
+    await wait(() => getByText('Arbetsförmedlingen'))
 
     expect(container).toMatchSnapshot()
   })

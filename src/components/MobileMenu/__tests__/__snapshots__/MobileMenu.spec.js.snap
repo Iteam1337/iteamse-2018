@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/MobileMenu renders MobileMenu and can open it 1`] = `
+<div>
+  <div
+    class="MobileMenu__Wrap-s128ahbw-0 gexOtz"
+  >
+    <div
+      class="MenuNavigation__Menu-s1eq2ki3-1 gckeHw"
+      data-test="mobile-menu"
+    >
+      <div
+        class="MenuNavigation__MenuInner-s1eq2ki3-2 dpFMZh"
+      >
+        <a
+          class="MenuNavigation__StyledLink-s1eq2ki3-0 kmgOwM"
+          aria-current="false"
+          href="/om-oss"
+        >
+          Om oss
+        </a>
+        <a
+          class="MenuNavigation__StyledLink-s1eq2ki3-0 kmgOwM"
+          aria-current="false"
+          href="/hur-vi-jobbar"
+        >
+          Hur vi jobbar
+        </a>
+        <a
+          class="MenuNavigation__StyledLink-s1eq2ki3-0 kmgOwM"
+          aria-current="false"
+          href="/teamet"
+        >
+          Teamet
+        </a>
+        <a
+          class="MenuNavigation__StyledLink-s1eq2ki3-0 kmgOwM"
+          aria-current="false"
+          href="/case"
+        >
+          Våra case
+        </a>
+        <a
+          class="MenuNavigation__StyledLink-s1eq2ki3-0 kmgOwM"
+          aria-current="false"
+          href="/jobba-hos-oss"
+        >
+          Jobba hos oss
+        </a>
+        <a
+          class="MenuNavigation__StyledLink-s1eq2ki3-0 kmgOwM"
+          aria-current="false"
+          href="/ops"
+        >
+          Drift & Support
+        </a>
+      </div>
+    </div>
+    <button
+      class="MenuButton__Button-cyy49g-0 xzjBp"
+      data-testid="btn-mobile-menu"
+    >
+      <div
+        class="MenuButton__Hamburger-cyy49g-2 jNVike"
+        open=""
+      >
+        <div
+          class="MenuButton__Bar-cyy49g-1 dymejY"
+        />
+        <div
+          class="MenuButton__Bar-cyy49g-1 dymejY"
+        />
+        <div
+          class="MenuButton__Bar-cyy49g-1 dymejY"
+        />
+      </div>
+    </button>
+  </div>
+</div>
+`;

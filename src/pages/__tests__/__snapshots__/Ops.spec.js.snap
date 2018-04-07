@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Ops renders Ops 1`] = `
+<div>
+  <div
+    style="height: 700px;"
+    class="lazyload-placeholder"
+  />
+  <div
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD ikGgaF"
+  >
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        data-test="block-"
+      >
+        <div
+          class="Block__Content-jdahsb-0 eIdLjk"
+        >
+          <div
+            class="Block__TitleWrap-jdahsb-1 dkYDLt"
+          >
+            <h3
+              class="H3-s19jy0q4-0 cqQxoo"
+            >
+              Om oss
+            </h3>
+          </div>
+          <div
+            class="Block__Text-jdahsb-3 bdZkSQ"
+          >
+            <div
+              class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
+            >
+              <div>
+                <p>
+                  Operations är namnet på Iteams drift & supportavdelning, sedan 1995 har vi hjälpt våra kunder att göra det de ska göra - utan att vara hindrade av krånglande teknik. Vårt mål är att erbjuda en personlig, professionell service - utan någon “First line” att ta sig förbi.
+                </p>
+                <p>
+                  Vi är inte bundna till någon specifik leverantör av hård- eller mjukvara utan rekommenderar alltid det som är bäst i varje enskilt fall. Beroende på uppdraget har Iteam varit allt från komplett uthyrd IT avdelning till specialisthjälp inom olika områden.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      class="ImageBleed__ImageContainer-vnhpmd-0 fRWLkh"
+      src="//images.ctfassets.net/rj4r6yfcesw5/2CDS7p7sxGw0GyqSwqyQO6/64a78af7e16d70db815cd8677244c5a9/bleed_ops.jpg"
+    />
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        data-test="block-"
+      >
+        <div
+          class="Block__Content-jdahsb-0 eIdLjk"
+        >
+          <div
+            class="Block__TitleWrap-jdahsb-1 dkYDLt"
+          >
+            <h3
+              class="H3-s19jy0q4-0 cqQxoo"
+            >
+              Nätverk
+            </h3>
+          </div>
+          <div
+            class="Block__Text-jdahsb-3 bdZkSQ"
+          >
+            <div
+              class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
+            >
+              <div>
+                <p>
+                  Oavsett om det gäller High Availability med site-to-site VPN eller trådlösa nätverk med 802.1X så kan vi hjälpa dig och ditt företag. Vi är partner och certifierade på svenska leverantören Clavisters brandväggsprodukter. 
+                </p>
+                <p>
+                  Vi använder i huvudsak Ubiquiti Networks nätverksprodukter och är certifierade på produktserien UniFi men har även erfarenhet produkter från Dell, HP/Aruba och Meraki.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        data-test="block-"
+      >
+        <div
+          class="Block__Content-jdahsb-0 eIdLjk"
+        >
+          <div
+            class="Block__TitleWrap-jdahsb-1 dkYDLt"
+          >
+            <h3
+              class="H3-s19jy0q4-0 cqQxoo"
+            >
+              Mjukvara
+            </h3>
+          </div>
+          <div
+            class="Block__Text-jdahsb-3 bdZkSQ"
+          >
+            <div
+              class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
+            >
+              <div>
+                <p>
+                  Som Microsoft Silver Partner hjälper vi er med hela er Windows-miljö, servrar och klienter. Vi automatiserar installation och uppdateringar av mjukvaran ni använder i ert dagliga arbete. Vi har med största sannolikhet erfarenhet av den mjukvara ni använder, ja - även den där som bara funkar i Windows NT på en gammal dator i skamvrån.
+                </p>
+                <p>
+                  PS. Vi är även Red Hat Partner och hjälper er med era Linux-servrar.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        data-test="block-"
+      >
+        <div
+          class="Block__Content-jdahsb-0 eIdLjk"
+        >
+          <div
+            class="Block__TitleWrap-jdahsb-1 dkYDLt"
+          >
+            <h3
+              class="H3-s19jy0q4-0 cqQxoo"
+            >
+              Hårdvara
+            </h3>
+          </div>
+          <div
+            class="Block__Text-jdahsb-3 bdZkSQ"
+          >
+            <div
+              class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
+            >
+              <div>
+                <p>
+                  Iteam har lång erfarenhet av att installera och underhålla redundanta system för virtualisering. Vi är mest hemma i Microsoft Hyper-V kluster men klarar även andra. Vi hjälper dig välja utrustning för just dina behov, vi är märkesoberoende även om vi har våra favoriter. Vi har erfarenhet av arbetsstationer och servrar från bl.a Dell, Lenovo, HP, Supermicro och är certifierade på QSAN för lagringslösningar.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD dGQjgn"
+  >
+    <div
+      class="TeamMembers__Members-gavpkf-0 fuDfYD"
+    >
+      <div
+        class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
+      >
+        <div
+          style="height: 226px;"
+          class="lazyload-placeholder"
+        />
+        <div
+          class="TeamMemberDuo__Meta-s9kjazo-1 gzvJxw"
+        >
+          <div
+            class="TeamMemberDuo__MetaSection-s9kjazo-3 XeOZD"
+          >
+            <div
+              class="TeamMemberDuo__Title-s9kjazo-2 dFgPDl"
+            >
+              Cookie master
+            </div>
+            <div>
+              New York
+            </div>
+          </div>
+          <div
+            class="TeamMemberDuo__Title-s9kjazo-2 dFgPDl"
+          >
+            Cookie M
+          </div>
+          <div>
+            0701234567
+          </div>
+          <a
+            class="NativeLink-s1qo6rwq-0 jNinQt"
+            href="mailto:cm@sesame.com"
+          >
+            cm@sesame.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

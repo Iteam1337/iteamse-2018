@@ -1,24 +1,24 @@
 import React from 'react'
-import Home from '../Home'
+import Ops from '../Ops'
 import { render, wait } from 'react-testing-library'
 import MockedQuery from '../../utils/test-utils/MockedQuery'
-import { pageStart } from '../__fixtures__/pageStart'
+import { pageOps } from '../__fixtures__/pageOps'
 import { teamMember } from '../__fixtures__/teamMember'
 
-describe('components/Home', () => {
+describe('components/Ops', () => {
   const mockedResponse = {
-    pageStart,
+    pageOps,
     teamMember,
   }
 
-  it('renders Home', async () => {
+  it('renders Ops', async () => {
     const { getByText, container } = render(
       <MockedQuery response={mockedResponse}>
-        <Home />
+        <Ops />
       </MockedQuery>
     )
 
-    await wait(() => getByText('iteam'))
+    await wait(() => getByText('drift'))
 
     expect(container).toMatchSnapshot()
   })
