@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import Button from '../Button/Button'
 import H2 from '../Typography/H2'
 import banner from './img/banner_ops.jpg'
-import { GridRowClean } from '../Grid/GridRow'
+import { GridColumnClean } from '../Grid/GridColumn'
 import { OperationsPageQuery } from '../../pages/Ops'
 import { withApollo } from 'react-apollo'
 
@@ -15,7 +15,7 @@ type Props = {
   },
 }
 
-const Row = GridRowClean.extend`
+const Row = GridColumnClean.extend`
   align-items: center;
   background-image: ${`url(${banner})`};
   background-size: cover;

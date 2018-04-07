@@ -12,7 +12,7 @@ import Block from '../components/Blocks/Block'
 import Team from '../components/Team/Team'
 import ImageBleed from '../components/Blocks/ImageBleed'
 import ImageBlock from '../components/Blocks/ImageBlock'
-import GridRow from '../components/Grid/GridRow'
+import GridColumn from '../components/Grid/GridColumn'
 
 type Props = Iteam.ApolloBase<IteamCMS.AboutPage>
 
@@ -52,7 +52,7 @@ const About = () => {
               messageTwo={pageAboutUs.headerText2}
             />
 
-            <GridRow>
+            <GridColumn>
               <Block title={pageAboutUs.valueTitle}>
                 {pageAboutUs.valueText}
               </Block>
@@ -65,7 +65,7 @@ const About = () => {
               <Block title={pageAboutUs.stabilityTitle}>
                 {pageAboutUs.stabilityText}
               </Block>
-            </GridRow>
+            </GridColumn>
 
             <Team bgColor="green" shortName={['rln', 'msr']} />
           </React.Fragment>

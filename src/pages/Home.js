@@ -12,7 +12,7 @@ import logoSeb from './img/logo_seb.png'
 import Header from '../components/Header/Header'
 import Team from '../components/Team/Team'
 
-import GridRow from '../components/Grid/GridRow'
+import GridColumn from '../components/Grid/GridColumn'
 import OperationsBanner from '../components/Banners/Operations'
 import H1 from '../components/Typography/H1'
 import Paragraph from '../components/Typography/Paragraph'
@@ -90,7 +90,7 @@ const Home = () => {
               messageTwo={pageStart.headerText2}
             />
 
-            <GridRow>
+            <GridColumn>
               <Content>
                 <StylizedIteam src={iteamStylized} alt="" />
                 <Texts>
@@ -122,7 +122,7 @@ const Home = () => {
                   </TextBlock>
                 </Texts>
               </Content>
-            </GridRow>
+            </GridColumn>
 
             <OperationsBanner />
             <Team shortName={['met', 'rln']} />

@@ -2,7 +2,7 @@
 
 import * as React from 'react'
 import styled from 'styled-components'
-import { GridRowClean } from '../Grid/GridRow'
+import { GridColumnClean } from '../Grid/GridColumn'
 
 type Props = {
   children: string,
@@ -10,7 +10,7 @@ type Props = {
   person: ?string,
 }
 
-const QuoteWrap = GridRowClean.extend`
+const QuoteWrap = GridColumnClean.extend`
   background-color: ${({ theme }) => theme.colors.concrete};
   grid-column: -1 / 1;
   padding-bottom: 100px;

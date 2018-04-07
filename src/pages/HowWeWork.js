@@ -12,7 +12,7 @@ import howWeWorkImage2 from './img/block_howwework2.png'
 import Block from '../components/Blocks/Block'
 import ImageBleed from '../components/Blocks/ImageBleed'
 import ImageBlock from '../components/Blocks/ImageBlock'
-import GridRow from '../components/Grid/GridRow'
+import GridColumn from '../components/Grid/GridColumn'
 import Team from '../components/Team/Team'
 
 type Props = Iteam.ApolloBase<IteamCMS.HowWeWorkPage>
@@ -54,7 +54,7 @@ const HowWeWork = () => {
               messageTwo={pageHowWeWork.headerText2}
             />
 
-            <GridRow>
+            <GridColumn>
               <Block title={pageHowWeWork.teamTitle}>
                 {pageHowWeWork.teamText}
               </Block>
@@ -70,7 +70,7 @@ const HowWeWork = () => {
               <Block title={pageHowWeWork.customersTitle}>
                 {pageHowWeWork.customersText}
               </Block>
-            </GridRow>
+            </GridColumn>
 
             <Team bgColor="blue" shortName={['rln', 'msr']} />
           </React.Fragment>

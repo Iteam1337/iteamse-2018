@@ -8,7 +8,6 @@ import PaddedRow from '../Grid/PaddedRow'
 
 type Props = {
   children: React.Node,
-  concrete?: boolean,
   'data-test'?: string,
   readMore?: React.Node,
   subtitle?: string,

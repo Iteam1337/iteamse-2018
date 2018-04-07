@@ -8,7 +8,7 @@ import gql from 'graphql-tag'
 import { filterByLocation } from '../utils/filterByLocation'
 import FilterByLocation from '../components/FilterByLocation/FilterByLocation'
 import Header from '../components/Header/Header'
-import GridRow from '../components/Grid/GridRow'
+import GridColumn from '../components/Grid/GridColumn'
 import Block from '../components/Blocks/Block'
 import Team from '../components/Team/Team'
 import Link from '../components/Link/Link'
@@ -56,7 +56,7 @@ const Work = ({ client }: Props) => {
               messageTwo={pageWork.headerText2}
             />
 
-            <GridRow>
+            <GridColumn>
               <FilterByLocation>
                 {location => (
                   <React.Fragment>
@@ -91,7 +91,7 @@ const Work = ({ client }: Props) => {
                   </React.Fragment>
                 )}
               </FilterByLocation>
-            </GridRow>
+            </GridColumn>
 
             <Team bgColor="red" shortName={['rln', 'msr']} />
           </React.Fragment>

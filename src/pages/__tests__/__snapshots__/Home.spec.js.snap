@@ -8,7 +8,7 @@ exports[`components/Home renders Home page 1`] = `
     messageOne=""
     messageTwo=""
   />
-  <GridRow__GridRowClean>
+  <GridColumn__GridColumnClean>
     <Home__Content>
       <Home__StylizedIteam
         alt=""
@@ -58,7 +58,7 @@ exports[`components/Home renders Home page 1`] = `
         </Home__TextBlock>
       </Home__Texts>
     </Home__Content>
-  </GridRow__GridRowClean>
+  </GridColumn__GridColumnClean>
   <OperationsBanner />
   <Team
     shortName={

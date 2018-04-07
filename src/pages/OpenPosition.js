@@ -7,7 +7,7 @@ import { Query } from 'react-apollo'
 import gql from 'graphql-tag'
 import Header from '../components/Header/Header'
 import Block from '../components/Blocks/Block'
-import GridRow from '../components/Grid/GridRow'
+import GridColumn from '../components/Grid/GridColumn'
 import ImageBleed from '../components/Blocks/ImageBleed'
 import Team from '../components/Team/Team'
 import Breadcrumbs from '../components/Breadcrumbs/Breadcrumbs'
@@ -65,7 +65,7 @@ const Work = ({ match }: Props) => {
               messageTwo={pageOpenPosition.headerText2}
             />
 
-            <GridRow>
+            <GridColumn>
               <Breadcrumbs title={pageOpenPosition.roleTitle} />
 
               <Block title={pageOpenPosition.roleTitle}>
@@ -93,7 +93,7 @@ const Work = ({ match }: Props) => {
               <Block title={pageOpenPosition.applicationTitle}>
                 {pageOpenPosition.application}
               </Block>
-            </GridRow>
+            </GridColumn>
 
             <Team bgColor="green" shortName={['rln', 'msr']} />
           </React.Fragment>

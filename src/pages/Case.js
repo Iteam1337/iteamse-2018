@@ -10,7 +10,7 @@ import Quote from '../components/Blocks/Quote'
 import Breadcrumbs from '../components/Breadcrumbs/Breadcrumbs'
 import { Query } from 'react-apollo'
 import gql from 'graphql-tag'
-import GridRow from '../components/Grid/GridRow'
+import GridColumn from '../components/Grid/GridColumn'
 
 type Props = {
   match: {
@@ -65,7 +65,7 @@ const CasePage = ({ match }: Props) => {
               tags={workCase.tags}
             />
 
-            <GridRow>
+            <GridColumn>
               <Breadcrumbs title={workCase.title} />
 
               <Block title={workCase.introductionTitle}>
@@ -89,7 +89,7 @@ const CasePage = ({ match }: Props) => {
               <Block title={workCase.partnersTitle}>{workCase.partners}</Block>
 
               <Block title={workCase.contactTitle}>{workCase.contact}</Block>
-            </GridRow>
+            </GridColumn>
 
             <Team bgColor="green" shortName={['hrn', 'jmn']} />
           </React.Fragment>

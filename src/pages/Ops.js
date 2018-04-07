@@ -6,7 +6,7 @@ import * as IteamCMS from './__generated__/OperationsPage'
 import { Query } from 'react-apollo'
 import gql from 'graphql-tag'
 import Header from '../components/Header/Header'
-import GridRow from '../components/Grid/GridRow'
+import GridColumn from '../components/Grid/GridColumn'
 import Block from '../components/Blocks/Block'
 import ImageBleed from '../components/Blocks/ImageBleed'
 import Team from '../components/Team/Team'
@@ -50,7 +50,7 @@ const Operations = () => {
               messageTwo={pageOps.headerText2}
             />
 
-            <GridRow>
+            <GridColumn>
               <Block title={pageOps.aboutTitle}>{pageOps.aboutText}</Block>
 
               <ImageBleed image={pageOps.contentImage} />
@@ -66,7 +66,7 @@ const Operations = () => {
               <Block concrete title={pageOps.hardwareTitle}>
                 {pageOps.hardwareText}
               </Block>
-            </GridRow>
+            </GridColumn>
 
             <Team bgColor="red" shortName={['rln', 'msr']} />
           </React.Fragment>

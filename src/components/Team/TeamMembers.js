@@ -3,7 +3,7 @@
 import * as React from 'react'
 import { colors } from '../../theme'
 import styled from 'styled-components'
-import { GridRowClean } from '../Grid/GridRow'
+import { GridColumnClean } from '../Grid/GridColumn'
 
 type Props = {
   bgColor: string,
@@ -11,7 +11,7 @@ type Props = {
   teamMembers: number,
 }
 
-const Wrap = GridRowClean.extend`
+const Wrap = GridColumnClean.extend`
   background-color: ${({ bgColor }) => bgColor};
   color: ${({ bgColor, theme }) => theme.contrast(bgColor)};
   grid-column: -1 / 1;

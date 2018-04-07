@@ -6,7 +6,7 @@ import * as IteamCMS from './__generated__/Footer'
 import { Query } from 'react-apollo'
 import gql from 'graphql-tag'
 import Location from './Location'
-import GridRow from '../Grid/GridRow'
+import GridColumn from '../Grid/GridColumn'
 import UnstyledList from '../List/UnstyledList'
 import NativeLink from '../Link/NativeLink'
 import styled from 'styled-components'
@@ -32,7 +32,7 @@ const FooterQuery = gql`
   }
 `
 
-const Wrap = GridRow.extend`
+const Wrap = GridColumn.extend`
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 40px;

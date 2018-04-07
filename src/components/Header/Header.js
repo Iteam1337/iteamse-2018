@@ -6,7 +6,7 @@ import Navigation from './Navigation'
 import H1 from '../Typography/H1'
 import LazyLoad from 'react-lazyload'
 import { handleColors } from '../../utils/handleColors'
-import { GridRowClean } from '../Grid/GridRow'
+import { GridColumnClean } from '../Grid/GridColumn'
 import PaddedRow from '../Grid/PaddedRow'
 
 type Props = {
@@ -16,7 +16,7 @@ type Props = {
   messageTwo: ?string,
 }
 
-const Wrap = GridRowClean.extend`
+const Wrap = GridColumnClean.extend`
   background-image: ${({ image }) => `url(${image})`};
   background-size: cover;
   height: 430px;

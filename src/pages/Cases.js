@@ -3,7 +3,7 @@
 import * as React from 'react'
 import * as Iteam from '../typings/iteam.flow'
 import * as IteamCMS from './__generated__/CasesPage'
-import GridRow from '../components/Grid/GridRow'
+import GridColumn from '../components/Grid/GridColumn'
 import styled from 'styled-components'
 import { filterByLocation } from '../utils/filterByLocation'
 import FilterByLocation from '../components/FilterByLocation/FilterByLocation'
@@ -89,7 +89,7 @@ const CasePage = ({ client }: Props) => {
               messageTwo={pageCases.headerText2}
             />
 
-            <GridRow>
+            <GridColumn>
               <FilterByLocation>
                 {location => (
                   <Cases>
@@ -122,7 +122,7 @@ const CasePage = ({ client }: Props) => {
                   </Cases>
                 )}
               </FilterByLocation>
-            </GridRow>
+            </GridColumn>
 
             <Team bgColor="green" shortName={['hrn', 'jmn']} />
           </React.Fragment>

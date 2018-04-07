@@ -3,7 +3,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Navigation from './Navigation'
-import { GridRowClean } from '../Grid/GridRow'
+import { GridColumnClean } from '../Grid/GridColumn'
 
 type Props = {
   bgColor: ?string,
@@ -12,7 +12,7 @@ type Props = {
   tags: Array<?string>,
 }
 
-const Wrap = GridRowClean.extend`
+const Wrap = GridColumnClean.extend`
   background-color: ${({ bgColor }) => bgColor};
   height: 430px;
 

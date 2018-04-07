@@ -2,7 +2,7 @@
 
 import styled from 'styled-components'
 
-export const GridRowClean = styled.div`
+export const GridColumnClean = styled.div`
   display: grid;
   grid-template-columns: 1fr;
 
@@ -15,7 +15,7 @@ export const GridRowClean = styled.div`
   }
 `
 
-const GridRow = GridRowClean.extend`
+const GridColumn = GridColumnClean.extend`
   grid-row-gap: 40px;
   margin-bottom: 40px;
   margin-top: 40px;
@@ -27,4 +27,4 @@ const GridRow = GridRowClean.extend`
   }
 `
 
-export default GridRow
+export default GridColumn
