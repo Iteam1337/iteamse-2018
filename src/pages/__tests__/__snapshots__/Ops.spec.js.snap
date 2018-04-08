@@ -201,7 +201,12 @@ exports[`components/Ops renders Ops 1`] = `
             Cookie M
           </div>
           <div>
-            0701234567
+            <a
+              class="NativeLink-s1qo6rwq-0 jNinQt"
+              href="tel:0701234567"
+            >
+              070-123 45 67
+            </a>
           </div>
           <a
             class="NativeLink-s1qo6rwq-0 jNinQt"
@@ -239,7 +244,12 @@ exports[`components/Ops renders Ops 1`] = `
             Count van Count
           </div>
           <div>
-            0707654321
+            <a
+              class="NativeLink-s1qo6rwq-0 jNinQt"
+              href="tel:0707654321"
+            >
+              070-765 43 21
+            </a>
           </div>
           <a
             class="NativeLink-s1qo6rwq-0 jNinQt"

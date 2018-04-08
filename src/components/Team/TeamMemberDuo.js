@@ -5,6 +5,7 @@ import * as IteamCMS from './__generated__/Team'
 import styled from 'styled-components'
 import Avatar from './Avatar'
 import Mailto from '../Link/Mailto'
+import PhoneNumber from '../Link/PhoneNumber'
 
 type Props = {
   member: IteamCMS.Team_teamMembers,
@@ -45,7 +46,13 @@ const TeamMemberDuo = ({ member }: Props) => {
           <div>{member.location}</div>
         </MetaSection>
         <Title>{member.name}</Title>
-        <div>{member.phoneNumber}</div>
+        {member.phoneNumber && (
+          <div>
+            <PhoneNumber phoneNumber={member.phoneNumber}>
+              {member.phoneNumber}
+            </PhoneNumber>
+          </div>
+        )}
         <Mailto email={member.email}>{member.email}</Mailto>
       </Meta>
     </Colleague>

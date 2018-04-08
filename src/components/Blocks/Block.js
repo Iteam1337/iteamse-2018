@@ -53,7 +53,11 @@ const Block = ({
           </TitleWrap>
 
           <Text>
-            <Paragraph>{children}</Paragraph>
+            {typeof children === 'string' ? (
+              <Paragraph>{children}</Paragraph>
+            ) : (
+              children
+            )}
             {readMore}
           </Text>
         </Content>

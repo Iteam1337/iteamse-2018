@@ -2,7 +2,7 @@
 
 import * as React from 'react'
 import * as Iteam from '../typings/iteam.flow'
-import * as IteamCMS from './__generated__/CasePage'
+import * as IteamCMS from './__generated__/TeamMemberPage'
 import Team from '../components/Team/Team'
 import Header from '../components/Header/Header'
 import Block from '../components/Blocks/Block'
@@ -10,6 +10,9 @@ import Breadcrumbs from '../components/Breadcrumbs/Breadcrumbs'
 import { Query } from 'react-apollo'
 import gql from 'graphql-tag'
 import GridColumn from '../components/Grid/GridColumn'
+import PhoneNumber from '../components/Link/PhoneNumber'
+import UnstyledList from '../components/List/UnstyledList'
+import Mailto from '../components/Link/Mailto'
 
 type Props = {
   match: {
@@ -18,7 +21,8 @@ type Props = {
     },
   },
 }
-type QueryProps = Iteam.ApolloBase<IteamCMS.CasePage>
+
+type QueryProps = Iteam.ApolloBase<IteamCMS.TeamMemberPage>
 
 export const TeamMemberPageQuery = gql`
   query TeamMemberPage($shortName: String!) {
@@ -64,12 +68,27 @@ const TeamMemberPage = ({ match }: Props) => {
             <GridColumn>
               <Breadcrumbs title={teamMember.name} />
 
-              <Block title="Kontakt">{teamMember.email}</Block>
+              <Block title="Kontakt">
+                <UnstyledList>
+                  {teamMember.phoneNumber && (
+                    <li>
+                      <PhoneNumber phoneNumber={teamMember.phoneNumber}>
+                        {teamMember.phoneNumber}
+                      </PhoneNumber>
+                    </li>
+                  )}
+                  <li>
+                    <Mailto email={teamMember.email}>{teamMember.email}</Mailto>
+                  </li>
+                </UnstyledList>
+              </Block>
 
               <Block title={teamMember.whyTitle}>{teamMember.why}</Block>
+
               <Block title={teamMember.backgroundTitle}>
                 {teamMember.background}
               </Block>
+
               <Block title={teamMember.competenceTitle}>
                 {teamMember.competence}
               </Block>
