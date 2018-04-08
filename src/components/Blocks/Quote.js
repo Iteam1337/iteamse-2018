@@ -3,6 +3,7 @@
 import * as React from 'react'
 import styled from 'styled-components'
 import { GridColumnClean } from '../Grid/GridColumn'
+import PaddedRow from '../Grid/PaddedRow'
 
 type Props = {
   children: string,
@@ -32,8 +33,10 @@ const Person = styled.div`
 const Quote = ({ children, 'data-test': dataTest = '', person }: Props) => {
   return (
     <QuoteWrap data-test={`block-${dataTest}`}>
-      <ActualQuote>{`"${children}"`}</ActualQuote>
-      <Person>{person}</Person>
+      <PaddedRow>
+        <ActualQuote>{`"${children}"`}</ActualQuote>
+        <Person>{person}</Person>
+      </PaddedRow>
     </QuoteWrap>
   )
 }
