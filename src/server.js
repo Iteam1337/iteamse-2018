@@ -2,6 +2,7 @@ import App from './App'
 import React from 'react'
 import { StaticRouter } from 'react-router-dom'
 import express from 'express'
+import compression from 'compression'
 import { renderToStaticMarkup } from 'react-dom/server'
 import { ApolloProvider, renderToStringWithData } from 'react-apollo'
 import fetch from 'node-fetch'
@@ -14,6 +15,8 @@ import { ThemeProvider, ServerStyleSheet } from 'styled-components'
 import { theme } from './theme'
 
 const server = express()
+
+server.use(compression())
 
 server
   .disable('x-powered-by')
