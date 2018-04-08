@@ -20,6 +20,10 @@ function Html ({ apolloState, content, styleTags }: Props) {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Vi digitaliserar företag och organisationer genom strategi, kod och kultur"
+        />
 
         <title>Iteam</title>
         <link

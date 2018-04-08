@@ -59,7 +59,7 @@ const Title = styled.div`
 `
 
 const SocialMedia = styled.div``
-const SocialMediaItem = styled.div`
+const SocialMediaItem = styled.li`
   align-items: center;
   display: flex;
   margin-bottom: 10px;

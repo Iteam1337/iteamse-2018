@@ -11,8 +11,9 @@ import logoTsab from './img/logo_tsab.png'
 import logoSeb from './img/logo_seb.png'
 import Header from '../components/Header/Header'
 import Team from '../components/Team/Team'
-
+import LazyLoad from 'react-lazyload'
 import GridColumn from '../components/Grid/GridColumn'
+import PaddedRow from '../components/Grid/PaddedRow'
 import OperationsBanner from '../components/Banners/Operations'
 import H1 from '../components/Typography/H1'
 import Paragraph from '../components/Typography/Paragraph'
@@ -58,7 +59,7 @@ const Texts = styled.div`
   grid-row-gap: 40px;
 `
 
-const TextBlock = styled.div``
+const TextBlock = PaddedRow.extend``
 
 const StylizedIteam = styled.img`
   display: none;
@@ -92,7 +93,9 @@ const Home = () => {
 
             <GridColumn>
               <Content>
-                <StylizedIteam src={iteamStylized} alt="" />
+                <LazyLoad height={2367} once>
+                  <StylizedIteam src={iteamStylized} alt="" />
+                </LazyLoad>
                 <Texts>
                   <TextBlock>
                     <H1>{pageStart.codeTitle}</H1>

@@ -55,7 +55,12 @@ const Hamburger = styled.div`
 
 const MenuButton = ({ open, toggle }: Props) => {
   return (
-    <Button data-testid="btn-mobile-menu" onClick={toggle}>
+    <Button
+      aria-label="Menu button"
+      data-testid="btn-mobile-menu"
+      onClick={toggle}
+      role="button"
+    >
       <Hamburger open={open}>
         <Bar />
         <Bar />
