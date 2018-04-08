@@ -11,7 +11,6 @@ import logoTsab from './img/logo_tsab.png'
 import logoSeb from './img/logo_seb.png'
 import Header from '../components/Header/Header'
 import Team from '../components/Team/Team'
-import LazyLoad from 'react-lazyload'
 import GridColumn from '../components/Grid/GridColumn'
 import PaddedRow from '../components/Grid/PaddedRow'
 import OperationsBanner from '../components/Banners/Operations'
@@ -93,9 +92,7 @@ const Home = () => {
 
             <GridColumn>
               <Content>
-                <LazyLoad height={2367} once>
-                  <StylizedIteam src={iteamStylized} alt="" />
-                </LazyLoad>
+                <StylizedIteam src={iteamStylized} alt="" />
                 <Texts>
                   <TextBlock>
                     <H1>{pageStart.codeTitle}</H1>
