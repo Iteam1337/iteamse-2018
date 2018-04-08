@@ -46,6 +46,12 @@ const Breadcrumbs = ({ location, title }: Props) => {
                 Jobba hos oss
               </StyledLink>
             )
+          case 'teamet':
+            return (
+              <StyledLink key={`link-${i}`} to="/teamet">
+                Teamet
+              </StyledLink>
+            )
           default:
             return null
         }

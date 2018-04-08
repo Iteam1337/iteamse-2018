@@ -2,13 +2,13 @@ import React from 'react'
 import Team from '../Team'
 import { render, Simulate, wait } from 'react-testing-library'
 import MockedQuery from '../../utils/test-utils/MockedQuery'
-import { teamMember } from '../__fixtures__/teamMember'
+import { teamMembers } from '../__fixtures__/teamMembers'
 import { pageTeam } from '../__fixtures__/pageTeam'
 
 describe('components/Team', () => {
   const mockedResponse = {
     pageTeam,
-    team: teamMember,
+    team: teamMembers,
   }
 
   it('renders Team', async () => {

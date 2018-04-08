@@ -25,10 +25,10 @@ export const TeamPageQuery = gql`
     team {
       avatar
       email
-      gravatar
       location
       name
       phoneNumber
+      short
       title
     }
   }

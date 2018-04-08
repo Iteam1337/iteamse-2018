@@ -1,4 +1,4 @@
-export const teamMember = [
+export const teamMembers = [
   {
     avatar: '',
     email: 'cm@sesame.com',
@@ -7,6 +7,7 @@ export const teamMember = [
     name: 'Cookie M',
     phoneNumber: '0701234567',
     title: 'Cookie master',
+    short: 'cmm',
     __typename: 'TeamMember',
   },
   {
@@ -17,6 +18,7 @@ export const teamMember = [
     name: 'Count van Count',
     phoneNumber: '0707654321',
     title: '1 ahahah',
+    short: 'cvc',
     __typename: 'TeamMember',
   },
 ]

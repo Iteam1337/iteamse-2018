@@ -3,22 +3,22 @@ import Home from '../Home'
 import { render, wait } from 'react-testing-library'
 import MockedQuery from '../../utils/test-utils/MockedQuery'
 import { pageStart } from '../__fixtures__/pageStart'
-import { teamMember } from '../__fixtures__/teamMember'
+import { teamMembers } from '../__fixtures__/teamMembers'
 
 describe('components/Home', () => {
   const mockedResponse = {
     pageStart,
-    teamMember,
+    teamMembers,
   }
 
   it('renders Home', async () => {
-    const { getByText, container } = render(
+    const { container } = render(
       <MockedQuery response={mockedResponse}>
         <Home />
       </MockedQuery>
     )
 
-    await wait(() => getByText('iteam'))
+    await wait()
 
     expect(container).toMatchSnapshot()
   })

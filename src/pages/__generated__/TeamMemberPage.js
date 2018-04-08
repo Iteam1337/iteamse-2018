@@ -5,26 +5,33 @@
 // This file was automatically generated and should not be edited.
 
 // ====================================================
-// GraphQL query operation: Team
+// GraphQL query operation: TeamMemberPage
 // ====================================================
 
-export type Team_teamMembers = {
+export type TeamMemberPage_teamMember = {
   __typename: "TeamMember",
   avatar: string,
+  background: string,
+  backgroundTitle: string,
+  competence: string,
+  competenceTitle: string,
   email: string,
+  headerImage: ?string,
+  headerTextBgColor: ?string,
   location: string,
   name: string,
   phoneNumber: ?string,
-  short: string,
   title: string,
+  why: string,
+  whyTitle: string,
 };
 
-export type Team = {
-  teamMembers: Array<Team_teamMembers>
+export type TeamMemberPage = {
+  teamMember: TeamMemberPage_teamMember
 };
 
-export type TeamVariables = {
-  shortName: Array<string>
+export type TeamMemberPageVariables = {
+  shortName: string
 };
 
 //==============================================================

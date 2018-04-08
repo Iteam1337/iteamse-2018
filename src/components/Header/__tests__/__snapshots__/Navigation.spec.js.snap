@@ -138,10 +138,10 @@ Object {
     team {
       avatar
       email
-      gravatar
       location
       name
       phoneNumber
+      short
       title
     }
   }

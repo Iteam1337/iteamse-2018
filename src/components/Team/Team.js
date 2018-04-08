@@ -20,13 +20,13 @@ type QueryProps = Iteam.ApolloBase<IteamCMS.Team>
 
 const TeamQuery = gql`
   query Team($shortName: [String!]!) {
-    teamMember(shortName: $shortName) {
+    teamMembers(shortName: $shortName) {
       avatar
       email
-      gravatar
       location
       name
       phoneNumber
+      short
       title
     }
   }
@@ -37,14 +37,14 @@ const Team = ({ bgColor = colors.radicalRed, shortName }: Props) => {
 
   return (
     <Query query={TeamQuery} variables={{ shortName }}>
-      {({ loading, data: { teamMember } }: QueryProps) => {
+      {({ loading, data: { teamMembers } }: QueryProps) => {
         if (loading) {
           return null
         }
 
         return (
           <TeamMembers bgColor={backgroundColor} teamMembers={shortName.length}>
-            {teamMember.map(member => {
+            {teamMembers.map(member => {
               if (shortName.length === 2) {
                 return <TeamMemberDuo key={member.name} member={member} />
               }

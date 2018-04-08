@@ -7,7 +7,7 @@ import Avatar from './Avatar'
 import Mailto from '../Link/Mailto'
 
 type Props = {
-  member: IteamCMS.Team_teamMember,
+  member: IteamCMS.Team_teamMembers,
 }
 
 const Colleague = styled.div`
@@ -33,7 +33,7 @@ const TeamMember = ({ member }: Props) => {
       <Title>{member.title}</Title>
       <Location data-test="team-member-location">{member.location}</Location>
       <AvatarWrap>
-        <Avatar image={member.avatar || member.gravatar} />
+        <Avatar image={member.avatar} />
       </AvatarWrap>
       <Title>{member.name}</Title>
       <Mailto email={member.email}>{member.email}</Mailto>

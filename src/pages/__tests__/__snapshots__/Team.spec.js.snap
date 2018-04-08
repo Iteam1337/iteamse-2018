@@ -43,14 +43,18 @@ exports[`components/Team renders Team 1`] = `
         <div
           class="TeamPageMember__Colleague-s1ndkn07-0 bbOPRB"
         >
-          <div
-            class="TeamPageMember__AvatarWrap-s1ndkn07-3 dufFQn"
+          <a
+            href="/teamet/cmm"
           >
             <div
-              style="height: 226px;"
-              class="lazyload-placeholder"
-            />
-          </div>
+              class="TeamPageMember__AvatarWrap-s1ndkn07-3 dufFQn"
+            >
+              <div
+                style="height: 226px;"
+                class="lazyload-placeholder"
+              />
+            </div>
+          </a>
           <div
             class="TeamPageMember__Name-s1ndkn07-2 kqwnJE"
           >
@@ -72,14 +76,18 @@ exports[`components/Team renders Team 1`] = `
         <div
           class="TeamPageMember__Colleague-s1ndkn07-0 bbOPRB"
         >
-          <div
-            class="TeamPageMember__AvatarWrap-s1ndkn07-3 dufFQn"
+          <a
+            href="/teamet/cvc"
           >
             <div
-              style="height: 226px;"
-              class="lazyload-placeholder"
-            />
-          </div>
+              class="TeamPageMember__AvatarWrap-s1ndkn07-3 dufFQn"
+            >
+              <div
+                style="height: 226px;"
+                class="lazyload-placeholder"
+              />
+            </div>
+          </a>
           <div
             class="TeamPageMember__Name-s1ndkn07-2 kqwnJE"
           >
@@ -147,14 +155,18 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
         <div
           class="TeamPageMember__Colleague-s1ndkn07-0 bbOPRB"
         >
-          <div
-            class="TeamPageMember__AvatarWrap-s1ndkn07-3 dufFQn"
+          <a
+            href="/teamet/cvc"
           >
             <div
-              style="height: 226px;"
-              class="lazyload-placeholder"
-            />
-          </div>
+              class="TeamPageMember__AvatarWrap-s1ndkn07-3 dufFQn"
+            >
+              <div
+                style="height: 226px;"
+                class="lazyload-placeholder"
+              />
+            </div>
+          </a>
           <div
             class="TeamPageMember__Name-s1ndkn07-2 kqwnJE"
           >
@@ -222,14 +234,18 @@ exports[`components/Team should handle changing location using mouse 1`] = `
         <div
           class="TeamPageMember__Colleague-s1ndkn07-0 bbOPRB"
         >
-          <div
-            class="TeamPageMember__AvatarWrap-s1ndkn07-3 dufFQn"
+          <a
+            href="/teamet/cmm"
           >
             <div
-              style="height: 226px;"
-              class="lazyload-placeholder"
-            />
-          </div>
+              class="TeamPageMember__AvatarWrap-s1ndkn07-3 dufFQn"
+            >
+              <div
+                style="height: 226px;"
+                class="lazyload-placeholder"
+              />
+            </div>
+          </a>
           <div
             class="TeamPageMember__Name-s1ndkn07-2 kqwnJE"
           >
@@ -297,14 +313,18 @@ exports[`components/Team should not change using keyboard if not enter or space 
         <div
           class="TeamPageMember__Colleague-s1ndkn07-0 bbOPRB"
         >
-          <div
-            class="TeamPageMember__AvatarWrap-s1ndkn07-3 dufFQn"
+          <a
+            href="/teamet/cmm"
           >
             <div
-              style="height: 226px;"
-              class="lazyload-placeholder"
-            />
-          </div>
+              class="TeamPageMember__AvatarWrap-s1ndkn07-3 dufFQn"
+            >
+              <div
+                style="height: 226px;"
+                class="lazyload-placeholder"
+              />
+            </div>
+          </a>
           <div
             class="TeamPageMember__Name-s1ndkn07-2 kqwnJE"
           >
@@ -326,14 +346,18 @@ exports[`components/Team should not change using keyboard if not enter or space 
         <div
           class="TeamPageMember__Colleague-s1ndkn07-0 bbOPRB"
         >
-          <div
-            class="TeamPageMember__AvatarWrap-s1ndkn07-3 dufFQn"
+          <a
+            href="/teamet/cvc"
           >
             <div
-              style="height: 226px;"
-              class="lazyload-placeholder"
-            />
-          </div>
+              class="TeamPageMember__AvatarWrap-s1ndkn07-3 dufFQn"
+            >
+              <div
+                style="height: 226px;"
+                class="lazyload-placeholder"
+              />
+            </div>
+          </a>
           <div
             class="TeamPageMember__Name-s1ndkn07-2 kqwnJE"
           >

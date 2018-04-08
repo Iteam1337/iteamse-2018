@@ -3,7 +3,7 @@ import { Work } from '../Work'
 import { render, Simulate, wait } from 'react-testing-library'
 import MockedQuery from '../../utils/test-utils/MockedQuery'
 import { pageWork } from '../__fixtures__/pageWork'
-import { teamMember } from '../__fixtures__/teamMember'
+import { teamMembers } from '../__fixtures__/teamMembers'
 import { openpositions } from '../__fixtures__/openpositions'
 import { pageOpenPosition } from '../__fixtures__/pageOpenPosition'
 
@@ -12,7 +12,7 @@ describe('components/Work', () => {
     openpositions,
     pageOpenPosition,
     pageWork,
-    teamMember,
+    teamMembers,
   }
 
   it('renders Work', async () => {

@@ -5,9 +5,10 @@ import * as IteamCMS from './__generated__/Team'
 import styled from 'styled-components'
 import Avatar from './Avatar'
 import Mailto from '../Link/Mailto'
+import { Link } from 'react-router-dom'
 
 type Props = {
-  member: IteamCMS.Team_teamMember,
+  member: IteamCMS.Team_teamMembers,
 }
 
 const Colleague = styled.div`
@@ -31,9 +32,11 @@ const AvatarWrap = styled.div`
 const TeamPageMember = ({ member }: Props) => {
   return (
     <Colleague key={member.name}>
-      <AvatarWrap>
-        <Avatar image={member.avatar || member.gravatar} />
-      </AvatarWrap>
+      <Link to={`/teamet/${member.short}`}>
+        <AvatarWrap>
+          <Avatar image={member.avatar} />
+        </AvatarWrap>
+      </Link>
       <Name>{member.name}</Name>
       <Title>{member.title}</Title>
       {member.phoneNumber}

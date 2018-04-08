@@ -3,14 +3,14 @@ import { CasePage } from '../Cases'
 import { render, Simulate, wait } from 'react-testing-library'
 import MockedQuery from '../../utils/test-utils/MockedQuery'
 import { pageCases } from '../__fixtures__/pageCases'
-import { teamMember } from '../__fixtures__/teamMember'
+import { teamMembers } from '../__fixtures__/teamMembers'
 import { cases } from '../__fixtures__/cases'
 
 describe('components/Cases', () => {
   const mockedResponse = {
     cases,
     pageCases,
-    teamMember,
+    teamMembers,
   }
 
   it('renders Cases', async () => {

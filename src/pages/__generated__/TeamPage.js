@@ -18,12 +18,12 @@ export type TeamPage_pageTeam = {
 
 export type TeamPage_team = {
   __typename: "TeamMember",
-  avatar: ?string,
+  avatar: string,
   email: string,
-  gravatar: string,
   location: string,
   name: string,
   phoneNumber: ?string,
+  short: string,
   title: string,
 };
 
