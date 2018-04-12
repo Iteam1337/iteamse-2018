@@ -13,7 +13,7 @@ exports[`App renders App 1`] = `
       class="Home__Content-s15fccpq-0 fmYNJk"
     >
       <img
-        class="Home__StylizedIteam-s15fccpq-3 gyjCqw"
+        class="Home__StylizedIteam-s15fccpq-2 jlGxqZ"
         src="iteam_stylized.png"
         alt=""
       />
@@ -21,7 +21,7 @@ exports[`App renders App 1`] = `
         class="Home__Texts-s15fccpq-1 eCpoTV"
       >
         <div
-          class="Home__TextBlock-s15fccpq-2 jodzPN"
+          class="s3nsc5b-0-PaddedRow-hWTqUj hSfdBG"
         >
           <h1
             class="H1-x5hh3k-0 fsdjyK"
@@ -32,7 +32,7 @@ exports[`App renders App 1`] = `
             <div />
           </div>
           <img
-            class="Home__CompanyLogo-s15fccpq-4 hcZyvJ"
+            class="Home__CompanyLogo-s15fccpq-3 BqycV"
             src="logo_af.png"
             alt=""
           />
@@ -44,7 +44,7 @@ exports[`App renders App 1`] = `
           </a>
         </div>
         <div
-          class="Home__TextBlock-s15fccpq-2 jodzPN"
+          class="s3nsc5b-0-PaddedRow-hWTqUj hSfdBG"
         >
           <h1
             class="H1-x5hh3k-0 fsdjyK"
@@ -55,7 +55,7 @@ exports[`App renders App 1`] = `
             <div />
           </div>
           <img
-            class="Home__CompanyLogo-s15fccpq-4 hcZyvJ"
+            class="Home__CompanyLogo-s15fccpq-3 BqycV"
             src="logo_tsab.png"
             alt=""
           />
@@ -67,7 +67,7 @@ exports[`App renders App 1`] = `
           </a>
         </div>
         <div
-          class="Home__TextBlock-s15fccpq-2 jodzPN"
+          class="s3nsc5b-0-PaddedRow-hWTqUj hSfdBG"
         >
           <h1
             class="H1-x5hh3k-0 fsdjyK"
@@ -78,7 +78,7 @@ exports[`App renders App 1`] = `
             <div />
           </div>
           <img
-            class="Home__CompanyLogo-s15fccpq-4 hcZyvJ"
+            class="Home__CompanyLogo-s15fccpq-3 BqycV"
             src="logo_seb.png"
             alt=""
           />
@@ -96,10 +96,10 @@ exports[`App renders App 1`] = `
     class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD wWXKU"
   >
     <div
-      class="Operations__Overlay-s1eevg97-0 kOQcOa"
+      class="OperationsBanner__Overlay-s6plh63-0 eUEmcx"
     />
     <div
-      class="Operations__Content-s1eevg97-1 fCJEWn"
+      class="OperationsBanner__Content-s6plh63-1 enYwVc"
     >
       <h2
         class="H2-s1x2w9v8-0 jJUQzY"
@@ -195,7 +195,9 @@ exports[`App renders App 1`] = `
   >
     <button
       class="MenuButton__Button-cyy49g-0 xzjBp"
+      aria-label="Menu button"
       data-testid="btn-mobile-menu"
+      role="button"
     >
       <div
         class="MenuButton__Hamburger-cyy49g-2 ivvWAI"
@@ -305,7 +307,7 @@ exports[`App renders App 1`] = `
         <ul
           class="UnstyledList-s1ntpurm-0 gEDRFE"
         >
-          <div
+          <li
             class="Footer__SocialMediaItem-xtla5m-3 eUeiui"
           >
             <img
@@ -319,8 +321,8 @@ exports[`App renders App 1`] = `
             >
               Facebook
             </a>
-          </div>
-          <div
+          </li>
+          <li
             class="Footer__SocialMediaItem-xtla5m-3 eUeiui"
           >
             <img
@@ -334,8 +336,8 @@ exports[`App renders App 1`] = `
             >
               Instagram
             </a>
-          </div>
-          <div
+          </li>
+          <li
             class="Footer__SocialMediaItem-xtla5m-3 eUeiui"
           >
             <img
@@ -349,8 +351,8 @@ exports[`App renders App 1`] = `
             >
               LinkedIn
             </a>
-          </div>
-          <div
+          </li>
+          <li
             class="Footer__SocialMediaItem-xtla5m-3 eUeiui"
           >
             <img
@@ -364,8 +366,8 @@ exports[`App renders App 1`] = `
             >
               YouTube
             </a>
-          </div>
-          <div
+          </li>
+          <li
             class="Footer__SocialMediaItem-xtla5m-3 eUeiui"
           >
             <img
@@ -379,7 +381,7 @@ exports[`App renders App 1`] = `
             >
               MyNewsDesk
             </a>
-          </div>
+          </li>
         </ul>
       </div>
     </div>

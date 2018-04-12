@@ -58,7 +58,9 @@ exports[`components/MobileMenu renders MobileMenu and can open it 1`] = `
     </div>
     <button
       class="MenuButton__Button-cyy49g-0 xzjBp"
+      aria-label="Menu button"
       data-testid="btn-mobile-menu"
+      role="button"
     >
       <div
         class="MenuButton__Hamburger-cyy49g-2 jNVike"

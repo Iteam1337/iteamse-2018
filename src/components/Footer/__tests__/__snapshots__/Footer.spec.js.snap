@@ -95,7 +95,7 @@ exports[`components/Footer renders Footer 1`] = `
         <ul
           class="UnstyledList-s1ntpurm-0 gEDRFE"
         >
-          <div
+          <li
             class="Footer__SocialMediaItem-xtla5m-3 eUeiui"
           >
             <img
@@ -109,8 +109,8 @@ exports[`components/Footer renders Footer 1`] = `
             >
               Facebook
             </a>
-          </div>
-          <div
+          </li>
+          <li
             class="Footer__SocialMediaItem-xtla5m-3 eUeiui"
           >
             <img
@@ -124,8 +124,8 @@ exports[`components/Footer renders Footer 1`] = `
             >
               Instagram
             </a>
-          </div>
-          <div
+          </li>
+          <li
             class="Footer__SocialMediaItem-xtla5m-3 eUeiui"
           >
             <img
@@ -139,8 +139,8 @@ exports[`components/Footer renders Footer 1`] = `
             >
               LinkedIn
             </a>
-          </div>
-          <div
+          </li>
+          <li
             class="Footer__SocialMediaItem-xtla5m-3 eUeiui"
           >
             <img
@@ -154,8 +154,8 @@ exports[`components/Footer renders Footer 1`] = `
             >
               YouTube
             </a>
-          </div>
-          <div
+          </li>
+          <li
             class="Footer__SocialMediaItem-xtla5m-3 eUeiui"
           >
             <img
@@ -169,7 +169,7 @@ exports[`components/Footer renders Footer 1`] = `
             >
               MyNewsDesk
             </a>
-          </div>
+          </li>
         </ul>
       </div>
     </div>

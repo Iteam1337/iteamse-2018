@@ -8,7 +8,6 @@ import banner from './img/banner_ops.jpg'
 import { GridColumnClean } from '../Grid/GridColumn'
 import { OperationsPageQuery } from '../../pages/Ops'
 import { withApollo } from 'react-apollo'
-import LazyLoad from 'react-lazyload'
 
 type Props = {
   client: {
@@ -53,26 +52,24 @@ const Content = styled.div`
   }
 `
 
-const OperationsBanner = ({ client }: Props) => {
+export const OperationsBanner = ({ client }: Props) => {
   return (
-    <LazyLoad height={360} once>
-      <Row>
-        <Overlay />
-        <Content>
-          <H2>Visste du att vi även erbjuder drift & support?</H2>
-          <Button
-            onMouseEnter={() =>
-              client.query({
-                query: OperationsPageQuery,
-              })
-            }
-            to="/ops"
-          >
-            Iteam Operations
-          </Button>
-        </Content>
-      </Row>
-    </LazyLoad>
+    <Row>
+      <Overlay />
+      <Content>
+        <H2>Visste du att vi även erbjuder drift & support?</H2>
+        <Button
+          onMouseEnter={() =>
+            client.query({
+              query: OperationsPageQuery,
+            })
+          }
+          to="/ops"
+        >
+          Iteam Operations
+        </Button>
+      </Content>
+    </Row>
   )
 }
 

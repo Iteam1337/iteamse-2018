@@ -213,14 +213,18 @@ exports[`components/Case renders Case 1`] = `
       data-test="block-"
     >
       <div
-        class="Quote__ActualQuote-s1aziix4-0 eiWOFj"
+        class="PaddedRow-s3nsc5b-0 fDKhjr"
       >
-        ""We feel that our crew at Iteam are more colleagues than suppliers. Rather than specifying a tech spec to work on, we collaborate, carefully chiseling out functionality as we go along. This way of working has minimized waste and it has also taken us further than we ever imagined”"
-      </div>
-      <div
-        class="Quote__Person-s1aziix4-1 oDZgw"
-      >
-        Anna Andersson, chef Arbetsförmedlingen
+        <div
+          class="Quote__ActualQuote-s1aziix4-0 eiWOFj"
+        >
+          ""We feel that our crew at Iteam are more colleagues than suppliers. Rather than specifying a tech spec to work on, we collaborate, carefully chiseling out functionality as we go along. This way of working has minimized waste and it has also taken us further than we ever imagined”"
+        </div>
+        <div
+          class="Quote__Person-s1aziix4-1 oDZgw"
+        >
+          Anna Andersson, chef Arbetsförmedlingen
+        </div>
       </div>
     </div>
     <div

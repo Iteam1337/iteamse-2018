@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/OperationsBanner should prefetch ops page when hovering banner button 1`] = `
+Object {
+  "query": Object {
+    "definitions": Array [
+      Object {
+        "directives": Array [],
+        "kind": "OperationDefinition",
+        "name": Object {
+          "kind": "Name",
+          "value": "OperationsPage",
+        },
+        "operation": "query",
+        "selectionSet": Object {
+          "kind": "SelectionSet",
+          "selections": Array [
+            Object {
+              "alias": undefined,
+              "arguments": Array [],
+              "directives": Array [],
+              "kind": "Field",
+              "name": Object {
+                "kind": "Name",
+                "value": "pageOps",
+              },
+              "selectionSet": Object {
+                "kind": "SelectionSet",
+                "selections": Array [
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "headerImage",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "headerText1",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "headerText2",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "headerTextBgColor",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "aboutText",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "aboutTitle",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "contentImage",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "hardwareText",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "hardwareTitle",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "networkText",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "networkTitle",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "softwareText",
+                    },
+                    "selectionSet": undefined,
+                  },
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "softwareTitle",
+                    },
+                    "selectionSet": undefined,
+                  },
+                ],
+              },
+            },
+          ],
+        },
+        "variableDefinitions": Array [],
+      },
+    ],
+    "kind": "Document",
+    "loc": Object {
+      "end": 295,
+      "start": 0,
+    },
+  },
+}
+`;
