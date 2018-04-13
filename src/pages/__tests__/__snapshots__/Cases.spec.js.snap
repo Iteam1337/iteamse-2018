@@ -35,34 +35,34 @@ exports[`components/Cases renders Cases 1`] = `
       </div>
     </div>
     <div
-      class="Cases-ql1p4z-0 itUmRu"
+      class="s3nsc5b-0-PaddedRow-hWTqUj dlOSMS"
     >
       <a
         class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
         href="/case/vimla"
       >
         <div
-          class="Cases__Case-ql1p4z-2 kbvVwh"
+          class="Cases__Case-ql1p4z-1 iHJPWM"
         >
           <div
-            class="Cases__CaseImageWrap-ql1p4z-3 dIpLyj"
+            class="Cases__CaseImageWrap-ql1p4z-2 bjJOKy"
           >
             <img
-              class="Cases__CaseImage-ql1p4z-4 bDrJzX"
+              class="Cases__CaseImage-ql1p4z-3 bRuamq"
               src="//images.ctfassets.net/rj4r6yfcesw5/68OlBclfQAGMcEUsQgcIUY/9bdf52bb8a9a17be06e11ef3fa32d3de/vimla-case-phone.png"
               alt=""
             />
           </div>
           <div
-            class="Cases__Meta-ql1p4z-5 fQvwYh"
+            class="Cases__Meta-ql1p4z-4 fnbXh"
           >
             <div
-              class="Cases__Title-ql1p4z-6 lcpPa"
+              class="Cases__Title-ql1p4z-5 WtUOC"
             >
               Vimla
             </div>
             <div
-              class="Cases__ShortDescription-ql1p4z-7 kyBwAP"
+              class="Cases__ShortDescription-ql1p4z-6 eAkhlI"
             >
               Synliggörande av asylsökandes kompetens med digitala verktyg
             </div>
@@ -74,27 +74,27 @@ exports[`components/Cases renders Cases 1`] = `
         href="/case/tsab"
       >
         <div
-          class="Cases__Case-ql1p4z-2 kbvVwh"
+          class="Cases__Case-ql1p4z-1 iHJPWM"
         >
           <div
-            class="Cases__CaseImageWrap-ql1p4z-3 dIpLyj"
+            class="Cases__CaseImageWrap-ql1p4z-2 bjJOKy"
           >
             <img
-              class="Cases__CaseImage-ql1p4z-4 bDrJzX"
+              class="Cases__CaseImage-ql1p4z-3 bRuamq"
               src="//images.ctfassets.net/rj4r6yfcesw5/UGucAeFycSqIGw0CAc0ys/3d58300261bcff64dba751de9228a150/tsab-case-phone.png"
               alt=""
             />
           </div>
           <div
-            class="Cases__Meta-ql1p4z-5 fQvwYh"
+            class="Cases__Meta-ql1p4z-4 fnbXh"
           >
             <div
-              class="Cases__Title-ql1p4z-6 lcpPa"
+              class="Cases__Title-ql1p4z-5 WtUOC"
             >
               Taxi Stockholm
             </div>
             <div
-              class="Cases__ShortDescription-ql1p4z-7 kyBwAP"
+              class="Cases__ShortDescription-ql1p4z-6 eAkhlI"
             >
               Synliggörande av asylsökandes kompetens med digitala verktyg
             </div>
@@ -106,21 +106,21 @@ exports[`components/Cases renders Cases 1`] = `
         href="/case/seb"
       >
         <div
-          class="Cases__Case-ql1p4z-2 kbvVwh"
+          class="Cases__Case-ql1p4z-1 iHJPWM"
         >
           <div
-            class="Cases__CaseImageWrap-ql1p4z-3 dIpLyj"
+            class="Cases__CaseImageWrap-ql1p4z-2 bjJOKy"
           />
           <div
-            class="Cases__Meta-ql1p4z-5 fQvwYh"
+            class="Cases__Meta-ql1p4z-4 fnbXh"
           >
             <div
-              class="Cases__Title-ql1p4z-6 lcpPa"
+              class="Cases__Title-ql1p4z-5 WtUOC"
             >
               SEB
             </div>
             <div
-              class="Cases__ShortDescription-ql1p4z-7 kyBwAP"
+              class="Cases__ShortDescription-ql1p4z-6 eAkhlI"
             >
               Synliggörande av asylsökandes kompetens med digitala verktyg
             </div>
@@ -132,27 +132,27 @@ exports[`components/Cases renders Cases 1`] = `
         href="/case/arbetsformedlingen"
       >
         <div
-          class="Cases__Case-ql1p4z-2 kbvVwh"
+          class="Cases__Case-ql1p4z-1 iHJPWM"
         >
           <div
-            class="Cases__CaseImageWrap-ql1p4z-3 dIpLyj"
+            class="Cases__CaseImageWrap-ql1p4z-2 bjJOKy"
           >
             <img
-              class="Cases__CaseImage-ql1p4z-4 bDrJzX"
+              class="Cases__CaseImage-ql1p4z-3 bRuamq"
               src="//images.ctfassets.net/rj4r6yfcesw5/3Y7zZ25WbeOCU8w84kAEos/b97ff1899cf6f2e4dca0eb2b4f0d5a44/af.png"
               alt=""
             />
           </div>
           <div
-            class="Cases__Meta-ql1p4z-5 fQvwYh"
+            class="Cases__Meta-ql1p4z-4 fnbXh"
           >
             <div
-              class="Cases__Title-ql1p4z-6 lcpPa"
+              class="Cases__Title-ql1p4z-5 WtUOC"
             >
               Arbetsförmedlingen
             </div>
             <div
-              class="Cases__ShortDescription-ql1p4z-7 kyBwAP"
+              class="Cases__ShortDescription-ql1p4z-6 eAkhlI"
             >
               Synliggörande av asylsökandes kompetens med digitala verktyg
             </div>
