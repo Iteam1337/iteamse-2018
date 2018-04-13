@@ -4,6 +4,7 @@ import * as React from 'react'
 import * as Iteam from '../typings/iteam.flow'
 import * as IteamCMS from './__generated__/CasesPage'
 import GridColumn from '../components/Grid/GridColumn'
+import PaddedRow from '../components/Grid/PaddedRow'
 import styled from 'styled-components'
 import { filterByLocation } from '../utils/filterByLocation'
 import FilterByLocation from '../components/FilterByLocation/FilterByLocation'
@@ -13,6 +14,7 @@ import { Query } from 'react-apollo'
 import gql from 'graphql-tag'
 import { CasePageQuery } from './Case'
 import PrefetchLink from '../components/Link/PrefetchLink'
+import { media } from '../theme'
 
 type QueryProps = Iteam.ApolloBase<IteamCMS.CasesPage>
 
@@ -34,11 +36,15 @@ export const CasesPageQuery = gql`
   }
 `
 
-const Cases = styled.div`
+const Cases = PaddedRow.extend`
   display: grid;
-  grid-column-gap: 30px;
   grid-row-gap: 40px;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
+
+  ${media.desktop`
+    grid-column-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+  `};
 `
 
 const CaseLink = styled(PrefetchLink)`
@@ -52,9 +58,12 @@ const CaseImageWrap = styled.div`
   align-items: center;
   background-color: #f1f1f1;
   display: flex;
-  height: 500px;
   justify-content: center;
-  width: 500px;
+
+  ${media.desktop`
+    height: 500px;
+    width: 500px;
+  `};
 `
 
 const CaseImage = styled.img`
