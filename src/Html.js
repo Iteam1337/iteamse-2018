@@ -26,7 +26,7 @@ function Html ({ apolloState, content, styleTags }: Props) {
         />
 
         <title>{'Iteam - There\'s a better way'}</title>
-        <link rel="icon" href="/favicon.ico?v=1" />
+        <link rel="icon" href="/favicon.png?v=2" />
         <link
           href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
           rel="stylesheet"
