@@ -41,7 +41,7 @@ exports[`components/Team renders Team 1`] = `
         class="TeamMembers__Members-gavpkf-0 kEUlpQ"
       >
         <div
-          class="TeamPageMember__Colleague-s1ndkn07-0 bbOPRB"
+          class="TeamPageMember__Colleague-s1ndkn07-0 jfObUh"
         >
           <a
             class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
@@ -84,7 +84,7 @@ exports[`components/Team renders Team 1`] = `
           </a>
         </div>
         <div
-          class="TeamPageMember__Colleague-s1ndkn07-0 bbOPRB"
+          class="TeamPageMember__Colleague-s1ndkn07-0 jfObUh"
         >
           <a
             class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
@@ -173,7 +173,7 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
         class="TeamMembers__Members-gavpkf-0 kEUlpQ"
       >
         <div
-          class="TeamPageMember__Colleague-s1ndkn07-0 bbOPRB"
+          class="TeamPageMember__Colleague-s1ndkn07-0 jfObUh"
         >
           <a
             class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
@@ -262,7 +262,7 @@ exports[`components/Team should handle changing location using mouse 1`] = `
         class="TeamMembers__Members-gavpkf-0 kEUlpQ"
       >
         <div
-          class="TeamPageMember__Colleague-s1ndkn07-0 bbOPRB"
+          class="TeamPageMember__Colleague-s1ndkn07-0 jfObUh"
         >
           <a
             class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
@@ -351,7 +351,7 @@ exports[`components/Team should not change using keyboard if not enter or space 
         class="TeamMembers__Members-gavpkf-0 kEUlpQ"
       >
         <div
-          class="TeamPageMember__Colleague-s1ndkn07-0 bbOPRB"
+          class="TeamPageMember__Colleague-s1ndkn07-0 jfObUh"
         >
           <a
             class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
@@ -394,7 +394,7 @@ exports[`components/Team should not change using keyboard if not enter or space 
           </a>
         </div>
         <div
-          class="TeamPageMember__Colleague-s1ndkn07-0 bbOPRB"
+          class="TeamPageMember__Colleague-s1ndkn07-0 jfObUh"
         >
           <a
             class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"

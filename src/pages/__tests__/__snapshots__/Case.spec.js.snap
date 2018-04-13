@@ -16,11 +16,15 @@ exports[`components/Case renders Case 1`] = `
           class="Navigation__LogoLink-s51g7mr-1 jRAxmQ"
           href="/"
         >
-          <img
-            class="Navigation__Logo-s51g7mr-2 jqPavq"
-            alt="Iteam logo"
-            src="iteam.png"
-          />
+          <div>
+            <div>
+              <div
+                class="Navigation__Logo-s51g7mr-2 jqPavq"
+                data-src="iteam.svg"
+                src=""
+              />
+            </div>
+          </div>
         </a>
         <div
           class="Navigation__NavigationItems-s51g7mr-3 kIWVTO"
