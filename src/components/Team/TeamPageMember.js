@@ -6,14 +6,10 @@ import styled from 'styled-components'
 import Avatar from './Avatar'
 import Mailto from '../Link/Mailto'
 import PhoneNumber from '../Link/PhoneNumber'
-import { Link } from 'react-router-dom'
-import { withApollo } from 'react-apollo'
 import { TeamMemberPageQuery } from '../../pages/TeamMember'
+import PrefetchLink from '../Link/PrefetchLink'
 
 type Props = {
-  client: {
-    query: Function,
-  },
   member: IteamCMS.Team_teamMembers,
 }
 
@@ -35,24 +31,20 @@ const AvatarWrap = styled.div`
   margin-bottom: 20px;
 `
 
-const TeamPageMember = ({ client, member }: Props) => {
+const TeamPageMember = ({ member }: Props) => {
   return (
     <Colleague key={member.name}>
-      <Link
-        onMouseEnter={() =>
-          client.query({
-            query: TeamMemberPageQuery,
-            variables: {
-              shortName: member.short,
-            },
-          })
-        }
+      <PrefetchLink
+        query={TeamMemberPageQuery}
         to={`/teamet/${member.short}`}
+        variables={{
+          shortName: member.short,
+        }}
       >
         <AvatarWrap>
           <Avatar image={member.avatar} />
         </AvatarWrap>
-      </Link>
+      </PrefetchLink>
       <Name>{member.name}</Name>
       <Title>{member.title}</Title>
       {member.phoneNumber && (
@@ -67,4 +59,4 @@ const TeamPageMember = ({ client, member }: Props) => {
   )
 }
 
-export default withApollo(TeamPageMember)
+export default TeamPageMember
