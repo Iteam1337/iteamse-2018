@@ -18,7 +18,7 @@
     "cypress": "cypress open",
     "cypress:run": "cypress run",
     "precommit": "lint-staged",
-    "commitmsg": "validate-commit-msg"
+    "commitmsg": "commitlint -e $GIT_PARAMS"
   },
   "lint-staged": {
     "*.js": [
@@ -33,7 +33,7 @@
     "apollo-link": "1.2.2",
     "apollo-link-http": "1.5.4",
     "apollo-server-express": "1.3.4",
-    "compression": "^1.7.2",
+    "compression": "1.7.2",
     "contrast": "1.0.1",
     "express": "4.16.3",
     "graphql": "0.13.2",
@@ -51,10 +51,12 @@
     "react-safe": "1.1.1",
     "serialize": "0.1.3",
     "styled-components": "3.2.5",
-    "telefonnummer": "^1.1.1",
+    "telefonnummer": "1.1.1",
     "what-input": "5.0.5"
   },
   "devDependencies": {
+    "@commitlint/cli": "6.1.3",
+    "@commitlint/config-conventional": "6.1.3",
     "apollo-codegen": "0.19.1",
     "apollo-mocknetworkinterface": "2.0.0",
     "babel-eslint": "8.2.2",
@@ -72,8 +74,7 @@
     "jest-styled-components": "5.0.1",
     "lint-staged": "7.0.4",
     "prettier": "1.12.0",
-    "react-testing-library": "2.1.1",
-    "validate-commit-msg": "^2.14.0"
+    "react-testing-library": "2.1.1"
   },
   "jest": {
     "collectCoverageFrom": [
