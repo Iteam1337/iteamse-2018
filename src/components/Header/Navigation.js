@@ -26,6 +26,7 @@ type State = {
 
 const Wrap = styled.div`
   align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
   display: grid;
   grid-template-columns: 150px 1fr;
   padding: 20px;
@@ -81,12 +82,18 @@ const Indicator = styled.div`
 
 const StyledLink = styled(NavLink)`
   color: #fff;
+  font-size: 18px;
   font-weight: 400;
   text-decoration: none;
   text-shadow: 0px 1px 14px rgba(0, 0, 0, 0.5);
+  transition: color 200ms ease-in-out;
 
   &:not(:last-child) {
     margin-right: 30px;
+  }
+
+  &:hover {
+    color: #ccc;
   }
 
   &:focus {
