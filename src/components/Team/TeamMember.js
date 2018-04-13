@@ -5,6 +5,8 @@ import * as IteamCMS from './__generated__/Team'
 import styled from 'styled-components'
 import Avatar from './Avatar'
 import Mailto from '../Link/Mailto'
+import { TeamMemberPageQuery } from '../../pages/TeamMember'
+import PrefetchLink from '../Link/PrefetchLink'
 
 type Props = {
   member: IteamCMS.Team_teamMembers,
@@ -32,9 +34,17 @@ const TeamMember = ({ member }: Props) => {
     <Colleague>
       <Title>{member.title}</Title>
       <Location data-test="team-member-location">{member.location}</Location>
-      <AvatarWrap>
-        <Avatar image={member.avatar} />
-      </AvatarWrap>
+      <PrefetchLink
+        query={TeamMemberPageQuery}
+        to={`/teamet/${member.short}`}
+        variables={{
+          shortName: member.short,
+        }}
+      >
+        <AvatarWrap>
+          <Avatar image={member.avatar} />
+        </AvatarWrap>
+      </PrefetchLink>
       <Title>{member.name}</Title>
       <Mailto email={member.email}>{member.email}</Mailto>
     </Colleague>

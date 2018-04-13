@@ -6,6 +6,8 @@ import styled from 'styled-components'
 import Avatar from './Avatar'
 import Mailto from '../Link/Mailto'
 import PhoneNumber from '../Link/PhoneNumber'
+import { TeamMemberPageQuery } from '../../pages/TeamMember'
+import PrefetchLink from '../Link/PrefetchLink'
 
 type Props = {
   member: IteamCMS.Team_teamMembers,
@@ -39,7 +41,15 @@ const MetaSection = styled.div`
 const TeamMemberDuo = ({ member }: Props) => {
   return (
     <Colleague>
-      <Avatar image={member.avatar} />
+      <PrefetchLink
+        query={TeamMemberPageQuery}
+        to={`/teamet/${member.short}`}
+        variables={{
+          shortName: member.short,
+        }}
+      >
+        <Avatar image={member.avatar} />
+      </PrefetchLink>
       <Meta>
         <MetaSection>
           <Title>{member.title}</Title>
