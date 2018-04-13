@@ -6,9 +6,11 @@ import * as IteamCMS from './__generated__/OperationsPage'
 import { Query } from 'react-apollo'
 import gql from 'graphql-tag'
 import Header from '../components/Header/Header'
+import opsImage from './img/illustrations-group-4.svg'
 import GridColumn from '../components/Grid/GridColumn'
 import Block from '../components/Blocks/Block'
 import ImageBleed from '../components/Blocks/ImageBleed'
+import ImageBlock from '../components/Blocks/ImageBlock'
 import Team from '../components/Team/Team'
 
 type Props = Iteam.ApolloBase<IteamCMS.OperationsPage>
@@ -58,6 +60,8 @@ const Operations = () => {
               <Block concrete title={pageOps.networkTitle}>
                 {pageOps.networkText}
               </Block>
+
+              <ImageBlock image={opsImage} />
 
               <Block concrete title={pageOps.softwareTitle}>
                 {pageOps.softwareText}

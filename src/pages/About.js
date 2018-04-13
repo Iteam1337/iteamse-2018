@@ -6,7 +6,7 @@ import * as IteamCMS from './__generated__/AboutPage'
 import { Query } from 'react-apollo'
 import gql from 'graphql-tag'
 import Header from '../components/Header/Header'
-import aboutUsImage from './img/block_aboutus.png'
+import aboutUsImage from './img/illustrations-group-1.svg'
 import Block from '../components/Blocks/Block'
 import Team from '../components/Team/Team'
 import ImageBleed from '../components/Blocks/ImageBleed'
@@ -44,6 +44,8 @@ const StabilityIcons = styled.div`
 `
 
 const StabilityIcon = styled.img`
+  max-width: 145px;
+
   &:not(:last-child) {
     margin-right: 20px;
   }
