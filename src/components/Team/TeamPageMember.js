@@ -3,7 +3,7 @@
 import React from 'react'
 import * as IteamCMS from './__generated__/Team'
 import styled from 'styled-components'
-import Avatar from './Avatar'
+import Avatar, { AvatarImage } from './Avatar'
 import Mailto from '../Link/Mailto'
 import PhoneNumber from '../Link/PhoneNumber'
 import { TeamMemberPageQuery } from '../../pages/TeamMember'
@@ -18,6 +18,15 @@ const Colleague = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
+  transition: transform 200ms ease-in-out;
+
+  &:hover {
+    transform: translateY(-5px);
+
+    ${AvatarImage} {
+      box-shadow: 0 5px 50px #33333333;
+    }
+  }
 `
 
 const Name = styled.div`
@@ -51,7 +60,7 @@ const TeamPageMember = ({ member }: Props) => {
         }}
       >
         <AvatarWrap>
-          <Avatar image={member.avatar} />
+          <Avatar alt={member.name} image={member.avatar} />
         </AvatarWrap>
       </PrefetchLink>
       <Name>{member.name}</Name>
