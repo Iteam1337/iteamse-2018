@@ -45,7 +45,7 @@ const Block = ({
   title,
 }: Props) => {
   return (
-    <Fade bottom>
+    <Fade bottom distance="50px">
       <PaddedRow data-test={`block-${dataTest}`}>
         <Content>
           <TitleWrap>

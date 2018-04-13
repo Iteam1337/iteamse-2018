@@ -49,6 +49,10 @@ export const HomePageQuery = gql`
   }
 `
 
+const HomeGridColumn = GridColumn.extend`
+  background-color: ${({ theme }) => theme.colors.concrete};
+`
+
 const Content = styled.div`
   display: grid;
   grid-column-gap: 40px;
@@ -122,7 +126,7 @@ const Home = () => {
               messageTwo={pageStart.headerText2}
             />
 
-            <GridColumn>
+            <HomeGridColumn>
               <Content>
                 <StylizedIteam src={iteamStylized} />
                 <Texts>
@@ -169,7 +173,7 @@ const Home = () => {
                   </TextBlock>
                 </Texts>
               </Content>
-            </GridColumn>
+            </HomeGridColumn>
 
             <OperationsBanner />
             <Team shortName={['met', 'rln', 'msr', 'jmn']} />

@@ -18,13 +18,13 @@ export const GridColumnClean = styled.div`
 
 const GridColumn = GridColumnClean.extend`
   grid-row-gap: 40px;
-  margin-bottom: 40px;
-  margin-top: 40px;
+  padding-bottom: 40px;
+  padding-top: 40px;
 
   ${media.desktop`
     grid-row-gap: 100px;
-    margin-bottom: 100px;
-    margin-top: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
   `};
 `
 

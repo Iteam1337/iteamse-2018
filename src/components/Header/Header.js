@@ -23,7 +23,7 @@ const Wrap = GridColumnClean.extend`
   height: 430px;
 
   @media (min-width: 481px) {
-    height: 700px;
+    height: 800px;
   }
 `
 

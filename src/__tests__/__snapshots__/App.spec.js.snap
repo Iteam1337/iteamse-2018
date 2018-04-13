@@ -7,7 +7,7 @@ exports[`App renders App 1`] = `
     class="lazyload-placeholder"
   />
   <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD bUQVYb"
+    class="GridColumn__GridColumnClean-lcQAdD eeOKQI"
   >
     <div
       class="Home__Content-s15fccpq-0 htMAwU"
@@ -239,7 +239,7 @@ exports[`App renders App 1`] = `
     </button>
   </div>
   <div
-    class="GridColumn__GridColumnClean-lcQAdD ighRch"
+    class="GridColumn__GridColumnClean-lcQAdD cMYMfO"
   >
     <div
       class="Footer__FooterSections-xtla5m-0 cgXbGm"

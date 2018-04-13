@@ -7,7 +7,7 @@ exports[`components/Team renders Team 1`] = `
     class="lazyload-placeholder"
   />
   <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD bUQVYb"
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD cdtVAw"
   >
     <div
       class="s3nsc5b-0-PaddedRow-hWTqUj hPVqKX"
@@ -135,7 +135,7 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
     class="lazyload-placeholder"
   />
   <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD bUQVYb"
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD cdtVAw"
   >
     <div
       class="s3nsc5b-0-PaddedRow-hWTqUj hPVqKX"
@@ -222,7 +222,7 @@ exports[`components/Team should handle changing location using mouse 1`] = `
     class="lazyload-placeholder"
   />
   <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD bUQVYb"
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD cdtVAw"
   >
     <div
       class="s3nsc5b-0-PaddedRow-hWTqUj hPVqKX"
@@ -309,7 +309,7 @@ exports[`components/Team should not change using keyboard if not enter or space 
     class="lazyload-placeholder"
   />
   <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD bUQVYb"
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD cdtVAw"
   >
     <div
       class="s3nsc5b-0-PaddedRow-hWTqUj hPVqKX"
