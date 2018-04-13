@@ -25,7 +25,8 @@ function Html ({ apolloState, content, styleTags }: Props) {
           content="Vi digitaliserar företag och organisationer genom strategi, kod och kultur"
         />
 
-        <title>Iteam</title>
+        <title>{'Iteam - There\'s a better way'}</title>
+        <link rel="icon" href="/favicon.ico?v=1" />
         <link
           href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
           rel="stylesheet"
