@@ -4,6 +4,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Navigation from './Navigation'
 import { GridColumnClean } from '../Grid/GridColumn'
+import { media } from '../../theme'
 
 type Props = {
   bgColor: ?string,
@@ -34,9 +35,9 @@ const Information = styled.div`
   grid-column-gap: 100px;
   padding-bottom: 60px;
 
-  @media (min-width: 1024px) {
+  ${media.desktop`
     grid-template-columns: repeat(2, 1fr);
-  }
+  `};
 `
 
 const Meta = styled.div``
@@ -51,9 +52,9 @@ const Logo = styled.img`
 `
 
 const Tags = styled.div`
-  @media (min-width: 1024px) {
+  ${media.desktop`
     max-width: 70%;
-  }
+  `};
 `
 
 const Tag = styled.div`
@@ -76,9 +77,9 @@ const CaseImage = styled.div`
   justify-content: center;
   width: 500px;
 
-  @media (min-width: 1024px) {
+  ${media.desktop`
     display: flex;
-  }
+  `};
 `
 
 const CaseHeader = ({ bgColor, caseImage, logo, tags }: Props) => {

@@ -8,6 +8,7 @@ import LazyLoad from 'react-lazyload'
 import { handleColors } from '../../utils/handleColors'
 import { GridColumnClean } from '../Grid/GridColumn'
 import PaddedRow from '../Grid/PaddedRow'
+import { media } from '../../theme'
 
 type Props = {
   backgroundImage?: string | null,
@@ -58,9 +59,9 @@ const Message = H1.extend`
     margin-bottom: 5px;
   }
 
-  @media (min-width: 1024px) {
+  ${media.desktop`
     width: auto;
-  }
+  `};
 `
 
 const Header = ({

@@ -15,6 +15,7 @@ import iconInstagram from './img/icon_instagram.svg'
 import iconLinkedin from './img/icon_linkedin.svg'
 import iconYoutube from './img/icon_youtube.svg'
 import iconMynewsdesk from './img/icon_mynewsdesk.svg'
+import { media } from '../../theme'
 
 type Props = Iteam.ApolloBase<IteamCMS.Footer>
 
@@ -38,19 +39,19 @@ const Wrap = GridColumn.extend`
   padding-bottom: 40px;
   padding-top: 40px;
 
-  @media (min-width: 1024px) {
+  ${media.desktop`
     padding-left: 0;
     padding-right: 0;
-  }
+  `};
 `
 
 const FooterSections = styled.div`
   display: grid;
   grid-gap: 30px;
 
-  @media (min-width: 1024px) {
+  ${media.desktop`
     grid-template-columns: repeat(2, 315px) 1fr;
-  }
+  `};
 `
 
 const Title = styled.div`

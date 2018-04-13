@@ -6,6 +6,7 @@ import H3 from '../Typography/H3'
 import Paragraph from '../Typography/Paragraph'
 import PaddedRow from '../Grid/PaddedRow'
 import Fade from 'react-reveal/Fade'
+import { media } from '../../theme'
 
 type Props = {
   children: React.Node,
@@ -18,10 +19,10 @@ type Props = {
 const Content = styled.div`
   display: grid;
 
-  @media (min-width: 1024px) {
+  ${media.desktop`
     grid-column-gap: 60px;
     grid-template-columns: 320px 1fr;
-  }
+  `};
 `
 
 const TitleWrap = styled.div``

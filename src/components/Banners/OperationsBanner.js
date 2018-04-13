@@ -8,6 +8,7 @@ import banner from './img/banner_ops.jpg'
 import { GridColumnClean } from '../Grid/GridColumn'
 import { OperationsPageQuery } from '../../pages/Ops'
 import { withApollo } from 'react-apollo'
+import { media } from '../../theme'
 
 type Props = {
   client: {
@@ -45,11 +46,11 @@ const Content = styled.div`
   position: relative;
   z-index: 1;
 
-  @media (min-width: 1024px) {
+  ${media.desktop`
     grid-template-columns: 1fr 350px;
     padding-left: 0;
     padding-right: 0;
-  }
+  `};
 `
 
 export const OperationsBanner = ({ client }: Props) => {

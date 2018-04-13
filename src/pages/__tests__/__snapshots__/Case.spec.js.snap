@@ -3,7 +3,7 @@
 exports[`components/Case renders Case 1`] = `
 <div>
   <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD jZapmK"
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD bxUxfq"
     data-test="header-case"
   >
     <div
@@ -73,7 +73,7 @@ exports[`components/Case renders Case 1`] = `
         </div>
       </div>
       <div
-        class="CaseHeader__Information-s1ypm50d-1 iDuanE"
+        class="CaseHeader__Information-s1ypm50d-1 iQbKdt"
       >
         <div
           class="CaseHeader__Meta-s1ypm50d-2 gGeTiA"
@@ -84,7 +84,7 @@ exports[`components/Case renders Case 1`] = `
             src="//images.ctfassets.net/rj4r6yfcesw5/4p0ptdLj9SaECekOI4c6C2/c2cdeab1cebc9650ebb0e7778357c231/AF_ordbild_vit.png"
           />
           <div
-            class="CaseHeader__Tags-s1ypm50d-5 gHiaMO"
+            class="CaseHeader__Tags-s1ypm50d-5 cNnewt"
           >
             <div
               class="CaseHeader__Tag-s1ypm50d-6 bFhyAK"
@@ -114,7 +114,7 @@ exports[`components/Case renders Case 1`] = `
           </div>
         </div>
         <div
-          class="CaseHeader__CaseImage-s1ypm50d-7 bYIljM"
+          class="CaseHeader__CaseImage-s1ypm50d-7 kJqdNE"
         >
           <img
             class="CaseHeader__ProjectImage-s1ypm50d-3 hszjtC"
@@ -126,10 +126,10 @@ exports[`components/Case renders Case 1`] = `
     </div>
   </div>
   <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD ikGgaF"
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD bUQVYb"
   >
     <div
-      class="s3nsc5b-0-PaddedRow-hWTqUj eoUcyC"
+      class="s3nsc5b-0-PaddedRow-hWTqUj cqBWXm"
       data-test="breadcrumbs"
     >
       <span>
@@ -141,17 +141,17 @@ exports[`components/Case renders Case 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        class="PaddedRow-s3nsc5b-0 cKRLCb"
         data-test="block-"
       >
         <div
-          class="Block__Content-jdahsb-0 eIdLjk"
+          class="Block__Content-jdahsb-0 eJFCrU"
         >
           <div
             class="Block__TitleWrap-jdahsb-1 dkYDLt"
           >
             <h3
-              class="H3-s19jy0q4-0 cqQxoo"
+              class="H3-s19jy0q4-0 bFoQlU"
             >
               En ny digital tjänst
             </h3>
@@ -177,17 +177,17 @@ exports[`components/Case renders Case 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        class="PaddedRow-s3nsc5b-0 cKRLCb"
         data-test="block-"
       >
         <div
-          class="Block__Content-jdahsb-0 eIdLjk"
+          class="Block__Content-jdahsb-0 eJFCrU"
         >
           <div
             class="Block__TitleWrap-jdahsb-1 dkYDLt"
           >
             <h3
-              class="H3-s19jy0q4-0 cqQxoo"
+              class="H3-s19jy0q4-0 bFoQlU"
             >
               Process
             </h3>
@@ -209,11 +209,11 @@ exports[`components/Case renders Case 1`] = `
       </div>
     </div>
     <div
-      class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD boLfob"
+      class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD hVBLlb"
       data-test="block-"
     >
       <div
-        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        class="PaddedRow-s3nsc5b-0 cKRLCb"
       >
         <div
           class="Quote__ActualQuote-s1aziix4-0 eiWOFj"
@@ -232,17 +232,17 @@ exports[`components/Case renders Case 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        class="PaddedRow-s3nsc5b-0 cKRLCb"
         data-test="block-"
       >
         <div
-          class="Block__Content-jdahsb-0 eIdLjk"
+          class="Block__Content-jdahsb-0 eJFCrU"
         >
           <div
             class="Block__TitleWrap-jdahsb-1 dkYDLt"
           >
             <h3
-              class="H3-s19jy0q4-0 cqQxoo"
+              class="H3-s19jy0q4-0 bFoQlU"
             >
               Utveckling
             </h3>
@@ -268,17 +268,17 @@ exports[`components/Case renders Case 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        class="PaddedRow-s3nsc5b-0 cKRLCb"
         data-test="block-"
       >
         <div
-          class="Block__Content-jdahsb-0 eIdLjk"
+          class="Block__Content-jdahsb-0 eJFCrU"
         >
           <div
             class="Block__TitleWrap-jdahsb-1 dkYDLt"
           >
             <h3
-              class="H3-s19jy0q4-0 cqQxoo"
+              class="H3-s19jy0q4-0 bFoQlU"
             >
               Arbetsförmedlingen
             </h3>
@@ -304,17 +304,17 @@ exports[`components/Case renders Case 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        class="PaddedRow-s3nsc5b-0 cKRLCb"
         data-test="block-"
       >
         <div
-          class="Block__Content-jdahsb-0 eIdLjk"
+          class="Block__Content-jdahsb-0 eJFCrU"
         >
           <div
             class="Block__TitleWrap-jdahsb-1 dkYDLt"
           >
             <h3
-              class="H3-s19jy0q4-0 cqQxoo"
+              class="H3-s19jy0q4-0 bFoQlU"
             >
               Samarbetspartners
             </h3>
@@ -344,17 +344,17 @@ exports[`components/Case renders Case 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        class="PaddedRow-s3nsc5b-0 cKRLCb"
         data-test="block-"
       >
         <div
-          class="Block__Content-jdahsb-0 eIdLjk"
+          class="Block__Content-jdahsb-0 eJFCrU"
         >
           <div
             class="Block__TitleWrap-jdahsb-1 dkYDLt"
           >
             <h3
-              class="H3-s19jy0q4-0 cqQxoo"
+              class="H3-s19jy0q4-0 bFoQlU"
             >
               Presskontakt
             </h3>
@@ -386,13 +386,13 @@ exports[`components/Case renders Case 1`] = `
     </div>
   </div>
   <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD dHdzVv"
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD jrbaIt"
   >
     <div
-      class="TeamMembers__Members-gavpkf-0 fuDfYD"
+      class="TeamMembers__Members-gavpkf-0 kEUlpQ"
     >
       <div
-        class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
+        class="TeamMemberDuo__Colleague-s9kjazo-0 foLTeb"
       >
         <a
           class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
@@ -440,7 +440,7 @@ exports[`components/Case renders Case 1`] = `
         </div>
       </div>
       <div
-        class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
+        class="TeamMemberDuo__Colleague-s9kjazo-0 foLTeb"
       >
         <a
           class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"

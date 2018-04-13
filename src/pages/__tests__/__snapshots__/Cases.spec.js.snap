@@ -7,10 +7,10 @@ exports[`components/Cases renders Cases 1`] = `
     class="lazyload-placeholder"
   />
   <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD ikGgaF"
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD bUQVYb"
   >
     <div
-      class="s3nsc5b-0-PaddedRow-hWTqUj gztodZ"
+      class="s3nsc5b-0-PaddedRow-hWTqUj hPVqKX"
     >
       <div
         class="Filter__Wrap-s16ccbkk-0 evelsV"
@@ -162,13 +162,13 @@ exports[`components/Cases renders Cases 1`] = `
     </div>
   </div>
   <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD dHdzVv"
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD jrbaIt"
   >
     <div
-      class="TeamMembers__Members-gavpkf-0 fuDfYD"
+      class="TeamMembers__Members-gavpkf-0 kEUlpQ"
     >
       <div
-        class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
+        class="TeamMemberDuo__Colleague-s9kjazo-0 foLTeb"
       >
         <a
           class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
@@ -216,7 +216,7 @@ exports[`components/Cases renders Cases 1`] = `
         </div>
       </div>
       <div
-        class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
+        class="TeamMemberDuo__Colleague-s9kjazo-0 foLTeb"
       >
         <a
           class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"

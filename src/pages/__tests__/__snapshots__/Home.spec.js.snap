@@ -7,23 +7,23 @@ exports[`components/Home renders Home 1`] = `
     class="lazyload-placeholder"
   />
   <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD ikGgaF"
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD bUQVYb"
   >
     <div
-      class="Home__Content-s15fccpq-0 fmYNJk"
+      class="Home__Content-s15fccpq-0 htMAwU"
     >
       <img
-        class="Home__StylizedIteam-s15fccpq-2 jlGxqZ"
+        class="Home__StylizedIteam-s15fccpq-2 hgtCAO"
         src="iteam_stylized.png"
       />
       <div
         class="Home__Texts-s15fccpq-1 eCpoTV"
       >
         <div
-          class="s3nsc5b-0-PaddedRow-hWTqUj kNNFGd"
+          class="s3nsc5b-0-PaddedRow-hWTqUj khULXJ"
         >
           <h1
-            class="H1-x5hh3k-0 fsdjyK"
+            class="H1-x5hh3k-0 eejZji"
           >
             Kod
           </h1>
@@ -48,10 +48,10 @@ exports[`components/Home renders Home 1`] = `
           </a>
         </div>
         <div
-          class="s3nsc5b-0-PaddedRow-hWTqUj kNNFGd"
+          class="s3nsc5b-0-PaddedRow-hWTqUj khULXJ"
         >
           <h1
-            class="H1-x5hh3k-0 fsdjyK"
+            class="H1-x5hh3k-0 eejZji"
           >
             Strategi
           </h1>
@@ -76,10 +76,10 @@ exports[`components/Home renders Home 1`] = `
           </a>
         </div>
         <div
-          class="s3nsc5b-0-PaddedRow-hWTqUj kNNFGd"
+          class="s3nsc5b-0-PaddedRow-hWTqUj khULXJ"
         >
           <h1
-            class="H1-x5hh3k-0 fsdjyK"
+            class="H1-x5hh3k-0 eejZji"
           >
             Kultur
           </h1>
@@ -107,16 +107,16 @@ exports[`components/Home renders Home 1`] = `
     </div>
   </div>
   <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD wWXKU"
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD lbDVJp"
   >
     <div
       class="OperationsBanner__Overlay-s6plh63-0 eUEmcx"
     />
     <div
-      class="OperationsBanner__Content-s6plh63-1 enYwVc"
+      class="OperationsBanner__Content-s6plh63-1 YGXrX"
     >
       <h2
-        class="H2-s1x2w9v8-0 jJUQzY"
+        class="H2-s1x2w9v8-0 exLhgN"
       >
         Visste du att vi även erbjuder drift & support?
       </h2>
@@ -129,10 +129,10 @@ exports[`components/Home renders Home 1`] = `
     </div>
   </div>
   <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD dGQjgn"
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD dXaaGv"
   >
     <div
-      class="TeamMembers__Members-gavpkf-0 hZpEAh"
+      class="TeamMembers__Members-gavpkf-0 kvZgxv"
     >
       <div
         class="TeamMember__Colleague-ahjagd-0 jsoPzM"

@@ -7,24 +7,24 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
     class="lazyload-placeholder"
   />
   <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD ikGgaF"
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD bUQVYb"
   >
     <div
       class="react-reveal"
       style="opacity: 1;"
     >
       <div
-        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        class="PaddedRow-s3nsc5b-0 cKRLCb"
         data-test="block-"
       >
         <div
-          class="Block__Content-jdahsb-0 eIdLjk"
+          class="Block__Content-jdahsb-0 eJFCrU"
         >
           <div
             class="Block__TitleWrap-jdahsb-1 dkYDLt"
           >
             <h3
-              class="H3-s19jy0q4-0 cqQxoo"
+              class="H3-s19jy0q4-0 bFoQlU"
             >
               I team
             </h3>
@@ -58,17 +58,17 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        class="PaddedRow-s3nsc5b-0 cKRLCb"
         data-test="block-"
       >
         <div
-          class="Block__Content-jdahsb-0 eIdLjk"
+          class="Block__Content-jdahsb-0 eJFCrU"
         >
           <div
             class="Block__TitleWrap-jdahsb-1 dkYDLt"
           >
             <h3
-              class="H3-s19jy0q4-0 cqQxoo"
+              class="H3-s19jy0q4-0 bFoQlU"
             >
               Ständigt sökande
             </h3>
@@ -98,17 +98,17 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        class="PaddedRow-s3nsc5b-0 cKRLCb"
         data-test="block-"
       >
         <div
-          class="Block__Content-jdahsb-0 eIdLjk"
+          class="Block__Content-jdahsb-0 eJFCrU"
         >
           <div
             class="Block__TitleWrap-jdahsb-1 dkYDLt"
           >
             <h3
-              class="H3-s19jy0q4-0 cqQxoo"
+              class="H3-s19jy0q4-0 bFoQlU"
             >
               Delar allt
             </h3>
@@ -142,17 +142,17 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="PaddedRow-s3nsc5b-0 fDKhjr"
+        class="PaddedRow-s3nsc5b-0 cKRLCb"
         data-test="block-"
       >
         <div
-          class="Block__Content-jdahsb-0 eIdLjk"
+          class="Block__Content-jdahsb-0 eJFCrU"
         >
           <div
             class="Block__TitleWrap-jdahsb-1 dkYDLt"
           >
             <h3
-              class="H3-s19jy0q4-0 cqQxoo"
+              class="H3-s19jy0q4-0 bFoQlU"
             >
               Långa strömmar, inte korta projekt
             </h3>
@@ -175,13 +175,13 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
     </div>
   </div>
   <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD bNSJkI"
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD bHsLpC"
   >
     <div
-      class="TeamMembers__Members-gavpkf-0 fuDfYD"
+      class="TeamMembers__Members-gavpkf-0 kEUlpQ"
     >
       <div
-        class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
+        class="TeamMemberDuo__Colleague-s9kjazo-0 foLTeb"
       >
         <a
           class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
@@ -229,7 +229,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
         </div>
       </div>
       <div
-        class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
+        class="TeamMemberDuo__Colleague-s9kjazo-0 foLTeb"
       >
         <a
           class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"

@@ -4,6 +4,7 @@ import * as React from 'react'
 import { colors } from '../../theme'
 import styled from 'styled-components'
 import { GridColumnClean } from '../Grid/GridColumn'
+import { media } from '../../theme'
 
 type Props = {
   bgColor: string,
@@ -21,9 +22,9 @@ const Wrap = GridColumnClean.extend`
     color: ${({ bgColor, theme }) => theme.contrast(bgColor)};
   }
 
-  @media (min-width: 1024px) {
+  ${media.desktop`
     padding: ${({ teamMembers }) => (teamMembers <= 4 ? '100px 0' : '0px')};
-  }
+  `};
 `
 
 const Members = styled.div`
@@ -32,10 +33,10 @@ const Members = styled.div`
   grid-row-gap: 30px;
   grid-template-columns: 1fr;
 
-  @media (min-width: 1024px) {
+  ${media.desktop`
     grid-template-columns: ${({ teamMembers }) =>
       teamMembers === 2 ? 'repeat(2, 1fr)' : 'repeat(4, 1fr)'};
-  }
+  `};
 `
 
 const TeamMembers = ({

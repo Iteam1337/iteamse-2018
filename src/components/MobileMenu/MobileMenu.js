@@ -5,6 +5,7 @@ import { withRouter, type ContextRouter } from 'react-router-dom'
 import styled from 'styled-components'
 import MenuButton from './MenuButton'
 import MenuNavigation from './MenuNavigation'
+import { media } from '../../theme'
 
 type Props = {
   ...ContextRouter,
@@ -18,9 +19,9 @@ const Wrap = styled.div`
   padding-left: 40px;
   padding-right: 40px;
 
-  @media (min-width: 1024px) {
+  ${media.desktop`
     display: none;
-  }
+  `};
 `
 
 export class MobileMenu extends React.Component<Props, State> {

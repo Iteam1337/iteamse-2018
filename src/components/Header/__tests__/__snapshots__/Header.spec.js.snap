@@ -4,7 +4,7 @@ exports[`components/Header renders Header 1`] = `
 <div>
   <div>
     <div
-      class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD hioqA"
+      class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD DMvnq"
     >
       <div
         class="Header__Content-s2wl2qd-0 hGrCcr"
@@ -73,17 +73,17 @@ exports[`components/Header renders Header 1`] = `
           </div>
         </div>
         <div
-          class="s3nsc5b-0-PaddedRow-hWTqUj fCmQnc"
+          class="s3nsc5b-0-PaddedRow-hWTqUj eCpyVm"
         >
           <h1
-            class="x5hh3k-0-H1-gsrphG egRCWJ"
+            class="x5hh3k-0-H1-gsrphG iClbsb"
           >
             <span>
               Vi digitaliserar företag och organisationer
             </span>
           </h1>
           <h1
-            class="x5hh3k-0-H1-gsrphG egRCWJ"
+            class="x5hh3k-0-H1-gsrphG iClbsb"
           >
             <span>
               genom strategi, kod och kultur

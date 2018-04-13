@@ -16,6 +16,7 @@ import Paragraph from '../components/Typography/Paragraph'
 import Link from '../components/Link/Link'
 import styled from 'styled-components'
 import MediaQuery from 'react-responsive'
+import { media } from '../theme'
 
 type Props = Iteam.ApolloBase<IteamCMS.HomePage>
 
@@ -55,11 +56,11 @@ const Content = styled.div`
   padding-bottom: 40px;
   padding-top: 40px;
 
-  @media (min-width: 1024px) {
+  ${media.desktop`
     grid-template-columns: 550px 1fr;
     padding-bottom: 100px;
     padding-top: 100px;
-  }
+  `};
 `
 
 const Texts = styled.div`
@@ -73,19 +74,19 @@ const TextBlock = PaddedRow.extend`
     margin-bottom: 40px;
   }
 
-  @media (min-width: 1024px) {
+  ${media.desktop`
     &:not(:last-child) {
       margin-bottom: 0;
     }
-  }
+  `};
 `
 
 const StylizedIteam = styled.img`
   display: none;
 
-  @media (min-width: 1024px) {
+  ${media.desktop`
     display: block;
-  }
+  `};
 `
 
 const CompanyLogo = styled.img`

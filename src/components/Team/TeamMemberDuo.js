@@ -8,6 +8,7 @@ import Mailto from '../Link/Mailto'
 import PhoneNumber from '../Link/PhoneNumber'
 import { TeamMemberPageQuery } from '../../pages/TeamMember'
 import PrefetchLink from '../Link/PrefetchLink'
+import { media } from '../../theme'
 
 type Props = {
   member: IteamCMS.Team_teamMembers,
@@ -25,9 +26,9 @@ const Colleague = styled.div`
     text-align: left;
   }
 
-  @media (min-width: 1024px) {
+  ${media.desktop`
     grid-template-columns: 225px 1fr;
-  }
+  `};
 `
 
 const Meta = styled.div``
