@@ -2,7 +2,7 @@
 
 import * as React from 'react'
 import NativeLink from './NativeLink'
-import { parse } from 'telefonnummer'
+import { normalize, parse } from 'telefonnummer'
 
 type Props = {
   children: string,
@@ -10,7 +10,11 @@ type Props = {
 }
 
 const PhoneNumber = ({ children, phoneNumber }: Props) => {
-  return <NativeLink href={`tel:${phoneNumber}`}>{parse(children)}</NativeLink>
+  return (
+    <NativeLink href={`tel:${normalize(phoneNumber)}`}>
+      {parse(children)}
+    </NativeLink>
+  )
 }
 
 export default PhoneNumber
