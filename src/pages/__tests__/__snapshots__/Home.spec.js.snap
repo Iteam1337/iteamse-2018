@@ -134,14 +134,18 @@ exports[`components/Home renders Home 1`] = `
         >
           Stockholm
         </div>
-        <div
-          class="TeamMember__AvatarWrap-ahjagd-3 eERYRm"
+        <a
+          href="/teamet/cmm"
         >
           <div
-            style="height: 226px;"
-            class="lazyload-placeholder"
-          />
-        </div>
+            class="TeamMember__AvatarWrap-ahjagd-3 eERYRm"
+          >
+            <div
+              style="height: 226px;"
+              class="lazyload-placeholder"
+            />
+          </div>
+        </a>
         <div
           class="TeamMember__Title-ahjagd-1 eWbIRQ"
         >
@@ -168,14 +172,18 @@ exports[`components/Home renders Home 1`] = `
         >
           Göteborg
         </div>
-        <div
-          class="TeamMember__AvatarWrap-ahjagd-3 eERYRm"
+        <a
+          href="/teamet/cvc"
         >
           <div
-            style="height: 226px;"
-            class="lazyload-placeholder"
-          />
-        </div>
+            class="TeamMember__AvatarWrap-ahjagd-3 eERYRm"
+          >
+            <div
+              style="height: 226px;"
+              class="lazyload-placeholder"
+            />
+          </div>
+        </a>
         <div
           class="TeamMember__Title-ahjagd-1 eWbIRQ"
         >

@@ -394,10 +394,14 @@ exports[`components/Case renders Case 1`] = `
       <div
         class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
       >
-        <div
-          style="height: 226px;"
-          class="lazyload-placeholder"
-        />
+        <a
+          href="/teamet/cmm"
+        >
+          <div
+            style="height: 226px;"
+            class="lazyload-placeholder"
+          />
+        </a>
         <div
           class="TeamMemberDuo__Meta-s9kjazo-1 gzvJxw"
         >
@@ -437,10 +441,14 @@ exports[`components/Case renders Case 1`] = `
       <div
         class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
       >
-        <div
-          style="height: 226px;"
-          class="lazyload-placeholder"
-        />
+        <a
+          href="/teamet/cvc"
+        >
+          <div
+            style="height: 226px;"
+            class="lazyload-placeholder"
+          />
+        </a>
         <div
           class="TeamMemberDuo__Meta-s9kjazo-1 gzvJxw"
         >

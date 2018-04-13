@@ -38,7 +38,6 @@ exports[`components/Cases renders Cases 1`] = `
       class="Cases-ql1p4z-0 itUmRu"
     >
       <a
-        class="Cases__CaseLink-ql1p4z-1 fDIeFZ"
         href="/case/vimla"
       >
         <div
@@ -70,7 +69,6 @@ exports[`components/Cases renders Cases 1`] = `
         </div>
       </a>
       <a
-        class="Cases__CaseLink-ql1p4z-1 fDIeFZ"
         href="/case/tsab"
       >
         <div
@@ -102,7 +100,6 @@ exports[`components/Cases renders Cases 1`] = `
         </div>
       </a>
       <a
-        class="Cases__CaseLink-ql1p4z-1 fDIeFZ"
         href="/case/seb"
       >
         <div
@@ -128,7 +125,6 @@ exports[`components/Cases renders Cases 1`] = `
         </div>
       </a>
       <a
-        class="Cases__CaseLink-ql1p4z-1 fDIeFZ"
         href="/case/arbetsformedlingen"
       >
         <div
@@ -170,10 +166,14 @@ exports[`components/Cases renders Cases 1`] = `
       <div
         class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
       >
-        <div
-          style="height: 226px;"
-          class="lazyload-placeholder"
-        />
+        <a
+          href="/teamet/cmm"
+        >
+          <div
+            style="height: 226px;"
+            class="lazyload-placeholder"
+          />
+        </a>
         <div
           class="TeamMemberDuo__Meta-s9kjazo-1 gzvJxw"
         >
@@ -213,10 +213,14 @@ exports[`components/Cases renders Cases 1`] = `
       <div
         class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
       >
-        <div
-          style="height: 226px;"
-          class="lazyload-placeholder"
-        />
+        <a
+          href="/teamet/cvc"
+        >
+          <div
+            style="height: 226px;"
+            class="lazyload-placeholder"
+          />
+        </a>
         <div
           class="TeamMemberDuo__Meta-s9kjazo-1 gzvJxw"
         >
@@ -256,311 +260,4 @@ exports[`components/Cases renders Cases 1`] = `
     </div>
   </div>
 </div>
-`;
-
-exports[`components/Cases should handle prefetching any work when hovering link 1`] = `
-Object {
-  "query": Object {
-    "definitions": Array [
-      Object {
-        "directives": Array [],
-        "kind": "OperationDefinition",
-        "name": Object {
-          "kind": "Name",
-          "value": "CasePage",
-        },
-        "operation": "query",
-        "selectionSet": Object {
-          "kind": "SelectionSet",
-          "selections": Array [
-            Object {
-              "alias": Object {
-                "kind": "Name",
-                "value": "workCase",
-              },
-              "arguments": Array [
-                Object {
-                  "kind": "Argument",
-                  "name": Object {
-                    "kind": "Name",
-                    "value": "slug",
-                  },
-                  "value": Object {
-                    "kind": "Variable",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "slug",
-                    },
-                  },
-                },
-              ],
-              "directives": Array [],
-              "kind": "Field",
-              "name": Object {
-                "kind": "Name",
-                "value": "case",
-              },
-              "selectionSet": Object {
-                "kind": "SelectionSet",
-                "selections": Array [
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "headerBgColor",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "logo",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "slug",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "thumbnailImage",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "tags",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "title",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "introduction",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "introductionTitle",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "process",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "processTitle",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "development",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "developmentTitle",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "aboutCompany",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "aboutCompanyTitle",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "partners",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "partnersTitle",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "contact",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "contactTitle",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "quote",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "quotePerson",
-                    },
-                    "selectionSet": undefined,
-                  },
-                ],
-              },
-            },
-          ],
-        },
-        "variableDefinitions": Array [
-          Object {
-            "defaultValue": undefined,
-            "kind": "VariableDefinition",
-            "type": Object {
-              "kind": "NonNullType",
-              "type": Object {
-                "kind": "NamedType",
-                "name": Object {
-                  "kind": "Name",
-                  "value": "String",
-                },
-              },
-            },
-            "variable": Object {
-              "kind": "Variable",
-              "name": Object {
-                "kind": "Name",
-                "value": "slug",
-              },
-            },
-          },
-        ],
-      },
-    ],
-    "kind": "Document",
-    "loc": Object {
-      "end": 424,
-      "start": 0,
-    },
-  },
-  "variables": Object {
-    "slug": "seb",
-  },
-}
 `;

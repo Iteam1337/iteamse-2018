@@ -9,16 +9,10 @@ import { filterByLocation } from '../utils/filterByLocation'
 import FilterByLocation from '../components/FilterByLocation/FilterByLocation'
 import Team from '../components/Team/Team'
 import Header from '../components/Header/Header'
-import { Query, withApollo } from 'react-apollo'
-import { Link } from 'react-router-dom'
+import { Query } from 'react-apollo'
 import gql from 'graphql-tag'
 import { CasePageQuery } from './Case'
-
-type Props = {
-  client: {
-    query: Function,
-  },
-}
+import PrefetchLink from '../components/Link/PrefetchLink'
 
 type QueryProps = Iteam.ApolloBase<IteamCMS.CasesPage>
 
@@ -46,11 +40,14 @@ const Cases = styled.div`
   grid-row-gap: 40px;
   grid-template-columns: repeat(2, 1fr);
 `
-const CaseLink = styled(Link)`
+
+const CaseLink = styled(PrefetchLink)`
   color: #000;
   text-decoration: none;
 `
+
 const Case = styled.div``
+
 const CaseImageWrap = styled.div`
   align-items: center;
   background-color: #f1f1f1;
@@ -59,23 +56,27 @@ const CaseImageWrap = styled.div`
   justify-content: center;
   width: 500px;
 `
+
 const CaseImage = styled.img`
   max-width: 90%;
 `
+
 const Meta = styled.div`
   margin-top: 30px;
 `
+
 const Title = styled.div`
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 10px;
 `
+
 const ShortDescription = styled.div`
   font-size: 25px;
   font-weight: 300;
 `
 
-export const CasePage = ({ client }: Props) => {
+export const CasePage = () => {
   return (
     <Query query={CasesPageQuery}>
       {({ loading, data: { pageCases, cases } }: QueryProps) => {
@@ -98,16 +99,12 @@ export const CasePage = ({ client }: Props) => {
                   <Cases>
                     {cases.filter(filterByLocation(location)).map(workCase => (
                       <CaseLink
+                        query={CasePageQuery}
                         key={workCase.title}
-                        onMouseOver={() =>
-                          client.query({
-                            query: CasePageQuery,
-                            variables: {
-                              slug: workCase.slug,
-                            },
-                          })
-                        }
                         to={`/case/${workCase.slug}`}
+                        variables={{
+                          slug: workCase.slug,
+                        }}
                       >
                         <Case>
                           <CaseImageWrap>
@@ -137,4 +134,4 @@ export const CasePage = ({ client }: Props) => {
   )
 }
 
-export default withApollo(CasePage)
+export default CasePage

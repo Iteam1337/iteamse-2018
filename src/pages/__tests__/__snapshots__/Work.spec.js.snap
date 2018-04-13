@@ -94,10 +94,14 @@ exports[`components/Work renders Work 1`] = `
       <div
         class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
       >
-        <div
-          style="height: 226px;"
-          class="lazyload-placeholder"
-        />
+        <a
+          href="/teamet/cmm"
+        >
+          <div
+            style="height: 226px;"
+            class="lazyload-placeholder"
+          />
+        </a>
         <div
           class="TeamMemberDuo__Meta-s9kjazo-1 gzvJxw"
         >
@@ -137,10 +141,14 @@ exports[`components/Work renders Work 1`] = `
       <div
         class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
       >
-        <div
-          style="height: 226px;"
-          class="lazyload-placeholder"
-        />
+        <a
+          href="/teamet/cvc"
+        >
+          <div
+            style="height: 226px;"
+            class="lazyload-placeholder"
+          />
+        </a>
         <div
           class="TeamMemberDuo__Meta-s9kjazo-1 gzvJxw"
         >
@@ -180,297 +188,4 @@ exports[`components/Work renders Work 1`] = `
     </div>
   </div>
 </div>
-`;
-
-exports[`components/Work should handle prefetching any work when hovering link 1`] = `
-Object {
-  "query": Object {
-    "definitions": Array [
-      Object {
-        "directives": Array [],
-        "kind": "OperationDefinition",
-        "name": Object {
-          "kind": "Name",
-          "value": "OpenPositionPage",
-        },
-        "operation": "query",
-        "selectionSet": Object {
-          "kind": "SelectionSet",
-          "selections": Array [
-            Object {
-              "alias": undefined,
-              "arguments": Array [
-                Object {
-                  "kind": "Argument",
-                  "name": Object {
-                    "kind": "Name",
-                    "value": "id",
-                  },
-                  "value": Object {
-                    "kind": "Variable",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "id",
-                    },
-                  },
-                },
-              ],
-              "directives": Array [],
-              "kind": "Field",
-              "name": Object {
-                "kind": "Name",
-                "value": "pageOpenPosition",
-              },
-              "selectionSet": Object {
-                "kind": "SelectionSet",
-                "selections": Array [
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "headerImage",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "headerText1",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "headerText2",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "headerTextBgColor",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "application",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "applicationTitle",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "aboutUs",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "aboutUsTitle",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "bonusKnowledge",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "bonusKnowledgeTitle",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "contentImage",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "knowledge",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "knowledgeTitle",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "location",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "role",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "roleTitle",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "technicalities",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "technicalitiesTitle",
-                    },
-                    "selectionSet": undefined,
-                  },
-                  Object {
-                    "alias": undefined,
-                    "arguments": Array [],
-                    "directives": Array [],
-                    "kind": "Field",
-                    "name": Object {
-                      "kind": "Name",
-                      "value": "title",
-                    },
-                    "selectionSet": undefined,
-                  },
-                ],
-              },
-            },
-          ],
-        },
-        "variableDefinitions": Array [
-          Object {
-            "defaultValue": undefined,
-            "kind": "VariableDefinition",
-            "type": Object {
-              "kind": "NonNullType",
-              "type": Object {
-                "kind": "NamedType",
-                "name": Object {
-                  "kind": "Name",
-                  "value": "String",
-                },
-              },
-            },
-            "variable": Object {
-              "kind": "Variable",
-              "name": Object {
-                "kind": "Name",
-                "value": "id",
-              },
-            },
-          },
-        ],
-      },
-    ],
-    "kind": "Document",
-    "loc": Object {
-      "end": 440,
-      "start": 0,
-    },
-  },
-  "variables": Object {
-    "id": "junior-ux-designer",
-  },
-}
 `;
