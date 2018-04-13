@@ -179,7 +179,7 @@ export class Navigation extends React.Component<Props, State> {
     return (
       <Wrap>
         <LogoLink onMouseEnter={this.prefetchPage('home')} to="/">
-          <Logo path={logo} />
+          <Logo alt="Iteam logo" path={logo} />
         </LogoLink>
 
         <NavigationItems>
