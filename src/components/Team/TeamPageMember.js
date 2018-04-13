@@ -20,15 +20,24 @@ const Colleague = styled.div`
   text-align: center;
 `
 
-const Title = styled.div`
+const Name = styled.div`
+  font-size: 18px;
   font-weight: 500;
 `
 
-const Name = styled.div`
-  font-weight: 500;
+const Title = styled.div`
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  margin-top: 5px;
 `
+
 const AvatarWrap = styled.div`
   margin-bottom: 20px;
+`
+
+const PhoneNumberWrap = styled.div`
+  margin-bottom: 5px;
 `
 
 const TeamPageMember = ({ member }: Props) => {
@@ -48,11 +57,11 @@ const TeamPageMember = ({ member }: Props) => {
       <Name>{member.name}</Name>
       <Title>{member.title}</Title>
       {member.phoneNumber && (
-        <div>
+        <PhoneNumberWrap>
           <PhoneNumber phoneNumber={member.phoneNumber}>
             {member.phoneNumber}
           </PhoneNumber>
-        </div>
+        </PhoneNumberWrap>
       )}
       <Mailto email={member.email}>{member.email}</Mailto>
     </Colleague>

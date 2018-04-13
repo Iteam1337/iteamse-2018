@@ -50,7 +50,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
     >
       <img
         class="ImageBlock__ImageContainer-z1m3xf-1 kfYBxS"
-        src="block_howwework.png"
+        src="illustrations-group-3.svg"
       />
     </div>
     <div
@@ -134,7 +134,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
     >
       <img
         class="ImageBlock__ImageContainer-z1m3xf-1 kfYBxS"
-        src="block_howwework2.png"
+        src="illustrations-group-2.svg"
       />
     </div>
     <div

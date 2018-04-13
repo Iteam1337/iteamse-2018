@@ -92,6 +92,14 @@ exports[`components/Ops renders Ops 1`] = `
       </div>
     </div>
     <div
+      class="ImageBlock__Content-z1m3xf-0 gvUfre"
+    >
+      <img
+        class="ImageBlock__ImageContainer-z1m3xf-1 kfYBxS"
+        src="illustrations-group-4.svg"
+      />
+    </div>
+    <div
       class="react-reveal"
       style="opacity: 1;"
     >

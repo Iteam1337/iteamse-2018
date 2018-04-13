@@ -10,7 +10,7 @@ exports[`components/Header renders Header 1`] = `
         class="Header__Content-s2wl2qd-0 hGrCcr"
       >
         <div
-          class="Navigation__Wrap-s51g7mr-0 cjKvAH"
+          class="Navigation__Wrap-s51g7mr-0 fDLSzc"
         >
           <a
             class="Navigation__LogoLink-s51g7mr-1 jRAxmQ"
@@ -26,42 +26,42 @@ exports[`components/Header renders Header 1`] = `
             class="Navigation__NavigationItems-s51g7mr-3 kIWVTO"
           >
             <a
-              class="Navigation__StyledLink-s51g7mr-5 glcmOL"
+              class="Navigation__StyledLink-s51g7mr-5 fWvamk"
               aria-current="false"
               href="/om-oss"
             >
               Om oss
             </a>
             <a
-              class="Navigation__StyledLink-s51g7mr-5 glcmOL"
+              class="Navigation__StyledLink-s51g7mr-5 fWvamk"
               aria-current="false"
               href="/hur-vi-jobbar"
             >
               Hur vi jobbar
             </a>
             <a
-              class="Navigation__StyledLink-s51g7mr-5 glcmOL"
+              class="Navigation__StyledLink-s51g7mr-5 fWvamk"
               aria-current="false"
               href="/teamet"
             >
               Teamet
             </a>
             <a
-              class="Navigation__StyledLink-s51g7mr-5 glcmOL"
+              class="Navigation__StyledLink-s51g7mr-5 fWvamk"
               aria-current="false"
               href="/case"
             >
               Våra case
             </a>
             <a
-              class="Navigation__StyledLink-s51g7mr-5 glcmOL"
+              class="Navigation__StyledLink-s51g7mr-5 fWvamk"
               aria-current="false"
               href="/jobba-hos-oss"
             >
               Jobba hos oss
             </a>
             <a
-              class="Navigation__StyledLink-s51g7mr-5 glcmOL"
+              class="Navigation__StyledLink-s51g7mr-5 fWvamk"
               aria-current="false"
               href="/ops"
             >

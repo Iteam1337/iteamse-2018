@@ -57,16 +57,18 @@ exports[`components/Team renders Team 1`] = `
             </div>
           </a>
           <div
-            class="TeamPageMember__Name-s1ndkn07-2 kqwnJE"
+            class="TeamPageMember__Name-s1ndkn07-1 kEPKjO"
           >
             Cookie M
           </div>
           <div
-            class="TeamPageMember__Title-s1ndkn07-1 eNodBS"
+            class="TeamPageMember__Title-s1ndkn07-2 iLSolC"
           >
             Cookie master
           </div>
-          <div>
+          <div
+            class="TeamPageMember__PhoneNumberWrap-s1ndkn07-4 kTLNvn"
+          >
             <a
               class="NativeLink-s1qo6rwq-0 jNinQt"
               href="tel:0701234567"
@@ -98,16 +100,18 @@ exports[`components/Team renders Team 1`] = `
             </div>
           </a>
           <div
-            class="TeamPageMember__Name-s1ndkn07-2 kqwnJE"
+            class="TeamPageMember__Name-s1ndkn07-1 kEPKjO"
           >
             Count van Count
           </div>
           <div
-            class="TeamPageMember__Title-s1ndkn07-1 eNodBS"
+            class="TeamPageMember__Title-s1ndkn07-2 iLSolC"
           >
             1 ahahah
           </div>
-          <div>
+          <div
+            class="TeamPageMember__PhoneNumberWrap-s1ndkn07-4 kTLNvn"
+          >
             <a
               class="NativeLink-s1qo6rwq-0 jNinQt"
               href="tel:0707654321"
@@ -185,16 +189,18 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
             </div>
           </a>
           <div
-            class="TeamPageMember__Name-s1ndkn07-2 kqwnJE"
+            class="TeamPageMember__Name-s1ndkn07-1 kEPKjO"
           >
             Count van Count
           </div>
           <div
-            class="TeamPageMember__Title-s1ndkn07-1 eNodBS"
+            class="TeamPageMember__Title-s1ndkn07-2 iLSolC"
           >
             1 ahahah
           </div>
-          <div>
+          <div
+            class="TeamPageMember__PhoneNumberWrap-s1ndkn07-4 kTLNvn"
+          >
             <a
               class="NativeLink-s1qo6rwq-0 jNinQt"
               href="tel:0707654321"
@@ -272,16 +278,18 @@ exports[`components/Team should handle changing location using mouse 1`] = `
             </div>
           </a>
           <div
-            class="TeamPageMember__Name-s1ndkn07-2 kqwnJE"
+            class="TeamPageMember__Name-s1ndkn07-1 kEPKjO"
           >
             Cookie M
           </div>
           <div
-            class="TeamPageMember__Title-s1ndkn07-1 eNodBS"
+            class="TeamPageMember__Title-s1ndkn07-2 iLSolC"
           >
             Cookie master
           </div>
-          <div>
+          <div
+            class="TeamPageMember__PhoneNumberWrap-s1ndkn07-4 kTLNvn"
+          >
             <a
               class="NativeLink-s1qo6rwq-0 jNinQt"
               href="tel:0701234567"
@@ -359,16 +367,18 @@ exports[`components/Team should not change using keyboard if not enter or space 
             </div>
           </a>
           <div
-            class="TeamPageMember__Name-s1ndkn07-2 kqwnJE"
+            class="TeamPageMember__Name-s1ndkn07-1 kEPKjO"
           >
             Cookie M
           </div>
           <div
-            class="TeamPageMember__Title-s1ndkn07-1 eNodBS"
+            class="TeamPageMember__Title-s1ndkn07-2 iLSolC"
           >
             Cookie master
           </div>
-          <div>
+          <div
+            class="TeamPageMember__PhoneNumberWrap-s1ndkn07-4 kTLNvn"
+          >
             <a
               class="NativeLink-s1qo6rwq-0 jNinQt"
               href="tel:0701234567"
@@ -400,16 +410,18 @@ exports[`components/Team should not change using keyboard if not enter or space 
             </div>
           </a>
           <div
-            class="TeamPageMember__Name-s1ndkn07-2 kqwnJE"
+            class="TeamPageMember__Name-s1ndkn07-1 kEPKjO"
           >
             Count van Count
           </div>
           <div
-            class="TeamPageMember__Title-s1ndkn07-1 eNodBS"
+            class="TeamPageMember__Title-s1ndkn07-2 iLSolC"
           >
             1 ahahah
           </div>
-          <div>
+          <div
+            class="TeamPageMember__PhoneNumberWrap-s1ndkn07-4 kTLNvn"
+          >
             <a
               class="NativeLink-s1qo6rwq-0 jNinQt"
               href="tel:0707654321"

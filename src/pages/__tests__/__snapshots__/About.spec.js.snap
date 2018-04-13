@@ -86,7 +86,7 @@ exports[`components/About renders About 1`] = `
     >
       <img
         class="ImageBlock__ImageContainer-z1m3xf-1 kfYBxS"
-        src="block_aboutus.png"
+        src="illustrations-group-1.svg"
       />
     </div>
     <div
@@ -157,12 +157,12 @@ exports[`components/About renders About 1`] = `
               class="About__StabilityIcons-s5efmzu-0 dLrJpA"
             >
               <img
-                class="About__StabilityIcon-s5efmzu-1 gprSZx"
+                class="About__StabilityIcon-s5efmzu-1 bnhJFr"
                 src="//images.ctfassets.net/rj4r6yfcesw5/2jLXgnJMdqcMIWgiYAEyq2/d88293e3899d0e65ad99754aa45f5f85/aaa_logo_web_ny.png"
                 alt=""
               />
               <img
-                class="About__StabilityIcon-s5efmzu-1 gprSZx"
+                class="About__StabilityIcon-s5efmzu-1 bnhJFr"
                 src="//images.ctfassets.net/rj4r6yfcesw5/6tIo0BhFEki6Iyc68AkgiQ/98253a689d719382d5d13f4896f10941/vas-superforetagen-2016._300dppipng.png"
                 alt=""
               />
