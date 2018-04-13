@@ -2,7 +2,7 @@
 
 import * as React from 'react'
 import styled, { injectGlobal, keyframes } from 'styled-components'
-import logo from './img/iteam.png'
+import logo from './img/iteam.svg'
 import { NavLink, Link } from 'react-router-dom'
 import { withApollo } from 'react-apollo'
 import { HomePageQuery } from '../../pages/Home'
@@ -12,6 +12,7 @@ import { TeamPageQuery } from '../../pages/Team'
 import { OperationsPageQuery } from '../../pages/Ops'
 import { WorkPageQuery } from '../../pages/Work'
 import { CasesPageQuery } from '../../pages/Cases'
+import SVG from 'react-svg'
 
 type Props = {
   client: {
@@ -42,7 +43,7 @@ const LogoLink = styled(Link)`
   }
 `
 
-const Logo = styled.img`
+const Logo = styled(SVG)`
   max-width: 100%;
 `
 
@@ -178,7 +179,7 @@ export class Navigation extends React.Component<Props, State> {
     return (
       <Wrap>
         <LogoLink onMouseEnter={this.prefetchPage('home')} to="/">
-          <Logo alt="Iteam logo" src={logo} />
+          <Logo path={logo} />
         </LogoLink>
 
         <NavigationItems>
