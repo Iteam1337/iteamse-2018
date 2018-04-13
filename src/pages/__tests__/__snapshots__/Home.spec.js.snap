@@ -37,11 +37,11 @@ exports[`components/Home renders Home 1`] = `
             </div>
           </div>
           <img
-            class="Home__CompanyLogo-s15fccpq-3 BqycV"
+            class="Home__CompanyLogo-s15fccpq-3 bmmzFx"
             src="//images.ctfassets.net/rj4r6yfcesw5/3qnZSfySW4cEGoUo6KCAae/8a656eba15e15b61dacc9fbea38aa4bd/logo_af.png"
           />
           <a
-            class="Link__StyledLink-kqcp4a-0 dzFnFw"
+            class="Link__StyledLink-kqcp4a-0 exsHFb"
             href="/case/arbetsformedlingen"
           >
             Läs om hur vi hjälper Arbetsförmedlingen med kod
@@ -65,11 +65,11 @@ exports[`components/Home renders Home 1`] = `
             </div>
           </div>
           <img
-            class="Home__CompanyLogo-s15fccpq-3 BqycV"
+            class="Home__CompanyLogo-s15fccpq-3 bmmzFx"
             src="//images.ctfassets.net/rj4r6yfcesw5/1mv5fxBGLmeyWom4OI2WsI/a4d79cae2076b43aea926db2f1244b52/logo_tsab.png"
           />
           <a
-            class="Link__StyledLink-kqcp4a-0 dzFnFw"
+            class="Link__StyledLink-kqcp4a-0 exsHFb"
             href="/case/tsab"
           >
             Läs om hur vi hjälper Taxi Stockholm med strategi
@@ -93,11 +93,11 @@ exports[`components/Home renders Home 1`] = `
             </div>
           </div>
           <img
-            class="Home__CompanyLogo-s15fccpq-3 BqycV"
+            class="Home__CompanyLogo-s15fccpq-3 bmmzFx"
             src="//images.ctfassets.net/rj4r6yfcesw5/4D844WR1v20ICIOG4SK0y8/15a008277f5565d9f52fbd5312f6e121/logo_seb.png"
           />
           <a
-            class="Link__StyledLink-kqcp4a-0 dzFnFw"
+            class="Link__StyledLink-kqcp4a-0 exsHFb"
             href="/case/seb"
           >
             Läs om hur vi hjälper SEB med kultur
