@@ -6,9 +6,6 @@ import * as IteamCMS from './__generated__/HomePage'
 import { Query } from 'react-apollo'
 import gql from 'graphql-tag'
 import iteamStylized from './img/iteam_stylized.png'
-import logoAf from './img/logo_af.png'
-import logoTsab from './img/logo_tsab.png'
-import logoSeb from './img/logo_seb.png'
 import Header from '../components/Header/Header'
 import Team from '../components/Team/Team'
 import GridColumn from '../components/Grid/GridColumn'
@@ -18,6 +15,7 @@ import H1 from '../components/Typography/H1'
 import Paragraph from '../components/Typography/Paragraph'
 import Link from '../components/Link/Link'
 import styled from 'styled-components'
+import MediaQuery from 'react-responsive'
 
 type Props = Iteam.ApolloBase<IteamCMS.HomePage>
 
@@ -28,12 +26,24 @@ export const HomePageQuery = gql`
       headerText1
       headerText2
       headerTextBgColor
+      codeMobileImage
       codeText
       codeTitle
+      codeLogo
+      codeSlug
+      codeLinkText
+      cultureMobileImage
       cultureText
       cultureTitle
+      cultureLogo
+      cultureSlug
+      cultureLinkText
+      strategyMobileImage
       strategyText
       strategyTitle
+      strategyLogo
+      strategySlug
+      strategyLinkText
     }
   }
 `
@@ -58,7 +68,17 @@ const Texts = styled.div`
   grid-row-gap: 40px;
 `
 
-const TextBlock = PaddedRow.extend``
+const TextBlock = PaddedRow.extend`
+  &:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  @media (min-width: 1024px) {
+    &:not(:last-child) {
+      margin-bottom: 0;
+    }
+  }
+`
 
 const StylizedIteam = styled.img`
   display: none;
@@ -71,6 +91,17 @@ const StylizedIteam = styled.img`
 const CompanyLogo = styled.img`
   display: block;
   margin-bottom: 20px;
+`
+
+const MobileImageWrap = styled.div`
+  align-items: center;
+  display: flex;
+  justify-content: center;
+`
+
+const MobileImage = styled.img`
+  margin-bottom: 20px;
+  width: 50%;
 `
 
 const Home = () => {
@@ -92,32 +123,47 @@ const Home = () => {
 
             <GridColumn>
               <Content>
-                <StylizedIteam src={iteamStylized} alt="" />
+                <StylizedIteam src={iteamStylized} />
                 <Texts>
                   <TextBlock>
+                    <MediaQuery maxDeviceWidth={480}>
+                      <MobileImageWrap>
+                        <MobileImage src={pageStart.codeMobileImage} />
+                      </MobileImageWrap>
+                    </MediaQuery>
                     <H1>{pageStart.codeTitle}</H1>
                     <Paragraph>{pageStart.codeText}</Paragraph>
-                    <CompanyLogo src={logoAf} alt="" />
-                    <Link to="/case/arbetsformedlingen">
-                      Läs om hur vi hjälper Arbetsförmedlingen med kod
+                    <CompanyLogo src={pageStart.codeLogo} />
+                    <Link to={`/case/${pageStart.codeSlug}`}>
+                      {pageStart.codeLinkText}
                     </Link>
                   </TextBlock>
 
                   <TextBlock>
+                    <MediaQuery maxDeviceWidth={480}>
+                      <MobileImageWrap>
+                        <MobileImage src={pageStart.strategyMobileImage} />
+                      </MobileImageWrap>
+                    </MediaQuery>
                     <H1>{pageStart.strategyTitle}</H1>
                     <Paragraph>{pageStart.strategyText}</Paragraph>{' '}
-                    <CompanyLogo src={logoTsab} alt="" />
-                    <Link to="/case/tsab">
-                      Läs om hur vi hjälper Taxi Stockholm med strategi
+                    <CompanyLogo src={pageStart.strategyLogo} />
+                    <Link to={`/case/${pageStart.strategySlug}`}>
+                      {pageStart.strategyLinkText}
                     </Link>
                   </TextBlock>
 
                   <TextBlock>
+                    <MediaQuery maxDeviceWidth={480}>
+                      <MobileImageWrap>
+                        <MobileImage src={pageStart.cultureMobileImage} />
+                      </MobileImageWrap>
+                    </MediaQuery>
                     <H1>{pageStart.cultureTitle}</H1>
                     <Paragraph>{pageStart.cultureText}</Paragraph>{' '}
-                    <CompanyLogo src={logoSeb} alt="" />
-                    <Link to="/case/seb">
-                      Läs om hur vi hjälper SEB med kultur
+                    <CompanyLogo src={pageStart.cultureLogo} />
+                    <Link to={`/case/${pageStart.cultureSlug}`}>
+                      {pageStart.cultureLinkText}
                     </Link>
                   </TextBlock>
                 </Texts>
@@ -125,7 +171,7 @@ const Home = () => {
             </GridColumn>
 
             <OperationsBanner />
-            <Team shortName={['met', 'rln', 'msr']} />
+            <Team shortName={['met', 'rln', 'msr', 'jmn']} />
           </React.Fragment>
         )
       }}

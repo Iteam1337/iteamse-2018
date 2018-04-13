@@ -38,6 +38,7 @@ exports[`components/Cases renders Cases 1`] = `
       class="Cases-ql1p4z-0 itUmRu"
     >
       <a
+        class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
         href="/case/vimla"
       >
         <div
@@ -69,6 +70,7 @@ exports[`components/Cases renders Cases 1`] = `
         </div>
       </a>
       <a
+        class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
         href="/case/tsab"
       >
         <div
@@ -100,6 +102,7 @@ exports[`components/Cases renders Cases 1`] = `
         </div>
       </a>
       <a
+        class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
         href="/case/seb"
       >
         <div
@@ -125,6 +128,7 @@ exports[`components/Cases renders Cases 1`] = `
         </div>
       </a>
       <a
+        class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
         href="/case/arbetsformedlingen"
       >
         <div
@@ -167,6 +171,7 @@ exports[`components/Cases renders Cases 1`] = `
         class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
       >
         <a
+          class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
           href="/teamet/cmm"
         >
           <div
@@ -214,6 +219,7 @@ exports[`components/Cases renders Cases 1`] = `
         class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
       >
         <a
+          class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
           href="/teamet/cvc"
         >
           <div

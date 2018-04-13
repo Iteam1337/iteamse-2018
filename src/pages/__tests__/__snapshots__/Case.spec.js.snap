@@ -395,6 +395,7 @@ exports[`components/Case renders Case 1`] = `
         class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
       >
         <a
+          class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
           href="/teamet/cmm"
         >
           <div
@@ -442,6 +443,7 @@ exports[`components/Case renders Case 1`] = `
         class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
       >
         <a
+          class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
           href="/teamet/cvc"
         >
           <div

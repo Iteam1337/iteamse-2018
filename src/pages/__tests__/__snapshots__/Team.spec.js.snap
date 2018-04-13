@@ -44,6 +44,7 @@ exports[`components/Team renders Team 1`] = `
           class="TeamPageMember__Colleague-s1ndkn07-0 bbOPRB"
         >
           <a
+            class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
             href="/teamet/cmm"
           >
             <div
@@ -84,6 +85,7 @@ exports[`components/Team renders Team 1`] = `
           class="TeamPageMember__Colleague-s1ndkn07-0 bbOPRB"
         >
           <a
+            class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
             href="/teamet/cvc"
           >
             <div
@@ -170,6 +172,7 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
           class="TeamPageMember__Colleague-s1ndkn07-0 bbOPRB"
         >
           <a
+            class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
             href="/teamet/cvc"
           >
             <div
@@ -256,6 +259,7 @@ exports[`components/Team should handle changing location using mouse 1`] = `
           class="TeamPageMember__Colleague-s1ndkn07-0 bbOPRB"
         >
           <a
+            class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
             href="/teamet/cmm"
           >
             <div
@@ -342,6 +346,7 @@ exports[`components/Team should not change using keyboard if not enter or space 
           class="TeamPageMember__Colleague-s1ndkn07-0 bbOPRB"
         >
           <a
+            class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
             href="/teamet/cmm"
           >
             <div
@@ -382,6 +387,7 @@ exports[`components/Team should not change using keyboard if not enter or space 
           class="TeamPageMember__Colleague-s1ndkn07-0 bbOPRB"
         >
           <a
+            class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
             href="/teamet/cvc"
           >
             <div

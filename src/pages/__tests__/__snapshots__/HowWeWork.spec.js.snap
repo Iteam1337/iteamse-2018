@@ -91,7 +91,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
     </div>
     <img
       class="ImageBleed__ImageContainer-vnhpmd-0 fRWLkh"
-      src="bleed_howwework.jpg"
+      src="//images.ctfassets.net/rj4r6yfcesw5/62hgzE8G3ueMa2YSEuG4og/db2b643db6041f9d26936bc2d6006607/bleed_howwework.jpg"
     />
     <div
       class="react-reveal"
@@ -184,6 +184,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
         class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
       >
         <a
+          class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
           href="/teamet/cmm"
         >
           <div
@@ -231,6 +232,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
         class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
       >
         <a
+          class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
           href="/teamet/cvc"
         >
           <div

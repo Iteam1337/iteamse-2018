@@ -127,7 +127,7 @@ exports[`components/About renders About 1`] = `
     </div>
     <img
       class="ImageBleed__ImageContainer-vnhpmd-0 fRWLkh"
-      src="bleed_aboutus.jpg"
+      src="//images.ctfassets.net/rj4r6yfcesw5/7bwz7g2GuQu8A68QmCQAMw/2c6391a40ebe2d0bee958dacf72aa174/bleed_aboutus.jpg"
     />
     <div
       class="react-reveal"
@@ -152,14 +152,20 @@ exports[`components/About renders About 1`] = `
           <div
             class="Block__Text-jdahsb-3 bdZkSQ"
           >
+            Löksås ipsum plats upprätthållande från sorgliga se, denna precis från brunsås strand år dock, stig färdväg genom äng varit. Erfarenheter regn groda tidigare trevnadens hwila ännu dimma kunde mjuka sällan, oss genom tidigare annat sista stora tid plats inom.
             <div
-              class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
+              class="About__StabilityIcons-s5efmzu-0 dLrJpA"
             >
-              <div>
-                <p>
-                  Löksås ipsum plats upprätthållande från sorgliga se, denna precis från brunsås strand år dock, stig färdväg genom äng varit. Erfarenheter regn groda tidigare trevnadens hwila ännu dimma kunde mjuka sällan, oss genom tidigare annat sista stora tid plats inom.
-                </p>
-              </div>
+              <img
+                class="About__StabilityIcon-s5efmzu-1 gprSZx"
+                src="//images.ctfassets.net/rj4r6yfcesw5/2jLXgnJMdqcMIWgiYAEyq2/d88293e3899d0e65ad99754aa45f5f85/aaa_logo_web_ny.png"
+                alt=""
+              />
+              <img
+                class="About__StabilityIcon-s5efmzu-1 gprSZx"
+                src="//images.ctfassets.net/rj4r6yfcesw5/6tIo0BhFEki6Iyc68AkgiQ/98253a689d719382d5d13f4896f10941/vas-superforetagen-2016._300dppipng.png"
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -176,6 +182,7 @@ exports[`components/About renders About 1`] = `
         class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
       >
         <a
+          class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
           href="/teamet/cmm"
         >
           <div
@@ -223,6 +230,7 @@ exports[`components/About renders About 1`] = `
         class="TeamMemberDuo__Colleague-s9kjazo-0 ckQLGJ"
       >
         <a
+          class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
           href="/teamet/cvc"
         >
           <div

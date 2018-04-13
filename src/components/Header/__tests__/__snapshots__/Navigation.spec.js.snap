@@ -14,6 +14,8 @@ Object {
       funTitle
       goodText
       goodTitle
+      imageBleed
+      stabilityIcons
       stabilityText
       stabilityTitle
       valueText
@@ -38,6 +40,7 @@ Object {
       customersText
       customersTitle
       hiringTitle
+      imageBleed
       methodText
       methodTitle
       sharingText
@@ -61,12 +64,24 @@ Object {
       headerText1
       headerText2
       headerTextBgColor
+      codeMobileImage
       codeText
       codeTitle
+      codeLogo
+      codeSlug
+      codeLinkText
+      cultureMobileImage
       cultureText
       cultureTitle
+      cultureLogo
+      cultureSlug
+      cultureLinkText
+      strategyMobileImage
       strategyText
       strategyTitle
+      strategyLogo
+      strategySlug
+      strategyLinkText
     }
   }
 ",

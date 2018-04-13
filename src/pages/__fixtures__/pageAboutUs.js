@@ -10,6 +10,12 @@ export const pageAboutUs = {
   goodText:
     'Teknik ska vara tillgänglig för alla. Teknik ska göra gott. Därför väljer vi kunder där vi tror att vi kan göra något bra och där vi kan göra skillnad. Det betyder också att om vi jobbar ihop så tror vi 100% på din tjänst.',
   goodTitle: 'Göra något bra',
+  imageBleed:
+    '//images.ctfassets.net/rj4r6yfcesw5/7bwz7g2GuQu8A68QmCQAMw/2c6391a40ebe2d0bee958dacf72aa174/bleed_aboutus.jpg',
+  stabilityIcons: [
+    '//images.ctfassets.net/rj4r6yfcesw5/2jLXgnJMdqcMIWgiYAEyq2/d88293e3899d0e65ad99754aa45f5f85/aaa_logo_web_ny.png',
+    '//images.ctfassets.net/rj4r6yfcesw5/6tIo0BhFEki6Iyc68AkgiQ/98253a689d719382d5d13f4896f10941/vas-superforetagen-2016._300dppipng.png',
+  ],
   stabilityText:
     'Löksås ipsum plats upprätthållande från sorgliga se, denna precis från brunsås strand år dock, stig färdväg genom äng varit. Erfarenheter regn groda tidigare trevnadens hwila ännu dimma kunde mjuka sällan, oss genom tidigare annat sista stora tid plats inom.\n ',
   stabilityTitle: 'Vi står stabilt',

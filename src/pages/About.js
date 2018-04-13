@@ -6,13 +6,13 @@ import * as IteamCMS from './__generated__/AboutPage'
 import { Query } from 'react-apollo'
 import gql from 'graphql-tag'
 import Header from '../components/Header/Header'
-import aboutUsFullImage from './img/bleed_aboutus.jpg'
 import aboutUsImage from './img/block_aboutus.png'
 import Block from '../components/Blocks/Block'
 import Team from '../components/Team/Team'
 import ImageBleed from '../components/Blocks/ImageBleed'
 import ImageBlock from '../components/Blocks/ImageBlock'
 import GridColumn from '../components/Grid/GridColumn'
+import styled from 'styled-components'
 
 type Props = Iteam.ApolloBase<IteamCMS.AboutPage>
 
@@ -27,11 +27,25 @@ export const AboutPageQuery = gql`
       funTitle
       goodText
       goodTitle
+      imageBleed
+      stabilityIcons
       stabilityText
       stabilityTitle
       valueText
       valueTitle
     }
+  }
+`
+
+const StabilityIcons = styled.div`
+  align-items: center;
+  display: flex;
+  margin-top: 40px;
+`
+
+const StabilityIcon = styled.img`
+  &:not(:last-child) {
+    margin-right: 20px;
   }
 `
 
@@ -61,9 +75,15 @@ const About = () => {
               <Block title={pageAboutUs.goodTitle}>
                 {pageAboutUs.goodText}
               </Block>
-              <ImageBleed image={aboutUsFullImage} />
+              <ImageBleed image={pageAboutUs.imageBleed} />
               <Block title={pageAboutUs.stabilityTitle}>
                 {pageAboutUs.stabilityText}
+
+                <StabilityIcons>
+                  {pageAboutUs.stabilityIcons.map(icon => (
+                    <StabilityIcon key={icon} src={icon} alt="" />
+                  ))}
+                </StabilityIcons>
               </Block>
             </GridColumn>
 

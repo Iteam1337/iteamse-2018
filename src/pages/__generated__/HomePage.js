@@ -1,5 +1,3 @@
-
-
 /* @flow */
 /* eslint-disable */
 // This file was automatically generated and should not be edited.
@@ -9,22 +7,34 @@
 // ====================================================
 
 export type HomePage_pageStart = {
-  __typename: "PageStart",
+  __typename: 'PageStart',
   headerImage: ?string,
   headerText1: ?string,
   headerText2: ?string,
   headerTextBgColor: ?string,
+  codeMobileImage: ?string,
   codeText: string,
   codeTitle: string,
+  codeLogo: ?string,
+  codeSlug: string,
+  codeLinkText: string,
+  cultureMobileImage: ?string,
   cultureText: string,
   cultureTitle: string,
+  cultureLogo: ?string,
+  cultureSlug: string,
+  cultureLinkText: string,
+  strategyMobileImage: ?string,
   strategyText: string,
   strategyTitle: string,
-};
+  strategyLogo: ?string,
+  strategySlug: string,
+  strategyLinkText: string,
+}
 
 export type HomePage = {
-  pageStart: HomePage_pageStart
-};
+  pageStart: HomePage_pageStart,
+}
 
 //==============================================================
 // START Enums and Input Objects

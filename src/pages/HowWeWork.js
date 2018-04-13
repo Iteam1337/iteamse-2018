@@ -7,7 +7,6 @@ import { Query } from 'react-apollo'
 import gql from 'graphql-tag'
 import Header from '../components/Header/Header'
 import howWeWorkImage from './img/block_howwework.png'
-import howWeWorkFullImage from './img/bleed_howwework.jpg'
 import howWeWorkImage2 from './img/block_howwework2.png'
 import Block from '../components/Blocks/Block'
 import ImageBleed from '../components/Blocks/ImageBleed'
@@ -27,6 +26,7 @@ export const HowWeWorkPageQuery = gql`
       customersText
       customersTitle
       hiringTitle
+      imageBleed
       methodText
       methodTitle
       sharingText
@@ -62,7 +62,7 @@ const HowWeWork = () => {
               <Block title={pageHowWeWork.methodTitle}>
                 {pageHowWeWork.methodText}
               </Block>
-              <ImageBleed image={howWeWorkFullImage} />
+              <ImageBleed image={pageHowWeWork.imageBleed} />
               <Block title={pageHowWeWork.sharingTitle}>
                 {pageHowWeWork.sharingText}
               </Block>

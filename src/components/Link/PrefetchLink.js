@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import { withApollo } from 'react-apollo'
 import type { DocumentNode } from 'graphql'
 import type { ApolloClient } from 'apollo-client'
+import styled from 'styled-components'
 
 type P = {
   children: React.Node,
@@ -14,9 +15,14 @@ type P = {
   variables?: Object,
 }
 
+const StyledLink = styled(Link)`
+  color: inherit;
+  text-decoration: none;
+`
+
 const PrefetchLink = ({ children, client, query, to, variables }: P) => {
   return (
-    <Link
+    <StyledLink
       onMouseEnter={() =>
         client.query({
           query,
@@ -26,7 +32,7 @@ const PrefetchLink = ({ children, client, query, to, variables }: P) => {
       to={to}
     >
       {children}
-    </Link>
+    </StyledLink>
   )
 }
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import { ApolloProvider } from 'react-apollo'
 import ApolloClient from 'apollo-client'
 import { createHttpLink } from 'apollo-link-http'
@@ -8,7 +8,13 @@ import { BrowserRouter } from 'react-router-dom'
 import { ThemeProvider } from 'styled-components'
 import { theme } from '../../theme'
 
-const MockedQuery = ({ children, loading, response = {} }) => {
+type P = {
+  children: React.Node,
+  loading?: boolean,
+  response: Object,
+}
+
+const MockedQuery = ({ children, loading, response = {} }: P) => {
   const createResponse = () => {
     return {
       loading: !!loading,

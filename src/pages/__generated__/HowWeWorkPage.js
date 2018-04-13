@@ -1,5 +1,3 @@
-
-
 /* @flow */
 /* eslint-disable */
 // This file was automatically generated and should not be edited.
@@ -9,7 +7,7 @@
 // ====================================================
 
 export type HowWeWorkPage_pageHowWeWork = {
-  __typename: "PageHowWeWork",
+  __typename: 'PageHowWeWork',
   headerImage: ?string,
   headerText1: ?string,
   headerText2: ?string,
@@ -17,17 +15,18 @@ export type HowWeWorkPage_pageHowWeWork = {
   customersText: string,
   customersTitle: string,
   hiringTitle: ?string,
+  imageBleed: string,
   methodText: string,
   methodTitle: string,
   sharingText: string,
   sharingTitle: string,
   teamText: string,
   teamTitle: string,
-};
+}
 
 export type HowWeWorkPage = {
-  pageHowWeWork: HowWeWorkPage_pageHowWeWork
-};
+  pageHowWeWork: HowWeWorkPage_pageHowWeWork,
+}
 
 //==============================================================
 // START Enums and Input Objects

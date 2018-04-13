@@ -15,26 +15,30 @@ exports[`App renders App 1`] = `
       <img
         class="Home__StylizedIteam-s15fccpq-2 jlGxqZ"
         src="iteam_stylized.png"
-        alt=""
       />
       <div
         class="Home__Texts-s15fccpq-1 eCpoTV"
       >
         <div
-          class="s3nsc5b-0-PaddedRow-hWTqUj hSfdBG"
+          class="s3nsc5b-0-PaddedRow-hWTqUj kNNFGd"
         >
           <h1
             class="H1-x5hh3k-0 fsdjyK"
-          />
+          >
+            Kod
+          </h1>
           <div
             class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
           >
-            <div />
+            <div>
+              <p>
+                Systemutveckling, automatisering, artificiell intelligens, maskininlärning. Vi har alla redskap du behöver för att bygga vad du vill. Det du vill. Och vet du inte vad du behöver så hjälper vi dig med det med.
+              </p>
+            </div>
           </div>
           <img
             class="Home__CompanyLogo-s15fccpq-3 BqycV"
-            src="logo_af.png"
-            alt=""
+            src="//images.ctfassets.net/rj4r6yfcesw5/3qnZSfySW4cEGoUo6KCAae/8a656eba15e15b61dacc9fbea38aa4bd/logo_af.png"
           />
           <a
             class="Link__StyledLink-kqcp4a-0 dzFnFw"
@@ -44,20 +48,25 @@ exports[`App renders App 1`] = `
           </a>
         </div>
         <div
-          class="s3nsc5b-0-PaddedRow-hWTqUj hSfdBG"
+          class="s3nsc5b-0-PaddedRow-hWTqUj kNNFGd"
         >
           <h1
             class="H1-x5hh3k-0 fsdjyK"
-          />
+          >
+            Strategi
+          </h1>
           <div
             class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
           >
-            <div />
+            <div>
+              <p>
+                Vi digitaliserar Sverige. Pompigt! Men det betyder att vi hjälper dig att leda digitaliseringen istället för att vara den som blir lämnad på efterkälken. Både på den marknad där du verkar, och de marknader du inte ens visste att du borde verka på.
+              </p>
+            </div>
           </div>
           <img
             class="Home__CompanyLogo-s15fccpq-3 BqycV"
-            src="logo_tsab.png"
-            alt=""
+            src="//images.ctfassets.net/rj4r6yfcesw5/1mv5fxBGLmeyWom4OI2WsI/a4d79cae2076b43aea926db2f1244b52/logo_tsab.png"
           />
           <a
             class="Link__StyledLink-kqcp4a-0 dzFnFw"
@@ -67,20 +76,25 @@ exports[`App renders App 1`] = `
           </a>
         </div>
         <div
-          class="s3nsc5b-0-PaddedRow-hWTqUj hSfdBG"
+          class="s3nsc5b-0-PaddedRow-hWTqUj kNNFGd"
         >
           <h1
             class="H1-x5hh3k-0 fsdjyK"
-          />
+          >
+            Kultur
+          </h1>
           <div
             class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
           >
-            <div />
+            <div>
+              <p>
+                Ibland ser vi oss som kulturarbetare. Det räcker inte att bygga digitala tjänster åt sina användare. Det är först när hela din organisation tänker, andas och lever digitalt som ni digitaliseras. på riktigt. Vi rustar dig för framtiden helt enkelt.
+              </p>
+            </div>
           </div>
           <img
             class="Home__CompanyLogo-s15fccpq-3 BqycV"
-            src="logo_seb.png"
-            alt=""
+            src="//images.ctfassets.net/rj4r6yfcesw5/4D844WR1v20ICIOG4SK0y8/15a008277f5565d9f52fbd5312f6e121/logo_seb.png"
           />
           <a
             class="Link__StyledLink-kqcp4a-0 dzFnFw"
@@ -135,6 +149,7 @@ exports[`App renders App 1`] = `
           Stockholm
         </div>
         <a
+          class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
           href="/teamet/cmm"
         >
           <div
@@ -173,6 +188,7 @@ exports[`App renders App 1`] = `
           Göteborg
         </div>
         <a
+          class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
           href="/teamet/cvc"
         >
           <div
