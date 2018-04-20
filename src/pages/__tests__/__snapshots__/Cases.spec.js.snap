@@ -17,19 +17,19 @@ exports[`components/Cases renders Cases 1`] = `
         href="/case/vimla"
       >
         <div
-          class="Cases__Case-ql1p4z-1 iHJPWM"
+          class="Cases__Case-ql1p4z-4 fbdvJE"
         >
           <div
-            class="Cases__CaseImageWrap-ql1p4z-2 bwMITc"
+            class="Cases__CaseImageWrap-ql1p4z-0 igaLYZ"
           >
             <img
-              class="Cases__CaseImage-ql1p4z-3 bRuamq"
+              class="Cases__CaseImage-ql1p4z-1 jkGniO"
               src="//images.ctfassets.net/rj4r6yfcesw5/68OlBclfQAGMcEUsQgcIUY/9bdf52bb8a9a17be06e11ef3fa32d3de/vimla-case-phone.png"
               alt=""
             />
           </div>
           <div
-            class="Cases__Meta-ql1p4z-4 fnbXh"
+            class="Cases__Meta-ql1p4z-2 fgYEpI"
           >
             <div
               class="Cases__Title-ql1p4z-5 WtUOC"
@@ -49,19 +49,19 @@ exports[`components/Cases renders Cases 1`] = `
         href="/case/tsab"
       >
         <div
-          class="Cases__Case-ql1p4z-1 iHJPWM"
+          class="Cases__Case-ql1p4z-4 fbdvJE"
         >
           <div
-            class="Cases__CaseImageWrap-ql1p4z-2 bwMITc"
+            class="Cases__CaseImageWrap-ql1p4z-0 igaLYZ"
           >
             <img
-              class="Cases__CaseImage-ql1p4z-3 bRuamq"
+              class="Cases__CaseImage-ql1p4z-1 jkGniO"
               src="//images.ctfassets.net/rj4r6yfcesw5/UGucAeFycSqIGw0CAc0ys/3d58300261bcff64dba751de9228a150/tsab-case-phone.png"
               alt=""
             />
           </div>
           <div
-            class="Cases__Meta-ql1p4z-4 fnbXh"
+            class="Cases__Meta-ql1p4z-2 fgYEpI"
           >
             <div
               class="Cases__Title-ql1p4z-5 WtUOC"
@@ -81,13 +81,13 @@ exports[`components/Cases renders Cases 1`] = `
         href="/case/seb"
       >
         <div
-          class="Cases__Case-ql1p4z-1 iHJPWM"
+          class="Cases__Case-ql1p4z-4 fbdvJE"
         >
           <div
-            class="Cases__CaseImageWrap-ql1p4z-2 bwMITc"
+            class="Cases__CaseImageWrap-ql1p4z-0 igaLYZ"
           />
           <div
-            class="Cases__Meta-ql1p4z-4 fnbXh"
+            class="Cases__Meta-ql1p4z-2 fgYEpI"
           >
             <div
               class="Cases__Title-ql1p4z-5 WtUOC"
@@ -107,19 +107,19 @@ exports[`components/Cases renders Cases 1`] = `
         href="/case/arbetsformedlingen"
       >
         <div
-          class="Cases__Case-ql1p4z-1 iHJPWM"
+          class="Cases__Case-ql1p4z-4 fbdvJE"
         >
           <div
-            class="Cases__CaseImageWrap-ql1p4z-2 bwMITc"
+            class="Cases__CaseImageWrap-ql1p4z-0 igaLYZ"
           >
             <img
-              class="Cases__CaseImage-ql1p4z-3 bRuamq"
+              class="Cases__CaseImage-ql1p4z-1 jkGniO"
               src="//images.ctfassets.net/rj4r6yfcesw5/3Y7zZ25WbeOCU8w84kAEos/b97ff1899cf6f2e4dca0eb2b4f0d5a44/af.png"
               alt=""
             />
           </div>
           <div
-            class="Cases__Meta-ql1p4z-4 fnbXh"
+            class="Cases__Meta-ql1p4z-2 fgYEpI"
           >
             <div
               class="Cases__Title-ql1p4z-5 WtUOC"

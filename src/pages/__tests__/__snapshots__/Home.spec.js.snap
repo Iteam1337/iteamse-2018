@@ -20,7 +20,7 @@ exports[`components/Home renders Home 1`] = `
         class="Home__Texts-s15fccpq-1 eCpoTV"
       >
         <div
-          class="s3nsc5b-0-PaddedRow-hWTqUj hDpFqo"
+          class="s3nsc5b-0-PaddedRow-hWTqUj gmbNxy"
         >
           <h1
             class="H1-x5hh3k-0 lnvvMx"
@@ -48,7 +48,7 @@ exports[`components/Home renders Home 1`] = `
           </a>
         </div>
         <div
-          class="s3nsc5b-0-PaddedRow-hWTqUj hDpFqo"
+          class="s3nsc5b-0-PaddedRow-hWTqUj gmbNxy"
         >
           <h1
             class="H1-x5hh3k-0 lnvvMx"
@@ -76,7 +76,7 @@ exports[`components/Home renders Home 1`] = `
           </a>
         </div>
         <div
-          class="s3nsc5b-0-PaddedRow-hWTqUj hDpFqo"
+          class="s3nsc5b-0-PaddedRow-hWTqUj gmbNxy"
         >
           <h1
             class="H1-x5hh3k-0 lnvvMx"

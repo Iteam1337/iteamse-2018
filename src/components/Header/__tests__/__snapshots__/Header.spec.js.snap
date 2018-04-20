@@ -7,10 +7,10 @@ exports[`components/Header renders Header 1`] = `
       class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD iPmSGH"
     >
       <div
-        class="Header__Content-s2wl2qd-0 hGrCcr"
+        class="Header__Content-s2wl2qd-0 hATTVl"
       >
         <div
-          class="Navigation__Wrap-s51g7mr-0 fDLSzc"
+          class="Navigation__Wrap-s51g7mr-0 kFREuW"
         >
           <a
             class="Navigation__LogoLink-s51g7mr-1 jRAxmQ"
@@ -73,7 +73,7 @@ exports[`components/Header renders Header 1`] = `
           </div>
         </div>
         <div
-          class="s3nsc5b-0-PaddedRow-hWTqUj jIwRFp"
+          class="s3nsc5b-0-PaddedRow-hWTqUj bKbVsb"
         >
           <h1
             class="x5hh3k-0-H1-gsrphG hUhTKE"

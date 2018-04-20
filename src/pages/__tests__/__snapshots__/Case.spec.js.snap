@@ -10,7 +10,7 @@ exports[`components/Case renders Case 1`] = `
       class="CaseHeader__Content-s1ypm50d-0 hTeTwb"
     >
       <div
-        class="Navigation__Wrap-s51g7mr-0 fDLSzc"
+        class="Navigation__Wrap-s51g7mr-0 kFREuW"
       >
         <a
           class="Navigation__LogoLink-s51g7mr-1 jRAxmQ"
@@ -87,27 +87,27 @@ exports[`components/Case renders Case 1`] = `
             class="CaseHeader__Tags-s1ypm50d-5 lovKKQ"
           >
             <div
-              class="CaseHeader__Tag-s1ypm50d-6 bFhyAK"
+              class="CaseHeader__Tag-s1ypm50d-6 jHkyjn"
             >
               API
             </div>
             <div
-              class="CaseHeader__Tag-s1ypm50d-6 bFhyAK"
+              class="CaseHeader__Tag-s1ypm50d-6 jHkyjn"
             >
               Docker
             </div>
             <div
-              class="CaseHeader__Tag-s1ypm50d-6 bFhyAK"
+              class="CaseHeader__Tag-s1ypm50d-6 jHkyjn"
             >
               UX
             </div>
             <div
-              class="CaseHeader__Tag-s1ypm50d-6 bFhyAK"
+              class="CaseHeader__Tag-s1ypm50d-6 jHkyjn"
             >
               React
             </div>
             <div
-              class="CaseHeader__Tag-s1ypm50d-6 bFhyAK"
+              class="CaseHeader__Tag-s1ypm50d-6 jHkyjn"
             >
               Vue
             </div>
