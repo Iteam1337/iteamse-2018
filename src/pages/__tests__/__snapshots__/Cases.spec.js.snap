@@ -168,7 +168,7 @@ exports[`components/Cases renders Cases 1`] = `
       class="TeamMembers__Members-gavpkf-0 kEUlpQ"
     >
       <div
-        class="TeamMemberDuo__Colleague-s9kjazo-0 foLTeb"
+        class="TeamMemberDuo__Colleague-s9kjazo-0 bfCOvq"
       >
         <a
           class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
@@ -216,7 +216,7 @@ exports[`components/Cases renders Cases 1`] = `
         </div>
       </div>
       <div
-        class="TeamMemberDuo__Colleague-s9kjazo-0 foLTeb"
+        class="TeamMemberDuo__Colleague-s9kjazo-0 bfCOvq"
       >
         <a
           class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"

@@ -121,7 +121,7 @@ exports[`App renders App 1`] = `
         Visste du att vi även erbjuder drift & support?
       </h2>
       <a
-        class="Button-s1kb8b7s-0 bPEEoo"
+        class="Button-s1kb8b7s-0 bphzbK"
         href="/ops"
       >
         Iteam Operations
@@ -135,15 +135,15 @@ exports[`App renders App 1`] = `
       class="TeamMembers__Members-gavpkf-0 kvZgxv"
     >
       <div
-        class="TeamMember__Colleague-ahjagd-0 jsoPzM"
+        class="Colleague-s1m0ml37-0 cknafA"
       >
         <div
-          class="TeamMember__Title-ahjagd-1 eWbIRQ"
+          class="TeamMember__Title-ahjagd-0 elIZCP"
         >
           Cookie master
         </div>
         <div
-          class="TeamMember__Location-ahjagd-2 jnAMTb"
+          class="TeamMember__Location-ahjagd-1 dnfurN"
           data-test="team-member-location"
         >
           Stockholm
@@ -153,7 +153,7 @@ exports[`App renders App 1`] = `
           href="/teamet/cmm"
         >
           <div
-            class="TeamMember__AvatarWrap-ahjagd-3 eERYRm"
+            class="TeamMember__AvatarWrap-ahjagd-2 hOPutZ"
           >
             <div
               style="height: 226px;"
@@ -162,7 +162,7 @@ exports[`App renders App 1`] = `
           </div>
         </a>
         <div
-          class="TeamMember__Title-ahjagd-1 eWbIRQ"
+          class="TeamMember__Title-ahjagd-0 elIZCP"
         >
           Cookie M
         </div>
@@ -174,15 +174,15 @@ exports[`App renders App 1`] = `
         </a>
       </div>
       <div
-        class="TeamMember__Colleague-ahjagd-0 jsoPzM"
+        class="Colleague-s1m0ml37-0 cknafA"
       >
         <div
-          class="TeamMember__Title-ahjagd-1 eWbIRQ"
+          class="TeamMember__Title-ahjagd-0 elIZCP"
         >
           1 ahahah
         </div>
         <div
-          class="TeamMember__Location-ahjagd-2 jnAMTb"
+          class="TeamMember__Location-ahjagd-1 dnfurN"
           data-test="team-member-location"
         >
           Göteborg
@@ -192,7 +192,7 @@ exports[`App renders App 1`] = `
           href="/teamet/cvc"
         >
           <div
-            class="TeamMember__AvatarWrap-ahjagd-3 eERYRm"
+            class="TeamMember__AvatarWrap-ahjagd-2 hOPutZ"
           >
             <div
               style="height: 226px;"
@@ -201,7 +201,7 @@ exports[`App renders App 1`] = `
           </div>
         </a>
         <div
-          class="TeamMember__Title-ahjagd-1 eWbIRQ"
+          class="TeamMember__Title-ahjagd-0 elIZCP"
         >
           Count van Count
         </div>

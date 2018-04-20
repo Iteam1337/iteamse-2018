@@ -3,7 +3,7 @@
 import React from 'react'
 import * as IteamCMS from './__generated__/Team'
 import styled from 'styled-components'
-import Avatar from './Avatar'
+import Avatar, { AvatarImage } from './Avatar'
 import Mailto from '../Link/Mailto'
 import PhoneNumber from '../Link/PhoneNumber'
 import { TeamMemberPageQuery } from '../../pages/TeamMember'
@@ -20,6 +20,7 @@ const Colleague = styled.div`
   grid-column-gap: 40px;
   grid-row-gap: 20px;
   text-align: center;
+  transition: transform 200ms ease-in-out;
 
   @media (min-width: 768px) {
     grid-template-columns: 150px 1fr;
@@ -29,6 +30,14 @@ const Colleague = styled.div`
   ${media.desktop`
     grid-template-columns: 225px 1fr;
   `};
+
+  &:hover {
+    transform: translateY(-5px);
+
+    ${AvatarImage} {
+      box-shadow: 0 5px 50px #33333333;
+    }
+  }
 `
 
 const Meta = styled.div``

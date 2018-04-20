@@ -7,17 +7,11 @@ import Avatar from './Avatar'
 import Mailto from '../Link/Mailto'
 import { TeamMemberPageQuery } from '../../pages/TeamMember'
 import PrefetchLink from '../Link/PrefetchLink'
+import Colleague from './Colleague'
 
 type Props = {
   member: IteamCMS.Team_teamMembers,
 }
-
-const Colleague = styled.div`
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-`
 
 const Title = styled.div`
   font-weight: 500;

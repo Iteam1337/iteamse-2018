@@ -3,31 +3,16 @@
 import React from 'react'
 import * as IteamCMS from './__generated__/Team'
 import styled from 'styled-components'
-import Avatar, { AvatarImage } from './Avatar'
+import Avatar from './Avatar'
 import Mailto from '../Link/Mailto'
 import PhoneNumber from '../Link/PhoneNumber'
 import { TeamMemberPageQuery } from '../../pages/TeamMember'
 import PrefetchLink from '../Link/PrefetchLink'
+import Colleague from './Colleague'
 
 type Props = {
   member: IteamCMS.Team_teamMembers,
 }
-
-const Colleague = styled.div`
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  transition: transform 200ms ease-in-out;
-
-  &:hover {
-    transform: translateY(-5px);
-
-    ${AvatarImage} {
-      box-shadow: 0 5px 50px #33333333;
-    }
-  }
-`
 
 const Name = styled.div`
   font-size: 18px;

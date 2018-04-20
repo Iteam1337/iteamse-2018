@@ -41,14 +41,14 @@ exports[`components/Team renders Team 1`] = `
         class="TeamMembers__Members-gavpkf-0 kEUlpQ"
       >
         <div
-          class="TeamPageMember__Colleague-s1ndkn07-0 jfObUh"
+          class="Colleague-s1m0ml37-0 cknafA"
         >
           <a
             class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
             href="/teamet/cmm"
           >
             <div
-              class="TeamPageMember__AvatarWrap-s1ndkn07-3 dufFQn"
+              class="TeamPageMember__AvatarWrap-s1ndkn07-2 bIErdx"
             >
               <div
                 style="height: 226px;"
@@ -57,17 +57,17 @@ exports[`components/Team renders Team 1`] = `
             </div>
           </a>
           <div
-            class="TeamPageMember__Name-s1ndkn07-1 kEPKjO"
+            class="TeamPageMember__Name-s1ndkn07-0 jHqflp"
           >
             Cookie M
           </div>
           <div
-            class="TeamPageMember__Title-s1ndkn07-2 iLSolC"
+            class="TeamPageMember__Title-s1ndkn07-1 izNnFv"
           >
             Cookie master
           </div>
           <div
-            class="TeamPageMember__PhoneNumberWrap-s1ndkn07-4 kTLNvn"
+            class="TeamPageMember__PhoneNumberWrap-s1ndkn07-3 kvOkBj"
           >
             <a
               class="NativeLink-s1qo6rwq-0 jNinQt"
@@ -84,14 +84,14 @@ exports[`components/Team renders Team 1`] = `
           </a>
         </div>
         <div
-          class="TeamPageMember__Colleague-s1ndkn07-0 jfObUh"
+          class="Colleague-s1m0ml37-0 cknafA"
         >
           <a
             class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
             href="/teamet/cvc"
           >
             <div
-              class="TeamPageMember__AvatarWrap-s1ndkn07-3 dufFQn"
+              class="TeamPageMember__AvatarWrap-s1ndkn07-2 bIErdx"
             >
               <div
                 style="height: 226px;"
@@ -100,17 +100,17 @@ exports[`components/Team renders Team 1`] = `
             </div>
           </a>
           <div
-            class="TeamPageMember__Name-s1ndkn07-1 kEPKjO"
+            class="TeamPageMember__Name-s1ndkn07-0 jHqflp"
           >
             Count van Count
           </div>
           <div
-            class="TeamPageMember__Title-s1ndkn07-2 iLSolC"
+            class="TeamPageMember__Title-s1ndkn07-1 izNnFv"
           >
             1 ahahah
           </div>
           <div
-            class="TeamPageMember__PhoneNumberWrap-s1ndkn07-4 kTLNvn"
+            class="TeamPageMember__PhoneNumberWrap-s1ndkn07-3 kvOkBj"
           >
             <a
               class="NativeLink-s1qo6rwq-0 jNinQt"
@@ -173,14 +173,14 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
         class="TeamMembers__Members-gavpkf-0 kEUlpQ"
       >
         <div
-          class="TeamPageMember__Colleague-s1ndkn07-0 jfObUh"
+          class="Colleague-s1m0ml37-0 cknafA"
         >
           <a
             class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
             href="/teamet/cvc"
           >
             <div
-              class="TeamPageMember__AvatarWrap-s1ndkn07-3 dufFQn"
+              class="TeamPageMember__AvatarWrap-s1ndkn07-2 bIErdx"
             >
               <div
                 style="height: 226px;"
@@ -189,17 +189,17 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
             </div>
           </a>
           <div
-            class="TeamPageMember__Name-s1ndkn07-1 kEPKjO"
+            class="TeamPageMember__Name-s1ndkn07-0 jHqflp"
           >
             Count van Count
           </div>
           <div
-            class="TeamPageMember__Title-s1ndkn07-2 iLSolC"
+            class="TeamPageMember__Title-s1ndkn07-1 izNnFv"
           >
             1 ahahah
           </div>
           <div
-            class="TeamPageMember__PhoneNumberWrap-s1ndkn07-4 kTLNvn"
+            class="TeamPageMember__PhoneNumberWrap-s1ndkn07-3 kvOkBj"
           >
             <a
               class="NativeLink-s1qo6rwq-0 jNinQt"
@@ -262,14 +262,14 @@ exports[`components/Team should handle changing location using mouse 1`] = `
         class="TeamMembers__Members-gavpkf-0 kEUlpQ"
       >
         <div
-          class="TeamPageMember__Colleague-s1ndkn07-0 jfObUh"
+          class="Colleague-s1m0ml37-0 cknafA"
         >
           <a
             class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
             href="/teamet/cmm"
           >
             <div
-              class="TeamPageMember__AvatarWrap-s1ndkn07-3 dufFQn"
+              class="TeamPageMember__AvatarWrap-s1ndkn07-2 bIErdx"
             >
               <div
                 style="height: 226px;"
@@ -278,17 +278,17 @@ exports[`components/Team should handle changing location using mouse 1`] = `
             </div>
           </a>
           <div
-            class="TeamPageMember__Name-s1ndkn07-1 kEPKjO"
+            class="TeamPageMember__Name-s1ndkn07-0 jHqflp"
           >
             Cookie M
           </div>
           <div
-            class="TeamPageMember__Title-s1ndkn07-2 iLSolC"
+            class="TeamPageMember__Title-s1ndkn07-1 izNnFv"
           >
             Cookie master
           </div>
           <div
-            class="TeamPageMember__PhoneNumberWrap-s1ndkn07-4 kTLNvn"
+            class="TeamPageMember__PhoneNumberWrap-s1ndkn07-3 kvOkBj"
           >
             <a
               class="NativeLink-s1qo6rwq-0 jNinQt"
@@ -351,14 +351,14 @@ exports[`components/Team should not change using keyboard if not enter or space 
         class="TeamMembers__Members-gavpkf-0 kEUlpQ"
       >
         <div
-          class="TeamPageMember__Colleague-s1ndkn07-0 jfObUh"
+          class="Colleague-s1m0ml37-0 cknafA"
         >
           <a
             class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
             href="/teamet/cmm"
           >
             <div
-              class="TeamPageMember__AvatarWrap-s1ndkn07-3 dufFQn"
+              class="TeamPageMember__AvatarWrap-s1ndkn07-2 bIErdx"
             >
               <div
                 style="height: 226px;"
@@ -367,17 +367,17 @@ exports[`components/Team should not change using keyboard if not enter or space 
             </div>
           </a>
           <div
-            class="TeamPageMember__Name-s1ndkn07-1 kEPKjO"
+            class="TeamPageMember__Name-s1ndkn07-0 jHqflp"
           >
             Cookie M
           </div>
           <div
-            class="TeamPageMember__Title-s1ndkn07-2 iLSolC"
+            class="TeamPageMember__Title-s1ndkn07-1 izNnFv"
           >
             Cookie master
           </div>
           <div
-            class="TeamPageMember__PhoneNumberWrap-s1ndkn07-4 kTLNvn"
+            class="TeamPageMember__PhoneNumberWrap-s1ndkn07-3 kvOkBj"
           >
             <a
               class="NativeLink-s1qo6rwq-0 jNinQt"
@@ -394,14 +394,14 @@ exports[`components/Team should not change using keyboard if not enter or space 
           </a>
         </div>
         <div
-          class="TeamPageMember__Colleague-s1ndkn07-0 jfObUh"
+          class="Colleague-s1m0ml37-0 cknafA"
         >
           <a
             class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
             href="/teamet/cvc"
           >
             <div
-              class="TeamPageMember__AvatarWrap-s1ndkn07-3 dufFQn"
+              class="TeamPageMember__AvatarWrap-s1ndkn07-2 bIErdx"
             >
               <div
                 style="height: 226px;"
@@ -410,17 +410,17 @@ exports[`components/Team should not change using keyboard if not enter or space 
             </div>
           </a>
           <div
-            class="TeamPageMember__Name-s1ndkn07-1 kEPKjO"
+            class="TeamPageMember__Name-s1ndkn07-0 jHqflp"
           >
             Count van Count
           </div>
           <div
-            class="TeamPageMember__Title-s1ndkn07-2 iLSolC"
+            class="TeamPageMember__Title-s1ndkn07-1 izNnFv"
           >
             1 ahahah
           </div>
           <div
-            class="TeamPageMember__PhoneNumberWrap-s1ndkn07-4 kTLNvn"
+            class="TeamPageMember__PhoneNumberWrap-s1ndkn07-3 kvOkBj"
           >
             <a
               class="NativeLink-s1qo6rwq-0 jNinQt"
