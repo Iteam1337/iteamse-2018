@@ -45,13 +45,6 @@ const Cases = PaddedRow.extend`
   `};
 `
 
-const CaseLink = styled(PrefetchLink)`
-  color: #000;
-  text-decoration: none;
-`
-
-const Case = styled.div``
-
 const CaseImageWrap = styled.div`
   align-items: center;
   background-color: #f1f1f1;
@@ -69,7 +62,25 @@ const CaseImage = styled.img`
 `
 
 const Meta = styled.div`
+  border-left: 0px solid ${({ theme }) => theme.colors.aquamarine};
   margin-top: 30px;
+  transition-property: border-left-width, padding-left;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+`
+
+const CaseLink = styled(PrefetchLink)`
+  color: #000;
+  text-decoration: none;
+`
+
+const Case = styled.div`
+  &:hover {
+    ${Meta} {
+      border-left-width: 10px;
+      padding-left: 10px;
+    }
+  }
 `
 
 const Title = styled.div`
