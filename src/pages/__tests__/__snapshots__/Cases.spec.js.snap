@@ -10,31 +10,6 @@ exports[`components/Cases renders Cases 1`] = `
     class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD iyGAEe"
   >
     <div
-      class="s3nsc5b-0-PaddedRow-hWTqUj iUATLn"
-    >
-      <div
-        class="Filter__Wrap-s16ccbkk-0 evelsV"
-        data-test="filter-"
-        tabindex="0"
-      >
-        Alla
-      </div>
-      <div
-        class="Filter__Wrap-s16ccbkk-0 lgKsfF"
-        data-test="filter-Stockholm"
-        tabindex="0"
-      >
-        Stockholm
-      </div>
-      <div
-        class="Filter__Wrap-s16ccbkk-0 lgKsfF"
-        data-test="filter-Göteborg"
-        tabindex="0"
-      >
-        Göteborg
-      </div>
-    </div>
-    <div
       class="s3nsc5b-0-PaddedRow-hWTqUj hbGnBu"
     >
       <a

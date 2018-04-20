@@ -3,89 +3,165 @@
 exports[`components/Team renders TeamMember 1`] = `
 <div>
   <div
-    style="height: 700px;"
-    class="lazyload-placeholder"
-  />
-  <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD iyGAEe"
+    class="TeamMember-s52ucyc-0 egebwC"
   >
     <div
-      class="s3nsc5b-0-PaddedRow-hWTqUj lcBFma"
-      data-test="breadcrumbs"
-    >
-      <span>
-        Rickard Laurin
-      </span>
-    </div>
+      style="height: 700px;"
+      class="lazyload-placeholder"
+    />
     <div
-      class="react-reveal"
-      style="opacity: 1;"
+      class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD iyGAEe"
     >
       <div
-        class="PaddedRow-s3nsc5b-0 kZVCTc"
-        data-test="block-"
+        class="s3nsc5b-0-PaddedRow-hWTqUj lcBFma"
+        data-test="breadcrumbs"
+      >
+        <span>
+          Rickard Laurin
+        </span>
+      </div>
+      <div
+        class="react-reveal"
+        style="opacity: 1;"
       >
         <div
-          class="Block__Content-jdahsb-0 jnCWxO"
+          class="PaddedRow-s3nsc5b-0 kZVCTc"
+          data-test="block-"
         >
           <div
-            class="Block__TitleWrap-jdahsb-1 dkYDLt"
+            class="Block__Content-jdahsb-0 jnCWxO"
           >
-            <h3
-              class="H3-s19jy0q4-0 bXouBG"
+            <div
+              class="Block__TitleWrap-jdahsb-1 dkYDLt"
             >
-              Kontakt
-            </h3>
-          </div>
-          <div
-            class="Block__Text-jdahsb-3 bdZkSQ"
-          >
-            <ul
-              class="UnstyledList-s1ntpurm-0 gEDRFE"
+              <h3
+                class="H3-s19jy0q4-0 bXouBG"
+              >
+                Kontakt
+              </h3>
+            </div>
+            <div
+              class="Block__Text-jdahsb-3 bdZkSQ"
             >
-              <li>
-                <a
-                  class="NativeLink-s1qo6rwq-0 jNinQt"
-                  href="mailto:rickard.laurin@iteam.se"
-                >
-                  rickard.laurin@iteam.se
-                </a>
-              </li>
-            </ul>
+              <ul
+                class="UnstyledList-s1ntpurm-0 gEDRFE"
+              >
+                <li>
+                  <a
+                    class="NativeLink-s1qo6rwq-0 jNinQt"
+                    href="mailto:rickard.laurin@iteam.se"
+                  >
+                    rickard.laurin@iteam.se
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div
-      class="react-reveal"
-      style="opacity: 1;"
-    >
       <div
-        class="PaddedRow-s3nsc5b-0 kZVCTc"
-        data-test="block-"
+        class="react-reveal"
+        style="opacity: 1;"
       >
         <div
-          class="Block__Content-jdahsb-0 jnCWxO"
+          class="PaddedRow-s3nsc5b-0 kZVCTc"
+          data-test="block-"
         >
           <div
-            class="Block__TitleWrap-jdahsb-1 dkYDLt"
-          >
-            <h3
-              class="H3-s19jy0q4-0 bXouBG"
-            >
-              Varför jobbar du med teknik?
-            </h3>
-          </div>
-          <div
-            class="Block__Text-jdahsb-3 bdZkSQ"
+            class="Block__Content-jdahsb-0 jnCWxO"
           >
             <div
-              class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
+              class="Block__TitleWrap-jdahsb-1 dkYDLt"
             >
-              <div>
-                <p>
-                  In the early 90's my family got its first 286, it was love at first sight. In my teen years I played a lot of Delta Force and started developing the clan websites. Until I started at KTH I only did minor hobby projects. There I managed my chapters website and assisted younger students in MATLAB. This is when I realized what I really wanted to work with, building beautiful websites.
-                </p>
+              <h3
+                class="H3-s19jy0q4-0 bXouBG"
+              >
+                Varför jobbar du med teknik?
+              </h3>
+            </div>
+            <div
+              class="Block__Text-jdahsb-3 bdZkSQ"
+            >
+              <div
+                class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
+              >
+                <div>
+                  <p>
+                    In the early 90's my family got its first 286, it was love at first sight. In my teen years I played a lot of Delta Force and started developing the clan websites. Until I started at KTH I only did minor hobby projects. There I managed my chapters website and assisted younger students in MATLAB. This is when I realized what I really wanted to work with, building beautiful websites.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="react-reveal"
+        style="opacity: 1;"
+      >
+        <div
+          class="PaddedRow-s3nsc5b-0 kZVCTc"
+          data-test="block-"
+        >
+          <div
+            class="Block__Content-jdahsb-0 jnCWxO"
+          >
+            <div
+              class="Block__TitleWrap-jdahsb-1 dkYDLt"
+            >
+              <h3
+                class="H3-s19jy0q4-0 bXouBG"
+              >
+                Bakgrund
+              </h3>
+            </div>
+            <div
+              class="Block__Text-jdahsb-3 bdZkSQ"
+            >
+              <div
+                class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
+              >
+                <div>
+                  <p>
+                    Materials Science and Engineering at KTH (Royal Institute of Technology). Interaction designer at Nackademin.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="react-reveal"
+        style="opacity: 1;"
+      >
+        <div
+          class="PaddedRow-s3nsc5b-0 kZVCTc"
+          data-test="block-"
+        >
+          <div
+            class="Block__Content-jdahsb-0 jnCWxO"
+          >
+            <div
+              class="Block__TitleWrap-jdahsb-1 dkYDLt"
+            >
+              <h3
+                class="H3-s19jy0q4-0 bXouBG"
+              >
+                Specialistkompetens
+              </h3>
+            </div>
+            <div
+              class="Block__Text-jdahsb-3 bdZkSQ"
+            >
+              <div
+                class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
+              >
+                <div>
+                  <p>
+                    HTML5, CSS and JavaScript.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -93,178 +169,106 @@ exports[`components/Team renders TeamMember 1`] = `
       </div>
     </div>
     <div
-      class="react-reveal"
-      style="opacity: 1;"
+      class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD isotwF"
     >
       <div
-        class="PaddedRow-s3nsc5b-0 kZVCTc"
-        data-test="block-"
+        class="TeamMembers__Members-gavpkf-0 uMipK"
       >
         <div
-          class="Block__Content-jdahsb-0 jnCWxO"
+          class="TeamMemberDuo__Colleague-s9kjazo-0 XxNhO"
         >
-          <div
-            class="Block__TitleWrap-jdahsb-1 dkYDLt"
-          >
-            <h3
-              class="H3-s19jy0q4-0 bXouBG"
-            >
-              Bakgrund
-            </h3>
-          </div>
-          <div
-            class="Block__Text-jdahsb-3 bdZkSQ"
+          <a
+            class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
+            href="/teamet/cmm"
           >
             <div
-              class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
-            >
-              <div>
-                <p>
-                  Materials Science and Engineering at KTH (Royal Institute of Technology). Interaction designer at Nackademin.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="react-reveal"
-      style="opacity: 1;"
-    >
-      <div
-        class="PaddedRow-s3nsc5b-0 kZVCTc"
-        data-test="block-"
-      >
-        <div
-          class="Block__Content-jdahsb-0 jnCWxO"
-        >
+              style="height: 226px;"
+              class="lazyload-placeholder"
+            />
+          </a>
           <div
-            class="Block__TitleWrap-jdahsb-1 dkYDLt"
-          >
-            <h3
-              class="H3-s19jy0q4-0 bXouBG"
-            >
-              Specialistkompetens
-            </h3>
-          </div>
-          <div
-            class="Block__Text-jdahsb-3 bdZkSQ"
+            class="TeamMemberDuo__Meta-s9kjazo-1 gzvJxw"
           >
             <div
-              class="Paragraph__StyledParagraph-s13mwy58-0 kBKPHf"
+              class="TeamMemberDuo__MetaSection-s9kjazo-3 XeOZD"
             >
+              <div
+                class="TeamMemberDuo__Title-s9kjazo-2 dFgPDl"
+              >
+                Cookie master
+              </div>
               <div>
-                <p>
-                  HTML5, CSS and JavaScript.
-                </p>
+                Stockholm
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD isotwF"
-  >
-    <div
-      class="TeamMembers__Members-gavpkf-0 uMipK"
-    >
-      <div
-        class="TeamMemberDuo__Colleague-s9kjazo-0 XxNhO"
-      >
-        <a
-          class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
-          href="/teamet/cmm"
-        >
-          <div
-            style="height: 226px;"
-            class="lazyload-placeholder"
-          />
-        </a>
-        <div
-          class="TeamMemberDuo__Meta-s9kjazo-1 gzvJxw"
-        >
-          <div
-            class="TeamMemberDuo__MetaSection-s9kjazo-3 XeOZD"
-          >
             <div
               class="TeamMemberDuo__Title-s9kjazo-2 dFgPDl"
             >
-              Cookie master
+              Cookie M
             </div>
             <div>
-              Stockholm
+              <a
+                class="s1qo6rwq-0-NativeLink-jXoiCT dJdJnO"
+                href="tel:0701234567"
+              >
+                070-123 45 67
+              </a>
             </div>
-          </div>
-          <div
-            class="TeamMemberDuo__Title-s9kjazo-2 dFgPDl"
-          >
-            Cookie M
-          </div>
-          <div>
             <a
-              class="s1qo6rwq-0-NativeLink-jXoiCT dJdJnO"
-              href="tel:0701234567"
+              class="NativeLink-s1qo6rwq-0 jNinQt"
+              href="mailto:cm@sesame.com"
             >
-              070-123 45 67
+              cm@sesame.com
             </a>
           </div>
-          <a
-            class="NativeLink-s1qo6rwq-0 jNinQt"
-            href="mailto:cm@sesame.com"
-          >
-            cm@sesame.com
-          </a>
         </div>
-      </div>
-      <div
-        class="TeamMemberDuo__Colleague-s9kjazo-0 XxNhO"
-      >
-        <a
-          class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
-          href="/teamet/cvc"
-        >
-          <div
-            style="height: 226px;"
-            class="lazyload-placeholder"
-          />
-        </a>
         <div
-          class="TeamMemberDuo__Meta-s9kjazo-1 gzvJxw"
+          class="TeamMemberDuo__Colleague-s9kjazo-0 XxNhO"
         >
-          <div
-            class="TeamMemberDuo__MetaSection-s9kjazo-3 XeOZD"
+          <a
+            class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
+            href="/teamet/cvc"
           >
+            <div
+              style="height: 226px;"
+              class="lazyload-placeholder"
+            />
+          </a>
+          <div
+            class="TeamMemberDuo__Meta-s9kjazo-1 gzvJxw"
+          >
+            <div
+              class="TeamMemberDuo__MetaSection-s9kjazo-3 XeOZD"
+            >
+              <div
+                class="TeamMemberDuo__Title-s9kjazo-2 dFgPDl"
+              >
+                1 ahahah
+              </div>
+              <div>
+                Göteborg
+              </div>
+            </div>
             <div
               class="TeamMemberDuo__Title-s9kjazo-2 dFgPDl"
             >
-              1 ahahah
+              Count van Count
             </div>
             <div>
-              Göteborg
+              <a
+                class="s1qo6rwq-0-NativeLink-jXoiCT dJdJnO"
+                href="tel:0707654321"
+              >
+                070-765 43 21
+              </a>
             </div>
-          </div>
-          <div
-            class="TeamMemberDuo__Title-s9kjazo-2 dFgPDl"
-          >
-            Count van Count
-          </div>
-          <div>
             <a
-              class="s1qo6rwq-0-NativeLink-jXoiCT dJdJnO"
-              href="tel:0707654321"
+              class="NativeLink-s1qo6rwq-0 jNinQt"
+              href="mailto:count@sesame.com"
             >
-              070-765 43 21
+              count@sesame.com
             </a>
           </div>
-          <a
-            class="NativeLink-s1qo6rwq-0 jNinQt"
-            href="mailto:count@sesame.com"
-          >
-            count@sesame.com
-          </a>
         </div>
       </div>
     </div>

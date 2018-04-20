@@ -6,8 +6,6 @@ import * as IteamCMS from './__generated__/CasesPage'
 import GridColumn from '../components/Grid/GridColumn'
 import PaddedRow from '../components/Grid/PaddedRow'
 import styled from 'styled-components'
-import { filterByLocation } from '../utils/filterByLocation'
-import FilterByLocation from '../components/FilterByLocation/FilterByLocation'
 import Team from '../components/Team/Team'
 import Header from '../components/Header/Header'
 import { Query } from 'react-apollo'
@@ -103,36 +101,32 @@ export const CasePage = () => {
             />
 
             <GridColumn>
-              <FilterByLocation>
-                {location => (
-                  <Cases>
-                    {cases.filter(filterByLocation(location)).map(workCase => (
-                      <CaseLink
-                        query={CasePageQuery}
-                        key={workCase.title}
-                        to={`/case/${workCase.slug}`}
-                        variables={{
-                          slug: workCase.slug,
-                        }}
-                      >
-                        <Case>
-                          <CaseImageWrap>
-                            {workCase.thumbnailImage && (
-                              <CaseImage src={workCase.thumbnailImage} alt="" />
-                            )}
-                          </CaseImageWrap>
-                          <Meta>
-                            <Title>{workCase.title}</Title>
-                            <ShortDescription>
-                              {workCase.shortDescription}
-                            </ShortDescription>
-                          </Meta>
-                        </Case>
-                      </CaseLink>
-                    ))}
-                  </Cases>
-                )}
-              </FilterByLocation>
+              <Cases>
+                {cases.map(workCase => (
+                  <CaseLink
+                    query={CasePageQuery}
+                    key={workCase.title}
+                    to={`/case/${workCase.slug}`}
+                    variables={{
+                      slug: workCase.slug,
+                    }}
+                  >
+                    <Case>
+                      <CaseImageWrap>
+                        {workCase.thumbnailImage && (
+                          <CaseImage src={workCase.thumbnailImage} alt="" />
+                        )}
+                      </CaseImageWrap>
+                      <Meta>
+                        <Title>{workCase.title}</Title>
+                        <ShortDescription>
+                          {workCase.shortDescription}
+                        </ShortDescription>
+                      </Meta>
+                    </Case>
+                  </CaseLink>
+                ))}
+              </Cases>
             </GridColumn>
 
             <Team bgColor="green" shortName={['hrn', 'jmn']} />
