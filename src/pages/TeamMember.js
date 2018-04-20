@@ -13,6 +13,7 @@ import GridColumn from '../components/Grid/GridColumn'
 import PhoneNumber from '../components/Link/PhoneNumber'
 import UnstyledList from '../components/List/UnstyledList'
 import Mailto from '../components/Link/Mailto'
+import styled from 'styled-components'
 
 type Props = {
   match: {
@@ -45,6 +46,12 @@ export const TeamMemberPageQuery = gql`
   }
 `
 
+const TeamMember = styled.div`
+  h1:first-of-type {
+    font-weight: 300;
+  }
+`
+
 const TeamMemberPage = ({ match }: Props) => {
   return (
     <Query
@@ -57,7 +64,7 @@ const TeamMemberPage = ({ match }: Props) => {
         }
 
         return (
-          <React.Fragment>
+          <TeamMember>
             <Header
               backgroundImage={teamMember.headerImage}
               messageBgColor={teamMember.headerTextBgColor}
@@ -95,7 +102,7 @@ const TeamMemberPage = ({ match }: Props) => {
             </GridColumn>
 
             <Team bgColor="green" shortName={['hrn', 'jmn']} />
-          </React.Fragment>
+          </TeamMember>
         )
       }}
     </Query>
