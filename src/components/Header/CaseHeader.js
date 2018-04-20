@@ -58,9 +58,10 @@ const Tags = styled.div`
 `
 
 const Tag = styled.div`
-  background-color: #fff;
-  border-radius: 17px;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
   display: inline-block;
+  font-size: 16px;
   margin-bottom: 10px;
   padding: 10px 30px;
   text-align: center;
