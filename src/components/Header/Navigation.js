@@ -27,8 +27,9 @@ type State = {
 
 const Wrap = styled.div`
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
   display: grid;
+  grid-column: 2;
+  grid-row: 1;
   grid-template-columns: 150px 1fr;
   padding: 20px;
 

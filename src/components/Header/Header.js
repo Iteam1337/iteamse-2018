@@ -28,12 +28,21 @@ const Wrap = GridColumnClean.extend`
 `
 
 const Content = styled.div`
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0) 100px
+  );
   display: grid;
+  grid-column: -1 / 1;
+  grid-template-columns: 1fr 1024px 1fr;
   grid-template-rows: auto 1fr;
 `
 
 const MessageRow = PaddedRow.extend`
   align-self: flex-end;
+  grid-column: 2;
+  grid-row: 2;
   padding-bottom: 30px;
 
   @media (min-width: 481px) {
