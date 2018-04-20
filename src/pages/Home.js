@@ -75,7 +75,7 @@ const Texts = styled.div`
 
 const TextBlock = PaddedRow.extend`
   &:not(:last-child) {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
 
   ${media.desktop`
@@ -106,7 +106,7 @@ const MobileImageWrap = styled.div`
 `
 
 const MobileImage = styled.img`
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   width: 50%;
 `
 
