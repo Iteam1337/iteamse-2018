@@ -35,8 +35,11 @@ const Content = styled.div`
   );
   display: grid;
   grid-column: -1 / 1;
-  grid-template-columns: 1fr 1024px 1fr;
   grid-template-rows: auto 1fr;
+
+  ${media.desktop`
+    grid-template-columns: 1fr 1024px 1fr;
+  `};
 `
 
 const MessageRow = PaddedRow.extend`
