@@ -7,10 +7,10 @@ exports[`components/Work renders Work 1`] = `
     class="lazyload-placeholder"
   />
   <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD cdtVAw"
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD iyGAEe"
   >
     <div
-      class="s3nsc5b-0-PaddedRow-hWTqUj hPVqKX"
+      class="s3nsc5b-0-PaddedRow-hWTqUj iUATLn"
     >
       <div
         class="Filter__Wrap-s16ccbkk-0 evelsV"
@@ -39,17 +39,17 @@ exports[`components/Work renders Work 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="PaddedRow-s3nsc5b-0 cKRLCb"
+        class="PaddedRow-s3nsc5b-0 kZVCTc"
         data-test="block-location"
       >
         <div
-          class="Block__Content-jdahsb-0 eJFCrU"
+          class="Block__Content-jdahsb-0 jnCWxO"
         >
           <div
             class="Block__TitleWrap-jdahsb-1 dkYDLt"
           >
             <h3
-              class="H3-s19jy0q4-0 bFoQlU"
+              class="H3-s19jy0q4-0 bXouBG"
             >
               Junior UX Designer
             </h3>
@@ -86,13 +86,13 @@ exports[`components/Work renders Work 1`] = `
     </div>
   </div>
   <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD dXaaGv"
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD hcBJZm"
   >
     <div
-      class="TeamMembers__Members-gavpkf-0 kEUlpQ"
+      class="TeamMembers__Members-gavpkf-0 uMipK"
     >
       <div
-        class="TeamMemberDuo__Colleague-s9kjazo-0 bfCOvq"
+        class="TeamMemberDuo__Colleague-s9kjazo-0 XxNhO"
       >
         <a
           class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
@@ -125,7 +125,7 @@ exports[`components/Work renders Work 1`] = `
           </div>
           <div>
             <a
-              class="NativeLink-s1qo6rwq-0 jNinQt"
+              class="s1qo6rwq-0-NativeLink-jXoiCT dJdJnO"
               href="tel:0701234567"
             >
               070-123 45 67
@@ -140,7 +140,7 @@ exports[`components/Work renders Work 1`] = `
         </div>
       </div>
       <div
-        class="TeamMemberDuo__Colleague-s9kjazo-0 bfCOvq"
+        class="TeamMemberDuo__Colleague-s9kjazo-0 XxNhO"
       >
         <a
           class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
@@ -173,7 +173,7 @@ exports[`components/Work renders Work 1`] = `
           </div>
           <div>
             <a
-              class="NativeLink-s1qo6rwq-0 jNinQt"
+              class="s1qo6rwq-0-NativeLink-jXoiCT dJdJnO"
               href="tel:0707654321"
             >
               070-765 43 21

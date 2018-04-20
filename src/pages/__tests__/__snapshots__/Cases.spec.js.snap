@@ -7,10 +7,10 @@ exports[`components/Cases renders Cases 1`] = `
     class="lazyload-placeholder"
   />
   <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD cdtVAw"
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD iyGAEe"
   >
     <div
-      class="s3nsc5b-0-PaddedRow-hWTqUj hPVqKX"
+      class="s3nsc5b-0-PaddedRow-hWTqUj iUATLn"
     >
       <div
         class="Filter__Wrap-s16ccbkk-0 evelsV"
@@ -35,7 +35,7 @@ exports[`components/Cases renders Cases 1`] = `
       </div>
     </div>
     <div
-      class="s3nsc5b-0-PaddedRow-hWTqUj dlOSMS"
+      class="s3nsc5b-0-PaddedRow-hWTqUj hbGnBu"
     >
       <a
         class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
@@ -45,7 +45,7 @@ exports[`components/Cases renders Cases 1`] = `
           class="Cases__Case-ql1p4z-1 iHJPWM"
         >
           <div
-            class="Cases__CaseImageWrap-ql1p4z-2 bjJOKy"
+            class="Cases__CaseImageWrap-ql1p4z-2 bwMITc"
           >
             <img
               class="Cases__CaseImage-ql1p4z-3 bRuamq"
@@ -77,7 +77,7 @@ exports[`components/Cases renders Cases 1`] = `
           class="Cases__Case-ql1p4z-1 iHJPWM"
         >
           <div
-            class="Cases__CaseImageWrap-ql1p4z-2 bjJOKy"
+            class="Cases__CaseImageWrap-ql1p4z-2 bwMITc"
           >
             <img
               class="Cases__CaseImage-ql1p4z-3 bRuamq"
@@ -109,7 +109,7 @@ exports[`components/Cases renders Cases 1`] = `
           class="Cases__Case-ql1p4z-1 iHJPWM"
         >
           <div
-            class="Cases__CaseImageWrap-ql1p4z-2 bjJOKy"
+            class="Cases__CaseImageWrap-ql1p4z-2 bwMITc"
           />
           <div
             class="Cases__Meta-ql1p4z-4 fnbXh"
@@ -135,7 +135,7 @@ exports[`components/Cases renders Cases 1`] = `
           class="Cases__Case-ql1p4z-1 iHJPWM"
         >
           <div
-            class="Cases__CaseImageWrap-ql1p4z-2 bjJOKy"
+            class="Cases__CaseImageWrap-ql1p4z-2 bwMITc"
           >
             <img
               class="Cases__CaseImage-ql1p4z-3 bRuamq"
@@ -162,13 +162,13 @@ exports[`components/Cases renders Cases 1`] = `
     </div>
   </div>
   <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD jrbaIt"
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD isotwF"
   >
     <div
-      class="TeamMembers__Members-gavpkf-0 kEUlpQ"
+      class="TeamMembers__Members-gavpkf-0 uMipK"
     >
       <div
-        class="TeamMemberDuo__Colleague-s9kjazo-0 bfCOvq"
+        class="TeamMemberDuo__Colleague-s9kjazo-0 XxNhO"
       >
         <a
           class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
@@ -201,7 +201,7 @@ exports[`components/Cases renders Cases 1`] = `
           </div>
           <div>
             <a
-              class="NativeLink-s1qo6rwq-0 jNinQt"
+              class="s1qo6rwq-0-NativeLink-jXoiCT dJdJnO"
               href="tel:0701234567"
             >
               070-123 45 67
@@ -216,7 +216,7 @@ exports[`components/Cases renders Cases 1`] = `
         </div>
       </div>
       <div
-        class="TeamMemberDuo__Colleague-s9kjazo-0 bfCOvq"
+        class="TeamMemberDuo__Colleague-s9kjazo-0 XxNhO"
       >
         <a
           class="PrefetchLink__StyledLink-n3ecxs-0 JPiJu"
@@ -249,7 +249,7 @@ exports[`components/Cases renders Cases 1`] = `
           </div>
           <div>
             <a
-              class="NativeLink-s1qo6rwq-0 jNinQt"
+              class="s1qo6rwq-0-NativeLink-jXoiCT dJdJnO"
               href="tel:0707654321"
             >
               070-765 43 21

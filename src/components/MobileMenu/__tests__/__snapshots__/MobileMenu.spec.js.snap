@@ -3,7 +3,7 @@
 exports[`components/MobileMenu renders MobileMenu and can open it 1`] = `
 <div>
   <div
-    class="MobileMenu__Wrap-s128ahbw-0 eHbiAP"
+    class="MobileMenu__Wrap-s128ahbw-0 kVeFVH"
   >
     <div
       class="MenuNavigation__Menu-s1eq2ki3-1 gckeHw"
@@ -57,7 +57,7 @@ exports[`components/MobileMenu renders MobileMenu and can open it 1`] = `
       </div>
     </div>
     <button
-      class="MenuButton__Button-cyy49g-0 xzjBp"
+      class="MenuButton__Button-cyy49g-0 icWEVy"
       aria-label="Menu button"
       data-testid="btn-mobile-menu"
       role="button"

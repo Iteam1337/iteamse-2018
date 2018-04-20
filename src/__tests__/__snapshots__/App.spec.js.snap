@@ -7,23 +7,23 @@ exports[`App renders App 1`] = `
     class="lazyload-placeholder"
   />
   <div
-    class="GridColumn__GridColumnClean-lcQAdD eeOKQI"
+    class="GridColumn__GridColumnClean-lcQAdD cjBHRu"
   >
     <div
-      class="Home__Content-s15fccpq-0 htMAwU"
+      class="Home__Content-s15fccpq-0 jdJZe"
     >
       <img
-        class="Home__StylizedIteam-s15fccpq-2 hgtCAO"
+        class="Home__StylizedIteam-s15fccpq-2 htDdOj"
         src="iteam_stylized.png"
       />
       <div
         class="Home__Texts-s15fccpq-1 eCpoTV"
       >
         <div
-          class="s3nsc5b-0-PaddedRow-hWTqUj khULXJ"
+          class="s3nsc5b-0-PaddedRow-hWTqUj hDpFqo"
         >
           <h1
-            class="H1-x5hh3k-0 eejZji"
+            class="H1-x5hh3k-0 lnvvMx"
           >
             Kod
           </h1>
@@ -48,10 +48,10 @@ exports[`App renders App 1`] = `
           </a>
         </div>
         <div
-          class="s3nsc5b-0-PaddedRow-hWTqUj khULXJ"
+          class="s3nsc5b-0-PaddedRow-hWTqUj hDpFqo"
         >
           <h1
-            class="H1-x5hh3k-0 eejZji"
+            class="H1-x5hh3k-0 lnvvMx"
           >
             Strategi
           </h1>
@@ -76,10 +76,10 @@ exports[`App renders App 1`] = `
           </a>
         </div>
         <div
-          class="s3nsc5b-0-PaddedRow-hWTqUj khULXJ"
+          class="s3nsc5b-0-PaddedRow-hWTqUj hDpFqo"
         >
           <h1
-            class="H1-x5hh3k-0 eejZji"
+            class="H1-x5hh3k-0 lnvvMx"
           >
             Kultur
           </h1>
@@ -107,16 +107,16 @@ exports[`App renders App 1`] = `
     </div>
   </div>
   <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD lbDVJp"
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD cTNQkS"
   >
     <div
       class="OperationsBanner__Overlay-s6plh63-0 eUEmcx"
     />
     <div
-      class="OperationsBanner__Content-s6plh63-1 YGXrX"
+      class="OperationsBanner__Content-s6plh63-1 loiYFh"
     >
       <h2
-        class="H2-s1x2w9v8-0 exLhgN"
+        class="H2-s1x2w9v8-0 MYwwh"
       >
         Visste du att vi även erbjuder drift & support?
       </h2>
@@ -129,10 +129,10 @@ exports[`App renders App 1`] = `
     </div>
   </div>
   <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD dXaaGv"
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD hcBJZm"
   >
     <div
-      class="TeamMembers__Members-gavpkf-0 kvZgxv"
+      class="TeamMembers__Members-gavpkf-0 gnJXLy"
     >
       <div
         class="Colleague-s1m0ml37-0 cknafA"
@@ -215,10 +215,10 @@ exports[`App renders App 1`] = `
     </div>
   </div>
   <div
-    class="MobileMenu__Wrap-s128ahbw-0 eHbiAP"
+    class="MobileMenu__Wrap-s128ahbw-0 kVeFVH"
   >
     <button
-      class="MenuButton__Button-cyy49g-0 xzjBp"
+      class="MenuButton__Button-cyy49g-0 icWEVy"
       aria-label="Menu button"
       data-testid="btn-mobile-menu"
       role="button"
@@ -239,10 +239,10 @@ exports[`App renders App 1`] = `
     </button>
   </div>
   <div
-    class="GridColumn__GridColumnClean-lcQAdD cMYMfO"
+    class="GridColumn__GridColumnClean-lcQAdD iWPUQR"
   >
     <div
-      class="Footer__FooterSections-xtla5m-0 cgXbGm"
+      class="Footer__FooterSections-xtla5m-0 jWuJXj"
     >
       <div
         class="Location__Wrap-s1et3i43-0 gDiDVe"

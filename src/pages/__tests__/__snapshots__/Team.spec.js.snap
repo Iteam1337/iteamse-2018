@@ -7,10 +7,10 @@ exports[`components/Team renders Team 1`] = `
     class="lazyload-placeholder"
   />
   <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD cdtVAw"
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD iyGAEe"
   >
     <div
-      class="s3nsc5b-0-PaddedRow-hWTqUj hPVqKX"
+      class="s3nsc5b-0-PaddedRow-hWTqUj iUATLn"
     >
       <div
         class="Filter__Wrap-s16ccbkk-0 evelsV"
@@ -35,10 +35,10 @@ exports[`components/Team renders Team 1`] = `
       </div>
     </div>
     <div
-      class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD eHyOcM"
+      class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD kDbvpS"
     >
       <div
-        class="TeamMembers__Members-gavpkf-0 kEUlpQ"
+        class="TeamMembers__Members-gavpkf-0 uMipK"
       >
         <div
           class="Colleague-s1m0ml37-0 cknafA"
@@ -70,7 +70,7 @@ exports[`components/Team renders Team 1`] = `
             class="TeamPageMember__PhoneNumberWrap-s1ndkn07-3 kvOkBj"
           >
             <a
-              class="NativeLink-s1qo6rwq-0 jNinQt"
+              class="s1qo6rwq-0-NativeLink-jXoiCT dJdJnO"
               href="tel:0701234567"
             >
               070-123 45 67
@@ -113,7 +113,7 @@ exports[`components/Team renders Team 1`] = `
             class="TeamPageMember__PhoneNumberWrap-s1ndkn07-3 kvOkBj"
           >
             <a
-              class="NativeLink-s1qo6rwq-0 jNinQt"
+              class="s1qo6rwq-0-NativeLink-jXoiCT dJdJnO"
               href="tel:0707654321"
             >
               070-765 43 21
@@ -139,10 +139,10 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
     class="lazyload-placeholder"
   />
   <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD cdtVAw"
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD iyGAEe"
   >
     <div
-      class="s3nsc5b-0-PaddedRow-hWTqUj hPVqKX"
+      class="s3nsc5b-0-PaddedRow-hWTqUj iUATLn"
     >
       <div
         class="Filter__Wrap-s16ccbkk-0 lgKsfF"
@@ -167,10 +167,10 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
       </div>
     </div>
     <div
-      class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD eHyOcM"
+      class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD kDbvpS"
     >
       <div
-        class="TeamMembers__Members-gavpkf-0 kEUlpQ"
+        class="TeamMembers__Members-gavpkf-0 uMipK"
       >
         <div
           class="Colleague-s1m0ml37-0 cknafA"
@@ -202,7 +202,7 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
             class="TeamPageMember__PhoneNumberWrap-s1ndkn07-3 kvOkBj"
           >
             <a
-              class="NativeLink-s1qo6rwq-0 jNinQt"
+              class="s1qo6rwq-0-NativeLink-jXoiCT dJdJnO"
               href="tel:0707654321"
             >
               070-765 43 21
@@ -228,10 +228,10 @@ exports[`components/Team should handle changing location using mouse 1`] = `
     class="lazyload-placeholder"
   />
   <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD cdtVAw"
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD iyGAEe"
   >
     <div
-      class="s3nsc5b-0-PaddedRow-hWTqUj hPVqKX"
+      class="s3nsc5b-0-PaddedRow-hWTqUj iUATLn"
     >
       <div
         class="Filter__Wrap-s16ccbkk-0 lgKsfF"
@@ -256,10 +256,10 @@ exports[`components/Team should handle changing location using mouse 1`] = `
       </div>
     </div>
     <div
-      class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD eHyOcM"
+      class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD kDbvpS"
     >
       <div
-        class="TeamMembers__Members-gavpkf-0 kEUlpQ"
+        class="TeamMembers__Members-gavpkf-0 uMipK"
       >
         <div
           class="Colleague-s1m0ml37-0 cknafA"
@@ -291,7 +291,7 @@ exports[`components/Team should handle changing location using mouse 1`] = `
             class="TeamPageMember__PhoneNumberWrap-s1ndkn07-3 kvOkBj"
           >
             <a
-              class="NativeLink-s1qo6rwq-0 jNinQt"
+              class="s1qo6rwq-0-NativeLink-jXoiCT dJdJnO"
               href="tel:0701234567"
             >
               070-123 45 67
@@ -317,10 +317,10 @@ exports[`components/Team should not change using keyboard if not enter or space 
     class="lazyload-placeholder"
   />
   <div
-    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD cdtVAw"
+    class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD iyGAEe"
   >
     <div
-      class="s3nsc5b-0-PaddedRow-hWTqUj hPVqKX"
+      class="s3nsc5b-0-PaddedRow-hWTqUj iUATLn"
     >
       <div
         class="Filter__Wrap-s16ccbkk-0 evelsV"
@@ -345,10 +345,10 @@ exports[`components/Team should not change using keyboard if not enter or space 
       </div>
     </div>
     <div
-      class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD eHyOcM"
+      class="s7kn9a1-0-GridColumn__GridColumnClean-lcQAdD kDbvpS"
     >
       <div
-        class="TeamMembers__Members-gavpkf-0 kEUlpQ"
+        class="TeamMembers__Members-gavpkf-0 uMipK"
       >
         <div
           class="Colleague-s1m0ml37-0 cknafA"
@@ -380,7 +380,7 @@ exports[`components/Team should not change using keyboard if not enter or space 
             class="TeamPageMember__PhoneNumberWrap-s1ndkn07-3 kvOkBj"
           >
             <a
-              class="NativeLink-s1qo6rwq-0 jNinQt"
+              class="s1qo6rwq-0-NativeLink-jXoiCT dJdJnO"
               href="tel:0701234567"
             >
               070-123 45 67
@@ -423,7 +423,7 @@ exports[`components/Team should not change using keyboard if not enter or space 
             class="TeamPageMember__PhoneNumberWrap-s1ndkn07-3 kvOkBj"
           >
             <a
-              class="NativeLink-s1qo6rwq-0 jNinQt"
+              class="s1qo6rwq-0-NativeLink-jXoiCT dJdJnO"
               href="tel:0707654321"
             >
               070-765 43 21
