@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Header renders Header 1`] = `
+<div>
+  <div>
+    <div
+      class="sc-iELTvK eTOzMI"
+    >
+      <div
+        class="sc-cmTdod khfSYw"
+      >
+        <div
+          class="sc-tilXH fNLbPM"
+        >
+          <a
+            class="sc-hEsumM dwgaYO"
+          >
+            <img
+              class="sc-ktHwxA hGGxQ"
+              alt="Iteam logo"
+              src="test-file-stub"
+            />
+          </a>
+          <div
+            class="sc-cIShpX fVsrha"
+          >
+            <a
+              class="sc-feJyhm gbIeXx"
+              aria-current="false"
+            >
+              Om oss
+            </a>
+            <a
+              class="sc-feJyhm gbIeXx"
+              aria-current="false"
+            >
+              Hur vi jobbar
+            </a>
+            <a
+              class="sc-feJyhm gbIeXx"
+              aria-current="false"
+            >
+              Teamet
+            </a>
+            <a
+              class="sc-feJyhm gbIeXx"
+              aria-current="false"
+            >
+              Våra case
+            </a>
+            <a
+              class="sc-feJyhm gbIeXx"
+              aria-current="false"
+            >
+              Jobba hos oss
+            </a>
+            <a
+              class="sc-feJyhm gbIeXx"
+              aria-current="false"
+            >
+              Drift & Support
+            </a>
+            <div
+              class="sc-kafWEX gdCWdg"
+            />
+          </div>
+        </div>
+        <div
+          class="sc-jwKygS cVcKEJ"
+        >
+          <h1
+            class="sc-btzYZH MQnJn"
+          >
+            <span>
+              Vi digitaliserar företag och organisationer
+            </span>
+          </h1>
+          <h1
+            class="sc-btzYZH MQnJn"
+          >
+            <span>
+              genom strategi, kod och kultur
+            </span>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

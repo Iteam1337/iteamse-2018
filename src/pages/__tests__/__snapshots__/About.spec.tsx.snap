@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/About renders About 1`] = `
+<div>
+  <div>
+    <div
+      class="sc-gGBfsJ kJoUjl"
+    >
+      <div
+        class="sc-jnlKLf KGMWu"
+      >
+        <div
+          class="sc-hqyNC dHGGno"
+        >
+          <a
+            class="sc-jbKcbu jtmPVf"
+          >
+            <img
+              class="sc-dNLxif AbRUK"
+              alt="Iteam logo"
+              src="test-file-stub"
+            />
+          </a>
+          <div
+            class="sc-jqCOkK fwnwkN"
+          >
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Om oss
+            </a>
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Hur vi jobbar
+            </a>
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Teamet
+            </a>
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Våra case
+            </a>
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Jobba hos oss
+            </a>
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Drift & Support
+            </a>
+            <div
+              class="sc-uJMKN bnnHpz"
+            />
+          </div>
+        </div>
+        <div
+          class="sc-fYxtnH ckldXV"
+        >
+          <h1
+            class="sc-tilXH hNSnLp"
+          >
+            <span>
+              Vi skapades ur en vilja att skapa värde,
+            </span>
+          </h1>
+          <h1
+            class="sc-tilXH hNSnLp"
+          >
+            <span>
+              ha kul och göra något bra
+            </span>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-iwsKbI fwFOwW"
+  >
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-bdVaJa fGzlqx"
+        data-test="block-"
+      >
+        <div
+          class="sc-bxivhb kgeHJJ"
+        >
+          <div
+            class="sc-ifAKCX cFlEyZ"
+          >
+            <h3
+              class="sc-bwzfXH kgEpTV"
+            >
+              Skapa värde
+            </h3>
+          </div>
+          <div
+            class="sc-bZQynM hmvJjY"
+          >
+            <div
+              class="sc-htpNat iEyarI"
+            >
+              <div>
+                <p>
+                  Vi ger dig det du behöver. Även när du tror du behöver något annat. Det kan låta kaxigt men vi vet att många företag och organisationer ofta blandar ihop det som är bråttom med det som är viktigt. Vi hjälper dig att fokusera på det som är viktigt och som skapar värde för dig och dina kunder.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-bdVaJa fGzlqx"
+        data-test="block-"
+      >
+        <div
+          class="sc-bxivhb kgeHJJ"
+        >
+          <div
+            class="sc-ifAKCX cFlEyZ"
+          >
+            <h3
+              class="sc-bwzfXH kgEpTV"
+            >
+              Ha kul
+            </h3>
+          </div>
+          <div
+            class="sc-bZQynM hmvJjY"
+          >
+            <div
+              class="sc-htpNat iEyarI"
+            >
+              <div>
+                <p>
+                  Vi utvecklar din tjänst tillsammans med dig. Det blir mycket bättre så. Och roligare. För oss är det viktigt att ha kul. Därför väljer vi uppdrag med omsorg. Det blir liksom ett löfte till våra kunder: “Vi lovar att bara jobba med dig så länge vi tycker det är kul och brinner för det du gör”. Det lovar vi därför att då blir resultatet bättre.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-VigVT laHvOe"
+    >
+      <img
+        class="sc-jTzLTM jKPziq"
+        src="test-file-stub"
+      />
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-bdVaJa fGzlqx"
+        data-test="block-"
+      >
+        <div
+          class="sc-bxivhb kgeHJJ"
+        >
+          <div
+            class="sc-ifAKCX cFlEyZ"
+          >
+            <h3
+              class="sc-bwzfXH kgEpTV"
+            >
+              Göra något bra
+            </h3>
+          </div>
+          <div
+            class="sc-bZQynM hmvJjY"
+          >
+            <div
+              class="sc-htpNat iEyarI"
+            >
+              <div>
+                <p>
+                  Teknik ska vara tillgänglig för alla. Teknik ska göra gott. Därför väljer vi kunder där vi tror att vi kan göra något bra och där vi kan göra skillnad. Det betyder också att om vi jobbar ihop så tror vi 100% på din tjänst.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      class="sc-gqjmRU kaGJTv"
+      src="//images.ctfassets.net/rj4r6yfcesw5/7bwz7g2GuQu8A68QmCQAMw/2c6391a40ebe2d0bee958dacf72aa174/bleed_aboutus.jpg"
+    />
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-bdVaJa fGzlqx"
+        data-test="block-"
+      >
+        <div
+          class="sc-bxivhb kgeHJJ"
+        >
+          <div
+            class="sc-ifAKCX cFlEyZ"
+          >
+            <h3
+              class="sc-bwzfXH kgEpTV"
+            >
+              Vi står stabilt
+            </h3>
+          </div>
+          <div
+            class="sc-bZQynM hmvJjY"
+          >
+            Löksås ipsum plats upprätthållande från sorgliga se, denna precis från brunsås strand år dock, stig färdväg genom äng varit. Erfarenheter regn groda tidigare trevnadens hwila ännu dimma kunde mjuka sällan, oss genom tidigare annat sista stora tid plats inom.
+            <div
+              class="sc-fjdhpX bYgbrg"
+            >
+              <img
+                class="sc-jzJRlG gpuIau"
+                alt=""
+                src="//images.ctfassets.net/rj4r6yfcesw5/2jLXgnJMdqcMIWgiYAEyq2/d88293e3899d0e65ad99754aa45f5f85/aaa_logo_web_ny.png"
+              />
+              <img
+                class="sc-jzJRlG gpuIau"
+                alt=""
+                src="//images.ctfassets.net/rj4r6yfcesw5/6tIo0BhFEki6Iyc68AkgiQ/98253a689d719382d5d13f4896f10941/vas-superforetagen-2016._300dppipng.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
