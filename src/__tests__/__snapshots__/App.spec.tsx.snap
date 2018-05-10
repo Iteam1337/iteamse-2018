@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders App 1`] = `
+<div>
+  <div
+    class="sc-chPdSV bqYJFe"
+  >
+    <button
+      class="sc-VigVT jIGfns"
+      aria-label="Menu button"
+      data-testid="btn-mobile-menu"
+      role="button"
+    >
+      <div
+        class="sc-fjdhpX dwQrcO"
+      >
+        <div
+          class="sc-jTzLTM fetijG"
+        />
+        <div
+          class="sc-jTzLTM fetijG"
+        />
+        <div
+          class="sc-jTzLTM fetijG"
+        />
+      </div>
+    </button>
+  </div>
+  <div
+    class="sc-gzVnrw kTudtM"
+  >
+    <div
+      class="sc-htoDjs kDjcLM"
+    >
+      <div
+        class="sc-ifAKCX hQSvGu"
+      >
+        <div
+          class="sc-EHOje kwUTaa"
+        >
+          Iteam Göteborg
+        </div>
+        <div
+          class="sc-bZQynM jhCxkA"
+        >
+          <ul
+            class="sc-bxivhb ktajjB"
+          >
+            <li>
+              Haga Kyrkogata 28
+            </li>
+            <li>
+              411 23
+              Göteborg
+            </li>
+          </ul>
+        </div>
+        <ul
+          class="sc-bxivhb ktajjB"
+        >
+          <li>
+            +46 734 029 112
+          </li>
+          <li>
+            johanna.grahn@iteam.se
+          </li>
+          <li>
+            ORG: 
+            556551-6928
+          </li>
+        </ul>
+      </div>
+      <div
+        class="sc-ifAKCX hQSvGu"
+      >
+        <div
+          class="sc-EHOje kwUTaa"
+        >
+          Iteam Stockholm
+        </div>
+        <div
+          class="sc-bZQynM jhCxkA"
+        >
+          <ul
+            class="sc-bxivhb ktajjB"
+          >
+            <li>
+              Östermalmsgatan 26A
+            </li>
+            <li>
+              114 26
+              Stockholm
+            </li>
+          </ul>
+        </div>
+        <ul
+          class="sc-bxivhb ktajjB"
+        >
+          <li>
+            +46 826 70 90
+          </li>
+          <li>
+            info@iteam.se
+          </li>
+          <li>
+            ORG: 
+            556551-6928
+          </li>
+        </ul>
+      </div>
+      <div
+        class="sc-iwsKbI jQhHGA"
+      >
+        <div
+          class="sc-dnqmqq dYKUIW"
+        >
+          Följ oss
+        </div>
+        <ul
+          class="sc-bxivhb ktajjB"
+        >
+          <li
+            class="sc-gZMcBi biRSJB"
+          >
+            <img
+              class="sc-gqjmRU bZhlDI"
+              src="test-file-stub"
+              alt=""
+            />
+            <a
+              class="sc-htpNat jbawgE"
+              href="https://www.facebook.com/iteam1337/"
+            >
+              Facebook
+            </a>
+          </li>
+          <li
+            class="sc-gZMcBi biRSJB"
+          >
+            <img
+              class="sc-gqjmRU bZhlDI"
+              src="test-file-stub"
+              alt=""
+            />
+            <a
+              class="sc-htpNat jbawgE"
+              href="https://instagram.com/iteam1337"
+            >
+              Instagram
+            </a>
+          </li>
+          <li
+            class="sc-gZMcBi biRSJB"
+          >
+            <img
+              class="sc-gqjmRU bZhlDI"
+              src="test-file-stub"
+              alt=""
+            />
+            <a
+              class="sc-htpNat jbawgE"
+              href="https://www.linkedin.com/company/270569/"
+            >
+              LinkedIn
+            </a>
+          </li>
+          <li
+            class="sc-gZMcBi biRSJB"
+          >
+            <img
+              class="sc-gqjmRU bZhlDI"
+              src="test-file-stub"
+              alt=""
+            />
+            <a
+              class="sc-htpNat jbawgE"
+              href="https://www.youtube.com/channel/UCU2TdLZ7p0jEuuGUxaod4lw"
+            >
+              YouTube
+            </a>
+          </li>
+          <li
+            class="sc-gZMcBi biRSJB"
+          >
+            <img
+              class="sc-gqjmRU bZhlDI"
+              src="test-file-stub"
+              alt=""
+            />
+            <a
+              class="sc-htpNat jbawgE"
+              href="http://www.mynewsdesk.com/se/iteam"
+            >
+              MyNewsDesk
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;

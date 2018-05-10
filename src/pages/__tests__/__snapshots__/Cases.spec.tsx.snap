@@ -1,0 +1,216 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Cases renders Cases 1`] = `
+<div>
+  <div>
+    <div
+      class="sc-gGBfsJ ktLUjm"
+    >
+      <div
+        class="sc-jnlKLf KGMWu"
+      >
+        <div
+          class="sc-hqyNC dHGGno"
+        >
+          <a
+            class="sc-jbKcbu jtmPVf"
+          >
+            <img
+              class="sc-dNLxif AbRUK"
+              alt="Iteam logo"
+              src="test-file-stub"
+            />
+          </a>
+          <div
+            class="sc-jqCOkK fwnwkN"
+          >
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Om oss
+            </a>
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Hur vi jobbar
+            </a>
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Teamet
+            </a>
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Våra case
+            </a>
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Jobba hos oss
+            </a>
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Drift & Support
+            </a>
+            <div
+              class="sc-uJMKN bnnHpz"
+            />
+          </div>
+        </div>
+        <div
+          class="sc-fYxtnH ckldXV"
+        >
+          <h1
+            class="sc-tilXH hNSnLp"
+          >
+            <span>
+              Några exempel på
+            </span>
+          </h1>
+          <h1
+            class="sc-tilXH hNSnLp"
+          >
+            <span>
+              sådant vi gjort
+            </span>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-iwsKbI fwFOwW"
+  >
+    <div
+      class="sc-iAyFgw kDKmgC"
+    >
+      <a
+        class="sc-cSHVUG eWWLWN"
+      >
+        <div
+          class="sc-brqgnP eNsPNE"
+        >
+          <div
+            class="sc-hSdWYo goTdpw"
+          >
+            <img
+              class="sc-eHgmQL oHqWH"
+              src="//images.ctfassets.net/rj4r6yfcesw5/68OlBclfQAGMcEUsQgcIUY/9bdf52bb8a9a17be06e11ef3fa32d3de/vimla-case-phone.png"
+              alt=""
+            />
+          </div>
+          <div
+            class="sc-cvbbAY lotmZD"
+          >
+            <div
+              class="sc-cMljjf fISzpY"
+            >
+              Vimla
+            </div>
+            <div
+              class="sc-jAaTju hDCGoc"
+            >
+              Synliggörande av asylsökandes kompetens med digitala verktyg
+            </div>
+          </div>
+        </div>
+      </a>
+      <a
+        class="sc-cSHVUG eWWLWN"
+      >
+        <div
+          class="sc-brqgnP eNsPNE"
+        >
+          <div
+            class="sc-hSdWYo goTdpw"
+          >
+            <img
+              class="sc-eHgmQL oHqWH"
+              src="//images.ctfassets.net/rj4r6yfcesw5/UGucAeFycSqIGw0CAc0ys/3d58300261bcff64dba751de9228a150/tsab-case-phone.png"
+              alt=""
+            />
+          </div>
+          <div
+            class="sc-cvbbAY lotmZD"
+          >
+            <div
+              class="sc-cMljjf fISzpY"
+            >
+              Taxi Stockholm
+            </div>
+            <div
+              class="sc-jAaTju hDCGoc"
+            >
+              Synliggörande av asylsökandes kompetens med digitala verktyg
+            </div>
+          </div>
+        </div>
+      </a>
+      <a
+        class="sc-cSHVUG eWWLWN"
+      >
+        <div
+          class="sc-brqgnP eNsPNE"
+        >
+          <div
+            class="sc-hSdWYo goTdpw"
+          />
+          <div
+            class="sc-cvbbAY lotmZD"
+          >
+            <div
+              class="sc-cMljjf fISzpY"
+            >
+              SEB
+            </div>
+            <div
+              class="sc-jAaTju hDCGoc"
+            >
+              Synliggörande av asylsökandes kompetens med digitala verktyg
+            </div>
+          </div>
+        </div>
+      </a>
+      <a
+        class="sc-cSHVUG eWWLWN"
+      >
+        <div
+          class="sc-brqgnP eNsPNE"
+        >
+          <div
+            class="sc-hSdWYo goTdpw"
+          >
+            <img
+              class="sc-eHgmQL oHqWH"
+              src="//images.ctfassets.net/rj4r6yfcesw5/3Y7zZ25WbeOCU8w84kAEos/b97ff1899cf6f2e4dca0eb2b4f0d5a44/af.png"
+              alt=""
+            />
+          </div>
+          <div
+            class="sc-cvbbAY lotmZD"
+          >
+            <div
+              class="sc-cMljjf fISzpY"
+            >
+              Arbetsförmedlingen
+            </div>
+            <div
+              class="sc-jAaTju hDCGoc"
+            >
+              Synliggörande av asylsökandes kompetens med digitala verktyg
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;

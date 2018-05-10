@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Team renders TeamMember 1`] = `
+<div>
+  <div
+    class="sc-ktHwxA ggfMng"
+  >
+    <div>
+      <div
+        class="sc-gGBfsJ bCMRTt"
+      >
+        <div
+          class="sc-jnlKLf KGMWu"
+        >
+          <div
+            class="sc-hqyNC dHGGno"
+          >
+            <a
+              class="sc-jbKcbu jtmPVf"
+            >
+              <img
+                class="sc-dNLxif AbRUK"
+                alt="Iteam logo"
+                src="test-file-stub"
+              />
+            </a>
+            <div
+              class="sc-jqCOkK fwnwkN"
+            >
+              <a
+                class="sc-bbmXgH QyOrB"
+                aria-current="false"
+              >
+                Om oss
+              </a>
+              <a
+                class="sc-bbmXgH QyOrB"
+                aria-current="false"
+              >
+                Hur vi jobbar
+              </a>
+              <a
+                class="sc-bbmXgH QyOrB active-nav"
+                aria-current="true"
+              >
+                Teamet
+              </a>
+              <a
+                class="sc-bbmXgH QyOrB"
+                aria-current="false"
+              >
+                Våra case
+              </a>
+              <a
+                class="sc-bbmXgH QyOrB"
+                aria-current="false"
+              >
+                Jobba hos oss
+              </a>
+              <a
+                class="sc-bbmXgH QyOrB"
+                aria-current="false"
+              >
+                Drift & Support
+              </a>
+              <div
+                class="sc-uJMKN bnnHpz"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-fYxtnH ckldXV"
+          >
+            <h1
+              class="sc-tilXH eEGIns"
+            >
+              <span>
+                Rickard Laurin
+              </span>
+            </h1>
+            <h1
+              class="sc-tilXH eEGIns"
+            >
+              <span>
+                Webbutvecklare
+              </span>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-iwsKbI fwFOwW"
+    >
+      <div
+        class="sc-gzVnrw cLTlOm"
+        data-test="breadcrumbs"
+      >
+        <a
+          class="sc-htoDjs dEAmle"
+        >
+          Teamet
+        </a>
+        <span>
+          Rickard Laurin
+        </span>
+      </div>
+      <div
+        class="react-reveal"
+        style="opacity: 1;"
+      >
+        <div
+          class="sc-bdVaJa fGzlqx"
+          data-test="block-"
+        >
+          <div
+            class="sc-bxivhb kgeHJJ"
+          >
+            <div
+              class="sc-ifAKCX cFlEyZ"
+            >
+              <h3
+                class="sc-bwzfXH kgEpTV"
+              >
+                Kontakt
+              </h3>
+            </div>
+            <div
+              class="sc-bZQynM hmvJjY"
+            >
+              <ul
+                class="sc-hEsumM eSyLCU"
+              >
+                <li>
+                  <a
+                    class="sc-cHGsZl hnBJQG"
+                    href="mailto:rickard.laurin@iteam.se"
+                  >
+                    rickard.laurin@iteam.se
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="react-reveal"
+        style="opacity: 1;"
+      >
+        <div
+          class="sc-bdVaJa fGzlqx"
+          data-test="block-"
+        >
+          <div
+            class="sc-bxivhb kgeHJJ"
+          >
+            <div
+              class="sc-ifAKCX cFlEyZ"
+            >
+              <h3
+                class="sc-bwzfXH kgEpTV"
+              >
+                Varför jobbar du med teknik?
+              </h3>
+            </div>
+            <div
+              class="sc-bZQynM hmvJjY"
+            >
+              <div
+                class="sc-htpNat iEyarI"
+              >
+                <div>
+                  <p>
+                    In the early 90's my family got its first 286, it was love at first sight. In my teen years I played a lot of Delta Force and started developing the clan websites. Until I started at KTH I only did minor hobby projects. There I managed my chapters website and assisted younger students in MATLAB. This is when I realized what I really wanted to work with, building beautiful websites.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="react-reveal"
+        style="opacity: 1;"
+      >
+        <div
+          class="sc-bdVaJa fGzlqx"
+          data-test="block-"
+        >
+          <div
+            class="sc-bxivhb kgeHJJ"
+          >
+            <div
+              class="sc-ifAKCX cFlEyZ"
+            >
+              <h3
+                class="sc-bwzfXH kgEpTV"
+              >
+                Bakgrund
+              </h3>
+            </div>
+            <div
+              class="sc-bZQynM hmvJjY"
+            >
+              <div
+                class="sc-htpNat iEyarI"
+              >
+                <div>
+                  <p>
+                    Materials Science and Engineering at KTH (Royal Institute of Technology). Interaction designer at Nackademin.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="react-reveal"
+        style="opacity: 1;"
+      >
+        <div
+          class="sc-bdVaJa fGzlqx"
+          data-test="block-"
+        >
+          <div
+            class="sc-bxivhb kgeHJJ"
+          >
+            <div
+              class="sc-ifAKCX cFlEyZ"
+            >
+              <h3
+                class="sc-bwzfXH kgEpTV"
+              >
+                Specialistkompetens
+              </h3>
+            </div>
+            <div
+              class="sc-bZQynM hmvJjY"
+            >
+              <div
+                class="sc-htpNat iEyarI"
+              >
+                <div>
+                  <p>
+                    HTML5, CSS and JavaScript.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
