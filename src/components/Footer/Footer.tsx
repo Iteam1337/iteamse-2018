@@ -13,7 +13,7 @@ import iconMynewsdesk from './img/icon_mynewsdesk.svg'
 import iconYoutube from './img/icon_youtube.svg'
 import Location from './Location'
 
-const FOOTER_QUERY = gql`
+export const FOOTER_QUERY = gql`
   query Footer {
     addresses {
       address1

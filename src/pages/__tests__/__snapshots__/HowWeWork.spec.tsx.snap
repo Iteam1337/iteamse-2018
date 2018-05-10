@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/HowWeWork renders HowWeWork 1`] = `
+<div>
+  <div>
+    <div
+      class="sc-gGBfsJ kJoUjl"
+    >
+      <div
+        class="sc-jnlKLf KGMWu"
+      >
+        <div
+          class="sc-hqyNC dHGGno"
+        >
+          <a
+            class="sc-jbKcbu jtmPVf"
+          >
+            <img
+              class="sc-dNLxif AbRUK"
+              alt="Iteam logo"
+              src="test-file-stub"
+            />
+          </a>
+          <div
+            class="sc-jqCOkK fwnwkN"
+          >
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Om oss
+            </a>
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Hur vi jobbar
+            </a>
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Teamet
+            </a>
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Våra case
+            </a>
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Jobba hos oss
+            </a>
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Drift & Support
+            </a>
+            <div
+              class="sc-uJMKN bnnHpz"
+            />
+          </div>
+        </div>
+        <div
+          class="sc-fYxtnH ckldXV"
+        >
+          <h1
+            class="sc-tilXH eEGIns"
+          >
+            <span>
+              Så här jobbar vi 
+            </span>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-iwsKbI fwFOwW"
+  >
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-bdVaJa fGzlqx"
+        data-test="block-"
+      >
+        <div
+          class="sc-bxivhb kgeHJJ"
+        >
+          <div
+            class="sc-ifAKCX cFlEyZ"
+          >
+            <h3
+              class="sc-bwzfXH kgEpTV"
+            >
+              I team
+            </h3>
+          </div>
+          <div
+            class="sc-bZQynM hmvJjY"
+          >
+            <div
+              class="sc-htpNat iEyarI"
+            >
+              <div>
+                <p>
+                  Vi jobbar alltid i team. Systemutvecklare, strateger, interaktionsdesigners, visuella designers och värdecoacher. Alla är vi värdefulla var och en för sig och ännu mer ihop. Vi jobbar alltid tillsammans. Alltid i tvärfunktionella team. Aldrig uthyrda. Aldrig ensamma.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-VigVT laHvOe"
+    >
+      <img
+        class="sc-jTzLTM jKPziq"
+        src="test-file-stub"
+      />
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-bdVaJa fGzlqx"
+        data-test="block-"
+      >
+        <div
+          class="sc-bxivhb kgeHJJ"
+        >
+          <div
+            class="sc-ifAKCX cFlEyZ"
+          >
+            <h3
+              class="sc-bwzfXH kgEpTV"
+            >
+              Ständigt sökande
+            </h3>
+          </div>
+          <div
+            class="sc-bZQynM hmvJjY"
+          >
+            <div
+              class="sc-htpNat iEyarI"
+            >
+              <div>
+                <p>
+                  Vi söker alltid efter den bästa processen. Den bästa metoden. Vi vågar ta risker, byta spår, byta teknik, experimentera och ifrågasätta både oss själva och våra kunder. Det är liksom det vi gör. Hela tiden.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      class="sc-gqjmRU kaGJTv"
+      src="//images.ctfassets.net/rj4r6yfcesw5/62hgzE8G3ueMa2YSEuG4og/db2b643db6041f9d26936bc2d6006607/bleed_howwework.jpg"
+    />
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-bdVaJa fGzlqx"
+        data-test="block-"
+      >
+        <div
+          class="sc-bxivhb kgeHJJ"
+        >
+          <div
+            class="sc-ifAKCX cFlEyZ"
+          >
+            <h3
+              class="sc-bwzfXH kgEpTV"
+            >
+              Delar allt
+            </h3>
+          </div>
+          <div
+            class="sc-bZQynM hmvJjY"
+          >
+            <div
+              class="sc-htpNat iEyarI"
+            >
+              <div>
+                <p>
+                  På våra kodluncher lär vi av varandra. Vi mentorerar och vi labbar ihop. Vi anordnar Lounge Hack, bidrar till open source, till forumet kodapor tillsammans med 12000 andra utvecklare och deltar på konferenser. Vår kunskap är din kunskap.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-VigVT laHvOe"
+    >
+      <img
+        class="sc-jTzLTM jKPziq"
+        src="test-file-stub"
+      />
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-bdVaJa fGzlqx"
+        data-test="block-"
+      >
+        <div
+          class="sc-bxivhb kgeHJJ"
+        >
+          <div
+            class="sc-ifAKCX cFlEyZ"
+          >
+            <h3
+              class="sc-bwzfXH kgEpTV"
+            >
+              Långa strömmar, inte korta projekt
+            </h3>
+          </div>
+          <div
+            class="sc-bZQynM hmvJjY"
+          >
+            <div
+              class="sc-htpNat iEyarI"
+            >
+              <div>
+                <p>
+                  Våra kunder har alla stora möjligheter att göra skillnad på sina marknader. De är förbi datorisering och har redan lagt upp alla sina formulär på webben. Nu är de ute efter digitalisering. Och det tar tid. Därför har vi ofta långa relationer med våra kunder. Ofta blir vi vänner längs vägen.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

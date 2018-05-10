@@ -1,8 +1,8 @@
 import gql from 'graphql-tag'
 import * as React from 'react'
 import { Query } from 'react-apollo'
-import { RouteComponentProps } from 'react-router-dom'
-import { TeamMemberPageQuery } from '../../typings/vimlacms'
+import { RouteComponentProps, withRouter } from 'react-router-dom'
+import { TeamMemberPageQuery } from '../../typings/iteamse'
 import Block from '../components/Blocks/Block'
 import Breadcrumbs from '../components/Breadcrumbs/Breadcrumbs'
 import GridColumn from '../components/Grid/GridColumn'
@@ -12,14 +12,6 @@ import PhoneNumber from '../components/Link/PhoneNumber'
 import UnstyledList from '../components/List/UnstyledList'
 import Team from '../components/Team/Team'
 import styled from '../theme'
-
-type Props = {
-  match: {
-    params: {
-      shortName: string
-    }
-  }
-}
 
 export const TEAM_MEMBER_PAGE_QUERY = gql`
   query TeamMemberPage($shortName: String!) {
@@ -111,4 +103,4 @@ const TeamMemberPage: React.SFC<RouteComponentProps<{ shortName: string }>> = ({
   )
 }
 
-export default TeamMemberPage
+export default withRouter(TeamMemberPage)

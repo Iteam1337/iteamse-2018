@@ -48,7 +48,7 @@ class Filter extends React.Component<FilterProps> {
       e.preventDefault()
       e.stopPropagation()
 
-      return false
+      return
     }
 
     this.props.changeLocation(this.props.location)

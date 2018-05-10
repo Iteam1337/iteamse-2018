@@ -50,8 +50,10 @@ export const OperationsBanner: React.SFC<WithApolloClient<{}>> = ({
   return (
     <Row>
       <Overlay />
+
       <Content>
         <H2>Visste du att vi även erbjuder drift & support?</H2>
+
         <Button
           onMouseEnter={() =>
             client.query({
@@ -67,4 +69,4 @@ export const OperationsBanner: React.SFC<WithApolloClient<{}>> = ({
   )
 }
 
-export default withApollo(OperationsBanner)
+export default withApollo<{}>(OperationsBanner)

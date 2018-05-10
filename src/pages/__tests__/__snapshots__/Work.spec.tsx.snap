@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Work renders Work 1`] = `
+<div>
+  <div>
+    <div
+      class="sc-gGBfsJ lbJUSN"
+    >
+      <div
+        class="sc-jnlKLf KGMWu"
+      >
+        <div
+          class="sc-hqyNC dHGGno"
+        >
+          <a
+            class="sc-jbKcbu jtmPVf"
+          >
+            <img
+              class="sc-dNLxif AbRUK"
+              alt="Iteam logo"
+              src="test-file-stub"
+            />
+          </a>
+          <div
+            class="sc-jqCOkK fwnwkN"
+          >
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Om oss
+            </a>
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Hur vi jobbar
+            </a>
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Teamet
+            </a>
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Våra case
+            </a>
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Jobba hos oss
+            </a>
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Drift & Support
+            </a>
+            <div
+              class="sc-uJMKN bnnHpz"
+            />
+          </div>
+        </div>
+        <div
+          class="sc-fYxtnH ckldXV"
+        >
+          <h1
+            class="sc-tilXH elMmhq"
+          >
+            <span>
+              Bli en del av teamet
+            </span>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-iwsKbI fwFOwW"
+  >
+    <div
+      class="sc-caSCKo fjCxBd"
+    >
+      <div
+        class="sc-fAjcbJ dozjTG"
+        data-test="filter-"
+        tabindex="0"
+      >
+        Alla
+      </div>
+      <div
+        class="sc-fAjcbJ hyrWUF"
+        data-test="filter-Stockholm"
+        tabindex="0"
+      >
+        Stockholm
+      </div>
+      <div
+        class="sc-fAjcbJ hyrWUF"
+        data-test="filter-Göteborg"
+        tabindex="0"
+      >
+        Göteborg
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-bdVaJa fGzlqx"
+        data-test="block-location"
+      >
+        <div
+          class="sc-bxivhb kgeHJJ"
+        >
+          <div
+            class="sc-ifAKCX cFlEyZ"
+          >
+            <h3
+              class="sc-bwzfXH kgEpTV"
+            >
+              Junior UX Designer
+            </h3>
+            <div
+              class="sc-EHOje cQMefO"
+            >
+              Stockholm
+            </div>
+          </div>
+          <div
+            class="sc-bZQynM hmvJjY"
+          >
+            <div
+              class="sc-htpNat iEyarI"
+            >
+              <div>
+                <p>
+                  Som UX designer på Iteam är din roll att hjälpa våra kunder med digitala lösningar som skapar värde på riktigt. Som gör något bra både för kunden, slutanvändaren och samhället. Med hjälp av olika researchmetoder undersöker du både användarens och kundens behov och kontext, samt definierar och testar användarupplevelser.
+                </p>
+                <p>
+                  Du delar med dig av din kunskap inom user experience. Du förstår också att om lösningar ska vara verkligt användarvänliga behöver även arbetsprocesserna och kulturen vara användarcentrerad. Vi strävar mot att UX aldrig ska få vara bara en fas eller en eftertanke. Det ska genomsyra hela projektet. Alltid. 
+                </p>
+              </div>
+            </div>
+            <a
+              class="sc-csuQGl idQfjD"
+            >
+              Läs mer
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

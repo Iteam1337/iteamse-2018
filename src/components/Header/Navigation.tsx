@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { withApollo, WithApolloClient } from 'react-apollo'
 import { Link, NavLink } from 'react-router-dom'
-import SVG from 'react-svg'
 import { ABOUT_PAGE_QUERY } from '../../pages/About'
 import { CASES_PAGE_QUERY } from '../../pages/Cases'
 import { HOME_PAGE_QUERY } from '../../pages/Home'
@@ -12,7 +11,7 @@ import { WORK_PAGE_QUERY } from '../../pages/Work'
 import styled, { injectGlobal, keyframes, withProps } from '../../theme'
 import logo from './img/iteam.svg'
 
-type State = {
+interface NavigationState {
   indicatorLocation: number
   indicatorWidth: number
 }
@@ -36,7 +35,7 @@ const LogoLink = styled(Link)`
   }
 `
 
-const Logo = styled(SVG)`
+const Logo = styled.img`
   max-width: 100%;
 `
 
@@ -118,7 +117,10 @@ injectGlobal`
   }
 `
 
-export class Navigation extends React.Component<WithApolloClient<{}>, State> {
+export class Navigation extends React.Component<
+  WithApolloClient<{}>,
+  NavigationState
+> {
   state = {
     indicatorLocation: 0,
     indicatorWidth: 0,
@@ -177,7 +179,7 @@ export class Navigation extends React.Component<WithApolloClient<{}>, State> {
     return (
       <Wrap>
         <LogoLink onMouseEnter={this.prefetchPage('home')} to="/">
-          <Logo path={logo} />
+          <Logo alt="Iteam logo" src={logo} />
         </LogoLink>
 
         <NavigationItems>
@@ -233,4 +235,4 @@ export class Navigation extends React.Component<WithApolloClient<{}>, State> {
   }
 }
 
-export default withApollo(Navigation)
+export default withApollo<{}>(Navigation)

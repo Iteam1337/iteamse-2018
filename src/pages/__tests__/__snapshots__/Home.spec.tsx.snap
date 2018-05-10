@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Home renders Home 1`] = `
+<div>
+  <div>
+    <div
+      class="sc-gGBfsJ ddMiOi"
+    >
+      <div
+        class="sc-jnlKLf KGMWu"
+      >
+        <div
+          class="sc-hqyNC dHGGno"
+        >
+          <a
+            class="sc-jbKcbu jtmPVf"
+          >
+            <img
+              class="sc-dNLxif AbRUK"
+              alt="Iteam logo"
+              src="test-file-stub"
+            />
+          </a>
+          <div
+            class="sc-jqCOkK fwnwkN"
+          >
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Om oss
+            </a>
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Hur vi jobbar
+            </a>
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Teamet
+            </a>
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Våra case
+            </a>
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Jobba hos oss
+            </a>
+            <a
+              class="sc-bbmXgH QyOrB"
+              aria-current="false"
+            >
+              Drift & Support
+            </a>
+            <div
+              class="sc-uJMKN bnnHpz"
+            />
+          </div>
+        </div>
+        <div
+          class="sc-fYxtnH ckldXV"
+        >
+          <h1
+            class="sc-tilXH ioTQQL"
+          >
+            <span>
+              Vi digitaliserar företag och organisationer
+            </span>
+          </h1>
+          <h1
+            class="sc-tilXH ioTQQL"
+          >
+            <span>
+              genom strategi, kod och kultur
+            </span>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-Rmtcm cfhrHw"
+  >
+    <div
+      class="sc-bRBYWo gpIEjj"
+    >
+      <img
+        class="sc-fBuWsC KfQqY"
+        src="test-file-stub"
+      />
+      <div
+        class="sc-hzDkRC eNALqM"
+      >
+        <div
+          class="sc-jhAzac hWLAsC"
+        >
+          <h1
+            class="sc-gZMcBi ctjDhW"
+          >
+            Kod
+          </h1>
+          <div
+            class="sc-htpNat iEyarI"
+          >
+            <div>
+              <p>
+                Systemutveckling, automatisering, artificiell intelligens, maskininlärning. Vi har alla redskap du behöver för att bygga vad du vill. Det du vill. Och vet du inte vad du behöver så hjälper vi dig med det med.
+              </p>
+            </div>
+          </div>
+          <img
+            class="sc-fMiknA XQEJJ"
+            src="//images.ctfassets.net/rj4r6yfcesw5/3qnZSfySW4cEGoUo6KCAae/8a656eba15e15b61dacc9fbea38aa4bd/logo_af.png"
+          />
+          <a
+            class="sc-csuQGl idQfjD"
+          >
+            Läs om hur vi hjälper Arbetsförmedlingen med kod
+          </a>
+        </div>
+        <div
+          class="sc-jhAzac hWLAsC"
+        >
+          <h1
+            class="sc-gZMcBi ctjDhW"
+          >
+            Strategi
+          </h1>
+          <div
+            class="sc-htpNat iEyarI"
+          >
+            <div>
+              <p>
+                Vi digitaliserar Sverige. Pompigt! Men det betyder att vi hjälper dig att leda digitaliseringen istället för att vara den som blir lämnad på efterkälken. Både på den marknad där du verkar, och de marknader du inte ens visste att du borde verka på.
+              </p>
+            </div>
+          </div>
+          <img
+            class="sc-fMiknA XQEJJ"
+            src="//images.ctfassets.net/rj4r6yfcesw5/1mv5fxBGLmeyWom4OI2WsI/a4d79cae2076b43aea926db2f1244b52/logo_tsab.png"
+          />
+          <a
+            class="sc-csuQGl idQfjD"
+          >
+            Läs om hur vi hjälper Taxi Stockholm med strategi
+          </a>
+        </div>
+        <div
+          class="sc-jhAzac hWLAsC"
+        >
+          <h1
+            class="sc-gZMcBi ctjDhW"
+          >
+            Kultur
+          </h1>
+          <div
+            class="sc-htpNat iEyarI"
+          >
+            <div>
+              <p>
+                Ibland ser vi oss som kulturarbetare. Det räcker inte att bygga digitala tjänster åt sina användare. Det är först när hela din organisation tänker, andas och lever digitalt som ni digitaliseras. på riktigt. Vi rustar dig för framtiden helt enkelt.
+              </p>
+            </div>
+          </div>
+          <img
+            class="sc-fMiknA XQEJJ"
+            src="//images.ctfassets.net/rj4r6yfcesw5/4D844WR1v20ICIOG4SK0y8/15a008277f5565d9f52fbd5312f6e121/logo_seb.png"
+          />
+          <a
+            class="sc-csuQGl idQfjD"
+          >
+            Läs om hur vi hjälper SEB med kultur
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-iRbamj kFFTEP"
+  >
+    <div
+      class="sc-jlyJG hkHlhf"
+    />
+    <div
+      class="sc-gipzik fpMdYU"
+    >
+      <h2
+        class="sc-gPEVay lcctkO"
+      >
+        Visste du att vi även erbjuder drift & support?
+      </h2>
+      <a
+        class="sc-jDwBTQ cLsRQJ"
+      >
+        Iteam Operations
+      </a>
+    </div>
+  </div>
+</div>
+`;

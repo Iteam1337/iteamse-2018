@@ -1,12 +1,6 @@
-
-
 import * as React from 'react'
-import styled from 'styled-components'
 import ReactMarkdown from 'react-markdown'
-
-type Props = {
-  children: React.Node,
-}
+import styled from 'styled-components'
 
 const StyledParagraph = styled.div`
   font-size: 18px;
@@ -37,7 +31,7 @@ const StyledParagraph = styled.div`
   }
 `
 
-const Paragraph = ({ children }: Props) => {
+const Paragraph: React.SFC<{}> = ({ children }) => {
   return (
     <StyledParagraph>
       <ReactMarkdown source={children} />

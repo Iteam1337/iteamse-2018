@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, RouteComponentProps, withRouter } from 'react-router-dom'
-import PaddedRow from '../Grid/PaddedRow'
 import styled from '../../theme'
+import PaddedRow from '../Grid/PaddedRow'
 
 interface BreadcrumbsProps {
   title: string

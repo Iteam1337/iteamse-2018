@@ -2,18 +2,17 @@ import gql from 'graphql-tag'
 import React from 'react'
 import { Query } from 'react-apollo'
 import { TeamQuery, TeamQueryVariables } from '../../../typings/iteamse'
-import { colors } from '../../theme'
 import { handleColors } from '../../utils/handleColors'
 import TeamMember from './TeamMember'
 import TeamMemberDuo from './TeamMemberDuo'
 import TeamMembers from './TeamMembers'
 
-type Props = {
+interface TeamProps {
   bgColor?: string | 'blue' | 'red' | 'green'
   shortName: string[]
 }
 
-const TEAM_QUERY = gql`
+export const TEAM_QUERY = gql`
   query Team($shortName: [String!]!) {
     teamMembers(shortName: $shortName) {
       avatar
@@ -29,7 +28,7 @@ const TEAM_QUERY = gql`
 
 class TeamQueryComponent extends Query<TeamQuery, TeamQueryVariables> {}
 
-const Team = ({ bgColor = colors.radicalRed, shortName }: Props) => {
+const Team: React.SFC<TeamProps> = ({ bgColor = 'red', shortName }) => {
   const backgroundColor = handleColors(bgColor)
 
   return (

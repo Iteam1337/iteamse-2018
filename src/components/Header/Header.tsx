@@ -1,20 +1,24 @@
 import React from 'react'
 import LazyLoad from 'react-lazyload'
-import styled from 'styled-components'
+import styled, { withProps } from '../../theme'
 import { handleColors } from '../../utils/handleColors'
 import { GridColumnClean } from '../Grid/GridColumn'
 import PaddedRow from '../Grid/PaddedRow'
 import H1 from '../Typography/H1'
 import Navigation from './Navigation'
 
-type Props = {
+interface HeaderProps {
   backgroundImage?: string | null
   messageBgColor: string | null
   messageOne: string | null
   messageTwo: string | null
 }
 
-const Wrap = GridColumnClean.extend`
+interface WrapProps {
+  image?: string | null
+}
+
+const Wrap = withProps<WrapProps>()(GridColumnClean.extend)`
   background-image: ${({ image }) => `url(${image})`};
   background-size: cover;
   height: 430px;
@@ -50,7 +54,11 @@ const MessageRow = PaddedRow.extend`
   }
 `
 
-const Message = H1.extend`
+interface MessageProps {
+  bgColor: string | null
+}
+
+const Message = withProps<MessageProps>()(H1.extend)`
   box-sizing: border-box;
   line-height: 1.4;
   margin: 0;
@@ -60,7 +68,7 @@ const Message = H1.extend`
       bgColor || theme.colors.radicalRed};
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
-    color: ${({ bgColor, theme }) => theme.contrast(bgColor)};
+    color: ${({ bgColor, theme }) => bgColor && theme.contrast(bgColor)};
     padding: 0.2rem 0.6rem;
   }
 
@@ -73,13 +81,13 @@ const Message = H1.extend`
   }
 `
 
-const Header = ({
+const Header: React.SFC<HeaderProps> = ({
   backgroundImage,
-  messageBgColor,
+  messageBgColor = 'red',
   messageOne,
   messageTwo,
-}: Props) => {
-  const backgroundColor = handleColors(messageBgColor)
+}) => {
+  const backgroundColor = messageBgColor && handleColors(messageBgColor)
 
   return (
     <LazyLoad height={700} once>

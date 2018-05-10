@@ -2,7 +2,7 @@ import gql from 'graphql-tag'
 import * as React from 'react'
 import { Query } from 'react-apollo'
 import MediaQuery from 'react-responsive'
-import { HomePageQuery } from '../../typings/vimlacms'
+import { HomePageQuery } from '../../typings/iteamse'
 import OperationsBanner from '../components/Banners/OperationsBanner'
 import GridColumn from '../components/Grid/GridColumn'
 import PaddedRow from '../components/Grid/PaddedRow'
@@ -11,7 +11,7 @@ import Link from '../components/Link/Link'
 import Team from '../components/Team/Team'
 import H1 from '../components/Typography/H1'
 import Paragraph from '../components/Typography/Paragraph'
-import styled, { media } from '../theme'
+import styled from '../theme'
 import iteamStylized from './img/iteam_stylized.png'
 
 export const HOME_PAGE_QUERY = gql`
@@ -54,11 +54,11 @@ const Content = styled.div`
   padding-bottom: 40px;
   padding-top: 40px;
 
-  ${media.desktop`
+  @media (min-width: 1025px) {
     grid-template-columns: 550px 1fr;
     padding-bottom: 100px;
     padding-top: 100px;
-  `};
+  }
 `
 
 const Texts = styled.div`
@@ -72,19 +72,19 @@ const TextBlock = PaddedRow.extend`
     margin-bottom: 50px;
   }
 
-  ${media.desktop`
+  @media (min-width: 1025px) {
     &:not(:last-child) {
       margin-bottom: 0;
     }
-  `};
+  }
 `
 
 const StylizedIteam = styled.img`
   display: none;
 
-  ${media.desktop`
+  @media (min-width: 1025px) {
     display: block;
-  `};
+  }
 `
 
 const CompanyLogo = styled.img`

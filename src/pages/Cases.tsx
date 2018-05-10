@@ -2,13 +2,12 @@ import gql from 'graphql-tag'
 import * as React from 'react'
 import { Query } from 'react-apollo'
 import styled from 'styled-components'
-import { CasesPageQuery } from '../../typings/vimlacms'
+import { CasesPageQuery } from '../../typings/iteamse'
 import GridColumn from '../components/Grid/GridColumn'
 import PaddedRow from '../components/Grid/PaddedRow'
 import Header from '../components/Header/Header'
 import PrefetchLink from '../components/Link/PrefetchLink'
 import Team from '../components/Team/Team'
-import { media } from '../theme'
 import { CASE_PAGE_QUERY } from './Case'
 
 export const CASES_PAGE_QUERY = gql`
@@ -34,10 +33,10 @@ const Cases = PaddedRow.extend`
   grid-row-gap: 40px;
   grid-template-columns: 1fr;
 
-  ${media.desktop`
+  @media (min-width: 1025px) {
     grid-column-gap: 30px;
     grid-template-columns: repeat(2, 1fr);
-  `};
+  }
 `
 
 const CaseImageWrap = styled.div`
@@ -46,10 +45,10 @@ const CaseImageWrap = styled.div`
   display: flex;
   justify-content: center;
 
-  ${media.desktop`
+  @media (min-width: 1025px) {
     height: 500px;
     width: 500px;
-  `};
+  }
 `
 
 const CaseImage = styled.img`

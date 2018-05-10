@@ -1,8 +1,8 @@
 import gql from 'graphql-tag'
 import * as React from 'react'
 import { Query } from 'react-apollo'
-import { RouteComponentProps } from 'react-router-dom'
-import { OpenPositionPageQuery } from '../../typings/vimlacms'
+import { RouteComponentProps, withRouter } from 'react-router-dom'
+import { OpenPositionPageQuery } from '../../typings/iteamse'
 import Block from '../components/Blocks/Block'
 import ImageBleed from '../components/Blocks/ImageBleed'
 import Breadcrumbs from '../components/Breadcrumbs/Breadcrumbs'
@@ -38,7 +38,9 @@ export const OPEN_POSITION_PAGE_QUERY = gql`
 
 class OpenPositionQuery extends Query<OpenPositionPageQuery> {}
 
-const Work: React.SFC<RouteComponentProps<{ id: string }>> = ({ match }) => {
+const OpenPosition: React.SFC<RouteComponentProps<{ id: string }>> = ({
+  match,
+}) => {
   return (
     <OpenPositionQuery
       query={OPEN_POSITION_PAGE_QUERY}
@@ -98,4 +100,4 @@ const Work: React.SFC<RouteComponentProps<{ id: string }>> = ({ match }) => {
   )
 }
 
-export default Work
+export default withRouter(OpenPosition)

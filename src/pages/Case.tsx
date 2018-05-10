@@ -1,8 +1,8 @@
 import gql from 'graphql-tag'
 import * as React from 'react'
 import { Query } from 'react-apollo'
-import { RouteComponentProps } from 'react-router-dom'
-import { CasePageQuery, CasePageQueryVariables } from '../../typings/vimlacms'
+import { RouteComponentProps, withRouter } from 'react-router-dom'
+import { CasePageQuery, CasePageQueryVariables } from '../../typings/iteamse'
 import Block from '../components/Blocks/Block'
 import Quote from '../components/Blocks/Quote'
 import Breadcrumbs from '../components/Breadcrumbs/Breadcrumbs'
@@ -94,4 +94,4 @@ const CasePage: React.SFC<RouteComponentProps<{ slug: string }>> = ({
   )
 }
 
-export default CasePage
+export default withRouter(CasePage)

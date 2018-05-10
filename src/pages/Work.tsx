@@ -1,7 +1,7 @@
 import gql from 'graphql-tag'
 import * as React from 'react'
 import { Query } from 'react-apollo'
-import { WorkPageQuery } from '../../typings/vimlacms'
+import { WorkPageQuery } from '../../typings/iteamse'
 import Block from '../components/Blocks/Block'
 import FilterByLocation from '../components/FilterByLocation/FilterByLocation'
 import GridColumn from '../components/Grid/GridColumn'
@@ -52,14 +52,13 @@ export const Work = () => {
             <GridColumn>
               <FilterByLocation>
                 {location => (
-                  <React.Fragment>
+                  <>
                     {openpositions
                       .filter(filterByLocation(location))
                       .map(annons => (
                         <Block
                           data-test="location"
                           key={annons.title}
-                          id={annons.id}
                           readMore={
                             <StyledPrefetchLink
                               query={OPEN_POSITION_PAGE_QUERY}
@@ -77,7 +76,7 @@ export const Work = () => {
                           {annons.role}
                         </Block>
                       ))}
-                  </React.Fragment>
+                  </>
                 )}
               </FilterByLocation>
             </GridColumn>

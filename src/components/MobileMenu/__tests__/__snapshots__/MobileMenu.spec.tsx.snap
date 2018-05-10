@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/MobileMenu renders MobileMenu and can open it 1`] = `
+<div>
+  <div
+    class="sc-bZQynM gxvPSJ"
+  >
+    <div
+      class="sc-ifAKCX cgZFIN"
+      data-test="mobile-menu"
+    >
+      <div
+        class="sc-EHOje fpqoIO"
+      >
+        <a
+          class="sc-bxivhb kFLvBf"
+          aria-current="false"
+        >
+          Om oss
+        </a>
+        <a
+          class="sc-bxivhb kFLvBf"
+          aria-current="false"
+        >
+          Hur vi jobbar
+        </a>
+        <a
+          class="sc-bxivhb kFLvBf"
+          aria-current="false"
+        >
+          Teamet
+        </a>
+        <a
+          class="sc-bxivhb kFLvBf"
+          aria-current="false"
+        >
+          Våra case
+        </a>
+        <a
+          class="sc-bxivhb kFLvBf"
+          aria-current="false"
+        >
+          Jobba hos oss
+        </a>
+        <a
+          class="sc-bxivhb kFLvBf"
+          aria-current="false"
+        >
+          Drift & Support
+        </a>
+      </div>
+    </div>
+    <button
+      class="sc-bdVaJa kHlDxG"
+      aria-label="Menu button"
+      data-testid="btn-mobile-menu"
+      role="button"
+    >
+      <div
+        class="sc-htpNat eOHwxm"
+        open=""
+      >
+        <div
+          class="sc-bwzfXH huOONa"
+        />
+        <div
+          class="sc-bwzfXH huOONa"
+        />
+        <div
+          class="sc-bwzfXH huOONa"
+        />
+      </div>
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,387 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Case renders Case 1`] = `
+<div>
+  <div
+    class="sc-kGXeez eytQg"
+    data-test="header-case"
+  >
+    <div
+      class="sc-kpOJdX bQOUAA"
+    >
+      <div
+        class="sc-hqyNC dHGGno"
+      >
+        <a
+          class="sc-jbKcbu jtmPVf"
+        >
+          <img
+            class="sc-dNLxif AbRUK"
+            alt="Iteam logo"
+            src="test-file-stub"
+          />
+        </a>
+        <div
+          class="sc-jqCOkK fwnwkN"
+        >
+          <a
+            class="sc-bbmXgH QyOrB"
+            aria-current="false"
+          >
+            Om oss
+          </a>
+          <a
+            class="sc-bbmXgH QyOrB"
+            aria-current="false"
+          >
+            Hur vi jobbar
+          </a>
+          <a
+            class="sc-bbmXgH QyOrB"
+            aria-current="false"
+          >
+            Teamet
+          </a>
+          <a
+            class="sc-bbmXgH QyOrB active-nav"
+            aria-current="true"
+          >
+            Våra case
+          </a>
+          <a
+            class="sc-bbmXgH QyOrB"
+            aria-current="false"
+          >
+            Jobba hos oss
+          </a>
+          <a
+            class="sc-bbmXgH QyOrB"
+            aria-current="false"
+          >
+            Drift & Support
+          </a>
+          <div
+            class="sc-uJMKN bnnHpz"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-dxgOiQ dFewJn"
+      >
+        <div
+          class="sc-ckVGcZ foYhJp"
+        >
+          <img
+            class="sc-eNQAEJ jWxikv"
+            alt=""
+            src="//images.ctfassets.net/rj4r6yfcesw5/4p0ptdLj9SaECekOI4c6C2/c2cdeab1cebc9650ebb0e7778357c231/AF_ordbild_vit.png"
+          />
+          <div
+            class="sc-hMqMXs dzlynQ"
+          >
+            <div
+              class="sc-kEYyzF LSnsf"
+            >
+              API
+            </div>
+            <div
+              class="sc-kEYyzF LSnsf"
+            >
+              Docker
+            </div>
+            <div
+              class="sc-kEYyzF LSnsf"
+            >
+              UX
+            </div>
+            <div
+              class="sc-kEYyzF LSnsf"
+            >
+              React
+            </div>
+            <div
+              class="sc-kEYyzF LSnsf"
+            >
+              Vue
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-kkGfuU hrwNuP"
+        >
+          <img
+            class="sc-jKJlTe fzkLcg"
+            alt=""
+            src="//images.ctfassets.net/rj4r6yfcesw5/3Y7zZ25WbeOCU8w84kAEos/b97ff1899cf6f2e4dca0eb2b4f0d5a44/af.png"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-iwsKbI fwFOwW"
+  >
+    <div
+      class="sc-gzVnrw cLTlOm"
+      data-test="breadcrumbs"
+    >
+      <a
+        class="sc-htoDjs dEAmle"
+      >
+        Våra case
+      </a>
+      <span>
+        Arbetsförmedlingen
+      </span>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-bdVaJa fGzlqx"
+        data-test="block-"
+      >
+        <div
+          class="sc-bxivhb kgeHJJ"
+        >
+          <div
+            class="sc-ifAKCX cFlEyZ"
+          >
+            <h3
+              class="sc-bwzfXH kgEpTV"
+            >
+              En ny digital tjänst
+            </h3>
+          </div>
+          <div
+            class="sc-bZQynM hmvJjY"
+          >
+            <div
+              class="sc-htpNat iEyarI"
+            >
+              <div>
+                <p>
+                  Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum a nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras quis odio vel turpis pellentesque finibus. Pellentesque cursus diam ac ligula placerat volutpat. Vivamus dictum augue eu rutrum efficitur. Suspendisse ut pellentesque ante. Suspendisse odio velit, fringilla eu porta vel, elementum ac libero. Nam eu vestibulum magna. Vestibulum quis risus elementum, lobortis sapien at, rhoncus enim. Nam accumsan odio lacus, at facilisis lacus rhoncus vel. Suspendisse sollicitudin a ipsum at cursus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-bdVaJa fGzlqx"
+        data-test="block-"
+      >
+        <div
+          class="sc-bxivhb kgeHJJ"
+        >
+          <div
+            class="sc-ifAKCX cFlEyZ"
+          >
+            <h3
+              class="sc-bwzfXH kgEpTV"
+            >
+              Process
+            </h3>
+          </div>
+          <div
+            class="sc-bZQynM hmvJjY"
+          >
+            <div
+              class="sc-htpNat iEyarI"
+            >
+              <div>
+                <p>
+                  Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum a nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras quis odio vel turpis pellentesque finibus. Pellentesque cursus diam ac ligula placerat volutpat. Vivamus dictum augue eu rutrum efficitur. Suspendisse ut pellentesque ante. Suspendisse odio velit, fringilla eu porta vel, elementum ac libero. Nam eu vestibulum magna. Vestibulum quis risus elementum, lobortis sapien at, rhoncus enim. Nam accumsan odio lacus, at facilisis lacus rhoncus vel. Suspendisse sollicitudin a ipsum at cursus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-kAzzGY bqxwXE"
+      data-test="block-"
+    >
+      <div
+        class="sc-bdVaJa fGzlqx"
+      >
+        <div
+          class="sc-chPdSV dWOXDS"
+        >
+          ""We feel that our crew at Iteam are more colleagues than suppliers. Rather than specifying a tech spec to work on, we collaborate, carefully chiseling out functionality as we go along. This way of working has minimized waste and it has also taken us further than we ever imagined”"
+        </div>
+        <div
+          class="sc-kgoBCf gxqhsf"
+        >
+          Anna Andersson, chef Arbetsförmedlingen
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-bdVaJa fGzlqx"
+        data-test="block-"
+      >
+        <div
+          class="sc-bxivhb kgeHJJ"
+        >
+          <div
+            class="sc-ifAKCX cFlEyZ"
+          >
+            <h3
+              class="sc-bwzfXH kgEpTV"
+            >
+              Utveckling
+            </h3>
+          </div>
+          <div
+            class="sc-bZQynM hmvJjY"
+          >
+            <div
+              class="sc-htpNat iEyarI"
+            >
+              <div>
+                <p>
+                  Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum a nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras quis odio vel turpis pellentesque finibus. Pellentesque cursus diam ac ligula placerat volutpat. Vivamus dictum augue eu rutrum efficitur. Suspendisse ut pellentesque ante. Suspendisse odio velit, fringilla eu porta vel, elementum ac libero. Nam eu vestibulum magna. Vestibulum quis risus elementum, lobortis sapien at, rhoncus enim. Nam accumsan odio lacus, at facilisis lacus rhoncus vel. Suspendisse sollicitudin a ipsum at cursus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-bdVaJa fGzlqx"
+        data-test="block-"
+      >
+        <div
+          class="sc-bxivhb kgeHJJ"
+        >
+          <div
+            class="sc-ifAKCX cFlEyZ"
+          >
+            <h3
+              class="sc-bwzfXH kgEpTV"
+            >
+              Arbetsförmedlingen
+            </h3>
+          </div>
+          <div
+            class="sc-bZQynM hmvJjY"
+          >
+            <div
+              class="sc-htpNat iEyarI"
+            >
+              <div>
+                <p>
+                  Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum a nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras quis odio vel turpis pellentesque finibus. Pellentesque cursus diam ac ligula placerat volutpat. Vivamus dictum augue eu rutrum efficitur. Suspendisse ut pellentesque ante. Suspendisse odio velit, fringilla eu porta vel, elementum ac libero. Nam eu vestibulum magna. Vestibulum quis risus elementum, lobortis sapien at, rhoncus enim. Nam accumsan odio lacus, at facilisis lacus rhoncus vel. Suspendisse sollicitudin a ipsum at cursus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-bdVaJa fGzlqx"
+        data-test="block-"
+      >
+        <div
+          class="sc-bxivhb kgeHJJ"
+        >
+          <div
+            class="sc-ifAKCX cFlEyZ"
+          >
+            <h3
+              class="sc-bwzfXH kgEpTV"
+            >
+              Samarbetspartners
+            </h3>
+          </div>
+          <div
+            class="sc-bZQynM hmvJjY"
+          >
+            <div
+              class="sc-htpNat iEyarI"
+            >
+              <div>
+                <p>
+                  <a
+                    href="https://hej.com"
+                  >
+                    Digitalbyrån
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-bdVaJa fGzlqx"
+        data-test="block-"
+      >
+        <div
+          class="sc-bxivhb kgeHJJ"
+        >
+          <div
+            class="sc-ifAKCX cFlEyZ"
+          >
+            <h3
+              class="sc-bwzfXH kgEpTV"
+            >
+              Presskontakt
+            </h3>
+          </div>
+          <div
+            class="sc-bZQynM hmvJjY"
+          >
+            <div
+              class="sc-htpNat iEyarI"
+            >
+              <div>
+                <ul>
+                  <li>
+                    <a
+                      href="mailto:hans.rollman@iteam.se"
+                    >
+                      Hans Rollman
+                    </a>
+                  </li>
+                  <li>
+                    Johan Littorin, Telenor, 0734 41 72 85
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

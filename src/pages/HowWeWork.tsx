@@ -1,7 +1,7 @@
 import gql from 'graphql-tag'
 import * as React from 'react'
 import { Query } from 'react-apollo'
-import { HowWeWorkPageQuery } from '../../typings/vimlacms'
+import { HowWeWorkPageQuery } from '../../typings/iteamse'
 import Block from '../components/Blocks/Block'
 import ImageBleed from '../components/Blocks/ImageBleed'
 import ImageBlock from '../components/Blocks/ImageBlock'
