@@ -27,6 +27,7 @@ export const TEAM_MEMBER_PAGE_QUERY = gql`
       location
       name
       phoneNumber
+      team
       title
       why
       whyTitle
@@ -95,7 +96,7 @@ const TeamMemberPage: React.SFC<RouteComponentProps<{ shortName: string }>> = ({
               </Block>
             </GridColumn>
 
-            <Team bgColor="green" shortName={['hrn', 'jmn']} />
+            <Team bgColor="green" shortName={teamMember.team} />
           </TeamMember>
         )
       }}

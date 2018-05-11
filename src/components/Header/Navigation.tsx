@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { withApollo, WithApolloClient } from 'react-apollo'
 import { Link, NavLink } from 'react-router-dom'
+import SVG from 'react-svg'
 import { ABOUT_PAGE_QUERY } from '../../pages/About'
 import { CASES_PAGE_QUERY } from '../../pages/Cases'
 import { HOME_PAGE_QUERY } from '../../pages/Home'
@@ -35,7 +36,7 @@ const LogoLink = styled(Link)`
   }
 `
 
-const Logo = styled.img`
+const Logo = styled(SVG)`
   max-width: 100%;
 `
 
@@ -179,7 +180,7 @@ export class Navigation extends React.Component<
     return (
       <Wrap>
         <LogoLink onMouseEnter={this.prefetchPage('home')} to="/">
-          <Logo alt="Iteam logo" src={logo} />
+          <Logo data-testid="logo" path={logo} />
         </LogoLink>
 
         <NavigationItems>

@@ -26,6 +26,7 @@ export const OPERATIONS_PAGE_QUERY = gql`
       networkTitle
       softwareText
       softwareTitle
+      team
     }
   }
 `
@@ -69,7 +70,7 @@ const Operations = () => {
               </Block>
             </GridColumn>
 
-            <Team bgColor="red" shortName={['rln', 'msr']} />
+            <Team bgColor="red" shortName={pageOps.team} />
           </React.Fragment>
         )
       }}

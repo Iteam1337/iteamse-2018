@@ -29,6 +29,7 @@ export const OPEN_POSITION_PAGE_QUERY = gql`
       location
       role
       roleTitle
+      team
       technicalities
       technicalitiesTitle
       title
@@ -92,7 +93,7 @@ const OpenPosition: React.SFC<RouteComponentProps<{ id: string }>> = ({
               </Block>
             </GridColumn>
 
-            <Team bgColor="green" shortName={['rln', 'msr']} />
+            <Team bgColor="green" shortName={pageOpenPosition.team} />
           </>
         )
       }}

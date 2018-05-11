@@ -5,6 +5,7 @@ import { TeamPageQuery } from '../../typings/iteamse'
 import FilterByLocation from '../components/FilterByLocation/FilterByLocation'
 import GridColumn from '../components/Grid/GridColumn'
 import Header from '../components/Header/Header'
+import Team from '../components/Team/Team'
 import TeamMembers from '../components/Team/TeamMembers'
 import TeamPageMember from '../components/Team/TeamPageMember'
 import { filterByLocation } from '../utils/filterByLocation'
@@ -16,6 +17,7 @@ export const TEAM_PAGE_QUERY = gql`
       headerText1
       headerText2
       headerTextBgColor
+      team
     }
     team {
       avatar
@@ -31,7 +33,7 @@ export const TEAM_PAGE_QUERY = gql`
 
 class TeamQuery extends Query<TeamPageQuery> {}
 
-const Team = () => {
+const TeamPage = () => {
   return (
     <TeamQuery query={TEAM_PAGE_QUERY}>
       {({ loading, data }) => {
@@ -63,6 +65,8 @@ const Team = () => {
                 )}
               </FilterByLocation>
             </GridColumn>
+
+            <Team bgColor="red" shortName={pageTeam.team} />
           </React.Fragment>
         )
       }}
@@ -70,4 +74,4 @@ const Team = () => {
   )
 }
 
-export default Team
+export default TeamPage

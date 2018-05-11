@@ -31,6 +31,7 @@ export const CASE_PAGE_QUERY = gql`
       partnersTitle
       contact
       contactTitle
+      team
       quote
       quotePerson
     }
@@ -86,7 +87,7 @@ const CasePage: React.SFC<RouteComponentProps<{ slug: string }>> = ({
               <Block title={workCase.contactTitle}>{workCase.contact}</Block>
             </GridColumn>
 
-            <Team bgColor="green" shortName={['hrn', 'jmn']} />
+            <Team bgColor="green" shortName={workCase.team} />
           </>
         )
       }}

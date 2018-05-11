@@ -17,6 +17,7 @@ export const pageHowWeWork = {
   sharingText:
     'På våra kodluncher lär vi av varandra. Vi mentorerar och vi labbar ihop. Vi anordnar Lounge Hack, bidrar till open source, till forumet kodapor tillsammans med 12000 andra utvecklare och deltar på konferenser. Vår kunskap är din kunskap.',
   sharingTitle: 'Delar allt',
+  team: ['rln', 'msr'],
   teamText:
     'Vi jobbar alltid i team. Systemutvecklare, strateger, interaktionsdesigners, visuella designers och värdecoacher. Alla är vi värdefulla var och en för sig och ännu mer ihop. Vi jobbar alltid tillsammans. Alltid i tvärfunktionella team. Aldrig uthyrda. Aldrig ensamma.',
   teamTitle: 'I team',

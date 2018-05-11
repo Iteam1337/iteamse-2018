@@ -18,6 +18,7 @@ export const WORK_PAGE_QUERY = gql`
       headerText1
       headerText2
       headerTextBgColor
+      team
     }
     openpositions {
       id
@@ -81,7 +82,7 @@ export const Work = () => {
               </FilterByLocation>
             </GridColumn>
 
-            <Team bgColor="red" shortName={['rln', 'msr']} />
+            <Team bgColor="red" shortName={pageWork.team} />
           </>
         )
       }}

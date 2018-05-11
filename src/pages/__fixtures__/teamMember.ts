@@ -14,6 +14,7 @@ export const teamMember = {
   location: 'Stockholm',
   name: 'Rickard Laurin',
   phoneNumber: null,
+  team: ['rln', 'msr'],
   title: 'Webbutvecklare',
   why:
     'In the early 90\'s my family got its first 286, it was love at first sight. In my teen years I played a lot of Delta Force and started developing the clan websites. Until I started at KTH I only did minor hobby projects. There I managed my chapters website and assisted younger students in MATLAB. This is when I realized what I really wanted to work with, building beautiful websites.',
