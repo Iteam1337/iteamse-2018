@@ -9,7 +9,7 @@ import TeamMembers from './TeamMembers'
 
 interface TeamProps {
   bgColor?: string | 'blue' | 'red' | 'green'
-  shortName: string[]
+  shortName: string[] | null
 }
 
 export const TEAM_QUERY = gql`
@@ -29,6 +29,10 @@ export const TEAM_QUERY = gql`
 class TeamQueryComponent extends Query<TeamQuery, TeamQueryVariables> {}
 
 const Team: React.SFC<TeamProps> = ({ bgColor = 'red', shortName }) => {
+  if (shortName == null) {
+    return null
+  }
+
   const backgroundColor = handleColors(bgColor)
 
   return (

@@ -5,4 +5,5 @@ export const pageCases = {
   headerText1: 'Några exempel på',
   headerText2: 'sådant vi gjort',
   headerTextBgColor: 'green',
+  team: ['rln', 'msr'],
 }

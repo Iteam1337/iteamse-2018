@@ -32,4 +32,5 @@ export const pageStart = {
   strategyText:
     'Vi digitaliserar Sverige. Pompigt! Men det betyder att vi hjälper dig att leda digitaliseringen istället för att vara den som blir lämnad på efterkälken. Både på den marknad där du verkar, och de marknader du inte ens visste att du borde verka på.',
   strategyTitle: 'Strategi',
+  team: ['rln', 'msr'],
 }

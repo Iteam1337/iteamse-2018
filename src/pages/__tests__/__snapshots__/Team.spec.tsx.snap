@@ -17,8 +17,8 @@ exports[`components/Team renders Team 1`] = `
           >
             <img
               class="sc-jnlKLf ixkzHM"
-              alt="Iteam logo"
-              src="test-file-stub"
+              data-testid="logo"
+              path="test-file-stub"
             />
           </a>
           <div
@@ -226,8 +226,8 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
           >
             <img
               class="sc-jnlKLf ixkzHM"
-              alt="Iteam logo"
-              src="test-file-stub"
+              data-testid="logo"
+              path="test-file-stub"
             />
           </a>
           <div
@@ -390,8 +390,8 @@ exports[`components/Team should handle changing location using mouse 1`] = `
           >
             <img
               class="sc-jnlKLf ixkzHM"
-              alt="Iteam logo"
-              src="test-file-stub"
+              data-testid="logo"
+              path="test-file-stub"
             />
           </a>
           <div
@@ -554,8 +554,8 @@ exports[`components/Team should not change using keyboard if not enter or space 
           >
             <img
               class="sc-jnlKLf ixkzHM"
-              alt="Iteam logo"
-              src="test-file-stub"
+              data-testid="logo"
+              path="test-file-stub"
             />
           </a>
           <div

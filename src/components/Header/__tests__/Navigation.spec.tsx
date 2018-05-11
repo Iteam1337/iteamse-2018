@@ -30,7 +30,7 @@ describe('components/Navigation', () => {
   })
 
   it('handle hover of logo', async () => {
-    const { getByAltText } = render(
+    const { getByTestId } = render(
       <MockedQuery mocks={mocks}>
         <Navigation client={client} />
       </MockedQuery>
@@ -38,7 +38,7 @@ describe('components/Navigation', () => {
 
     await wait()
 
-    Simulate.mouseEnter(getByAltText('Iteam logo').parentNode)
+    Simulate.mouseEnter(getByTestId('logo').parentNode)
 
     expect(client.query.mock.calls[0][0]).toMatchSnapshot()
   })

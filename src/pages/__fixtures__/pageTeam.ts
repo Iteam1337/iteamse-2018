@@ -5,4 +5,5 @@ export const pageTeam = {
   headerText1: 'Det är vi som är Iteam',
   headerText2: null,
   headerTextBgColor: '#668CFF',
+  team: ['rln', 'msr'],
 }

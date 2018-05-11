@@ -46,6 +46,7 @@ export interface AboutPageQuery {
     stabilityIcons: Array< string | null >,
     stabilityText: string,
     stabilityTitle: string,
+    team: Array< string > | null,
     valueText: string,
     valueTitle: string,
   },
@@ -76,6 +77,7 @@ export interface CasePageQuery {
     partnersTitle: string,
     contact: string,
     contactTitle: string,
+    team: Array< string > | null,
     quote: string | null,
     quotePerson: string | null,
   } | null,
@@ -88,6 +90,7 @@ export interface CasesPageQuery {
     headerText1: string | null,
     headerText2: string | null,
     headerTextBgColor: string | null,
+    team: Array< string > | null,
   },
   cases:  Array< {
     __typename: "Case",
@@ -124,6 +127,7 @@ export interface HomePageQuery {
     strategyLogo: string | null,
     strategySlug: string,
     strategyLinkText: string,
+    team: Array< string > | null,
   },
 };
 
@@ -142,6 +146,7 @@ export interface HowWeWorkPageQuery {
     methodTitle: string,
     sharingText: string,
     sharingTitle: string,
+    team: Array< string > | null,
     teamText: string,
     teamTitle: string,
   },
@@ -170,6 +175,7 @@ export interface OpenPositionPageQuery {
     location: string,
     role: string,
     roleTitle: string,
+    team: Array< string > | null,
     technicalities: string,
     technicalitiesTitle: string,
     title: string,
@@ -192,6 +198,7 @@ export interface OperationsPageQuery {
     networkTitle: string,
     softwareText: string,
     softwareTitle: string,
+    team: Array< string > | null,
   },
 };
 
@@ -202,6 +209,7 @@ export interface TeamPageQuery {
     headerText1: string | null,
     headerText2: string | null,
     headerTextBgColor: string | null,
+    team: Array< string > | null,
   },
   team:  Array< {
     __typename: "TeamMember",
@@ -233,6 +241,7 @@ export interface TeamMemberPageQuery {
     location: string,
     name: string,
     phoneNumber: string | null,
+    team: Array< string > | null,
     title: string,
     why: string,
     whyTitle: string,
@@ -246,6 +255,7 @@ export interface WorkPageQuery {
     headerText1: string | null,
     headerText2: string | null,
     headerTextBgColor: string | null,
+    team: Array< string > | null,
   },
   openpositions:  Array< {
     __typename: "OpenPosition",

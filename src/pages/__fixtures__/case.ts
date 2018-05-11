@@ -25,6 +25,7 @@ export const workCase = {
   quotePerson: 'Anna Andersson, chef Arbetsförmedlingen',
   slug: 'arbetsformedlingen',
   tags: ['API', 'Docker', 'UX', 'React', 'Vue'],
+  team: null,
   thumbnailImage:
     '//images.ctfassets.net/rj4r6yfcesw5/3Y7zZ25WbeOCU8w84kAEos/b97ff1899cf6f2e4dca0eb2b4f0d5a44/af.png',
   title: 'Arbetsförmedlingen',

@@ -18,6 +18,7 @@ Object {
       stabilityIcons
       stabilityText
       stabilityTitle
+      team
       valueText
       valueTitle
     }
@@ -45,6 +46,7 @@ Object {
       methodTitle
       sharingText
       sharingTitle
+      team
       teamText
       teamTitle
     }
@@ -82,6 +84,7 @@ Object {
       strategyLogo
       strategySlug
       strategyLinkText
+      team
     }
   }
 ",
@@ -108,6 +111,7 @@ Object {
       networkTitle
       softwareText
       softwareTitle
+      team
     }
   }
 ",
@@ -125,6 +129,7 @@ Object {
       headerText1
       headerText2
       headerTextBgColor
+      team
     }
     cases {
       location
@@ -149,6 +154,7 @@ Object {
       headerText1
       headerText2
       headerTextBgColor
+      team
     }
     team {
       avatar
@@ -175,6 +181,7 @@ Object {
       headerText1
       headerText2
       headerTextBgColor
+      team
     }
     openpositions {
       id

@@ -26,6 +26,7 @@ export const HOW_WE_WORK_PAGE_QUERY = gql`
       methodTitle
       sharingText
       sharingTitle
+      team
       teamText
       teamTitle
     }
@@ -71,7 +72,7 @@ const HowWeWork = () => {
               </Block>
             </GridColumn>
 
-            <Team bgColor="blue" shortName={['rln', 'msr']} />
+            <Team bgColor="blue" shortName={pageHowWeWork.team} />
           </>
         )
       }}

@@ -19,4 +19,5 @@ export const pageOps = {
   softwareText:
     'Som Microsoft Silver Partner hjälper vi er med hela er Windows-miljö, servrar och klienter. Vi automatiserar installation och uppdateringar av mjukvaran ni använder i ert dagliga arbete. Vi har med största sannolikhet erfarenhet av den mjukvara ni använder, ja - även den där som bara funkar i Windows NT på en gammal dator i skamvrån.\n\nPS. Vi är även Red Hat Partner och hjälper er med era Linux-servrar.\n',
   softwareTitle: 'Mjukvara',
+  team: ['rln', 'msr'],
 }

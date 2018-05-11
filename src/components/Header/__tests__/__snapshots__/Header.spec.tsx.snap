@@ -17,8 +17,8 @@ exports[`components/Header renders Header 1`] = `
           >
             <img
               class="sc-ktHwxA hGGxQ"
-              alt="Iteam logo"
-              src="test-file-stub"
+              data-testid="logo"
+              path="test-file-stub"
             />
           </a>
           <div

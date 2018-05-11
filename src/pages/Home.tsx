@@ -39,6 +39,7 @@ export const HOME_PAGE_QUERY = gql`
       strategyLogo
       strategySlug
       strategyLinkText
+      team
     }
   }
 `
@@ -187,7 +188,7 @@ const Home = () => {
             </HomeGridColumn>
 
             <OperationsBanner />
-            <Team shortName={['met', 'rln', 'msr', 'jmn']} />
+            <Team shortName={pageStart.team} />
           </>
         )
       }}

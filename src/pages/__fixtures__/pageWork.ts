@@ -5,4 +5,5 @@ export const pageWork = {
   headerText1: 'Bli en del av teamet',
   headerText2: null,
   headerTextBgColor: '#FF405F',
+  team: ['rln', 'msr'],
 }

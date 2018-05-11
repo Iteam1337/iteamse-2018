@@ -26,6 +26,7 @@ export const ABOUT_PAGE_QUERY = gql`
       stabilityIcons
       stabilityText
       stabilityTitle
+      team
       valueText
       valueTitle
     }
@@ -90,7 +91,7 @@ const About = () => {
               </Block>
             </GridColumn>
 
-            <Team bgColor="green" shortName={['rln', 'msr']} />
+            <Team bgColor="green" shortName={pageAboutUs.team} />
           </>
         )
       }}

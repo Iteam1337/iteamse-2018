@@ -17,8 +17,8 @@ exports[`components/Cases renders Cases 1`] = `
           >
             <img
               class="sc-dNLxif AbRUK"
-              alt="Iteam logo"
-              src="test-file-stub"
+              data-testid="logo"
+              path="test-file-stub"
             />
           </a>
           <div

@@ -20,6 +20,7 @@ export const pageAboutUs = {
   stabilityText:
     'Löksås ipsum plats upprätthållande från sorgliga se, denna precis från brunsås strand år dock, stig färdväg genom äng varit. Erfarenheter regn groda tidigare trevnadens hwila ännu dimma kunde mjuka sällan, oss genom tidigare annat sista stora tid plats inom.\n ',
   stabilityTitle: 'Vi står stabilt',
+  team: ['rln', 'msr'],
   valueText:
     'Vi ger dig det du behöver. Även när du tror du behöver något annat. Det kan låta kaxigt men vi vet att många företag och organisationer ofta blandar ihop det som är bråttom med det som är viktigt. Vi hjälper dig att fokusera på det som är viktigt och som skapar värde för dig och dina kunder.',
   valueTitle: 'Skapa värde',
