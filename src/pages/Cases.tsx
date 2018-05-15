@@ -17,6 +17,7 @@ export const CASES_PAGE_QUERY = gql`
       headerText1
       headerText2
       headerTextBgColor
+      contactTitle
       team
     }
     cases {
@@ -145,7 +146,11 @@ export const CasePage = () => {
               </Cases>
             </GridColumn>
 
-            <Team bgColor="green" shortName={pageCases.team} />
+            <Team
+              bgColor="green"
+              callToAction={pageCases.contactTitle}
+              shortName={pageCases.team}
+            />
           </>
         )
       }}

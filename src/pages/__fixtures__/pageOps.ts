@@ -3,6 +3,7 @@ export const pageOps = {
   aboutText:
     'Operations är namnet på Iteams drift & supportavdelning, sedan 1995 har vi hjälpt våra kunder att göra det de ska göra - utan att vara hindrade av krånglande teknik. Vårt mål är att erbjuda en personlig, professionell service - utan någon “First line” att ta sig förbi.\n\nVi är inte bundna till någon specifik leverantör av hård- eller mjukvara utan rekommenderar alltid det som är bäst i varje enskilt fall. Beroende på uppdraget har Iteam varit allt från komplett uthyrd IT avdelning till specialisthjälp inom olika områden.\n',
   aboutTitle: 'Om oss',
+  contactTitle: 'Hör av dig till oss!',
   contentImage:
     '//images.ctfassets.net/rj4r6yfcesw5/2CDS7p7sxGw0GyqSwqyQO6/64a78af7e16d70db815cd8677244c5a9/bleed_ops.jpg',
   hardwareText:

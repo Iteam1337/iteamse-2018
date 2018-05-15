@@ -18,6 +18,7 @@ export const WORK_PAGE_QUERY = gql`
       headerText1
       headerText2
       headerTextBgColor
+      contactTitle
       team
     }
     openpositions {
@@ -82,7 +83,11 @@ export const Work = () => {
               </FilterByLocation>
             </GridColumn>
 
-            <Team bgColor="red" shortName={pageWork.team} />
+            <Team
+              bgColor="red"
+              callToAction={pageWork.contactTitle}
+              shortName={pageWork.team}
+            />
           </>
         )
       }}

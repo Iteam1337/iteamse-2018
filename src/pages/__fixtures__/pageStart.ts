@@ -9,6 +9,7 @@ export const pageStart = {
   codeText:
     'Systemutveckling, automatisering, artificiell intelligens, maskininlärning. Vi har alla redskap du behöver för att bygga vad du vill. Det du vill. Och vet du inte vad du behöver så hjälper vi dig med det med.',
   codeTitle: 'Kod',
+  contactTitle: 'Hör av dig till oss!',
   cultureLinkText: 'Läs om hur vi hjälper SEB med kultur',
   cultureLogo:
     '//images.ctfassets.net/rj4r6yfcesw5/4D844WR1v20ICIOG4SK0y8/15a008277f5565d9f52fbd5312f6e121/logo_seb.png',
