@@ -4,6 +4,7 @@ import { Query } from 'react-apollo'
 import { RouteComponentProps, withRouter } from 'react-router-dom'
 import { CasePageQuery, CasePageQueryVariables } from '../../typings/iteamse'
 import Block from '../components/Blocks/Block'
+import Frameworks from '../components/Blocks/Frameworks'
 import Quote from '../components/Blocks/Quote'
 import Breadcrumbs from '../components/Breadcrumbs/Breadcrumbs'
 import GridColumn from '../components/Grid/GridColumn'
@@ -17,6 +18,8 @@ export const CASE_PAGE_QUERY = gql`
       logo
       slug
       thumbnailImage
+      frameworks
+      frameworksTitle
       tags
       title
       introduction
@@ -85,6 +88,13 @@ const CasePage: React.SFC<RouteComponentProps<{ slug: string }>> = ({
               <Block title={workCase.partnersTitle}>{workCase.partners}</Block>
 
               <Block title={workCase.contactTitle}>{workCase.contact}</Block>
+
+              {workCase.frameworks && (
+                <Frameworks
+                  frameworks={workCase.frameworks}
+                  title={workCase.frameworksTitle}
+                />
+              )}
             </GridColumn>
 
             <Team bgColor="green" shortName={workCase.team} />
