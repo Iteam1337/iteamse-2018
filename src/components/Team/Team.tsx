@@ -10,6 +10,7 @@ import TeamMembers from './TeamMembers'
 interface TeamProps {
   bgColor?: string | 'blue' | 'red' | 'green'
   shortName: string[] | null
+  callToAction?: string
 }
 
 export const TEAM_QUERY = gql`
@@ -28,7 +29,11 @@ export const TEAM_QUERY = gql`
 
 class TeamQueryComponent extends Query<TeamQuery, TeamQueryVariables> {}
 
-const Team: React.SFC<TeamProps> = ({ bgColor = 'red', shortName }) => {
+const Team: React.SFC<TeamProps> = ({
+  bgColor = 'red',
+  shortName,
+  callToAction,
+}) => {
   if (shortName == null) {
     return null
   }
@@ -45,7 +50,11 @@ const Team: React.SFC<TeamProps> = ({ bgColor = 'red', shortName }) => {
         const { teamMembers } = data
 
         return (
-          <TeamMembers bgColor={backgroundColor} teamMembers={shortName.length}>
+          <TeamMembers
+            bgColor={backgroundColor}
+            teamMembers={shortName.length}
+            callToAction={callToAction}
+          >
             {teamMembers.map(member => {
               if (shortName.length === 2) {
                 return <TeamMemberDuo key={member.name} member={member} />

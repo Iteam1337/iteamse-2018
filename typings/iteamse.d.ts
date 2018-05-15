@@ -49,6 +49,7 @@ export interface AboutPageQuery {
     team: Array<string> | null
     valueText: string
     valueTitle: string
+    contactTitle: string
   }
 }
 
@@ -93,6 +94,7 @@ export interface CasesPageQuery {
     headerText2: string | null
     headerTextBgColor: string | null
     team: Array<string> | null
+    contactTitle: string
   }
   cases: Array<{
     __typename: 'Case'
@@ -130,6 +132,7 @@ export interface HomePageQuery {
     strategySlug: string
     strategyLinkText: string
     team: Array<string> | null
+    contactTitle: string
   }
 }
 
@@ -151,6 +154,7 @@ export interface HowWeWorkPageQuery {
     team: Array<string> | null
     teamText: string
     teamTitle: string
+    contactTitle: string
   }
 }
 
@@ -181,6 +185,7 @@ export interface OpenPositionPageQuery {
     technicalities: string
     technicalitiesTitle: string
     title: string
+    contactTitle: string
   }
 }
 
@@ -201,6 +206,7 @@ export interface OperationsPageQuery {
     softwareText: string
     softwareTitle: string
     team: Array<string> | null
+    contactTitle: string
   }
 }
 
@@ -212,6 +218,7 @@ export interface TeamPageQuery {
     headerText2: string | null
     headerTextBgColor: string | null
     team: Array<string> | null
+    contactTitle: string
   }
   team: Array<{
     __typename: 'TeamMember'
@@ -258,6 +265,7 @@ export interface WorkPageQuery {
     headerText2: string | null
     headerTextBgColor: string | null
     team: Array<string> | null
+    contactTitle: string
   }
   openpositions: Array<{
     __typename: 'OpenPosition'

@@ -17,6 +17,7 @@ export const TEAM_PAGE_QUERY = gql`
       headerText1
       headerText2
       headerTextBgColor
+      contactTitle
       team
     }
     team {
@@ -66,7 +67,11 @@ const TeamPage = () => {
               </FilterByLocation>
             </GridColumn>
 
-            <Team bgColor="red" shortName={pageTeam.team} />
+            <Team
+              bgColor="red"
+              callToAction={pageTeam.contactTitle}
+              shortName={pageTeam.team}
+            />
           </React.Fragment>
         )
       }}

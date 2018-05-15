@@ -18,6 +18,7 @@ export const HOW_WE_WORK_PAGE_QUERY = gql`
       headerText1
       headerText2
       headerTextBgColor
+      contactTitle
       customersText
       customersTitle
       hiringTitle
@@ -72,7 +73,11 @@ const HowWeWork = () => {
               </Block>
             </GridColumn>
 
-            <Team bgColor="blue" shortName={pageHowWeWork.team} />
+            <Team
+              bgColor="blue"
+              callToAction={pageHowWeWork.contactTitle}
+              shortName={pageHowWeWork.team}
+            />
           </>
         )
       }}
