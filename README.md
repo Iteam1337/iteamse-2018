@@ -13,7 +13,7 @@ $ npm start
 
 ### Environment setup
 
-Add a `.env.local` file in the root of this project and set the following values to the correct url (the example is for a local instance of the API)
+Add a `.env.local` file in the root of this project and set the following values to the correct url (the example is for a local instance of the [API](https://github.com/Iteam1337/iteamse-cms))
 
 ```
 RAZZLE_CMS_URL=http://localhost:4000
