@@ -1,5 +1,5 @@
 {
-  "name": "my-razzle-app",
+  "name": "iteamse",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -10,7 +10,7 @@
     "start:prod": "NODE_ENV=production node build/server.js",
     "lint": "tslint src",
     "schema": "apollo-codegen introspect-schema http://localhost:4000 --output ./src/schema.json",
-    "types": "apollo-codegen generate './src/**/*.tsx' --schema ./src/schema.json --addTypename --target typescript --output ./typings/iteamse.d.ts",
+    "types": "apollo-codegen generate src/**/*.tsx --schema src/schema.json --addTypename --target typescript --output typings/iteamse.d.ts",
     "cypress": "cypress open",
     "cypress:run": "cypress run",
     "precommit": "lint-staged",
