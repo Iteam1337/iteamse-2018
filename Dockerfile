@@ -7,9 +7,12 @@ WORKDIR /app
 RUN npm install --silent
 
 # Add all them files
-COPY ./.babelrc ./
 COPY ./public ./public
 COPY ./src ./src
+COPY ./typings ./typings
+COPY ./tsconfig.json ./tsconfig.json
+COPY ./tslint.json ./tslint.json
+COPY ./razzle.config.js ./razzle.config.js
 
 EXPOSE 3001
 
