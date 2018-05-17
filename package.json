@@ -23,6 +23,11 @@
       "git add"
     ]
   },
+  "prettier": {
+    "semi": false,
+    "trailingComma": "es5",
+    "singleQuote": true
+  },
   "dependencies": {
     "apollo-cache-inmemory": "1.2.0",
     "apollo-client": "2.3.0",
