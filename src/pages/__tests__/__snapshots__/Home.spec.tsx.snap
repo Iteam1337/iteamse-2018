@@ -4,79 +4,79 @@ exports[`components/Home renders Home 1`] = `
 <div>
   <div>
     <div
-      class="sc-gGBfsJ ddMiOi"
+      class="sc-ktHwxA eVwcRz"
     >
       <div
-        class="sc-jnlKLf KGMWu"
+        class="sc-cIShpX gwcFtF"
       >
         <div
-          class="sc-hqyNC dHGGno"
+          class="sc-bbmXgH dltjNi"
         >
           <a
-            class="sc-jbKcbu jtmPVf"
+            class="sc-gGBfsJ cNNKLH"
           >
             <img
-              class="sc-dNLxif AbRUK"
+              class="sc-jnlKLf ixkzHM"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-jqCOkK fwnwkN"
+            class="sc-fYxtnH kHSMDi"
           >
             <a
-              class="sc-bbmXgH QyOrB"
+              class="sc-hEsumM fOvejy"
               aria-current="false"
             >
               Om oss
             </a>
             <a
-              class="sc-bbmXgH QyOrB"
+              class="sc-hEsumM fOvejy"
               aria-current="false"
             >
               Hur vi jobbar
             </a>
             <a
-              class="sc-bbmXgH QyOrB"
+              class="sc-hEsumM fOvejy"
               aria-current="false"
             >
               Teamet
             </a>
             <a
-              class="sc-bbmXgH QyOrB"
+              class="sc-hEsumM fOvejy"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-bbmXgH QyOrB"
+              class="sc-hEsumM fOvejy"
               aria-current="false"
             >
               Jobba hos oss
             </a>
             <a
-              class="sc-bbmXgH QyOrB"
+              class="sc-hEsumM fOvejy"
               aria-current="false"
             >
               Drift & Support
             </a>
             <div
-              class="sc-uJMKN bnnHpz"
+              class="sc-tilXH cDiLuN"
             />
           </div>
         </div>
         <div
-          class="sc-fYxtnH ckldXV"
+          class="sc-kafWEX qcLQG"
         >
           <h1
-            class="sc-tilXH ioTQQL"
+            class="sc-feJyhm zmYBY"
           >
             <span>
               Vi digitaliserar företag och organisationer
             </span>
           </h1>
           <h1
-            class="sc-tilXH ioTQQL"
+            class="sc-feJyhm zmYBY"
           >
             <span>
               genom strategi, kod och kultur
@@ -87,20 +87,20 @@ exports[`components/Home renders Home 1`] = `
     </div>
   </div>
   <div
-    class="sc-Rmtcm cfhrHw"
+    class="sc-fBuWsC gYhPAl"
   >
     <div
-      class="sc-bRBYWo gpIEjj"
+      class="sc-fMiknA dojdZf"
     >
       <img
-        class="sc-fBuWsC KfQqY"
+        class="sc-fAjcbJ hdhVTq"
         src="test-file-stub"
       />
       <div
-        class="sc-hzDkRC eNALqM"
+        class="sc-dVhcbM lmANPA"
       >
         <div
-          class="sc-jhAzac hWLAsC"
+          class="sc-eqIVtm eJqVIb"
         >
           <h1
             class="sc-gZMcBi ctjDhW"
@@ -117,17 +117,17 @@ exports[`components/Home renders Home 1`] = `
             </div>
           </div>
           <img
-            class="sc-fMiknA XQEJJ"
+            class="sc-caSCKo exwNLO"
             src="//images.ctfassets.net/rj4r6yfcesw5/3qnZSfySW4cEGoUo6KCAae/8a656eba15e15b61dacc9fbea38aa4bd/logo_af.png"
           />
           <a
-            class="sc-csuQGl idQfjD"
+            class="sc-jhAzac eJSshj"
           >
             Läs om hur vi hjälper Arbetsförmedlingen med kod
           </a>
         </div>
         <div
-          class="sc-jhAzac hWLAsC"
+          class="sc-eqIVtm eJqVIb"
         >
           <h1
             class="sc-gZMcBi ctjDhW"
@@ -144,17 +144,17 @@ exports[`components/Home renders Home 1`] = `
             </div>
           </div>
           <img
-            class="sc-fMiknA XQEJJ"
+            class="sc-caSCKo exwNLO"
             src="//images.ctfassets.net/rj4r6yfcesw5/1mv5fxBGLmeyWom4OI2WsI/a4d79cae2076b43aea926db2f1244b52/logo_tsab.png"
           />
           <a
-            class="sc-csuQGl idQfjD"
+            class="sc-jhAzac eJSshj"
           >
             Läs om hur vi hjälper Taxi Stockholm med strategi
           </a>
         </div>
         <div
-          class="sc-jhAzac hWLAsC"
+          class="sc-eqIVtm eJqVIb"
         >
           <h1
             class="sc-gZMcBi ctjDhW"
@@ -171,11 +171,11 @@ exports[`components/Home renders Home 1`] = `
             </div>
           </div>
           <img
-            class="sc-fMiknA XQEJJ"
+            class="sc-caSCKo exwNLO"
             src="//images.ctfassets.net/rj4r6yfcesw5/4D844WR1v20ICIOG4SK0y8/15a008277f5565d9f52fbd5312f6e121/logo_seb.png"
           />
           <a
-            class="sc-csuQGl idQfjD"
+            class="sc-jhAzac eJSshj"
           >
             Läs om hur vi hjälper SEB med kultur
           </a>
@@ -184,21 +184,21 @@ exports[`components/Home renders Home 1`] = `
     </div>
   </div>
   <div
-    class="sc-iRbamj kFFTEP"
+    class="sc-Rmtcm kTBNsE"
   >
     <div
-      class="sc-jlyJG hkHlhf"
+      class="sc-bRBYWo iBZmPH"
     />
     <div
-      class="sc-gipzik fpMdYU"
+      class="sc-hzDkRC jMmDHr"
     >
       <h2
-        class="sc-gPEVay lcctkO"
+        class="sc-csuQGl cTtYIH"
       >
         Visste du att vi även erbjuder drift & support?
       </h2>
       <a
-        class="sc-jDwBTQ cLsRQJ"
+        class="sc-gipzik gwutnr"
       >
         Iteam Operations
       </a>
