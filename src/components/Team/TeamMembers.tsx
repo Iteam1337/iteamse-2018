@@ -1,7 +1,7 @@
 import * as React from 'react'
 import styled, { colors, withProps } from '../../theme'
 import { GridColumnClean } from '../Grid/GridColumn'
-import H3 from '../Typography/H3'
+import H2 from '../Typography/H2'
 
 interface TeamMembersProps {
   bgColor: string
@@ -29,7 +29,7 @@ const Wrap = withProps<WrapProps>()(GridColumnClean.extend)`
   }
 `
 
-const Header = H3.extend`
+const Header = H2.extend`
   margin-bottom: 50px;
 `
 
