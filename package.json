@@ -1,5 +1,5 @@
 {
-  "name": "my-razzle-app",
+  "name": "iteamse",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -10,7 +10,7 @@
     "start:prod": "NODE_ENV=production node build/server.js",
     "lint": "tslint src",
     "schema": "apollo-codegen introspect-schema http://localhost:4000 --output ./src/schema.json",
-    "types": "apollo-codegen generate './src/**/*.tsx' --schema ./src/schema.json --addTypename --target typescript --output ./typings/iteamse.d.ts",
+    "types": "apollo-codegen generate './src/**/*.tsx' --schema src/schema.json --addTypename --target typescript --output typings/iteamse.d.ts",
     "cypress": "cypress open",
     "cypress:run": "cypress run",
     "precommit": "lint-staged",
@@ -22,6 +22,11 @@
       "tslint --fix",
       "git add"
     ]
+  },
+  "prettier": {
+    "semi": false,
+    "trailingComma": "es5",
+    "singleQuote": true
   },
   "dependencies": {
     "apollo-cache-inmemory": "1.2.0",
@@ -68,7 +73,6 @@
     "@types/serialize-javascript": "1.3.2",
     "@types/webpack-env": "1.13.6",
     "apollo-codegen": "0.19.1",
-    "cypress": "2.1.0",
     "husky": "0.14.3",
     "jest-styled-components": "5.0.1",
     "lint-staged": "7.0.5",

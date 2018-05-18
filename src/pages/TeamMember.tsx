@@ -58,6 +58,10 @@ const TeamMemberPage: React.SFC<RouteComponentProps<{ shortName: string }>> = ({
 
         const { teamMember } = data
 
+        if (!teamMember) {
+          return <div>Teammedlemmen existerar inte</div>
+        }
+
         return (
           <TeamMember>
             <Header
