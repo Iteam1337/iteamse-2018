@@ -1,6 +1,7 @@
 export const openpositions = [
   {
     __typename: 'OpenPosition',
+    contactTitle: 'Hör av dig till oss!',
     id: 'junior-ux-designer',
     location: 'Stockholm',
     role:

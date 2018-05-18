@@ -27,6 +27,7 @@ export const HOME_PAGE_QUERY = gql`
       codeLogo
       codeSlug
       codeLinkText
+      contactTitle
       cultureMobileImage
       cultureText
       cultureTitle
@@ -188,7 +189,10 @@ const Home = () => {
             </HomeGridColumn>
 
             <OperationsBanner />
-            <Team shortName={pageStart.team} />
+            <Team
+              callToAction={pageStart.contactTitle}
+              shortName={pageStart.team}
+            />
           </>
         )
       }}
