@@ -5,7 +5,7 @@
   "scripts": {
     "start": "razzle start",
     "build": "razzle build",
-    "test": "razzle test --env=jsdom",
+    "test": "jest --env=jsdom --watch",
     "coverage": "razzle test --env=jsdom --coverage",
     "start:prod": "NODE_ENV=production node build/server.js",
     "lint": "tslint src",
@@ -87,6 +87,12 @@
     "typescript": "2.8.3"
   },
   "jest": {
+    "globals": {
+      "ts-jest": {
+        "useBabelrc": true
+      }
+    },
+    "setupFiles": ["./src/setupTests.js"],
     "transform": {
       ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js",
       "^.+\\.css$": "<rootDir>/node_modules/razzle/config/jest/cssTransform.js",
