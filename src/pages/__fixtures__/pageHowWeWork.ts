@@ -1,5 +1,6 @@
 export const pageHowWeWork = {
   __typename: 'PageHowWeWork',
+  contactTitle: 'Hör av dig till oss!',
   customersText:
     'Våra kunder har alla stora möjligheter att göra skillnad på sina marknader. De är förbi datorisering och har redan lagt upp alla sina formulär på webben. Nu är de ute efter digitalisering. Och det tar tid. Därför har vi ofta långa relationer med våra kunder. Ofta blir vi vänner längs vägen.',
   customersTitle: 'Långa strömmar, inte korta projekt',

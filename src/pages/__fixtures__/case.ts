@@ -9,6 +9,8 @@ export const workCase = {
   development:
     'Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum a nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras quis odio vel turpis pellentesque finibus. Pellentesque cursus diam ac ligula placerat volutpat. Vivamus dictum augue eu rutrum efficitur. Suspendisse ut pellentesque ante. Suspendisse odio velit, fringilla eu porta vel, elementum ac libero. Nam eu vestibulum magna. Vestibulum quis risus elementum, lobortis sapien at, rhoncus enim. Nam accumsan odio lacus, at facilisis lacus rhoncus vel. Suspendisse sollicitudin a ipsum at cursus.',
   developmentTitle: 'Utveckling',
+  frameworks: ['Docker', 'React', 'Vue', 'NodeJS', 'Mandrill'],
+  frameworksTitle: 'Tekniker vi använt',
   headerBgColor: '#1616B2',
   introduction:
     'Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum a nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras quis odio vel turpis pellentesque finibus. Pellentesque cursus diam ac ligula placerat volutpat. Vivamus dictum augue eu rutrum efficitur. Suspendisse ut pellentesque ante. Suspendisse odio velit, fringilla eu porta vel, elementum ac libero. Nam eu vestibulum magna. Vestibulum quis risus elementum, lobortis sapien at, rhoncus enim. Nam accumsan odio lacus, at facilisis lacus rhoncus vel. Suspendisse sollicitudin a ipsum at cursus.',

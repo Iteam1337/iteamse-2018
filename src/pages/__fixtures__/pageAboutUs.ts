@@ -1,5 +1,6 @@
 export const pageAboutUs = {
   __typename: 'PageAboutUs',
+  contactTitle: 'Hör av dig till oss!',
   funText:
     'Vi utvecklar din tjänst tillsammans med dig. Det blir mycket bättre så. Och roligare. För oss är det viktigt att ha kul. Därför väljer vi uppdrag med omsorg. Det blir liksom ett löfte till våra kunder: “Vi lovar att bara jobba med dig så länge vi tycker det är kul och brinner för det du gör”. Det lovar vi därför att då blir resultatet bättre.',
   funTitle: 'Ha kul',

@@ -38,6 +38,7 @@ export interface AboutPageQuery {
     headerText1: string | null,
     headerText2: string | null,
     headerTextBgColor: string | null,
+    contactTitle: string,
     funText: string,
     funTitle: string,
     goodText: string,
@@ -92,6 +93,7 @@ export interface CasesPageQuery {
     headerText1: string | null,
     headerText2: string | null,
     headerTextBgColor: string | null,
+    contactTitle: string,
     team: Array< string > | null,
   },
   cases:  Array< {
@@ -117,6 +119,7 @@ export interface HomePageQuery {
     codeLogo: string | null,
     codeSlug: string,
     codeLinkText: string,
+    contactTitle: string,
     cultureMobileImage: string | null,
     cultureText: string,
     cultureTitle: string,
@@ -140,6 +143,7 @@ export interface HowWeWorkPageQuery {
     headerText1: string | null,
     headerText2: string | null,
     headerTextBgColor: string | null,
+    contactTitle: string,
     customersText: string,
     customersTitle: string,
     hiringTitle: string | null,
@@ -201,6 +205,7 @@ export interface OperationsPageQuery {
     softwareText: string,
     softwareTitle: string,
     team: Array< string > | null,
+    contactTitle: string,
   },
 };
 
@@ -211,6 +216,7 @@ export interface TeamPageQuery {
     headerText1: string | null,
     headerText2: string | null,
     headerTextBgColor: string | null,
+    contactTitle: string,
     team: Array< string > | null,
   },
   team:  Array< {
@@ -257,6 +263,7 @@ export interface WorkPageQuery {
     headerText1: string | null,
     headerText2: string | null,
     headerTextBgColor: string | null,
+    contactTitle: string,
     team: Array< string > | null,
   },
   openpositions:  Array< {

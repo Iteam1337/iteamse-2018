@@ -18,6 +18,7 @@ export const ABOUT_PAGE_QUERY = gql`
       headerText1
       headerText2
       headerTextBgColor
+      contactTitle
       funText
       funTitle
       goodText
@@ -91,7 +92,11 @@ const About = () => {
               </Block>
             </GridColumn>
 
-            <Team bgColor="green" shortName={pageAboutUs.team} />
+            <Team
+              bgColor="green"
+              callToAction={pageAboutUs.contactTitle}
+              shortName={pageAboutUs.team}
+            />
           </>
         )
       }}

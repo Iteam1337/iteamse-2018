@@ -1,10 +1,12 @@
 import * as React from 'react'
 import styled, { colors, withProps } from '../../theme'
 import { GridColumnClean } from '../Grid/GridColumn'
+import H2 from '../Typography/H2'
 
 interface TeamMembersProps {
   bgColor: string
   teamMembers: number
+  callToAction?: string
 }
 
 interface WrapProps {
@@ -27,6 +29,10 @@ const Wrap = withProps<WrapProps>()(GridColumnClean.extend)`
   }
 `
 
+const Header = H2.extend`
+  margin-bottom: 50px;
+`
+
 interface MembersProps {
   teamMembers: number
 }
@@ -47,9 +53,11 @@ const TeamMembers: React.SFC<TeamMembersProps> = ({
   bgColor = colors.radicalRed,
   children,
   teamMembers,
+  callToAction,
 }) => {
   return (
     <Wrap bgColor={bgColor} teamMembers={teamMembers}>
+      {callToAction && <Header>{callToAction}</Header>}
       <Members teamMembers={teamMembers}>{children}</Members>
     </Wrap>
   )
