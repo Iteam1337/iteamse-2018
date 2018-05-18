@@ -175,6 +175,7 @@ export interface OpenPositionPageQuery {
     aboutUsTitle: string
     bonusKnowledge: string
     bonusKnowledgeTitle: string
+    contactTitle: string
     contentImage: string
     knowledge: string
     knowledgeTitle: string

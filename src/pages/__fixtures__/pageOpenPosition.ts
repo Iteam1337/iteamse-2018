@@ -9,6 +9,7 @@ export const pageOpenPosition = {
   bonusKnowledge:
     '- Kvantitativa researchmetoder (t.ex. enkäter och användningsdata i Google Analytics)\n- Förståelse för den tekniska miljö dina lösningar kommer att implementeras i (t.ex. grundläggande HTML och CSS)\n- Utbildning inom interaktionsdesign, människa-datorinteraktion, beteendevetenskap, kognitionspsykologi, digital design eller närliggande område',
   bonusKnowledgeTitle: 'Plus i kanten',
+  contactTitle: 'Frågor?',
   contentImage:
     '//images.ctfassets.net/rj4r6yfcesw5/62hgzE8G3ueMa2YSEuG4og/db2b643db6041f9d26936bc2d6006607/bleed_howwework.jpg',
   headerImage:

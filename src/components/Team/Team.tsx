@@ -56,7 +56,7 @@ const Team: React.SFC<TeamProps> = ({
             callToAction={callToAction}
           >
             {teamMembers.map(member => {
-              if (shortName.length === 2) {
+              if (shortName.length <= 2) {
                 return <TeamMemberDuo key={member.name} member={member} />
               }
 
