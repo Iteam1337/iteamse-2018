@@ -3,83 +3,83 @@
 exports[`components/Team renders TeamMember 1`] = `
 <div>
   <div
-    class="sc-ktHwxA ggfMng"
+    class="sc-cmTdod dRMODh"
   >
     <div>
       <div
-        class="sc-gGBfsJ bCMRTt"
+        class="sc-ktHwxA qJnSb"
       >
         <div
-          class="sc-jnlKLf KGMWu"
+          class="sc-cIShpX gwcFtF"
         >
           <div
-            class="sc-hqyNC dHGGno"
+            class="sc-bbmXgH dltjNi"
           >
             <a
-              class="sc-jbKcbu jtmPVf"
+              class="sc-gGBfsJ cNNKLH"
             >
               <img
-                class="sc-dNLxif AbRUK"
+                class="sc-jnlKLf ixkzHM"
                 data-testid="logo"
                 path="test-file-stub"
               />
             </a>
             <div
-              class="sc-jqCOkK fwnwkN"
+              class="sc-fYxtnH kHSMDi"
             >
               <a
-                class="sc-bbmXgH QyOrB"
+                class="sc-hEsumM fOvejy"
                 aria-current="false"
               >
                 Om oss
               </a>
               <a
-                class="sc-bbmXgH QyOrB"
+                class="sc-hEsumM fOvejy"
                 aria-current="false"
               >
                 Hur vi jobbar
               </a>
               <a
-                class="sc-bbmXgH QyOrB active-nav"
+                class="sc-hEsumM fOvejy active-nav"
                 aria-current="true"
               >
                 Teamet
               </a>
               <a
-                class="sc-bbmXgH QyOrB"
+                class="sc-hEsumM fOvejy"
                 aria-current="false"
               >
                 Våra case
               </a>
               <a
-                class="sc-bbmXgH QyOrB"
+                class="sc-hEsumM fOvejy"
                 aria-current="false"
               >
                 Jobba hos oss
               </a>
               <a
-                class="sc-bbmXgH QyOrB"
+                class="sc-hEsumM fOvejy"
                 aria-current="false"
               >
                 Drift & Support
               </a>
               <div
-                class="sc-uJMKN bnnHpz"
+                class="sc-tilXH cDiLuN"
               />
             </div>
           </div>
           <div
-            class="sc-fYxtnH ckldXV"
+            class="sc-kafWEX qcLQG"
           >
             <h1
-              class="sc-tilXH eEGIns"
+              class="sc-feJyhm cWnXVQ"
             >
               <span>
                 Rickard Laurin
               </span>
             </h1>
             <h1
-              class="sc-tilXH eEGIns"
+              class="sc-feJyhm cWnXVQ"
             >
               <span>
                 Webbutvecklare
@@ -129,11 +129,11 @@ exports[`components/Team renders TeamMember 1`] = `
               class="sc-bZQynM hmvJjY"
             >
               <ul
-                class="sc-hEsumM eSyLCU"
+                class="sc-iELTvK fIOULO"
               >
                 <li>
                   <a
-                    class="sc-cHGsZl hnBJQG"
+                    class="sc-hmzhuo jpMoub"
                     href="mailto:rickard.laurin@iteam.se"
                   >
                     rickard.laurin@iteam.se
