@@ -27,6 +27,8 @@ export const OPEN_POSITION_PAGE_QUERY = gql`
       knowledge
       knowledgeTitle
       location
+      perks
+      perksTitle
       role
       roleTitle
       team
@@ -82,6 +84,10 @@ const OpenPosition: React.SFC<RouteComponentProps<{ id: string }>> = ({
 
               <Block title={pageOpenPosition.aboutUsTitle}>
                 {pageOpenPosition.aboutUs}
+              </Block>
+
+              <Block title={pageOpenPosition.perksTitle}>
+                {pageOpenPosition.perks}
               </Block>
 
               <Block title={pageOpenPosition.technicalitiesTitle}>
