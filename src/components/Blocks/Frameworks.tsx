@@ -53,6 +53,10 @@ const getFrameworkIconUrl = (icon: string) => {
       return 'https://images.ctfassets.net/rj4r6yfcesw5/4RmR16im884ykaUgEaiscA/c0b0f2278827d738d060b1f5442d0bb5/mandrill.svg'
     case 'NodeJS':
       return 'https://images.ctfassets.net/rj4r6yfcesw5/3CIQ81A1M4EueKkYA8YgMY/f676e83c53791ccf15d3b35ab2e54fa6/node.svg'
+    case 'OpenShift':
+      return 'https://images.ctfassets.net/rj4r6yfcesw5/WymClub48oCM0cQKamAKS/fae217ee0644842facca93b7bb529181/openshift.svg'
+    case 'Angular':
+      return 'https://images.ctfassets.net/rj4r6yfcesw5/2wha2JlrsIcQG6U8AqO4AG/00a819c72ff868b1de138d42d2688238/angular.svg'
     default:
       return undefined
   }
