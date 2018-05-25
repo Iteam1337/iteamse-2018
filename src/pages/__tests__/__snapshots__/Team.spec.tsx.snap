@@ -22,7 +22,7 @@ exports[`components/Team renders Team 1`] = `
             />
           </a>
           <div
-            class="sc-kafWEX gmEnNk"
+            class="sc-kafWEX gSvfbn"
           >
             <a
               class="sc-iELTvK kJsLth"
@@ -108,10 +108,10 @@ exports[`components/Team renders Team 1`] = `
       </div>
     </div>
     <div
-      class="sc-hSdWYo kRCQOF"
+      class="sc-eHgmQL blpFcj"
     >
       <div
-        class="sc-cvbbAY fZmqpF"
+        class="sc-jWBwVP hTGZDK"
       >
         <div
           class="sc-dxgOiQ dJEuRm"
@@ -124,7 +124,7 @@ exports[`components/Team renders Team 1`] = `
             >
               <div>
                 <img
-                  class="sc-kpOJdX ecoryA"
+                  class="sc-kpOJdX iWkgFh"
                   alt="Cookie M"
                   src=""
                 />
@@ -169,7 +169,7 @@ exports[`components/Team renders Team 1`] = `
             >
               <div>
                 <img
-                  class="sc-kpOJdX ecoryA"
+                  class="sc-kpOJdX iWkgFh"
                   alt="Count van Count"
                   src=""
                 />
@@ -231,7 +231,7 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
             />
           </a>
           <div
-            class="sc-kafWEX gmEnNk"
+            class="sc-kafWEX gSvfbn"
           >
             <a
               class="sc-iELTvK kJsLth"
@@ -317,10 +317,10 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
       </div>
     </div>
     <div
-      class="sc-hSdWYo kRCQOF"
+      class="sc-eHgmQL blpFcj"
     >
       <div
-        class="sc-cvbbAY fZmqpF"
+        class="sc-jWBwVP hTGZDK"
       >
         <div
           class="sc-dxgOiQ dJEuRm"
@@ -333,7 +333,7 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
             >
               <div>
                 <img
-                  class="sc-kpOJdX ecoryA"
+                  class="sc-kpOJdX iWkgFh"
                   alt="Count van Count"
                   src=""
                 />
@@ -395,7 +395,7 @@ exports[`components/Team should handle changing location using mouse 1`] = `
             />
           </a>
           <div
-            class="sc-kafWEX gmEnNk"
+            class="sc-kafWEX gSvfbn"
           >
             <a
               class="sc-iELTvK kJsLth"
@@ -481,10 +481,10 @@ exports[`components/Team should handle changing location using mouse 1`] = `
       </div>
     </div>
     <div
-      class="sc-hSdWYo kRCQOF"
+      class="sc-eHgmQL blpFcj"
     >
       <div
-        class="sc-cvbbAY fZmqpF"
+        class="sc-jWBwVP hTGZDK"
       >
         <div
           class="sc-dxgOiQ dJEuRm"
@@ -497,7 +497,7 @@ exports[`components/Team should handle changing location using mouse 1`] = `
             >
               <div>
                 <img
-                  class="sc-kpOJdX ecoryA"
+                  class="sc-kpOJdX iWkgFh"
                   alt="Cookie M"
                   src=""
                 />
@@ -559,7 +559,7 @@ exports[`components/Team should not change using keyboard if not enter or space 
             />
           </a>
           <div
-            class="sc-kafWEX gmEnNk"
+            class="sc-kafWEX gSvfbn"
           >
             <a
               class="sc-iELTvK kJsLth"
@@ -645,10 +645,10 @@ exports[`components/Team should not change using keyboard if not enter or space 
       </div>
     </div>
     <div
-      class="sc-hSdWYo kRCQOF"
+      class="sc-eHgmQL blpFcj"
     >
       <div
-        class="sc-cvbbAY fZmqpF"
+        class="sc-jWBwVP hTGZDK"
       >
         <div
           class="sc-dxgOiQ dJEuRm"
@@ -661,7 +661,7 @@ exports[`components/Team should not change using keyboard if not enter or space 
             >
               <div>
                 <img
-                  class="sc-kpOJdX ecoryA"
+                  class="sc-kpOJdX iWkgFh"
                   alt="Cookie M"
                   src=""
                 />
@@ -706,7 +706,7 @@ exports[`components/Team should not change using keyboard if not enter or space 
             >
               <div>
                 <img
-                  class="sc-kpOJdX ecoryA"
+                  class="sc-kpOJdX iWkgFh"
                   alt="Count van Count"
                   src=""
                 />
