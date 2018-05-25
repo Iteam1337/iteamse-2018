@@ -5,7 +5,6 @@ import { GridColumnClean } from '../Grid/GridColumn'
 import Navigation from './Navigation'
 
 interface CaseHeaderProps {
-  bgColor: string | null
   caseBackgroundImage: string | null
   caseImage: string | null
   logo: string
