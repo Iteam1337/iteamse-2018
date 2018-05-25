@@ -6,27 +6,32 @@ import Navigation from './Navigation'
 
 interface CaseHeaderProps {
   bgColor: string | null
+  caseBackgroundImage: string | null
   caseImage: string | null
   logo: string
   tags: Array<string | null>
 }
 
 interface WrapProps {
-  bgColor: string | null
+  image?: string | null
 }
 
 const Wrap = withProps<WrapProps>()(GridColumnClean.extend)`
-  background-color: ${({ bgColor }) => bgColor};
-  height: 430px;
+  background-image: ${({ image }) => `url(${image})`};
+  background-size: cover;
+  display: block;
+  height: 480px;
+  padding: 30px;
 
-  @media (min-width: 481px) {
-    height: 700px;
+  @media (min-width: 1025px) {
+    display: grid;
+    height: 500px;
+    padding: 0px;
   }
 `
 
 const Content = styled.div`
   display: grid;
-  grid-template-rows: auto 1fr;
 `
 
 const Information = styled.div`
@@ -44,8 +49,13 @@ const Information = styled.div`
 
 const Meta = styled.div``
 const ProjectImage = styled.img`
+  margin-top: 100px;
   max-width: 100%;
   vertical-align: top;
+
+  @media (min-width: 1025px) {
+    margin-top: 50px;
+  }
 `
 const Logo = styled.img`
   margin-bottom: 40px;
@@ -63,38 +73,43 @@ const Tag = styled.div`
   background-color: rgba(255, 255, 255, 0.15);
   color: #fff;
   display: inline-block;
-  font-size: 16px;
+  font-size: 12px;
   margin-bottom: 10px;
-  padding: 10px 30px;
+  padding: 5px 10px;
   text-align: center;
 
   &:not(:last-child) {
     margin-right: 10px;
   }
+
+  @media (min-width: 1025px) {
+    font-size: 16px;
+    padding: 10px 30px;
+  }
 `
 
 const CaseImage = styled.div`
   align-items: center;
-  display: none;
-  height: 500px;
+  display: flex;
   justify-content: center;
-  width: 500px;
+  width: 300px;
 
   @media (min-width: 1025px) {
-    display: flex;
+    height: 500px;
+    width: 500px;
   }
 `
 
 const CaseHeader: React.SFC<CaseHeaderProps> = ({
-  bgColor,
+  caseBackgroundImage,
   caseImage,
   logo,
   tags,
 }) => {
   return (
-    <Wrap bgColor={bgColor} data-test="header-case">
+    <Wrap data-test="header-case" image={caseBackgroundImage}>
+      <Navigation />
       <Content>
-        <Navigation />
         <Information>
           <Meta>
             <Logo alt="" src={logo} />

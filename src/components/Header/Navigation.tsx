@@ -47,7 +47,7 @@ const NavigationItems = styled.div`
   padding-top: 40px;
   position: relative;
 
-  @media (min-width: 481px) {
+  @media (min-width: 1025px) {
     display: block;
   }
 `
