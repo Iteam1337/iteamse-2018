@@ -86,9 +86,19 @@ const CasePage: React.SFC<RouteComponentProps<{ slug: string }>> = ({
                 {workCase.aboutCompany}
               </Block>
 
-              <Block title={workCase.partnersTitle}>{workCase.partners}</Block>
+              {workCase.partners &&
+                workCase.partnersTitle && (
+                  <Block title={workCase.partnersTitle}>
+                    {workCase.partners}
+                  </Block>
+                )}
 
-              <Block title={workCase.contactTitle}>{workCase.contact}</Block>
+              {workCase.contact &&
+                workCase.contactTitle && (
+                  <Block title={workCase.contactTitle}>
+                    {workCase.contact}
+                  </Block>
+                )}
 
               {workCase.frameworks && (
                 <Frameworks
