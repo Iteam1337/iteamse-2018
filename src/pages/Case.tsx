@@ -59,7 +59,6 @@ const CasePage: React.SFC<RouteComponentProps<{ slug: string }>> = ({
         return (
           <>
             <CaseHeader
-              bgColor={workCase.headerBgColor}
               caseImage={workCase.casePageImage}
               caseBackgroundImage={workCase.casePageBackgroundImage}
               logo={workCase.logo}
