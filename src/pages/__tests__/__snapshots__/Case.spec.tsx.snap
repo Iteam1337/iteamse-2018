@@ -3,68 +3,68 @@
 exports[`components/Case renders Case 1`] = `
 <div>
   <div
-    class="sc-jKJlTe dsBMEe"
+    class="sc-jKJlTe gLSQSu"
     data-test="header-case"
   >
     <div
-      class="sc-eNQAEJ gJkmgd"
+      class="sc-bbmXgH dltjNi"
     >
+      <a
+        class="sc-gGBfsJ cNNKLH"
+      >
+        <img
+          class="sc-jnlKLf ixkzHM"
+          data-testid="logo"
+          path="test-file-stub"
+        />
+      </a>
       <div
-        class="sc-bbmXgH dltjNi"
+        class="sc-fYxtnH chrQKX"
       >
         <a
-          class="sc-gGBfsJ cNNKLH"
+          class="sc-hEsumM fOvejy"
+          aria-current="false"
         >
-          <img
-            class="sc-jnlKLf ixkzHM"
-            data-testid="logo"
-            path="test-file-stub"
-          />
+          Om oss
+        </a>
+        <a
+          class="sc-hEsumM fOvejy"
+          aria-current="false"
+        >
+          Hur vi jobbar
+        </a>
+        <a
+          class="sc-hEsumM fOvejy"
+          aria-current="false"
+        >
+          Teamet
+        </a>
+        <a
+          class="sc-hEsumM fOvejy active-nav"
+          aria-current="true"
+        >
+          Våra case
+        </a>
+        <a
+          class="sc-hEsumM fOvejy"
+          aria-current="false"
+        >
+          Jobba hos oss
+        </a>
+        <a
+          class="sc-hEsumM fOvejy"
+          aria-current="false"
+        >
+          Drift & Support
         </a>
         <div
-          class="sc-fYxtnH kHSMDi"
-        >
-          <a
-            class="sc-hEsumM fOvejy"
-            aria-current="false"
-          >
-            Om oss
-          </a>
-          <a
-            class="sc-hEsumM fOvejy"
-            aria-current="false"
-          >
-            Hur vi jobbar
-          </a>
-          <a
-            class="sc-hEsumM fOvejy"
-            aria-current="false"
-          >
-            Teamet
-          </a>
-          <a
-            class="sc-hEsumM fOvejy active-nav"
-            aria-current="true"
-          >
-            Våra case
-          </a>
-          <a
-            class="sc-hEsumM fOvejy"
-            aria-current="false"
-          >
-            Jobba hos oss
-          </a>
-          <a
-            class="sc-hEsumM fOvejy"
-            aria-current="false"
-          >
-            Drift & Support
-          </a>
-          <div
-            class="sc-tilXH cDiLuN"
-          />
-        </div>
+          class="sc-tilXH cDiLuN"
+        />
       </div>
+    </div>
+    <div
+      class="sc-eNQAEJ iSFLgg"
+    >
       <div
         class="sc-hMqMXs fikvLY"
       >
@@ -80,39 +80,39 @@ exports[`components/Case renders Case 1`] = `
             class="sc-hSdWYo bvMYOe"
           >
             <div
-              class="sc-eHgmQL hcOggK"
+              class="sc-eHgmQL hqriFT"
             >
               API
             </div>
             <div
-              class="sc-eHgmQL hcOggK"
+              class="sc-eHgmQL hqriFT"
             >
               Docker
             </div>
             <div
-              class="sc-eHgmQL hcOggK"
+              class="sc-eHgmQL hqriFT"
             >
               UX
             </div>
             <div
-              class="sc-eHgmQL hcOggK"
+              class="sc-eHgmQL hqriFT"
             >
               React
             </div>
             <div
-              class="sc-eHgmQL hcOggK"
+              class="sc-eHgmQL hqriFT"
             >
               Vue
             </div>
           </div>
         </div>
         <div
-          class="sc-cvbbAY goiKJf"
+          class="sc-cvbbAY bWQgTN"
         >
           <img
-            class="sc-kkGfuU boNqBP"
+            class="sc-kkGfuU iuVqCx"
             alt=""
-            src="//images.ctfassets.net/rj4r6yfcesw5/3Y7zZ25WbeOCU8w84kAEos/b97ff1899cf6f2e4dca0eb2b4f0d5a44/af.png"
+            src="//images.ctfassets.net/rj4r6yfcesw5/4cWj2fKl3GOQgSKss0IW0q/0b2322470ffb780b925c8e446e745540/af-cropped-by-aeo.png"
           />
         </div>
       </div>

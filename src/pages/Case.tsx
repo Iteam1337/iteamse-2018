@@ -17,7 +17,8 @@ export const CASE_PAGE_QUERY = gql`
       headerBgColor
       logo
       slug
-      thumbnailImage
+      casePageImage
+      casePageBackgroundImage
       frameworks
       frameworksTitle
       tags
@@ -58,8 +59,8 @@ const CasePage: React.SFC<RouteComponentProps<{ slug: string }>> = ({
         return (
           <>
             <CaseHeader
-              bgColor={workCase.headerBgColor}
-              caseImage={workCase.thumbnailImage}
+              caseImage={workCase.casePageImage}
+              caseBackgroundImage={workCase.casePageBackgroundImage}
               logo={workCase.logo}
               tags={workCase.tags}
             />
