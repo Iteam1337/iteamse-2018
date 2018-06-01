@@ -34,56 +34,60 @@ const Content = styled.div`
 `
 
 const Information = styled.div`
-  align-items: center;
-  align-self: flex-end;
   display: grid;
   grid-template-columns: 1fr;
-  grid-column-gap: 100px;
-  padding-bottom: 60px;
 
   @media (min-width: 1025px) {
-    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 60px;
+    grid-template-columns: 320px 1fr;
   }
 `
 
-const Meta = styled.div``
+const Meta = styled.div`
+  align-self: flex-end;
+  padding-bottom: 20px;
+
+  @media (min-width: 1025px) {
+    padding-bottom: 40px;
+  }
+`
+
 const ProjectImage = styled.img`
-  margin-top: 100px;
   max-width: 100%;
   vertical-align: top;
 
   @media (min-width: 1025px) {
-    margin-top: 50px;
+    margin-bottom: -80px;
   }
 `
+
 const Logo = styled.img`
-  margin-bottom: 40px;
-  max-width: 100%;
+  margin-bottom: 20px;
   vertical-align: top;
-`
 
-const Tags = styled.div`
   @media (min-width: 1025px) {
-    max-width: 70%;
+    margin-bottom: 40px;
   }
 `
+
+const Tags = styled.div``
 
 const Tag = styled.div`
   background-color: rgba(255, 255, 255, 0.15);
   color: #fff;
   display: inline-block;
   font-size: 12px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   padding: 5px 10px;
   text-align: center;
 
   &:not(:last-child) {
-    margin-right: 10px;
+    margin-right: 5px;
   }
 
   @media (min-width: 1025px) {
     font-size: 16px;
-    padding: 10px 30px;
+    padding: 10px;
   }
 `
 
@@ -91,12 +95,6 @@ const CaseImage = styled.div`
   align-items: center;
   display: flex;
   justify-content: center;
-  width: 300px;
-
-  @media (min-width: 1025px) {
-    height: 500px;
-    width: 500px;
-  }
 `
 
 const CaseHeader: React.SFC<CaseHeaderProps> = ({
@@ -111,7 +109,7 @@ const CaseHeader: React.SFC<CaseHeaderProps> = ({
       <Content>
         <Information>
           <Meta>
-            <Logo alt="" src={logo} />
+            <Logo alt="Logo" src={logo} />
             <Tags>
               {tags.map(
                 tag =>
