@@ -63,7 +63,8 @@ export interface CasePageQuery {
     headerBgColor: string | null
     logo: string
     slug: string
-    thumbnailImage: string | null
+    casePageImage: string | null
+    casePageBackgroundImage: string | null
     frameworks: Array<string | null> | null
     frameworksTitle: string
     tags: Array<string | null>
@@ -76,10 +77,10 @@ export interface CasePageQuery {
     developmentTitle: string
     aboutCompany: string
     aboutCompanyTitle: string
-    partners: string
-    partnersTitle: string
-    contact: string
-    contactTitle: string
+    partners: string | null
+    partnersTitle: string | null
+    contact: string | null
+    contactTitle: string | null
     team: Array<string> | null
     quote: string | null
     quotePerson: string | null

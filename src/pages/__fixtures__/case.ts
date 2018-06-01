@@ -3,6 +3,10 @@ export const workCase = {
   aboutCompany:
     'Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum a nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras quis odio vel turpis pellentesque finibus. Pellentesque cursus diam ac ligula placerat volutpat. Vivamus dictum augue eu rutrum efficitur. Suspendisse ut pellentesque ante. Suspendisse odio velit, fringilla eu porta vel, elementum ac libero. Nam eu vestibulum magna. Vestibulum quis risus elementum, lobortis sapien at, rhoncus enim. Nam accumsan odio lacus, at facilisis lacus rhoncus vel. Suspendisse sollicitudin a ipsum at cursus.',
   aboutCompanyTitle: 'Arbetsförmedlingen',
+  casePageBackgroundImage:
+    '//images.ctfassets.net/rj4r6yfcesw5/1jhHJfYCtO0MwAS6c6GwQS/fe0cdf95de0256b59f4c669b65bf0c5b/arbetsformedlingen_background.jpg',
+  casePageImage:
+    '//images.ctfassets.net/rj4r6yfcesw5/4cWj2fKl3GOQgSKss0IW0q/0b2322470ffb780b925c8e446e745540/af-cropped-by-aeo.png',
   contact:
     '- [Hans Rollman](mailto:hans.rollman@iteam.se)\n- Johan Littorin, Telenor, 0734 41 72 85',
   contactTitle: 'Presskontakt',
