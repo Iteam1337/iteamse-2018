@@ -37,26 +37,26 @@ const Framework = styled.div`
 `
 
 const FrameworkIcon = styled.img`
-  max-height: 50px;
+  max-height: 75px;
   padding: 25px;
 `
 
 const getFrameworkIconUrl = (icon: string) => {
   switch (icon) {
     case 'React':
-      return 'https://images.ctfassets.net/rj4r6yfcesw5/6Khn8L48laAoQuCkaouyQG/010beebb44b078c743eba23b829891b5/react.svg'
+      return 'https://images.ctfassets.net/rj4r6yfcesw5/6Khn8L48laAoQuCkaouyQG/08e4cf1fe02bd945c23807d5a8f29e87/react.png'
     case 'Docker':
-      return 'https://images.ctfassets.net/rj4r6yfcesw5/3ipy8GBepacEyeKM0weI0i/ac970f2117388796ff65e03bfe6aa920/docker.png'
+      return 'https://images.ctfassets.net/rj4r6yfcesw5/3ipy8GBepacEyeKM0weI0i/39509f189b3f80400357320c6def15ad/docker.png'
     case 'Vue':
-      return 'https://images.ctfassets.net/rj4r6yfcesw5/5EBgyxee0oiGqqOmAEmAUq/74ac41b3ca4fd0fc31c64bb8c0fe5329/vue.svg'
+      return 'https://images.ctfassets.net/rj4r6yfcesw5/5EBgyxee0oiGqqOmAEmAUq/af8d1ae7d3d578197205205b2c33e8ff/Vue.png'
     case 'Mandrill':
-      return 'https://images.ctfassets.net/rj4r6yfcesw5/4RmR16im884ykaUgEaiscA/c0b0f2278827d738d060b1f5442d0bb5/mandrill.svg'
+      return 'https://images.ctfassets.net/rj4r6yfcesw5/4RmR16im884ykaUgEaiscA/411607987ba022b96e9a29d000821aef/mandrill.png'
     case 'NodeJS':
-      return 'https://images.ctfassets.net/rj4r6yfcesw5/3CIQ81A1M4EueKkYA8YgMY/f676e83c53791ccf15d3b35ab2e54fa6/node.svg'
+      return 'https://images.ctfassets.net/rj4r6yfcesw5/3CIQ81A1M4EueKkYA8YgMY/ff59095490dd17d1ab74282447e0a213/nodejs.png'
     case 'OpenShift':
-      return 'https://images.ctfassets.net/rj4r6yfcesw5/WymClub48oCM0cQKamAKS/fae217ee0644842facca93b7bb529181/openshift.svg'
+      return 'https://images.ctfassets.net/rj4r6yfcesw5/WymClub48oCM0cQKamAKS/bbe053282064e046e66d2e8ea836d436/openshift.png'
     case 'Angular':
-      return 'https://images.ctfassets.net/rj4r6yfcesw5/2wha2JlrsIcQG6U8AqO4AG/00a819c72ff868b1de138d42d2688238/angular.svg'
+      return 'https://images.ctfassets.net/rj4r6yfcesw5/2wha2JlrsIcQG6U8AqO4AG/e0717b6245080eec7f8ecac638ee0793/angular.png'
     default:
       return undefined
   }

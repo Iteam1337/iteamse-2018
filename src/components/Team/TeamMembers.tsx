@@ -30,6 +30,7 @@ const Wrap = withProps<WrapProps>()(GridColumnClean.extend)`
 `
 
 const Header = H2.extend`
+  font-weight: 500;
   margin-bottom: 50px;
 `
 

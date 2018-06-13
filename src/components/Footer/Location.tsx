@@ -1,6 +1,7 @@
 import React from 'react'
 import { FooterQuery } from '../../../typings/iteamse'
 import styled from '../../theme'
+import NativeLink from '../Link/NativeLink'
 import UnstyledList from '../List/UnstyledList'
 
 interface LocationProps {
@@ -20,6 +21,17 @@ const Address = styled.div`
   margin-bottom: 20px;
 `
 
+const NativeLinkUnderlined = NativeLink.extend`
+  border-bottom: 2px solid;
+  color: black;
+  margin-bottom: 6px;
+  text-decoration: none;
+`
+
+const ContactMail = styled.li`
+  margin-bottom: 6px;
+`
+
 const Location: React.SFC<LocationProps> = ({ address }) => {
   return (
     <Wrap key={address.zip}>
@@ -34,7 +46,9 @@ const Location: React.SFC<LocationProps> = ({ address }) => {
       </Address>
       <UnstyledList>
         <li>{address.contactPhone}</li>
-        <li>{address.contactMail}</li>
+        <ContactMail>
+          <NativeLinkUnderlined>{address.contactMail}</NativeLinkUnderlined>
+        </ContactMail>
         <li>ORG: {address.orgNumber}</li>
       </UnstyledList>
     </Wrap>

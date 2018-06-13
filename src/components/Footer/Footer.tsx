@@ -63,6 +63,12 @@ const SocialMediaIcon = styled.img`
   margin-right: 15px;
 `
 
+const NativeLinkUnderlined = NativeLink.extend`
+  border-bottom: 2px solid;
+  color: black;
+  text-decoration: none;
+`
+
 class FooterQueryComponent extends Query<FooterQuery> {}
 
 const Footer = () => {
@@ -87,33 +93,33 @@ const Footer = () => {
                 <UnstyledList>
                   <SocialMediaItem>
                     <SocialMediaIcon src={iconFb} alt="" />
-                    <NativeLink href="https://www.facebook.com/iteam1337/">
+                    <NativeLinkUnderlined href="https://www.facebook.com/iteam1337/">
                       Facebook
-                    </NativeLink>
+                    </NativeLinkUnderlined>
                   </SocialMediaItem>
                   <SocialMediaItem>
                     <SocialMediaIcon src={iconInstagram} alt="" />
-                    <NativeLink href="https://instagram.com/iteam1337">
+                    <NativeLinkUnderlined href="https://instagram.com/iteam1337">
                       Instagram
-                    </NativeLink>
+                    </NativeLinkUnderlined>
                   </SocialMediaItem>
                   <SocialMediaItem>
                     <SocialMediaIcon src={iconLinkedin} alt="" />
-                    <NativeLink href="https://www.linkedin.com/company/270569/">
+                    <NativeLinkUnderlined href="https://www.linkedin.com/company/270569/">
                       LinkedIn
-                    </NativeLink>
+                    </NativeLinkUnderlined>
                   </SocialMediaItem>
                   <SocialMediaItem>
                     <SocialMediaIcon src={iconYoutube} alt="" />
-                    <NativeLink href="https://www.youtube.com/channel/UCU2TdLZ7p0jEuuGUxaod4lw">
+                    <NativeLinkUnderlined href="https://www.youtube.com/channel/UCU2TdLZ7p0jEuuGUxaod4lw">
                       YouTube
-                    </NativeLink>
+                    </NativeLinkUnderlined>
                   </SocialMediaItem>
                   <SocialMediaItem>
                     <SocialMediaIcon src={iconMynewsdesk} alt="" />
-                    <NativeLink href="http://www.mynewsdesk.com/se/iteam">
+                    <NativeLinkUnderlined href="http://www.mynewsdesk.com/se/iteam">
                       MyNewsDesk
-                    </NativeLink>
+                    </NativeLinkUnderlined>
                   </SocialMediaItem>
                 </UnstyledList>
               </SocialMedia>
