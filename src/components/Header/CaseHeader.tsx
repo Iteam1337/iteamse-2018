@@ -94,9 +94,22 @@ const Tag = styled.div`
 `
 
 const CaseImage = styled.div`
-  align-items: center;
-  display: flex;
-  justify-content: center;
+  display: none;
+
+  @media (min-width: 1025px) {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+`
+
+const CaseImageMobile = styled.div`
+  margin-top: -180px;
+  max-width: 420px;
+
+  @media (min-width: 1025px) {
+    display: none;
+  }
 `
 
 const CaseHeader: React.SFC<CaseHeaderProps> = ({
@@ -106,25 +119,30 @@ const CaseHeader: React.SFC<CaseHeaderProps> = ({
   tags,
 }) => {
   return (
-    <Wrap data-test="header-case" image={caseBackgroundImage}>
-      <Navigation />
-      <Content>
-        <Information>
-          <Meta>
-            <Logo alt="Logo" src={logo} />
-            <Tags>
-              {tags.map(
-                tag =>
-                  typeof tag === 'string' ? <Tag key={tag}>{tag}</Tag> : null
-              )}
-            </Tags>
-          </Meta>
-          <CaseImage>
-            {caseImage && <ProjectImage alt="" src={caseImage} />}
-          </CaseImage>
-        </Information>
-      </Content>
-    </Wrap>
+    <>
+      <Wrap data-test="header-case" image={caseBackgroundImage}>
+        <Navigation />
+        <Content>
+          <Information>
+            <Meta>
+              <Logo alt="Logo" src={logo} />
+              <Tags>
+                {tags.map(
+                  tag =>
+                    typeof tag === 'string' ? <Tag key={tag}>{tag}</Tag> : null
+                )}
+              </Tags>
+            </Meta>
+            <CaseImage>
+              {caseImage && <ProjectImage alt="" src={caseImage} />}
+            </CaseImage>
+          </Information>
+        </Content>
+      </Wrap>
+      <CaseImageMobile>
+        {caseImage && <ProjectImage alt="" src={caseImage} />}
+      </CaseImageMobile>
+    </>
   )
 }
 
