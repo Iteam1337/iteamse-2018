@@ -56,7 +56,7 @@ const getFrameworkIconUrl = (icon: string) => {
     case 'OpenShift':
       return 'https://images.ctfassets.net/rj4r6yfcesw5/WymClub48oCM0cQKamAKS/bbe053282064e046e66d2e8ea836d436/openshift.png'
     case 'Angular':
-      return 'https://images.ctfassets.net/rj4r6yfcesw5/2wha2JlrsIcQG6U8AqO4AG/e0717b6245080eec7f8ecac638ee0793/angular.png'
+      return 'https://images.ctfassets.net/rj4r6yfcesw5/2wha2JlrsIcQG6U8AqO4AG/549dd8cebb672517592aece9c0690c0c/angular.png'
     default:
       return undefined
   }
