@@ -13,10 +13,17 @@ import { ServerStyleSheet, ThemeProvider } from 'styled-components'
 import App from './App'
 import Html from './Html'
 import { theme } from './theme'
+import { redirectHelper } from './utils/serverHelpers'
 
 const server = express()
 
 server.use(compression())
+
+server.get(
+  '/*',
+  (req: express.Request, res: express.Response, next: express.NextFunction) =>
+    redirectHelper(req, res, next)
+)
 
 server
   .disable('x-powered-by')
