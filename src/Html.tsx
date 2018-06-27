@@ -47,7 +47,7 @@ const Html: React.SFC<HtmlProps> = ({ apolloState, content, styleTags }) => {
         )}
 
         {/* Global site tag (gtag.js) - Google Analytics */}
-        {!isProduction && (
+        {isProduction && (
           <>
             <script
               async
