@@ -44,6 +44,11 @@ const Content = styled.div`
   }
 `
 
+const Header = H2.extend`
+  font-weight: 500;
+  margin-bottom: 50px;
+`
+
 export const OperationsBanner: React.SFC<WithApolloClient<{}>> = ({
   client,
 }) => {
@@ -52,7 +57,7 @@ export const OperationsBanner: React.SFC<WithApolloClient<{}>> = ({
       <Overlay />
 
       <Content>
-        <H2>Visste du att vi även erbjuder drift & support?</H2>
+        <Header>Visste du att vi även erbjuder drift & support?</Header>
 
         <Button
           onMouseEnter={() =>
