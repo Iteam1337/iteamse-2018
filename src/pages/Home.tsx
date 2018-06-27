@@ -92,7 +92,11 @@ const StylizedIteam = styled.img`
 const CompanyLogo = styled.img`
   display: block;
   margin-bottom: 20px;
-  max-width: 60%;
+  max-width: 260px;
+
+  @media (min-width: 1025px) {
+    max-width: 60%;
+  }
 `
 
 const MobileImageWrap = styled.div`
