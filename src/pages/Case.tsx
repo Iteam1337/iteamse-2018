@@ -1,6 +1,7 @@
 import gql from 'graphql-tag'
 import * as React from 'react'
 import { Query } from 'react-apollo'
+import { Helmet } from 'react-helmet'
 import { RouteComponentProps, withRouter } from 'react-router-dom'
 import { CasePageQuery, CasePageQueryVariables } from '../../typings/iteamse'
 import Block from '../components/Blocks/Block'
@@ -58,6 +59,9 @@ const CasePage: React.SFC<RouteComponentProps<{ slug: string }>> = ({
 
         return (
           <>
+            <Helmet>
+              <title>Iteam - There's a better way | {workCase.title}</title>
+            </Helmet>
             <CaseHeader
               caseImage={workCase.casePageImage}
               caseBackgroundImage={workCase.casePageBackgroundImage}

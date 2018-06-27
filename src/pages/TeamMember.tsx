@@ -1,6 +1,7 @@
 import gql from 'graphql-tag'
 import * as React from 'react'
 import { Query } from 'react-apollo'
+import { Helmet } from 'react-helmet'
 import { RouteComponentProps, withRouter } from 'react-router-dom'
 import { TeamMemberPageQuery } from '../../typings/iteamse'
 import Block from '../components/Blocks/Block'
@@ -63,45 +64,52 @@ const TeamMemberPage: React.SFC<RouteComponentProps<{ shortName: string }>> = ({
         }
 
         return (
-          <TeamMember>
-            <Header
-              backgroundImage={teamMember.headerImage}
-              messageBgColor={teamMember.headerTextBgColor}
-              messageOne={teamMember.name}
-              messageTwo={teamMember.title}
-            />
+          <>
+            <Helmet>
+              <title>Iteam - There's a better way | {teamMember.name}</title>
+            </Helmet>
+            <TeamMember>
+              <Header
+                backgroundImage={teamMember.headerImage}
+                messageBgColor={teamMember.headerTextBgColor}
+                messageOne={teamMember.name}
+                messageTwo={teamMember.title}
+              />
 
-            <GridColumn>
-              <Breadcrumbs title={teamMember.name} />
+              <GridColumn>
+                <Breadcrumbs title={teamMember.name} />
 
-              <Block title="Kontakt">
-                <UnstyledList>
-                  {teamMember.phoneNumber && (
+                <Block title="Kontakt">
+                  <UnstyledList>
+                    {teamMember.phoneNumber && (
+                      <li>
+                        <PhoneNumber phoneNumber={teamMember.phoneNumber}>
+                          {teamMember.phoneNumber}
+                        </PhoneNumber>
+                      </li>
+                    )}
                     <li>
-                      <PhoneNumber phoneNumber={teamMember.phoneNumber}>
-                        {teamMember.phoneNumber}
-                      </PhoneNumber>
+                      <Mailto email={teamMember.email}>
+                        {teamMember.email}
+                      </Mailto>
                     </li>
-                  )}
-                  <li>
-                    <Mailto email={teamMember.email}>{teamMember.email}</Mailto>
-                  </li>
-                </UnstyledList>
-              </Block>
+                  </UnstyledList>
+                </Block>
 
-              <Block title={teamMember.whyTitle}>{teamMember.why}</Block>
+                <Block title={teamMember.whyTitle}>{teamMember.why}</Block>
 
-              <Block title={teamMember.backgroundTitle}>
-                {teamMember.background}
-              </Block>
+                <Block title={teamMember.backgroundTitle}>
+                  {teamMember.background}
+                </Block>
 
-              <Block title={teamMember.competenceTitle}>
-                {teamMember.competence}
-              </Block>
-            </GridColumn>
+                <Block title={teamMember.competenceTitle}>
+                  {teamMember.competence}
+                </Block>
+              </GridColumn>
 
-            <Team bgColor="green" shortName={teamMember.team} />
-          </TeamMember>
+              <Team bgColor="green" shortName={teamMember.team} />
+            </TeamMember>
+          </>
         )
       }}
     </TeamMemberQuery>

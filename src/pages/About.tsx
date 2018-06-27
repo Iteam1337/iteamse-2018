@@ -1,6 +1,7 @@
 import gql from 'graphql-tag'
 import * as React from 'react'
 import { Query } from 'react-apollo'
+import { Helmet } from 'react-helmet'
 import { AboutPageQuery } from '../../typings/iteamse'
 import Block from '../components/Blocks/Block'
 import ImageBleed from '../components/Blocks/ImageBleed'
@@ -52,55 +53,62 @@ class AboutQuery extends Query<AboutPageQuery> {}
 
 const About = () => {
   return (
-    <AboutQuery query={ABOUT_PAGE_QUERY}>
-      {({ loading, data }) => {
-        if (loading || !data) {
-          return null
-        }
+    <>
+      <Helmet>
+        <title>Iteam - There's a better way | Om oss</title>
+      </Helmet>
+      <AboutQuery query={ABOUT_PAGE_QUERY}>
+        {({ loading, data }) => {
+          if (loading || !data) {
+            return null
+          }
 
-        const { pageAboutUs } = data
+          const { pageAboutUs } = data
 
-        return (
-          <>
-            <Header
-              backgroundImage={pageAboutUs.headerImage}
-              messageBgColor={pageAboutUs.headerTextBgColor}
-              messageOne={pageAboutUs.headerText1}
-              messageTwo={pageAboutUs.headerText2}
-            />
+          return (
+            <>
+              <Header
+                backgroundImage={pageAboutUs.headerImage}
+                messageBgColor={pageAboutUs.headerTextBgColor}
+                messageOne={pageAboutUs.headerText1}
+                messageTwo={pageAboutUs.headerText2}
+              />
 
-            <GridColumn>
-              <Block title={pageAboutUs.valueTitle}>
-                {pageAboutUs.valueText}
-              </Block>
-              <Block title={pageAboutUs.funTitle}>{pageAboutUs.funText}</Block>
-              <ImageBlock image={aboutUsImage} />
-              <Block title={pageAboutUs.goodTitle}>
-                {pageAboutUs.goodText}
-              </Block>
-              <ImageBleed image={pageAboutUs.imageBleed} />
-              <Block title={pageAboutUs.stabilityTitle}>
-                {pageAboutUs.stabilityText}
+              <GridColumn>
+                <Block title={pageAboutUs.valueTitle}>
+                  {pageAboutUs.valueText}
+                </Block>
+                <Block title={pageAboutUs.funTitle}>
+                  {pageAboutUs.funText}
+                </Block>
+                <ImageBlock image={aboutUsImage} />
+                <Block title={pageAboutUs.goodTitle}>
+                  {pageAboutUs.goodText}
+                </Block>
+                <ImageBleed image={pageAboutUs.imageBleed} />
+                <Block title={pageAboutUs.stabilityTitle}>
+                  {pageAboutUs.stabilityText}
 
-                <StabilityIcons>
-                  {pageAboutUs.stabilityIcons.map(icon => {
-                    return typeof icon === 'string' ? (
-                      <StabilityIcon alt="" key={icon} src={icon} />
-                    ) : null
-                  })}
-                </StabilityIcons>
-              </Block>
-            </GridColumn>
+                  <StabilityIcons>
+                    {pageAboutUs.stabilityIcons.map(icon => {
+                      return typeof icon === 'string' ? (
+                        <StabilityIcon alt="" key={icon} src={icon} />
+                      ) : null
+                    })}
+                  </StabilityIcons>
+                </Block>
+              </GridColumn>
 
-            <Team
-              bgColor="green"
-              callToAction={pageAboutUs.contactTitle}
-              shortName={pageAboutUs.team}
-            />
-          </>
-        )
-      }}
-    </AboutQuery>
+              <Team
+                bgColor="green"
+                callToAction={pageAboutUs.contactTitle}
+                shortName={pageAboutUs.team}
+              />
+            </>
+          )
+        }}
+      </AboutQuery>
+    </>
   )
 }
 

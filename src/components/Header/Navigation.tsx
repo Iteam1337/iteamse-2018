@@ -10,6 +10,7 @@ import { OPERATIONS_PAGE_QUERY } from '../../pages/Ops'
 import { TEAM_PAGE_QUERY } from '../../pages/Team'
 import { WORK_PAGE_QUERY } from '../../pages/Work'
 import styled, { injectGlobal, keyframes, withProps } from '../../theme'
+import { set } from './../../utils/googleAnalytics'
 import logo from './img/iteam.svg'
 
 interface NavigationState {
@@ -177,13 +178,17 @@ export class Navigation extends React.Component<
 
     return (
       <Wrap>
-        <LogoLink onMouseEnter={this.prefetchPage('home')} to="/">
+        <LogoLink
+          onClick={() => set('start')}
+          onMouseEnter={this.prefetchPage('home')}
+          to="/"
+        >
           <Logo data-testid="logo" path={logo} />
         </LogoLink>
-
         <NavigationItems>
           <StyledLink
             activeClassName="active-nav"
+            onClick={() => set('om-oss')}
             onMouseEnter={this.prefetchPage('about')}
             to="/om-oss"
           >
@@ -191,6 +196,7 @@ export class Navigation extends React.Component<
           </StyledLink>
           <StyledLink
             activeClassName="active-nav"
+            onClick={() => set('hur-vi-jobbar')}
             onMouseEnter={this.prefetchPage('how-we-work')}
             to="/hur-vi-jobbar"
           >
@@ -198,6 +204,7 @@ export class Navigation extends React.Component<
           </StyledLink>
           <StyledLink
             activeClassName="active-nav"
+            onClick={() => set('teamet')}
             onMouseEnter={this.prefetchPage('team')}
             to="/teamet"
           >
@@ -205,6 +212,7 @@ export class Navigation extends React.Component<
           </StyledLink>
           <StyledLink
             activeClassName="active-nav"
+            onClick={() => set('case')}
             onMouseEnter={this.prefetchPage('case')}
             to="/case"
           >
@@ -212,6 +220,7 @@ export class Navigation extends React.Component<
           </StyledLink>
           <StyledLink
             activeClassName="active-nav"
+            onClick={() => set('jobba-hos-oss')}
             onMouseEnter={this.prefetchPage('work')}
             to="/jobba-hos-oss"
           >
@@ -219,6 +228,7 @@ export class Navigation extends React.Component<
           </StyledLink>
           <StyledLink
             activeClassName="active-nav"
+            onClick={() => set('ops')}
             onMouseEnter={this.prefetchPage('ops')}
             to="/ops"
           >

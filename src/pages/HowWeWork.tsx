@@ -1,6 +1,7 @@
 import gql from 'graphql-tag'
 import * as React from 'react'
 import { Query } from 'react-apollo'
+import { Helmet } from 'react-helmet'
 import { HowWeWorkPageQuery } from '../../typings/iteamse'
 import Block from '../components/Blocks/Block'
 import ImageBleed from '../components/Blocks/ImageBleed'
@@ -38,50 +39,55 @@ class HowWeWorkQuery extends Query<HowWeWorkPageQuery> {}
 
 const HowWeWork = () => {
   return (
-    <HowWeWorkQuery query={HOW_WE_WORK_PAGE_QUERY}>
-      {({ loading, data }) => {
-        if (loading || !data) {
-          return null
-        }
+    <>
+      <Helmet>
+        <title>Iteam - There's a better way | Hur vi jobbar</title>
+      </Helmet>
+      <HowWeWorkQuery query={HOW_WE_WORK_PAGE_QUERY}>
+        {({ loading, data }) => {
+          if (loading || !data) {
+            return null
+          }
 
-        const { pageHowWeWork } = data
+          const { pageHowWeWork } = data
 
-        return (
-          <>
-            <Header
-              backgroundImage={pageHowWeWork.headerImage}
-              messageBgColor={pageHowWeWork.headerTextBgColor}
-              messageOne={pageHowWeWork.headerText1}
-              messageTwo={pageHowWeWork.headerText2}
-            />
+          return (
+            <>
+              <Header
+                backgroundImage={pageHowWeWork.headerImage}
+                messageBgColor={pageHowWeWork.headerTextBgColor}
+                messageOne={pageHowWeWork.headerText1}
+                messageTwo={pageHowWeWork.headerText2}
+              />
 
-            <GridColumn>
-              <Block title={pageHowWeWork.teamTitle}>
-                {pageHowWeWork.teamText}
-              </Block>
-              <ImageBlock image={howWeWorkImage} />
-              <Block title={pageHowWeWork.methodTitle}>
-                {pageHowWeWork.methodText}
-              </Block>
-              <ImageBleed image={pageHowWeWork.imageBleed} />
-              <Block title={pageHowWeWork.sharingTitle}>
-                {pageHowWeWork.sharingText}
-              </Block>
-              <ImageBlock image={howWeWorkImage2} />
-              <Block title={pageHowWeWork.customersTitle}>
-                {pageHowWeWork.customersText}
-              </Block>
-            </GridColumn>
+              <GridColumn>
+                <Block title={pageHowWeWork.teamTitle}>
+                  {pageHowWeWork.teamText}
+                </Block>
+                <ImageBlock image={howWeWorkImage} />
+                <Block title={pageHowWeWork.methodTitle}>
+                  {pageHowWeWork.methodText}
+                </Block>
+                <ImageBleed image={pageHowWeWork.imageBleed} />
+                <Block title={pageHowWeWork.sharingTitle}>
+                  {pageHowWeWork.sharingText}
+                </Block>
+                <ImageBlock image={howWeWorkImage2} />
+                <Block title={pageHowWeWork.customersTitle}>
+                  {pageHowWeWork.customersText}
+                </Block>
+              </GridColumn>
 
-            <Team
-              bgColor="blue"
-              callToAction={pageHowWeWork.contactTitle}
-              shortName={pageHowWeWork.team}
-            />
-          </>
-        )
-      }}
-    </HowWeWorkQuery>
+              <Team
+                bgColor="blue"
+                callToAction={pageHowWeWork.contactTitle}
+                shortName={pageHowWeWork.team}
+              />
+            </>
+          )
+        }}
+      </HowWeWorkQuery>
+    </>
   )
 }
 

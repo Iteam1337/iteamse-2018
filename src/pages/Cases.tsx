@@ -1,6 +1,7 @@
 import gql from 'graphql-tag'
 import * as React from 'react'
 import { Query } from 'react-apollo'
+import { Helmet } from 'react-helmet'
 import styled from 'styled-components'
 import { CasesPageQuery } from '../../typings/iteamse'
 import GridColumn from '../components/Grid/GridColumn'
@@ -8,6 +9,7 @@ import PaddedRow from '../components/Grid/PaddedRow'
 import Header from '../components/Header/Header'
 import PrefetchLink from '../components/Link/PrefetchLink'
 import Team from '../components/Team/Team'
+import { set } from '../utils/googleAnalytics'
 import { CASE_PAGE_QUERY } from './Case'
 
 export const CASES_PAGE_QUERY = gql`
@@ -94,67 +96,73 @@ class CasesQuery extends Query<CasesPageQuery> {}
 
 export const CasePage = () => {
   return (
-    <CasesQuery query={CASES_PAGE_QUERY}>
-      {({ loading, data }) => {
-        if (loading || !data) {
-          return null
-        }
+    <>
+      <Helmet>
+        <title>Iteam - There's a better way | Case</title>
+      </Helmet>
+      <CasesQuery query={CASES_PAGE_QUERY}>
+        {({ loading, data }) => {
+          if (loading || !data) {
+            return null
+          }
 
-        const { pageCases, cases } = data
+          const { pageCases, cases } = data
 
-        return (
-          <>
-            <Header
-              backgroundImage={pageCases.headerImage}
-              messageBgColor={pageCases.headerTextBgColor}
-              messageOne={pageCases.headerText1}
-              messageTwo={pageCases.headerText2}
-            />
+          return (
+            <>
+              <Header
+                backgroundImage={pageCases.headerImage}
+                messageBgColor={pageCases.headerTextBgColor}
+                messageOne={pageCases.headerText1}
+                messageTwo={pageCases.headerText2}
+              />
 
-            <GridColumn>
-              <Cases>
-                {cases.map(workCase => {
-                  if (!workCase) {
-                    return null
-                  }
+              <GridColumn>
+                <Cases>
+                  {cases.map(workCase => {
+                    if (!workCase) {
+                      return null
+                    }
 
-                  return (
-                    <CaseLink
-                      query={CASE_PAGE_QUERY}
-                      key={workCase.title}
-                      to={`/case/${workCase.slug}`}
-                      variables={{
-                        slug: workCase.slug,
-                      }}
-                    >
-                      <Case>
-                        <CaseImageWrap>
-                          {workCase.thumbnailImage && (
-                            <CaseImage src={workCase.thumbnailImage} alt="" />
-                          )}
-                        </CaseImageWrap>
-                        <Meta>
-                          <Title>{workCase.title}</Title>
-                          <ShortDescription>
-                            {workCase.shortDescription}
-                          </ShortDescription>
-                        </Meta>
-                      </Case>
-                    </CaseLink>
-                  )
-                })}
-              </Cases>
-            </GridColumn>
+                    return (
+                      <CaseLink
+                        query={CASE_PAGE_QUERY}
+                        key={workCase.title}
+                        onClick={() => set(`/case/${workCase.slug}`)}
+                        to={`/case/${workCase.slug}`}
+                        variables={{
+                          slug: workCase.slug,
+                        }}
+                      >
+                        <Case>
+                          <CaseImageWrap>
+                            {workCase.thumbnailImage && (
+                              <CaseImage src={workCase.thumbnailImage} alt="" />
+                            )}
+                          </CaseImageWrap>
+                          <Meta>
+                            <Title>{workCase.title}</Title>
+                            <ShortDescription>
+                              {workCase.shortDescription}
+                            </ShortDescription>
+                          </Meta>
+                        </Case>
+                      </CaseLink>
+                    )
+                  })}
+                </Cases>
+              </GridColumn>
 
-            <Team
-              bgColor="green"
-              callToAction={pageCases.contactTitle}
-              shortName={pageCases.team}
-            />
-          </>
-        )
-      }}
-    </CasesQuery>
+              <Team
+                bgColor="green"
+                callToAction={pageCases.contactTitle}
+                shortName={pageCases.team}
+              />
+            </>
+          )
+        }}
+      </CasesQuery>
+    </>
   )
 }
 

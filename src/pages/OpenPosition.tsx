@@ -1,6 +1,7 @@
 import gql from 'graphql-tag'
 import * as React from 'react'
 import { Query } from 'react-apollo'
+import { Helmet } from 'react-helmet'
 import { RouteComponentProps, withRouter } from 'react-router-dom'
 import { OpenPositionPageQuery } from '../../typings/iteamse'
 import Block from '../components/Blocks/Block'
@@ -59,6 +60,13 @@ const OpenPosition: React.SFC<RouteComponentProps<{ id: string }>> = ({
 
         return (
           <>
+            <Helmet>
+              <title>
+                Iteam - There's a better way | {pageOpenPosition.headerText1} | {
+                  pageOpenPosition.headerText2
+                }
+              </title>
+            </Helmet>
             <Header
               backgroundImage={pageOpenPosition.headerImage}
               messageBgColor={pageOpenPosition.headerTextBgColor}
