@@ -7,9 +7,9 @@ export const redirectHelper = (
   next: express.NextFunction
 ) => {
   const { path } = req
+
   // Only redirect if it's an old route
   const shouldRedirect = checkForRedirect(path)
-  console.log('path, shouldRedirect: ', path, shouldRedirect)
 
   if (shouldRedirect) {
     const redirectTo = handlePaths(path)
@@ -22,7 +22,6 @@ export const redirectHelper = (
 }
 
 export const checkForRedirect = (path: string) => {
-  console.log('checkForRedirect: ', path)
   const oldPaths = [
     '/cases',
     '/operations',
@@ -33,7 +32,7 @@ export const checkForRedirect = (path: string) => {
   ]
   if (
     oldPaths.includes(path) ||
-    /(^\/team\/?)/g.test(path) ||
+    /(^\/team\/)/g.test(path) ||
     /(^\/career\/?)/g.test(path)
   ) {
     return true
@@ -43,7 +42,7 @@ export const checkForRedirect = (path: string) => {
 }
 
 export const handlePaths = (path: string) => {
-  if (/(^\/team\/?)/g.test(path) && path.length > 5) {
+  if (/(^\/team\/)/g.test(path)) {
     return getTeamMemberPath(path)
   }
 
@@ -71,9 +70,7 @@ export const handlePaths = (path: string) => {
 
 export const getTeamMemberPath = (path: string) => {
   const memberName = path.replace('/team/', '')
-  console.log('XXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-  console.log('in getTeamMemberPath: ', path, memberName)
-  console.log('XXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+
   const memberAbbreviated = teamMembers[memberName]
   const newTeamMemberPath = `/teamet/${memberAbbreviated}`
 
