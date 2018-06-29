@@ -10,6 +10,7 @@ import Team from '../components/Team/Team'
 import TeamMembers from '../components/Team/TeamMembers'
 import TeamPageMember from '../components/Team/TeamPageMember'
 import { filterByLocation } from '../utils/filterByLocation'
+import { set } from '../utils/googleAnalytics'
 
 export const TEAM_PAGE_QUERY = gql`
   query TeamPage {
@@ -35,54 +36,60 @@ export const TEAM_PAGE_QUERY = gql`
 
 class TeamQuery extends Query<TeamPageQuery> {}
 
-const TeamPage = () => {
-  return (
-    <>
-      <Helmet>
-        <title>Iteam - There's a better way | Om oss</title>
-      </Helmet>
-      <TeamQuery query={TEAM_PAGE_QUERY}>
-        {({ loading, data }) => {
-          if (loading || !data) {
-            return null
-          }
+export class TeamPage extends React.Component {
+  componentDidMount() {
+    set('teamet')
+  }
 
-          const { pageTeam, team } = data
+  render() {
+    return (
+      <>
+        <Helmet>
+          <title>Iteam - There's a better way | Teamet</title>
+        </Helmet>
+        <TeamQuery query={TEAM_PAGE_QUERY}>
+          {({ loading, data }) => {
+            if (loading || !data) {
+              return null
+            }
 
-          return (
-            <React.Fragment>
-              <Header
-                backgroundImage={pageTeam.headerImage}
-                messageBgColor={pageTeam.headerTextBgColor}
-                messageOne={pageTeam.headerText1}
-                messageTwo={pageTeam.headerText2}
-              />
+            const { pageTeam, team } = data
 
-              <GridColumn>
-                <FilterByLocation>
-                  {location => (
-                    <TeamMembers bgColor="#fff" teamMembers={team.length}>
-                      {team
-                        .filter(filterByLocation(location))
-                        .map(member => (
-                          <TeamPageMember key={member.name} member={member} />
-                        ))}
-                    </TeamMembers>
-                  )}
-                </FilterByLocation>
-              </GridColumn>
+            return (
+              <React.Fragment>
+                <Header
+                  backgroundImage={pageTeam.headerImage}
+                  messageBgColor={pageTeam.headerTextBgColor}
+                  messageOne={pageTeam.headerText1}
+                  messageTwo={pageTeam.headerText2}
+                />
 
-              <Team
-                bgColor="red"
-                callToAction={pageTeam.contactTitle}
-                shortName={pageTeam.team}
-              />
-            </React.Fragment>
-          )
-        }}
-      </TeamQuery>
-    </>
-  )
+                <GridColumn>
+                  <FilterByLocation>
+                    {location => (
+                      <TeamMembers bgColor="#fff" teamMembers={team.length}>
+                        {team
+                          .filter(filterByLocation(location))
+                          .map(member => (
+                            <TeamPageMember key={member.name} member={member} />
+                          ))}
+                      </TeamMembers>
+                    )}
+                  </FilterByLocation>
+                </GridColumn>
+
+                <Team
+                  bgColor="red"
+                  callToAction={pageTeam.contactTitle}
+                  shortName={pageTeam.team}
+                />
+              </React.Fragment>
+            )
+          }}
+        </TeamQuery>
+      </>
+    )
+  }
 }
 
 export default TeamPage

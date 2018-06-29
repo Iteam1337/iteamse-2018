@@ -13,6 +13,7 @@ import PhoneNumber from '../components/Link/PhoneNumber'
 import UnstyledList from '../components/List/UnstyledList'
 import Team from '../components/Team/Team'
 import styled from '../theme'
+import { set } from '../utils/googleAnalytics'
 
 export const TEAM_MEMBER_PAGE_QUERY = gql`
   query TeamMemberPage($shortName: String!) {
@@ -44,76 +45,83 @@ const TeamMember = styled.div`
 
 class TeamMemberQuery extends Query<TeamMemberPageQuery> {}
 
-const TeamMemberPage: React.SFC<RouteComponentProps<{ shortName: string }>> = ({
-  match,
-}) => {
-  return (
-    <TeamMemberQuery
-      query={TEAM_MEMBER_PAGE_QUERY}
-      variables={{ shortName: match.params.shortName }}
-    >
-      {({ loading, data }) => {
-        if (loading || !data) {
-          return null
-        }
+export class TeamMemberPage extends React.Component<
+  RouteComponentProps<{ match: string; shortName: string }>
+> {
+  componentDidMount() {
+    set(this.props.location.pathname)
+  }
 
-        const { teamMember } = data
+  render() {
+    const { match } = this.props
+    return (
+      <TeamMemberQuery
+        query={TEAM_MEMBER_PAGE_QUERY}
+        variables={{ shortName: match.params.shortName }}
+      >
+        {({ loading, data }) => {
+          if (loading || !data) {
+            return null
+          }
 
-        if (!teamMember) {
-          return <div>Teammedlemmen existerar inte</div>
-        }
+          const { teamMember } = data
 
-        return (
-          <>
-            <Helmet>
-              <title>Iteam - There's a better way | {teamMember.name}</title>
-            </Helmet>
-            <TeamMember>
-              <Header
-                backgroundImage={teamMember.headerImage}
-                messageBgColor={teamMember.headerTextBgColor}
-                messageOne={teamMember.name}
-                messageTwo={teamMember.title}
-              />
+          if (!teamMember) {
+            return <div>Teammedlemmen existerar inte</div>
+          }
 
-              <GridColumn>
-                <Breadcrumbs title={teamMember.name} />
+          return (
+            <>
+              <Helmet>
+                <title>Iteam - There's a better way | {teamMember.name}</title>
+              </Helmet>
+              <TeamMember>
+                <Header
+                  backgroundImage={teamMember.headerImage}
+                  messageBgColor={teamMember.headerTextBgColor}
+                  messageOne={teamMember.name}
+                  messageTwo={teamMember.title}
+                />
 
-                <Block title="Kontakt">
-                  <UnstyledList>
-                    {teamMember.phoneNumber && (
+                <GridColumn>
+                  <Breadcrumbs title={teamMember.name} />
+
+                  <Block title="Kontakt">
+                    <UnstyledList>
+                      {teamMember.phoneNumber && (
+                        <li>
+                          <PhoneNumber phoneNumber={teamMember.phoneNumber}>
+                            {teamMember.phoneNumber}
+                          </PhoneNumber>
+                        </li>
+                      )}
                       <li>
-                        <PhoneNumber phoneNumber={teamMember.phoneNumber}>
-                          {teamMember.phoneNumber}
-                        </PhoneNumber>
+                        <Mailto email={teamMember.email}>
+                          {teamMember.email}
+                        </Mailto>
                       </li>
-                    )}
-                    <li>
-                      <Mailto email={teamMember.email}>
-                        {teamMember.email}
-                      </Mailto>
-                    </li>
-                  </UnstyledList>
-                </Block>
+                    </UnstyledList>
+                  </Block>
 
-                <Block title={teamMember.whyTitle}>{teamMember.why}</Block>
+                  <Block title={teamMember.whyTitle}>{teamMember.why}</Block>
 
-                <Block title={teamMember.backgroundTitle}>
-                  {teamMember.background}
-                </Block>
+                  <Block title={teamMember.backgroundTitle}>
+                    {teamMember.background}
+                  </Block>
 
-                <Block title={teamMember.competenceTitle}>
-                  {teamMember.competence}
-                </Block>
-              </GridColumn>
+                  <Block title={teamMember.competenceTitle}>
+                    {teamMember.competence}
+                  </Block>
+                </GridColumn>
 
-              <Team bgColor="green" shortName={teamMember.team} />
-            </TeamMember>
-          </>
-        )
-      }}
-    </TeamMemberQuery>
-  )
+                <Team bgColor="green" shortName={teamMember.team} />
+              </TeamMember>
+            </>
+          )
+        }}
+      </TeamMemberQuery>
+    )
+  }
 }
 
 export default withRouter(TeamMemberPage)

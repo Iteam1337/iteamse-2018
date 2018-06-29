@@ -10,6 +10,7 @@ import GridColumn from '../components/Grid/GridColumn'
 import Header from '../components/Header/Header'
 import Team from '../components/Team/Team'
 import styled from '../theme'
+import { set } from '../utils/googleAnalytics'
 import aboutUsImage from './img/illustrations-group-1.svg'
 
 export const ABOUT_PAGE_QUERY = gql`
@@ -51,65 +52,71 @@ const StabilityIcon = styled.img`
 
 class AboutQuery extends Query<AboutPageQuery> {}
 
-const About = () => {
-  return (
-    <>
-      <Helmet>
-        <title>Iteam - There's a better way | Om oss</title>
-      </Helmet>
-      <AboutQuery query={ABOUT_PAGE_QUERY}>
-        {({ loading, data }) => {
-          if (loading || !data) {
-            return null
-          }
+export class About extends React.Component {
+  componentDidMount() {
+    set('om-oss')
+  }
 
-          const { pageAboutUs } = data
+  render() {
+    return (
+      <>
+        <Helmet>
+          <title>Iteam - There's a better way | Om oss</title>
+        </Helmet>
+        <AboutQuery query={ABOUT_PAGE_QUERY}>
+          {({ loading, data }) => {
+            if (loading || !data) {
+              return null
+            }
 
-          return (
-            <>
-              <Header
-                backgroundImage={pageAboutUs.headerImage}
-                messageBgColor={pageAboutUs.headerTextBgColor}
-                messageOne={pageAboutUs.headerText1}
-                messageTwo={pageAboutUs.headerText2}
-              />
+            const { pageAboutUs } = data
 
-              <GridColumn>
-                <Block title={pageAboutUs.valueTitle}>
-                  {pageAboutUs.valueText}
-                </Block>
-                <Block title={pageAboutUs.funTitle}>
-                  {pageAboutUs.funText}
-                </Block>
-                <ImageBlock image={aboutUsImage} />
-                <Block title={pageAboutUs.goodTitle}>
-                  {pageAboutUs.goodText}
-                </Block>
-                <ImageBleed image={pageAboutUs.imageBleed} />
-                <Block title={pageAboutUs.stabilityTitle}>
-                  {pageAboutUs.stabilityText}
+            return (
+              <>
+                <Header
+                  backgroundImage={pageAboutUs.headerImage}
+                  messageBgColor={pageAboutUs.headerTextBgColor}
+                  messageOne={pageAboutUs.headerText1}
+                  messageTwo={pageAboutUs.headerText2}
+                />
 
-                  <StabilityIcons>
-                    {pageAboutUs.stabilityIcons.map(icon => {
-                      return typeof icon === 'string' ? (
-                        <StabilityIcon alt="" key={icon} src={icon} />
-                      ) : null
-                    })}
-                  </StabilityIcons>
-                </Block>
-              </GridColumn>
+                <GridColumn>
+                  <Block title={pageAboutUs.valueTitle}>
+                    {pageAboutUs.valueText}
+                  </Block>
+                  <Block title={pageAboutUs.funTitle}>
+                    {pageAboutUs.funText}
+                  </Block>
+                  <ImageBlock image={aboutUsImage} />
+                  <Block title={pageAboutUs.goodTitle}>
+                    {pageAboutUs.goodText}
+                  </Block>
+                  <ImageBleed image={pageAboutUs.imageBleed} />
+                  <Block title={pageAboutUs.stabilityTitle}>
+                    {pageAboutUs.stabilityText}
 
-              <Team
-                bgColor="green"
-                callToAction={pageAboutUs.contactTitle}
-                shortName={pageAboutUs.team}
-              />
-            </>
-          )
-        }}
-      </AboutQuery>
-    </>
-  )
+                    <StabilityIcons>
+                      {pageAboutUs.stabilityIcons.map(icon => {
+                        return typeof icon === 'string' ? (
+                          <StabilityIcon alt="" key={icon} src={icon} />
+                        ) : null
+                      })}
+                    </StabilityIcons>
+                  </Block>
+                </GridColumn>
+
+                <Team
+                  bgColor="green"
+                  callToAction={pageAboutUs.contactTitle}
+                  shortName={pageAboutUs.team}
+                />
+              </>
+            )
+          }}
+        </AboutQuery>
+      </>
+    )
+  }
 }
 
 export default About

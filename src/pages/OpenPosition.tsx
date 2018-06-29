@@ -10,6 +10,7 @@ import Breadcrumbs from '../components/Breadcrumbs/Breadcrumbs'
 import GridColumn from '../components/Grid/GridColumn'
 import Header from '../components/Header/Header'
 import Team from '../components/Team/Team'
+import { set } from '../utils/googleAnalytics'
 
 export const OPEN_POSITION_PAGE_QUERY = gql`
   query OpenPositionPage($id: String!) {
@@ -43,81 +44,87 @@ export const OPEN_POSITION_PAGE_QUERY = gql`
 
 class OpenPositionQuery extends Query<OpenPositionPageQuery> {}
 
-const OpenPosition: React.SFC<RouteComponentProps<{ id: string }>> = ({
-  match,
-}) => {
-  return (
-    <OpenPositionQuery
-      query={OPEN_POSITION_PAGE_QUERY}
-      variables={{ id: match.params.id }}
-    >
-      {({ loading, data }) => {
-        if (loading || !data) {
-          return null
-        }
+export class OpenPosition extends React.Component<
+  RouteComponentProps<{ id: string; match: string }>
+> {
+  componentDidMount() {
+    set(this.props.location.pathname)
+  }
 
-        const { pageOpenPosition } = data
+  render() {
+    const { match } = this.props
+    return (
+      <OpenPositionQuery
+        query={OPEN_POSITION_PAGE_QUERY}
+        variables={{ id: match.params.id }}
+      >
+        {({ loading, data }) => {
+          if (loading || !data) {
+            return null
+          }
 
-        return (
-          <>
-            <Helmet>
-              <title>
-                Iteam - There's a better way | {pageOpenPosition.headerText1} | {
-                  pageOpenPosition.headerText2
-                }
-              </title>
-            </Helmet>
-            <Header
-              backgroundImage={pageOpenPosition.headerImage}
-              messageBgColor={pageOpenPosition.headerTextBgColor}
-              messageOne={pageOpenPosition.headerText1}
-              messageTwo={pageOpenPosition.headerText2}
-            />
+          const { pageOpenPosition } = data
 
-            <GridColumn>
-              <Breadcrumbs title={pageOpenPosition.roleTitle} />
+          return (
+            <>
+              <Helmet>
+                <title>
+                  Iteam - There's a better way | {pageOpenPosition.headerText1}{' '}
+                  | {pageOpenPosition.headerText2}
+                </title>
+              </Helmet>
+              <Header
+                backgroundImage={pageOpenPosition.headerImage}
+                messageBgColor={pageOpenPosition.headerTextBgColor}
+                messageOne={pageOpenPosition.headerText1}
+                messageTwo={pageOpenPosition.headerText2}
+              />
 
-              <Block title={pageOpenPosition.roleTitle}>
-                {pageOpenPosition.role}
-              </Block>
+              <GridColumn>
+                <Breadcrumbs title={pageOpenPosition.roleTitle} />
 
-              <Block title={pageOpenPosition.knowledgeTitle}>
-                {pageOpenPosition.knowledge}
-              </Block>
+                <Block title={pageOpenPosition.roleTitle}>
+                  {pageOpenPosition.role}
+                </Block>
 
-              <Block title={pageOpenPosition.bonusKnowledgeTitle}>
-                {pageOpenPosition.bonusKnowledge}
-              </Block>
+                <Block title={pageOpenPosition.knowledgeTitle}>
+                  {pageOpenPosition.knowledge}
+                </Block>
 
-              <ImageBleed image={pageOpenPosition.contentImage} />
+                <Block title={pageOpenPosition.bonusKnowledgeTitle}>
+                  {pageOpenPosition.bonusKnowledge}
+                </Block>
 
-              <Block title={pageOpenPosition.aboutUsTitle}>
-                {pageOpenPosition.aboutUs}
-              </Block>
+                <ImageBleed image={pageOpenPosition.contentImage} />
 
-              <Block title={pageOpenPosition.perksTitle}>
-                {pageOpenPosition.perks}
-              </Block>
+                <Block title={pageOpenPosition.aboutUsTitle}>
+                  {pageOpenPosition.aboutUs}
+                </Block>
 
-              <Block title={pageOpenPosition.technicalitiesTitle}>
-                {pageOpenPosition.technicalities}
-              </Block>
+                <Block title={pageOpenPosition.perksTitle}>
+                  {pageOpenPosition.perks}
+                </Block>
 
-              <Block title={pageOpenPosition.applicationTitle}>
-                {pageOpenPosition.application}
-              </Block>
-            </GridColumn>
+                <Block title={pageOpenPosition.technicalitiesTitle}>
+                  {pageOpenPosition.technicalities}
+                </Block>
 
-            <Team
-              bgColor="green"
-              callToAction={pageOpenPosition.contactTitle}
-              shortName={pageOpenPosition.team}
-            />
-          </>
-        )
-      }}
-    </OpenPositionQuery>
-  )
+                <Block title={pageOpenPosition.applicationTitle}>
+                  {pageOpenPosition.application}
+                </Block>
+              </GridColumn>
+
+              <Team
+                bgColor="green"
+                callToAction={pageOpenPosition.contactTitle}
+                shortName={pageOpenPosition.team}
+              />
+            </>
+          )
+        }}
+      </OpenPositionQuery>
+    )
+  }
 }
 
 export default withRouter(OpenPosition)
