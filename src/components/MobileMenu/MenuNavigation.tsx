@@ -1,7 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import styled, { keyframes } from 'styled-components'
-import { set } from '../../utils/googleAnalytics'
 
 interface MenuNavigationProps {
   open: boolean
@@ -56,46 +55,22 @@ const MenuNavigation: React.SFC<MenuNavigationProps> = ({ open }) => {
   return (
     <Menu data-test="mobile-menu">
       <MenuInner>
-        <StyledLink
-          activeClassName="active-nav"
-          onClick={() => set('om-oss')}
-          to="/om-oss"
-        >
+        <StyledLink activeClassName="active-nav" to="/om-oss">
           Om oss
         </StyledLink>
-        <StyledLink
-          activeClassName="active-nav"
-          onClick={() => set('hur-vi-jobbar')}
-          to="/hur-vi-jobbar"
-        >
+        <StyledLink activeClassName="active-nav" to="/hur-vi-jobbar">
           Hur vi jobbar
         </StyledLink>
-        <StyledLink
-          activeClassName="active-nav"
-          onClick={() => set('teamet')}
-          to="/teamet"
-        >
+        <StyledLink activeClassName="active-nav" to="/teamet">
           Teamet
         </StyledLink>
-        <StyledLink
-          activeClassName="active-nav"
-          onClick={() => set('case')}
-          to="/case"
-        >
+        <StyledLink activeClassName="active-nav" to="/case">
           Våra case
         </StyledLink>
-        <StyledLink
-          activeClassName="active-nav"
-          onClick={() => set('jobba-hos-oss')}
-          to="/jobba-hos-oss"
-        >
+        <StyledLink activeClassName="active-nav" to="/jobba-hos-oss">
           Jobba hos oss
         </StyledLink>
-        <StyledLink
-          activeClassName="active-nav"
-          onClick={() => set('ops')}
-          to="/ops"
-        >
+        <StyledLink activeClassName="active-nav" to="/ops">
           Drift & Support
         </StyledLink>
       </MenuInner>

@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link, RouteComponentProps, withRouter } from 'react-router-dom'
 import styled from '../../theme'
-import { set } from '../../utils/googleAnalytics'
 import PaddedRow from '../Grid/PaddedRow'
 
 interface BreadcrumbsProps {
@@ -37,31 +36,19 @@ const Breadcrumbs: React.SFC<BreadcrumbsProps & RouteComponentProps<{}>> = ({
         switch (pathLocation) {
           case 'case':
             return (
-              <StyledLink
-                key={`link-${i}`}
-                onClick={() => set('case')}
-                to="/case"
-              >
+              <StyledLink key={`link-${i}`} to="/case">
                 Våra case
               </StyledLink>
             )
           case 'jobba-hos-oss':
             return (
-              <StyledLink
-                key={`link-${i}`}
-                onClick={() => set('jobba-hos-oss')}
-                to="/jobba-hos-oss"
-              >
+              <StyledLink key={`link-${i}`} to="/jobba-hos-oss">
                 Jobba hos oss
               </StyledLink>
             )
           case 'teamet':
             return (
-              <StyledLink
-                key={`link-${i}`}
-                onClick={() => set('teamet')}
-                to="/teamet"
-              >
+              <StyledLink key={`link-${i}`} to="/teamet">
                 Teamet
               </StyledLink>
             )

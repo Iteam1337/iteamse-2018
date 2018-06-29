@@ -2,7 +2,6 @@ import React from 'react'
 import { TeamQuery } from '../../../typings/iteamse'
 import { TEAM_MEMBER_PAGE_QUERY } from '../../pages/TeamMember'
 import styled from '../../theme'
-import { set } from '../../utils/googleAnalytics'
 import Mailto from '../Link/Mailto'
 import PhoneNumber from '../Link/PhoneNumber'
 import PrefetchLink from '../Link/PrefetchLink'
@@ -37,7 +36,6 @@ const TeamPageMember: React.SFC<TeamPageMemberProps> = ({ member }) => {
   return (
     <Colleague key={member.name}>
       <PrefetchLink
-        onClick={() => set(`/teamet/${member.short}`)}
         query={TEAM_MEMBER_PAGE_QUERY}
         to={`/teamet/${member.short}`}
         variables={{

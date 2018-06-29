@@ -2,7 +2,6 @@ import React from 'react'
 import { TeamQuery } from '../../../typings/iteamse'
 import { TEAM_MEMBER_PAGE_QUERY } from '../../pages/TeamMember'
 import styled from '../../theme'
-import { set } from '../../utils/googleAnalytics'
 import Mailto from '../Link/Mailto'
 import PrefetchLink from '../Link/PrefetchLink'
 import Avatar from './Avatar'
@@ -28,7 +27,6 @@ const TeamMember: React.SFC<TeamMemberProps> = ({ member }) => {
       <Title>{member.title}</Title>
       <Location data-test="team-member-location">{member.location}</Location>
       <PrefetchLink
-        onClick={() => set(`/teamet/${member.short}`)}
         query={TEAM_MEMBER_PAGE_QUERY}
         to={`/teamet/${member.short}`}
         variables={{

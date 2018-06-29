@@ -133,7 +133,6 @@ export class CasePage extends React.Component {
                         <CaseLink
                           query={CASE_PAGE_QUERY}
                           key={workCase.title}
-                          onClick={() => set(`/case/${workCase.slug}`)}
                           to={`/case/${workCase.slug}`}
                           variables={{
                             slug: workCase.slug,
