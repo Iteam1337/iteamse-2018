@@ -1,9 +1,10 @@
-import { handlePaths, redirectHelper } from '../serverHelpers'
+// import { NextFunction, Request, Response } from 'express'
+import { checkForRedirect, handlePaths, redirectHelper } from '../serverHelpers'
 
 describe('#redirectHelper', () => {
   describe('#handlePaths', () => {
     it('should return the path for /career', () => {
-      const redirectsTo = handlePaths('/career')
+      const redirectsTo = handlePaths('/career/')
       expect(redirectsTo).toBe('/jobba-hos-oss')
     })
 
@@ -74,9 +75,58 @@ describe('#redirectHelper', () => {
       expect(redirectsTo).toBe('/teamet/aeo')
     })
 
-    it('should return null if no redirect should occur', () => {
+    it('should return / if the path cannot be found', () => {
+      // TODO: Implement a 404 page
       const redirectsTo = handlePaths('/sesame-street')
-      expect(redirectsTo).toBeNull()
+      expect(redirectsTo).toBe('/')
+    })
+  })
+
+  describe('#checkForRedirect', () => {
+    it('should return true for /cases', () => {
+      const shouldRedirect = checkForRedirect('/cases')
+      expect(shouldRedirect).toBe(true)
+    })
+
+    it('should return false for /case', () => {
+      const shouldRedirect = checkForRedirect('/case')
+      expect(shouldRedirect).toBe(false)
+    })
+  })
+
+  xdescribe('#redirectHelper', () => {
+    it('should call checkForRedirect', () => {
+      const req = {
+        ...Request,
+        path: '/cases',
+      }
+      const res: Response = jest.fn({
+        redirect: jest.fn(),
+      })
+      const next: NextFunction = jest.fn()
+
+      redirectHelper(req, res, next)
+      expect(handlePaths).toHaveBeenCalled()
+    })
+
+    it('sould call res.redirect if shouldRedirect returns true', () => {
+      const req = {
+        path: '/cases',
+      }
+
+      redirectHelper(req, res, next)
+      expect(res.redirect).toHaveBeenCalledWith(301, '/case')
+      expect(next).toHaveBeenCalled()
+    })
+
+    it('should not redirect if shouldRedirect returns false', () => {
+      const req = {
+        path: '/teamet',
+      }
+
+      redirectHelper(req, res, next)
+      expect(res.redirect).not.toHaveBeenCalled()
+      expect(next).toHaveBeenCalled()
     })
   })
 })

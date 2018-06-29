@@ -1,4 +1,5 @@
 import express from 'express'
+import teamMembers from './teamMembersMap'
 
 export const redirectHelper = (
   req: express.Request,
@@ -6,48 +7,90 @@ export const redirectHelper = (
   next: express.NextFunction
 ) => {
   const { path } = req
-  if (path === '/career') {
-    res.redirect(301, '/jobba-hos-oss')
+  // Only redirect if it's an old route
+  const shouldRedirect = checkForRedirect(path)
+  console.log('path, shouldRedirect: ', path, shouldRedirect)
+
+  if (shouldRedirect) {
+    const redirectTo = handlePaths(path)
+    res.redirect(301, redirectTo)
+    return next()
   }
+
+  // Proceed like nothing happened if it's a "new" route
   return next()
 }
 
+export const checkForRedirect = (path: string) => {
+  console.log('checkForRedirect: ', path)
+  const oldPaths = [
+    '/cases',
+    '/operations',
+    '/team',
+    '/ai',
+    '/cases/tsab',
+    '/cases/vimla',
+  ]
+  if (
+    oldPaths.includes(path) ||
+    /(^\/team\/?)/g.test(path) ||
+    /(^\/career\/?)/g.test(path)
+  ) {
+    return true
+  }
+
+  return false
+}
+
 export const handlePaths = (path: string) => {
+  if (/(^\/team\/?)/g.test(path) && path.length > 5) {
+    return getTeamMemberPath(path)
+  }
+
+  if (/(^\/career\/?)/g.test(path)) {
+    return getCareerPath(path)
+  }
+
   switch (path) {
-    case '/career':
-      return '/jobba-hos-oss'
+    case '/team':
+      return '/teamet'
     case '/cases':
       return '/case'
     case '/operations':
       return '/ops'
-    case '/team':
-      return '/teamet'
     case '/ai':
       return '/erbjudanden/ai'
     case '/cases/tsab':
       return '/case/tsab'
     case '/cases/vimla':
       return '/case/vimla'
-    case '/career/senior-backend-developer':
-    case '/career/senior-backend-developer-sv':
-      return '/jobba-hos-oss/senior-backend-developer-stockholm'
-    case '/career/senior-frontend-developer':
-    case '/career/senior-frontend-developer-sv':
-      return '/jobba-hos-oss/senior-frontend-developer-stockholm'
-    case /(^\/team\/)/g.test(path):
-      return handleTeamMembers(path)
     default:
-      return null
+      return '/' // TODO: Add a 404 for pages not found
   }
 }
 
-export const handleTeamMembers = (path: string) => {
-  // TODO: split the path after /team/
-  // TODO: create an Object/Map that holds old and new slugs (e.g. andre => aeo)
-  // TODO: return a new path, e.g. /teamet/aeo
-  return
+export const getTeamMemberPath = (path: string) => {
+  const memberName = path.replace('/team/', '')
+  console.log('XXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+  console.log('in getTeamMemberPath: ', path, memberName)
+  console.log('XXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+  const memberAbbreviated = teamMembers[memberName]
+  const newTeamMemberPath = `/teamet/${memberAbbreviated}`
+
+  return newTeamMemberPath
 }
 
-// TODO: figure out how to use regexp properly in TS
-// TODO: create a handleCareerOpenings helper
-// TODO: implement handlePaths in the redirectHelper
+export const getCareerPath = (path: string) => {
+  const jobOpening = path.replace('/career/', '')
+
+  switch (jobOpening) {
+    case 'senior-backend-developer':
+    case 'senior-backend-developer-sv':
+      return '/jobba-hos-oss/senior-backend-developer-stockholm'
+    case 'senior-frontend-developer':
+    case 'senior-frontend-developer-sv':
+      return '/jobba-hos-oss/senior-frontend-developer-stockholm'
+    default:
+      return '/jobba-hos-oss'
+  }
+}
