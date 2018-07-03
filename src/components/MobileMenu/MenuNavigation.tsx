@@ -55,20 +55,23 @@ const MenuNavigation: React.SFC<MenuNavigationProps> = ({ open }) => {
   return (
     <Menu data-test="mobile-menu">
       <MenuInner>
-        <StyledLink activeClassName="active-nav" to="/om-oss">
-          Om oss
+        <StyledLink activeClassName="active-nav" to="/case">
+          Case
+        </StyledLink>
+        <StyledLink activeClassName="active-nav" to="/erbjudanden/ai">
+          AI
         </StyledLink>
         <StyledLink activeClassName="active-nav" to="/hur-vi-jobbar">
-          Hur vi jobbar
+          Metod
         </StyledLink>
         <StyledLink activeClassName="active-nav" to="/teamet">
-          Teamet
-        </StyledLink>
-        <StyledLink activeClassName="active-nav" to="/case">
-          Våra case
+          Medarbetare
         </StyledLink>
         <StyledLink activeClassName="active-nav" to="/jobba-hos-oss">
-          Jobba hos oss
+          Karriär
+        </StyledLink>
+        <StyledLink activeClassName="active-nav" to="/om-oss">
+          Om
         </StyledLink>
         <StyledLink activeClassName="active-nav" to="/ops">
           Drift & Support

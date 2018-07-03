@@ -29,7 +29,7 @@ const Text = styled.div`
   font-weight: 300;
   line-height: 31px;
 
-  > div[role='gridcell'] {
+  * div[role='gridcell'] {
     white-space: normal;
   }
 `
@@ -68,8 +68,8 @@ const data = [
   {
     name: 'Weeks',
     package1: 6,
-    package2: '',
-    package3: '',
+    package2: 9,
+    package3: 12,
   },
   {
     name: 'Data Scientist',
