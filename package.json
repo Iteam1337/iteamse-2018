@@ -52,6 +52,7 @@
     "react-router-dom": "4.2.2",
     "react-safe": "1.1.1",
     "react-svg": "3.0.1",
+    "react-table": "6.8.6",
     "serialize-javascript": "1.5.0",
     "styled-components": "3.2.6",
     "telefonnummer": "1.1.1",
@@ -70,6 +71,7 @@
     "@types/react-responsive": "3.0.1",
     "@types/react-router-dom": "4.2.6",
     "@types/react-svg": "2.2.0",
+    "@types/react-table": "6.7.11",
     "@types/serialize-javascript": "1.3.2",
     "@types/webpack-env": "1.13.6",
     "apollo-codegen": "0.19.1",
@@ -93,7 +95,9 @@
       }
     },
     "collectCoverage": true,
-    "setupFiles": ["./src/setupTests.js"],
+    "setupFiles": [
+      "./src/setupTests.js"
+    ],
     "transform": {
       ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js",
       "^.+\\.css$": "<rootDir>/node_modules/razzle/config/jest/cssTransform.js",
