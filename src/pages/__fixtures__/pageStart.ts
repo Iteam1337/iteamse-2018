@@ -1,5 +1,10 @@
 export const pageStart = {
   __typename: 'PageStart',
+  aiLinkText: 'Läs mer om våra erbjudanden inom AI',
+  aiSlug: 'erbjudanden/ai',
+  aiText:
+    'We are offering an Artificial Intelligence package to help you build AI products and services. We have a very competent Data Science team that will help you grow in the growing market of Artificial Intelligence.',
+  aiTitle: 'Utforska möjligheterna med AI',
   codeLinkText: 'Läs om hur vi hjälper Arbetsförmedlingen med kod',
   codeLogo:
     '//images.ctfassets.net/rj4r6yfcesw5/3qnZSfySW4cEGoUo6KCAae/8a656eba15e15b61dacc9fbea38aa4bd/logo_af.png',
