@@ -8,6 +8,8 @@ import { TeamQueryMock } from '../pages/__fixtures__/teamMock'
 import { HOME_PAGE_QUERY } from '../pages/Home'
 import MockedQuery from '../utils/test-utils/MockedQuery'
 
+jest.mock('../../node_modules/react-table/react-table.css')
+
 const mocks = [
   {
     request: {

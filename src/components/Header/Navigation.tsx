@@ -191,7 +191,7 @@ export class Navigation extends React.Component<
             onMouseEnter={this.prefetchPage('case')}
             to="/case"
           >
-            Våra case
+            Case
           </StyledLink>
           <StyledLink
             activeClassName="active-nav"

@@ -24,7 +24,7 @@ describe('components/Navigation', () => {
 
     await wait()
 
-    Simulate.mouseEnter(getByText('Om oss'))
+    Simulate.mouseEnter(getByText('Om'))
 
     expect(client.query.mock.calls[0][0]).toMatchSnapshot()
   })
@@ -52,7 +52,7 @@ describe('components/Navigation', () => {
 
     await wait()
 
-    Simulate.mouseEnter(getByText('Hur vi jobbar'))
+    Simulate.mouseEnter(getByText('Metod'))
 
     expect(client.query.mock.calls[0][0]).toMatchSnapshot()
   })
@@ -66,7 +66,7 @@ describe('components/Navigation', () => {
 
     await wait()
 
-    Simulate.mouseEnter(getByText('Teamet'))
+    Simulate.mouseEnter(getByText('Medarbetare'))
 
     expect(client.query.mock.calls[0][0]).toMatchSnapshot()
   })
@@ -80,7 +80,7 @@ describe('components/Navigation', () => {
 
     await wait()
 
-    Simulate.mouseEnter(getByText('Våra case'))
+    Simulate.mouseEnter(getByText('Case'))
 
     expect(client.query.mock.calls[0][0]).toMatchSnapshot()
   })
@@ -94,7 +94,7 @@ describe('components/Navigation', () => {
 
     await wait()
 
-    Simulate.mouseEnter(getByText('Jobba hos oss'))
+    Simulate.mouseEnter(getByText('Karriär'))
 
     expect(client.query.mock.calls[0][0]).toMatchSnapshot()
   })

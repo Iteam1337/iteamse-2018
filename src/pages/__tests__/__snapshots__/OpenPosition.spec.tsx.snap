@@ -4,79 +4,85 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
 <div>
   <div>
     <div
-      class="sc-ktHwxA gPpyjH"
+      class="sc-lhVmIH cMbxDN"
     >
       <div
-        class="sc-cIShpX gwcFtF"
+        class="sc-bYSBpT bdgTKs"
       >
         <div
-          class="sc-bbmXgH dltjNi"
+          class="sc-kafWEX doqriu"
         >
           <a
-            class="sc-gGBfsJ cNNKLH"
+            class="sc-feJyhm bzbyYc"
           >
             <img
-              class="sc-jnlKLf ixkzHM"
+              class="sc-iELTvK kXWcVM"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-fYxtnH chrQKX"
+            class="sc-cmTdod gUTeYg"
           >
             <a
-              class="sc-hEsumM fOvejy"
+              class="sc-btzYZH kmRwNW"
               aria-current="false"
             >
-              Om oss
+              Case
             </a>
             <a
-              class="sc-hEsumM fOvejy"
+              class="sc-btzYZH kmRwNW"
               aria-current="false"
             >
-              Hur vi jobbar
+              AI
             </a>
             <a
-              class="sc-hEsumM fOvejy"
+              class="sc-btzYZH kmRwNW"
               aria-current="false"
             >
-              Teamet
+              Metod
             </a>
             <a
-              class="sc-hEsumM fOvejy"
+              class="sc-btzYZH kmRwNW"
               aria-current="false"
             >
-              Våra case
+              Medarbetare
             </a>
             <a
-              class="sc-hEsumM fOvejy active-nav"
+              class="sc-btzYZH kmRwNW active-nav"
               aria-current="true"
             >
-              Jobba hos oss
+              Karriär
             </a>
             <a
-              class="sc-hEsumM fOvejy"
+              class="sc-btzYZH kmRwNW"
+              aria-current="false"
+            >
+              Om
+            </a>
+            <a
+              class="sc-btzYZH kmRwNW"
               aria-current="false"
             >
               Drift & Support
             </a>
             <div
-              class="sc-tilXH cDiLuN"
+              class="sc-jwKygS fTIVRr"
             />
           </div>
         </div>
         <div
-          class="sc-kafWEX qcLQG"
+          class="sc-elJkPf kqIJd"
         >
           <h1
-            class="sc-feJyhm cWnXVQ"
+            class="sc-jtRfpW gYccdl"
           >
             <span>
               UX Designer
             </span>
           </h1>
           <h1
-            class="sc-feJyhm cWnXVQ"
+            class="sc-jtRfpW gYccdl"
           >
             <span>
               Stockholm
@@ -284,6 +290,65 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
                 <p>
                   Vi är ca 30 personer fördelade i Stockholm och Göteborg. Hos oss tar du av dig skorna vid dörren och känner dig som hemma. Vi lär oss ständigt nya saker av varandra - genom mentorskap, utbyte inom projekt, måndagsfrukostar, kodlunch eller under labbtimmarna. Vi har kul tillsammans och tar hand om varandra i vardagen, löparspåret, på yogamattan, spelkvällar, after works och vid andra speciella tillfällen. Vi arbetar aktivt för att sätta ihop team med så varierande och kompletterande bakgrund som möjligt – oavsett om det gäller kön, könsidentitet och -uttryck, etnisk tillhörighet, religion och trosuppfattning, funktionalitet, sexuell läggning, ålder, utbildning eller social bakgrund. Våra team är alltid korsfunktionella. Alltid agila. Alltid nära beställaren, deras anställda, användare och intressenter.
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-bdVaJa fGzlqx"
+        data-test="block-"
+      >
+        <div
+          class="sc-bxivhb kgeHJJ"
+        >
+          <div
+            class="sc-ifAKCX cFlEyZ"
+          >
+            <h3
+              class="sc-bwzfXH kgEpTV"
+            >
+              Några av våra bonusar
+            </h3>
+          </div>
+          <div
+            class="sc-bZQynM hmvJjY"
+          >
+            <div
+              class="sc-htpNat iEyarI"
+            >
+              <div>
+                <ul>
+                  <li>
+                    6 veckors semester
+                  </li>
+                  <li>
+                    Kodluncher varje fredag för gemensamt lärande inkl lunch
+                  </li>
+                  <li>
+                    Ingen förväntad övertid
+                  </li>
+                  <li>
+                    Förmånligt friskvårdsbidrag och fokus på välmående
+                  </li>
+                  <li>
+                    Förmånligt pensionssystem
+                  </li>
+                  <li>
+                    Bonus vid slutet av ett bra år
+                  </li>
+                  <li>
+                    Mentorskap mellan arbetskamrater
+                  </li>
+                  <li>
+                    Individuell budget för kompetensutveckling
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

@@ -4,79 +4,85 @@ exports[`components/Cases renders Cases 1`] = `
 <div>
   <div>
     <div
-      class="sc-ktHwxA hVnTji"
+      class="sc-lhVmIH jjPecX"
     >
       <div
-        class="sc-cIShpX gwcFtF"
+        class="sc-bYSBpT bdgTKs"
       >
         <div
-          class="sc-bbmXgH dltjNi"
+          class="sc-kafWEX doqriu"
         >
           <a
-            class="sc-gGBfsJ cNNKLH"
+            class="sc-feJyhm bzbyYc"
           >
             <img
-              class="sc-jnlKLf ixkzHM"
+              class="sc-iELTvK kXWcVM"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-fYxtnH chrQKX"
+            class="sc-cmTdod gUTeYg"
           >
             <a
-              class="sc-hEsumM fOvejy"
+              class="sc-btzYZH kmRwNW"
               aria-current="false"
             >
-              Om oss
+              Case
             </a>
             <a
-              class="sc-hEsumM fOvejy"
+              class="sc-btzYZH kmRwNW"
               aria-current="false"
             >
-              Hur vi jobbar
+              AI
             </a>
             <a
-              class="sc-hEsumM fOvejy"
+              class="sc-btzYZH kmRwNW"
               aria-current="false"
             >
-              Teamet
+              Metod
             </a>
             <a
-              class="sc-hEsumM fOvejy"
+              class="sc-btzYZH kmRwNW"
               aria-current="false"
             >
-              Våra case
+              Medarbetare
             </a>
             <a
-              class="sc-hEsumM fOvejy"
+              class="sc-btzYZH kmRwNW"
               aria-current="false"
             >
-              Jobba hos oss
+              Karriär
             </a>
             <a
-              class="sc-hEsumM fOvejy"
+              class="sc-btzYZH kmRwNW"
+              aria-current="false"
+            >
+              Om
+            </a>
+            <a
+              class="sc-btzYZH kmRwNW"
               aria-current="false"
             >
               Drift & Support
             </a>
             <div
-              class="sc-tilXH cDiLuN"
+              class="sc-jwKygS fTIVRr"
             />
           </div>
         </div>
         <div
-          class="sc-kafWEX qcLQG"
+          class="sc-elJkPf kqIJd"
         >
           <h1
-            class="sc-feJyhm cUNhki"
+            class="sc-jtRfpW egqOis"
           >
             <span>
               Några exempel på
             </span>
           </h1>
           <h1
-            class="sc-feJyhm cUNhki"
+            class="sc-jtRfpW egqOis"
           >
             <span>
               sådant vi gjort
@@ -90,33 +96,33 @@ exports[`components/Cases renders Cases 1`] = `
     class="sc-iwsKbI fwFOwW"
   >
     <div
-      class="sc-jWBwVP kyCCjL"
+      class="sc-gPEVay lcjzYp"
     >
       <a
-        class="sc-cSHVUG eWWLWN"
+        class="sc-kGXeez bqcmJv"
       >
         <div
-          class="sc-gPEVay bWvhUY"
+          class="sc-Rmtcm krGDXq"
         >
           <div
-            class="sc-brqgnP bYwYCI"
+            class="sc-iRbamj klkeLc"
           >
             <img
-              class="sc-cMljjf gKEXui"
+              class="sc-jlyJG cnwdKy"
               src="//images.ctfassets.net/rj4r6yfcesw5/68OlBclfQAGMcEUsQgcIUY/9bdf52bb8a9a17be06e11ef3fa32d3de/vimla-case-phone.png"
               alt=""
             />
           </div>
           <div
-            class="sc-jAaTju ldmHmE"
+            class="sc-gipzik kZtRfz"
           >
             <div
-              class="sc-iRbamj kgJOUk"
+              class="sc-bRBYWo cunTLN"
             >
               Vimla
             </div>
             <div
-              class="sc-jlyJG lgpnxQ"
+              class="sc-hzDkRC bnzvST"
             >
               Synliggörande av asylsökandes kompetens med digitala verktyg
             </div>
@@ -124,30 +130,30 @@ exports[`components/Cases renders Cases 1`] = `
         </div>
       </a>
       <a
-        class="sc-cSHVUG eWWLWN"
+        class="sc-kGXeez bqcmJv"
       >
         <div
-          class="sc-gPEVay bWvhUY"
+          class="sc-Rmtcm krGDXq"
         >
           <div
-            class="sc-brqgnP bYwYCI"
+            class="sc-iRbamj klkeLc"
           >
             <img
-              class="sc-cMljjf gKEXui"
+              class="sc-jlyJG cnwdKy"
               src="//images.ctfassets.net/rj4r6yfcesw5/UGucAeFycSqIGw0CAc0ys/3d58300261bcff64dba751de9228a150/tsab-case-phone.png"
               alt=""
             />
           </div>
           <div
-            class="sc-jAaTju ldmHmE"
+            class="sc-gipzik kZtRfz"
           >
             <div
-              class="sc-iRbamj kgJOUk"
+              class="sc-bRBYWo cunTLN"
             >
               Taxi Stockholm
             </div>
             <div
-              class="sc-jlyJG lgpnxQ"
+              class="sc-hzDkRC bnzvST"
             >
               Synliggörande av asylsökandes kompetens med digitala verktyg
             </div>
@@ -155,24 +161,24 @@ exports[`components/Cases renders Cases 1`] = `
         </div>
       </a>
       <a
-        class="sc-cSHVUG eWWLWN"
+        class="sc-kGXeez bqcmJv"
       >
         <div
-          class="sc-gPEVay bWvhUY"
+          class="sc-Rmtcm krGDXq"
         >
           <div
-            class="sc-brqgnP bYwYCI"
+            class="sc-iRbamj klkeLc"
           />
           <div
-            class="sc-jAaTju ldmHmE"
+            class="sc-gipzik kZtRfz"
           >
             <div
-              class="sc-iRbamj kgJOUk"
+              class="sc-bRBYWo cunTLN"
             >
               SEB
             </div>
             <div
-              class="sc-jlyJG lgpnxQ"
+              class="sc-hzDkRC bnzvST"
             >
               Synliggörande av asylsökandes kompetens med digitala verktyg
             </div>
@@ -180,30 +186,30 @@ exports[`components/Cases renders Cases 1`] = `
         </div>
       </a>
       <a
-        class="sc-cSHVUG eWWLWN"
+        class="sc-kGXeez bqcmJv"
       >
         <div
-          class="sc-gPEVay bWvhUY"
+          class="sc-Rmtcm krGDXq"
         >
           <div
-            class="sc-brqgnP bYwYCI"
+            class="sc-iRbamj klkeLc"
           >
             <img
-              class="sc-cMljjf gKEXui"
+              class="sc-jlyJG cnwdKy"
               src="//images.ctfassets.net/rj4r6yfcesw5/3Y7zZ25WbeOCU8w84kAEos/b97ff1899cf6f2e4dca0eb2b4f0d5a44/af.png"
               alt=""
             />
           </div>
           <div
-            class="sc-jAaTju ldmHmE"
+            class="sc-gipzik kZtRfz"
           >
             <div
-              class="sc-iRbamj kgJOUk"
+              class="sc-bRBYWo cunTLN"
             >
               Arbetsförmedlingen
             </div>
             <div
-              class="sc-jlyJG lgpnxQ"
+              class="sc-hzDkRC bnzvST"
             >
               Synliggörande av asylsökandes kompetens med digitala verktyg
             </div>

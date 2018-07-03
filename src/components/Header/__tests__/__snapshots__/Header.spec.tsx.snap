@@ -4,79 +4,85 @@ exports[`components/Header renders Header 1`] = `
 <div>
   <div>
     <div
-      class="sc-bYSBpT jnkaFF"
+      class="sc-iyvyFf dCShgY"
     >
       <div
-        class="sc-elJkPf dzEhWm"
+        class="sc-hwwEjo cPpjPY"
       >
         <div
-          class="sc-feJyhm eluoSI"
+          class="sc-jtRfpW kaiGPi"
         >
           <a
-            class="sc-iELTvK eXowga"
+            class="sc-kTUwUJ ijPJJc"
           >
             <img
-              class="sc-cmTdod buJDqI"
+              class="sc-dqBHgY ezKxht"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-jwKygS bIBNce"
+            class="sc-gxMtzJ fEeBIz"
           >
             <a
-              class="sc-lhVmIH kHGFSb"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
-              Om oss
+              Case
             </a>
             <a
-              class="sc-lhVmIH kHGFSb"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
-              Hur vi jobbar
+              AI
             </a>
             <a
-              class="sc-lhVmIH kHGFSb"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
-              Teamet
+              Metod
             </a>
             <a
-              class="sc-lhVmIH kHGFSb"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
-              Våra case
+              Medarbetare
             </a>
             <a
-              class="sc-lhVmIH kHGFSb"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
-              Jobba hos oss
+              Karriär
             </a>
             <a
-              class="sc-lhVmIH kHGFSb"
+              class="sc-gzOgki dsuNbc"
+              aria-current="false"
+            >
+              Om
+            </a>
+            <a
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               Drift & Support
             </a>
             <div
-              class="sc-btzYZH flToHs"
+              class="sc-dfVpRl foeOrh"
             />
           </div>
         </div>
         <div
-          class="sc-jtRfpW ivXmxs"
+          class="sc-kPVwWT iEyyyl"
         >
           <h1
-            class="sc-kTUwUJ godqcf"
+            class="sc-kfGgVZ gqfFed"
           >
             <span>
               Vi digitaliserar företag och organisationer
             </span>
           </h1>
           <h1
-            class="sc-kTUwUJ godqcf"
+            class="sc-kfGgVZ gqfFed"
           >
             <span>
               genom strategi, kod och kultur
