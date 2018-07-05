@@ -3,6 +3,7 @@ import { withApollo, WithApolloClient } from 'react-apollo'
 import { Link, NavLink } from 'react-router-dom'
 import SVG from 'react-svg'
 import { ABOUT_PAGE_QUERY } from '../../pages/About'
+import { AI_PAGE_QUERY } from '../../pages/Ai'
 import { CASES_PAGE_QUERY } from '../../pages/Cases'
 import { HOME_PAGE_QUERY } from '../../pages/Home'
 import { HOW_WE_WORK_PAGE_QUERY } from '../../pages/HowWeWork'
@@ -161,6 +162,9 @@ export class Navigation extends React.Component<
       case 'work':
         query = WORK_PAGE_QUERY
         break
+      case 'ai':
+        query = AI_PAGE_QUERY
+        break
       default:
         break
     }
@@ -183,38 +187,45 @@ export class Navigation extends React.Component<
         <NavigationItems>
           <StyledLink
             activeClassName="active-nav"
-            onMouseEnter={this.prefetchPage('about')}
-            to="/om-oss"
+            onMouseEnter={this.prefetchPage('case')}
+            to="/case"
           >
-            Om oss
+            Case
+          </StyledLink>
+          <StyledLink
+            activeClassName="active-nav"
+            onMouseEnter={this.prefetchPage('ai')}
+            to="/erbjudanden/ai"
+          >
+            AI
           </StyledLink>
           <StyledLink
             activeClassName="active-nav"
             onMouseEnter={this.prefetchPage('how-we-work')}
             to="/hur-vi-jobbar"
           >
-            Hur vi jobbar
+            Metod
           </StyledLink>
           <StyledLink
             activeClassName="active-nav"
             onMouseEnter={this.prefetchPage('team')}
             to="/teamet"
           >
-            Teamet
-          </StyledLink>
-          <StyledLink
-            activeClassName="active-nav"
-            onMouseEnter={this.prefetchPage('case')}
-            to="/case"
-          >
-            Våra case
+            Medarbetare
           </StyledLink>
           <StyledLink
             activeClassName="active-nav"
             onMouseEnter={this.prefetchPage('work')}
             to="/jobba-hos-oss"
           >
-            Jobba hos oss
+            Karriär
+          </StyledLink>
+          <StyledLink
+            activeClassName="active-nav"
+            onMouseEnter={this.prefetchPage('about')}
+            to="/om-oss"
+          >
+            Om
           </StyledLink>
           <StyledLink
             activeClassName="active-nav"

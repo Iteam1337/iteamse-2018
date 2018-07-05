@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet'
 import MediaQuery from 'react-responsive'
 import { HomePageQuery } from '../../typings/iteamse'
 import OperationsBanner from '../components/Banners/OperationsBanner'
+import Block from '../components/Blocks/Block'
 import GridColumn from '../components/Grid/GridColumn'
 import PaddedRow from '../components/Grid/PaddedRow'
 import Header from '../components/Header/Header'
@@ -23,6 +24,10 @@ export const HOME_PAGE_QUERY = gql`
       headerText1
       headerText2
       headerTextBgColor
+      aiTitle
+      aiText
+      aiSlug
+      aiLinkText
       codeMobileImage
       codeText
       codeTitle
@@ -82,6 +87,8 @@ const TextBlock = PaddedRow.extend`
     }
   }
 `
+
+const AiTextBlock = styled.div``
 
 const StylizedIteam = styled.img`
   display: none;
@@ -204,6 +211,17 @@ export class Home extends React.Component {
                     </Texts>
                   </Content>
                 </HomeGridColumn>
+
+                <GridColumn>
+                  <Block title={pageStart.aiTitle}>
+                    <AiTextBlock>{pageStart.aiText}</AiTextBlock>
+                    <AiTextBlock>
+                      <Link to={`${pageStart.aiSlug}`}>
+                        {pageStart.aiLinkText}
+                      </Link>
+                    </AiTextBlock>
+                  </Block>
+                </GridColumn>
 
                 <OperationsBanner />
                 <Team
