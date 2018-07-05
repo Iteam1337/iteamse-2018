@@ -43,6 +43,14 @@ export class Work extends React.Component {
       <>
         <Helmet>
           <title>Iteam - There's a better way | Jobba hos oss</title>
+          <meta
+            name="og:title"
+            content="Iteam - There's a better way | Jobba hos oss"
+          />
+          <meta
+            name="twitter:title"
+            content="Iteam - There's a better way | Jobba hos oss"
+          />
         </Helmet>
         <WorkQuery query={WORK_PAGE_QUERY}>
           {({ loading, data }) => {

@@ -48,6 +48,14 @@ export class HowWeWork extends React.Component {
       <>
         <Helmet>
           <title>Iteam - There's a better way | Hur vi jobbar</title>
+          <meta
+            name="og:title"
+            content="Iteam - There's a better way | Hur vi jobbar"
+          />
+          <meta
+            name="twitter:title"
+            content="Iteam - There's a better way | Hur vi jobbar"
+          />
         </Helmet>
         <HowWeWorkQuery query={HOW_WE_WORK_PAGE_QUERY}>
           {({ loading, data }) => {

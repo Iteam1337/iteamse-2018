@@ -46,6 +46,14 @@ export class TeamPage extends React.Component {
       <>
         <Helmet>
           <title>Iteam - There's a better way | Teamet</title>
+          <meta
+            name="og:title"
+            content="Iteam - There's a better way | Teamet"
+          />
+          <meta
+            name="twitter:title"
+            content="Iteam - There's a better way | Teamet"
+          />
         </Helmet>
         <TeamQuery query={TEAM_PAGE_QUERY}>
           {({ loading, data }) => {

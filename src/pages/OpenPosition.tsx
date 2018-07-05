@@ -72,6 +72,18 @@ export class OpenPosition extends React.Component<
                   Iteam - There's a better way | {pageOpenPosition.headerText1}{' '}
                   | {pageOpenPosition.headerText2}
                 </title>
+                <meta
+                  name="og:title"
+                  content={`Iteam - There's a better way | ${
+                    pageOpenPosition.headerText1
+                  }`}
+                />
+                <meta
+                  name="twitter:title"
+                  content={`Iteam - There's a better way | ${
+                    pageOpenPosition.headerText1
+                  }`}
+                />
               </Helmet>
               <Header
                 backgroundImage={pageOpenPosition.headerImage}

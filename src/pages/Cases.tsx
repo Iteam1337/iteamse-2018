@@ -104,6 +104,11 @@ export class CasePage extends React.Component {
       <>
         <Helmet>
           <title>Iteam - There's a better way | Case</title>
+          <meta name="og:title" content="Iteam - There's a better way | Case" />
+          <meta
+            name="twitter:title"
+            content="Iteam - There's a better way | Case"
+          />
         </Helmet>
         <CasesQuery query={CASES_PAGE_QUERY}>
           {({ loading, data }) => {

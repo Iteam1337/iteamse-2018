@@ -62,7 +62,16 @@ export class About extends React.Component {
       <>
         <Helmet>
           <title>Iteam - There's a better way | Om oss</title>
+          <meta
+            name="og:title"
+            content="Iteam - There's a better way | Om oss"
+          />
+          <meta
+            name="twitter:title"
+            content="Iteam - There's a better way | Om oss"
+          />
         </Helmet>
+
         <AboutQuery query={ABOUT_PAGE_QUERY}>
           {({ loading, data }) => {
             if (loading || !data) {

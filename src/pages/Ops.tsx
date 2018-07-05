@@ -45,7 +45,15 @@ export class Operations extends React.Component {
     return (
       <>
         <Helmet>
-          <title>Iteam - There's a better way | Om oss</title>
+          <title>Iteam - There's a better way | Operations</title>
+          <meta
+            name="og:title"
+            content="Iteam - There's a better way | Operations"
+          />
+          <meta
+            name="twitter:title"
+            content="Iteam - There's a better way | Operations"
+          />
         </Helmet>
         <OperationsQuery query={OPERATIONS_PAGE_QUERY}>
           {({ loading, data }) => {

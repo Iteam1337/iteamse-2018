@@ -74,6 +74,14 @@ export class TeamMemberPage extends React.Component<
             <>
               <Helmet>
                 <title>Iteam - There's a better way | {teamMember.name}</title>
+                <meta
+                  name="og:title"
+                  content={`Iteam - There's a better way | ${teamMember.name}`}
+                />
+                <meta
+                  name="twitter:title"
+                  content={`Iteam - There's a better way | ${teamMember.name}`}
+                />
               </Helmet>
               <TeamMember>
                 <Header
