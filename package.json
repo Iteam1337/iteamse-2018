@@ -97,7 +97,6 @@
         "useBabelrc": true
       }
     },
-    "collectCoverage": true,
     "setupFiles": [
       "./src/setupTests.js"
     ],

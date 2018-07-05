@@ -223,6 +223,17 @@ export class Home extends React.Component {
                   </Block>
                 </GridColumn>
 
+                <GridColumn>
+                  <Block title={pageStart.aiTitle}>
+                    <AiTextBlock>{pageStart.aiText}</AiTextBlock>
+                    <AiTextBlock>
+                      <Link to={`${pageStart.aiSlug}`}>
+                        {pageStart.aiLinkText}
+                      </Link>
+                    </AiTextBlock>
+                  </Block>
+                </GridColumn>
+
                 <OperationsBanner />
                 <Team
                   callToAction={pageStart.contactTitle}
