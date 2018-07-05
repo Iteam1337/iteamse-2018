@@ -235,6 +235,51 @@ exports[`components/Home renders Home 1`] = `
     </div>
   </div>
   <div
+    class="sc-iwsKbI fwFOwW"
+  >
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-bdVaJa fGzlqx"
+        data-test="block-"
+      >
+        <div
+          class="sc-bxivhb kgeHJJ"
+        >
+          <div
+            class="sc-ifAKCX cFlEyZ"
+          >
+            <h3
+              class="sc-bwzfXH kgEpTV"
+            >
+              Utforska möjligheterna med AI
+            </h3>
+          </div>
+          <div
+            class="sc-bZQynM hmvJjY"
+          >
+            <div
+              class="sc-kgAjT cuzzPp"
+            >
+              We are offering an Artificial Intelligence package to help you build AI products and services. We have a very competent Data Science team that will help you grow in the growing market of Artificial Intelligence.
+            </div>
+            <div
+              class="sc-kgAjT cuzzPp"
+            >
+              <a
+                class="sc-caSCKo culsyQ"
+              >
+                Läs mer om våra erbjudanden inom AI
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
     class="sc-fMiknA fkjoYg"
   >
     <div

@@ -46,6 +46,22 @@ const Html: React.SFC<HtmlProps> = ({ apolloState, content, styleTags }) => {
           <script src={assets.client.js} defer crossOrigin="true" />
         )}
 
+        {/* Global site tag (gtag.js) - Google Analytics */}
+        {isProduction && (
+          <>
+            <script
+              async
+              src="https://www.googletagmanager.com/gtag/js?id=UA-2430046-1"
+            />
+            <Safe.script>
+              {`window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'UA-2430046-1');`}
+            </Safe.script>
+          </>
+        )}
+
         {styleTags}
       </head>
       <body>

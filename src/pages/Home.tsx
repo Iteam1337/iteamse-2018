@@ -1,6 +1,7 @@
 import gql from 'graphql-tag'
 import * as React from 'react'
 import { Query } from 'react-apollo'
+import { Helmet } from 'react-helmet'
 import MediaQuery from 'react-responsive'
 import { HomePageQuery } from '../../typings/iteamse'
 import OperationsBanner from '../components/Banners/OperationsBanner'
@@ -13,6 +14,7 @@ import Team from '../components/Team/Team'
 import H1 from '../components/Typography/H1'
 import Paragraph from '../components/Typography/Paragraph'
 import styled from '../theme'
+import { set } from '../utils/googleAnalytics'
 import iteamStylized from './img/iteam_stylized.png'
 
 export const HOME_PAGE_QUERY = gql`
@@ -119,105 +121,131 @@ const MobileImage = styled.img`
 
 class HomeQuery extends Query<HomePageQuery> {}
 
-const Home = () => {
-  return (
-    <HomeQuery query={HOME_PAGE_QUERY}>
-      {({ loading, data }) => {
-        if (loading || !data) {
-          return null
-        }
+export class Home extends React.Component {
+  componentDidMount() {
+    set('start')
+  }
 
-        const { pageStart } = data
+  render() {
+    return (
+      <>
+        <Helmet>
+          <title>Iteam - There's a better way</title>
+        </Helmet>
+        <HomeQuery query={HOME_PAGE_QUERY}>
+          {({ loading, data }) => {
+            if (loading || !data) {
+              return null
+            }
 
-        return (
-          <>
-            <Header
-              backgroundImage={pageStart.headerImage}
-              messageBgColor={pageStart.headerTextBgColor}
-              messageOne={pageStart.headerText1}
-              messageTwo={pageStart.headerText2}
-            />
+            const { pageStart } = data
 
-            <HomeGridColumn>
-              <Content>
-                <StylizedIteam src={iteamStylized} />
-                <Texts>
-                  <TextBlock>
-                    {pageStart.codeMobileImage && (
-                      <MediaQuery maxDeviceWidth={480}>
-                        <MobileImageWrap>
-                          <MobileImage src={pageStart.codeMobileImage} />
-                        </MobileImageWrap>
-                      </MediaQuery>
-                    )}
-                    <H1>{pageStart.codeTitle}</H1>
-                    <Paragraph>{pageStart.codeText}</Paragraph>
-                    {pageStart.codeLogo && (
-                      <CompanyLogo src={pageStart.codeLogo} />
-                    )}
-                    <Link to={`/case/${pageStart.codeSlug}`}>
-                      {pageStart.codeLinkText}
-                    </Link>
-                  </TextBlock>
+            return (
+              <>
+                <Header
+                  backgroundImage={pageStart.headerImage}
+                  messageBgColor={pageStart.headerTextBgColor}
+                  messageOne={pageStart.headerText1}
+                  messageTwo={pageStart.headerText2}
+                />
 
-                  <TextBlock>
-                    {pageStart.strategyMobileImage && (
-                      <MediaQuery maxDeviceWidth={480}>
-                        <MobileImageWrap>
-                          <MobileImage src={pageStart.strategyMobileImage} />
-                        </MobileImageWrap>
-                      </MediaQuery>
-                    )}
-                    <H1>{pageStart.strategyTitle}</H1>
-                    <Paragraph>{pageStart.strategyText}</Paragraph>{' '}
-                    {pageStart.strategyLogo && (
-                      <CompanyLogo src={pageStart.strategyLogo} />
-                    )}
-                    <Link to={`/case/${pageStart.strategySlug}`}>
-                      {pageStart.strategyLinkText}
-                    </Link>
-                  </TextBlock>
+                <HomeGridColumn>
+                  <Content>
+                    <StylizedIteam src={iteamStylized} />
+                    <Texts>
+                      <TextBlock>
+                        {pageStart.codeMobileImage && (
+                          <MediaQuery maxDeviceWidth={480}>
+                            <MobileImageWrap>
+                              <MobileImage src={pageStart.codeMobileImage} />
+                            </MobileImageWrap>
+                          </MediaQuery>
+                        )}
+                        <H1>{pageStart.codeTitle}</H1>
+                        <Paragraph>{pageStart.codeText}</Paragraph>
+                        {pageStart.codeLogo && (
+                          <CompanyLogo src={pageStart.codeLogo} />
+                        )}
+                        <Link to={`/case/${pageStart.codeSlug}`}>
+                          {pageStart.codeLinkText}
+                        </Link>
+                      </TextBlock>
 
-                  <TextBlock>
-                    {pageStart.cultureMobileImage && (
-                      <MediaQuery maxDeviceWidth={480}>
-                        <MobileImageWrap>
-                          <MobileImage src={pageStart.cultureMobileImage} />
-                        </MobileImageWrap>
-                      </MediaQuery>
-                    )}
-                    <H1>{pageStart.cultureTitle}</H1>
-                    <Paragraph>{pageStart.cultureText}</Paragraph>{' '}
-                    {pageStart.cultureLogo && (
-                      <CompanyLogo src={pageStart.cultureLogo} />
-                    )}
-                    <Link to={`/case/${pageStart.cultureSlug}`}>
-                      {pageStart.cultureLinkText}
-                    </Link>
-                  </TextBlock>
-                </Texts>
-              </Content>
-            </HomeGridColumn>
+                      <TextBlock>
+                        {pageStart.strategyMobileImage && (
+                          <MediaQuery maxDeviceWidth={480}>
+                            <MobileImageWrap>
+                              <MobileImage
+                                src={pageStart.strategyMobileImage}
+                              />
+                            </MobileImageWrap>
+                          </MediaQuery>
+                        )}
+                        <H1>{pageStart.strategyTitle}</H1>
+                        <Paragraph>{pageStart.strategyText}</Paragraph>{' '}
+                        {pageStart.strategyLogo && (
+                          <CompanyLogo src={pageStart.strategyLogo} />
+                        )}
+                        <Link to={`/case/${pageStart.strategySlug}`}>
+                          {pageStart.strategyLinkText}
+                        </Link>
+                      </TextBlock>
 
-            <GridColumn>
-              <Block title={pageStart.aiTitle}>
-                <AiTextBlock>{pageStart.aiText}</AiTextBlock>
-                <AiTextBlock>
-                  <Link to={`${pageStart.aiSlug}`}>{pageStart.aiLinkText}</Link>
-                </AiTextBlock>
-              </Block>
-            </GridColumn>
+                      <TextBlock>
+                        {pageStart.cultureMobileImage && (
+                          <MediaQuery maxDeviceWidth={480}>
+                            <MobileImageWrap>
+                              <MobileImage src={pageStart.cultureMobileImage} />
+                            </MobileImageWrap>
+                          </MediaQuery>
+                        )}
+                        <H1>{pageStart.cultureTitle}</H1>
+                        <Paragraph>{pageStart.cultureText}</Paragraph>{' '}
+                        {pageStart.cultureLogo && (
+                          <CompanyLogo src={pageStart.cultureLogo} />
+                        )}
+                        <Link to={`/case/${pageStart.cultureSlug}`}>
+                          {pageStart.cultureLinkText}
+                        </Link>
+                      </TextBlock>
+                    </Texts>
+                  </Content>
+                </HomeGridColumn>
 
-            <OperationsBanner />
-            <Team
-              callToAction={pageStart.contactTitle}
-              shortName={pageStart.team}
-            />
-          </>
-        )
-      }}
-    </HomeQuery>
-  )
+                <GridColumn>
+                  <Block title={pageStart.aiTitle}>
+                    <AiTextBlock>{pageStart.aiText}</AiTextBlock>
+                    <AiTextBlock>
+                      <Link to={`${pageStart.aiSlug}`}>
+                        {pageStart.aiLinkText}
+                      </Link>
+                    </AiTextBlock>
+                  </Block>
+                </GridColumn>
+
+                <GridColumn>
+                  <Block title={pageStart.aiTitle}>
+                    <AiTextBlock>{pageStart.aiText}</AiTextBlock>
+                    <AiTextBlock>
+                      <Link to={`${pageStart.aiSlug}`}>
+                        {pageStart.aiLinkText}
+                      </Link>
+                    </AiTextBlock>
+                  </Block>
+                </GridColumn>
+
+                <OperationsBanner />
+                <Team
+                  callToAction={pageStart.contactTitle}
+                  shortName={pageStart.team}
+                />
+              </>
+            )
+          }}
+        </HomeQuery>
+      </>
+    )
+  }
 }
 
 export default Home
