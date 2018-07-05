@@ -4,72 +4,78 @@ exports[`components/Team renders Team 1`] = `
 <div>
   <div>
     <div
-      class="sc-cmTdod ihgxFe"
+      class="sc-dqBHgY cGUgLT"
     >
       <div
-        class="sc-jwKygS VBnXh"
+        class="sc-gxMtzJ eXQJvD"
       >
         <div
-          class="sc-hEsumM eaDJIk"
+          class="sc-btzYZH cZSewS"
         >
           <a
-            class="sc-ktHwxA jrBUuF"
+            class="sc-lhVmIH ikqhWa"
           >
             <img
-              class="sc-cIShpX bdacYz"
+              class="sc-bYSBpT dCPoBO"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-kafWEX gSvfbn"
+            class="sc-elJkPf kVhaog"
           >
             <a
-              class="sc-iELTvK kJsLth"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
-              Om oss
+              Case
             </a>
             <a
-              class="sc-iELTvK kJsLth"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
-              Hur vi jobbar
+              AI
             </a>
             <a
-              class="sc-iELTvK kJsLth"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
-              Teamet
+              Metod
             </a>
             <a
-              class="sc-iELTvK kJsLth"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
-              Våra case
+              Medarbetare
             </a>
             <a
-              class="sc-iELTvK kJsLth"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
-              Jobba hos oss
+              Karriär
             </a>
             <a
-              class="sc-iELTvK kJsLth"
+              class="sc-kTUwUJ fEMxFB"
+              aria-current="false"
+            >
+              Om
+            </a>
+            <a
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
               Drift & Support
             </a>
             <div
-              class="sc-feJyhm eBZxbn"
+              class="sc-jtRfpW hwCVJp"
             />
           </div>
         </div>
         <div
-          class="sc-btzYZH bmWjXH"
+          class="sc-dfVpRl hlzXex"
         >
           <h1
-            class="sc-lhVmIH ebGPuj"
+            class="sc-gzOgki gWEEDl"
           >
             <span>
               Det är vi som är Iteam
@@ -108,23 +114,23 @@ exports[`components/Team renders Team 1`] = `
       </div>
     </div>
     <div
-      class="sc-eHgmQL blpFcj"
+      class="sc-cvbbAY hJLgSh"
     >
       <div
-        class="sc-jWBwVP hTGZDK"
+        class="sc-brqgnP hNFZAy"
       >
         <div
-          class="sc-dxgOiQ dJEuRm"
+          class="sc-ckVGcZ goMkEY"
         >
           <a
-            class="sc-kGXeez bqcmJv"
+            class="sc-kpOJdX eNhRjC"
           >
             <div
-              class="sc-jtRfpW dBdsFm"
+              class="sc-kPVwWT bAZnwm"
             >
               <div>
                 <img
-                  class="sc-kpOJdX iWkgFh"
+                  class="sc-dxgOiQ hjYxNe"
                   alt="Cookie M"
                   src=""
                 />
@@ -132,44 +138,44 @@ exports[`components/Team renders Team 1`] = `
             </div>
           </a>
           <div
-            class="sc-bYSBpT jwEohV"
+            class="sc-iyvyFf hIGtnG"
           >
             Cookie M
           </div>
           <div
-            class="sc-elJkPf eMquac"
+            class="sc-hwwEjo fMbrdn"
           >
             Cookie master
           </div>
           <div
-            class="sc-kTUwUJ kwFQKq"
+            class="sc-kfGgVZ dejRES"
           >
             <a
-              class="sc-kAzzGY beda"
+              class="sc-chPdSV hAACpH"
               href="tel:0701234567"
             >
               070-123 45 67
             </a>
           </div>
           <a
-            class="sc-cSHVUG idRAJo"
+            class="sc-kAzzGY LovkB"
             href="mailto:cm@sesame.com"
           >
             cm@sesame.com
           </a>
         </div>
         <div
-          class="sc-dxgOiQ dJEuRm"
+          class="sc-ckVGcZ goMkEY"
         >
           <a
-            class="sc-kGXeez bqcmJv"
+            class="sc-kpOJdX eNhRjC"
           >
             <div
-              class="sc-jtRfpW dBdsFm"
+              class="sc-kPVwWT bAZnwm"
             >
               <div>
                 <img
-                  class="sc-kpOJdX iWkgFh"
+                  class="sc-dxgOiQ hjYxNe"
                   alt="Count van Count"
                   src=""
                 />
@@ -177,27 +183,27 @@ exports[`components/Team renders Team 1`] = `
             </div>
           </a>
           <div
-            class="sc-bYSBpT jwEohV"
+            class="sc-iyvyFf hIGtnG"
           >
             Count van Count
           </div>
           <div
-            class="sc-elJkPf eMquac"
+            class="sc-hwwEjo fMbrdn"
           >
             1 ahahah
           </div>
           <div
-            class="sc-kTUwUJ kwFQKq"
+            class="sc-kfGgVZ dejRES"
           >
             <a
-              class="sc-kAzzGY beda"
+              class="sc-chPdSV hAACpH"
               href="tel:0707654321"
             >
               070-765 43 21
             </a>
           </div>
           <a
-            class="sc-cSHVUG idRAJo"
+            class="sc-kAzzGY LovkB"
             href="mailto:count@sesame.com"
           >
             count@sesame.com
@@ -213,72 +219,78 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
 <div>
   <div>
     <div
-      class="sc-cmTdod ihgxFe"
+      class="sc-dqBHgY cGUgLT"
     >
       <div
-        class="sc-jwKygS VBnXh"
+        class="sc-gxMtzJ eXQJvD"
       >
         <div
-          class="sc-hEsumM eaDJIk"
+          class="sc-btzYZH cZSewS"
         >
           <a
-            class="sc-ktHwxA jrBUuF"
+            class="sc-lhVmIH ikqhWa"
           >
             <img
-              class="sc-cIShpX bdacYz"
+              class="sc-bYSBpT dCPoBO"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-kafWEX gSvfbn"
+            class="sc-elJkPf kVhaog"
           >
             <a
-              class="sc-iELTvK kJsLth"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
-              Om oss
+              Case
             </a>
             <a
-              class="sc-iELTvK kJsLth"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
-              Hur vi jobbar
+              AI
             </a>
             <a
-              class="sc-iELTvK kJsLth"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
-              Teamet
+              Metod
             </a>
             <a
-              class="sc-iELTvK kJsLth"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
-              Våra case
+              Medarbetare
             </a>
             <a
-              class="sc-iELTvK kJsLth"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
-              Jobba hos oss
+              Karriär
             </a>
             <a
-              class="sc-iELTvK kJsLth"
+              class="sc-kTUwUJ fEMxFB"
+              aria-current="false"
+            >
+              Om
+            </a>
+            <a
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
               Drift & Support
             </a>
             <div
-              class="sc-feJyhm eBZxbn"
+              class="sc-jtRfpW hwCVJp"
             />
           </div>
         </div>
         <div
-          class="sc-btzYZH bmWjXH"
+          class="sc-dfVpRl hlzXex"
         >
           <h1
-            class="sc-lhVmIH ebGPuj"
+            class="sc-gzOgki gWEEDl"
           >
             <span>
               Det är vi som är Iteam
@@ -317,23 +329,23 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
       </div>
     </div>
     <div
-      class="sc-eHgmQL blpFcj"
+      class="sc-cvbbAY hJLgSh"
     >
       <div
-        class="sc-jWBwVP hTGZDK"
+        class="sc-brqgnP hNFZAy"
       >
         <div
-          class="sc-dxgOiQ dJEuRm"
+          class="sc-ckVGcZ goMkEY"
         >
           <a
-            class="sc-kGXeez bqcmJv"
+            class="sc-kpOJdX eNhRjC"
           >
             <div
-              class="sc-jtRfpW dBdsFm"
+              class="sc-kPVwWT bAZnwm"
             >
               <div>
                 <img
-                  class="sc-kpOJdX iWkgFh"
+                  class="sc-dxgOiQ hjYxNe"
                   alt="Count van Count"
                   src=""
                 />
@@ -341,27 +353,27 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
             </div>
           </a>
           <div
-            class="sc-bYSBpT jwEohV"
+            class="sc-iyvyFf hIGtnG"
           >
             Count van Count
           </div>
           <div
-            class="sc-elJkPf eMquac"
+            class="sc-hwwEjo fMbrdn"
           >
             1 ahahah
           </div>
           <div
-            class="sc-kTUwUJ kwFQKq"
+            class="sc-kfGgVZ dejRES"
           >
             <a
-              class="sc-kAzzGY beda"
+              class="sc-chPdSV hAACpH"
               href="tel:0707654321"
             >
               070-765 43 21
             </a>
           </div>
           <a
-            class="sc-cSHVUG idRAJo"
+            class="sc-kAzzGY LovkB"
             href="mailto:count@sesame.com"
           >
             count@sesame.com
@@ -377,72 +389,78 @@ exports[`components/Team should handle changing location using mouse 1`] = `
 <div>
   <div>
     <div
-      class="sc-cmTdod ihgxFe"
+      class="sc-dqBHgY cGUgLT"
     >
       <div
-        class="sc-jwKygS VBnXh"
+        class="sc-gxMtzJ eXQJvD"
       >
         <div
-          class="sc-hEsumM eaDJIk"
+          class="sc-btzYZH cZSewS"
         >
           <a
-            class="sc-ktHwxA jrBUuF"
+            class="sc-lhVmIH ikqhWa"
           >
             <img
-              class="sc-cIShpX bdacYz"
+              class="sc-bYSBpT dCPoBO"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-kafWEX gSvfbn"
+            class="sc-elJkPf kVhaog"
           >
             <a
-              class="sc-iELTvK kJsLth"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
-              Om oss
+              Case
             </a>
             <a
-              class="sc-iELTvK kJsLth"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
-              Hur vi jobbar
+              AI
             </a>
             <a
-              class="sc-iELTvK kJsLth"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
-              Teamet
+              Metod
             </a>
             <a
-              class="sc-iELTvK kJsLth"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
-              Våra case
+              Medarbetare
             </a>
             <a
-              class="sc-iELTvK kJsLth"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
-              Jobba hos oss
+              Karriär
             </a>
             <a
-              class="sc-iELTvK kJsLth"
+              class="sc-kTUwUJ fEMxFB"
+              aria-current="false"
+            >
+              Om
+            </a>
+            <a
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
               Drift & Support
             </a>
             <div
-              class="sc-feJyhm eBZxbn"
+              class="sc-jtRfpW hwCVJp"
             />
           </div>
         </div>
         <div
-          class="sc-btzYZH bmWjXH"
+          class="sc-dfVpRl hlzXex"
         >
           <h1
-            class="sc-lhVmIH ebGPuj"
+            class="sc-gzOgki gWEEDl"
           >
             <span>
               Det är vi som är Iteam
@@ -481,23 +499,23 @@ exports[`components/Team should handle changing location using mouse 1`] = `
       </div>
     </div>
     <div
-      class="sc-eHgmQL blpFcj"
+      class="sc-cvbbAY hJLgSh"
     >
       <div
-        class="sc-jWBwVP hTGZDK"
+        class="sc-brqgnP hNFZAy"
       >
         <div
-          class="sc-dxgOiQ dJEuRm"
+          class="sc-ckVGcZ goMkEY"
         >
           <a
-            class="sc-kGXeez bqcmJv"
+            class="sc-kpOJdX eNhRjC"
           >
             <div
-              class="sc-jtRfpW dBdsFm"
+              class="sc-kPVwWT bAZnwm"
             >
               <div>
                 <img
-                  class="sc-kpOJdX iWkgFh"
+                  class="sc-dxgOiQ hjYxNe"
                   alt="Cookie M"
                   src=""
                 />
@@ -505,27 +523,27 @@ exports[`components/Team should handle changing location using mouse 1`] = `
             </div>
           </a>
           <div
-            class="sc-bYSBpT jwEohV"
+            class="sc-iyvyFf hIGtnG"
           >
             Cookie M
           </div>
           <div
-            class="sc-elJkPf eMquac"
+            class="sc-hwwEjo fMbrdn"
           >
             Cookie master
           </div>
           <div
-            class="sc-kTUwUJ kwFQKq"
+            class="sc-kfGgVZ dejRES"
           >
             <a
-              class="sc-kAzzGY beda"
+              class="sc-chPdSV hAACpH"
               href="tel:0701234567"
             >
               070-123 45 67
             </a>
           </div>
           <a
-            class="sc-cSHVUG idRAJo"
+            class="sc-kAzzGY LovkB"
             href="mailto:cm@sesame.com"
           >
             cm@sesame.com
@@ -541,72 +559,78 @@ exports[`components/Team should not change using keyboard if not enter or space 
 <div>
   <div>
     <div
-      class="sc-cmTdod ihgxFe"
+      class="sc-dqBHgY cGUgLT"
     >
       <div
-        class="sc-jwKygS VBnXh"
+        class="sc-gxMtzJ eXQJvD"
       >
         <div
-          class="sc-hEsumM eaDJIk"
+          class="sc-btzYZH cZSewS"
         >
           <a
-            class="sc-ktHwxA jrBUuF"
+            class="sc-lhVmIH ikqhWa"
           >
             <img
-              class="sc-cIShpX bdacYz"
+              class="sc-bYSBpT dCPoBO"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-kafWEX gSvfbn"
+            class="sc-elJkPf kVhaog"
           >
             <a
-              class="sc-iELTvK kJsLth"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
-              Om oss
+              Case
             </a>
             <a
-              class="sc-iELTvK kJsLth"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
-              Hur vi jobbar
+              AI
             </a>
             <a
-              class="sc-iELTvK kJsLth"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
-              Teamet
+              Metod
             </a>
             <a
-              class="sc-iELTvK kJsLth"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
-              Våra case
+              Medarbetare
             </a>
             <a
-              class="sc-iELTvK kJsLth"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
-              Jobba hos oss
+              Karriär
             </a>
             <a
-              class="sc-iELTvK kJsLth"
+              class="sc-kTUwUJ fEMxFB"
+              aria-current="false"
+            >
+              Om
+            </a>
+            <a
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
               Drift & Support
             </a>
             <div
-              class="sc-feJyhm eBZxbn"
+              class="sc-jtRfpW hwCVJp"
             />
           </div>
         </div>
         <div
-          class="sc-btzYZH bmWjXH"
+          class="sc-dfVpRl hlzXex"
         >
           <h1
-            class="sc-lhVmIH ebGPuj"
+            class="sc-gzOgki gWEEDl"
           >
             <span>
               Det är vi som är Iteam
@@ -645,23 +669,23 @@ exports[`components/Team should not change using keyboard if not enter or space 
       </div>
     </div>
     <div
-      class="sc-eHgmQL blpFcj"
+      class="sc-cvbbAY hJLgSh"
     >
       <div
-        class="sc-jWBwVP hTGZDK"
+        class="sc-brqgnP hNFZAy"
       >
         <div
-          class="sc-dxgOiQ dJEuRm"
+          class="sc-ckVGcZ goMkEY"
         >
           <a
-            class="sc-kGXeez bqcmJv"
+            class="sc-kpOJdX eNhRjC"
           >
             <div
-              class="sc-jtRfpW dBdsFm"
+              class="sc-kPVwWT bAZnwm"
             >
               <div>
                 <img
-                  class="sc-kpOJdX iWkgFh"
+                  class="sc-dxgOiQ hjYxNe"
                   alt="Cookie M"
                   src=""
                 />
@@ -669,44 +693,44 @@ exports[`components/Team should not change using keyboard if not enter or space 
             </div>
           </a>
           <div
-            class="sc-bYSBpT jwEohV"
+            class="sc-iyvyFf hIGtnG"
           >
             Cookie M
           </div>
           <div
-            class="sc-elJkPf eMquac"
+            class="sc-hwwEjo fMbrdn"
           >
             Cookie master
           </div>
           <div
-            class="sc-kTUwUJ kwFQKq"
+            class="sc-kfGgVZ dejRES"
           >
             <a
-              class="sc-kAzzGY beda"
+              class="sc-chPdSV hAACpH"
               href="tel:0701234567"
             >
               070-123 45 67
             </a>
           </div>
           <a
-            class="sc-cSHVUG idRAJo"
+            class="sc-kAzzGY LovkB"
             href="mailto:cm@sesame.com"
           >
             cm@sesame.com
           </a>
         </div>
         <div
-          class="sc-dxgOiQ dJEuRm"
+          class="sc-ckVGcZ goMkEY"
         >
           <a
-            class="sc-kGXeez bqcmJv"
+            class="sc-kpOJdX eNhRjC"
           >
             <div
-              class="sc-jtRfpW dBdsFm"
+              class="sc-kPVwWT bAZnwm"
             >
               <div>
                 <img
-                  class="sc-kpOJdX iWkgFh"
+                  class="sc-dxgOiQ hjYxNe"
                   alt="Count van Count"
                   src=""
                 />
@@ -714,27 +738,27 @@ exports[`components/Team should not change using keyboard if not enter or space 
             </div>
           </a>
           <div
-            class="sc-bYSBpT jwEohV"
+            class="sc-iyvyFf hIGtnG"
           >
             Count van Count
           </div>
           <div
-            class="sc-elJkPf eMquac"
+            class="sc-hwwEjo fMbrdn"
           >
             1 ahahah
           </div>
           <div
-            class="sc-kTUwUJ kwFQKq"
+            class="sc-kfGgVZ dejRES"
           >
             <a
-              class="sc-kAzzGY beda"
+              class="sc-chPdSV hAACpH"
               href="tel:0707654321"
             >
               070-765 43 21
             </a>
           </div>
           <a
-            class="sc-cSHVUG idRAJo"
+            class="sc-kAzzGY LovkB"
             href="mailto:count@sesame.com"
           >
             count@sesame.com

@@ -4,79 +4,85 @@ exports[`components/Home renders Home 1`] = `
 <div>
   <div>
     <div
-      class="sc-ktHwxA eVwcRz"
+      class="sc-lhVmIH kTWvui"
     >
       <div
-        class="sc-cIShpX gwcFtF"
+        class="sc-bYSBpT bdgTKs"
       >
         <div
-          class="sc-bbmXgH dltjNi"
+          class="sc-kafWEX doqriu"
         >
           <a
-            class="sc-gGBfsJ cNNKLH"
+            class="sc-feJyhm bzbyYc"
           >
             <img
-              class="sc-jnlKLf ixkzHM"
+              class="sc-iELTvK kXWcVM"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-fYxtnH chrQKX"
+            class="sc-cmTdod gUTeYg"
           >
             <a
-              class="sc-hEsumM fOvejy"
+              class="sc-btzYZH kmRwNW"
               aria-current="false"
             >
-              Om oss
+              Case
             </a>
             <a
-              class="sc-hEsumM fOvejy"
+              class="sc-btzYZH kmRwNW"
               aria-current="false"
             >
-              Hur vi jobbar
+              AI
             </a>
             <a
-              class="sc-hEsumM fOvejy"
+              class="sc-btzYZH kmRwNW"
               aria-current="false"
             >
-              Teamet
+              Metod
             </a>
             <a
-              class="sc-hEsumM fOvejy"
+              class="sc-btzYZH kmRwNW"
               aria-current="false"
             >
-              Våra case
+              Medarbetare
             </a>
             <a
-              class="sc-hEsumM fOvejy"
+              class="sc-btzYZH kmRwNW"
               aria-current="false"
             >
-              Jobba hos oss
+              Karriär
             </a>
             <a
-              class="sc-hEsumM fOvejy"
+              class="sc-btzYZH kmRwNW"
+              aria-current="false"
+            >
+              Om
+            </a>
+            <a
+              class="sc-btzYZH kmRwNW"
               aria-current="false"
             >
               Drift & Support
             </a>
             <div
-              class="sc-tilXH cDiLuN"
+              class="sc-jwKygS fTIVRr"
             />
           </div>
         </div>
         <div
-          class="sc-kafWEX qcLQG"
+          class="sc-elJkPf kqIJd"
         >
           <h1
-            class="sc-feJyhm zmYBY"
+            class="sc-jtRfpW hCjAru"
           >
             <span>
               Vi digitaliserar företag och organisationer
             </span>
           </h1>
           <h1
-            class="sc-feJyhm zmYBY"
+            class="sc-jtRfpW hCjAru"
           >
             <span>
               genom strategi, kod och kultur
@@ -87,20 +93,20 @@ exports[`components/Home renders Home 1`] = `
     </div>
   </div>
   <div
-    class="sc-fBuWsC gYhPAl"
+    class="sc-gisBJw jCClIY"
   >
     <div
-      class="sc-fMiknA dojdZf"
+      class="sc-kjoXOD cirWqA"
     >
       <img
-        class="sc-fAjcbJ hdhVTq"
+        class="sc-cJSrbW bKpQbZ"
         src="test-file-stub"
       />
       <div
-        class="sc-dVhcbM lmANPA"
+        class="sc-cHGsZl hhVRgD"
       >
         <div
-          class="sc-eqIVtm eJqVIb"
+          class="sc-TOsTZ gFfxXo"
         >
           <h1
             class="sc-gZMcBi ctjDhW"
@@ -117,17 +123,17 @@ exports[`components/Home renders Home 1`] = `
             </div>
           </div>
           <img
-            class="sc-caSCKo exwNLO"
+            class="sc-ksYbfQ cKDufE"
             src="//images.ctfassets.net/rj4r6yfcesw5/3qnZSfySW4cEGoUo6KCAae/8a656eba15e15b61dacc9fbea38aa4bd/logo_af.png"
           />
           <a
-            class="sc-jhAzac eJSshj"
+            class="sc-caSCKo culsyQ"
           >
             Läs om hur vi hjälper Arbetsförmedlingen med kod
           </a>
         </div>
         <div
-          class="sc-eqIVtm eJqVIb"
+          class="sc-TOsTZ gFfxXo"
         >
           <h1
             class="sc-gZMcBi ctjDhW"
@@ -144,17 +150,17 @@ exports[`components/Home renders Home 1`] = `
             </div>
           </div>
           <img
-            class="sc-caSCKo exwNLO"
+            class="sc-ksYbfQ cKDufE"
             src="//images.ctfassets.net/rj4r6yfcesw5/1mv5fxBGLmeyWom4OI2WsI/a4d79cae2076b43aea926db2f1244b52/logo_tsab.png"
           />
           <a
-            class="sc-jhAzac eJSshj"
+            class="sc-caSCKo culsyQ"
           >
             Läs om hur vi hjälper Taxi Stockholm med strategi
           </a>
         </div>
         <div
-          class="sc-eqIVtm eJqVIb"
+          class="sc-TOsTZ gFfxXo"
         >
           <h1
             class="sc-gZMcBi ctjDhW"
@@ -171,11 +177,11 @@ exports[`components/Home renders Home 1`] = `
             </div>
           </div>
           <img
-            class="sc-caSCKo exwNLO"
+            class="sc-ksYbfQ cKDufE"
             src="//images.ctfassets.net/rj4r6yfcesw5/4D844WR1v20ICIOG4SK0y8/15a008277f5565d9f52fbd5312f6e121/logo_seb.png"
           />
           <a
-            class="sc-jhAzac eJSshj"
+            class="sc-caSCKo culsyQ"
           >
             Läs om hur vi hjälper SEB med kultur
           </a>
@@ -184,21 +190,66 @@ exports[`components/Home renders Home 1`] = `
     </div>
   </div>
   <div
-    class="sc-Rmtcm kTBNsE"
+    class="sc-iwsKbI fwFOwW"
   >
     <div
-      class="sc-bRBYWo iBZmPH"
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-bdVaJa fGzlqx"
+        data-test="block-"
+      >
+        <div
+          class="sc-bxivhb kgeHJJ"
+        >
+          <div
+            class="sc-ifAKCX cFlEyZ"
+          >
+            <h3
+              class="sc-bwzfXH kgEpTV"
+            >
+              Utforska möjligheterna med AI
+            </h3>
+          </div>
+          <div
+            class="sc-bZQynM hmvJjY"
+          >
+            <div
+              class="sc-kgAjT cuzzPp"
+            >
+              We are offering an Artificial Intelligence package to help you build AI products and services. We have a very competent Data Science team that will help you grow in the growing market of Artificial Intelligence.
+            </div>
+            <div
+              class="sc-kgAjT cuzzPp"
+            >
+              <a
+                class="sc-caSCKo culsyQ"
+              >
+                Läs mer om våra erbjudanden inom AI
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-fMiknA fkjoYg"
+  >
+    <div
+      class="sc-dVhcbM cETFxP"
     />
     <div
-      class="sc-hzDkRC jMmDHr"
+      class="sc-eqIVtm hOEolS"
     >
       <h2
-        class="sc-csuQGl cTtYIH"
+        class="sc-fAjcbJ iMAcup"
       >
         Visste du att vi även erbjuder drift & support?
       </h2>
       <a
-        class="sc-gipzik gwutnr"
+        class="sc-jhAzac hXWSTa"
       >
         Iteam Operations
       </a>

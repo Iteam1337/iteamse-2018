@@ -1,0 +1,661 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Ai renders Ai 1`] = `
+<div>
+  <div>
+    <div
+      class="sc-lhVmIH fTQKsL"
+    >
+      <div
+        class="sc-bYSBpT bdgTKs"
+      >
+        <div
+          class="sc-kafWEX doqriu"
+        >
+          <a
+            class="sc-feJyhm bzbyYc"
+          >
+            <img
+              class="sc-iELTvK kXWcVM"
+              data-testid="logo"
+              path="test-file-stub"
+            />
+          </a>
+          <div
+            class="sc-cmTdod gUTeYg"
+          >
+            <a
+              class="sc-btzYZH kmRwNW"
+              aria-current="false"
+            >
+              Case
+            </a>
+            <a
+              class="sc-btzYZH kmRwNW"
+              aria-current="false"
+            >
+              AI
+            </a>
+            <a
+              class="sc-btzYZH kmRwNW"
+              aria-current="false"
+            >
+              Metod
+            </a>
+            <a
+              class="sc-btzYZH kmRwNW"
+              aria-current="false"
+            >
+              Medarbetare
+            </a>
+            <a
+              class="sc-btzYZH kmRwNW"
+              aria-current="false"
+            >
+              Karriär
+            </a>
+            <a
+              class="sc-btzYZH kmRwNW"
+              aria-current="false"
+            >
+              Om
+            </a>
+            <a
+              class="sc-btzYZH kmRwNW"
+              aria-current="false"
+            >
+              Drift & Support
+            </a>
+            <div
+              class="sc-jwKygS fTIVRr"
+            />
+          </div>
+        </div>
+        <div
+          class="sc-elJkPf kqIJd"
+        >
+          <h1
+            class="sc-jtRfpW cAjlcN"
+          >
+            <span>
+              Våra erbjudanden inom AI
+            </span>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-iwsKbI fwFOwW"
+  >
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-bdVaJa fGzlqx"
+        data-test="block-"
+      >
+        <div
+          class="sc-bxivhb kgeHJJ"
+        >
+          <div
+            class="sc-ifAKCX cFlEyZ"
+          >
+            <h3
+              class="sc-bwzfXH kgEpTV"
+            >
+              AI
+            </h3>
+          </div>
+          <div
+            class="sc-bZQynM hmvJjY"
+          >
+            <div
+              class="sc-htpNat iEyarI"
+            >
+              <div>
+                <p>
+                  We at Iteam have the knowledge and competence to help you build data products. Not only that, we can help you use the data in your data products to make better decisions at different layers of your organizations: from day-to-day decisions to staratic decisions.
+                </p>
+                <p>
+                  We have seen enormous efforts and progress in AI in sectors such as finance and banking, transport, health, telecom and education and we are ready to help you model events and data you need to be faster in this constantly changing market of digital world.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-bdVaJa fGzlqx"
+        data-test="table-"
+      >
+        <div
+          class="sc-cSHVUG hCuviw"
+        >
+          <div
+            class="sc-kAzzGY jHprQs"
+          >
+            <h3
+              class="sc-bwzfXH kgEpTV"
+            >
+              Vad vi kan erbjuda
+            </h3>
+          </div>
+          <div
+            class="sc-chPdSV mxuDG"
+          >
+            <div
+              class="sc-htpNat iEyarI"
+            >
+              <div>
+                <p>
+                  We will always be open to your need, but sometimes clients are more comfortable with having services packaged in terms of hours and workload. We have three packages ready for your needs as you can see below:
+                </p>
+              </div>
+            </div>
+            <div
+              class="ReactTable"
+            >
+              <div
+                class="rt-table"
+                role="grid"
+              >
+                <div
+                  class="rt-thead -header"
+                  style="min-width: 400px;"
+                >
+                  <div
+                    class="rt-tr"
+                    role="row"
+                  >
+                    <div
+                      class="rt-th"
+                      role="columnheader"
+                      tabindex="-1"
+                      style="width: 100px;"
+                    >
+                      <div
+                        class=""
+                      />
+                    </div>
+                    <div
+                      class="rt-th"
+                      role="columnheader"
+                      tabindex="-1"
+                      style="width: 100px;"
+                    >
+                      <div
+                        class=""
+                      >
+                        Package 1
+                      </div>
+                    </div>
+                    <div
+                      class="rt-th"
+                      role="columnheader"
+                      tabindex="-1"
+                      style="width: 100px;"
+                    >
+                      <div
+                        class=""
+                      >
+                        Package 2
+                      </div>
+                    </div>
+                    <div
+                      class="rt-th"
+                      role="columnheader"
+                      tabindex="-1"
+                      style="width: 100px;"
+                    >
+                      <div
+                        class=""
+                      >
+                        Package 3
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="rt-tbody"
+                  style="min-width: 400px;"
+                >
+                  <div
+                    class="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <div
+                      class="rt-tr -odd"
+                      role="row"
+                    >
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        <div
+                          class="sc-kgoBCf bnKAYi"
+                        >
+                          FTE
+                        </div>
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        4
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        4
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        4
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <div
+                      class="rt-tr -even"
+                      role="row"
+                    >
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        <div
+                          class="sc-kgoBCf bnKAYi"
+                        >
+                          Weeks
+                        </div>
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        6
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        9
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        12
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <div
+                      class="rt-tr -odd"
+                      role="row"
+                    >
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        <div
+                          class="sc-kgoBCf bnKAYi"
+                        >
+                          Data Scientist
+                        </div>
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        1
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        1
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        1
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <div
+                      class="rt-tr -even"
+                      role="row"
+                    >
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        <div
+                          class="sc-kgoBCf bnKAYi"
+                        >
+                          DevOps Engineer
+                        </div>
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        1
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        0.5
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        0.5
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <div
+                      class="rt-tr -odd"
+                      role="row"
+                    >
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        <div
+                          class="sc-kgoBCf bnKAYi"
+                        >
+                          Data Engineer
+                        </div>
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        1
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        1.5
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        1.5
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <div
+                      class="rt-tr -even"
+                      role="row"
+                    >
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        <div
+                          class="sc-kgoBCf bnKAYi"
+                        >
+                          Developer
+                        </div>
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        1
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        1
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        1
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <div
+                      class="rt-tr -odd"
+                      role="row"
+                    >
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        <div
+                          class="sc-kgoBCf bnKAYi"
+                        >
+                          Hours
+                        </div>
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        960
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        1440
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        2160
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <div
+                      class="rt-tr -even"
+                      role="row"
+                    >
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        <div
+                          class="sc-kgoBCf bnKAYi"
+                        >
+                          Deliverables
+                        </div>
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      />
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      />
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <div
+                      class="rt-tr -odd"
+                      role="row"
+                    >
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        <div
+                          class="sc-kgoBCf bnKAYi"
+                        >
+                          Datasource
+                        </div>
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        Database Export
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        Live Data Streams
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        Live Data Streams
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <div
+                      class="rt-tr -even"
+                      role="row"
+                    >
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        <div
+                          class="sc-kgoBCf bnKAYi"
+                        >
+                          Model
+                        </div>
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        Proof-of-Concept Model
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        Proof-of-Concept Model
+                      </div>
+                      <div
+                        class="rt-td"
+                        role="gridcell"
+                        style="width: 100px;"
+                      >
+                        Production Model
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="-loading"
+              >
+                <div
+                  class="-loading-inner"
+                >
+                  Loading...
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

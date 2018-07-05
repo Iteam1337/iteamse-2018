@@ -16,31 +16,37 @@ exports[`components/MobileMenu renders MobileMenu and can open it 1`] = `
           class="sc-bxivhb kFLvBf"
           aria-current="false"
         >
-          Om oss
+          Case
         </a>
         <a
           class="sc-bxivhb kFLvBf"
           aria-current="false"
         >
-          Hur vi jobbar
+          AI
         </a>
         <a
           class="sc-bxivhb kFLvBf"
           aria-current="false"
         >
-          Teamet
+          Metod
         </a>
         <a
           class="sc-bxivhb kFLvBf"
           aria-current="false"
         >
-          Våra case
+          Medarbetare
         </a>
         <a
           class="sc-bxivhb kFLvBf"
           aria-current="false"
         >
-          Jobba hos oss
+          Karriär
+        </a>
+        <a
+          class="sc-bxivhb kFLvBf"
+          aria-current="false"
+        >
+          Om
         </a>
         <a
           class="sc-bxivhb kFLvBf"
