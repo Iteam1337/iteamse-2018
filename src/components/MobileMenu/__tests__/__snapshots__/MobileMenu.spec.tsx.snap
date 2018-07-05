@@ -16,13 +16,13 @@ exports[`components/MobileMenu renders MobileMenu and can open it 1`] = `
           class="sc-bxivhb kFLvBf"
           aria-current="false"
         >
-          Case
+          Erbjudanden
         </a>
         <a
           class="sc-bxivhb kFLvBf"
           aria-current="false"
         >
-          AI
+          Case
         </a>
         <a
           class="sc-bxivhb kFLvBf"
@@ -47,12 +47,6 @@ exports[`components/MobileMenu renders MobileMenu and can open it 1`] = `
           aria-current="false"
         >
           Om
-        </a>
-        <a
-          class="sc-bxivhb kFLvBf"
-          aria-current="false"
-        >
-          Drift & Support
         </a>
       </div>
     </div>

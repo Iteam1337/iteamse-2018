@@ -3,89 +3,83 @@
 exports[`components/Team renders TeamMember 1`] = `
 <div>
   <div
-    class="sc-dqBHgY fFpsHk"
+    class="sc-hwwEjo bOmwZf"
   >
     <div>
       <div
-        class="sc-lhVmIH hOiqEn"
+        class="sc-dqBHgY bXGbuD"
       >
         <div
-          class="sc-bYSBpT bdgTKs"
+          class="sc-gxMtzJ eXQJvD"
         >
           <div
-            class="sc-kafWEX doqriu"
+            class="sc-btzYZH cZSewS"
           >
             <a
-              class="sc-feJyhm bzbyYc"
+              class="sc-lhVmIH ikqhWa"
             >
               <img
-                class="sc-iELTvK kXWcVM"
+                class="sc-bYSBpT dCPoBO"
                 data-testid="logo"
                 path="test-file-stub"
               />
             </a>
             <div
-              class="sc-cmTdod gUTeYg"
+              class="sc-elJkPf kVhaog"
             >
               <a
-                class="sc-btzYZH kmRwNW"
+                class="sc-kTUwUJ fEMxFB"
+                aria-current="false"
+              >
+                Erbjudanden
+              </a>
+              <a
+                class="sc-kTUwUJ fEMxFB"
                 aria-current="false"
               >
                 Case
               </a>
               <a
-                class="sc-btzYZH kmRwNW"
-                aria-current="false"
-              >
-                AI
-              </a>
-              <a
-                class="sc-btzYZH kmRwNW"
+                class="sc-kTUwUJ fEMxFB"
                 aria-current="false"
               >
                 Metod
               </a>
               <a
-                class="sc-btzYZH kmRwNW active-nav"
+                class="sc-kTUwUJ fEMxFB active-nav"
                 aria-current="true"
               >
                 Medarbetare
               </a>
               <a
-                class="sc-btzYZH kmRwNW"
+                class="sc-kTUwUJ fEMxFB"
                 aria-current="false"
               >
                 Karriär
               </a>
               <a
-                class="sc-btzYZH kmRwNW"
+                class="sc-kTUwUJ fEMxFB"
                 aria-current="false"
               >
                 Om
               </a>
-              <a
-                class="sc-btzYZH kmRwNW"
-                aria-current="false"
-              >
-                Drift & Support
-              </a>
               <div
-                class="sc-jwKygS fTIVRr"
+                class="sc-jtRfpW hwCVJp"
               />
             </div>
           </div>
           <div
-            class="sc-elJkPf kqIJd"
+            class="sc-dfVpRl hlzXex"
           >
             <h1
-              class="sc-jtRfpW gYccdl"
+              class="sc-gzOgki gWEEDl"
             >
               <span>
                 Rickard Laurin
               </span>
             </h1>
             <h1
-              class="sc-jtRfpW gYccdl"
+              class="sc-gzOgki gWEEDl"
             >
               <span>
                 Webbutvecklare
@@ -135,11 +129,11 @@ exports[`components/Team renders TeamMember 1`] = `
               class="sc-bZQynM hmvJjY"
             >
               <ul
-                class="sc-kTUwUJ bEvEzc"
+                class="sc-iyvyFf bCfuAv"
               >
                 <li>
                   <a
-                    class="sc-bbmXgH jBJcSy"
+                    class="sc-hEsumM bRMUaD"
                     href="mailto:rickard.laurin@iteam.se"
                   >
                     rickard.laurin@iteam.se

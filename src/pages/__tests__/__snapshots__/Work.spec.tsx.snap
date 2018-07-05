@@ -4,78 +4,72 @@ exports[`components/Work renders Work 1`] = `
 <div>
   <div>
     <div
-      class="sc-lhVmIH eaZnSP"
+      class="sc-dqBHgY kutLQd"
     >
       <div
-        class="sc-bYSBpT bdgTKs"
+        class="sc-gxMtzJ eXQJvD"
       >
         <div
-          class="sc-kafWEX doqriu"
+          class="sc-btzYZH cZSewS"
         >
           <a
-            class="sc-feJyhm bzbyYc"
+            class="sc-lhVmIH ikqhWa"
           >
             <img
-              class="sc-iELTvK kXWcVM"
+              class="sc-bYSBpT dCPoBO"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-cmTdod gUTeYg"
+            class="sc-elJkPf kVhaog"
           >
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-kTUwUJ fEMxFB"
+              aria-current="false"
+            >
+              Erbjudanden
+            </a>
+            <a
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
-              aria-current="false"
-            >
-              AI
-            </a>
-            <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
               Om
             </a>
-            <a
-              class="sc-btzYZH kmRwNW"
-              aria-current="false"
-            >
-              Drift & Support
-            </a>
             <div
-              class="sc-jwKygS fTIVRr"
+              class="sc-jtRfpW hwCVJp"
             />
           </div>
         </div>
         <div
-          class="sc-elJkPf kqIJd"
+          class="sc-dfVpRl hlzXex"
         >
           <h1
-            class="sc-jtRfpW dJthJP"
+            class="sc-gzOgki hWUYma"
           >
             <span>
               Bli en del av teamet
@@ -89,24 +83,24 @@ exports[`components/Work renders Work 1`] = `
     class="sc-iwsKbI fwFOwW"
   >
     <div
-      class="sc-hqyNC etKvRf"
+      class="sc-bbmXgH iFQVoq"
     >
       <div
-        class="sc-kvZOFW WEDpB"
+        class="sc-uJMKN cAmneM"
         data-test="filter-"
         tabindex="0"
       >
         Alla
       </div>
       <div
-        class="sc-kvZOFW fQCHTO"
+        class="sc-uJMKN haYPS"
         data-test="filter-Stockholm"
         tabindex="0"
       >
         Stockholm
       </div>
       <div
-        class="sc-kvZOFW fQCHTO"
+        class="sc-uJMKN haYPS"
         data-test="filter-Göteborg"
         tabindex="0"
       >
@@ -154,7 +148,7 @@ exports[`components/Work renders Work 1`] = `
               </div>
             </div>
             <a
-              class="sc-caSCKo culsyQ"
+              class="sc-fMiknA frZnFi"
             >
               Läs mer
             </a>

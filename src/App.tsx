@@ -40,8 +40,8 @@ const App = () => (
       <Route path="/case/:slug" component={Case} />
       <Route exact path="/jobba-hos-oss" component={Work} />
       <Route path="/jobba-hos-oss/:id" component={OpenPosition} />
-      <Route path="/ops" component={Ops} />
       <Route exact path="/erbjudanden" component={Offers} />
+      <Route path="/erbjudanden/ops" component={Ops} />
       <Route path="/erbjudanden/ai" component={Ai} />
     </Switch>
     <MobileMenu />

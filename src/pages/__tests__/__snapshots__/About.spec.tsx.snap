@@ -4,85 +4,79 @@ exports[`components/About renders About 1`] = `
 <div>
   <div>
     <div
-      class="sc-lhVmIH gEEciN"
+      class="sc-dqBHgY gcLthO"
     >
       <div
-        class="sc-bYSBpT bdgTKs"
+        class="sc-gxMtzJ eXQJvD"
       >
         <div
-          class="sc-kafWEX doqriu"
+          class="sc-btzYZH cZSewS"
         >
           <a
-            class="sc-feJyhm bzbyYc"
+            class="sc-lhVmIH ikqhWa"
           >
             <img
-              class="sc-iELTvK kXWcVM"
+              class="sc-bYSBpT dCPoBO"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-cmTdod gUTeYg"
+            class="sc-elJkPf kVhaog"
           >
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-kTUwUJ fEMxFB"
+              aria-current="false"
+            >
+              Erbjudanden
+            </a>
+            <a
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
-              aria-current="false"
-            >
-              AI
-            </a>
-            <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
               Om
             </a>
-            <a
-              class="sc-btzYZH kmRwNW"
-              aria-current="false"
-            >
-              Drift & Support
-            </a>
             <div
-              class="sc-jwKygS fTIVRr"
+              class="sc-jtRfpW hwCVJp"
             />
           </div>
         </div>
         <div
-          class="sc-elJkPf kqIJd"
+          class="sc-dfVpRl hlzXex"
         >
           <h1
-            class="sc-jtRfpW egqOis"
+            class="sc-gzOgki YPlbn"
           >
             <span>
               Vi skapades ur en vilja att skapa värde,
             </span>
           </h1>
           <h1
-            class="sc-jtRfpW egqOis"
+            class="sc-gzOgki YPlbn"
           >
             <span>
               ha kul och göra något bra

@@ -4,85 +4,79 @@ exports[`components/Header renders Header 1`] = `
 <div>
   <div>
     <div
-      class="sc-iyvyFf dCShgY"
+      class="sc-kIPQKe ftKOiW"
     >
       <div
-        class="sc-hwwEjo cPpjPY"
+        class="sc-eXEjpC iOEOtv"
       >
         <div
-          class="sc-jtRfpW kaiGPi"
+          class="sc-gzOgki iPgKNP"
         >
           <a
-            class="sc-kTUwUJ ijPJJc"
+            class="sc-iyvyFf gbVIVA"
           >
             <img
-              class="sc-dqBHgY ezKxht"
+              class="sc-hwwEjo doGCkR"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-gxMtzJ fEeBIz"
+            class="sc-kPVwWT iGguRZ"
           >
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-esjQYD eLRVk"
+              aria-current="false"
+            >
+              Erbjudanden
+            </a>
+            <a
+              class="sc-esjQYD eLRVk"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
-              aria-current="false"
-            >
-              AI
-            </a>
-            <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-esjQYD eLRVk"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-esjQYD eLRVk"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-esjQYD eLRVk"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-esjQYD eLRVk"
               aria-current="false"
             >
               Om
             </a>
-            <a
-              class="sc-gzOgki dsuNbc"
-              aria-current="false"
-            >
-              Drift & Support
-            </a>
             <div
-              class="sc-dfVpRl foeOrh"
+              class="sc-kfGgVZ hzXCUz"
             />
           </div>
         </div>
         <div
-          class="sc-kPVwWT iEyyyl"
+          class="sc-ibxdXY gGaQMA"
         >
           <h1
-            class="sc-kfGgVZ gqfFed"
+            class="sc-RefOD kXWznh"
           >
             <span>
               Vi digitaliserar företag och organisationer
             </span>
           </h1>
           <h1
-            class="sc-kfGgVZ gqfFed"
+            class="sc-RefOD kXWznh"
           >
             <span>
               genom strategi, kod och kultur

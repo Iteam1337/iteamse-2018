@@ -4,85 +4,79 @@ exports[`components/Ops renders Ops 1`] = `
 <div>
   <div>
     <div
-      class="sc-lhVmIH foDRHj"
+      class="sc-dqBHgY hwWdHv"
     >
       <div
-        class="sc-bYSBpT bdgTKs"
+        class="sc-gxMtzJ eXQJvD"
       >
         <div
-          class="sc-kafWEX doqriu"
+          class="sc-btzYZH cZSewS"
         >
           <a
-            class="sc-feJyhm bzbyYc"
+            class="sc-lhVmIH ikqhWa"
           >
             <img
-              class="sc-iELTvK kXWcVM"
+              class="sc-bYSBpT dCPoBO"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-cmTdod gUTeYg"
+            class="sc-elJkPf kVhaog"
           >
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-kTUwUJ fEMxFB"
+              aria-current="false"
+            >
+              Erbjudanden
+            </a>
+            <a
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
-              aria-current="false"
-            >
-              AI
-            </a>
-            <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
               Om
             </a>
-            <a
-              class="sc-btzYZH kmRwNW"
-              aria-current="false"
-            >
-              Drift & Support
-            </a>
             <div
-              class="sc-jwKygS fTIVRr"
+              class="sc-jtRfpW hwCVJp"
             />
           </div>
         </div>
         <div
-          class="sc-elJkPf kqIJd"
+          class="sc-dfVpRl hlzXex"
         >
           <h1
-            class="sc-jtRfpW dJthJP"
+            class="sc-gzOgki hWUYma"
           >
             <span>
               Skräddarsydd drift och support
             </span>
           </h1>
           <h1
-            class="sc-jtRfpW dJthJP"
+            class="sc-gzOgki hWUYma"
           >
             <span>
               sedan 1995

@@ -4,78 +4,72 @@ exports[`components/Ai renders Ai 1`] = `
 <div>
   <div>
     <div
-      class="sc-lhVmIH fTQKsL"
+      class="sc-dqBHgY hAhcNE"
     >
       <div
-        class="sc-bYSBpT bdgTKs"
+        class="sc-gxMtzJ eXQJvD"
       >
         <div
-          class="sc-kafWEX doqriu"
+          class="sc-btzYZH cZSewS"
         >
           <a
-            class="sc-feJyhm bzbyYc"
+            class="sc-lhVmIH ikqhWa"
           >
             <img
-              class="sc-iELTvK kXWcVM"
+              class="sc-bYSBpT dCPoBO"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-cmTdod gUTeYg"
+            class="sc-elJkPf kVhaog"
           >
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-kTUwUJ fEMxFB"
+              aria-current="false"
+            >
+              Erbjudanden
+            </a>
+            <a
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
-              aria-current="false"
-            >
-              AI
-            </a>
-            <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-kTUwUJ fEMxFB"
               aria-current="false"
             >
               Om
             </a>
-            <a
-              class="sc-btzYZH kmRwNW"
-              aria-current="false"
-            >
-              Drift & Support
-            </a>
             <div
-              class="sc-jwKygS fTIVRr"
+              class="sc-jtRfpW hwCVJp"
             />
           </div>
         </div>
         <div
-          class="sc-elJkPf kqIJd"
+          class="sc-dfVpRl hlzXex"
         >
           <h1
-            class="sc-jtRfpW cAjlcN"
+            class="sc-gzOgki izfLm"
           >
             <span>
               Våra erbjudanden inom AI
@@ -136,10 +130,10 @@ exports[`components/Ai renders Ai 1`] = `
         data-test="table-"
       >
         <div
-          class="sc-cSHVUG hCuviw"
+          class="sc-cJSrbW cOzZbe"
         >
           <div
-            class="sc-kAzzGY jHprQs"
+            class="sc-ksYbfQ jHwjmi"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -148,7 +142,7 @@ exports[`components/Ai renders Ai 1`] = `
             </h3>
           </div>
           <div
-            class="sc-chPdSV mxuDG"
+            class="sc-hmzhuo cDFcHf"
           >
             <div
               class="sc-htpNat iEyarI"
@@ -240,7 +234,7 @@ exports[`components/Ai renders Ai 1`] = `
                         style="width: 100px;"
                       >
                         <div
-                          class="sc-kgoBCf bnKAYi"
+                          class="sc-frDJqD jZUxge"
                         >
                           FTE
                         </div>
@@ -282,7 +276,7 @@ exports[`components/Ai renders Ai 1`] = `
                         style="width: 100px;"
                       >
                         <div
-                          class="sc-kgoBCf bnKAYi"
+                          class="sc-frDJqD jZUxge"
                         >
                           Weeks
                         </div>
@@ -324,7 +318,7 @@ exports[`components/Ai renders Ai 1`] = `
                         style="width: 100px;"
                       >
                         <div
-                          class="sc-kgoBCf bnKAYi"
+                          class="sc-frDJqD jZUxge"
                         >
                           Data Scientist
                         </div>
@@ -366,7 +360,7 @@ exports[`components/Ai renders Ai 1`] = `
                         style="width: 100px;"
                       >
                         <div
-                          class="sc-kgoBCf bnKAYi"
+                          class="sc-frDJqD jZUxge"
                         >
                           DevOps Engineer
                         </div>
@@ -408,7 +402,7 @@ exports[`components/Ai renders Ai 1`] = `
                         style="width: 100px;"
                       >
                         <div
-                          class="sc-kgoBCf bnKAYi"
+                          class="sc-frDJqD jZUxge"
                         >
                           Data Engineer
                         </div>
@@ -450,7 +444,7 @@ exports[`components/Ai renders Ai 1`] = `
                         style="width: 100px;"
                       >
                         <div
-                          class="sc-kgoBCf bnKAYi"
+                          class="sc-frDJqD jZUxge"
                         >
                           Developer
                         </div>
@@ -492,7 +486,7 @@ exports[`components/Ai renders Ai 1`] = `
                         style="width: 100px;"
                       >
                         <div
-                          class="sc-kgoBCf bnKAYi"
+                          class="sc-frDJqD jZUxge"
                         >
                           Hours
                         </div>
@@ -534,7 +528,7 @@ exports[`components/Ai renders Ai 1`] = `
                         style="width: 100px;"
                       >
                         <div
-                          class="sc-kgoBCf bnKAYi"
+                          class="sc-frDJqD jZUxge"
                         >
                           Deliverables
                         </div>
@@ -570,7 +564,7 @@ exports[`components/Ai renders Ai 1`] = `
                         style="width: 100px;"
                       >
                         <div
-                          class="sc-kgoBCf bnKAYi"
+                          class="sc-frDJqD jZUxge"
                         >
                           Datasource
                         </div>
@@ -612,7 +606,7 @@ exports[`components/Ai renders Ai 1`] = `
                         style="width: 100px;"
                       >
                         <div
-                          class="sc-kgoBCf bnKAYi"
+                          class="sc-frDJqD jZUxge"
                         >
                           Model
                         </div>

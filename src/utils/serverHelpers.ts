@@ -56,7 +56,7 @@ export const handlePaths = (path: string) => {
     case '/cases':
       return '/case'
     case '/operations':
-      return '/ops'
+      return '/erbjudanden/ops'
     case '/ai':
       return '/erbjudanden/ai'
     case '/cases/tsab':

@@ -14,11 +14,16 @@ export const pageOps = {
   headerText1: 'Skräddarsydd drift och support',
   headerText2: 'sedan 1995',
   headerTextBgColor: '#FF405F',
+  linkText: 'Läs mer om vårt Drift & Support-erbjudande',
   networkText:
     'Oavsett om det gäller High Availability med site-to-site VPN eller trådlösa nätverk med 802.1X så kan vi hjälpa dig och ditt företag. Vi är partner och certifierade på svenska leverantören Clavisters brandväggsprodukter. \n\nVi använder i huvudsak Ubiquiti Networks nätverksprodukter och är certifierade på produktserien UniFi men har även erfarenhet produkter från Dell, HP/Aruba och Meraki.\n',
   networkTitle: 'Nätverk',
+  shortDescription:
+    'Vi erbjuder allt från support, nätverk och serverinstallation till säkerhetslöningar. Du behöver bara ringa oss så fixar vi resten.',
   softwareText:
     'Som Microsoft Silver Partner hjälper vi er med hela er Windows-miljö, servrar och klienter. Vi automatiserar installation och uppdateringar av mjukvaran ni använder i ert dagliga arbete. Vi har med största sannolikhet erfarenhet av den mjukvara ni använder, ja - även den där som bara funkar i Windows NT på en gammal dator i skamvrån.\n\nPS. Vi är även Red Hat Partner och hjälper er med era Linux-servrar.\n',
   softwareTitle: 'Mjukvara',
   team: ['rln', 'msr'],
+  thumbnailImage:
+    '//images.ctfassets.net/rj4r6yfcesw5/2mxfqVCqiw4CQYguMSYwYU/7da84bff9b325ddb8ce9fd7e1f90e78e/Mac-Medium.png',
 }
