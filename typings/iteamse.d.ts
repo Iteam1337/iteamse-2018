@@ -180,6 +180,30 @@ export interface HowWeWorkPageQuery {
   },
 };
 
+export interface OffersPageQuery {
+  pageOffers:  {
+    __typename: "PageOffers",
+    headerImage: string | null,
+    headerText1: string | null,
+    headerText2: string | null,
+    headerTextBgColor: string | null,
+    contactTitle: string,
+    team: Array< string > | null,
+  },
+  pageAi:  {
+    __typename: "PageAi",
+    linkText: string,
+    shortDescription: string,
+    thumbnailImage: string,
+  },
+  pageOps:  {
+    __typename: "PageOps",
+    linkText: string,
+    shortDescription: string,
+    thumbnailImage: string,
+  },
+};
+
 export interface OpenPositionPageQueryVariables {
   id: string,
 };
