@@ -3,34 +3,34 @@
 exports[`App renders App 1`] = `
 <div>
   <div
-    class="sc-chPdSV bqYJFe"
+    class="sc-kpOJdX dgHxfG"
   >
     <button
-      class="sc-VigVT jIGfns"
+      class="sc-jzJRlG cmcsPw"
       aria-label="Menu button"
       data-testid="btn-mobile-menu"
       role="button"
     >
       <div
-        class="sc-fjdhpX dwQrcO"
+        class="sc-kAzzGY iBXbAb"
       >
         <div
-          class="sc-jTzLTM fetijG"
+          class="sc-cSHVUG eapgTV"
         />
         <div
-          class="sc-jTzLTM fetijG"
+          class="sc-cSHVUG eapgTV"
         />
         <div
-          class="sc-jTzLTM fetijG"
+          class="sc-cSHVUG eapgTV"
         />
       </div>
     </button>
   </div>
   <div
-    class="sc-gzVnrw kTudtM"
+    class="sc-dnqmqq hhMHBF"
   >
     <div
-      class="sc-htoDjs kDjcLM"
+      class="sc-iwsKbI dAvuZQ"
     >
       <div
         class="sc-ifAKCX hQSvGu"
@@ -61,8 +61,14 @@ exports[`App renders App 1`] = `
           <li>
             +46 734 029 112
           </li>
-          <li>
-            johanna.grahn@iteam.se
+          <li
+            class="sc-htoDjs bqJVso"
+          >
+            <a
+              class="sc-gzVnrw boCgDU"
+            >
+              johanna.grahn@iteam.se
+            </a>
           </li>
           <li>
             ORG: 
@@ -99,8 +105,14 @@ exports[`App renders App 1`] = `
           <li>
             +46 826 70 90
           </li>
-          <li>
-            info@iteam.se
+          <li
+            class="sc-htoDjs bqJVso"
+          >
+            <a
+              class="sc-gzVnrw boCgDU"
+            >
+              info@iteam.se
+            </a>
           </li>
           <li>
             ORG: 
@@ -109,10 +121,10 @@ exports[`App renders App 1`] = `
         </ul>
       </div>
       <div
-        class="sc-iwsKbI jQhHGA"
+        class="sc-gqjmRU hnZXkc"
       >
         <div
-          class="sc-dnqmqq dYKUIW"
+          class="sc-gZMcBi hiSriM"
         >
           Följ oss
         </div>
@@ -120,75 +132,75 @@ exports[`App renders App 1`] = `
           class="sc-bxivhb ktajjB"
         >
           <li
-            class="sc-gZMcBi biRSJB"
+            class="sc-VigVT eQEufo"
           >
             <img
-              class="sc-gqjmRU bZhlDI"
+              class="sc-jTzLTM SZPTT"
               src="test-file-stub"
               alt=""
             />
             <a
-              class="sc-htpNat jbawgE"
+              class="sc-fjdhpX joMMNn"
               href="https://www.facebook.com/iteam1337/"
             >
               Facebook
             </a>
           </li>
           <li
-            class="sc-gZMcBi biRSJB"
+            class="sc-VigVT eQEufo"
           >
             <img
-              class="sc-gqjmRU bZhlDI"
+              class="sc-jTzLTM SZPTT"
               src="test-file-stub"
               alt=""
             />
             <a
-              class="sc-htpNat jbawgE"
+              class="sc-fjdhpX joMMNn"
               href="https://instagram.com/iteam1337"
             >
               Instagram
             </a>
           </li>
           <li
-            class="sc-gZMcBi biRSJB"
+            class="sc-VigVT eQEufo"
           >
             <img
-              class="sc-gqjmRU bZhlDI"
+              class="sc-jTzLTM SZPTT"
               src="test-file-stub"
               alt=""
             />
             <a
-              class="sc-htpNat jbawgE"
+              class="sc-fjdhpX joMMNn"
               href="https://www.linkedin.com/company/270569/"
             >
               LinkedIn
             </a>
           </li>
           <li
-            class="sc-gZMcBi biRSJB"
+            class="sc-VigVT eQEufo"
           >
             <img
-              class="sc-gqjmRU bZhlDI"
+              class="sc-jTzLTM SZPTT"
               src="test-file-stub"
               alt=""
             />
             <a
-              class="sc-htpNat jbawgE"
+              class="sc-fjdhpX joMMNn"
               href="https://www.youtube.com/channel/UCU2TdLZ7p0jEuuGUxaod4lw"
             >
               YouTube
             </a>
           </li>
           <li
-            class="sc-gZMcBi biRSJB"
+            class="sc-VigVT eQEufo"
           >
             <img
-              class="sc-gqjmRU bZhlDI"
+              class="sc-jTzLTM SZPTT"
               src="test-file-stub"
               alt=""
             />
             <a
-              class="sc-htpNat jbawgE"
+              class="sc-fjdhpX joMMNn"
               href="http://www.mynewsdesk.com/se/iteam"
             >
               MyNewsDesk

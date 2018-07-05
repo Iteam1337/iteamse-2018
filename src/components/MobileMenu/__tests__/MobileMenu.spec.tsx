@@ -18,14 +18,14 @@ describe('components/MobileMenu', () => {
     )
 
     // Mobile menu should not be open
-    expect(queries.queryByText(container, 'Om oss')).not.toBeInTheDOM()
+    expect(queries.queryByText(container, 'Om')).not.toBeInTheDOM()
 
     // Assert that we have a mobile button and click it
     await wait(() => getByTestId('btn-mobile-menu'))
     Simulate.click(getByTestId('btn-mobile-menu'))
 
     // Mobile menu should be open
-    expect(getByText('Om oss')).toBeInTheDOM()
+    expect(getByText('Om')).toBeInTheDOM()
 
     expect(container).toMatchSnapshot()
   })
@@ -42,7 +42,7 @@ describe('components/MobileMenu', () => {
     Simulate.click(getByTestId('btn-mobile-menu'))
 
     // Mobile menu should be open
-    expect(getByText('Om oss')).toBeInTheDOM()
+    expect(getByText('Om')).toBeInTheDOM()
 
     // Mock path transition since we don't have React router
     render(
@@ -53,6 +53,6 @@ describe('components/MobileMenu', () => {
     )
 
     // Mobile menu should not be open
-    expect(queries.queryByText(container, 'Om oss')).not.toBeInTheDOM()
+    expect(queries.queryByText(container, 'Om')).not.toBeInTheDOM()
   })
 })
