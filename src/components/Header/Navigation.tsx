@@ -184,7 +184,6 @@ export class Navigation extends React.Component<
         <LogoLink onMouseEnter={this.prefetchPage('home')} to="/">
           <Logo data-testid="logo" path={logo} />
         </LogoLink>
-
         <NavigationItems>
           <StyledLink
             activeClassName="active-nav"
