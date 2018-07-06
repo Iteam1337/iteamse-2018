@@ -131,7 +131,10 @@ export class Home extends React.Component {
       <>
         <Helmet>
           <title>Iteam - There's a better way</title>
+          <meta name="og:title" content="Iteam - There's a better way" />
+          <meta name="twitter:title" content="Iteam - There's a better way" />
         </Helmet>
+
         <HomeQuery query={HOME_PAGE_QUERY}>
           {({ loading, data }) => {
             if (loading || !data) {
@@ -211,17 +214,6 @@ export class Home extends React.Component {
                     </Texts>
                   </Content>
                 </HomeGridColumn>
-
-                <GridColumn>
-                  <Block title={pageStart.aiTitle}>
-                    <AiTextBlock>{pageStart.aiText}</AiTextBlock>
-                    <AiTextBlock>
-                      <Link to={`${pageStart.aiSlug}`}>
-                        {pageStart.aiLinkText}
-                      </Link>
-                    </AiTextBlock>
-                  </Block>
-                </GridColumn>
 
                 <GridColumn>
                   <Block title={pageStart.aiTitle}>

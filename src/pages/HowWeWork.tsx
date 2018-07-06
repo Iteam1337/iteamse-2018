@@ -45,55 +45,67 @@ export class HowWeWork extends React.Component {
 
   render() {
     return (
-      <>
-        <Helmet>
-          <title>Iteam - There's a better way | Hur vi jobbar</title>
-        </Helmet>
-        <HowWeWorkQuery query={HOW_WE_WORK_PAGE_QUERY}>
-          {({ loading, data }) => {
-            if (loading || !data) {
-              return null
-            }
+      <HowWeWorkQuery query={HOW_WE_WORK_PAGE_QUERY}>
+        {({ loading, data }) => {
+          if (loading || !data) {
+            return null
+          }
 
-            const { pageHowWeWork } = data
+          const { pageHowWeWork } = data
 
-            return (
-              <>
-                <Header
-                  backgroundImage={pageHowWeWork.headerImage}
-                  messageBgColor={pageHowWeWork.headerTextBgColor}
-                  messageOne={pageHowWeWork.headerText1}
-                  messageTwo={pageHowWeWork.headerText2}
+          return (
+            <>
+              <Helmet>
+                <title>Iteam | Hur vi jobbar</title>
+                <meta
+                  name="og:title"
+                  content="Iteam | Hur vi jobbar"
                 />
-
-                <GridColumn>
-                  <Block title={pageHowWeWork.teamTitle}>
-                    {pageHowWeWork.teamText}
-                  </Block>
-                  <ImageBlock image={howWeWorkImage} />
-                  <Block title={pageHowWeWork.methodTitle}>
-                    {pageHowWeWork.methodText}
-                  </Block>
-                  <ImageBleed image={pageHowWeWork.imageBleed} />
-                  <Block title={pageHowWeWork.sharingTitle}>
-                    {pageHowWeWork.sharingText}
-                  </Block>
-                  <ImageBlock image={howWeWorkImage2} />
-                  <Block title={pageHowWeWork.customersTitle}>
-                    {pageHowWeWork.customersText}
-                  </Block>
-                </GridColumn>
-
-                <Team
-                  bgColor="blue"
-                  callToAction={pageHowWeWork.contactTitle}
-                  shortName={pageHowWeWork.team}
+                <meta
+                  name="twitter:title"
+                  content="Iteam | Hur vi jobbar"
                 />
-              </>
-            )
-          }}
-        </HowWeWorkQuery>
-      </>
+                {pageHowWeWork.headerImage && (
+                  <meta
+                    name="og:image"
+                    content={`https:${pageHowWeWork.headerImage}`}
+                  />
+                )}
+              </Helmet>
+              <Header
+                backgroundImage={pageHowWeWork.headerImage}
+                messageBgColor={pageHowWeWork.headerTextBgColor}
+                messageOne={pageHowWeWork.headerText1}
+                messageTwo={pageHowWeWork.headerText2}
+              />
+
+              <GridColumn>
+                <Block title={pageHowWeWork.teamTitle}>
+                  {pageHowWeWork.teamText}
+                </Block>
+                <ImageBlock image={howWeWorkImage} />
+                <Block title={pageHowWeWork.methodTitle}>
+                  {pageHowWeWork.methodText}
+                </Block>
+                <ImageBleed image={pageHowWeWork.imageBleed} />
+                <Block title={pageHowWeWork.sharingTitle}>
+                  {pageHowWeWork.sharingText}
+                </Block>
+                <ImageBlock image={howWeWorkImage2} />
+                <Block title={pageHowWeWork.customersTitle}>
+                  {pageHowWeWork.customersText}
+                </Block>
+              </GridColumn>
+
+              <Team
+                bgColor="blue"
+                callToAction={pageHowWeWork.contactTitle}
+                shortName={pageHowWeWork.team}
+              />
+            </>
+          )
+        }}
+      </HowWeWorkQuery>
     )
   }
 }
