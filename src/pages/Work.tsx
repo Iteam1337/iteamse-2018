@@ -21,6 +21,8 @@ export const WORK_PAGE_QUERY = gql`
       headerText2
       headerTextBgColor
       contactTitle
+      openApplicationText
+      openApplicationLabel
       team
     }
     openpositions {
@@ -98,6 +100,10 @@ export class Work extends React.Component {
                     </>
                   )}
                 </FilterByLocation>
+
+                <Block title={pageWork.openApplicationLabel}>
+                  {pageWork.openApplicationText}
+                </Block>
               </GridColumn>
 
               <Team

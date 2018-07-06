@@ -6,5 +6,7 @@ export const pageWork = {
   headerText1: 'Bli en del av teamet',
   headerText2: null,
   headerTextBgColor: '#FF405F',
+  openApplicationLabel: 'Inget som passar?',
+  openApplicationText: 'Gör en [spontanansökan](mailto:joinus@iteam.se)!',
   team: ['rln', 'msr'],
 }
