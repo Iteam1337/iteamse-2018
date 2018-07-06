@@ -4,4 +4,4 @@
 
 * [ ] `npm test`
 * [ ] `npm run lint`
-* [ ] `npm run cypress`
+* [ ] `npm run cypress` (optional)
