@@ -62,23 +62,6 @@ const Html: React.SFC<HtmlProps> = ({ apolloState, content, styleTags }) => {
           </>
         )}
 
-        {/*<!-- Twitter --> */}
-        <meta name="twitter:card" content="summary" />
-        <meta
-          name="twitter:description"
-          content="Vi digitaliserar företag och organisationer genom strategi, kod och kultur"
-        />
-        <meta name="twitter:site" content="@Iteam1337" />
-        {/*<!-- Open Graph general (Facebook, Pinterest & Google+) --> */}
-        <meta
-          name="og:description"
-          content="Vi digitaliserar företag och organisationer genom strategi, kod och kultur"
-        />
-        <meta name="og:url" content="https://www.iteam.se" />
-        <meta name="og:site_name" content="Iteam" />
-        <meta name="og:locale" content="sv_SE" />
-        <meta name="og:type" content="website" />
-
         {styleTags}
       </head>
       <body>

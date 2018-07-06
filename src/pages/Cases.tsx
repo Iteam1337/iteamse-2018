@@ -112,14 +112,14 @@ export class CasePage extends React.Component {
           return (
             <>
               <Helmet>
-                <title>Iteam - There's a better way | Case</title>
+                <title>Iteam | Case</title>
                 <meta
                   name="og:title"
-                  content="Iteam - There's a better way | Case"
+                  content="Iteam | Case"
                 />
                 <meta
                   name="twitter:title"
-                  content="Iteam - There's a better way | Case"
+                  content="Iteam | Case"
                 />
                 {pageCases.headerImage && (
                   <meta
