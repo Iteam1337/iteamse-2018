@@ -102,7 +102,7 @@ const data = [
     package3: 2160,
   },
   {
-    name: 'Delresultat',
+    name: 'Leverabel',
     package1: '',
     package2: '',
     package3: '',
