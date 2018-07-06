@@ -289,6 +289,8 @@ export interface WorkPageQuery {
     headerText2: string | null,
     headerTextBgColor: string | null,
     contactTitle: string,
+    openApplicationText: string,
+    openApplicationLabel: string,
     team: Array< string > | null,
   },
   openpositions:  Array< {

@@ -192,6 +192,8 @@ Object {
       headerText2
       headerTextBgColor
       contactTitle
+      openApplicationText
+      openApplicationLabel
       team
     }
     openpositions {
