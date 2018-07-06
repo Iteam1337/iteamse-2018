@@ -73,15 +73,18 @@ export class TeamMemberPage extends React.Component<
           return (
             <>
               <Helmet>
-                <title>Iteam - There's a better way | {teamMember.name}</title>
-                <meta
-                  name="og:title"
-                  content={`Iteam - There's a better way | ${teamMember.name}`}
-                />
+                <title>Iteam | {teamMember.name}</title>
+                <meta name="og:title" content={`Iteam | ${teamMember.name}`} />
                 <meta
                   name="twitter:title"
-                  content={`Iteam - There's a better way | ${teamMember.name}`}
+                  content={`Iteam | ${teamMember.name}`}
                 />
+                {teamMember.headerImage && (
+                  <meta
+                    name="og:image"
+                    content={`https:${teamMember.headerImage}`}
+                  />
+                )}
               </Helmet>
               <TeamMember>
                 <Header

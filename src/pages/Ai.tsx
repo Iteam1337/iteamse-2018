@@ -37,51 +37,49 @@ export class Ai extends React.Component {
 
   render() {
     return (
-      <>
-        <Helmet>
-          <title>Iteam - There's a better way |AI</title>
-          <meta name="og:title" content="Iteam - There's a better way | AI" />
-          <meta
-            name="twitter:title"
-            content="Iteam - There's a better way | AI"
-          />
-        </Helmet>
-        <AiQuery query={AI_PAGE_QUERY}>
-          {({ loading, data }) => {
-            if (loading || !data) {
-              return null
-            }
+      <AiQuery query={AI_PAGE_QUERY}>
+        {({ loading, data }) => {
+          if (loading || !data) {
+            return null
+          }
 
-            const { pageAi } = data
+          const { pageAi } = data
 
-            return (
-              <>
-                <Header
-                  backgroundImage={pageAi.headerImage}
-                  messageBgColor={pageAi.headerTextBgColor}
-                  messageOne={pageAi.headerText1}
-                  messageTwo={pageAi.headerText2}
-                />
-
-                <GridColumn>
-                  <Block title={pageAi.aboutTitle}>{pageAi.aboutText}</Block>
-
-                  <AiTable
-                    title={pageAi.offersTitle}
-                    body={pageAi.offersText}
+          return (
+            <>
+              <Helmet>
+                <title>Iteam | AI</title>
+                <meta name="og:title" content="Iteam | AI" />
+                <meta name="twitter:title" content="Iteam | AI" />
+                {pageAi.headerImage && (
+                  <meta
+                    name="og:image"
+                    content={`https:${pageAi.headerImage}`}
                   />
-                </GridColumn>
+                )}
+              </Helmet>
+              <Header
+                backgroundImage={pageAi.headerImage}
+                messageBgColor={pageAi.headerTextBgColor}
+                messageOne={pageAi.headerText1}
+                messageTwo={pageAi.headerText2}
+              />
 
-                <Team
-                  bgColor="red"
-                  shortName={pageAi.team}
-                  callToAction={pageAi.contactTitle}
-                />
-              </>
-            )
-          }}
-        </AiQuery>
-      </>
+              <GridColumn>
+                <Block title={pageAi.aboutTitle}>{pageAi.aboutText}</Block>
+
+                <AiTable title={pageAi.offersTitle} body={pageAi.offersText} />
+              </GridColumn>
+
+              <Team
+                bgColor="red"
+                shortName={pageAi.team}
+                callToAction={pageAi.contactTitle}
+              />
+            </>
+          )
+        }}
+      </AiQuery>
     )
   }
 }

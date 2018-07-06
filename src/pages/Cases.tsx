@@ -101,80 +101,84 @@ export class CasePage extends React.Component {
 
   render() {
     return (
-      <>
-        <Helmet>
-          <title>Iteam - There's a better way | Case</title>
-          <meta name="og:title" content="Iteam - There's a better way | Case" />
-          <meta
-            name="twitter:title"
-            content="Iteam - There's a better way | Case"
-          />
-        </Helmet>
-        <CasesQuery query={CASES_PAGE_QUERY}>
-          {({ loading, data }) => {
-            if (loading || !data) {
-              return null
-            }
+      <CasesQuery query={CASES_PAGE_QUERY}>
+        {({ loading, data }) => {
+          if (loading || !data) {
+            return null
+          }
 
-            const { pageCases, cases } = data
+          const { pageCases, cases } = data
 
-            return (
-              <>
-                <Header
-                  backgroundImage={pageCases.headerImage}
-                  messageBgColor={pageCases.headerTextBgColor}
-                  messageOne={pageCases.headerText1}
-                  messageTwo={pageCases.headerText2}
+          return (
+            <>
+              <Helmet>
+                <title>Iteam - There's a better way | Case</title>
+                <meta
+                  name="og:title"
+                  content="Iteam - There's a better way | Case"
                 />
-
-                <GridColumn>
-                  <Cases>
-                    {cases.map(workCase => {
-                      if (!workCase) {
-                        return null
-                      }
-
-                      return (
-                        <CaseLink
-                          query={CASE_PAGE_QUERY}
-                          key={workCase.title}
-                          to={`/case/${workCase.slug}`}
-                          variables={{
-                            slug: workCase.slug,
-                          }}
-                        >
-                          <Case>
-                            <CaseImageWrap>
-                              {workCase.thumbnailImage && (
-                                <CaseImage
-                                  src={workCase.thumbnailImage}
-                                  alt=""
-                                />
-                              )}
-                            </CaseImageWrap>
-                            <Meta>
-                              <Title>{workCase.title}</Title>
-                              <ShortDescription>
-                                {workCase.shortDescription}
-                              </ShortDescription>
-                            </Meta>
-                          </Case>
-                        </CaseLink>
-                      )
-                    })}
-                  </Cases>
-                </GridColumn>
-
-                <Team
-                  bgColor="green"
-                  callToAction={pageCases.contactTitle}
-                  shortName={pageCases.team}
+                <meta
+                  name="twitter:title"
+                  content="Iteam - There's a better way | Case"
                 />
-              </>
-            )
-          }}
-        </CasesQuery>
-      </>
+                {pageCases.headerImage && (
+                  <meta
+                    name="og:image"
+                    content={`https:${pageCases.headerImage}`}
+                  />
+                )}
+              </Helmet>
+              <Header
+                backgroundImage={pageCases.headerImage}
+                messageBgColor={pageCases.headerTextBgColor}
+                messageOne={pageCases.headerText1}
+                messageTwo={pageCases.headerText2}
+              />
+
+              <GridColumn>
+                <Cases>
+                  {cases.map(workCase => {
+                    if (!workCase) {
+                      return null
+                    }
+
+                    return (
+                      <CaseLink
+                        query={CASE_PAGE_QUERY}
+                        key={workCase.title}
+                        to={`/case/${workCase.slug}`}
+                        variables={{
+                          slug: workCase.slug,
+                        }}
+                      >
+                        <Case>
+                          <CaseImageWrap>
+                            {workCase.thumbnailImage && (
+                              <CaseImage src={workCase.thumbnailImage} alt="" />
+                            )}
+                          </CaseImageWrap>
+                          <Meta>
+                            <Title>{workCase.title}</Title>
+                            <ShortDescription>
+                              {workCase.shortDescription}
+                            </ShortDescription>
+                          </Meta>
+                        </Case>
+                      </CaseLink>
+                    )
+                  })}
+                </Cases>
+              </GridColumn>
+
+              <Team
+                bgColor="green"
+                callToAction={pageCases.contactTitle}
+                shortName={pageCases.team}
+              />
+            </>
+          )
+        }}
+      </CasesQuery>
     )
   }
 }
