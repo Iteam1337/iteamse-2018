@@ -4,78 +4,78 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
 <div>
   <div>
     <div
-      class="sc-lhVmIH gEEciN"
+      class="sc-gzOgki cRWgaF"
     >
       <div
-        class="sc-bYSBpT bdgTKs"
+        class="sc-iyvyFf fXFZjN"
       >
         <div
-          class="sc-kafWEX doqriu"
+          class="sc-elJkPf fqzjUn"
         >
           <a
-            class="sc-feJyhm bzbyYc"
+            class="sc-jtRfpW cXQLFZ"
           >
             <img
-              class="sc-iELTvK kXWcVM"
+              class="sc-kTUwUJ fgTIcp"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-cmTdod gUTeYg"
+            class="sc-dqBHgY fDUITd"
           >
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Om
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Drift & Support
             </a>
             <div
-              class="sc-jwKygS fTIVRr"
+              class="sc-gxMtzJ dqeSKx"
             />
           </div>
         </div>
         <div
-          class="sc-elJkPf kqIJd"
+          class="sc-hwwEjo fiJSKN"
         >
           <h1
-            class="sc-jtRfpW gYccdl"
+            class="sc-kPVwWT kWnKUp"
           >
             <span>
               Så här jobbar vi 
@@ -168,10 +168,83 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
         </div>
       </div>
     </div>
-    <img
-      class="sc-gqjmRU kaGJTv"
-      src="//images.ctfassets.net/rj4r6yfcesw5/62hgzE8G3ueMa2YSEuG4og/db2b643db6041f9d26936bc2d6006607/bleed_howwework.jpg"
-    />
+  </div>
+  <div
+    class="react-reveal"
+    style="opacity: 1;"
+  >
+    <div
+      class="sc-jbKcbu DURVc"
+    >
+      <div
+        class="sc-bdVaJa fGzlqx"
+        data-test="block-"
+      >
+        <div
+          class="sc-dNLxif hzWfTN"
+        >
+          <div
+            class="sc-jqCOkK heXNii"
+          >
+            <h3
+              class="sc-bwzfXH kgEpTV"
+            >
+              Just nu söker vi
+            </h3>
+            <ul
+              class="sc-uJMKN gGebAW"
+            >
+              <li
+                class="sc-gGBfsJ kgVDeQ"
+              >
+                <a
+                  class="sc-caSCKo culsyQ"
+                >
+                  Junior UX Designer
+                </a>
+                (
+                Stockholm
+                )
+              </li>
+            </ul>
+          </div>
+          <div
+            class="sc-jqCOkK heXNii"
+          >
+            <h4
+              class="sc-hqyNC fgUISZ"
+            >
+              Inget som passar?
+            </h4>
+            <div
+              class="sc-bbmXgH kIolfQ"
+            >
+              <div
+                class="sc-htpNat iEyarI"
+              >
+                <div>
+                  <p>
+                    <a
+                      href="mailto:joinus@iteam.se"
+                    >
+                      Spontanansök
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img
+    class="sc-gqjmRU kaGJTv"
+    src="//images.ctfassets.net/rj4r6yfcesw5/62hgzE8G3ueMa2YSEuG4og/db2b643db6041f9d26936bc2d6006607/bleed_howwework.jpg"
+  />
+  <div
+    class="sc-iwsKbI fwFOwW"
+  >
     <div
       class="react-reveal"
       style="opacity: 1;"
