@@ -4,85 +4,85 @@ exports[`components/Home renders Home 1`] = `
 <div>
   <div>
     <div
-      class="sc-lhVmIH kTWvui"
+      class="sc-gzOgki fpllMB"
     >
       <div
-        class="sc-bYSBpT bdgTKs"
+        class="sc-iyvyFf fXFZjN"
       >
         <div
-          class="sc-kafWEX doqriu"
+          class="sc-elJkPf fqzjUn"
         >
           <a
-            class="sc-feJyhm bzbyYc"
+            class="sc-jtRfpW cXQLFZ"
           >
             <img
-              class="sc-iELTvK kXWcVM"
+              class="sc-kTUwUJ fgTIcp"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-cmTdod gUTeYg"
+            class="sc-dqBHgY fDUITd"
           >
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Om
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Drift & Support
             </a>
             <div
-              class="sc-jwKygS fTIVRr"
+              class="sc-gxMtzJ dqeSKx"
             />
           </div>
         </div>
         <div
-          class="sc-elJkPf kqIJd"
+          class="sc-hwwEjo fiJSKN"
         >
           <h1
-            class="sc-jtRfpW hCjAru"
+            class="sc-kPVwWT AQYAf"
           >
             <span>
               Vi digitaliserar företag och organisationer
             </span>
           </h1>
           <h1
-            class="sc-jtRfpW hCjAru"
+            class="sc-kPVwWT AQYAf"
           >
             <span>
               genom strategi, kod och kultur
@@ -185,51 +185,6 @@ exports[`components/Home renders Home 1`] = `
           >
             Läs om hur vi hjälper SEB med kultur
           </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div
-    class="sc-iwsKbI fwFOwW"
-  >
-    <div
-      class="react-reveal"
-      style="opacity: 1;"
-    >
-      <div
-        class="sc-bdVaJa fGzlqx"
-        data-test="block-"
-      >
-        <div
-          class="sc-bxivhb kgeHJJ"
-        >
-          <div
-            class="sc-ifAKCX cFlEyZ"
-          >
-            <h3
-              class="sc-bwzfXH kgEpTV"
-            >
-              Utforska möjligheterna med AI
-            </h3>
-          </div>
-          <div
-            class="sc-bZQynM hmvJjY"
-          >
-            <div
-              class="sc-kgAjT cuzzPp"
-            >
-              We are offering an Artificial Intelligence package to help you build AI products and services. We have a very competent Data Science team that will help you grow in the growing market of Artificial Intelligence.
-            </div>
-            <div
-              class="sc-kgAjT cuzzPp"
-            >
-              <a
-                class="sc-caSCKo culsyQ"
-              >
-                Läs mer om våra erbjudanden inom AI
-              </a>
-            </div>
-          </div>
         </div>
       </div>
     </div>

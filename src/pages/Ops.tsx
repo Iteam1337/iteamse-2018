@@ -43,57 +43,63 @@ export class Operations extends React.Component {
 
   render() {
     return (
-      <>
-        <Helmet>
-          <title>Iteam - There's a better way | Om oss</title>
-        </Helmet>
-        <OperationsQuery query={OPERATIONS_PAGE_QUERY}>
-          {({ loading, data }) => {
-            if (loading || !data) {
-              return null
-            }
+      <OperationsQuery query={OPERATIONS_PAGE_QUERY}>
+        {({ loading, data }) => {
+          if (loading || !data) {
+            return null
+          }
 
-            const { pageOps } = data
+          const { pageOps } = data
 
-            return (
-              <React.Fragment>
-                <Header
-                  backgroundImage={pageOps.headerImage}
-                  messageBgColor={pageOps.headerTextBgColor}
-                  messageOne={pageOps.headerText1}
-                  messageTwo={pageOps.headerText2}
-                />
+          return (
+            <>
+              <Helmet>
+                <title>Iteam | Operations</title>
+                <meta name="og:title" content="Iteam | Operations" />
+                <meta name="twitter:title" content="Iteam | Operations" />
+                {pageOps.headerImage && (
+                  <meta
+                    name="og:image"
+                    content={`https:${pageOps.headerImage}`}
+                  />
+                )}
+              </Helmet>
+              <Header
+                backgroundImage={pageOps.headerImage}
+                messageBgColor={pageOps.headerTextBgColor}
+                messageOne={pageOps.headerText1}
+                messageTwo={pageOps.headerText2}
+              />
 
-                <GridColumn>
-                  <Block title={pageOps.aboutTitle}>{pageOps.aboutText}</Block>
+              <GridColumn>
+                <Block title={pageOps.aboutTitle}>{pageOps.aboutText}</Block>
 
-                  <ImageBleed image={pageOps.contentImage} />
+                <ImageBleed image={pageOps.contentImage} />
 
-                  <Block title={pageOps.networkTitle}>
-                    {pageOps.networkText}
-                  </Block>
+                <Block title={pageOps.networkTitle}>
+                  {pageOps.networkText}
+                </Block>
 
-                  <ImageBlock image={opsImage} />
+                <ImageBlock image={opsImage} />
 
-                  <Block title={pageOps.softwareTitle}>
-                    {pageOps.softwareText}
-                  </Block>
+                <Block title={pageOps.softwareTitle}>
+                  {pageOps.softwareText}
+                </Block>
 
-                  <Block title={pageOps.hardwareTitle}>
-                    {pageOps.hardwareText}
-                  </Block>
-                </GridColumn>
+                <Block title={pageOps.hardwareTitle}>
+                  {pageOps.hardwareText}
+                </Block>
+              </GridColumn>
 
-                <Team
-                  bgColor="red"
-                  shortName={pageOps.team}
-                  callToAction={pageOps.contactTitle}
-                />
-              </React.Fragment>
-            )
-          }}
-        </OperationsQuery>
-      </>
+              <Team
+                bgColor="red"
+                shortName={pageOps.team}
+                callToAction={pageOps.contactTitle}
+              />
+            </>
+          )
+        }}
+      </OperationsQuery>
     )
   }
 }

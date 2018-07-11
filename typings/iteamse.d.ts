@@ -159,6 +159,12 @@ export interface HomePageQuery {
 };
 
 export interface HowWeWorkPageQuery {
+  openpositions:  Array< {
+    __typename: "OpenPosition",
+    location: string,
+    id: string,
+    title: string,
+  } >,
   pageHowWeWork:  {
     __typename: "PageHowWeWork",
     headerImage: string | null,
@@ -168,7 +174,9 @@ export interface HowWeWorkPageQuery {
     contactTitle: string,
     customersText: string,
     customersTitle: string,
-    hiringTitle: string | null,
+    hiringTitle: string,
+    openApplicationText: string,
+    openApplicationHeader: string,
     imageBleed: string,
     methodText: string,
     methodTitle: string,
@@ -289,6 +297,8 @@ export interface WorkPageQuery {
     headerText2: string | null,
     headerTextBgColor: string | null,
     contactTitle: string,
+    openApplicationText: string,
+    openApplicationLabel: string,
     team: Array< string > | null,
   },
   openpositions:  Array< {

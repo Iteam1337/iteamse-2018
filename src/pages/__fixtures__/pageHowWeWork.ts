@@ -15,6 +15,8 @@ export const pageHowWeWork = {
   methodText:
     'Vi söker alltid efter den bästa processen. Den bästa metoden. Vi vågar ta risker, byta spår, byta teknik, experimentera och ifrågasätta både oss själva och våra kunder. Det är liksom det vi gör. Hela tiden.',
   methodTitle: 'Ständigt sökande',
+  openApplicationHeader: 'Inget som passar?',
+  openApplicationText: '[Spontanansök](mailto:joinus@iteam.se)',
   sharingText:
     'På våra kodluncher lär vi av varandra. Vi mentorerar och vi labbar ihop. Vi anordnar Lounge Hack, bidrar till open source, till forumet kodapor tillsammans med 12000 andra utvecklare och deltar på konferenser. Vår kunskap är din kunskap.',
   sharingTitle: 'Delar allt',

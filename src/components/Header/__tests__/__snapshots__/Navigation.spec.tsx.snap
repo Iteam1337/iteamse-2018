@@ -34,6 +34,11 @@ Object {
   "query": Array [
     "
   query HowWeWorkPage {
+    openpositions {
+      location
+      id
+      title
+    }
     pageHowWeWork {
       headerImage
       headerText1
@@ -43,6 +48,8 @@ Object {
       customersText
       customersTitle
       hiringTitle
+      openApplicationText
+      openApplicationHeader
       imageBleed
       methodText
       methodTitle
@@ -192,6 +199,8 @@ Object {
       headerText2
       headerTextBgColor
       contactTitle
+      openApplicationText
+      openApplicationLabel
       team
     }
     openpositions {

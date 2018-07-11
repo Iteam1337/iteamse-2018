@@ -4,85 +4,85 @@ exports[`components/Cases renders Cases 1`] = `
 <div>
   <div>
     <div
-      class="sc-lhVmIH jjPecX"
+      class="sc-gzOgki xJgjf"
     >
       <div
-        class="sc-bYSBpT bdgTKs"
+        class="sc-iyvyFf fXFZjN"
       >
         <div
-          class="sc-kafWEX doqriu"
+          class="sc-elJkPf fqzjUn"
         >
           <a
-            class="sc-feJyhm bzbyYc"
+            class="sc-jtRfpW cXQLFZ"
           >
             <img
-              class="sc-iELTvK kXWcVM"
+              class="sc-kTUwUJ fgTIcp"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-cmTdod gUTeYg"
+            class="sc-dqBHgY fDUITd"
           >
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Om
             </a>
             <a
-              class="sc-btzYZH kmRwNW"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Drift & Support
             </a>
             <div
-              class="sc-jwKygS fTIVRr"
+              class="sc-gxMtzJ dqeSKx"
             />
           </div>
         </div>
         <div
-          class="sc-elJkPf kqIJd"
+          class="sc-hwwEjo fiJSKN"
         >
           <h1
-            class="sc-jtRfpW egqOis"
+            class="sc-kPVwWT eVGDkO"
           >
             <span>
               Några exempel på
             </span>
           </h1>
           <h1
-            class="sc-jtRfpW egqOis"
+            class="sc-kPVwWT eVGDkO"
           >
             <span>
               sådant vi gjort
