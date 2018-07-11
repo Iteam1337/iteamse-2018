@@ -4,78 +4,72 @@ exports[`components/Ai renders Ai 1`] = `
 <div>
   <div>
     <div
-      class="sc-gzOgki lnNVuX"
+      class="sc-jtRfpW fAcsnU"
     >
       <div
-        class="sc-iyvyFf fXFZjN"
+        class="sc-kTUwUJ gOkXip"
       >
         <div
-          class="sc-elJkPf fqzjUn"
+          class="sc-cmTdod cbLNuN"
         >
           <a
-            class="sc-jtRfpW cXQLFZ"
+            class="sc-jwKygS ccXyBf"
           >
             <img
-              class="sc-kTUwUJ fgTIcp"
+              class="sc-btzYZH gzqeJw"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-dqBHgY fDUITd"
+            class="sc-lhVmIH gEAOxd"
           >
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-elJkPf dEOAlI"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-elJkPf dEOAlI"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-elJkPf dEOAlI"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-elJkPf dEOAlI"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-elJkPf dEOAlI"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-elJkPf dEOAlI"
               aria-current="false"
             >
               Om
             </a>
-            <a
-              class="sc-dfVpRl uQOzH"
-              aria-current="false"
-            >
-              Drift & Support
-            </a>
             <div
-              class="sc-gxMtzJ dqeSKx"
+              class="sc-bYSBpT BnQkq"
             />
           </div>
         </div>
         <div
-          class="sc-hwwEjo fiJSKN"
+          class="sc-dqBHgY bymaoW"
         >
           <h1
-            class="sc-kPVwWT bqQroT"
+            class="sc-gxMtzJ cMqCuY"
           >
             <span>
               Våra erbjudanden inom AI

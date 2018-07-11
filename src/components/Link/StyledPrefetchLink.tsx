@@ -4,6 +4,7 @@ import { withApollo, WithApolloClient } from 'react-apollo'
 import Link from './Link'
 
 interface StyledPrefetchLinkProps {
+  black?: boolean
   query: DocumentNode
   to: string
   variables?: object
@@ -11,9 +12,10 @@ interface StyledPrefetchLinkProps {
 
 const StyledPrefetchLink: React.SFC<
   WithApolloClient<StyledPrefetchLinkProps>
-> = ({ children, client, query, to, variables }) => {
+> = ({ black, children, client, query, to, variables }) => {
   return (
     <Link
+      black={black}
       onMouseEnter={() =>
         client.query({
           query,

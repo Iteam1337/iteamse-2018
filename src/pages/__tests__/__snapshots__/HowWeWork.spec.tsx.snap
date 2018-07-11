@@ -4,78 +4,72 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
 <div>
   <div>
     <div
-      class="sc-gzOgki cRWgaF"
+      class="sc-jtRfpW jaOZBl"
     >
       <div
-        class="sc-iyvyFf fXFZjN"
+        class="sc-kTUwUJ gOkXip"
       >
         <div
-          class="sc-elJkPf fqzjUn"
+          class="sc-cmTdod cbLNuN"
         >
           <a
-            class="sc-jtRfpW cXQLFZ"
+            class="sc-jwKygS ccXyBf"
           >
             <img
-              class="sc-kTUwUJ fgTIcp"
+              class="sc-btzYZH gzqeJw"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-dqBHgY fDUITd"
+            class="sc-lhVmIH gEAOxd"
           >
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-elJkPf dEOAlI"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-elJkPf dEOAlI"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-elJkPf dEOAlI"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-elJkPf dEOAlI"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-elJkPf dEOAlI"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-elJkPf dEOAlI"
               aria-current="false"
             >
               Om
             </a>
-            <a
-              class="sc-dfVpRl uQOzH"
-              aria-current="false"
-            >
-              Drift & Support
-            </a>
             <div
-              class="sc-gxMtzJ dqeSKx"
+              class="sc-bYSBpT BnQkq"
             />
           </div>
         </div>
         <div
-          class="sc-hwwEjo fiJSKN"
+          class="sc-dqBHgY bymaoW"
         >
           <h1
-            class="sc-kPVwWT kWnKUp"
+            class="sc-gxMtzJ gChCoz"
           >
             <span>
               Så här jobbar vi 
@@ -174,17 +168,17 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
     style="opacity: 1;"
   >
     <div
-      class="sc-jbKcbu DURVc"
+      class="sc-cJSrbW jnWIbK"
     >
       <div
         class="sc-bdVaJa fGzlqx"
         data-test="block-"
       >
         <div
-          class="sc-dNLxif hzWfTN"
+          class="sc-ksYbfQ gohrNG"
         >
           <div
-            class="sc-jqCOkK heXNii"
+            class="sc-hmzhuo eRtqMp"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -192,13 +186,13 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
               Just nu söker vi
             </h3>
             <ul
-              class="sc-uJMKN gGebAW"
+              class="sc-frDJqD gEgEjh"
             >
               <li
-                class="sc-gGBfsJ kgVDeQ"
+                class="sc-hqyNC jzvVnf"
               >
                 <a
-                  class="sc-caSCKo culsyQ"
+                  class="sc-jhAzac eJSshj"
                 >
                   Junior UX Designer
                 </a>
@@ -209,15 +203,15 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
             </ul>
           </div>
           <div
-            class="sc-jqCOkK heXNii"
+            class="sc-hmzhuo eRtqMp"
           >
             <h4
-              class="sc-hqyNC fgUISZ"
+              class="sc-kgAjT bykZqW"
             >
               Inget som passar?
             </h4>
             <div
-              class="sc-bbmXgH kIolfQ"
+              class="sc-kvZOFW rOLqR"
             >
               <div
                 class="sc-htpNat iEyarI"
