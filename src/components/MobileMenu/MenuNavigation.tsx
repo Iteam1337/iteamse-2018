@@ -73,9 +73,6 @@ const MenuNavigation: React.SFC<MenuNavigationProps> = ({ open }) => {
         <StyledLink activeClassName="active-nav" to="/om-oss">
           Om
         </StyledLink>
-        <StyledLink activeClassName="active-nav" to="/ops">
-          Drift & Support
-        </StyledLink>
       </MenuInner>
     </Menu>
   )

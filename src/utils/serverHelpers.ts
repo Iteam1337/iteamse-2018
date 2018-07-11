@@ -56,7 +56,7 @@ export const handlePaths = (path: string) => {
     case '/cases':
       return '/case'
     case '/operations':
-      return '/ops'
+      return '/' // TODO: Figure out where should it link to
     case '/ai':
       return '/erbjudanden/ai'
     case '/cases/tsab':
