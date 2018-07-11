@@ -4,85 +4,85 @@ exports[`components/Header renders Header 1`] = `
 <div>
   <div>
     <div
-      class="sc-iyvyFf dCShgY"
+      class="sc-ibxdXY kqdudt"
     >
       <div
-        class="sc-hwwEjo cPpjPY"
+        class="sc-RefOD cUUJKM"
       >
         <div
-          class="sc-jtRfpW kaiGPi"
+          class="sc-hwwEjo kwCYBu"
         >
           <a
-            class="sc-kTUwUJ ijPJJc"
+            class="sc-kPVwWT gbyGwk"
           >
             <img
-              class="sc-dqBHgY ezKxht"
+              class="sc-kfGgVZ hQFnqD"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-gxMtzJ fEeBIz"
+            class="sc-esjQYD ggQuRm"
           >
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-eXEjpC ixflbt"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-eXEjpC ixflbt"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-eXEjpC ixflbt"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-eXEjpC ixflbt"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-eXEjpC ixflbt"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-eXEjpC ixflbt"
               aria-current="false"
             >
               Om
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-eXEjpC ixflbt"
               aria-current="false"
             >
               Drift & Support
             </a>
             <div
-              class="sc-dfVpRl foeOrh"
+              class="sc-kIPQKe gwDbIr"
             />
           </div>
         </div>
         <div
-          class="sc-kPVwWT iEyyyl"
+          class="sc-iQKALj eHHGjm"
         >
           <h1
-            class="sc-kfGgVZ gqfFed"
+            class="sc-bwCtUz hOGgNe"
           >
             <span>
               Vi digitaliserar företag och organisationer
             </span>
           </h1>
           <h1
-            class="sc-kfGgVZ gqfFed"
+            class="sc-bwCtUz hOGgNe"
           >
             <span>
               genom strategi, kod och kultur

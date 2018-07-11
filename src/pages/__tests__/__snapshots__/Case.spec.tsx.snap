@@ -7,64 +7,64 @@ exports[`components/Case renders Case 1`] = `
     data-test="header-case"
   >
     <div
-      class="sc-kafWEX doqriu"
+      class="sc-elJkPf fqzjUn"
     >
       <a
-        class="sc-feJyhm bzbyYc"
+        class="sc-jtRfpW cXQLFZ"
       >
         <img
-          class="sc-iELTvK kXWcVM"
+          class="sc-kTUwUJ fgTIcp"
           data-testid="logo"
           path="test-file-stub"
         />
       </a>
       <div
-        class="sc-cmTdod gUTeYg"
+        class="sc-dqBHgY fDUITd"
       >
         <a
-          class="sc-btzYZH kmRwNW active-nav"
+          class="sc-dfVpRl uQOzH active-nav"
           aria-current="true"
         >
           Case
         </a>
         <a
-          class="sc-btzYZH kmRwNW"
+          class="sc-dfVpRl uQOzH"
           aria-current="false"
         >
           AI
         </a>
         <a
-          class="sc-btzYZH kmRwNW"
+          class="sc-dfVpRl uQOzH"
           aria-current="false"
         >
           Metod
         </a>
         <a
-          class="sc-btzYZH kmRwNW"
+          class="sc-dfVpRl uQOzH"
           aria-current="false"
         >
           Medarbetare
         </a>
         <a
-          class="sc-btzYZH kmRwNW"
+          class="sc-dfVpRl uQOzH"
           aria-current="false"
         >
           Karriär
         </a>
         <a
-          class="sc-btzYZH kmRwNW"
+          class="sc-dfVpRl uQOzH"
           aria-current="false"
         >
           Om
         </a>
         <a
-          class="sc-btzYZH kmRwNW"
+          class="sc-dfVpRl uQOzH"
           aria-current="false"
         >
           Drift & Support
         </a>
         <div
-          class="sc-jwKygS fTIVRr"
+          class="sc-gxMtzJ dqeSKx"
         />
       </div>
     </div>
