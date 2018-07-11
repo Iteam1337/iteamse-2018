@@ -12,7 +12,6 @@ import Cases from './pages/Cases'
 import Home from './pages/Home'
 import HowWeWork from './pages/HowWeWork'
 import OpenPosition from './pages/OpenPosition'
-import Ops from './pages/Ops'
 import Team from './pages/Team'
 import TeamMember from './pages/TeamMember'
 import Work from './pages/Work'
@@ -39,7 +38,6 @@ const App = () => (
       <Route path="/case/:slug" component={Case} />
       <Route exact path="/jobba-hos-oss" component={Work} />
       <Route path="/jobba-hos-oss/:id" component={OpenPosition} />
-      <Route path="/ops" component={Ops} />
       <Route path="/erbjudanden/ai" component={Ai} />
     </Switch>
     <MobileMenu />

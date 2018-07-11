@@ -7,64 +7,58 @@ exports[`components/Case renders Case 1`] = `
     data-test="header-case"
   >
     <div
-      class="sc-kafWEX doqriu"
+      class="sc-fYxtnH lgcnOa"
     >
       <a
-        class="sc-feJyhm bzbyYc"
+        class="sc-tilXH dGgqTU"
       >
         <img
-          class="sc-iELTvK kXWcVM"
+          class="sc-hEsumM dqAIMb"
           data-testid="logo"
           path="test-file-stub"
         />
       </a>
       <div
-        class="sc-cmTdod gUTeYg"
+        class="sc-ktHwxA kKKMsw"
       >
         <a
-          class="sc-btzYZH kmRwNW active-nav"
+          class="sc-kafWEX fqUaCA active-nav"
           aria-current="true"
         >
           Case
         </a>
         <a
-          class="sc-btzYZH kmRwNW"
+          class="sc-kafWEX fqUaCA"
           aria-current="false"
         >
           AI
         </a>
         <a
-          class="sc-btzYZH kmRwNW"
+          class="sc-kafWEX fqUaCA"
           aria-current="false"
         >
           Metod
         </a>
         <a
-          class="sc-btzYZH kmRwNW"
+          class="sc-kafWEX fqUaCA"
           aria-current="false"
         >
           Medarbetare
         </a>
         <a
-          class="sc-btzYZH kmRwNW"
+          class="sc-kafWEX fqUaCA"
           aria-current="false"
         >
           Karriär
         </a>
         <a
-          class="sc-btzYZH kmRwNW"
+          class="sc-kafWEX fqUaCA"
           aria-current="false"
         >
           Om
         </a>
-        <a
-          class="sc-btzYZH kmRwNW"
-          aria-current="false"
-        >
-          Drift & Support
-        </a>
         <div
-          class="sc-jwKygS fTIVRr"
+          class="sc-cIShpX kVYGpq"
         />
       </div>
     </div>

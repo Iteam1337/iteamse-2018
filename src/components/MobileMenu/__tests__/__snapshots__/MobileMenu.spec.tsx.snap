@@ -48,12 +48,6 @@ exports[`components/MobileMenu renders MobileMenu and can open it 1`] = `
         >
           Om
         </a>
-        <a
-          class="sc-bxivhb kFLvBf"
-          aria-current="false"
-        >
-          Drift & Support
-        </a>
       </div>
     </div>
     <button
