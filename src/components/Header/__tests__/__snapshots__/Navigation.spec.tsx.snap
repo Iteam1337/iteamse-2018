@@ -106,34 +106,6 @@ Object {
 }
 `;
 
-exports[`components/Navigation handle hover of operations 1`] = `
-Object {
-  "query": Array [
-    "
-  query OperationsPage {
-    pageOps {
-      headerImage
-      headerText1
-      headerText2
-      headerTextBgColor
-      aboutText
-      aboutTitle
-      contentImage
-      hardwareText
-      hardwareTitle
-      networkText
-      networkTitle
-      softwareText
-      softwareTitle
-      team
-      contactTitle
-    }
-  }
-",
-  ],
-}
-`;
-
 exports[`components/Navigation handle hover of our projects 1`] = `
 Object {
   "query": Array [

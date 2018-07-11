@@ -7,7 +7,6 @@ import { AI_PAGE_QUERY } from '../../pages/Ai'
 import { CASES_PAGE_QUERY } from '../../pages/Cases'
 import { HOME_PAGE_QUERY } from '../../pages/Home'
 import { HOW_WE_WORK_PAGE_QUERY } from '../../pages/HowWeWork'
-import { OPERATIONS_PAGE_QUERY } from '../../pages/Ops'
 import { TEAM_PAGE_QUERY } from '../../pages/Team'
 import { WORK_PAGE_QUERY } from '../../pages/Work'
 import styled, { injectGlobal, keyframes, withProps } from '../../theme'
@@ -156,9 +155,6 @@ export class Navigation extends React.Component<
       case 'team':
         query = TEAM_PAGE_QUERY
         break
-      case 'ops':
-        query = OPERATIONS_PAGE_QUERY
-        break
       case 'work':
         query = WORK_PAGE_QUERY
         break
@@ -226,13 +222,6 @@ export class Navigation extends React.Component<
             to="/om-oss"
           >
             Om
-          </StyledLink>
-          <StyledLink
-            activeClassName="active-nav"
-            onMouseEnter={this.prefetchPage('ops')}
-            to="/ops"
-          >
-            Drift & Support
           </StyledLink>
           <Indicator
             indicatorLocation={indicatorLocation}

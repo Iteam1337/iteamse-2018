@@ -33,7 +33,8 @@ export const checkForRedirect = (path: string) => {
   if (
     oldPaths.includes(path) ||
     /(^\/team\/)/g.test(path) ||
-    /(^\/career\/?)/g.test(path)
+    /(^\/career\/?)/g.test(path) ||
+    /(^\/operations\/?)/g.test(path)
   ) {
     return true
   }
@@ -56,6 +57,7 @@ export const handlePaths = (path: string) => {
     case '/cases':
       return '/case'
     case '/operations':
+    case '/operations/sv':
       return '/ops'
     case '/ai':
       return '/erbjudanden/ai'

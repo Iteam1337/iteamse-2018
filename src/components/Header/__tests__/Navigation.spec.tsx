@@ -98,18 +98,4 @@ describe('components/Navigation', () => {
 
     expect(client.query.mock.calls[0][0]).toMatchSnapshot()
   })
-
-  it('handle hover of operations', async () => {
-    const { getByText } = render(
-      <MockedQuery mocks={mocks}>
-        <Navigation client={client} />
-      </MockedQuery>
-    )
-
-    await wait()
-
-    Simulate.mouseEnter(getByText('Drift & Support'))
-
-    expect(client.query.mock.calls[0][0]).toMatchSnapshot()
-  })
 })

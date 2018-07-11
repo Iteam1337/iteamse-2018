@@ -4,88 +4,75 @@ exports[`components/Ops renders Ops 1`] = `
 <div>
   <div>
     <div
-      class="sc-gzOgki jellwR"
+      class="sc-jtRfpW latotF"
     >
       <div
-        class="sc-iyvyFf fXFZjN"
+        class="sc-kTUwUJ gOkXip"
       >
         <div
-          class="sc-elJkPf fqzjUn"
+          class="sc-cmTdod cbLNuN"
         >
           <a
-            class="sc-jtRfpW cXQLFZ"
+            class="sc-jwKygS ccXyBf"
           >
             <img
-              class="sc-kTUwUJ fgTIcp"
+              class="sc-btzYZH gzqeJw"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-dqBHgY fDUITd"
+            class="sc-lhVmIH gEAOxd"
           >
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-elJkPf dEOAlI"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-elJkPf dEOAlI"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-elJkPf dEOAlI"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-elJkPf dEOAlI"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-elJkPf dEOAlI"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-elJkPf dEOAlI"
               aria-current="false"
             >
               Om
             </a>
-            <a
-              class="sc-dfVpRl uQOzH"
-              aria-current="false"
-            >
-              Drift & Support
-            </a>
             <div
-              class="sc-gxMtzJ dqeSKx"
+              class="sc-bYSBpT BnQkq"
             />
           </div>
         </div>
         <div
-          class="sc-hwwEjo fiJSKN"
+          class="sc-dqBHgY bymaoW"
         >
           <h1
-            class="sc-kPVwWT isSAXL"
+            class="sc-gxMtzJ cCkVwq"
           >
             <span>
-              Skräddarsydd drift och support
-            </span>
-          </h1>
-          <h1
-            class="sc-kPVwWT isSAXL"
-          >
-            <span>
-              sedan 1995
+              Drift och support
             </span>
           </h1>
         </div>
@@ -112,7 +99,7 @@ exports[`components/Ops renders Ops 1`] = `
             <h3
               class="sc-bwzfXH kgEpTV"
             >
-              Om oss
+              Vi hjälper dig med din dator
             </h3>
           </div>
           <div
@@ -123,136 +110,20 @@ exports[`components/Ops renders Ops 1`] = `
             >
               <div>
                 <p>
-                  Operations är namnet på Iteams drift & supportavdelning, sedan 1995 har vi hjälpt våra kunder att göra det de ska göra - utan att vara hindrade av krånglande teknik. Vårt mål är att erbjuda en personlig, professionell service - utan någon “First line” att ta sig förbi.
-                </p>
-                <p>
-                  Vi är inte bundna till någon specifik leverantör av hård- eller mjukvara utan rekommenderar alltid det som är bäst i varje enskilt fall. Beroende på uppdraget har Iteam varit allt från komplett uthyrd IT avdelning till specialisthjälp inom olika områden.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <img
-      class="sc-gqjmRU kaGJTv"
-      src="//images.ctfassets.net/rj4r6yfcesw5/2CDS7p7sxGw0GyqSwqyQO6/64a78af7e16d70db815cd8677244c5a9/bleed_ops.jpg"
-    />
-    <div
-      class="react-reveal"
-      style="opacity: 1;"
-    >
-      <div
-        class="sc-bdVaJa fGzlqx"
-        data-test="block-"
-      >
-        <div
-          class="sc-bxivhb kgeHJJ"
-        >
-          <div
-            class="sc-ifAKCX cFlEyZ"
-          >
-            <h3
-              class="sc-bwzfXH kgEpTV"
-            >
-              Nätverk
-            </h3>
-          </div>
-          <div
-            class="sc-bZQynM hmvJjY"
-          >
-            <div
-              class="sc-htpNat iEyarI"
-            >
-              <div>
-                <p>
-                  Oavsett om det gäller High Availability med site-to-site VPN eller trådlösa nätverk med 802.1X så kan vi hjälpa dig och ditt företag. Vi är partner och certifierade på svenska leverantören Clavisters brandväggsprodukter. 
-                </p>
-                <p>
-                  Vi använder i huvudsak Ubiquiti Networks nätverksprodukter och är certifierade på produktserien UniFi men har även erfarenhet produkter från Dell, HP/Aruba och Meraki.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="sc-VigVT laHvOe"
-    >
-      <img
-        class="sc-jTzLTM jKPziq"
-        src="test-file-stub"
-      />
-    </div>
-    <div
-      class="react-reveal"
-      style="opacity: 1;"
-    >
-      <div
-        class="sc-bdVaJa fGzlqx"
-        data-test="block-"
-      >
-        <div
-          class="sc-bxivhb kgeHJJ"
-        >
-          <div
-            class="sc-ifAKCX cFlEyZ"
-          >
-            <h3
-              class="sc-bwzfXH kgEpTV"
-            >
-              Mjukvara
-            </h3>
-          </div>
-          <div
-            class="sc-bZQynM hmvJjY"
-          >
-            <div
-              class="sc-htpNat iEyarI"
-            >
-              <div>
-                <p>
-                  Som Microsoft Silver Partner hjälper vi er med hela er Windows-miljö, servrar och klienter. Vi automatiserar installation och uppdateringar av mjukvaran ni använder i ert dagliga arbete. Vi har med största sannolikhet erfarenhet av den mjukvara ni använder, ja - även den där som bara funkar i Windows NT på en gammal dator i skamvrån.
-                </p>
-                <p>
-                  PS. Vi är även Red Hat Partner och hjälper er med era Linux-servrar.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="react-reveal"
-      style="opacity: 1;"
-    >
-      <div
-        class="sc-bdVaJa fGzlqx"
-        data-test="block-"
-      >
-        <div
-          class="sc-bxivhb kgeHJJ"
-        >
-          <div
-            class="sc-ifAKCX cFlEyZ"
-          >
-            <h3
-              class="sc-bwzfXH kgEpTV"
-            >
-              Hårdvara
-            </h3>
-          </div>
-          <div
-            class="sc-bZQynM hmvJjY"
-          >
-            <div
-              class="sc-htpNat iEyarI"
-            >
-              <div>
-                <p>
-                  Iteam har lång erfarenhet av att installera och underhålla redundanta system för virtualisering. Vi är mest hemma i Microsoft Hyper-V kluster men klarar även andra. Vi hjälper dig välja utrustning för just dina behov, vi är märkesoberoende även om vi har våra favoriter. Vi har erfarenhet av arbetsstationer och servrar från bl.a Dell, Lenovo, HP, Supermicro och är certifierade på QSAN för lagringslösningar.
+                  Ring 
+                  <a
+                    title="+46 826 70 90"
+                    href="tel:+46-826-70-90"
+                  >
+                    +46 826 70 90
+                  </a>
+                  och välj 1 i telefonväxeln. Klicka därefter på följade länk: 
+                  <a
+                    href="http://get.teamviewer.com/j8dvucq"
+                  >
+                    ladda ner Teamviewer
+                  </a>
+                  .
                 </p>
               </div>
             </div>

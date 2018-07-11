@@ -3,8 +3,10 @@ import React from 'react'
 import { Query } from 'react-apollo'
 import styled from 'styled-components'
 import { FooterQuery } from '../../../typings/iteamse'
+import { OPERATIONS_PAGE_QUERY } from '../../pages/Ops'
 import GridColumn from '../Grid/GridColumn'
 import NativeLink from '../Link/NativeLink'
+import StyledPrefetchLink from '../Link/StyledPrefetchLink'
 import UnstyledList from '../List/UnstyledList'
 import iconFb from './img/icon_fb.svg'
 import iconInstagram from './img/icon_instagram.svg'
@@ -34,6 +36,7 @@ const Wrap = GridColumn.extend`
   padding-top: 40px;
 
   @media (min-width: 1025px) {
+    grid-row-gap: 40px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -68,6 +71,8 @@ const NativeLinkUnderlined = NativeLink.extend`
   color: black;
   text-decoration: none;
 `
+
+const SupportSection = styled.div``
 
 class FooterQueryComponent extends Query<FooterQuery> {}
 
@@ -124,6 +129,15 @@ const Footer = () => {
                 </UnstyledList>
               </SocialMedia>
             </FooterSections>
+            <SupportSection>
+              <StyledPrefetchLink
+                black={true}
+                query={OPERATIONS_PAGE_QUERY}
+                to="ops"
+              >
+                Behöver du supporthjälp?
+              </StyledPrefetchLink>
+            </SupportSection>
           </Wrap>
         )
       }}

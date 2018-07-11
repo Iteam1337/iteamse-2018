@@ -1,9 +1,15 @@
 import { Link } from 'react-router-dom'
-import styled from '../../theme'
+import styled, { withProps } from '../../theme'
 
-const StyledLink = styled(Link)`
-  border-bottom: 2px solid ${({ theme }) => theme.colors.cornflowerBlue};
-  color: ${({ theme }) => theme.colors.cornflowerBlue};
+interface StyledLinkProps {
+  black?: boolean
+}
+
+const StyledLink = withProps<StyledLinkProps>()(styled(Link))`
+  border-bottom: 2px solid ${({ black, theme }) =>
+    black ? '#000' : theme.colors.cornflowerBlue};
+  color: ${({ black, theme }) =>
+    black ? '#000' : theme.colors.cornflowerBlue};
   line-height: 1.75;
   padding-bottom: 2px;
   text-decoration: none;

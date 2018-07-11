@@ -3,6 +3,8 @@ export const pageOps = {
   aboutText:
     'Operations är namnet på Iteams drift & supportavdelning, sedan 1995 har vi hjälpt våra kunder att göra det de ska göra - utan att vara hindrade av krånglande teknik. Vårt mål är att erbjuda en personlig, professionell service - utan någon “First line” att ta sig förbi.\n\nVi är inte bundna till någon specifik leverantör av hård- eller mjukvara utan rekommenderar alltid det som är bäst i varje enskilt fall. Beroende på uppdraget har Iteam varit allt från komplett uthyrd IT avdelning till specialisthjälp inom olika områden.\n',
   aboutTitle: 'Om oss',
+  body:
+    'Ring [+46 826 70 90](tel:+46-826-70-90 "+46 826 70 90") och välj 1 i telefonväxeln. Klicka därefter på följade länk: [ladda ner Teamviewer](http://get.teamviewer.com/j8dvucq).',
   contactTitle: 'Hör av dig till oss!',
   contentImage:
     '//images.ctfassets.net/rj4r6yfcesw5/2CDS7p7sxGw0GyqSwqyQO6/64a78af7e16d70db815cd8677244c5a9/bleed_ops.jpg',
@@ -11,8 +13,8 @@ export const pageOps = {
   hardwareTitle: 'Hårdvara',
   headerImage:
     '//images.ctfassets.net/rj4r6yfcesw5/29FbYXDqLu2CAkCKEIAuMe/b33442d0204941ae1acda8b7134206d5/ops.jpg',
-  headerText1: 'Skräddarsydd drift och support',
-  headerText2: 'sedan 1995',
+  headerText1: 'Drift och support',
+  headerText2: 'Vi hjälper dig med din dator',
   headerTextBgColor: '#FF405F',
   networkText:
     'Oavsett om det gäller High Availability med site-to-site VPN eller trådlösa nätverk med 802.1X så kan vi hjälpa dig och ditt företag. Vi är partner och certifierade på svenska leverantören Clavisters brandväggsprodukter. \n\nVi använder i huvudsak Ubiquiti Networks nätverksprodukter och är certifierade på produktserien UniFi men har även erfarenhet produkter från Dell, HP/Aruba och Meraki.\n',

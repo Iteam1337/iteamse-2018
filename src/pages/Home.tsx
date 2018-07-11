@@ -4,7 +4,6 @@ import { Query } from 'react-apollo'
 import { Helmet } from 'react-helmet'
 import MediaQuery from 'react-responsive'
 import { HomePageQuery } from '../../typings/iteamse'
-import OperationsBanner from '../components/Banners/OperationsBanner'
 import Block from '../components/Blocks/Block'
 import GridColumn from '../components/Grid/GridColumn'
 import PaddedRow from '../components/Grid/PaddedRow'
@@ -226,7 +225,6 @@ export class Home extends React.Component {
                   </Block>
                 </GridColumn>
 
-                <OperationsBanner />
                 <Team
                   callToAction={pageStart.contactTitle}
                   shortName={pageStart.team}

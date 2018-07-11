@@ -3,24 +3,24 @@
 exports[`components/Footer renders Footer 1`] = `
 <div>
   <div
-    class="sc-dnqmqq hhMHBF"
+    class="sc-hrWEMg hiJxRr"
   >
     <div
-      class="sc-iwsKbI dAvuZQ"
+      class="sc-eTuwsz gaOqMC"
     >
       <div
-        class="sc-ifAKCX hQSvGu"
+        class="sc-eXEjpC eHKpUB"
       >
         <div
-          class="sc-EHOje kwUTaa"
+          class="sc-ibxdXY gBhUXx"
         >
           Iteam Göteborg
         </div>
         <div
-          class="sc-bZQynM jhCxkA"
+          class="sc-RefOD blRWkh"
         >
           <ul
-            class="sc-bxivhb ktajjB"
+            class="sc-kAzzGY bxsBVD"
           >
             <li>
               Haga Kyrkogata 28
@@ -32,16 +32,16 @@ exports[`components/Footer renders Footer 1`] = `
           </ul>
         </div>
         <ul
-          class="sc-bxivhb ktajjB"
+          class="sc-kAzzGY bxsBVD"
         >
           <li>
             +46 734 029 112
           </li>
           <li
-            class="sc-htoDjs bqJVso"
+            class="sc-bwCtUz dwGMJE"
           >
             <a
-              class="sc-gzVnrw boCgDU"
+              class="sc-iQKALj fOsKRv"
             >
               johanna.grahn@iteam.se
             </a>
@@ -53,18 +53,18 @@ exports[`components/Footer renders Footer 1`] = `
         </ul>
       </div>
       <div
-        class="sc-ifAKCX hQSvGu"
+        class="sc-eXEjpC eHKpUB"
       >
         <div
-          class="sc-EHOje kwUTaa"
+          class="sc-ibxdXY gBhUXx"
         >
           Iteam Stockholm
         </div>
         <div
-          class="sc-bZQynM jhCxkA"
+          class="sc-RefOD blRWkh"
         >
           <ul
-            class="sc-bxivhb ktajjB"
+            class="sc-kAzzGY bxsBVD"
           >
             <li>
               Östermalmsgatan 26A
@@ -76,16 +76,16 @@ exports[`components/Footer renders Footer 1`] = `
           </ul>
         </div>
         <ul
-          class="sc-bxivhb ktajjB"
+          class="sc-kAzzGY bxsBVD"
         >
           <li>
             +46 826 70 90
           </li>
           <li
-            class="sc-htoDjs bqJVso"
+            class="sc-bwCtUz dwGMJE"
           >
             <a
-              class="sc-gzVnrw boCgDU"
+              class="sc-iQKALj fOsKRv"
             >
               info@iteam.se
             </a>
@@ -97,86 +97,86 @@ exports[`components/Footer renders Footer 1`] = `
         </ul>
       </div>
       <div
-        class="sc-gqjmRU hnZXkc"
+        class="sc-hXRMBi kcwAsj"
       >
         <div
-          class="sc-gZMcBi hiSriM"
+          class="sc-gwVKww dRnZTI"
         >
           Följ oss
         </div>
         <ul
-          class="sc-bxivhb ktajjB"
+          class="sc-kAzzGY bxsBVD"
         >
           <li
-            class="sc-VigVT eQEufo"
+            class="sc-epnACN cuqEai"
           >
             <img
-              class="sc-jTzLTM SZPTT"
+              class="sc-iQNlJl gSpziM"
               src="test-file-stub"
               alt=""
             />
             <a
-              class="sc-fjdhpX joMMNn"
+              class="sc-bsbRJL kHUrew"
               href="https://www.facebook.com/iteam1337/"
             >
               Facebook
             </a>
           </li>
           <li
-            class="sc-VigVT eQEufo"
+            class="sc-epnACN cuqEai"
           >
             <img
-              class="sc-jTzLTM SZPTT"
+              class="sc-iQNlJl gSpziM"
               src="test-file-stub"
               alt=""
             />
             <a
-              class="sc-fjdhpX joMMNn"
+              class="sc-bsbRJL kHUrew"
               href="https://instagram.com/iteam1337"
             >
               Instagram
             </a>
           </li>
           <li
-            class="sc-VigVT eQEufo"
+            class="sc-epnACN cuqEai"
           >
             <img
-              class="sc-jTzLTM SZPTT"
+              class="sc-iQNlJl gSpziM"
               src="test-file-stub"
               alt=""
             />
             <a
-              class="sc-fjdhpX joMMNn"
+              class="sc-bsbRJL kHUrew"
               href="https://www.linkedin.com/company/270569/"
             >
               LinkedIn
             </a>
           </li>
           <li
-            class="sc-VigVT eQEufo"
+            class="sc-epnACN cuqEai"
           >
             <img
-              class="sc-jTzLTM SZPTT"
+              class="sc-iQNlJl gSpziM"
               src="test-file-stub"
               alt=""
             />
             <a
-              class="sc-fjdhpX joMMNn"
+              class="sc-bsbRJL kHUrew"
               href="https://www.youtube.com/channel/UCU2TdLZ7p0jEuuGUxaod4lw"
             >
               YouTube
             </a>
           </li>
           <li
-            class="sc-VigVT eQEufo"
+            class="sc-epnACN cuqEai"
           >
             <img
-              class="sc-jTzLTM SZPTT"
+              class="sc-iQNlJl gSpziM"
               src="test-file-stub"
               alt=""
             />
             <a
-              class="sc-fjdhpX joMMNn"
+              class="sc-bsbRJL kHUrew"
               href="http://www.mynewsdesk.com/se/iteam"
             >
               MyNewsDesk
@@ -184,6 +184,15 @@ exports[`components/Footer renders Footer 1`] = `
           </li>
         </ul>
       </div>
+    </div>
+    <div
+      class="sc-hZSUBg VKktY"
+    >
+      <a
+        class="sc-jbKcbu cxkpzV"
+      >
+        Behöver du supporthjälp?
+      </a>
     </div>
   </div>
 </div>

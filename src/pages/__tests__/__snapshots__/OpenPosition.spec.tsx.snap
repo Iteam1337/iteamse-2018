@@ -4,85 +4,79 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
 <div>
   <div>
     <div
-      class="sc-gzOgki dtyxCS"
+      class="sc-jtRfpW eefFXk"
     >
       <div
-        class="sc-iyvyFf fXFZjN"
+        class="sc-kTUwUJ gOkXip"
       >
         <div
-          class="sc-elJkPf fqzjUn"
+          class="sc-cmTdod cbLNuN"
         >
           <a
-            class="sc-jtRfpW cXQLFZ"
+            class="sc-jwKygS ccXyBf"
           >
             <img
-              class="sc-kTUwUJ fgTIcp"
+              class="sc-btzYZH gzqeJw"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-dqBHgY fDUITd"
+            class="sc-lhVmIH gEAOxd"
           >
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-elJkPf dEOAlI"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-elJkPf dEOAlI"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-elJkPf dEOAlI"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-elJkPf dEOAlI"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-dfVpRl uQOzH active-nav"
+              class="sc-elJkPf dEOAlI active-nav"
               aria-current="true"
             >
               Karriär
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-elJkPf dEOAlI"
               aria-current="false"
             >
               Om
             </a>
-            <a
-              class="sc-dfVpRl uQOzH"
-              aria-current="false"
-            >
-              Drift & Support
-            </a>
             <div
-              class="sc-gxMtzJ dqeSKx"
+              class="sc-bYSBpT BnQkq"
             />
           </div>
         </div>
         <div
-          class="sc-hwwEjo fiJSKN"
+          class="sc-dqBHgY bymaoW"
         >
           <h1
-            class="sc-kPVwWT kWnKUp"
+            class="sc-gxMtzJ gChCoz"
           >
             <span>
               UX Designer
             </span>
           </h1>
           <h1
-            class="sc-kPVwWT kWnKUp"
+            class="sc-gxMtzJ gChCoz"
           >
             <span>
               Stockholm

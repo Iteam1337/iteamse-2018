@@ -27,6 +27,11 @@ describe('#redirectHelper', () => {
       expect(redirectsTo).toEqual('/ops')
     })
 
+    it('should return the path for /operations/sv', () => {
+      const redirectsTo = handlePaths('/operations/sv')
+      expect(redirectsTo).toEqual('/ops')
+    })
+
     it('should return the path for the tsab case', () => {
       const redirectsTo = handlePaths('/cases/tsab')
       expect(redirectsTo).toEqual('/case/tsab')
@@ -170,6 +175,15 @@ describe('#redirectHelper', () => {
     it('should redirect from /operations to /ops', () => {
       req = {
         path: '/operations',
+      }
+      redirectHelper(req, res, next)
+      expect(res.redirect).toHaveBeenCalledWith(301, '/ops')
+      expect(next).toHaveBeenCalled()
+    })
+
+    it('should redirect from /operations/sv to /ops', () => {
+      req = {
+        path: '/operations/sv',
       }
       redirectHelper(req, res, next)
       expect(res.redirect).toHaveBeenCalledWith(301, '/ops')
