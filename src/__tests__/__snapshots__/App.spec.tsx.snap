@@ -3,45 +3,45 @@
 exports[`App renders App 1`] = `
 <div>
   <div
-    class="sc-gqPbQI hvwjEu"
+    class="sc-hORach fxhqaj"
   >
     <button
-      class="sc-cMhqgX fXvOml"
+      class="sc-iuJeZd ebcabc"
       aria-label="Menu button"
       data-testid="btn-mobile-menu"
       role="button"
     >
       <div
-        class="sc-esOvli jiqGsv"
+        class="sc-cmthru dvdOXY"
       >
         <div
-          class="sc-iuJeZd cCGzUe"
+          class="sc-esOvli fZgnYN"
         />
         <div
-          class="sc-iuJeZd cCGzUe"
+          class="sc-esOvli fZgnYN"
         />
         <div
-          class="sc-iuJeZd cCGzUe"
+          class="sc-esOvli fZgnYN"
         />
       </div>
     </button>
   </div>
   <div
-    class="sc-hrWEMg hiJxRr"
+    class="sc-eTuwsz bmnsej"
   >
     <div
-      class="sc-eTuwsz gaOqMC"
+      class="sc-gwVKww dagISy"
     >
       <div
-        class="sc-eXEjpC eHKpUB"
+        class="sc-ibxdXY gJMUuu"
       >
         <div
-          class="sc-ibxdXY gBhUXx"
+          class="sc-RefOD jTQorW"
         >
           Iteam Göteborg
         </div>
         <div
-          class="sc-RefOD blRWkh"
+          class="sc-iQKALj cwUche"
         >
           <ul
             class="sc-kAzzGY bxsBVD"
@@ -62,10 +62,10 @@ exports[`App renders App 1`] = `
             +46 734 029 112
           </li>
           <li
-            class="sc-bwCtUz dwGMJE"
+            class="sc-hrWEMg eZrCgJ"
           >
             <a
-              class="sc-iQKALj fOsKRv"
+              class="sc-bwCtUz fpnUCg"
             >
               johanna.grahn@iteam.se
             </a>
@@ -77,15 +77,15 @@ exports[`App renders App 1`] = `
         </ul>
       </div>
       <div
-        class="sc-eXEjpC eHKpUB"
+        class="sc-ibxdXY gJMUuu"
       >
         <div
-          class="sc-ibxdXY gBhUXx"
+          class="sc-RefOD jTQorW"
         >
           Iteam Stockholm
         </div>
         <div
-          class="sc-RefOD blRWkh"
+          class="sc-iQKALj cwUche"
         >
           <ul
             class="sc-kAzzGY bxsBVD"
@@ -106,10 +106,10 @@ exports[`App renders App 1`] = `
             +46 826 70 90
           </li>
           <li
-            class="sc-bwCtUz dwGMJE"
+            class="sc-hrWEMg eZrCgJ"
           >
             <a
-              class="sc-iQKALj fOsKRv"
+              class="sc-bwCtUz fpnUCg"
             >
               info@iteam.se
             </a>
@@ -121,10 +121,10 @@ exports[`App renders App 1`] = `
         </ul>
       </div>
       <div
-        class="sc-hXRMBi kcwAsj"
+        class="sc-epnACN hsXqzQ"
       >
         <div
-          class="sc-gwVKww dRnZTI"
+          class="sc-hXRMBi eRcyCh"
         >
           Följ oss
         </div>
@@ -132,75 +132,75 @@ exports[`App renders App 1`] = `
           class="sc-kAzzGY bxsBVD"
         >
           <li
-            class="sc-epnACN cuqEai"
+            class="sc-iQNlJl gCWjCx"
           >
             <img
-              class="sc-iQNlJl gSpziM"
+              class="sc-bsbRJL bUCcmb"
               src="test-file-stub"
               alt=""
             />
             <a
-              class="sc-bsbRJL kHUrew"
+              class="sc-hZSUBg gQFtmj"
               href="https://www.facebook.com/iteam1337/"
             >
               Facebook
             </a>
           </li>
           <li
-            class="sc-epnACN cuqEai"
+            class="sc-iQNlJl gCWjCx"
           >
             <img
-              class="sc-iQNlJl gSpziM"
+              class="sc-bsbRJL bUCcmb"
               src="test-file-stub"
               alt=""
             />
             <a
-              class="sc-bsbRJL kHUrew"
+              class="sc-hZSUBg gQFtmj"
               href="https://instagram.com/iteam1337"
             >
               Instagram
             </a>
           </li>
           <li
-            class="sc-epnACN cuqEai"
+            class="sc-iQNlJl gCWjCx"
           >
             <img
-              class="sc-iQNlJl gSpziM"
+              class="sc-bsbRJL bUCcmb"
               src="test-file-stub"
               alt=""
             />
             <a
-              class="sc-bsbRJL kHUrew"
+              class="sc-hZSUBg gQFtmj"
               href="https://www.linkedin.com/company/270569/"
             >
               LinkedIn
             </a>
           </li>
           <li
-            class="sc-epnACN cuqEai"
+            class="sc-iQNlJl gCWjCx"
           >
             <img
-              class="sc-iQNlJl gSpziM"
+              class="sc-bsbRJL bUCcmb"
               src="test-file-stub"
               alt=""
             />
             <a
-              class="sc-bsbRJL kHUrew"
+              class="sc-hZSUBg gQFtmj"
               href="https://www.youtube.com/channel/UCU2TdLZ7p0jEuuGUxaod4lw"
             >
               YouTube
             </a>
           </li>
           <li
-            class="sc-epnACN cuqEai"
+            class="sc-iQNlJl gCWjCx"
           >
             <img
-              class="sc-iQNlJl gSpziM"
+              class="sc-bsbRJL bUCcmb"
               src="test-file-stub"
               alt=""
             />
             <a
-              class="sc-bsbRJL kHUrew"
+              class="sc-hZSUBg gQFtmj"
               href="http://www.mynewsdesk.com/se/iteam"
             >
               MyNewsDesk
@@ -210,10 +210,10 @@ exports[`App renders App 1`] = `
       </div>
     </div>
     <div
-      class="sc-hZSUBg VKktY"
+      class="sc-cMhqgX dwYjBs"
     >
       <a
-        class="sc-jbKcbu cxkpzV"
+        class="sc-dNLxif eqOyEz"
       >
         Behöver du supporthjälp?
       </a>

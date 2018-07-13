@@ -5,6 +5,7 @@ const Colleague = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   text-align: center;
   transition: transform 200ms ease-in-out;
 

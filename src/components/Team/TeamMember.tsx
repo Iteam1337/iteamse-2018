@@ -15,7 +15,10 @@ const Title = styled.div`
   font-weight: 500;
 `
 
+const Wrap = styled.div``
+
 const Location = styled.div``
+
 const AvatarWrap = styled.div`
   margin-bottom: 20px;
   margin-top: 20px;
@@ -24,21 +27,25 @@ const AvatarWrap = styled.div`
 const TeamMember: React.SFC<TeamMemberProps> = ({ member }) => {
   return (
     <Colleague>
-      <Title>{member.title}</Title>
-      <Location data-test="team-member-location">{member.location}</Location>
-      <PrefetchLink
-        query={TEAM_MEMBER_PAGE_QUERY}
-        to={`/teamet/${member.short}`}
-        variables={{
-          shortName: member.short,
-        }}
-      >
-        <AvatarWrap>
-          <Avatar alt={member.name} image={member.avatar} />
-        </AvatarWrap>
-      </PrefetchLink>
-      <Title>{member.name}</Title>
-      <Mailto email={member.email}>{member.email}</Mailto>
+      <Wrap>
+        <Title>{member.title}</Title>
+        <Location data-test="team-member-location">{member.location}</Location>
+      </Wrap>
+      <Wrap>
+        <PrefetchLink
+          query={TEAM_MEMBER_PAGE_QUERY}
+          to={`/teamet/${member.short}`}
+          variables={{
+            shortName: member.short,
+          }}
+        >
+          <AvatarWrap>
+            <Avatar alt={member.name} image={member.avatar} />
+          </AvatarWrap>
+        </PrefetchLink>
+        <Title>{member.name}</Title>
+        <Mailto email={member.email}>{member.email}</Mailto>
+      </Wrap>
     </Colleague>
   )
 }
