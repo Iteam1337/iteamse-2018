@@ -3,6 +3,7 @@ import { ApolloClient } from 'apollo-client'
 import { createHttpLink } from 'apollo-link-http'
 import compression from 'compression'
 import express from 'express'
+import proxy from 'http-proxy-middleware'
 import fetch from 'node-fetch'
 import React from 'react'
 import { ApolloProvider, renderToStringWithData } from 'react-apollo'
@@ -16,12 +17,20 @@ import { theme } from './theme'
 import { redirectHelper } from './utils/serverHelpers'
 
 const server = express()
+const { RAZZLE_CMS_NODE_URL, RAZZLE_PUBLIC_DIR, RAZZLE_HOST } = process.env
 
 server.use(compression())
+server.use(
+  '/cms',
+  proxy({
+    pathRewrite: (path: string) => path.replace('/cms', ''),
+    target: RAZZLE_CMS_NODE_URL,
+  })
+)
 
 server
   .disable('x-powered-by')
-  .use(express.static(process.env.RAZZLE_PUBLIC_DIR!))
+  .use(express.static(RAZZLE_PUBLIC_DIR!))
   .get(
     '/*',
     redirectHelper,
@@ -31,7 +40,7 @@ server
           cache: new InMemoryCache(),
           link: createHttpLink({
             fetch,
-            uri: process.env.RAZZLE_CMS_NODE_URL,
+            uri: RAZZLE_HOST,
           }),
           ssrMode: true,
         })
