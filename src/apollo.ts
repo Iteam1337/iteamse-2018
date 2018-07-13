@@ -3,7 +3,7 @@ import ApolloClient from 'apollo-client'
 import { createHttpLink } from 'apollo-link-http'
 
 const httpLink = createHttpLink({
-  uri: process.env.RAZZLE_HOST,
+  uri: process.env.RAZZLE_CMS_URL,
 })
 
 export const client = new ApolloClient({
