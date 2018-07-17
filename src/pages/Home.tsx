@@ -87,6 +87,12 @@ const TextBlock = PaddedRow.extend`
   }
 `
 
+const NarrowLink = Link.extend`
+  @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    letter-spacing: -0.5px;
+  }
+`
+
 const AiTextBlock = styled.div``
 
 const StylizedIteam = styled.img`
@@ -168,9 +174,9 @@ export class Home extends React.Component {
                         {pageStart.codeLogo && (
                           <CompanyLogo src={pageStart.codeLogo} />
                         )}
-                        <Link to={`/case/${pageStart.codeSlug}`}>
+                        <NarrowLink to={`/case/${pageStart.codeSlug}`}>
                           {pageStart.codeLinkText}
-                        </Link>
+                        </NarrowLink>
                       </TextBlock>
 
                       <TextBlock>
@@ -188,9 +194,9 @@ export class Home extends React.Component {
                         {pageStart.strategyLogo && (
                           <CompanyLogo src={pageStart.strategyLogo} />
                         )}
-                        <Link to={`/case/${pageStart.strategySlug}`}>
+                        <NarrowLink to={`/case/${pageStart.strategySlug}`}>
                           {pageStart.strategyLinkText}
-                        </Link>
+                        </NarrowLink>
                       </TextBlock>
 
                       <TextBlock>
@@ -206,9 +212,9 @@ export class Home extends React.Component {
                         {pageStart.cultureLogo && (
                           <CompanyLogo src={pageStart.cultureLogo} />
                         )}
-                        <Link to={`/case/${pageStart.cultureSlug}`}>
+                        <NarrowLink to={`/case/${pageStart.cultureSlug}`}>
                           {pageStart.cultureLinkText}
-                        </Link>
+                        </NarrowLink>
                       </TextBlock>
                     </Texts>
                   </Content>
