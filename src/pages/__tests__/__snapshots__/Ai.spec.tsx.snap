@@ -4,72 +4,72 @@ exports[`components/Ai renders Ai 1`] = `
 <div>
   <div>
     <div
-      class="sc-jtRfpW fAcsnU"
+      class="sc-kTUwUJ fNqUCL"
     >
       <div
-        class="sc-kTUwUJ gOkXip"
+        class="sc-dqBHgY efhfhh"
       >
         <div
-          class="sc-cmTdod cbLNuN"
+          class="sc-jwKygS hDGBmk"
         >
           <a
-            class="sc-jwKygS ccXyBf"
+            class="sc-btzYZH iNlviF"
           >
             <img
-              class="sc-btzYZH gzqeJw"
+              class="sc-lhVmIH bZDuK"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-lhVmIH gEAOxd"
+            class="sc-bYSBpT ffXmNN"
           >
             <a
-              class="sc-elJkPf dEOAlI"
+              class="sc-jtRfpW jkixbM"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-elJkPf dEOAlI"
+              class="sc-jtRfpW jkixbM"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-elJkPf dEOAlI"
+              class="sc-jtRfpW jkixbM"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-elJkPf dEOAlI"
+              class="sc-jtRfpW jkixbM"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-elJkPf dEOAlI"
+              class="sc-jtRfpW jkixbM"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-elJkPf dEOAlI"
+              class="sc-jtRfpW jkixbM"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-bYSBpT BnQkq"
+              class="sc-elJkPf ruddK"
             />
           </div>
         </div>
         <div
-          class="sc-dqBHgY bymaoW"
+          class="sc-gxMtzJ kINfmL"
         >
           <h1
-            class="sc-gxMtzJ cMqCuY"
+            class="sc-dfVpRl liTdDd"
           >
             <span>
               Våra erbjudanden inom AI

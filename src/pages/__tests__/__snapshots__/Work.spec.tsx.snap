@@ -4,72 +4,72 @@ exports[`components/Work renders Work 1`] = `
 <div>
   <div>
     <div
-      class="sc-jtRfpW gQHxdR"
+      class="sc-kTUwUJ dSQtlA"
     >
       <div
-        class="sc-kTUwUJ gOkXip"
+        class="sc-dqBHgY efhfhh"
       >
         <div
-          class="sc-cmTdod cbLNuN"
+          class="sc-jwKygS hDGBmk"
         >
           <a
-            class="sc-jwKygS ccXyBf"
+            class="sc-btzYZH iNlviF"
           >
             <img
-              class="sc-btzYZH gzqeJw"
+              class="sc-lhVmIH bZDuK"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-lhVmIH gEAOxd"
+            class="sc-bYSBpT ffXmNN"
           >
             <a
-              class="sc-elJkPf dEOAlI"
+              class="sc-jtRfpW jkixbM"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-elJkPf dEOAlI"
+              class="sc-jtRfpW jkixbM"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-elJkPf dEOAlI"
+              class="sc-jtRfpW jkixbM"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-elJkPf dEOAlI"
+              class="sc-jtRfpW jkixbM"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-elJkPf dEOAlI"
+              class="sc-jtRfpW jkixbM"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-elJkPf dEOAlI"
+              class="sc-jtRfpW jkixbM"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-bYSBpT BnQkq"
+              class="sc-elJkPf ruddK"
             />
           </div>
         </div>
         <div
-          class="sc-dqBHgY bymaoW"
+          class="sc-gxMtzJ kINfmL"
         >
           <h1
-            class="sc-gxMtzJ cCkVwq"
+            class="sc-dfVpRl cNAjls"
           >
             <span>
               Bli en del av teamet
@@ -83,24 +83,24 @@ exports[`components/Work renders Work 1`] = `
     class="sc-iwsKbI fwFOwW"
   >
     <div
-      class="sc-dNLxif cbmTba"
+      class="sc-jqCOkK YHguG"
     >
       <div
-        class="sc-jbKcbu fdyOlI"
+        class="sc-dNLxif pFwob"
         data-test="filter-"
         tabindex="0"
       >
         Alla
       </div>
       <div
-        class="sc-jbKcbu lARIj"
+        class="sc-dNLxif kCTdee"
         data-test="filter-Stockholm"
         tabindex="0"
       >
         Stockholm
       </div>
       <div
-        class="sc-jbKcbu lARIj"
+        class="sc-dNLxif kCTdee"
         data-test="filter-Göteborg"
         tabindex="0"
       >

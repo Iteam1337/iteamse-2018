@@ -4,79 +4,79 @@ exports[`components/Header renders Header 1`] = `
 <div>
   <div>
     <div
-      class="sc-kfGgVZ QvTqi"
+      class="sc-esjQYD hjsVfL"
     >
       <div
-        class="sc-esjQYD gyxPqE"
+        class="sc-kIPQKe gaRALt"
       >
         <div
-          class="sc-gxMtzJ bEcMgf"
+          class="sc-dfVpRl fpwQPy"
         >
           <a
-            class="sc-dfVpRl ftufec"
+            class="sc-gzOgki fYazLb"
           >
             <img
-              class="sc-gzOgki dcLasU"
+              class="sc-iyvyFf dnpZnl"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-iyvyFf hDzHAZ"
+            class="sc-hwwEjo jroJGa"
           >
             <a
-              class="sc-kPVwWT hwJsDC"
+              class="sc-kfGgVZ dRfPxx"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-kPVwWT hwJsDC"
+              class="sc-kfGgVZ dRfPxx"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-kPVwWT hwJsDC"
+              class="sc-kfGgVZ dRfPxx"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-kPVwWT hwJsDC"
+              class="sc-kfGgVZ dRfPxx"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-kPVwWT hwJsDC"
+              class="sc-kfGgVZ dRfPxx"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-kPVwWT hwJsDC"
+              class="sc-kfGgVZ dRfPxx"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-hwwEjo ckZktb"
+              class="sc-kPVwWT hpTcRX"
             />
           </div>
         </div>
         <div
-          class="sc-kIPQKe eytleb"
+          class="sc-eXEjpC PPEhC"
         >
           <h1
-            class="sc-eXEjpC dXeVDF"
+            class="sc-ibxdXY cKeljD"
           >
             <span>
               Vi digitaliserar företag och organisationer
             </span>
           </h1>
           <h1
-            class="sc-eXEjpC dXeVDF"
+            class="sc-ibxdXY cKeljD"
           >
             <span>
               genom strategi, kod och kultur

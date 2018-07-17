@@ -10,7 +10,7 @@ exports[`components/MobileMenu renders MobileMenu and can open it 1`] = `
       data-test="mobile-menu"
     >
       <div
-        class="sc-EHOje fpqoIO"
+        class="sc-EHOje eWBHPh"
       >
         <a
           class="sc-bxivhb kFLvBf"
@@ -51,7 +51,7 @@ exports[`components/MobileMenu renders MobileMenu and can open it 1`] = `
       </div>
     </div>
     <button
-      class="sc-bdVaJa kHlDxG"
+      class="sc-bdVaJa czpWlH"
       aria-label="Menu button"
       data-testid="btn-mobile-menu"
       role="button"
