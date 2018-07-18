@@ -214,6 +214,7 @@ exports[`App renders App 1`] = `
     >
       <a
         class="sc-dNLxif eqOyEz"
+        black="1"
       >
         Behöver du supporthjälp?
       </a>

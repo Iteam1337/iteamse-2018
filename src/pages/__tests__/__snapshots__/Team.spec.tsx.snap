@@ -124,7 +124,7 @@ exports[`components/Team renders Team 1`] = `
             >
               <div>
                 <img
-                  class="sc-dxgOiQ hjYxNe"
+                  class="sc-dxgOiQ bXQPbj"
                   alt="Cookie M"
                   src=""
                 />
@@ -169,7 +169,7 @@ exports[`components/Team renders Team 1`] = `
             >
               <div>
                 <img
-                  class="sc-dxgOiQ hjYxNe"
+                  class="sc-dxgOiQ bXQPbj"
                   alt="Count van Count"
                   src=""
                 />
@@ -333,7 +333,7 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
             >
               <div>
                 <img
-                  class="sc-dxgOiQ hjYxNe"
+                  class="sc-dxgOiQ bXQPbj"
                   alt="Count van Count"
                   src=""
                 />
@@ -497,7 +497,7 @@ exports[`components/Team should handle changing location using mouse 1`] = `
             >
               <div>
                 <img
-                  class="sc-dxgOiQ hjYxNe"
+                  class="sc-dxgOiQ bXQPbj"
                   alt="Cookie M"
                   src=""
                 />
@@ -661,7 +661,7 @@ exports[`components/Team should not change using keyboard if not enter or space 
             >
               <div>
                 <img
-                  class="sc-dxgOiQ hjYxNe"
+                  class="sc-dxgOiQ bXQPbj"
                   alt="Cookie M"
                   src=""
                 />
@@ -706,7 +706,7 @@ exports[`components/Team should not change using keyboard if not enter or space 
             >
               <div>
                 <img
-                  class="sc-dxgOiQ hjYxNe"
+                  class="sc-dxgOiQ bXQPbj"
                   alt="Count van Count"
                   src=""
                 />

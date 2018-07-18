@@ -193,6 +193,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
               >
                 <a
                   class="sc-jhAzac eJSshj"
+                  black="0"
                 >
                   Junior UX Designer
                 </a>

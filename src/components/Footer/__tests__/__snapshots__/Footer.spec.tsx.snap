@@ -190,6 +190,7 @@ exports[`components/Footer renders Footer 1`] = `
     >
       <a
         class="sc-dNLxif eqOyEz"
+        black="1"
       >
         Behöver du supporthjälp?
       </a>
