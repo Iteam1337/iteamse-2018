@@ -45,6 +45,10 @@ const Menu = styled.div`
 const MenuInner = styled.div`
   display: flex;
   flex-direction: column;
+
+  @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    padding-top: 80px;
+  }
 `
 
 const MenuNavigation: React.SFC<MenuNavigationProps> = ({ open }) => {

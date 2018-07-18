@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import styled, { withProps } from '../../theme'
 
 interface StyledLinkProps {
-  black?: boolean
+  black?: boolean | number
 }
 
 const StyledLink = withProps<StyledLinkProps>()(styled(Link))`

@@ -23,6 +23,11 @@ const Button = styled.button`
   &:focus {
     outline: none;
   }
+
+  @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    bottom: 0;
+    top: 20px;
+  }
 `
 
 const Bar = styled.div`

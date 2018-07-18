@@ -10,10 +10,14 @@ interface AvatarProps {
 export const AvatarImage = styled.img`
   border-radius: 100%;
   box-shadow: 0 5px 50px transparent;
-  max-height: 300px;
+  max-height: 150px;
   max-width: 100%;
   transition: box-shadow 200ms ease-in-out;
   vertical-align: top;
+
+  @media (min-width: 1025px) {
+    max-height: 300px;
+  }
 `
 
 const Avatar: React.SFC<AvatarProps> = ({ alt, image }) => {
