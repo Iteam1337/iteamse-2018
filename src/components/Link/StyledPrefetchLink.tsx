@@ -15,7 +15,7 @@ const StyledPrefetchLink: React.SFC<
 > = ({ black, children, client, query, to, variables }) => {
   return (
     <Link
-      black={black}
+      black={black ? 1 : 0}
       onMouseEnter={() =>
         client.query({
           query,
