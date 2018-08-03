@@ -38,6 +38,7 @@ const Content = styled.div`
   display: grid;
   grid-column: -1 / 1;
   grid-template-rows: auto 1fr;
+  grid-template-columns: 30px 1fr 30px;
 
   @media (min-width: 1025px) {
     grid-template-columns: 1fr 1024px 1fr;
