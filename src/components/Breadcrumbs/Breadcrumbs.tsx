@@ -13,13 +13,15 @@ const Wrap = PaddedRow.extend`
     content: '/';
     margin-left: 5px;
     margin-right: 5px;
+    text-decoration: none;
+    display: inline-block;
   }
 `
 
 const StyledLink = styled(Link)`
   color: #000;
   font-weight: 500;
-  text-decoration: none;
+  text-decoration: underline;
 `
 
 const Breadcrumbs: React.SFC<BreadcrumbsProps & RouteComponentProps<{}>> = ({
