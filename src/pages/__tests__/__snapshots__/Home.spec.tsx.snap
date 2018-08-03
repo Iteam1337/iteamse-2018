@@ -69,16 +69,10 @@ exports[`components/Home renders Home 1`] = `
           class="sc-gxMtzJ gVSKut"
         >
           <h1
-            class="sc-dfVpRl bGPvxL"
+            class="sc-dfVpRl kYjRAZ"
           >
             <span>
               Vi digitaliserar företag och organisationer
-            </span>
-          </h1>
-          <h1
-            class="sc-dfVpRl bGPvxL"
-          >
-            <span>
               genom strategi, kod och kultur
             </span>
           </h1>

@@ -98,12 +98,7 @@ const Header: React.SFC<HeaderProps> = ({
           <MessageRow>
             {messageOne && (
               <Message bgColor={backgroundColor}>
-                <span>{messageOne}</span>
-              </Message>
-            )}
-            {messageTwo && (
-              <Message bgColor={backgroundColor}>
-                <span>{messageTwo}</span>
+                <span>{messageOne} {messageTwo}</span>
               </Message>
             )}
           </MessageRow>

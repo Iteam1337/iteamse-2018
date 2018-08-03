@@ -69,16 +69,10 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
           class="sc-gxMtzJ gVSKut"
         >
           <h1
-            class="sc-dfVpRl iXhWQj"
+            class="sc-dfVpRl fzVusi"
           >
             <span>
               UX Designer
-            </span>
-          </h1>
-          <h1
-            class="sc-dfVpRl iXhWQj"
-          >
-            <span>
               Stockholm
             </span>
           </h1>

@@ -69,7 +69,7 @@ exports[`components/Team renders Team 1`] = `
           class="sc-kPVwWT bZitsY"
         >
           <h1
-            class="sc-kfGgVZ bbuvnE"
+            class="sc-kfGgVZ hlkEnZ"
           >
             <span>
               Det är vi som är Iteam
@@ -278,7 +278,7 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
           class="sc-kPVwWT bZitsY"
         >
           <h1
-            class="sc-kfGgVZ bbuvnE"
+            class="sc-kfGgVZ hlkEnZ"
           >
             <span>
               Det är vi som är Iteam
@@ -442,7 +442,7 @@ exports[`components/Team should handle changing location using mouse 1`] = `
           class="sc-kPVwWT bZitsY"
         >
           <h1
-            class="sc-kfGgVZ bbuvnE"
+            class="sc-kfGgVZ hlkEnZ"
           >
             <span>
               Det är vi som är Iteam
@@ -606,7 +606,7 @@ exports[`components/Team should not change using keyboard if not enter or space 
           class="sc-kPVwWT bZitsY"
         >
           <h1
-            class="sc-kfGgVZ bbuvnE"
+            class="sc-kfGgVZ hlkEnZ"
           >
             <span>
               Det är vi som är Iteam

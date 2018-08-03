@@ -69,16 +69,10 @@ exports[`components/Header renders Header 1`] = `
           class="sc-eXEjpC jVUDZG"
         >
           <h1
-            class="sc-ibxdXY bRHhci"
+            class="sc-ibxdXY cKeljD"
           >
             <span>
               Vi digitaliserar företag och organisationer
-            </span>
-          </h1>
-          <h1
-            class="sc-ibxdXY bRHhci"
-          >
-            <span>
               genom strategi, kod och kultur
             </span>
           </h1>

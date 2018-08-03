@@ -69,16 +69,10 @@ exports[`components/About renders About 1`] = `
           class="sc-gxMtzJ gVSKut"
         >
           <h1
-            class="sc-dfVpRl fTEZgP"
+            class="sc-dfVpRl jLLAqP"
           >
             <span>
               Vi skapades ur en vilja att skapa värde,
-            </span>
-          </h1>
-          <h1
-            class="sc-dfVpRl fTEZgP"
-          >
-            <span>
               ha kul och göra något bra
             </span>
           </h1>

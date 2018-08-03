@@ -72,16 +72,10 @@ exports[`components/Team renders TeamMember 1`] = `
             class="sc-gxMtzJ gVSKut"
           >
             <h1
-              class="sc-dfVpRl iXhWQj"
+              class="sc-dfVpRl fzVusi"
             >
               <span>
                 Rickard Laurin
-              </span>
-            </h1>
-            <h1
-              class="sc-dfVpRl iXhWQj"
-            >
-              <span>
                 Webbutvecklare
               </span>
             </h1>

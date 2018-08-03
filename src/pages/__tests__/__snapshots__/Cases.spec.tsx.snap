@@ -69,16 +69,10 @@ exports[`components/Cases renders Cases 1`] = `
           class="sc-gxMtzJ gVSKut"
         >
           <h1
-            class="sc-dfVpRl fTEZgP"
+            class="sc-dfVpRl jLLAqP"
           >
             <span>
               Några exempel på
-            </span>
-          </h1>
-          <h1
-            class="sc-dfVpRl fTEZgP"
-          >
-            <span>
               sådant vi gjort
             </span>
           </h1>
