@@ -61,7 +61,7 @@ interface MessageProps {
 
 const Message = withProps<MessageProps>()(H1.extend)`
   box-sizing: border-box;
-  line-height: 1.4;
+  line-height: 1.5;
   margin: 0;
 
   span {
@@ -79,6 +79,7 @@ const Message = withProps<MessageProps>()(H1.extend)`
 
   @media (min-width: 1025px) {
     width: auto;
+    line-height: 1.4;
   }
 `
 
