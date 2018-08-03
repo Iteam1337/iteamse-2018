@@ -3,7 +3,6 @@ import LazyLoad from 'react-lazyload'
 import styled, { withProps } from '../../theme'
 import { handleColors } from '../../utils/handleColors'
 import { GridColumnClean } from '../Grid/GridColumn'
-import PaddedRow from '../Grid/PaddedRow'
 import H1 from '../Typography/H1'
 import Navigation from './Navigation'
 
@@ -45,7 +44,7 @@ const Content = styled.div`
   }
 `
 
-const MessageRow = PaddedRow.extend`
+const MessageRow = styled.div`
   align-self: flex-end;
   grid-column: 2;
   grid-row: 2;
