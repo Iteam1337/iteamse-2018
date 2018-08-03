@@ -61,6 +61,8 @@ interface MessageProps {
 
 const Message = withProps<MessageProps>()(H1.extend)`
   box-sizing: border-box;
+  line-height: 1.4;
+  margin: 0;
 
   span {
     background-color: ${({ bgColor, theme }) =>
@@ -68,9 +70,12 @@ const Message = withProps<MessageProps>()(H1.extend)`
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
     color: ${({ bgColor, theme }) => bgColor && theme.contrast(bgColor)};
-    padding: 0 0.6rem;
+    padding: 0.2rem 0.6rem;
   }
 
+  &:not(:last-of-type) {
+    margin-bottom: 5px;
+  }
 
   @media (min-width: 1025px) {
     width: auto;
