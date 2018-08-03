@@ -16,7 +16,7 @@ exports[`components/Cases renders Cases 1`] = `
             class="sc-btzYZH iNlviF"
           >
             <img
-              class="sc-lhVmIH bZDuK"
+              class="sc-lhVmIH cZUBMJ"
               data-testid="logo"
               path="test-file-stub"
             />

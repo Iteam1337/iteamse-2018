@@ -16,7 +16,7 @@ exports[`components/Header renders Header 1`] = `
             class="sc-gzOgki fYazLb"
           >
             <img
-              class="sc-iyvyFf dnpZnl"
+              class="sc-iyvyFf irPqHj"
               data-testid="logo"
               path="test-file-stub"
             />

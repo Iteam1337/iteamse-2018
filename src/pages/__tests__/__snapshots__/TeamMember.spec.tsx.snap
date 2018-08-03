@@ -19,7 +19,7 @@ exports[`components/Team renders TeamMember 1`] = `
               class="sc-btzYZH iNlviF"
             >
               <img
-                class="sc-lhVmIH bZDuK"
+                class="sc-lhVmIH cZUBMJ"
                 data-testid="logo"
                 path="test-file-stub"
               />

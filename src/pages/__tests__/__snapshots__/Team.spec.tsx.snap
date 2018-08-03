@@ -16,7 +16,7 @@ exports[`components/Team renders Team 1`] = `
             class="sc-kTUwUJ ijPJJc"
           >
             <img
-              class="sc-dqBHgY ezKxht"
+              class="sc-dqBHgY kmuJpj"
               data-testid="logo"
               path="test-file-stub"
             />
@@ -225,7 +225,7 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
             class="sc-kTUwUJ ijPJJc"
           >
             <img
-              class="sc-dqBHgY ezKxht"
+              class="sc-dqBHgY kmuJpj"
               data-testid="logo"
               path="test-file-stub"
             />
@@ -389,7 +389,7 @@ exports[`components/Team should handle changing location using mouse 1`] = `
             class="sc-kTUwUJ ijPJJc"
           >
             <img
-              class="sc-dqBHgY ezKxht"
+              class="sc-dqBHgY kmuJpj"
               data-testid="logo"
               path="test-file-stub"
             />
@@ -553,7 +553,7 @@ exports[`components/Team should not change using keyboard if not enter or space 
             class="sc-kTUwUJ ijPJJc"
           >
             <img
-              class="sc-dqBHgY ezKxht"
+              class="sc-dqBHgY kmuJpj"
               data-testid="logo"
               path="test-file-stub"
             />

@@ -35,7 +35,15 @@ const LogoLink = styled(Link)`
 `
 
 const Logo = styled(SVG)`
-  max-width: 100%;
+  > * svg {
+    max-width: 75%;
+  }
+
+  @media (min-width: 1025px) {
+    > * svg {
+      max-width: 100%;
+    }
+  }
 `
 
 const NavigationItems = styled.div`
