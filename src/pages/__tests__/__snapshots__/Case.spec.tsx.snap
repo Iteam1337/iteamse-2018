@@ -131,11 +131,11 @@ exports[`components/Case renders Case 1`] = `
     class="sc-iwsKbI fwFOwW"
   >
     <div
-      class="sc-gzVnrw cLTlOm"
+      class="sc-gzVnrw yOgVr"
       data-test="breadcrumbs"
     >
       <a
-        class="sc-htoDjs dEAmle"
+        class="sc-htoDjs bBVEyr"
       >
         Våra case
       </a>
