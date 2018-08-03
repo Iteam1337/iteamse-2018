@@ -7,6 +7,14 @@ const StyledParagraph = styled.div`
   font-weight: 300;
   line-height: 27px;
 
+  a {
+    border-bottom: 2px solid #668CFF;
+    color: #668CFF;
+    line-height: 1.75;
+    padding-bottom: 2px;
+    text-decoration: none;
+  }
+
   p:first-of-type {
     margin-top: 0;
   }
