@@ -137,7 +137,7 @@ exports[`components/Case renders Case 1`] = `
       <a
         class="sc-htoDjs bBVEyr"
       >
-        Våra case
+        Case
       </a>
       <span>
         Arbetsförmedlingen
@@ -167,7 +167,7 @@ exports[`components/Case renders Case 1`] = `
             class="sc-bZQynM hmvJjY"
           >
             <div
-              class="sc-htpNat iEyarI"
+              class="sc-htpNat bkGJgg"
             >
               <div>
                 <p>
@@ -203,7 +203,7 @@ exports[`components/Case renders Case 1`] = `
             class="sc-bZQynM hmvJjY"
           >
             <div
-              class="sc-htpNat iEyarI"
+              class="sc-htpNat bkGJgg"
             >
               <div>
                 <p>
@@ -258,7 +258,7 @@ exports[`components/Case renders Case 1`] = `
             class="sc-bZQynM hmvJjY"
           >
             <div
-              class="sc-htpNat iEyarI"
+              class="sc-htpNat bkGJgg"
             >
               <div>
                 <p>
@@ -294,7 +294,7 @@ exports[`components/Case renders Case 1`] = `
             class="sc-bZQynM hmvJjY"
           >
             <div
-              class="sc-htpNat iEyarI"
+              class="sc-htpNat bkGJgg"
             >
               <div>
                 <p>
@@ -330,7 +330,7 @@ exports[`components/Case renders Case 1`] = `
             class="sc-bZQynM hmvJjY"
           >
             <div
-              class="sc-htpNat iEyarI"
+              class="sc-htpNat bkGJgg"
             >
               <div>
                 <p>
@@ -370,7 +370,7 @@ exports[`components/Case renders Case 1`] = `
             class="sc-bZQynM hmvJjY"
           >
             <div
-              class="sc-htpNat iEyarI"
+              class="sc-htpNat bkGJgg"
             >
               <div>
                 <ul>

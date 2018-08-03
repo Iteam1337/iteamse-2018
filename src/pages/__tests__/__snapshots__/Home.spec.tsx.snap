@@ -108,7 +108,7 @@ exports[`components/Home renders Home 1`] = `
             Kod
           </h1>
           <div
-            class="sc-htpNat iEyarI"
+            class="sc-htpNat bkGJgg"
           >
             <div>
               <p>
@@ -135,7 +135,7 @@ exports[`components/Home renders Home 1`] = `
             Strategi
           </h1>
           <div
-            class="sc-htpNat iEyarI"
+            class="sc-htpNat bkGJgg"
           >
             <div>
               <p>
@@ -162,7 +162,7 @@ exports[`components/Home renders Home 1`] = `
             Kultur
           </h1>
           <div
-            class="sc-htpNat iEyarI"
+            class="sc-htpNat bkGJgg"
           >
             <div>
               <p>
