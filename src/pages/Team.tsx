@@ -38,7 +38,7 @@ class TeamQuery extends Query<TeamPageQuery> {}
 
 export class TeamPage extends React.Component {
   componentDidMount() {
-    set('teamet')
+    set('medarbetare')
   }
 
   render() {

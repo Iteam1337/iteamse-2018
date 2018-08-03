@@ -37,7 +37,7 @@ const TeamPageMember: React.SFC<TeamPageMemberProps> = ({ member }) => {
     <Colleague key={member.name}>
       <PrefetchLink
         query={TEAM_MEMBER_PAGE_QUERY}
-        to={`/teamet/${member.short}`}
+        to={`/medarbetare/${member.short}`}
         variables={{
           shortName: member.short,
         }}

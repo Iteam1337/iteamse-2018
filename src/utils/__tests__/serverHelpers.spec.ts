@@ -14,7 +14,7 @@ describe('#redirectHelper', () => {
 
     it('should return the path for /team', () => {
       const redirectsTo = handlePaths('/team')
-      expect(redirectsTo).toEqual('/teamet')
+      expect(redirectsTo).toEqual('/medarbetare')
     })
 
     it('should return the path for /ai', () => {
@@ -71,7 +71,7 @@ describe('#redirectHelper', () => {
 
     it('should return the path for an individual team member', () => {
       const redirectsTo = handlePaths('/team/andre')
-      expect(redirectsTo).toEqual('/teamet/aeo')
+      expect(redirectsTo).toEqual('/medarbetare/aeo')
     })
 
     it('should return / if the path cannot be found', () => {
@@ -136,7 +136,7 @@ describe('#redirectHelper', () => {
 
     it('should not redirect if shouldRedirect returns false', () => {
       req = {
-        path: '/teamet',
+        path: '/medarbetare',
       }
 
       redirectHelper(req, res, next)
@@ -144,9 +144,9 @@ describe('#redirectHelper', () => {
       expect(next).toHaveBeenCalled()
     })
 
-    it('should not redirect from /teamet/aeo', () => {
+    it('should not redirect from /medarbetare/aeo', () => {
       req = {
-        path: '/teamet/aeo',
+        path: '/medarbetare/aeo',
       }
 
       redirectHelper(req, res, next)
@@ -154,21 +154,21 @@ describe('#redirectHelper', () => {
       expect(next).toHaveBeenCalled()
     })
 
-    it('should redirect from /team to /teamet', () => {
+    it('should redirect from /team to /medarbetare', () => {
       req = {
         path: '/team',
       }
       redirectHelper(req, res, next)
-      expect(res.redirect).toHaveBeenCalledWith(301, '/teamet')
+      expect(res.redirect).toHaveBeenCalledWith(301, '/medarbetare')
       expect(next).toHaveBeenCalled()
     })
 
-    it('should redirect from /team/andre to /teamet/aeo', () => {
+    it('should redirect from /team/andre to /medarbetare/aeo', () => {
       req = {
         path: '/team/andre',
       }
       redirectHelper(req, res, next)
-      expect(res.redirect).toHaveBeenCalledWith(301, '/teamet/aeo')
+      expect(res.redirect).toHaveBeenCalledWith(301, '/medarbetare/aeo')
       expect(next).toHaveBeenCalled()
     })
 

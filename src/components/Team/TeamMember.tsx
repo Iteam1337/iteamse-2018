@@ -34,7 +34,7 @@ const TeamMember: React.SFC<TeamMemberProps> = ({ member }) => {
       <Wrap>
         <PrefetchLink
           query={TEAM_MEMBER_PAGE_QUERY}
-          to={`/teamet/${member.short}`}
+          to={`/medarbetare/${member.short}`}
           variables={{
             shortName: member.short,
           }}

@@ -6,7 +6,7 @@ import { TeamQueryMock } from '../__fixtures__/teamMock'
 import TeamMember, { TEAM_MEMBER_PAGE_QUERY } from '../TeamMember'
 
 const location = {
-  pathname: '/teamet/rln',
+  pathname: '/medarbetare/rln',
 }
 
 const params = {

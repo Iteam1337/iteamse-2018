@@ -53,7 +53,7 @@ export const handlePaths = (path: string) => {
 
   switch (path) {
     case '/team':
-      return '/teamet'
+      return '/medarbetare'
     case '/cases':
       return '/case'
     case '/operations':
@@ -74,7 +74,7 @@ export const getTeamMemberPath = (path: string) => {
   const memberName = path.replace('/team/', '')
 
   const memberAbbreviated = teamMembers[memberName]
-  const newTeamMemberPath = `/teamet/${memberAbbreviated}`
+  const newTeamMemberPath = `/medarbetare/${memberAbbreviated}`
 
   return newTeamMemberPath
 }
