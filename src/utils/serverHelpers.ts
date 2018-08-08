@@ -26,6 +26,7 @@ export const checkForRedirect = (path: string) => {
     '/cases',
     '/operations',
     '/team',
+    '/teamet',
     '/ai',
     '/cases/tsab',
     '/cases/vimla',
@@ -33,6 +34,7 @@ export const checkForRedirect = (path: string) => {
   if (
     oldPaths.includes(path) ||
     /(^\/team\/)/g.test(path) ||
+    /(^\/teamet\/)/g.test(path) ||
     /(^\/career\/?)/g.test(path) ||
     /(^\/operations\/?)/g.test(path)
   ) {
@@ -46,6 +48,9 @@ export const handlePaths = (path: string) => {
   if (/(^\/team\/)/g.test(path)) {
     return getTeamMemberPath(path)
   }
+  if (/(^\/teamet\/)/g.test(path)) {
+    return path.replace('/teamet/', '/medarbetare/')
+  }
 
   if (/(^\/career\/?)/g.test(path)) {
     return getCareerPath(path)
@@ -53,6 +58,8 @@ export const handlePaths = (path: string) => {
 
   switch (path) {
     case '/team':
+      return '/medarbetare'
+    case '/teamet':
       return '/medarbetare'
     case '/cases':
       return '/case'
