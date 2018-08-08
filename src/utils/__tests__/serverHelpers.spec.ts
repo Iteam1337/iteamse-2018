@@ -17,6 +17,11 @@ describe('#redirectHelper', () => {
       expect(redirectsTo).toEqual('/medarbetare')
     })
 
+    it('should return the path for /team/', () => {
+      const redirectsTo = handlePaths('/team/')
+      expect(redirectsTo).toEqual('/medarbetare')
+    })
+
     it('should return the path for /teamet', () => {
       const redirectsTo = handlePaths('/teamet')
       expect(redirectsTo).toEqual('/medarbetare')
@@ -167,6 +172,15 @@ describe('#redirectHelper', () => {
     it('should redirect from /team to /medarbetare', () => {
       req = {
         path: '/team',
+      }
+      redirectHelper(req, res, next)
+      expect(res.redirect).toHaveBeenCalledWith(301, '/medarbetare')
+      expect(next).toHaveBeenCalled()
+    })
+
+    it('should redirect from /team/ to /medarbetare', () => {
+      req = {
+        path: '/team/',
       }
       redirectHelper(req, res, next)
       expect(res.redirect).toHaveBeenCalledWith(301, '/medarbetare')

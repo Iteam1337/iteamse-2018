@@ -80,6 +80,10 @@ export const handlePaths = (path: string) => {
 export const getTeamMemberPath = (path: string) => {
   const memberName = path.replace('/team/', '')
 
+  if (!memberName) {
+    return path.replace('/team/', '/medarbetare')
+  }
+
   const memberAbbreviated = teamMembers[memberName]
   const newTeamMemberPath = `/medarbetare/${memberAbbreviated}`
 
