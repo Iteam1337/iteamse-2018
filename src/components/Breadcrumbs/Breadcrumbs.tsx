@@ -13,15 +13,15 @@ const Wrap = PaddedRow.extend`
     content: '/';
     margin-left: 5px;
     margin-right: 5px;
-    text-decoration: none;
     display: inline-block;
   }
 `
 
-const StyledLink = styled(Link)`
+const StyledSpan = styled.span`
   color: #000;
   font-weight: 500;
-  text-decoration: underline;
+  border-bottom: 2px solid black;
+  display: inline-block;
 `
 
 const Breadcrumbs: React.SFC<BreadcrumbsProps & RouteComponentProps<{}>> = ({
@@ -38,21 +38,23 @@ const Breadcrumbs: React.SFC<BreadcrumbsProps & RouteComponentProps<{}>> = ({
         switch (pathLocation) {
           case 'case':
             return (
-              <StyledLink key={`link-${i}`} to="/case">
-                Case
-              </StyledLink>
+              <Link key={`link-${i}`} to="/case">
+                <StyledSpan>
+                  Case
+                </StyledSpan>
+              </Link>
             )
           case 'jobba-hos-oss':
             return (
-              <StyledLink key={`link-${i}`} to="/jobba-hos-oss">
-                Jobba hos oss
-              </StyledLink>
+              <Link key={`link-${i}`} to="/jobba-hos-oss">
+                <StyledSpan>Jobba hos oss</StyledSpan>
+              </Link>
             )
           case 'medarbetare':
             return (
-              <StyledLink key={`link-${i}`} to="/medarbetare">
-                Medarbetare
-              </StyledLink>
+              <Link key={`link-${i}`} to="/medarbetare">
+                <StyledSpan>Medarbetare</StyledSpan>
+              </Link>
             )
           default:
             return null
