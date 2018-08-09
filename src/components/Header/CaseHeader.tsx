@@ -19,9 +19,7 @@ const Wrap = withProps<WrapProps>()(GridColumnClean.extend)`
   background-image: ${({ image }) => `url(${image})`};
   background-position: center;
   background-size: cover;
-  display: block;
   height: 480px;
-  padding: 30px;
 
   @media (min-width: 1025px) {
     display: grid;
@@ -32,11 +30,21 @@ const Wrap = withProps<WrapProps>()(GridColumnClean.extend)`
 
 const Content = styled.div`
   display: grid;
+  grid-template-columns: 30px 1fr 30px;
+  grid-template-rows: auto 1fr 1fr;
+  grid-column: -1 / 1;
+
+  @media (min-width: 1025px) {
+    grid-template-columns: 1fr 1024px 1fr;
+    grid-template-rows: auto 1fr;
+  }
 `
 
 const Information = styled.div`
   display: grid;
   grid-template-columns: 1fr;
+  grid-column: 2;
+  grid-row: 2;
 
   @media (min-width: 1025px) {
     grid-column-gap: 60px;
@@ -58,7 +66,7 @@ const ProjectImage = styled.img`
   vertical-align: top;
 
   @media (min-width: 1025px) {
-    margin-bottom: -80px;
+    margin-bottom: -125px;
   }
 `
 
@@ -122,8 +130,8 @@ const CaseHeader: React.SFC<CaseHeaderProps> = ({
   return (
     <>
       <Wrap data-test="header-case" image={caseBackgroundImage}>
-        <Navigation />
         <Content>
+          <Navigation />
           <Information>
             <Meta>
               <Logo alt="Logo" src={logo} />
