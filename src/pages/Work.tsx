@@ -88,7 +88,7 @@ export class Work extends React.Component {
                                   id: annons.id,
                                 }}
                               >
-                                Läs mer
+                                Läs mer och ansök
                               </StyledPrefetchLink>
                             }
                             subtitle={annons.location}
