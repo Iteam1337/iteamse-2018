@@ -79,7 +79,7 @@ const Tag = styled.div`
   background-color: rgba(255, 255, 255, 0.15);
   color: #fff;
   display: inline-block;
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 5px;
   padding: 5px 10px;
   text-align: center;
