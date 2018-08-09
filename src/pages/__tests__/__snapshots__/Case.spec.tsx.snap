@@ -3,70 +3,70 @@
 exports[`components/Case renders Case 1`] = `
 <div>
   <div
-    class="sc-kkGfuU bcPlpw"
+    class="sc-kkGfuU cWossG"
     data-test="header-case"
   >
     <div
-      class="sc-jwKygS hDGBmk"
+      class="sc-iAyFgw eElhJs"
     >
-      <a
-        class="sc-btzYZH iNlviF"
-      >
-        <img
-          class="sc-lhVmIH cZUBMJ"
-          data-testid="logo"
-          path="test-file-stub"
-        />
-      </a>
       <div
-        class="sc-bYSBpT ffXmNN"
+        class="sc-jwKygS hDGBmk"
       >
         <a
-          class="sc-jtRfpW jkixbM active-nav"
-          aria-current="true"
+          class="sc-btzYZH iNlviF"
         >
-          Case
-        </a>
-        <a
-          class="sc-jtRfpW jkixbM"
-          aria-current="false"
-        >
-          AI
-        </a>
-        <a
-          class="sc-jtRfpW jkixbM"
-          aria-current="false"
-        >
-          Metod
-        </a>
-        <a
-          class="sc-jtRfpW jkixbM"
-          aria-current="false"
-        >
-          Medarbetare
-        </a>
-        <a
-          class="sc-jtRfpW jkixbM"
-          aria-current="false"
-        >
-          Karriär
-        </a>
-        <a
-          class="sc-jtRfpW jkixbM"
-          aria-current="false"
-        >
-          Om
+          <img
+            class="sc-lhVmIH cZUBMJ"
+            data-testid="logo"
+            path="test-file-stub"
+          />
         </a>
         <div
-          class="sc-elJkPf ruddK"
-        />
+          class="sc-bYSBpT ffXmNN"
+        >
+          <a
+            class="sc-jtRfpW jkixbM active-nav"
+            aria-current="true"
+          >
+            Case
+          </a>
+          <a
+            class="sc-jtRfpW jkixbM"
+            aria-current="false"
+          >
+            AI
+          </a>
+          <a
+            class="sc-jtRfpW jkixbM"
+            aria-current="false"
+          >
+            Metod
+          </a>
+          <a
+            class="sc-jtRfpW jkixbM"
+            aria-current="false"
+          >
+            Medarbetare
+          </a>
+          <a
+            class="sc-jtRfpW jkixbM"
+            aria-current="false"
+          >
+            Karriär
+          </a>
+          <a
+            class="sc-jtRfpW jkixbM"
+            aria-current="false"
+          >
+            Om
+          </a>
+          <div
+            class="sc-elJkPf ruddK"
+          />
+        </div>
       </div>
-    </div>
-    <div
-      class="sc-iAyFgw oOeZt"
-    >
       <div
-        class="sc-hSdWYo ijrbI"
+        class="sc-hSdWYo jrLggA"
       >
         <div
           class="sc-eHgmQL ksUOUN"
@@ -80,27 +80,27 @@ exports[`components/Case renders Case 1`] = `
             class="sc-brqgnP SqPLV"
           >
             <div
-              class="sc-cMljjf iNbsxz"
+              class="sc-cMljjf dOfBkb"
             >
               API
             </div>
             <div
-              class="sc-cMljjf iNbsxz"
+              class="sc-cMljjf dOfBkb"
             >
               Docker
             </div>
             <div
-              class="sc-cMljjf iNbsxz"
+              class="sc-cMljjf dOfBkb"
             >
               UX
             </div>
             <div
-              class="sc-cMljjf iNbsxz"
+              class="sc-cMljjf dOfBkb"
             >
               React
             </div>
             <div
-              class="sc-cMljjf iNbsxz"
+              class="sc-cMljjf dOfBkb"
             >
               Vue
             </div>
@@ -110,7 +110,7 @@ exports[`components/Case renders Case 1`] = `
           class="sc-jAaTju gPDFYk"
         >
           <img
-            class="sc-cvbbAY eQPweF"
+            class="sc-cvbbAY imXRdJ"
             alt=""
             src="//images.ctfassets.net/rj4r6yfcesw5/4cWj2fKl3GOQgSKss0IW0q/0b2322470ffb780b925c8e446e745540/af-cropped-by-aeo.png"
           />
@@ -122,7 +122,7 @@ exports[`components/Case renders Case 1`] = `
     class="sc-jDwBTQ edDvhX"
   >
     <img
-      class="sc-cvbbAY eQPweF"
+      class="sc-cvbbAY imXRdJ"
       alt=""
       src="//images.ctfassets.net/rj4r6yfcesw5/4cWj2fKl3GOQgSKss0IW0q/0b2322470ffb780b925c8e446e745540/af-cropped-by-aeo.png"
     />
@@ -131,13 +131,15 @@ exports[`components/Case renders Case 1`] = `
     class="sc-iwsKbI fwFOwW"
   >
     <div
-      class="sc-gzVnrw yOgVr"
+      class="sc-gzVnrw jfvayO"
       data-test="breadcrumbs"
     >
-      <a
-        class="sc-htoDjs bBVEyr"
-      >
-        Case
+      <a>
+        <span
+          class="sc-htoDjs hjXPuh"
+        >
+          Case
+        </span>
       </a>
       <span>
         Arbetsförmedlingen

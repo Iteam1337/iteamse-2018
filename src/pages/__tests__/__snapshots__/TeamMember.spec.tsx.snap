@@ -87,13 +87,15 @@ exports[`components/Team renders TeamMember 1`] = `
       class="sc-iwsKbI fwFOwW"
     >
       <div
-        class="sc-gzVnrw yOgVr"
+        class="sc-gzVnrw jfvayO"
         data-test="breadcrumbs"
       >
-        <a
-          class="sc-htoDjs bBVEyr"
-        >
-          Medarbetare
+        <a>
+          <span
+            class="sc-htoDjs hjXPuh"
+          >
+            Medarbetare
+          </span>
         </a>
         <span>
           Rickard Laurin

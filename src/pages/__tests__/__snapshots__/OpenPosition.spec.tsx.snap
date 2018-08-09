@@ -84,13 +84,15 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
     class="sc-iwsKbI fwFOwW"
   >
     <div
-      class="sc-gzVnrw yOgVr"
+      class="sc-gzVnrw jfvayO"
       data-test="breadcrumbs"
     >
-      <a
-        class="sc-htoDjs bBVEyr"
-      >
-        Jobba hos oss
+      <a>
+        <span
+          class="sc-htoDjs hjXPuh"
+        >
+          Jobba hos oss
+        </span>
       </a>
       <span>
         Din roll

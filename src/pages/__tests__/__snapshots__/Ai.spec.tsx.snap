@@ -162,7 +162,7 @@ exports[`components/Ai renders Ai 1`] = `
               >
                 <div
                   class="rt-thead -header"
-                  style="min-width: 400px;"
+                  style="box-shadow: none; min-width: 400px;"
                 >
                   <div
                     class="rt-tr"
