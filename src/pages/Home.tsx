@@ -105,8 +105,8 @@ const StylizedIteam = styled.img`
 
 const CompanyLogo = styled.img`
   display: block;
-  margin-bottom: 20px;
   max-width: 260px;
+  margin-top: 20px;
 
   @media (min-width: 1025px) {
     max-width: 60%;
@@ -171,12 +171,12 @@ export class Home extends React.Component {
                         )}
                         <H1>{pageStart.codeTitle}</H1>
                         <Paragraph>{pageStart.codeText}</Paragraph>
-                        {pageStart.codeLogo && (
-                          <CompanyLogo src={pageStart.codeLogo} />
-                        )}
                         <NarrowLink to={`/case/${pageStart.codeSlug}`}>
                           {pageStart.codeLinkText}
                         </NarrowLink>
+                        {pageStart.codeLogo && (
+                          <CompanyLogo src={pageStart.codeLogo} />
+                        )}
                       </TextBlock>
 
                       <TextBlock>
@@ -191,12 +191,12 @@ export class Home extends React.Component {
                         )}
                         <H1>{pageStart.strategyTitle}</H1>
                         <Paragraph>{pageStart.strategyText}</Paragraph>{' '}
-                        {pageStart.strategyLogo && (
-                          <CompanyLogo src={pageStart.strategyLogo} />
-                        )}
                         <NarrowLink to={`/case/${pageStart.strategySlug}`}>
                           {pageStart.strategyLinkText}
                         </NarrowLink>
+                        {pageStart.strategyLogo && (
+                          <CompanyLogo src={pageStart.strategyLogo} />
+                        )}
                       </TextBlock>
 
                       <TextBlock>
@@ -209,12 +209,12 @@ export class Home extends React.Component {
                         )}
                         <H1>{pageStart.cultureTitle}</H1>
                         <Paragraph>{pageStart.cultureText}</Paragraph>{' '}
-                        {pageStart.cultureLogo && (
-                          <CompanyLogo src={pageStart.cultureLogo} />
-                        )}
                         <NarrowLink to={`/case/${pageStart.cultureSlug}`}>
                           {pageStart.cultureLinkText}
                         </NarrowLink>
+                        {pageStart.cultureLogo && (
+                          <CompanyLogo src={pageStart.cultureLogo} />
+                        )}
                       </TextBlock>
                     </Texts>
                   </Content>
