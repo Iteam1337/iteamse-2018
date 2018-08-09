@@ -137,6 +137,14 @@ const AiTable: React.SFC<AiTableProps> = ({
           <Text>
             <Paragraph>{body}</Paragraph>
             <ReactTable
+              getTheadProps={() => {
+                return {
+                  style: {
+                    borderBottom: '1px solid rgba(0,0,0,.1)',
+                    boxShadow: 'none'
+                  }
+                }
+              }}
               columns={columns}
               data={data}
               defaultPageSize={10}
