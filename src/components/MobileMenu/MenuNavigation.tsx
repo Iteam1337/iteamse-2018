@@ -7,7 +7,7 @@ interface MenuNavigationProps {
 }
 
 const StyledLink = styled(NavLink)`
-  color: ${({ theme }) => theme.colors.cornflowerBlue};
+  color: #000;
   font-size: 24px;
   font-weight: 300;
   text-decoration: none;
