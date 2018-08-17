@@ -73,7 +73,7 @@ export const handlePaths = (path: string) => {
     case '/cases/vimla':
       return '/case/vimla'
     default:
-      return '/' // TODO: Add a 404 for pages not found
+      return '/404'
   }
 }
 

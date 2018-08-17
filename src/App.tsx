@@ -11,6 +11,7 @@ import Case from './pages/Case'
 import Cases from './pages/Cases'
 import Home from './pages/Home'
 import HowWeWork from './pages/HowWeWork'
+import NotFound from './pages/NotFound'
 import OpenPosition from './pages/OpenPosition'
 import Ops from './pages/Ops'
 import Team from './pages/Team'
@@ -27,23 +28,35 @@ injectGlobal`
   }
 `
 
+const withRoot = (Component: any) => class WithRoot extends React.Component {
+  render() {
+    return (
+      <>
+        <Component />
+        <Footer />
+        <MobileMenu />
+      </>
+    )
+  }
+}
+
 const App = () => (
   <React.Fragment>
     <Switch>
-      <Route exact path="/" component={Home} />
-      <Route path="/om-oss" component={About} />
-      <Route path="/hur-vi-jobbar" component={HowWeWork} />
-      <Route exact path="/medarbetare" component={Team} />
-      <Route path="/medarbetare/:shortName" component={TeamMember} />
-      <Route exact path="/case" component={Cases} />
-      <Route path="/case/:slug" component={Case} />
-      <Route exact path="/jobba-hos-oss" component={Work} />
-      <Route path="/jobba-hos-oss/:id" component={OpenPosition} />
-      <Route path="/ops" component={Ops} />
-      <Route path="/erbjudanden/ai" component={Ai} />
+      <Route exact path="/" component={withRoot(Home)} />
+      <Route path="/om-oss" component={withRoot(About)} />
+      <Route path="/hur-vi-jobbar" component={withRoot(HowWeWork)} />
+      <Route exact path="/medarbetare" component={withRoot(Team)} />
+      <Route path="/medarbetare/:shortName" component={withRoot(TeamMember)} />
+      <Route exact path="/case" component={withRoot(Cases)} />
+      <Route path="/case/:slug" component={withRoot(Case)} />
+      <Route exact path="/jobba-hos-oss" component={withRoot(Work)} />
+      <Route path="/jobba-hos-oss/:id" component={withRoot(OpenPosition)} />
+      <Route path="/ops" component={withRoot(Ops)} />
+      <Route path="/erbjudanden/ai" component={withRoot(Ai)} />
+      <Route path="/404" component={NotFound} />
+      <Route path="*" component={NotFound} />
     </Switch>
-    <MobileMenu />
-    <Footer />
   </React.Fragment>
 )
 
