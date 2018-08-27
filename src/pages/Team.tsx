@@ -10,7 +10,6 @@ import Team from '../components/Team/Team'
 import TeamMembers from '../components/Team/TeamMembers'
 import TeamPageMember from '../components/Team/TeamPageMember'
 import { filterByLocation } from '../utils/filterByLocation'
-import { set } from '../utils/googleAnalytics'
 
 export const TEAM_PAGE_QUERY = gql`
   query TeamPage {
@@ -37,10 +36,6 @@ export const TEAM_PAGE_QUERY = gql`
 class TeamQuery extends Query<TeamPageQuery> {}
 
 export class TeamPage extends React.Component {
-  componentDidMount() {
-    set('medarbetare')
-  }
-
   render() {
     return (
       <TeamQuery query={TEAM_PAGE_QUERY}>

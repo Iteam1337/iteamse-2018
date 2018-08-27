@@ -10,7 +10,6 @@ import OpenPositionsBlock from '../components/Blocks/OpenPositionsBlock'
 import GridColumn from '../components/Grid/GridColumn'
 import Header from '../components/Header/Header'
 import Team from '../components/Team/Team'
-import { set } from '../utils/googleAnalytics'
 import howWeWorkImage2 from './img/illustrations-group-2.svg'
 import howWeWorkImage from './img/illustrations-group-3.svg'
 
@@ -47,10 +46,6 @@ export const HOW_WE_WORK_PAGE_QUERY = gql`
 class HowWeWorkQuery extends Query<HowWeWorkPageQuery> {}
 
 export class HowWeWork extends React.Component {
-  componentDidMount() {
-    set('hur-vi-jobbar')
-  }
-
   render() {
     return (
       <HowWeWorkQuery query={HOW_WE_WORK_PAGE_QUERY}>

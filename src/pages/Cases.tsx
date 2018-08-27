@@ -9,7 +9,6 @@ import PaddedRow from '../components/Grid/PaddedRow'
 import Header from '../components/Header/Header'
 import PrefetchLink from '../components/Link/PrefetchLink'
 import Team from '../components/Team/Team'
-import { set } from '../utils/googleAnalytics'
 import { CASE_PAGE_QUERY } from './Case'
 
 export const CASES_PAGE_QUERY = gql`
@@ -95,10 +94,6 @@ const ShortDescription = styled.div`
 class CasesQuery extends Query<CasesPageQuery> {}
 
 export class CasePage extends React.Component {
-  componentDidMount() {
-    set('case')
-  }
-
   render() {
     return (
       <CasesQuery query={CASES_PAGE_QUERY}>

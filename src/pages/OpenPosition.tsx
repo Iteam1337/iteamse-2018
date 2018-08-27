@@ -10,7 +10,6 @@ import Breadcrumbs from '../components/Breadcrumbs/Breadcrumbs'
 import GridColumn from '../components/Grid/GridColumn'
 import Header from '../components/Header/Header'
 import Team from '../components/Team/Team'
-import { set } from '../utils/googleAnalytics'
 
 export const OPEN_POSITION_PAGE_QUERY = gql`
   query OpenPositionPage($id: String!) {
@@ -47,10 +46,6 @@ class OpenPositionQuery extends Query<OpenPositionPageQuery> {}
 export class OpenPosition extends React.Component<
   RouteComponentProps<{ id: string; match: string }>
 > {
-  componentDidMount() {
-    set(this.props.location.pathname)
-  }
-
   render() {
     const { match } = this.props
     return (

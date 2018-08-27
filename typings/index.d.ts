@@ -22,9 +22,3 @@ type ConfigObject = {
   page_path?: string
   page_title?: string
 }
-
-declare function gtag(
-  config: string,
-  id: string,
-  configObject: ConfigObject
-): void

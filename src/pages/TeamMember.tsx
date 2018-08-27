@@ -13,7 +13,6 @@ import PhoneNumber from '../components/Link/PhoneNumber'
 import UnstyledList from '../components/List/UnstyledList'
 import Team from '../components/Team/Team'
 import styled from '../theme'
-import { set } from '../utils/googleAnalytics'
 
 export const TEAM_MEMBER_PAGE_QUERY = gql`
   query TeamMemberPage($shortName: String!) {
@@ -48,10 +47,6 @@ class TeamMemberQuery extends Query<TeamMemberPageQuery> {}
 export class TeamMemberPage extends React.Component<
   RouteComponentProps<{ match: string; shortName: string }>
 > {
-  componentDidMount() {
-    set(this.props.location.pathname)
-  }
-
   render() {
     const { match } = this.props
     return (

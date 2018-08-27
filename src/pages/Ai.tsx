@@ -8,7 +8,6 @@ import Block from '../components/Blocks/Block'
 import GridColumn from '../components/Grid/GridColumn'
 import Header from '../components/Header/Header'
 import Team from '../components/Team/Team'
-import { set } from '../utils/googleAnalytics'
 
 export const AI_PAGE_QUERY = gql`
   query AiPage {
@@ -31,10 +30,6 @@ export const AI_PAGE_QUERY = gql`
 class AiQuery extends Query<AiPageQuery> {}
 
 export class Ai extends React.Component {
-  componentDidMount() {
-    set('ai')
-  }
-
   render() {
     return (
       <AiQuery query={AI_PAGE_QUERY}>

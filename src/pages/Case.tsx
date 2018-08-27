@@ -11,7 +11,6 @@ import Breadcrumbs from '../components/Breadcrumbs/Breadcrumbs'
 import GridColumn from '../components/Grid/GridColumn'
 import CaseHeader from '../components/Header/CaseHeader'
 import Team from '../components/Team/Team'
-import { set } from '../utils/googleAnalytics'
 
 export const CASE_PAGE_QUERY = gql`
   query CasePage($slug: String!) {
@@ -49,10 +48,6 @@ class CaseQuery extends Query<CasePageQuery, CasePageQueryVariables> {}
 export class CasePage extends React.Component<
   RouteComponentProps<{ match: string; slug: string }>
 > {
-  componentDidMount() {
-    set(this.props.location.pathname)
-  }
-
   render() {
     const { match } = this.props
     return (
