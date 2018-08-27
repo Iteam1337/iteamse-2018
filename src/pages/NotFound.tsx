@@ -6,7 +6,6 @@ import Link from '../components/Link/Link'
 import H1 from '../components/Typography/H1'
 import Paragraph from '../components/Typography/Paragraph'
 import styled from '../theme'
-import { set } from '../utils/googleAnalytics'
 import brokenComputer from './img/illustrations-mac.png'
 
 const Wrap = GridColumnClean.extend`
@@ -63,10 +62,6 @@ const NarrowLink = Link.extend`
 `
 
 export class NotFound extends React.Component {
-  componentDidMount() {
-    set('NotFound')
-  }
-
   render() {
     const message =  `Det blir inte alltid som man tänkt sig.
     Tyvärr finns inte sidan du försökte nå, antingen är länken fel eller så har sidan flyttats.

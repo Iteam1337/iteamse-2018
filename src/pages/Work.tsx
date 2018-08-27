@@ -10,7 +10,6 @@ import Header from '../components/Header/Header'
 import StyledPrefetchLink from '../components/Link/StyledPrefetchLink'
 import Team from '../components/Team/Team'
 import { filterByLocation } from '../utils/filterByLocation'
-import { set } from '../utils/googleAnalytics'
 import { OPEN_POSITION_PAGE_QUERY } from './OpenPosition'
 
 export const WORK_PAGE_QUERY = gql`
@@ -37,9 +36,6 @@ export const WORK_PAGE_QUERY = gql`
 class WorkQuery extends Query<WorkPageQuery> {}
 
 export class Work extends React.Component {
-  componentDidMount() {
-    set('jobba-hos-oss')
-  }
   render() {
     return (
       <WorkQuery query={WORK_PAGE_QUERY}>

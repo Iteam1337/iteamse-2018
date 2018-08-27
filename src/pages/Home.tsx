@@ -13,7 +13,6 @@ import Team from '../components/Team/Team'
 import H1 from '../components/Typography/H1'
 import Paragraph from '../components/Typography/Paragraph'
 import styled from '../theme'
-import { set } from '../utils/googleAnalytics'
 import iteamStylized from './img/iteam_stylized.png'
 
 export const HOME_PAGE_QUERY = gql`
@@ -127,10 +126,6 @@ const MobileImage = styled.img`
 class HomeQuery extends Query<HomePageQuery> {}
 
 export class Home extends React.Component {
-  componentDidMount() {
-    set('start')
-  }
-
   render() {
     return (
       <>

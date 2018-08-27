@@ -16,15 +16,3 @@ declare module 'react-mock-router'
 declare module 'react-reveal'
 declare module 'react-reveal/Fade'
 declare module 'react-safe'
-
-type ConfigObject = {
-  page_location?: string
-  page_path?: string
-  page_title?: string
-}
-
-declare function gtag(
-  config: string,
-  id: string,
-  configObject: ConfigObject
-): void

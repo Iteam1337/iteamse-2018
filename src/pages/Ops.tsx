@@ -7,7 +7,6 @@ import Block from '../components/Blocks/Block'
 import GridColumn from '../components/Grid/GridColumn'
 import Header from '../components/Header/Header'
 import Team from '../components/Team/Team'
-import { set } from '../utils/googleAnalytics'
 
 export const OPERATIONS_PAGE_QUERY = gql`
   query OperationsPage {
@@ -26,10 +25,6 @@ export const OPERATIONS_PAGE_QUERY = gql`
 class OperationsQuery extends Query<OperationsPageQuery> {}
 
 export class Operations extends React.Component {
-  componentDidMount() {
-    set('ops')
-  }
-
   render() {
     return (
       <OperationsQuery query={OPERATIONS_PAGE_QUERY}>

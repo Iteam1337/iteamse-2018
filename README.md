@@ -18,6 +18,7 @@ Add a `.env.local` file in the root of this project and set the following values
 ```
 RAZZLE_CMS_URL=http://localhost:4000
 RAZZLE_CMS_NODE_URL=http://localhost:4000
+RAZZLE_HOST=http://localhost:4000
 ```
 
 ## Code standards

@@ -10,7 +10,6 @@ import GridColumn from '../components/Grid/GridColumn'
 import Header from '../components/Header/Header'
 import Team from '../components/Team/Team'
 import styled from '../theme'
-import { set } from '../utils/googleAnalytics'
 import aboutUsImage from './img/illustrations-group-1.svg'
 
 export const ABOUT_PAGE_QUERY = gql`
@@ -53,10 +52,6 @@ const StabilityIcon = styled.img`
 class AboutQuery extends Query<AboutPageQuery> {}
 
 export class About extends React.Component {
-  componentDidMount() {
-    set('om-oss')
-  }
-
   render() {
     return (
       <AboutQuery query={ABOUT_PAGE_QUERY}>
