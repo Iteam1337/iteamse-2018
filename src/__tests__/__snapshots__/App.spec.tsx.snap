@@ -3,221 +3,60 @@
 exports[`App renders App 1`] = `
 <div>
   <div
-    class="sc-bMVAic iROCHX"
-  >
-    <button
-      class="sc-esOvli dwmayt"
-      aria-label="Menu button"
-      data-testid="btn-mobile-menu"
-      role="button"
-    >
-      <div
-        class="sc-hMFtBS RIibW"
-      >
-        <div
-          class="sc-cmthru iAoLTw"
-        />
-        <div
-          class="sc-cmthru iAoLTw"
-        />
-        <div
-          class="sc-cmthru iAoLTw"
-        />
-      </div>
-    </button>
-  </div>
-  <div
-    class="sc-gwVKww fjidrZ"
+    class="sc-gojNiO bUPETK"
   >
     <div
-      class="sc-hXRMBi cbhhQw"
+      class="sc-iujRgT ezliNn"
     >
       <div
-        class="sc-RefOD ewapal"
+        class="sc-cQFLBn hXrTJf"
       >
         <div
-          class="sc-iQKALj hwPXsp"
+          class="sc-GMQeP jSLFuw"
         >
-          Iteam Göteborg
-        </div>
-        <div
-          class="sc-bwCtUz fosYzo"
-        >
-          <ul
-            class="sc-kAzzGY bxsBVD"
-          >
-            <li>
-              Haga Kyrkogata 28
-            </li>
-            <li>
-              411 23
-              Göteborg
-            </li>
-          </ul>
-        </div>
-        <ul
-          class="sc-kAzzGY bxsBVD"
-        >
-          <li>
-            +46 734 029 112
-          </li>
-          <li
-            class="sc-eTuwsz dabpPG"
-          >
-            <a
-              class="sc-hrWEMg cfiMOd"
-            >
-              johanna.grahn@iteam.se
-            </a>
-          </li>
-          <li>
-            ORG: 
-            556551-6928
-          </li>
-        </ul>
-      </div>
-      <div
-        class="sc-RefOD ewapal"
-      >
-        <div
-          class="sc-iQKALj hwPXsp"
-        >
-          Iteam Stockholm
-        </div>
-        <div
-          class="sc-bwCtUz fosYzo"
-        >
-          <ul
-            class="sc-kAzzGY bxsBVD"
-          >
-            <li>
-              Östermalmsgatan 26A
-            </li>
-            <li>
-              114 26
-              Stockholm
-            </li>
-          </ul>
-        </div>
-        <ul
-          class="sc-kAzzGY bxsBVD"
-        >
-          <li>
-            +46 826 70 90
-          </li>
-          <li
-            class="sc-eTuwsz dabpPG"
-          >
-            <a
-              class="sc-hrWEMg cfiMOd"
-            >
-              info@iteam.se
-            </a>
-          </li>
-          <li>
-            ORG: 
-            556551-6928
-          </li>
-        </ul>
-      </div>
-      <div
-        class="sc-iQNlJl jxLqkS"
-      >
-        <div
-          class="sc-epnACN cMUoOM"
-        >
-          Följ oss
-        </div>
-        <ul
-          class="sc-kAzzGY bxsBVD"
-        >
-          <li
-            class="sc-bsbRJL cdwLmz"
+          <a
+            class="sc-bAeIUo fjObAb"
           >
             <img
-              class="sc-hZSUBg krVko"
+              class="sc-exAgwC irWrog"
+              alt="Logo"
               src="test-file-stub"
-              alt=""
             />
-            <a
-              class="sc-cMhqgX jhstDv"
-              href="https://www.facebook.com/iteam1337/"
-            >
-              Facebook
-            </a>
-          </li>
-          <li
-            class="sc-bsbRJL cdwLmz"
-          >
-            <img
-              class="sc-hZSUBg krVko"
-              src="test-file-stub"
-              alt=""
-            />
-            <a
-              class="sc-cMhqgX jhstDv"
-              href="https://instagram.com/iteam1337"
-            >
-              Instagram
-            </a>
-          </li>
-          <li
-            class="sc-bsbRJL cdwLmz"
-          >
-            <img
-              class="sc-hZSUBg krVko"
-              src="test-file-stub"
-              alt=""
-            />
-            <a
-              class="sc-cMhqgX jhstDv"
-              href="https://www.linkedin.com/company/270569/"
-            >
-              LinkedIn
-            </a>
-          </li>
-          <li
-            class="sc-bsbRJL cdwLmz"
-          >
-            <img
-              class="sc-hZSUBg krVko"
-              src="test-file-stub"
-              alt=""
-            />
-            <a
-              class="sc-cMhqgX jhstDv"
-              href="https://www.youtube.com/channel/UCU2TdLZ7p0jEuuGUxaod4lw"
-            >
-              YouTube
-            </a>
-          </li>
-          <li
-            class="sc-bsbRJL cdwLmz"
-          >
-            <img
-              class="sc-hZSUBg krVko"
-              src="test-file-stub"
-              alt=""
-            />
-            <a
-              class="sc-cMhqgX jhstDv"
-              href="http://www.mynewsdesk.com/se/iteam"
-            >
-              MyNewsDesk
-            </a>
-          </li>
-        </ul>
+          </a>
+        </div>
       </div>
     </div>
     <div
-      class="sc-iuJeZd guOzZL"
+      class="sc-daURTG jTTXcB"
     >
-      <a
-        class="sc-dNLxif eqOyEz"
-        black="1"
+      <img
+        class="sc-bXGyLb gxvEEt"
+        alt="broken"
+        src="test-file-stub"
+      />
+      <div
+        class="sc-eLExRp kAnlqK"
       >
-        Behöver du supporthjälp?
-      </a>
+        <h1
+          class="sc-lkqHmb csWpgQ"
+        >
+          Oj, någonting gick snett!
+        </h1>
+        <div
+          class="sc-htpNat bkGJgg"
+        >
+          <div>
+            <p>
+              Det blir inte alltid som man tänkt sig. Tyvärr finns inte sidan du försökte nå, antingen är länken fel eller så har sidan flyttats. Men du behöver inte oroa dig, vi ska göra allt vi kan för att detta inte ska hända igen.
+            </p>
+          </div>
+        </div>
+        <a
+          class="sc-cbkKFq kKWnWW"
+        >
+          Ta mig tillbaka till startsidan
+        </a>
+      </div>
     </div>
   </div>
 </div>
