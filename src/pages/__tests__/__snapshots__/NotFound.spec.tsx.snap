@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/NotFound renders NotFound 1`] = `
+<div>
+  <div
+    class="sc-iwsKbI djvUoQ"
+  >
+    <div
+      class="sc-bxivhb fsBQqP"
+    >
+      <div
+        class="sc-bZQynM znEUq"
+      >
+        <div
+          class="sc-ifAKCX cKzunR"
+        >
+          <a
+            class="sc-htpNat frOpea"
+          >
+            <img
+              class="sc-EHOje jaKvOm"
+              alt="Logo"
+              src="test-file-stub"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-gZMcBi ilQTGq"
+    >
+      <img
+        class="sc-gqjmRU hwXSZV"
+        alt="broken"
+        src="test-file-stub"
+      />
+      <div
+        class="sc-jTzLTM eWcbFE"
+      >
+        <h1
+          class="sc-VigVT btjUSt"
+        >
+          Oj, någonting gick snett!
+        </h1>
+        <div
+          class="sc-dnqmqq oKUkC"
+        >
+          <div>
+            <p>
+              Det blir inte alltid som man tänkt sig. Tyvärr finns inte sidan du försökte nå, antingen är länken fel eller så har sidan flyttats. Men du behöver inte oroa dig, vi ska göra allt vi kan för att detta inte ska hända igen.
+            </p>
+          </div>
+        </div>
+        <a
+          class="sc-fjdhpX iJPrzS"
+        >
+          Ta mig tillbaka till startsidan
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
