@@ -74,10 +74,12 @@ const Logo = styled.img`
   margin-bottom: 20px;
   max-width: 100%;
   vertical-align: top;
+  max-height: 100px;
 
   @media (min-width: 1025px) {
     margin-bottom: 40px;
     max-width: none;
+    max-height: none;
   }
 `
 
