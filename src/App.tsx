@@ -55,7 +55,7 @@ const App = () => (
       <Route path="/ops" component={withRoot(Ops)} />
       <Route path="/erbjudanden/ai" component={withRoot(Ai)} />
       <Route path="/404" component={NotFound} />
-      <Route path="*" component={NotFound} />
+      <Route render={props => (<NotFound children={props} status={404} />)} />
     </Switch>
   </React.Fragment>
 )

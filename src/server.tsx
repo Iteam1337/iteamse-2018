@@ -16,6 +16,13 @@ import Html from './Html'
 import { theme } from './theme'
 import { redirectHelper } from './utils/serverHelpers'
 
+interface StaticContext {
+  statusCode?: number
+  url?: string
+  action?: 'PUSH' | 'REPLACE'
+  location?: object
+}
+
 const server = express()
 const { RAZZLE_CMS_NODE_URL, RAZZLE_PUBLIC_DIR, RAZZLE_HOST } = process.env
 
@@ -46,7 +53,7 @@ server
         })
 
         const sheet = new ServerStyleSheet()
-        const context = {}
+        const context: StaticContext = { }
 
         const markup = sheet.collectStyles(
           <ApolloProvider client={client}>
@@ -70,7 +77,9 @@ server
             styleTags={styleTags}
           />
         )
-
+        if (context.statusCode === 404) {
+          res.status(404)
+        }
         res.send(`<!doctype html>\n${renderToStaticMarkup(html)}`)
       } catch (error) {
         console.error(error)

@@ -8,6 +8,11 @@ import Paragraph from '../components/Typography/Paragraph'
 import styled from '../theme'
 import brokenComputer from './img/illustrations-mac.png'
 
+interface NotFoundProps {
+  children: React.ReactNode,
+  status?: number
+}
+
 const Wrap = GridColumnClean.extend`
   display: grid;
   position: fixed;
@@ -61,7 +66,13 @@ const NarrowLink = Link.extend`
   }
 `
 
-export class NotFound extends React.Component {
+export class NotFound extends React.Component<NotFoundProps> {
+  componentWillMount() {
+    const { status } = this.props
+    if (status && this.context.router && this.context.router.staticContext) {
+      this.context.router.staticContext.statusCode = status
+    }
+  }
   render() {
     const message =  `Det blir inte alltid som man tänkt sig.
     Tyvärr finns inte sidan du försökte nå, antingen är länken fel eller så har sidan flyttats.
