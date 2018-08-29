@@ -25,6 +25,10 @@ const Wrap = GridColumnClean.extend`
   grid-template-rows: auto 1fr;
   background-color: #F3F2F2;
   overflow-y: scroll;
+
+  @media (min-width: 1025px) {
+    grid-template-columns: minmax(30px, 1fr) 1024px minmax(30px, 1fr);
+  }
 `
 
 const Content = styled.div`
@@ -74,7 +78,7 @@ export class NotFound extends React.Component<NotFoundProps> {
     }
   }
   render() {
-    const message =  `Det blir inte alltid som man tänkt sig.
+    const message =  `404 error. Eller som man säger på svenska, något har blivit fel.
     Tyvärr finns inte sidan du försökte nå, antingen är länken fel eller så har sidan flyttats.
     Men du behöver inte oroa dig, vi ska göra allt vi kan för att detta inte ska hända igen.`
     return (
@@ -93,7 +97,7 @@ export class NotFound extends React.Component<NotFoundProps> {
               <Paragraph>{message}
               </Paragraph>
               <NarrowLink to="/">
-                Ta mig tillbaka till startsidan
+                Ta mig till startsidan
               </NarrowLink>
             </Message>
           </Content>
