@@ -8,6 +8,7 @@ import fetch from 'node-fetch'
 import React from 'react'
 import { ApolloProvider, renderToStringWithData } from 'react-apollo'
 import { renderToStaticMarkup } from 'react-dom/server'
+import Helmet from 'react-helmet'
 import { StaticRouter } from 'react-router-dom'
 import serialize from 'serialize-javascript'
 import { ServerStyleSheet, ThemeProvider } from 'styled-components'
@@ -71,7 +72,19 @@ server
           />
         )
 
-        res.send(`<!doctype html>\n${renderToStaticMarkup(html)}`)
+        const staticMarkup = renderToStaticMarkup(html)
+        
+        const helmet = Helmet.renderStatic()
+        const { meta, title } = helmet
+
+        res.send(`
+          <!doctype html>
+            <head>
+              ${title.toString()}
+              ${meta.toString()}
+            </head>
+            ${staticMarkup}
+        `)
       } catch (error) {
         console.error(error)
 
