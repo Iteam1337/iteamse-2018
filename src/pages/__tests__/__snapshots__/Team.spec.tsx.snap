@@ -10,7 +10,7 @@ exports[`components/Team renders Team 1`] = `
         class="sc-hwwEjo idbpfi"
       >
         <div
-          class="sc-jtRfpW kaiGPi"
+          class="sc-jtRfpW eDquYG"
         >
           <a
             class="sc-kTUwUJ ijPJJc"
@@ -80,7 +80,7 @@ exports[`components/Team renders Team 1`] = `
     </div>
   </div>
   <div
-    class="sc-ifAKCX enKhVc"
+    class="sc-ifAKCX tAxwv"
   >
     <div
       class="sc-htpNat eTTkxF"
@@ -108,10 +108,10 @@ exports[`components/Team renders Team 1`] = `
       </div>
     </div>
     <div
-      class="sc-jWBwVP kVntkR"
+      class="sc-jWBwVP jbjxKO"
     >
       <div
-        class="sc-cMljjf LeglO"
+        class="sc-cMljjf bBhzLW"
       >
         <div
           class="sc-ckVGcZ bZLjEW"
@@ -219,7 +219,7 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
         class="sc-hwwEjo idbpfi"
       >
         <div
-          class="sc-jtRfpW kaiGPi"
+          class="sc-jtRfpW eDquYG"
         >
           <a
             class="sc-kTUwUJ ijPJJc"
@@ -289,7 +289,7 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
     </div>
   </div>
   <div
-    class="sc-ifAKCX enKhVc"
+    class="sc-ifAKCX tAxwv"
   >
     <div
       class="sc-htpNat eTTkxF"
@@ -317,10 +317,10 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
       </div>
     </div>
     <div
-      class="sc-jWBwVP kVntkR"
+      class="sc-jWBwVP jbjxKO"
     >
       <div
-        class="sc-cMljjf LeglO"
+        class="sc-cMljjf bBhzLW"
       >
         <div
           class="sc-ckVGcZ bZLjEW"
@@ -383,7 +383,7 @@ exports[`components/Team should handle changing location using mouse 1`] = `
         class="sc-hwwEjo idbpfi"
       >
         <div
-          class="sc-jtRfpW kaiGPi"
+          class="sc-jtRfpW eDquYG"
         >
           <a
             class="sc-kTUwUJ ijPJJc"
@@ -453,7 +453,7 @@ exports[`components/Team should handle changing location using mouse 1`] = `
     </div>
   </div>
   <div
-    class="sc-ifAKCX enKhVc"
+    class="sc-ifAKCX tAxwv"
   >
     <div
       class="sc-htpNat eTTkxF"
@@ -481,10 +481,10 @@ exports[`components/Team should handle changing location using mouse 1`] = `
       </div>
     </div>
     <div
-      class="sc-jWBwVP kVntkR"
+      class="sc-jWBwVP jbjxKO"
     >
       <div
-        class="sc-cMljjf LeglO"
+        class="sc-cMljjf bBhzLW"
       >
         <div
           class="sc-ckVGcZ bZLjEW"
@@ -547,7 +547,7 @@ exports[`components/Team should not change using keyboard if not enter or space 
         class="sc-hwwEjo idbpfi"
       >
         <div
-          class="sc-jtRfpW kaiGPi"
+          class="sc-jtRfpW eDquYG"
         >
           <a
             class="sc-kTUwUJ ijPJJc"
@@ -617,7 +617,7 @@ exports[`components/Team should not change using keyboard if not enter or space 
     </div>
   </div>
   <div
-    class="sc-ifAKCX enKhVc"
+    class="sc-ifAKCX tAxwv"
   >
     <div
       class="sc-htpNat eTTkxF"
@@ -645,10 +645,10 @@ exports[`components/Team should not change using keyboard if not enter or space 
       </div>
     </div>
     <div
-      class="sc-jWBwVP kVntkR"
+      class="sc-jWBwVP jbjxKO"
     >
       <div
-        class="sc-cMljjf LeglO"
+        class="sc-cMljjf bBhzLW"
       >
         <div
           class="sc-ckVGcZ bZLjEW"

@@ -40,6 +40,25 @@ const Cases = PaddedRow.extend`
     grid-column-gap: 30px;
     grid-template-columns: repeat(2, 1fr);
   }
+
+  /* IE 11 */
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    > * {
+      flex: 1 0 50%;
+      box-sizing: border-box;
+    }
+
+    > a {
+      display: block;
+      margin-bottom: 25px;
+    }
+  }
 `
 
 const CaseImageWrap = styled.div`
@@ -56,6 +75,12 @@ const CaseImageWrap = styled.div`
 
 const CaseImage = styled.img`
   max-width: 90%;
+
+  /* IE 11 */
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    max-width: 396px;
+    border: none;
+  }
 `
 
 const Meta = styled.div`
@@ -77,6 +102,11 @@ const Case = styled.div`
       border-left-width: 10px;
       padding-left: 10px;
     }
+  }
+
+  /* IE 11 */
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    max-width: 496px;
   }
 `
 

@@ -66,12 +66,28 @@ const Content = styled.div`
     padding-bottom: 100px;
     padding-top: 100px;
   }
+
+  /* IE 11 */
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    display: flex;
+    justify-content: center;
+  }
 `
 
 const Texts = styled.div`
   align-items: center;
   display: grid;
   grid-row-gap: 40px;
+
+  /* IE 11 */
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    width: 100%;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
 `
 
 const TextBlock = PaddedRow.extend`
@@ -83,6 +99,12 @@ const TextBlock = PaddedRow.extend`
     &:not(:last-child) {
       margin-bottom: 0;
     }
+  }
+
+  /* IE 11 */
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    width: 100%;
+    flex-shrink: 0;
   }
 `
 

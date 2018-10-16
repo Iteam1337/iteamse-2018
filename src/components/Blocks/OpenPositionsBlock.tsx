@@ -32,6 +32,17 @@ const Content = styled.div`
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 0;
   }
+
+
+  /* IE 11 */
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    display: flex;
+    width: 1024px;
+    
+    > * {
+      flex-basis: 50%;
+    }
+  }
 `
 
 const SideWrap = styled.div``

@@ -26,6 +26,12 @@ const Wrap = withProps<WrapProps>()(GridColumnClean.extend)`
     height: 500px;
     padding: 0px;
   }
+
+  /* IE 11 */
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    display: flex;
+    justify-content: center;
+  }
 `
 
 const Content = styled.div`
@@ -38,6 +44,11 @@ const Content = styled.div`
     grid-template-columns: 1fr 1024px 1fr;
     grid-template-rows: auto 1fr;
   }
+
+  /* IE 11 */
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    max-width: 1024px;
+  }
 `
 
 const Information = styled.div`
@@ -49,6 +60,11 @@ const Information = styled.div`
   @media (min-width: 1025px) {
     grid-column-gap: 60px;
     grid-template-columns: 320px 1fr;
+  }
+
+  /* IE 11 */
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    display: flex;
   }
 `
 

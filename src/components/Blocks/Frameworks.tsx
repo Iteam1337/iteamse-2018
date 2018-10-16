@@ -15,6 +15,18 @@ const Wrap = GridColumnClean.extend`
   grid-column: -1 / 1;
   padding-bottom: 100px;
   padding-top: 100px;
+
+  /* IE 11 */
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    max-width: none;
+
+    display: flex;
+    justify-content: center;
+
+    > * {
+      max-width: 1024px;
+    }
+  }
 `
 
 const FrameworksWrap = styled.div`

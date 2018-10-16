@@ -3,14 +3,14 @@
 exports[`components/Case renders Case 1`] = `
 <div>
   <div
-    class="sc-kkGfuU cWossG"
+    class="sc-kkGfuU bDRSIz"
     data-test="header-case"
   >
     <div
-      class="sc-iAyFgw eElhJs"
+      class="sc-iAyFgw ABvqv"
     >
       <div
-        class="sc-jwKygS hDGBmk"
+        class="sc-jwKygS jinUXi"
       >
         <a
           class="sc-btzYZH iNlviF"
@@ -66,7 +66,7 @@ exports[`components/Case renders Case 1`] = `
         </div>
       </div>
       <div
-        class="sc-hSdWYo jrLggA"
+        class="sc-hSdWYo eqeaDo"
       >
         <div
           class="sc-eHgmQL ksUOUN"
@@ -128,7 +128,7 @@ exports[`components/Case renders Case 1`] = `
     />
   </div>
   <div
-    class="sc-iwsKbI fwFOwW"
+    class="sc-iwsKbI gVpyul"
   >
     <div
       class="sc-gzVnrw jfvayO"
@@ -218,7 +218,7 @@ exports[`components/Case renders Case 1`] = `
       </div>
     </div>
     <div
-      class="sc-eNQAEJ fvbHtd"
+      class="sc-eNQAEJ kjrIYQ"
       data-test="block-"
     >
       <div
@@ -394,7 +394,7 @@ exports[`components/Case renders Case 1`] = `
       </div>
     </div>
     <div
-      class="sc-kpOJdX bMuhnp"
+      class="sc-kpOJdX ePujIJ"
       data-test="block-"
     >
       <div

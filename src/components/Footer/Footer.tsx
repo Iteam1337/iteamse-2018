@@ -49,6 +49,18 @@ const FooterSections = styled.div`
   @media (min-width: 1025px) {
     grid-template-columns: repeat(2, 315px) 1fr;
   }
+
+  /* IE 11 */
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-around;
+
+    > * {
+      flex: 1 0 25%;
+    }
+  }
 `
 
 const Title = styled.div`
@@ -72,7 +84,13 @@ const NativeLinkUnderlined = NativeLink.extend`
   text-decoration: none;
 `
 
-const SupportSection = styled.div``
+const SupportSection = styled.div`
+  /* IE 11 */
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    display: flex;
+    width: 100%;
+  }
+`
 
 class FooterQueryComponent extends Query<FooterQuery> {}
 

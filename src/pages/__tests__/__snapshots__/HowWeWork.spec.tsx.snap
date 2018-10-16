@@ -10,7 +10,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
         class="sc-dqBHgY jzsvTx"
       >
         <div
-          class="sc-jwKygS hDGBmk"
+          class="sc-jwKygS jinUXi"
         >
           <a
             class="sc-btzYZH iNlviF"
@@ -80,7 +80,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
     </div>
   </div>
   <div
-    class="sc-iwsKbI fwFOwW"
+    class="sc-iwsKbI gVpyul"
   >
     <div
       class="react-reveal"
@@ -168,14 +168,14 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
     style="opacity: 1;"
   >
     <div
-      class="sc-ksYbfQ foGAnO"
+      class="sc-ksYbfQ bCOrYO"
     >
       <div
         class="sc-bdVaJa fGzlqx"
         data-test="block-"
       >
         <div
-          class="sc-hmzhuo hkCgPw"
+          class="sc-hmzhuo boxVhl"
         >
           <div
             class="sc-frDJqD gCEYuZ"
@@ -238,7 +238,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
     src="//images.ctfassets.net/rj4r6yfcesw5/62hgzE8G3ueMa2YSEuG4og/db2b643db6041f9d26936bc2d6006607/bleed_howwework.jpg"
   />
   <div
-    class="sc-iwsKbI fwFOwW"
+    class="sc-iwsKbI gVpyul"
   >
     <div
       class="react-reveal"

@@ -10,7 +10,7 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
         class="sc-dqBHgY jzsvTx"
       >
         <div
-          class="sc-jwKygS hDGBmk"
+          class="sc-jwKygS jinUXi"
         >
           <a
             class="sc-btzYZH iNlviF"
@@ -81,7 +81,7 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
     </div>
   </div>
   <div
-    class="sc-iwsKbI fwFOwW"
+    class="sc-iwsKbI gVpyul"
   >
     <div
       class="sc-gzVnrw jfvayO"

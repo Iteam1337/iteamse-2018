@@ -35,6 +35,17 @@ const Colleague = styled.div`
       box-shadow: 0 5px 50px #33333333;
     }
   }
+
+  /* IE 11 */
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    flex: 1 0 50%;
+
+    display: flex;
+
+    > * + * {
+      padding-left: 40px;
+    }
+  }
 `
 
 const Meta = styled.div``

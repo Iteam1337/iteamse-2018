@@ -27,11 +27,29 @@ const Wrap = withProps<WrapProps>()(GridColumnClean.extend)`
   @media (min-width: 1025px) {
     padding: ${({ teamMembers }) => (teamMembers <= 4 ? '100px 0' : '0px')};
   }
+
+  /* IE 11 */
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+
+    > * {
+      max-width: 1024px;
+    }
+  }
 `
 
 const Header = H2.extend`
   font-weight: 500;
   margin-bottom: 50px;
+
+  /* IE 11 */
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    width: 100%;
+  }
 `
 
 interface MembersProps {
@@ -47,6 +65,20 @@ const Members = withProps<MembersProps>()(styled.div)`
   @media (min-width: 1025px) {
     grid-template-columns: ${({ teamMembers }) =>
       teamMembers === 2 ? 'repeat(2, 1fr)' : 'repeat(4, 1fr)'};
+  }
+
+  /* IE 11 */
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+
+    > * {
+      box-sizing: border-box;
+      flex: 1 0 25%;
+    }
   }
 `
 
