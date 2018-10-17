@@ -25,7 +25,7 @@ const GridColumn = GridColumnClean.extend`
   }
 
   /* IE 11 */
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  ${({ theme }) => theme.browsers.ie10Or11(`
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -40,7 +40,7 @@ const GridColumn = GridColumnClean.extend`
     > img {
       max-width: none;
     }
-  }
+  `)}
 `
 
 export default GridColumn

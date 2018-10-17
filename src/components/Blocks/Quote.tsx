@@ -16,7 +16,7 @@ const QuoteWrap = GridColumnClean.extend`
   padding-top: 100px;
 
   /* IE 11 */
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  ${({ theme }) => theme.browsers.ie10Or11(`
     max-width: none;
     display: flex;
     justify-content: center;
@@ -24,7 +24,7 @@ const QuoteWrap = GridColumnClean.extend`
     > * {
       max-width: 1024px;
     }
-  }
+  `)}
 `
 
 const ActualQuote = styled.div`

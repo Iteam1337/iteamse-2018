@@ -17,7 +17,7 @@ const Wrap = GridColumnClean.extend`
   padding-top: 100px;
 
   /* IE 11 */
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  ${({ theme }) => theme.browsers.ie10Or11(`
     max-width: none;
 
     display: flex;
@@ -26,7 +26,7 @@ const Wrap = GridColumnClean.extend`
     > * {
       max-width: 1024px;
     }
-  }
+  `)}
 `
 
 const FrameworksWrap = styled.div`

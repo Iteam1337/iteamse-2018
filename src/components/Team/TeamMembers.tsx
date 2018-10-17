@@ -29,7 +29,7 @@ const Wrap = withProps<WrapProps>()(GridColumnClean.extend)`
   }
 
   /* IE 11 */
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  ${({ theme }) => theme.browsers.ie10Or11(`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,7 +39,7 @@ const Wrap = withProps<WrapProps>()(GridColumnClean.extend)`
     > * {
       max-width: 1024px;
     }
-  }
+  `)}
 `
 
 const Header = H2.extend`
@@ -47,9 +47,9 @@ const Header = H2.extend`
   margin-bottom: 50px;
 
   /* IE 11 */
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  ${({ theme }) => theme.browsers.ie10Or11(`
     width: 100%;
-  }
+  `)}
 `
 
 interface MembersProps {
@@ -68,7 +68,7 @@ const Members = withProps<MembersProps>()(styled.div)`
   }
 
   /* IE 11 */
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  ${({ theme }) => theme.browsers.ie10Or11(`
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -79,7 +79,7 @@ const Members = withProps<MembersProps>()(styled.div)`
       box-sizing: border-box;
       flex: 1 0 25%;
     }
-  }
+  `)}
 `
 
 const TeamMembers: React.SFC<TeamMembersProps> = ({

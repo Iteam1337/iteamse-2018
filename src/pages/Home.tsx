@@ -68,10 +68,10 @@ const Content = styled.div`
   }
 
   /* IE 11 */
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  ${({ theme }) => theme.browsers.ie10Or11(`
     display: flex;
     justify-content: center;
-  }
+  `)}
 `
 
 const Texts = styled.div`
@@ -80,14 +80,14 @@ const Texts = styled.div`
   grid-row-gap: 40px;
 
   /* IE 11 */
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  ${({ theme }) => theme.browsers.ie10Or11(`
     width: 100%;
     margin-left: 80px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-  }
+  `)}
 `
 
 const TextBlock = PaddedRow.extend`
@@ -102,10 +102,10 @@ const TextBlock = PaddedRow.extend`
   }
 
   /* IE 11 */
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  ${({ theme }) => theme.browsers.ie10Or11(`
     width: 100%;
     flex-shrink: 0;
-  }
+  `)}
 `
 
 const NarrowLink = Link.extend`

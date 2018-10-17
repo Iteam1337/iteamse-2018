@@ -28,10 +28,10 @@ const Wrap = styled.div`
   }
 
   /* IE 11 */
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  ${({ theme }) => theme.browsers.ie10Or11(`
     display: flex;
     justify-content: space-between;
-  }
+  `)}
 `
 
 const LogoLink = styled(Link)`

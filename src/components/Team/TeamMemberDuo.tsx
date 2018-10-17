@@ -37,7 +37,7 @@ const Colleague = styled.div`
   }
 
   /* IE 11 */
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  ${({ theme }) => theme.browsers.ie10Or11(`
     flex: 1 0 50%;
 
     display: flex;
@@ -45,7 +45,7 @@ const Colleague = styled.div`
     > * + * {
       padding-left: 40px;
     }
-  }
+  `)}
 `
 
 const Meta = styled.div``

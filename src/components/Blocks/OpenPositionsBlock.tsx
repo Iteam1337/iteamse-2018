@@ -35,14 +35,14 @@ const Content = styled.div`
 
 
   /* IE 11 */
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  ${({ theme }) => theme.browsers.ie10Or11(`
     display: flex;
     width: 1024px;
     
     > * {
       flex-basis: 50%;
     }
-  }
+  `)}
 `
 
 const SideWrap = styled.div``

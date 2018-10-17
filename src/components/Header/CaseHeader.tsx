@@ -28,10 +28,10 @@ const Wrap = withProps<WrapProps>()(GridColumnClean.extend)`
   }
 
   /* IE 11 */
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  ${({ theme }) => theme.browsers.ie10Or11(`
     display: flex;
     justify-content: center;
-  }
+  `)}
 `
 
 const Content = styled.div`
@@ -46,9 +46,9 @@ const Content = styled.div`
   }
 
   /* IE 11 */
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  ${({ theme }) => theme.browsers.ie10Or11(`
     max-width: 1024px;
-  }
+  `)}
 `
 
 const Information = styled.div`
@@ -63,9 +63,9 @@ const Information = styled.div`
   }
 
   /* IE 11 */
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  ${({ theme }) => theme.browsers.ie10Or11(`
     display: flex;
-  }
+  `)}
 `
 
 const Meta = styled.div`

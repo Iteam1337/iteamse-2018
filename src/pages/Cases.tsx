@@ -42,7 +42,7 @@ const Cases = PaddedRow.extend`
   }
 
   /* IE 11 */
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  ${({ theme }) => theme.browsers.ie10Or11(`
     width: 100%;
     display: flex;
     align-items: flex-start;
@@ -58,7 +58,7 @@ const Cases = PaddedRow.extend`
       display: block;
       margin-bottom: 25px;
     }
-  }
+  `)}
 `
 
 const CaseImageWrap = styled.div`
@@ -77,10 +77,10 @@ const CaseImage = styled.img`
   max-width: 90%;
 
   /* IE 11 */
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  ${({ theme }) => theme.browsers.ie10Or11(`
     max-width: 396px;
     border: none;
-  }
+  `)};
 `
 
 const Meta = styled.div`
@@ -105,9 +105,9 @@ const Case = styled.div`
   }
 
   /* IE 11 */
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  ${({ theme }) => theme.browsers.ie10Or11(`
     max-width: 496px;
-  }
+  `)}
 `
 
 const Title = styled.div`

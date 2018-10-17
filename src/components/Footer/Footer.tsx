@@ -51,7 +51,7 @@ const FooterSections = styled.div`
   }
 
   /* IE 11 */
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  ${({ theme }) => theme.browsers.ie10Or11(`
     width: 100%;
     max-width: 1024px;
     display: flex;
@@ -60,7 +60,7 @@ const FooterSections = styled.div`
     > * {
       flex: 1 0 25%;
     }
-  }
+  `)}
 `
 
 const Title = styled.div`
@@ -86,10 +86,10 @@ const NativeLinkUnderlined = NativeLink.extend`
 
 const SupportSection = styled.div`
   /* IE 11 */
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  ${({ theme }) => theme.browsers.ie10Or11(`
     display: flex;
     width: 100%;
-  }
+  `)}
 `
 
 class FooterQueryComponent extends Query<FooterQuery> {}
