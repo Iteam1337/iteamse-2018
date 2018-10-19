@@ -37,6 +37,10 @@ const GridColumn = GridColumnClean.extend`
       width: 100%;
     }
 
+    > * + * {
+      margin-top: 100px;
+    }
+
     > img {
       max-width: none;
     }
