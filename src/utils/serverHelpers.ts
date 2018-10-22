@@ -7,12 +7,13 @@ export const redirectHelper = (
   next: express.NextFunction
 ) => {
   const { path } = req
+  const pathLowerCase = path.toLowerCase()
 
   // Only redirect if it's an old route
-  const shouldRedirect = checkForRedirect(path)
+  const shouldRedirect = checkForRedirect(pathLowerCase)
 
   if (shouldRedirect) {
-    const redirectTo = handlePaths(path)
+    const redirectTo = handlePaths(pathLowerCase)
     res.redirect(301, redirectTo)
     return next()
   }
