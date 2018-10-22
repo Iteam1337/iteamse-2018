@@ -158,6 +158,15 @@ describe('#redirectHelper', () => {
       expect(next).toHaveBeenCalled()
     })
 
+    it('should redirect from /Career/slug?foo=bar to /jobba-hos-oss', () => {
+      req = {
+        path: '/Career/slug?foo=bar',
+      }
+      redirectHelper(req, res, next)
+      expect(res.redirect).toHaveBeenCalledWith(301, '/jobba-hos-oss')
+      expect(next).toHaveBeenCalled()
+    })
+
     it('should redirect from /cases to /case', () => {
       req = {
         path: '/cases',
