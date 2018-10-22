@@ -4,7 +4,7 @@ exports[`components/Team renders Team 1`] = `
 <div>
   <div>
     <div
-      class="sc-iyvyFf iTkFkl"
+      class="sc-iyvyFf kDzutv"
     >
       <div
         class="sc-hwwEjo idbpfi"
@@ -213,7 +213,7 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
 <div>
   <div>
     <div
-      class="sc-iyvyFf iTkFkl"
+      class="sc-iyvyFf kDzutv"
     >
       <div
         class="sc-hwwEjo idbpfi"
@@ -377,7 +377,7 @@ exports[`components/Team should handle changing location using mouse 1`] = `
 <div>
   <div>
     <div
-      class="sc-iyvyFf iTkFkl"
+      class="sc-iyvyFf kDzutv"
     >
       <div
         class="sc-hwwEjo idbpfi"
@@ -541,7 +541,7 @@ exports[`components/Team should not change using keyboard if not enter or space 
 <div>
   <div>
     <div
-      class="sc-iyvyFf iTkFkl"
+      class="sc-iyvyFf kDzutv"
     >
       <div
         class="sc-hwwEjo idbpfi"

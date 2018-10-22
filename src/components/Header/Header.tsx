@@ -20,7 +20,7 @@ interface WrapProps {
 const Wrap = withProps<WrapProps>()(GridColumnClean.extend)`
   background-image: ${({ image }) => `url(${image})`};
   background-size: cover;
-  background-position: center;
+  background-position: top;
   height: 430px;
 
   @media (min-width: 481px) {
