@@ -30,13 +30,16 @@ export const checkForRedirect = (path: string) => {
     '/ai',
     '/cases/tsab',
     '/cases/vimla',
+    '/news',
+    '/ms'
   ]
   if (
     oldPaths.includes(path) ||
     /(^\/team\/)/g.test(path) ||
     /(^\/teamet\/)/g.test(path) ||
     /(^\/career\/?)/g.test(path) ||
-    /(^\/operations\/?)/g.test(path)
+    /(^\/operations\/?)/g.test(path) ||
+    /(^\/news\/?)/g.test(path)
   ) {
     return true
   }
@@ -72,6 +75,10 @@ export const handlePaths = (path: string) => {
       return '/case/tsab'
     case '/cases/vimla':
       return '/case/vimla'
+    case '/news':
+      return '/'
+    case '/ms':
+      return '/'
     default:
       return '/' // TODO: Add a 404 for pages not found
   }

@@ -282,5 +282,32 @@ describe('#redirectHelper', () => {
       )
       expect(next).toHaveBeenCalled()
     })
+
+    it('should redirect from /news to /', () => {
+      req = {
+        path: '/news',
+      }
+      redirectHelper(req, res, next)
+      expect(res.redirect).toHaveBeenCalledWith(301, '/')
+      expect(next).toHaveBeenCalled()
+    })
+
+    it('should redirect from /news/slug to /', () => {
+      req = {
+        path: '/news/slug',
+      }
+      redirectHelper(req, res, next)
+      expect(res.redirect).toHaveBeenCalledWith(301, '/')
+      expect(next).toHaveBeenCalled()
+    })
+
+    it('should redirect from /ms to /', () => {
+      req = {
+        path: '/ms',
+      }
+      redirectHelper(req, res, next)
+      expect(res.redirect).toHaveBeenCalledWith(301, '/')
+      expect(next).toHaveBeenCalled()
+    })
   })
 })
