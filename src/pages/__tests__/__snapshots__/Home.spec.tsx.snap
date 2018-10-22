@@ -81,7 +81,7 @@ exports[`components/Home renders Home 1`] = `
     </div>
   </div>
   <div
-    class="sc-fBuWsC lOYNP"
+    class="sc-fBuWsC imqKqb"
   >
     <div
       class="sc-fMiknA bCKhKj"
@@ -178,7 +178,7 @@ exports[`components/Home renders Home 1`] = `
     </div>
   </div>
   <div
-    class="sc-iwsKbI gVpyul"
+    class="sc-iwsKbI cTexZb"
   >
     <div
       class="react-reveal"
@@ -189,10 +189,10 @@ exports[`components/Home renders Home 1`] = `
         data-test="block-"
       >
         <div
-          class="sc-bxivhb kgeHJJ"
+          class="sc-bxivhb cjRyOF"
         >
           <div
-            class="sc-ifAKCX cFlEyZ"
+            class="sc-ifAKCX fTHWMI"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -201,7 +201,7 @@ exports[`components/Home renders Home 1`] = `
             </h3>
           </div>
           <div
-            class="sc-bZQynM hmvJjY"
+            class="sc-bZQynM fQTIXp"
           >
             <div
               class="sc-caSCKo jjNSwx"

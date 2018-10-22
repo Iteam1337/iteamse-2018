@@ -80,7 +80,7 @@ exports[`components/Work renders Work 1`] = `
     </div>
   </div>
   <div
-    class="sc-iwsKbI gVpyul"
+    class="sc-iwsKbI cTexZb"
   >
     <div
       class="sc-jqCOkK YHguG"
@@ -116,10 +116,10 @@ exports[`components/Work renders Work 1`] = `
         data-test="block-location"
       >
         <div
-          class="sc-bxivhb kgeHJJ"
+          class="sc-bxivhb cjRyOF"
         >
           <div
-            class="sc-ifAKCX cFlEyZ"
+            class="sc-ifAKCX fTHWMI"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -133,7 +133,7 @@ exports[`components/Work renders Work 1`] = `
             </div>
           </div>
           <div
-            class="sc-bZQynM hmvJjY"
+            class="sc-bZQynM fQTIXp"
           >
             <div
               class="sc-htpNat bkGJgg"
@@ -166,10 +166,10 @@ exports[`components/Work renders Work 1`] = `
         data-test="block-"
       >
         <div
-          class="sc-bxivhb kgeHJJ"
+          class="sc-bxivhb cjRyOF"
         >
           <div
-            class="sc-ifAKCX cFlEyZ"
+            class="sc-ifAKCX fTHWMI"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -178,7 +178,7 @@ exports[`components/Work renders Work 1`] = `
             </h3>
           </div>
           <div
-            class="sc-bZQynM hmvJjY"
+            class="sc-bZQynM fQTIXp"
           >
             <div
               class="sc-htpNat bkGJgg"
