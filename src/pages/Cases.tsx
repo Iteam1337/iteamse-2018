@@ -8,6 +8,7 @@ import GridColumn from '../components/Grid/GridColumn'
 import PaddedRow from '../components/Grid/PaddedRow'
 import Header from '../components/Header/Header'
 import PrefetchLink from '../components/Link/PrefetchLink'
+import queryWithLoading from '../components/QueryWithLoading/QueryWithLoading'
 import Team from '../components/Team/Team'
 import { CASE_PAGE_QUERY } from './Case'
 
@@ -91,19 +92,14 @@ const ShortDescription = styled.div`
   font-weight: 300;
 `
 
-class CasesQuery extends Query<CasesPageQuery> {}
+class CasesQuery extends Query<CasesPageQuery> { }
+const CasesQueryWithLoading = queryWithLoading(CasesQuery)
 
 export class CasePage extends React.Component {
   render() {
     return (
-      <CasesQuery query={CASES_PAGE_QUERY}>
-        {({ loading, data }) => {
-          if (loading || !data) {
-            return null
-          }
-
-          const { pageCases, cases } = data
-
+      <CasesQueryWithLoading query={CASES_PAGE_QUERY}>
+        {({ pageCases, cases }: { pageCases: any, cases: any[] }) => {
           return (
             <>
               <Helmet>
@@ -173,7 +169,7 @@ export class CasePage extends React.Component {
             </>
           )
         }}
-      </CasesQuery>
+      </CasesQueryWithLoading>
     )
   }
 }

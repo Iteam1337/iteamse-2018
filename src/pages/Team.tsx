@@ -6,6 +6,7 @@ import { TeamPageQuery } from '../../typings/iteamse'
 import FilterByLocation from '../components/FilterByLocation/FilterByLocation'
 import GridColumn from '../components/Grid/GridColumn'
 import Header from '../components/Header/Header'
+import queryWithLoading from '../components/QueryWithLoading/QueryWithLoading'
 import Team from '../components/Team/Team'
 import TeamMembers from '../components/Team/TeamMembers'
 import TeamPageMember from '../components/Team/TeamPageMember'
@@ -34,18 +35,13 @@ export const TEAM_PAGE_QUERY = gql`
 `
 
 class TeamQuery extends Query<TeamPageQuery> {}
+const TeamQueryWithLoading = queryWithLoading(TeamQuery)
 
 export class TeamPage extends React.Component {
   render() {
     return (
-      <TeamQuery query={TEAM_PAGE_QUERY}>
-        {({ loading, data }) => {
-          if (loading || !data) {
-            return null
-          }
-
-          const { pageTeam, team } = data
-
+      <TeamQueryWithLoading query={TEAM_PAGE_QUERY}>
+        {({ pageTeam, team }: { pageTeam: any, team: any[] }) => {
           return (
             <>
               <Helmet>
@@ -88,7 +84,7 @@ export class TeamPage extends React.Component {
             </>
           )
         }}
-      </TeamQuery>
+      </TeamQueryWithLoading>
     )
   }
 }

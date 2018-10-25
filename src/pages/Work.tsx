@@ -8,6 +8,7 @@ import FilterByLocation from '../components/FilterByLocation/FilterByLocation'
 import GridColumn from '../components/Grid/GridColumn'
 import Header from '../components/Header/Header'
 import StyledPrefetchLink from '../components/Link/StyledPrefetchLink'
+import queryWithLoading from '../components/QueryWithLoading/QueryWithLoading'
 import Team from '../components/Team/Team'
 import { filterByLocation } from '../utils/filterByLocation'
 import { OPEN_POSITION_PAGE_QUERY } from './OpenPosition'
@@ -34,18 +35,13 @@ export const WORK_PAGE_QUERY = gql`
 `
 
 class WorkQuery extends Query<WorkPageQuery> {}
+const WorkQueryWithLoading = queryWithLoading(WorkQuery)
 
 export class Work extends React.Component {
   render() {
     return (
-      <WorkQuery query={WORK_PAGE_QUERY}>
-        {({ loading, data }) => {
-          if (loading || !data) {
-            return null
-          }
-
-          const { openpositions, pageWork } = data
-
+      <WorkQueryWithLoading query={WORK_PAGE_QUERY}>
+        {({ openpositions, pageWork }: { openpositions: any[], pageWork: any }) => {
           return (
             <>
               <Helmet>
@@ -110,7 +106,7 @@ export class Work extends React.Component {
             </>
           )
         }}
-      </WorkQuery>
+      </WorkQueryWithLoading>
     )
   }
 }

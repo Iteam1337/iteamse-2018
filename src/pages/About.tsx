@@ -8,6 +8,7 @@ import ImageBleed from '../components/Blocks/ImageBleed'
 import ImageBlock from '../components/Blocks/ImageBlock'
 import GridColumn from '../components/Grid/GridColumn'
 import Header from '../components/Header/Header'
+import queryWithLoading from '../components/QueryWithLoading/QueryWithLoading'
 import Team from '../components/Team/Team'
 import styled from '../theme'
 import aboutUsImage from './img/illustrations-group-1.svg'
@@ -49,19 +50,14 @@ const StabilityIcon = styled.img`
   }
 `
 
-class AboutQuery extends Query<AboutPageQuery> {}
+class AboutQuery extends Query<AboutPageQuery> { }
+const AboutQueryWithLoading = queryWithLoading(AboutQuery)
 
 export class About extends React.Component {
   render() {
     return (
-      <AboutQuery query={ABOUT_PAGE_QUERY}>
-        {({ loading, data }) => {
-          if (loading || !data) {
-            return null
-          }
-
-          const { pageAboutUs } = data
-
+      <AboutQueryWithLoading query={ABOUT_PAGE_QUERY}>
+        {({ pageAboutUs }: { pageAboutUs: any }) => {
           return (
             <>
               <Helmet>
@@ -113,7 +109,7 @@ export class About extends React.Component {
             </>
           )
         }}
-      </AboutQuery>
+      </AboutQueryWithLoading>
     )
   }
 }

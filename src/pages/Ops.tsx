@@ -6,6 +6,7 @@ import { OperationsPageQuery } from '../../typings/iteamse'
 import Block from '../components/Blocks/Block'
 import GridColumn from '../components/Grid/GridColumn'
 import Header from '../components/Header/Header'
+import queryWithLoading from '../components/QueryWithLoading/QueryWithLoading'
 import Team from '../components/Team/Team'
 
 export const OPERATIONS_PAGE_QUERY = gql`
@@ -22,19 +23,14 @@ export const OPERATIONS_PAGE_QUERY = gql`
   }
 `
 
-class OperationsQuery extends Query<OperationsPageQuery> {}
+class OperationsQuery extends Query<OperationsPageQuery> { }
+const OperationsQueryWithLoading = queryWithLoading(OperationsQuery)
 
 export class Operations extends React.Component {
   render() {
     return (
-      <OperationsQuery query={OPERATIONS_PAGE_QUERY}>
-        {({ loading, data }) => {
-          if (loading || !data) {
-            return null
-          }
-
-          const { pageOps } = data
-
+      <OperationsQueryWithLoading query={OPERATIONS_PAGE_QUERY}>
+        {({ pageOps }: { pageOps: any }) => {
           return (
             <>
               <Helmet>
@@ -61,7 +57,7 @@ export class Operations extends React.Component {
             </>
           )
         }}
-      </OperationsQuery>
+      </OperationsQueryWithLoading>
     )
   }
 }

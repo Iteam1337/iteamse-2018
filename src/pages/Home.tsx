@@ -9,6 +9,7 @@ import GridColumn from '../components/Grid/GridColumn'
 import PaddedRow from '../components/Grid/PaddedRow'
 import Header from '../components/Header/Header'
 import Link from '../components/Link/Link'
+import queryWithLoading from '../components/QueryWithLoading/QueryWithLoading'
 import Team from '../components/Team/Team'
 import H1 from '../components/Typography/H1'
 import Paragraph from '../components/Typography/Paragraph'
@@ -124,6 +125,7 @@ const MobileImage = styled.img`
 `
 
 class HomeQuery extends Query<HomePageQuery> {}
+const HomeQueryWithLoading = queryWithLoading(HomeQuery)
 
 export class Home extends React.Component {
   render() {
@@ -135,14 +137,8 @@ export class Home extends React.Component {
           <meta property="twitter:title" content="Iteam - There's a better way" />
         </Helmet>
 
-        <HomeQuery query={HOME_PAGE_QUERY}>
-          {({ loading, data }) => {
-            if (loading || !data) {
-              return null
-            }
-
-            const { pageStart } = data
-
+        <HomeQueryWithLoading query={HOME_PAGE_QUERY}>
+          {({ pageStart }: { pageStart: any }) => {
             return (
               <>
                 <Header
@@ -233,7 +229,7 @@ export class Home extends React.Component {
               </>
             )
           }}
-        </HomeQuery>
+        </HomeQueryWithLoading>
       </>
     )
   }

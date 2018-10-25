@@ -7,6 +7,7 @@ import AiTable from '../components/Blocks/AiTable'
 import Block from '../components/Blocks/Block'
 import GridColumn from '../components/Grid/GridColumn'
 import Header from '../components/Header/Header'
+import queryWithLoading from '../components/QueryWithLoading/QueryWithLoading'
 import Team from '../components/Team/Team'
 
 export const AI_PAGE_QUERY = gql`
@@ -27,19 +28,14 @@ export const AI_PAGE_QUERY = gql`
   }
 `
 
-class AiQuery extends Query<AiPageQuery> {}
+class AiQuery extends Query<AiPageQuery> { }
+const AiQueryWithLoading = queryWithLoading(AiQuery)
 
 export class Ai extends React.Component {
   render() {
     return (
-      <AiQuery query={AI_PAGE_QUERY}>
-        {({ loading, data }) => {
-          if (loading || !data) {
-            return null
-          }
-
-          const { pageAi } = data
-
+      <AiQueryWithLoading query={AI_PAGE_QUERY}>
+        {({ pageAi }: { pageAi: any }) => {
           return (
             <>
               <Helmet>
@@ -74,7 +70,7 @@ export class Ai extends React.Component {
             </>
           )
         }}
-      </AiQuery>
+      </AiQueryWithLoading>
     )
   }
 }

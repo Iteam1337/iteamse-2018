@@ -11,6 +11,7 @@ import Header from '../components/Header/Header'
 import Mailto from '../components/Link/Mailto'
 import PhoneNumber from '../components/Link/PhoneNumber'
 import UnstyledList from '../components/List/UnstyledList'
+import queryWithLoading from '../components/QueryWithLoading/QueryWithLoading'
 import Team from '../components/Team/Team'
 import styled from '../theme'
 
@@ -43,6 +44,7 @@ const TeamMember = styled.div`
 `
 
 class TeamMemberQuery extends Query<TeamMemberPageQuery> {}
+const TeamMemberQueryWithLoading = queryWithLoading(TeamMemberQuery)
 
 export class TeamMemberPage extends React.Component<
   RouteComponentProps<{ match: string; shortName: string }>
@@ -50,17 +52,11 @@ export class TeamMemberPage extends React.Component<
   render() {
     const { match } = this.props
     return (
-      <TeamMemberQuery
+      <TeamMemberQueryWithLoading
         query={TEAM_MEMBER_PAGE_QUERY}
         variables={{ shortName: match.params.shortName }}
       >
-        {({ loading, data }) => {
-          if (loading || !data) {
-            return null
-          }
-
-          const { teamMember } = data
-
+        {({ teamMember }) => {
           if (!teamMember) {
             return <div>Teammedlemmen existerar inte</div>
           }
@@ -125,7 +121,7 @@ export class TeamMemberPage extends React.Component<
             </>
           )
         }}
-      </TeamMemberQuery>
+      </TeamMemberQueryWithLoading>
     )
   }
 }

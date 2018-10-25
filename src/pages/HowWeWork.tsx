@@ -9,6 +9,7 @@ import ImageBlock from '../components/Blocks/ImageBlock'
 import OpenPositionsBlock from '../components/Blocks/OpenPositionsBlock'
 import GridColumn from '../components/Grid/GridColumn'
 import Header from '../components/Header/Header'
+import queryWithLoading from '../components/QueryWithLoading/QueryWithLoading'
 import Team from '../components/Team/Team'
 import howWeWorkImage2 from './img/illustrations-group-2.svg'
 import howWeWorkImage from './img/illustrations-group-3.svg'
@@ -44,17 +45,13 @@ export const HOW_WE_WORK_PAGE_QUERY = gql`
 `
 
 class HowWeWorkQuery extends Query<HowWeWorkPageQuery> {}
+const HowWeWorkQueryWithLoading = queryWithLoading(HowWeWorkQuery)
 
 export class HowWeWork extends React.Component {
   render() {
     return (
-      <HowWeWorkQuery query={HOW_WE_WORK_PAGE_QUERY}>
-        {({ loading, data }) => {
-          if (loading || !data) {
-            return null
-          }
-
-          const { openpositions, pageHowWeWork } = data
+      <HowWeWorkQueryWithLoading query={HOW_WE_WORK_PAGE_QUERY}>
+        {({ openpositions, pageHowWeWork }: { openpositions: any, pageHowWeWork: any }) => {
 
           return (
             <>
@@ -110,7 +107,7 @@ export class HowWeWork extends React.Component {
             </>
           )
         }}
-      </HowWeWorkQuery>
+      </HowWeWorkQueryWithLoading>
     )
   }
 }

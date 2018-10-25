@@ -10,6 +10,7 @@ import Quote from '../components/Blocks/Quote'
 import Breadcrumbs from '../components/Breadcrumbs/Breadcrumbs'
 import GridColumn from '../components/Grid/GridColumn'
 import CaseHeader from '../components/Header/CaseHeader'
+import queryWithLoading from '../components/QueryWithLoading/QueryWithLoading'
 import Team from '../components/Team/Team'
 
 export const CASE_PAGE_QUERY = gql`
@@ -43,25 +44,20 @@ export const CASE_PAGE_QUERY = gql`
   }
 `
 
-class CaseQuery extends Query<CasePageQuery, CasePageQueryVariables> {}
+class CaseQuery extends Query<CasePageQuery, CasePageQueryVariables> { }
+const CaseQueryWithLoading = queryWithLoading(CaseQuery)
 
 export class CasePage extends React.Component<
   RouteComponentProps<{ match: string; slug: string }>
-> {
+  > {
   render() {
     const { match } = this.props
     return (
-      <CaseQuery
+      <CaseQueryWithLoading
         query={CASE_PAGE_QUERY}
         variables={{ slug: match.params.slug }}
       >
-        {({ loading, data }) => {
-          if (loading || !data || !data.workCase) {
-            return null
-          }
-
-          const { workCase } = data
-
+        {({ workCase }: { workCase: any }) => {
           return (
             <>
               <Helmet>
@@ -132,7 +128,7 @@ export class CasePage extends React.Component<
             </>
           )
         }}
-      </CaseQuery>
+      </CaseQueryWithLoading>
     )
   }
 }
