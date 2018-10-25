@@ -4,72 +4,72 @@ exports[`components/Header renders Header 1`] = `
 <div>
   <div>
     <div
-      class="sc-esjQYD emLbYY"
+      class="sc-RefOD iNNUDu"
     >
       <div
-        class="sc-kIPQKe cRzEQQ"
+        class="sc-iQKALj dIZPhs"
       >
         <div
-          class="sc-dfVpRl fpwQPy"
+          class="sc-kPVwWT dfqYat"
         >
           <a
-            class="sc-gzOgki fYazLb"
+            class="sc-kfGgVZ daKMaq"
           >
             <img
-              class="sc-iyvyFf irPqHj"
+              class="sc-esjQYD iWfiz"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-hwwEjo jroJGa"
+            class="sc-kIPQKe WeyZt"
           >
             <a
-              class="sc-kfGgVZ dRfPxx"
+              class="sc-ibxdXY kkJHRB"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-kfGgVZ dRfPxx"
+              class="sc-ibxdXY kkJHRB"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-kfGgVZ dRfPxx"
+              class="sc-ibxdXY kkJHRB"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-kfGgVZ dRfPxx"
+              class="sc-ibxdXY kkJHRB"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-kfGgVZ dRfPxx"
+              class="sc-ibxdXY kkJHRB"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-kfGgVZ dRfPxx"
+              class="sc-ibxdXY kkJHRB"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-kPVwWT hpTcRX"
+              class="sc-eXEjpC imDtCu"
             />
           </div>
         </div>
         <div
-          class="sc-eXEjpC jVUDZG"
+          class="sc-bwCtUz cxSQBw"
         >
           <h1
-            class="sc-ibxdXY iZEFyT"
+            class="sc-hrWEMg jtjOwu"
           >
             <span>
               Vi digitaliserar företag och organisationer

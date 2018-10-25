@@ -4,72 +4,72 @@ exports[`components/About renders About 1`] = `
 <div>
   <div>
     <div
-      class="sc-kTUwUJ bJqljw"
+      class="sc-gzOgki dHadgZ"
     >
       <div
-        class="sc-dqBHgY jzsvTx"
+        class="sc-iyvyFf iFHHNw"
       >
         <div
-          class="sc-jwKygS hDGBmk"
+          class="sc-elJkPf fqzjUn"
         >
           <a
-            class="sc-btzYZH iNlviF"
+            class="sc-jtRfpW cXQLFZ"
           >
             <img
-              class="sc-lhVmIH cZUBMJ"
+              class="sc-kTUwUJ eCHEyj"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-bYSBpT ffXmNN"
+            class="sc-dqBHgY fDUITd"
           >
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-elJkPf ruddK"
+              class="sc-gxMtzJ dqeSKx"
             />
           </div>
         </div>
         <div
-          class="sc-gxMtzJ gVSKut"
+          class="sc-hwwEjo dFeesc"
         >
           <h1
-            class="sc-dfVpRl jNyPKG"
+            class="sc-kPVwWT gnRolL"
           >
             <span>
               Vi skapades ur en vilja att skapa värde,
@@ -228,15 +228,15 @@ exports[`components/About renders About 1`] = `
           >
             Löksås ipsum plats upprätthållande från sorgliga se, denna precis från brunsås strand år dock, stig färdväg genom äng varit. Erfarenheter regn groda tidigare trevnadens hwila ännu dimma kunde mjuka sällan, oss genom tidigare annat sista stora tid plats inom.
             <div
-              class="sc-fjdhpX bYgbrg"
+              class="sc-chPdSV bslwmx"
             >
               <img
-                class="sc-jzJRlG gpuIau"
+                class="sc-kgoBCf ftrIUt"
                 alt=""
                 src="//images.ctfassets.net/rj4r6yfcesw5/2jLXgnJMdqcMIWgiYAEyq2/d88293e3899d0e65ad99754aa45f5f85/aaa_logo_web_ny.png"
               />
               <img
-                class="sc-jzJRlG gpuIau"
+                class="sc-kgoBCf ftrIUt"
                 alt=""
                 src="//images.ctfassets.net/rj4r6yfcesw5/6tIo0BhFEki6Iyc68AkgiQ/98253a689d719382d5d13f4896f10941/vas-superforetagen-2016._300dppipng.png"
               />

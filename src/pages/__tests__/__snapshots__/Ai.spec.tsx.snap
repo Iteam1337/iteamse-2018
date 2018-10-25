@@ -4,72 +4,72 @@ exports[`components/Ai renders Ai 1`] = `
 <div>
   <div>
     <div
-      class="sc-kTUwUJ ifseYQ"
+      class="sc-gzOgki hDFAwL"
     >
       <div
-        class="sc-dqBHgY jzsvTx"
+        class="sc-iyvyFf iFHHNw"
       >
         <div
-          class="sc-jwKygS hDGBmk"
+          class="sc-elJkPf fqzjUn"
         >
           <a
-            class="sc-btzYZH iNlviF"
+            class="sc-jtRfpW cXQLFZ"
           >
             <img
-              class="sc-lhVmIH cZUBMJ"
+              class="sc-kTUwUJ eCHEyj"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-bYSBpT ffXmNN"
+            class="sc-dqBHgY fDUITd"
           >
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-dfVpRl uQOzH"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-elJkPf ruddK"
+              class="sc-gxMtzJ dqeSKx"
             />
           </div>
         </div>
         <div
-          class="sc-gxMtzJ gVSKut"
+          class="sc-hwwEjo dFeesc"
         >
           <h1
-            class="sc-dfVpRl kvmhdQ"
+            class="sc-kPVwWT fMZfyX"
           >
             <span>
               Våra erbjudanden inom AI
@@ -130,10 +130,10 @@ exports[`components/Ai renders Ai 1`] = `
         data-test="table-"
       >
         <div
-          class="sc-cSHVUG hCuviw"
+          class="sc-kGXeez cNZJKT"
         >
           <div
-            class="sc-kAzzGY jHprQs"
+            class="sc-kpOJdX kAzjOl"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -142,7 +142,7 @@ exports[`components/Ai renders Ai 1`] = `
             </h3>
           </div>
           <div
-            class="sc-chPdSV mxuDG"
+            class="sc-dxgOiQ hbQHil"
           >
             <div
               class="sc-htpNat bkGJgg"
@@ -234,7 +234,7 @@ exports[`components/Ai renders Ai 1`] = `
                         style="width: 100px;"
                       >
                         <div
-                          class="sc-kgoBCf bnKAYi"
+                          class="sc-ckVGcZ jsxRSL"
                         >
                           FTE
                         </div>
@@ -276,7 +276,7 @@ exports[`components/Ai renders Ai 1`] = `
                         style="width: 100px;"
                       >
                         <div
-                          class="sc-kgoBCf bnKAYi"
+                          class="sc-ckVGcZ jsxRSL"
                         >
                           Veckor
                         </div>
@@ -318,7 +318,7 @@ exports[`components/Ai renders Ai 1`] = `
                         style="width: 100px;"
                       >
                         <div
-                          class="sc-kgoBCf bnKAYi"
+                          class="sc-ckVGcZ jsxRSL"
                         >
                           Data-analytiker
                         </div>
@@ -360,7 +360,7 @@ exports[`components/Ai renders Ai 1`] = `
                         style="width: 100px;"
                       >
                         <div
-                          class="sc-kgoBCf bnKAYi"
+                          class="sc-ckVGcZ jsxRSL"
                         >
                           DevOps-ingenjör
                         </div>
@@ -402,7 +402,7 @@ exports[`components/Ai renders Ai 1`] = `
                         style="width: 100px;"
                       >
                         <div
-                          class="sc-kgoBCf bnKAYi"
+                          class="sc-ckVGcZ jsxRSL"
                         >
                           Data-ingenjör
                         </div>
@@ -444,7 +444,7 @@ exports[`components/Ai renders Ai 1`] = `
                         style="width: 100px;"
                       >
                         <div
-                          class="sc-kgoBCf bnKAYi"
+                          class="sc-ckVGcZ jsxRSL"
                         >
                           Utvecklare
                         </div>
@@ -486,7 +486,7 @@ exports[`components/Ai renders Ai 1`] = `
                         style="width: 100px;"
                       >
                         <div
-                          class="sc-kgoBCf bnKAYi"
+                          class="sc-ckVGcZ jsxRSL"
                         >
                           Timmar
                         </div>
@@ -528,7 +528,7 @@ exports[`components/Ai renders Ai 1`] = `
                         style="width: 100px;"
                       >
                         <div
-                          class="sc-kgoBCf bnKAYi"
+                          class="sc-ckVGcZ jsxRSL"
                         >
                           Leverabel
                         </div>
@@ -564,7 +564,7 @@ exports[`components/Ai renders Ai 1`] = `
                         style="width: 100px;"
                       >
                         <div
-                          class="sc-kgoBCf bnKAYi"
+                          class="sc-ckVGcZ jsxRSL"
                         >
                           Datakälla
                         </div>
@@ -606,7 +606,7 @@ exports[`components/Ai renders Ai 1`] = `
                         style="width: 100px;"
                       >
                         <div
-                          class="sc-kgoBCf bnKAYi"
+                          class="sc-ckVGcZ jsxRSL"
                         >
                           Modell
                         </div>
