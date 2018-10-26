@@ -11,25 +11,25 @@ exports[`components/QueryWithLoading renders 1`] = `
 exports[`components/QueryWithLoading renders loading indicator when passed no data 1`] = `
 <div>
   <div
-    class="sc-fjdhpX dDKgMn sc-dnqmqq eCKktF"
+    class="sc-VigVT xMFhY sc-gzVnrw bIbQZT"
   >
     <div
-      class="sc-jzJRlG dwlHZl"
+      class="sc-jTzLTM hsHbNM"
     />
   </div>
   <div
-    class="sc-cSHVUG eFqHvP sc-iwsKbI fwFOwW"
+    class="sc-fjdhpX dSePDG sc-htoDjs bjndSh"
   >
     <div
-      class="sc-kAzzGY eUcrgD"
+      class="sc-jzJRlG eDqLMO"
       width="100"
     />
     <div
-      class="sc-kAzzGY eUcrgD"
+      class="sc-jzJRlG eDqLMO"
       width="100"
     />
     <div
-      class="sc-kAzzGY boqbHi"
+      class="sc-jzJRlG fBYRlq"
       width="75"
     />
   </div>

@@ -3,7 +3,6 @@ import { render, wait } from 'react-testing-library'
 
 import { HomePageQuery } from '../../../../typings/iteamse'
 import { pageStart } from '../../../pages/__fixtures__/pageStart'
-import { TeamQueryMock } from '../../../pages/__fixtures__/teamMock'
 import { HOME_PAGE_QUERY } from '../../../pages/Home'
 import MockedQuery from '../../../utils/test-utils/MockedQuery'
 
@@ -21,13 +20,13 @@ const mocks = [
       },
     },
   },
-  TeamQueryMock,
 ]
 
 describe('components/QueryWithLoading', () => {
   it('renders', async () => {
     class HomeQuery extends Query<HomePageQuery> {}
     const HomeQueryWithLoading = queryWithLoading(HomeQuery)
+
     const { container } = render(
       <MockedQuery mocks={mocks}>
         <HomeQueryWithLoading query={HOME_PAGE_QUERY}>
@@ -44,6 +43,7 @@ describe('components/QueryWithLoading', () => {
   it('renders loading indicator when passed no data', async () => {
     class HomeQuery extends Query<HomePageQuery> {}
     const HomeQueryWithLoading = queryWithLoading(HomeQuery)
+    
     const { container } = render(
       <MockedQuery mocks={[]}>
         <HomeQueryWithLoading query={HOME_PAGE_QUERY}>

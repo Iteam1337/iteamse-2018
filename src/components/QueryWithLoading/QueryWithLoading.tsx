@@ -1,11 +1,13 @@
+import { DocumentNode } from 'graphql'
 import React from 'react'
+import { OperationVariables } from 'react-apollo'
 import styled from 'styled-components'
 import { withProps } from '../../theme'
 
 import GridColumn, { GridColumnClean } from '../Grid/GridColumn'
 
 const HeaderIndicatorWrap = styled(GridColumnClean)`
-  background: #f2f2f2;
+  background-color: ${({ theme }) => theme.colors.concrete};
   height: 430px;
 
   @media (min-width: 481px) {
@@ -35,7 +37,7 @@ interface ContentIndicatorProps {
 const ContentIndicator = withProps<ContentIndicatorProps>()(styled.div)`
   height: 18px;
   width: ${({ width }) => `${width}%`};
-  background-color: #f2f2f2;
+  background-color: ${({ theme }) => theme.colors.concrete};
 `
 
 const LoadingIndicator = () => (
@@ -54,14 +56,16 @@ const LoadingIndicator = () => (
 const queryWithLoading = (QueryComponent: any) => {
   return ({
     query,
+    variables,
     children,
     ...props
   }: {
-    query: any
+    query: DocumentNode
+    variables?: OperationVariables
     children: any
     props?: any[]
   }) => (
-    <QueryComponent query={query} {...props}>
+    <QueryComponent query={query} variables={variables} {...props}>
       {({ loading, data }: { loading: boolean; data: any }) =>
         loading || !data ? <LoadingIndicator /> : children(data)}</QueryComponent>
   )
