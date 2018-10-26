@@ -109,16 +109,16 @@ export class CasePage extends React.Component {
               <Helmet>
                 <title>Iteam | Case</title>
                 <meta
-                  name="og:title"
+                  property="og:title"
                   content="Iteam | Case"
                 />
                 <meta
-                  name="twitter:title"
+                  property="twitter:title"
                   content="Iteam | Case"
                 />
                 {pageCases.headerImage && (
                   <meta
-                    name="og:image"
+                    property="og:image"
                     content={`https:${pageCases.headerImage}`}
                   />
                 )}

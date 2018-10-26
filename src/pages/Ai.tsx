@@ -44,11 +44,11 @@ export class Ai extends React.Component {
             <>
               <Helmet>
                 <title>Iteam | AI</title>
-                <meta name="og:title" content="Iteam | AI" />
-                <meta name="twitter:title" content="Iteam | AI" />
+                <meta property="og:title" content="Iteam | AI" />
+                <meta property="twitter:title" content="Iteam | AI" />
                 {pageAi.headerImage && (
                   <meta
-                    name="og:image"
+                    property="og:image"
                     content={`https:${pageAi.headerImage}`}
                   />
                 )}

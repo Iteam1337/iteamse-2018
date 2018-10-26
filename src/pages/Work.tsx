@@ -50,11 +50,11 @@ export class Work extends React.Component {
             <>
               <Helmet>
                 <title>Iteam | Jobba hos oss</title>
-                <meta name="og:title" content="Iteam | Jobba hos oss" />
-                <meta name="twitter:title" content="Iteam | Jobba hos oss" />
+                <meta property="og:title" content="Iteam | Jobba hos oss" />
+                <meta property="twitter:title" content="Iteam | Jobba hos oss" />
                 {pageWork.headerImage && (
                   <meta
-                    name="og:image"
+                    property="og:image"
                     content={`https:${pageWork.headerImage}`}
                   />
                 )}

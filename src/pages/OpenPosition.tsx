@@ -69,20 +69,20 @@ export class OpenPosition extends React.Component<
                   }
                 </title>
                 <meta
-                  name="og:title"
+                  property="og:title"
                   content={`Iteam | ${pageOpenPosition.headerText1} | ${
                     pageOpenPosition.headerText2
                   }`}
                 />
                 <meta
-                  name="twitter:title"
+                  property="twitter:title"
                   content={`Iteam | ${pageOpenPosition.headerText1} | ${
                     pageOpenPosition.headerText2
                   }`}
                 />
                 {pageOpenPosition.headerImage && (
                   <meta
-                    name="og:image"
+                    property="og:image"
                     content={`https:${pageOpenPosition.headerImage}`}
                   />
                 )}
