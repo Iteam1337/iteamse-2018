@@ -39,8 +39,8 @@ export class Operations extends React.Component {
             <>
               <Helmet>
                 <title>Iteam | Operations</title>
-                <meta name="og:title" content="Iteam | Operations" />
-                <meta name="twitter:title" content="Iteam | Operations" />
+                <meta property="og:title" content="Iteam | Operations" />
+                <meta property="twitter:title" content="Iteam | Operations" />
               </Helmet>
               <Header
                 backgroundImage={pageOps.headerImage}

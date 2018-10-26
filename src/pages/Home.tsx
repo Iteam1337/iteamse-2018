@@ -131,8 +131,8 @@ export class Home extends React.Component {
       <>
         <Helmet>
           <title>Iteam - There's a better way</title>
-          <meta name="og:title" content="Iteam - There's a better way" />
-          <meta name="twitter:title" content="Iteam - There's a better way" />
+          <meta property="og:title" content="Iteam - There's a better way" />
+          <meta property="twitter:title" content="Iteam - There's a better way" />
         </Helmet>
 
         <HomeQuery query={HOME_PAGE_QUERY}>

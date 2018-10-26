@@ -50,11 +50,11 @@ export class TeamPage extends React.Component {
             <>
               <Helmet>
                 <title>Iteam | Medarbetare</title>
-                <meta name="og:title" content="Iteam | Medarbetare" />
-                <meta name="twitter:title" content="Iteam | Medarbetare" />
+                <meta property="og:title" content="Iteam | Medarbetare" />
+                <meta property="twitter:title" content="Iteam | Medarbetare" />
                 {pageTeam.headerImage && (
                   <meta
-                    name="og:image"
+                    property="og:image"
                     content={`https:${pageTeam.headerImage}`}
                   />
                 )}

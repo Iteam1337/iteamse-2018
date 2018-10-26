@@ -66,14 +66,14 @@ export class CasePage extends React.Component<
             <>
               <Helmet>
                 <title>Iteam | {workCase.title}</title>
-                <meta name="og:title" content={`Iteam | ${workCase.title}`} />
+                <meta property="og:title" content={`Iteam | ${workCase.title}`} />
                 <meta
-                  name="twitter:title"
+                  property="twitter:title"
                   content={`Iteam | ${workCase.title}`}
                 />
                 {workCase.casePageBackgroundImage && (
                   <meta
-                    name="og:image"
+                    property="og:image"
                     content={`https:${workCase.casePageBackgroundImage}`}
                   />
                 )}

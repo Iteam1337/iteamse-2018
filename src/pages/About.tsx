@@ -66,11 +66,11 @@ export class About extends React.Component {
             <>
               <Helmet>
                 <title>Iteam | Om oss</title>
-                <meta name="og:title" content="Iteam | Om oss" />
-                <meta name="twitter:title" content="Iteam | Om oss" />
+                <meta property="og:title" content="Iteam | Om oss" />
+                <meta property="twitter:title" content="Iteam | Om oss" />
                 {pageAboutUs.headerImage && (
                   <meta
-                    name="og:image"
+                    property="og:image"
                     content={`https:${pageAboutUs.headerImage}`}
                   />
                 )}
