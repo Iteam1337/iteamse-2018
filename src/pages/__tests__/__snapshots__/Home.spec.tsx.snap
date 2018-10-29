@@ -4,72 +4,72 @@ exports[`components/Home renders Home 1`] = `
 <div>
   <div>
     <div
-      class="sc-gzOgki ijJeTO"
+      class="sc-iyvyFf kUVURb"
     >
       <div
-        class="sc-iyvyFf iFHHNw"
+        class="sc-hwwEjo idbpfi"
       >
         <div
-          class="sc-elJkPf fqzjUn"
+          class="sc-jtRfpW kaiGPi"
         >
           <a
-            class="sc-jtRfpW cXQLFZ"
+            class="sc-kTUwUJ ijPJJc"
           >
             <img
-              class="sc-kTUwUJ eCHEyj"
+              class="sc-dqBHgY kmuJpj"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-dqBHgY fDUITd"
+            class="sc-gxMtzJ fEeBIz"
           >
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-gxMtzJ dqeSKx"
+              class="sc-dfVpRl foeOrh"
             />
           </div>
         </div>
         <div
-          class="sc-hwwEjo dFeesc"
+          class="sc-kPVwWT bZitsY"
         >
           <h1
-            class="sc-kPVwWT esOmxN"
+            class="sc-kfGgVZ eZzsNQ"
           >
             <span>
               Vi digitaliserar företag och organisationer
@@ -81,20 +81,20 @@ exports[`components/Home renders Home 1`] = `
     </div>
   </div>
   <div
-    class="sc-fAjcbJ dtLsEf"
+    class="sc-caSCKo hkgksF"
   >
     <div
-      class="sc-caSCKo gqigfZ"
+      class="sc-gisBJw hxEOlZ"
     >
       <img
-        class="sc-kgAjT iPWKEb"
+        class="sc-cJSrbW bKpQbZ"
         src="test-file-stub"
       />
       <div
-        class="sc-gisBJw dqSbzc"
+        class="sc-kjoXOD fJKQCG"
       >
         <div
-          class="sc-kjoXOD fBAeab"
+          class="sc-cHGsZl RKdrh"
         >
           <h1
             class="sc-gZMcBi ctjDhW"
@@ -111,17 +111,17 @@ exports[`components/Home renders Home 1`] = `
             </div>
           </div>
           <a
-            class="sc-cHGsZl dMzAkq"
+            class="sc-TOsTZ eQHgrN"
           >
             Läs om hur vi hjälper Arbetsförmedlingen med kod
           </a>
           <img
-            class="sc-cJSrbW gWTxbH"
+            class="sc-ksYbfQ iDsYu"
             src="//images.ctfassets.net/rj4r6yfcesw5/3qnZSfySW4cEGoUo6KCAae/8a656eba15e15b61dacc9fbea38aa4bd/logo_af.png"
           />
         </div>
         <div
-          class="sc-kjoXOD fBAeab"
+          class="sc-cHGsZl RKdrh"
         >
           <h1
             class="sc-gZMcBi ctjDhW"
@@ -138,17 +138,17 @@ exports[`components/Home renders Home 1`] = `
             </div>
           </div>
           <a
-            class="sc-cHGsZl dMzAkq"
+            class="sc-TOsTZ eQHgrN"
           >
             Läs om hur vi hjälper Taxi Stockholm med strategi
           </a>
           <img
-            class="sc-cJSrbW gWTxbH"
+            class="sc-ksYbfQ iDsYu"
             src="//images.ctfassets.net/rj4r6yfcesw5/1mv5fxBGLmeyWom4OI2WsI/a4d79cae2076b43aea926db2f1244b52/logo_tsab.png"
           />
         </div>
         <div
-          class="sc-kjoXOD fBAeab"
+          class="sc-cHGsZl RKdrh"
         >
           <h1
             class="sc-gZMcBi ctjDhW"
@@ -165,12 +165,12 @@ exports[`components/Home renders Home 1`] = `
             </div>
           </div>
           <a
-            class="sc-cHGsZl dMzAkq"
+            class="sc-TOsTZ eQHgrN"
           >
             Läs om hur vi hjälper SEB med kultur
           </a>
           <img
-            class="sc-cJSrbW gWTxbH"
+            class="sc-ksYbfQ iDsYu"
             src="//images.ctfassets.net/rj4r6yfcesw5/4D844WR1v20ICIOG4SK0y8/15a008277f5565d9f52fbd5312f6e121/logo_seb.png"
           />
         </div>
@@ -204,15 +204,15 @@ exports[`components/Home renders Home 1`] = `
             class="sc-bZQynM hmvJjY"
           >
             <div
-              class="sc-TOsTZ kjYrri"
+              class="sc-kgAjT cuzzPp"
             >
               We are offering an Artificial Intelligence package to help you build AI products and services. We have a very competent Data Science team that will help you grow in the growing market of Artificial Intelligence.
             </div>
             <div
-              class="sc-TOsTZ kjYrri"
+              class="sc-kgAjT cuzzPp"
             >
               <a
-                class="sc-eqIVtm ksJilT"
+                class="sc-fAjcbJ iLUBwq"
               >
                 Läs mer om våra erbjudanden inom AI
               </a>

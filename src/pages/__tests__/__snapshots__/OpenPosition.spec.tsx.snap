@@ -4,72 +4,72 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
 <div>
   <div>
     <div
-      class="sc-gzOgki gsvAiI"
+      class="sc-iyvyFf fletZv"
     >
       <div
-        class="sc-iyvyFf iFHHNw"
+        class="sc-hwwEjo idbpfi"
       >
         <div
-          class="sc-elJkPf fqzjUn"
+          class="sc-jtRfpW kaiGPi"
         >
           <a
-            class="sc-jtRfpW cXQLFZ"
+            class="sc-kTUwUJ ijPJJc"
           >
             <img
-              class="sc-kTUwUJ eCHEyj"
+              class="sc-dqBHgY kmuJpj"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-dqBHgY fDUITd"
+            class="sc-gxMtzJ fEeBIz"
           >
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-dfVpRl uQOzH active-nav"
+              class="sc-gzOgki dsuNbc active-nav"
               aria-current="true"
             >
               Karriär
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-gxMtzJ dqeSKx"
+              class="sc-dfVpRl foeOrh"
             />
           </div>
         </div>
         <div
-          class="sc-hwwEjo dFeesc"
+          class="sc-kPVwWT bZitsY"
         >
           <h1
-            class="sc-kPVwWT jyUVJP"
+            class="sc-kfGgVZ evHcTd"
           >
             <span>
               UX Designer

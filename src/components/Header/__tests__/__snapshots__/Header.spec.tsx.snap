@@ -4,72 +4,72 @@ exports[`components/Header renders Header 1`] = `
 <div>
   <div>
     <div
-      class="sc-RefOD iNNUDu"
+      class="sc-iQKALj cWDNta"
     >
       <div
-        class="sc-iQKALj dIZPhs"
+        class="sc-bwCtUz gSKloM"
       >
         <div
-          class="sc-kPVwWT dfqYat"
+          class="sc-kfGgVZ cbwdvv"
         >
           <a
-            class="sc-kfGgVZ daKMaq"
+            class="sc-esjQYD iHjIyb"
           >
             <img
-              class="sc-esjQYD iWfiz"
+              class="sc-kIPQKe gxmFfR"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-kIPQKe WeyZt"
+            class="sc-eXEjpC dbuBDu"
           >
             <a
-              class="sc-ibxdXY kkJHRB"
+              class="sc-RefOD hSHoLv"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-ibxdXY kkJHRB"
+              class="sc-RefOD hSHoLv"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-ibxdXY kkJHRB"
+              class="sc-RefOD hSHoLv"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-ibxdXY kkJHRB"
+              class="sc-RefOD hSHoLv"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-ibxdXY kkJHRB"
+              class="sc-RefOD hSHoLv"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-ibxdXY kkJHRB"
+              class="sc-RefOD hSHoLv"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-eXEjpC imDtCu"
+              class="sc-ibxdXY wRCfH"
             />
           </div>
         </div>
         <div
-          class="sc-bwCtUz cxSQBw"
+          class="sc-hrWEMg gemQaG"
         >
           <h1
-            class="sc-hrWEMg jtjOwu"
+            class="sc-eTuwsz efzmhK"
           >
             <span>
               Vi digitaliserar företag och organisationer

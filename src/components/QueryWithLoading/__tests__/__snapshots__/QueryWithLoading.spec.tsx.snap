@@ -11,27 +11,31 @@ exports[`components/QueryWithLoading renders 1`] = `
 exports[`components/QueryWithLoading renders loading indicator when passed no data 1`] = `
 <div>
   <div
-    class="sc-VigVT xMFhY sc-gzVnrw bIbQZT"
+    class="sc-VigVT EKBMx"
   >
     <div
-      class="sc-jTzLTM hsHbNM"
-    />
-  </div>
-  <div
-    class="sc-fjdhpX dSePDG sc-htoDjs bjndSh"
-  >
+      class="sc-jTzLTM ldfVLL sc-gzVnrw bIbQZT"
+    >
+      <span
+        class="sc-fjdhpX cSnFc"
+      />
+    </div>
     <div
-      class="sc-jzJRlG eDqLMO"
-      width="100"
-    />
-    <div
-      class="sc-jzJRlG eDqLMO"
-      width="100"
-    />
-    <div
-      class="sc-jzJRlG fBYRlq"
-      width="75"
-    />
+      class="sc-jzJRlG cHsqxV sc-htoDjs bjndSh"
+    >
+      <span
+        class="sc-cSHVUG izYPqG"
+        width="100"
+      />
+      <span
+        class="sc-cSHVUG izYPqG"
+        width="100"
+      />
+      <span
+        class="sc-cSHVUG hoZFQZ"
+        width="75"
+      />
+    </div>
   </div>
 </div>
 `;

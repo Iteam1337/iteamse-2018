@@ -4,72 +4,72 @@ exports[`components/Work renders Work 1`] = `
 <div>
   <div>
     <div
-      class="sc-gzOgki cySwKW"
+      class="sc-iyvyFf hynywx"
     >
       <div
-        class="sc-iyvyFf iFHHNw"
+        class="sc-hwwEjo idbpfi"
       >
         <div
-          class="sc-elJkPf fqzjUn"
+          class="sc-jtRfpW kaiGPi"
         >
           <a
-            class="sc-jtRfpW cXQLFZ"
+            class="sc-kTUwUJ ijPJJc"
           >
             <img
-              class="sc-kTUwUJ eCHEyj"
+              class="sc-dqBHgY kmuJpj"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-dqBHgY fDUITd"
+            class="sc-gxMtzJ fEeBIz"
           >
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-dfVpRl uQOzH"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-gxMtzJ dqeSKx"
+              class="sc-dfVpRl foeOrh"
             />
           </div>
         </div>
         <div
-          class="sc-hwwEjo dFeesc"
+          class="sc-kPVwWT bZitsY"
         >
           <h1
-            class="sc-kPVwWT ckoHgT"
+            class="sc-kfGgVZ lglpSv"
           >
             <span>
               Bli en del av teamet
@@ -83,24 +83,24 @@ exports[`components/Work renders Work 1`] = `
     class="sc-iwsKbI fwFOwW"
   >
     <div
-      class="sc-jnlKLf cJXwBw"
+      class="sc-fYxtnH bnuCxB"
     >
       <div
-        class="sc-gGBfsJ bVnuhF"
+        class="sc-jnlKLf llearn"
         data-test="filter-"
         tabindex="0"
       >
         Alla
       </div>
       <div
-        class="sc-gGBfsJ cMDALe"
+        class="sc-jnlKLf hLwADf"
         data-test="filter-Stockholm"
         tabindex="0"
       >
         Stockholm
       </div>
       <div
-        class="sc-gGBfsJ cMDALe"
+        class="sc-jnlKLf hLwADf"
         data-test="filter-Göteborg"
         tabindex="0"
       >
@@ -148,7 +148,7 @@ exports[`components/Work renders Work 1`] = `
               </div>
             </div>
             <a
-              class="sc-eqIVtm ksJilT"
+              class="sc-fAjcbJ iLUBwq"
               black="0"
             >
               Läs mer och ansök

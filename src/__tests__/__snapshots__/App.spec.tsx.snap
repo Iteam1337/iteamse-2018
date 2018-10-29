@@ -3,48 +3,48 @@
 exports[`App renders App 1`] = `
 <div>
   <div
-    class="sc-exAgwC ddHbkj"
+    class="sc-cQFLBn hoYiCt"
   >
     <button
-      class="sc-gqPbQI gJBwYw"
+      class="sc-hORach giHzQT"
       aria-label="Menu button"
       data-testid="btn-mobile-menu"
       role="button"
     >
       <div
-        class="sc-bMVAic cvBeet"
+        class="sc-bAeIUo BuwIN"
       >
         <div
-          class="sc-hORach bTUMb"
+          class="sc-bMVAic kaArOt"
         />
         <div
-          class="sc-hORach bTUMb"
+          class="sc-bMVAic kaArOt"
         />
         <div
-          class="sc-hORach bTUMb"
+          class="sc-bMVAic kaArOt"
         />
       </div>
     </button>
   </div>
   <div
-    class="sc-bsbRJL iWKolW"
+    class="sc-hZSUBg gCjMfL"
   >
     <div
-      class="sc-hZSUBg fIVzAr"
+      class="sc-cMhqgX lhZXsY"
     >
       <div
-        class="sc-eTuwsz cFVyvL"
+        class="sc-gwVKww fyIBMT"
       >
         <div
-          class="sc-gwVKww dRnZTI"
+          class="sc-hXRMBi eRcyCh"
         >
           Iteam Göteborg
         </div>
         <div
-          class="sc-hXRMBi iVBwyT"
+          class="sc-epnACN cdTdYx"
         >
           <ul
-            class="sc-kpOJdX fLGkMJ"
+            class="sc-dxgOiQ dcGBDz"
           >
             <li>
               Haga Kyrkogata 28
@@ -56,16 +56,16 @@ exports[`App renders App 1`] = `
           </ul>
         </div>
         <ul
-          class="sc-kpOJdX fLGkMJ"
+          class="sc-dxgOiQ dcGBDz"
         >
           <li>
             +46 734 029 112
           </li>
           <li
-            class="sc-iQNlJl cMOgxj"
+            class="sc-bsbRJL lckEFj"
           >
             <a
-              class="sc-epnACN hAvzTR"
+              class="sc-iQNlJl bMdqMM"
             >
               johanna.grahn@iteam.se
             </a>
@@ -77,18 +77,18 @@ exports[`App renders App 1`] = `
         </ul>
       </div>
       <div
-        class="sc-eTuwsz cFVyvL"
+        class="sc-gwVKww fyIBMT"
       >
         <div
-          class="sc-gwVKww dRnZTI"
+          class="sc-hXRMBi eRcyCh"
         >
           Iteam Stockholm
         </div>
         <div
-          class="sc-hXRMBi iVBwyT"
+          class="sc-epnACN cdTdYx"
         >
           <ul
-            class="sc-kpOJdX fLGkMJ"
+            class="sc-dxgOiQ dcGBDz"
           >
             <li>
               Östermalmsgatan 26A
@@ -100,16 +100,16 @@ exports[`App renders App 1`] = `
           </ul>
         </div>
         <ul
-          class="sc-kpOJdX fLGkMJ"
+          class="sc-dxgOiQ dcGBDz"
         >
           <li>
             +46 826 70 90
           </li>
           <li
-            class="sc-iQNlJl cMOgxj"
+            class="sc-bsbRJL lckEFj"
           >
             <a
-              class="sc-epnACN hAvzTR"
+              class="sc-iQNlJl bMdqMM"
             >
               info@iteam.se
             </a>
@@ -121,86 +121,86 @@ exports[`App renders App 1`] = `
         </ul>
       </div>
       <div
-        class="sc-iuJeZd guOzZL"
+        class="sc-esOvli bMqLzo"
       >
         <div
-          class="sc-cMhqgX kHrnQp"
+          class="sc-iuJeZd ABZio"
         >
           Följ oss
         </div>
         <ul
-          class="sc-kpOJdX fLGkMJ"
+          class="sc-dxgOiQ dcGBDz"
         >
           <li
-            class="sc-esOvli cUuXwy"
+            class="sc-cmthru bjhmZs"
           >
             <img
-              class="sc-cmthru eRayho"
+              class="sc-hMFtBS glFKNK"
               src="test-file-stub"
               alt=""
             />
             <a
-              class="sc-hMFtBS keueyS"
+              class="sc-cLQEGU bzMOQn"
               href="https://www.facebook.com/iteam1337/"
             >
               Facebook
             </a>
           </li>
           <li
-            class="sc-esOvli cUuXwy"
+            class="sc-cmthru bjhmZs"
           >
             <img
-              class="sc-cmthru eRayho"
+              class="sc-hMFtBS glFKNK"
               src="test-file-stub"
               alt=""
             />
             <a
-              class="sc-hMFtBS keueyS"
+              class="sc-cLQEGU bzMOQn"
               href="https://instagram.com/iteam1337"
             >
               Instagram
             </a>
           </li>
           <li
-            class="sc-esOvli cUuXwy"
+            class="sc-cmthru bjhmZs"
           >
             <img
-              class="sc-cmthru eRayho"
+              class="sc-hMFtBS glFKNK"
               src="test-file-stub"
               alt=""
             />
             <a
-              class="sc-hMFtBS keueyS"
+              class="sc-cLQEGU bzMOQn"
               href="https://www.linkedin.com/company/270569/"
             >
               LinkedIn
             </a>
           </li>
           <li
-            class="sc-esOvli cUuXwy"
+            class="sc-cmthru bjhmZs"
           >
             <img
-              class="sc-cmthru eRayho"
+              class="sc-hMFtBS glFKNK"
               src="test-file-stub"
               alt=""
             />
             <a
-              class="sc-hMFtBS keueyS"
+              class="sc-cLQEGU bzMOQn"
               href="https://www.youtube.com/channel/UCU2TdLZ7p0jEuuGUxaod4lw"
             >
               YouTube
             </a>
           </li>
           <li
-            class="sc-esOvli cUuXwy"
+            class="sc-cmthru bjhmZs"
           >
             <img
-              class="sc-cmthru eRayho"
+              class="sc-hMFtBS glFKNK"
               src="test-file-stub"
               alt=""
             />
             <a
-              class="sc-hMFtBS keueyS"
+              class="sc-cLQEGU bzMOQn"
               href="http://www.mynewsdesk.com/se/iteam"
             >
               MyNewsDesk
@@ -210,10 +210,10 @@ exports[`App renders App 1`] = `
       </div>
     </div>
     <div
-      class="sc-cLQEGU laMIkr"
+      class="sc-gqPbQI lnbsjh"
     >
       <a
-        class="sc-gGBfsJ iXCAHZ"
+        class="sc-jnlKLf ewlqyw"
         black="1"
       >
         Behöver du supporthjälp?
