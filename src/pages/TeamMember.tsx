@@ -56,7 +56,7 @@ export class TeamMemberPage extends React.Component<
         query={TEAM_MEMBER_PAGE_QUERY}
         variables={{ shortName: match.params.shortName }}
       >
-        {({ teamMember }) => {
+        {({ teamMember }: any) => {
           if (!teamMember) {
             return <div>Teammedlemmen existerar inte</div>
           }

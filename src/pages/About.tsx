@@ -93,7 +93,7 @@ export class About extends React.Component {
                   {pageAboutUs.stabilityText}
 
                   <StabilityIcons>
-                    {pageAboutUs.stabilityIcons.map(icon => {
+                    {pageAboutUs.stabilityIcons.map((icon: any) => {
                       return typeof icon === 'string' ? (
                         <StabilityIcon alt="" key={icon} src={icon} />
                       ) : null
