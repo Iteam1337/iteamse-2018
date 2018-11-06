@@ -101,6 +101,7 @@ export interface CasePageQuery {
     team: Array< string > | null,
     quote: string | null,
     quotePerson: string | null,
+    quoteBgColor: string | null,
   } | null,
 };
 
