@@ -6,11 +6,11 @@ import 'what-input'
 import Footer from './components/Footer/Footer'
 import MobileMenu from './components/MobileMenu/MobileMenu'
 import About from './pages/About'
-import Ai from './pages/Ai'
 import Case from './pages/Case'
 import Cases from './pages/Cases'
 import Home from './pages/Home'
 import HowWeWork from './pages/HowWeWork'
+import Offers from './pages/Offers'
 import OpenPosition from './pages/OpenPosition'
 import Ops from './pages/Ops'
 import Team from './pages/Team'
@@ -40,7 +40,7 @@ const App = () => (
       <Route exact path="/jobba-hos-oss" component={Work} />
       <Route path="/jobba-hos-oss/:id" component={OpenPosition} />
       <Route path="/ops" component={Ops} />
-      <Route path="/erbjudanden/ai" component={Ai} />
+      <Route path="/erbjudanden" component={Offers} />
     </Switch>
     <MobileMenu />
     <Footer />

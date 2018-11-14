@@ -4,72 +4,72 @@ exports[`components/Cases renders Cases 1`] = `
 <div>
   <div>
     <div
-      class="sc-kTUwUJ kaowta"
+      class="sc-iyvyFf gyRHDS"
     >
       <div
-        class="sc-dqBHgY jzsvTx"
+        class="sc-hwwEjo idbpfi"
       >
         <div
-          class="sc-jwKygS hDGBmk"
+          class="sc-jtRfpW kaiGPi"
         >
           <a
-            class="sc-btzYZH iNlviF"
+            class="sc-kTUwUJ ijPJJc"
           >
             <img
-              class="sc-lhVmIH cZUBMJ"
+              class="sc-dqBHgY kmuJpj"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-bYSBpT ffXmNN"
+            class="sc-gxMtzJ fEeBIz"
           >
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
-              Case
+              Erbjudanden
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
-              AI
+              Våra case
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-elJkPf ruddK"
+              class="sc-dfVpRl foeOrh"
             />
           </div>
         </div>
         <div
-          class="sc-gxMtzJ gVSKut"
+          class="sc-kPVwWT bZitsY"
         >
           <h1
-            class="sc-dfVpRl jNyPKG"
+            class="sc-kfGgVZ cZHGPc"
           >
             <span>
               Några exempel på
@@ -84,33 +84,33 @@ exports[`components/Cases renders Cases 1`] = `
     class="sc-iwsKbI fwFOwW"
   >
     <div
-      class="sc-gPEVay lcjzYp"
+      class="sc-brqgnP eyJpmr"
     >
       <a
-        class="sc-kGXeez bqcmJv"
+        class="sc-cSHVUG eWWLWN"
       >
         <div
-          class="sc-Rmtcm krGDXq"
+          class="sc-iRbamj iMQfpY"
         >
           <div
-            class="sc-iRbamj klkeLc"
+            class="sc-cMljjf hASJyL"
           >
             <img
-              class="sc-jlyJG cnwdKy"
+              class="sc-jAaTju fyaeBC"
               src="//images.ctfassets.net/rj4r6yfcesw5/68OlBclfQAGMcEUsQgcIUY/9bdf52bb8a9a17be06e11ef3fa32d3de/vimla-case-phone.png"
               alt=""
             />
           </div>
           <div
-            class="sc-gipzik kZtRfz"
+            class="sc-jDwBTQ kKDTGq"
           >
             <div
-              class="sc-bRBYWo cunTLN"
+              class="sc-jlyJG jbMHNu"
             >
               Vimla
             </div>
             <div
-              class="sc-hzDkRC bnzvST"
+              class="sc-gipzik iPPVaj"
             >
               Synliggörande av asylsökandes kompetens med digitala verktyg
             </div>
@@ -118,30 +118,30 @@ exports[`components/Cases renders Cases 1`] = `
         </div>
       </a>
       <a
-        class="sc-kGXeez bqcmJv"
+        class="sc-cSHVUG eWWLWN"
       >
         <div
-          class="sc-Rmtcm krGDXq"
+          class="sc-iRbamj iMQfpY"
         >
           <div
-            class="sc-iRbamj klkeLc"
+            class="sc-cMljjf hASJyL"
           >
             <img
-              class="sc-jlyJG cnwdKy"
+              class="sc-jAaTju fyaeBC"
               src="//images.ctfassets.net/rj4r6yfcesw5/UGucAeFycSqIGw0CAc0ys/3d58300261bcff64dba751de9228a150/tsab-case-phone.png"
               alt=""
             />
           </div>
           <div
-            class="sc-gipzik kZtRfz"
+            class="sc-jDwBTQ kKDTGq"
           >
             <div
-              class="sc-bRBYWo cunTLN"
+              class="sc-jlyJG jbMHNu"
             >
               Taxi Stockholm
             </div>
             <div
-              class="sc-hzDkRC bnzvST"
+              class="sc-gipzik iPPVaj"
             >
               Synliggörande av asylsökandes kompetens med digitala verktyg
             </div>
@@ -149,24 +149,24 @@ exports[`components/Cases renders Cases 1`] = `
         </div>
       </a>
       <a
-        class="sc-kGXeez bqcmJv"
+        class="sc-cSHVUG eWWLWN"
       >
         <div
-          class="sc-Rmtcm krGDXq"
+          class="sc-iRbamj iMQfpY"
         >
           <div
-            class="sc-iRbamj klkeLc"
+            class="sc-cMljjf hASJyL"
           />
           <div
-            class="sc-gipzik kZtRfz"
+            class="sc-jDwBTQ kKDTGq"
           >
             <div
-              class="sc-bRBYWo cunTLN"
+              class="sc-jlyJG jbMHNu"
             >
               SEB
             </div>
             <div
-              class="sc-hzDkRC bnzvST"
+              class="sc-gipzik iPPVaj"
             >
               Synliggörande av asylsökandes kompetens med digitala verktyg
             </div>
@@ -174,30 +174,30 @@ exports[`components/Cases renders Cases 1`] = `
         </div>
       </a>
       <a
-        class="sc-kGXeez bqcmJv"
+        class="sc-cSHVUG eWWLWN"
       >
         <div
-          class="sc-Rmtcm krGDXq"
+          class="sc-iRbamj iMQfpY"
         >
           <div
-            class="sc-iRbamj klkeLc"
+            class="sc-cMljjf hASJyL"
           >
             <img
-              class="sc-jlyJG cnwdKy"
+              class="sc-jAaTju fyaeBC"
               src="//images.ctfassets.net/rj4r6yfcesw5/3Y7zZ25WbeOCU8w84kAEos/b97ff1899cf6f2e4dca0eb2b4f0d5a44/af.png"
               alt=""
             />
           </div>
           <div
-            class="sc-gipzik kZtRfz"
+            class="sc-jDwBTQ kKDTGq"
           >
             <div
-              class="sc-bRBYWo cunTLN"
+              class="sc-jlyJG jbMHNu"
             >
               Arbetsförmedlingen
             </div>
             <div
-              class="sc-hzDkRC bnzvST"
+              class="sc-gipzik iPPVaj"
             >
               Synliggörande av asylsökandes kompetens med digitala verktyg
             </div>

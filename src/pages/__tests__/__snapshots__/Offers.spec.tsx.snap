@@ -1,0 +1,252 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Offers renders Offers 1`] = `
+<div>
+  <div>
+    <div
+      class="sc-iyvyFf bEBYSK"
+    >
+      <div
+        class="sc-hwwEjo idbpfi"
+      >
+        <div
+          class="sc-jtRfpW kaiGPi"
+        >
+          <a
+            class="sc-kTUwUJ ijPJJc"
+          >
+            <img
+              class="sc-dqBHgY kmuJpj"
+              data-testid="logo"
+              path="test-file-stub"
+            />
+          </a>
+          <div
+            class="sc-gxMtzJ fEeBIz"
+          >
+            <a
+              class="sc-gzOgki dsuNbc"
+              aria-current="false"
+            >
+              Erbjudanden
+            </a>
+            <a
+              class="sc-gzOgki dsuNbc"
+              aria-current="false"
+            >
+              Våra case
+            </a>
+            <a
+              class="sc-gzOgki dsuNbc"
+              aria-current="false"
+            >
+              Metod
+            </a>
+            <a
+              class="sc-gzOgki dsuNbc"
+              aria-current="false"
+            >
+              Medarbetare
+            </a>
+            <a
+              class="sc-gzOgki dsuNbc"
+              aria-current="false"
+            >
+              Karriär
+            </a>
+            <a
+              class="sc-gzOgki dsuNbc"
+              aria-current="false"
+            >
+              Om
+            </a>
+            <div
+              class="sc-dfVpRl foeOrh"
+            />
+          </div>
+        </div>
+        <div
+          class="sc-kPVwWT bZitsY"
+        >
+          <h1
+            class="sc-kfGgVZ cZHGPc"
+          >
+            <span>
+              Våra erbjudanden
+            </span>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-iwsKbI fwFOwW"
+  >
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-htpNat bkGJgg"
+      >
+        <div>
+          <p>
+            Kod, kultur och strategi är nödvändliga beståndsdelar för att skapa innovation. Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum a nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-kvZOFW iXkMBf sc-iwsKbI fwFOwW"
+      >
+        <div
+          class="sc-hqyNC kzlzmD"
+        >
+          <img
+            class="sc-jbKcbu doSNMA"
+            src="//images.ctfassets.net/rj4r6yfcesw5/5n7J4mzx3UWam0YwgsUQm/8e00d12d6e80eba927b2a313fb250d87/1.png"
+          />
+          <h3
+            class="sc-bwzfXH kgEpTV"
+          >
+            Kod
+          </h3>
+          <div
+            class="sc-htpNat bkGJgg"
+          >
+            <div>
+              <p>
+                Systemutveckling, automatisering, artificiell intelligens, maskininlärning. Vi har alla redskap du behöver för att bygga vad du vill. Det du vill. Och vet du inte vad du behöver så hjälper vi dig med det med. 
+              </p>
+            </div>
+          </div>
+          <a
+            class="sc-dNLxif kvbOhB sc-Rmtcm dQDOMo"
+          >
+            Läs mer om 
+            kod
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-jqCOkK bGfLWg sc-iwsKbI fwFOwW"
+    id="kod"
+  >
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <h1
+        class="sc-gZMcBi ctjDhW"
+      >
+        Kod
+      </h1>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-htpNat bkGJgg"
+      >
+        <div>
+          <p>
+            Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum a nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras quis odio vel turpis pellentesque finibus. Pellentesque cursus diam ac ligula placerat volutpat. Vivamus dictum augue eu rutrum efficitur. Suspendisse ut pellentesque ante. 
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-uJMKN gKWLUl sc-iwsKbI fwFOwW"
+      >
+        <div
+          class="sc-bbmXgH BwLBT"
+        >
+          <h3
+            class="sc-bwzfXH kgEpTV"
+          >
+            Utveckling av pilot
+          </h3>
+          <div
+            class="sc-htpNat bkGJgg"
+          >
+            <div>
+              <p>
+                Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum a nisi.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-bbmXgH BwLBT"
+        >
+          <h3
+            class="sc-bwzfXH kgEpTV"
+          >
+            API
+          </h3>
+          <div
+            class="sc-htpNat bkGJgg"
+          >
+            <div>
+              <p>
+                Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum a nisi.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-bbmXgH BwLBT"
+        >
+          <h3
+            class="sc-bwzfXH kgEpTV"
+          >
+            Mobila applikationer
+          </h3>
+          <div
+            class="sc-htpNat bkGJgg"
+          >
+            <div>
+              <p>
+                Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum a nisi.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-bbmXgH BwLBT"
+        >
+          <h3
+            class="sc-bwzfXH kgEpTV"
+          >
+            AI-lösningar
+          </h3>
+          <div
+            class="sc-htpNat bkGJgg"
+          >
+            <div>
+              <p>
+                Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum a nisi
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      class="sc-gGBfsJ hhmgkJ"
+      src="//images.ctfassets.net/rj4r6yfcesw5/5SAhc8YuL6OaQQsC6miokK/7c09d594e44ffa47781bf1bdb21aae7f/illustrations-group-2.png"
+    />
+  </div>
+</div>
+`;

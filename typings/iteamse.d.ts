@@ -188,6 +188,35 @@ export interface HowWeWorkPageQuery {
   },
 };
 
+export interface OffersPageQuery {
+  pageOffers:  {
+    __typename: "PageOffers",
+    headerImage: string,
+    headerText1: string,
+    headerText2: string | null,
+    headerTextBgColor: string,
+    contactTitle: string,
+    team: Array< string > | null,
+    offersLeadText: string,
+  },
+  offers:  Array< {
+    __typename: "Offer",
+    offerIntroImage: string,
+    offerTitle: string,
+    offerIntroText: string,
+    offerLead: string,
+    offerUspOneTitle: string,
+    offerUspOneText: string,
+    offerUspTwoTitle: string,
+    offerUspTwoText: string,
+    offerUspThreeTitle: string | null,
+    offerUspThreeText: string | null,
+    offerUspFourTitle: string | null,
+    offerUspFourText: string | null,
+    offerIllustrationImage: string,
+  } >,
+};
+
 export interface OpenPositionPageQueryVariables {
   id: string,
 };

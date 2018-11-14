@@ -4,72 +4,72 @@ exports[`components/Ops renders Ops 1`] = `
 <div>
   <div>
     <div
-      class="sc-kTUwUJ dTepxp"
+      class="sc-iyvyFf gEAzWC"
     >
       <div
-        class="sc-dqBHgY jzsvTx"
+        class="sc-hwwEjo idbpfi"
       >
         <div
-          class="sc-jwKygS hDGBmk"
+          class="sc-jtRfpW kaiGPi"
         >
           <a
-            class="sc-btzYZH iNlviF"
+            class="sc-kTUwUJ ijPJJc"
           >
             <img
-              class="sc-lhVmIH cZUBMJ"
+              class="sc-dqBHgY kmuJpj"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-bYSBpT ffXmNN"
+            class="sc-gxMtzJ fEeBIz"
           >
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
-              Case
+              Erbjudanden
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
-              AI
+              Våra case
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-gzOgki dsuNbc"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-elJkPf ruddK"
+              class="sc-dfVpRl foeOrh"
             />
           </div>
         </div>
         <div
-          class="sc-gxMtzJ gVSKut"
+          class="sc-kPVwWT bZitsY"
         >
           <h1
-            class="sc-dfVpRl ckeprI"
+            class="sc-kfGgVZ lglpSv"
           >
             <span>
               Drift och support

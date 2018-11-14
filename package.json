@@ -52,6 +52,7 @@
     "react-responsive": "4.1.0",
     "react-reveal": "1.2.1",
     "react-router-dom": "4.2.2",
+    "react-router-hash-link": "^1.2.1",
     "react-safe": "1.1.1",
     "react-svg": "3.0.1",
     "react-table": "6.8.6",
