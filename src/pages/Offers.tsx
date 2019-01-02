@@ -155,10 +155,13 @@ export class Offers extends React.Component {
                             <H3>{offer.offerTitle}</H3>
                             <Paragraph>{offer.offerIntroText}</Paragraph>
                             <OfferIntroLink
-                              onClick={(e: React.SyntheticEvent<MouseEvent>) =>
-                                e.preventDefault()
-                              }
-                              smooth
+                              scroll={(element: any) => {
+                                window.scrollBy({
+                                  behavior: 'smooth',
+                                  left: 0,
+                                  top: element.offsetTop - window.pageYOffset,
+                                })
+                              }}
                               to={`#${linkTitle}`}
                             >
                               Läs mer om {linkTitle}
