@@ -6,6 +6,7 @@ import Fade from 'react-reveal/Fade'
 import styled from 'styled-components'
 import { OffersPageQuery } from '../../typings/iteamse'
 import GridColumn from '../components/Grid/GridColumn'
+import PaddedRow from '../components/Grid/PaddedRow'
 import Header from '../components/Header/Header'
 import { StyledHashLink as HashLink } from '../components/Link/Link'
 import Team from '../components/Team/Team'
@@ -43,16 +44,22 @@ export const OFFERS_PAGE_QUERY = gql`
 `
 
 const GridRow = styled(GridColumn)`
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 60px;
-  padding: 0;
+  grid-template-columns: 1fr;
+
+  @media (min-width: 1025px) {
+    grid-column-gap: 60px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+`
+
+const H1Margin = styled(H1)`
+  margin-bottom: 20px;
 `
 
 const OfferIntroItem = styled.div`
   display: grid;
   grid-column: auto;
   grid-row-gap: 20px;
-  align-content: flex-start;
 `
 
 const OfferIntroImage = styled.img`
@@ -61,24 +68,28 @@ const OfferIntroImage = styled.img`
 `
 
 const OfferIntroLink = styled(HashLink)`
-  justify-self: flex-start;
-  align-self: flex-end;
+  align-self: end;
+  justify-self: start;
 `
 
 const OffersGridColumn = styled(GridColumn)`
   grid-row-gap: 60px;
+
   :nth-child(odd) {
     background-color: ${({ theme }) => theme.colors.concrete};
   }
 `
 
 const OfferUspRow = styled(GridColumn)`
-  grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 60px;
-  padding: 0;
+  grid-template-columns: 1fr;
 
   > * {
     grid-column: auto;
+  }
+
+  @media (min-width: 1025px) {
+    grid-gap: 60px;
+    grid-template-columns: repeat(2, 1fr);
   }
 `
 
@@ -88,9 +99,14 @@ const OfferUspItem = styled.div`
 `
 
 const OfferIllustrationImage = styled.img`
-  justify-self: center;
-  width: 384px;
+  display: block;
   height: auto;
+  margin: 0 auto;
+  width: 256px;
+
+  @media (min-width: 1025px) {
+    width: 384px;
+  }
 `
 
 class OffersQuery extends Query<OffersPageQuery> {}
@@ -126,31 +142,33 @@ export class Offers extends React.Component {
                 messageTwo={pageOffers.headerText2}
               />
               <GridColumn>
-                <Fade bottom distance="50px">
-                  <Paragraph>{pageOffers.offersLeadText}</Paragraph>
-                  <GridRow>
-                    {offers.map(offer => {
-                      const linkTitle = offer.offerTitle.toLowerCase()
+                <PaddedRow>
+                  <Fade bottom distance="50px">
+                    <Paragraph>{pageOffers.offersLeadText}</Paragraph>
+                    <GridRow>
+                      {offers.map(offer => {
+                        const linkTitle = offer.offerTitle.toLowerCase()
 
-                      return (
-                        <OfferIntroItem key={offer.offerTitle}>
-                          <OfferIntroImage src={offer.offerIntroImage} />
-                          <H3>{offer.offerTitle}</H3>
-                          <Paragraph>{offer.offerIntroText}</Paragraph>
-                          <OfferIntroLink
-                            onClick={(e: React.SyntheticEvent<MouseEvent>) =>
-                              e.preventDefault()
-                            }
-                            smooth
-                            to={`#${linkTitle}`}
-                          >
-                            Läs mer om {linkTitle}
-                          </OfferIntroLink>
-                        </OfferIntroItem>
-                      )
-                    })}
-                  </GridRow>
-                </Fade>
+                        return (
+                          <OfferIntroItem key={offer.offerTitle}>
+                            <OfferIntroImage src={offer.offerIntroImage} />
+                            <H3>{offer.offerTitle}</H3>
+                            <Paragraph>{offer.offerIntroText}</Paragraph>
+                            <OfferIntroLink
+                              onClick={(e: React.SyntheticEvent<MouseEvent>) =>
+                                e.preventDefault()
+                              }
+                              smooth
+                              to={`#${linkTitle}`}
+                            >
+                              Läs mer om {linkTitle}
+                            </OfferIntroLink>
+                          </OfferIntroItem>
+                        )
+                      })}
+                    </GridRow>
+                  </Fade>
+                </PaddedRow>
               </GridColumn>
 
               {offers.map(offer => {
@@ -176,21 +194,23 @@ export class Offers extends React.Component {
 
                 return (
                   <OffersGridColumn id={linkTitle} key={offer.offerTitle}>
-                    <Fade bottom distance="50px">
-                      <H1>{offer.offerTitle}</H1>
-                      <Paragraph>{offer.offerLead}</Paragraph>
-                      <OfferUspRow>
-                        {offerUsps.map((usp: any) => (
-                          <OfferUspItem key={usp.title}>
-                            <H3>{usp.title}</H3>
-                            <Paragraph>{usp.text}</Paragraph>
-                          </OfferUspItem>
-                        ))}
-                      </OfferUspRow>
-                    </Fade>
-                    <OfferIllustrationImage
-                      src={offer.offerIllustrationImage}
-                    />
+                    <PaddedRow>
+                      <Fade bottom distance="50px">
+                        <H1Margin>{offer.offerTitle}</H1Margin>
+                        <Paragraph>{offer.offerLead}</Paragraph>
+                        <OfferUspRow>
+                          {offerUsps.map((usp: any) => (
+                            <OfferUspItem key={usp.title}>
+                              <H3>{usp.title}</H3>
+                              <Paragraph>{usp.text}</Paragraph>
+                            </OfferUspItem>
+                          ))}
+                        </OfferUspRow>
+                      </Fade>
+                      <OfferIllustrationImage
+                        src={offer.offerIllustrationImage}
+                      />
+                    </PaddedRow>
                   </OffersGridColumn>
                 )
               })}
