@@ -3,10 +3,10 @@
 exports[`components/Footer renders Footer 1`] = `
 <div>
   <div
-    class="sc-hZSUBg gCjMfL"
+    class="sc-gwVKww gAKwgv"
   >
     <div
-      class="sc-cMhqgX lhZXsY"
+      class="sc-hXRMBi eWOFoK"
     >
       <div
         class="sc-gwVKww fyIBMT"
@@ -186,7 +186,7 @@ exports[`components/Footer renders Footer 1`] = `
       </div>
     </div>
     <div
-      class="sc-gqPbQI lnbsjh"
+      class="sc-iuJeZd gYzTGT"
     >
       <a
         class="sc-frDJqD fUICHz"
@@ -197,4 +197,4 @@ exports[`components/Footer renders Footer 1`] = `
     </div>
   </div>
 </div>
-`;
+`

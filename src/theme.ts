@@ -32,6 +32,14 @@ export const contrastCheck = (color: string) => {
   return contrast(color) === 'light' ? '#000' : '#fff'
 }
 
+interface Browsers {
+  ie10Or11: (styleRules: string) => string
+}
+
+export const browsers: Browsers = {
+  ie10Or11: (styleRules: string) => `@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {${styleRules}}`
+}
+
 export const colors: Colors = {
   aquamarine: '#54FBAC',
   concrete: '#F3F2F2',
@@ -43,9 +51,11 @@ export interface Theme {
   colors: Colors
   contrast: typeof contrastCheck
   sizes: Sizes
+  browsers: Browsers
 }
 
 export const theme: Theme = {
+  browsers,
   colors,
   contrast: contrastCheck,
   sizes,

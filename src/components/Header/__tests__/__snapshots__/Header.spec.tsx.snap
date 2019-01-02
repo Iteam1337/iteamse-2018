@@ -10,7 +10,7 @@ exports[`components/Header renders Header 1`] = `
         class="sc-bwCtUz gSKloM"
       >
         <div
-          class="sc-kfGgVZ cbwdvv"
+          class="sc-dfVpRl ffdxbV"
         >
           <a
             class="sc-esjQYD iHjIyb"
@@ -81,4 +81,4 @@ exports[`components/Header renders Header 1`] = `
     </div>
   </div>
 </div>
-`;
+`

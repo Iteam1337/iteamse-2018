@@ -26,6 +26,12 @@ const Wrap = styled.div`
   @media (min-width: 481px) {
     padding: 0;
   }
+
+  /* IE 11 */
+  ${({ theme }) => theme.browsers.ie10Or11(`
+    display: flex;
+    justify-content: space-between;
+  `)}
 `
 
 const LogoLink = styled(Link)`

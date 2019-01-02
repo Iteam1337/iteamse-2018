@@ -10,7 +10,7 @@ exports[`components/About renders About 1`] = `
         class="sc-hwwEjo idbpfi"
       >
         <div
-          class="sc-jtRfpW kaiGPi"
+          class="sc-jwKygS jinUXi"
         >
           <a
             class="sc-kTUwUJ ijPJJc"
@@ -81,7 +81,7 @@ exports[`components/About renders About 1`] = `
     </div>
   </div>
   <div
-    class="sc-iwsKbI fwFOwW"
+    class="sc-iwsKbI cTexZb"
   >
     <div
       class="react-reveal"
@@ -92,10 +92,10 @@ exports[`components/About renders About 1`] = `
         data-test="block-"
       >
         <div
-          class="sc-bxivhb kgeHJJ"
+          class="sc-bxivhb cjRyOF"
         >
           <div
-            class="sc-ifAKCX cFlEyZ"
+            class="sc-ifAKCX fTHWMI"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -104,7 +104,7 @@ exports[`components/About renders About 1`] = `
             </h3>
           </div>
           <div
-            class="sc-bZQynM hmvJjY"
+            class="sc-bZQynM fQTIXp"
           >
             <div
               class="sc-htpNat bkGJgg"
@@ -128,10 +128,10 @@ exports[`components/About renders About 1`] = `
         data-test="block-"
       >
         <div
-          class="sc-bxivhb kgeHJJ"
+          class="sc-bxivhb cjRyOF"
         >
           <div
-            class="sc-ifAKCX cFlEyZ"
+            class="sc-ifAKCX fTHWMI"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -140,7 +140,7 @@ exports[`components/About renders About 1`] = `
             </h3>
           </div>
           <div
-            class="sc-bZQynM hmvJjY"
+            class="sc-bZQynM fQTIXp"
           >
             <div
               class="sc-htpNat bkGJgg"
@@ -172,10 +172,10 @@ exports[`components/About renders About 1`] = `
         data-test="block-"
       >
         <div
-          class="sc-bxivhb kgeHJJ"
+          class="sc-bxivhb cjRyOF"
         >
           <div
-            class="sc-ifAKCX cFlEyZ"
+            class="sc-ifAKCX fTHWMI"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -184,7 +184,7 @@ exports[`components/About renders About 1`] = `
             </h3>
           </div>
           <div
-            class="sc-bZQynM hmvJjY"
+            class="sc-bZQynM fQTIXp"
           >
             <div
               class="sc-htpNat bkGJgg"
@@ -212,10 +212,10 @@ exports[`components/About renders About 1`] = `
         data-test="block-"
       >
         <div
-          class="sc-bxivhb kgeHJJ"
+          class="sc-bxivhb cjRyOF"
         >
           <div
-            class="sc-ifAKCX cFlEyZ"
+            class="sc-ifAKCX fTHWMI"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -224,7 +224,7 @@ exports[`components/About renders About 1`] = `
             </h3>
           </div>
           <div
-            class="sc-bZQynM hmvJjY"
+            class="sc-bZQynM fQTIXp"
           >
             Löksås ipsum plats upprätthållande från sorgliga se, denna precis från brunsås strand år dock, stig färdväg genom äng varit. Erfarenheter regn groda tidigare trevnadens hwila ännu dimma kunde mjuka sällan, oss genom tidigare annat sista stora tid plats inom.
             <div
@@ -247,4 +247,4 @@ exports[`components/About renders About 1`] = `
     </div>
   </div>
 </div>
-`;
+`
