@@ -19,9 +19,18 @@ const Content = styled.div`
     grid-column-gap: 60px;
     grid-template-columns: 320px 1fr;
   }
+
+  ${({ theme }) => theme.browsers.ie10Or11(`
+    display: flex;
+  `)}
 `
 
-const TitleWrap = styled.div``
+const TitleWrap = styled.div`
+  ${({ theme }) => theme.browsers.ie10Or11(`
+    flex-basis: 30%;
+    margin-right: 60px;
+  `)}
+`
 
 const Subtitle = styled.div`
   font-size: 18px;
@@ -31,6 +40,10 @@ const Text = styled.div`
   font-size: 18px;
   font-weight: 300;
   line-height: 31px;
+
+  ${({ theme }) => theme.browsers.ie10Or11(`
+    flex: 1;
+  `)}
 `
 
 const Block: React.SFC<BlockProps> = ({

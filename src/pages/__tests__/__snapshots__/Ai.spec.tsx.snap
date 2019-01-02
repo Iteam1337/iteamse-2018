@@ -10,7 +10,7 @@ exports[`components/Ai renders Ai 1`] = `
         class="sc-dqBHgY jzsvTx"
       >
         <div
-          class="sc-jwKygS hDGBmk"
+          class="sc-jwKygS jinUXi"
         >
           <a
             class="sc-btzYZH iNlviF"
@@ -80,7 +80,7 @@ exports[`components/Ai renders Ai 1`] = `
     </div>
   </div>
   <div
-    class="sc-iwsKbI fwFOwW"
+    class="sc-iwsKbI cTexZb"
   >
     <div
       class="react-reveal"
@@ -91,10 +91,10 @@ exports[`components/Ai renders Ai 1`] = `
         data-test="block-"
       >
         <div
-          class="sc-bxivhb kgeHJJ"
+          class="sc-bxivhb cjRyOF"
         >
           <div
-            class="sc-ifAKCX cFlEyZ"
+            class="sc-ifAKCX fTHWMI"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -103,7 +103,7 @@ exports[`components/Ai renders Ai 1`] = `
             </h3>
           </div>
           <div
-            class="sc-bZQynM hmvJjY"
+            class="sc-bZQynM fQTIXp"
           >
             <div
               class="sc-htpNat bkGJgg"
@@ -130,10 +130,10 @@ exports[`components/Ai renders Ai 1`] = `
         data-test="table-"
       >
         <div
-          class="sc-cSHVUG hCuviw"
+          class="sc-cSHVUG ipvMNm"
         >
           <div
-            class="sc-kAzzGY jHprQs"
+            class="sc-kAzzGY csCULT"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -142,7 +142,7 @@ exports[`components/Ai renders Ai 1`] = `
             </h3>
           </div>
           <div
-            class="sc-chPdSV mxuDG"
+            class="sc-chPdSV kdBXXh"
           >
             <div
               class="sc-htpNat bkGJgg"

@@ -10,7 +10,7 @@ exports[`components/Cases renders Cases 1`] = `
         class="sc-dqBHgY jzsvTx"
       >
         <div
-          class="sc-jwKygS hDGBmk"
+          class="sc-jwKygS jinUXi"
         >
           <a
             class="sc-btzYZH iNlviF"
@@ -81,22 +81,22 @@ exports[`components/Cases renders Cases 1`] = `
     </div>
   </div>
   <div
-    class="sc-iwsKbI fwFOwW"
+    class="sc-iwsKbI cTexZb"
   >
     <div
-      class="sc-gPEVay lcjzYp"
+      class="sc-gPEVay fuJaHR"
     >
       <a
         class="sc-kGXeez bqcmJv"
       >
         <div
-          class="sc-Rmtcm krGDXq"
+          class="sc-Rmtcm bTeCwX"
         >
           <div
             class="sc-iRbamj klkeLc"
           >
             <img
-              class="sc-jlyJG cnwdKy"
+              class="sc-jlyJG gwegEN"
               src="//images.ctfassets.net/rj4r6yfcesw5/68OlBclfQAGMcEUsQgcIUY/9bdf52bb8a9a17be06e11ef3fa32d3de/vimla-case-phone.png"
               alt=""
             />
@@ -121,13 +121,13 @@ exports[`components/Cases renders Cases 1`] = `
         class="sc-kGXeez bqcmJv"
       >
         <div
-          class="sc-Rmtcm krGDXq"
+          class="sc-Rmtcm bTeCwX"
         >
           <div
             class="sc-iRbamj klkeLc"
           >
             <img
-              class="sc-jlyJG cnwdKy"
+              class="sc-jlyJG gwegEN"
               src="//images.ctfassets.net/rj4r6yfcesw5/UGucAeFycSqIGw0CAc0ys/3d58300261bcff64dba751de9228a150/tsab-case-phone.png"
               alt=""
             />
@@ -152,7 +152,7 @@ exports[`components/Cases renders Cases 1`] = `
         class="sc-kGXeez bqcmJv"
       >
         <div
-          class="sc-Rmtcm krGDXq"
+          class="sc-Rmtcm bTeCwX"
         >
           <div
             class="sc-iRbamj klkeLc"
@@ -177,13 +177,13 @@ exports[`components/Cases renders Cases 1`] = `
         class="sc-kGXeez bqcmJv"
       >
         <div
-          class="sc-Rmtcm krGDXq"
+          class="sc-Rmtcm bTeCwX"
         >
           <div
             class="sc-iRbamj klkeLc"
           >
             <img
-              class="sc-jlyJG cnwdKy"
+              class="sc-jlyJG gwegEN"
               src="//images.ctfassets.net/rj4r6yfcesw5/3Y7zZ25WbeOCU8w84kAEos/b97ff1899cf6f2e4dca0eb2b4f0d5a44/af.png"
               alt=""
             />
