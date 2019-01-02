@@ -140,6 +140,33 @@ describe('#redirectHelper', () => {
       expect(next).toHaveBeenCalled()
     })
 
+    it('should redirect from /CAREER to /jobba-hos-oss', () => {
+      req = {
+        path: '/CAREER',
+      }
+      redirectHelper(req, res, next)
+      expect(res.redirect).toHaveBeenCalledWith(301, '/jobba-hos-oss')
+      expect(next).toHaveBeenCalled()
+    })
+
+    it('should redirect from /CAREER/SomeSlug to /jobba-hos-oss', () => {
+      req = {
+        path: '/CAREER/SomeSlug',
+      }
+      redirectHelper(req, res, next)
+      expect(res.redirect).toHaveBeenCalledWith(301, '/jobba-hos-oss')
+      expect(next).toHaveBeenCalled()
+    })
+
+    it('should redirect from /Career/slug?foo=bar to /jobba-hos-oss', () => {
+      req = {
+        path: '/Career/slug?foo=bar',
+      }
+      redirectHelper(req, res, next)
+      expect(res.redirect).toHaveBeenCalledWith(301, '/jobba-hos-oss')
+      expect(next).toHaveBeenCalled()
+    })
+
     it('should redirect from /cases to /case', () => {
       req = {
         path: '/cases',
@@ -280,6 +307,33 @@ describe('#redirectHelper', () => {
         301,
         '/jobba-hos-oss/senior-frontend-developer-stockholm'
       )
+      expect(next).toHaveBeenCalled()
+    })
+
+    it('should redirect from /news to /', () => {
+      req = {
+        path: '/news',
+      }
+      redirectHelper(req, res, next)
+      expect(res.redirect).toHaveBeenCalledWith(301, '/')
+      expect(next).toHaveBeenCalled()
+    })
+
+    it('should redirect from /news/slug to /', () => {
+      req = {
+        path: '/news/slug',
+      }
+      redirectHelper(req, res, next)
+      expect(res.redirect).toHaveBeenCalledWith(301, '/')
+      expect(next).toHaveBeenCalled()
+    })
+
+    it('should redirect from /ms to /', () => {
+      req = {
+        path: '/ms',
+      }
+      redirectHelper(req, res, next)
+      expect(res.redirect).toHaveBeenCalledWith(301, '/')
       expect(next).toHaveBeenCalled()
     })
   })

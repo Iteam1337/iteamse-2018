@@ -24,6 +24,17 @@ const QuoteWrap = withProps<QuoteWrapProps>()(styled(GridColumnClean))`
   grid-column: -1 / 1;
   padding-bottom: 100px;
   padding-top: 100px;
+
+  /* IE 11 */
+  ${({ theme }) => theme.browsers.ie10Or11(`
+    max-width: none;
+    display: flex;
+    justify-content: center;
+
+    > * {
+      max-width: 1024px;
+    }
+  `)}
 `
 
 const ActualQuote = styled.div`

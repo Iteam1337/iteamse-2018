@@ -10,7 +10,7 @@ exports[`components/Home renders Home 1`] = `
         class="sc-dqBHgY jzsvTx"
       >
         <div
-          class="sc-jwKygS hDGBmk"
+          class="sc-jwKygS jinUXi"
         >
           <a
             class="sc-btzYZH iNlviF"
@@ -81,20 +81,20 @@ exports[`components/Home renders Home 1`] = `
     </div>
   </div>
   <div
-    class="sc-fBuWsC gYhPAl"
+    class="sc-fBuWsC imqKqb"
   >
     <div
-      class="sc-fMiknA dojdZf"
+      class="sc-fMiknA bCKhKj"
     >
       <img
         class="sc-gisBJw bdEFVB"
         src="test-file-stub"
       />
       <div
-        class="sc-dVhcbM lmANPA"
+        class="sc-dVhcbM naIib"
       >
         <div
-          class="sc-eqIVtm eJqVIb"
+          class="sc-eqIVtm hGfYed"
         >
           <h1
             class="sc-gZMcBi ctjDhW"
@@ -121,7 +121,7 @@ exports[`components/Home renders Home 1`] = `
           />
         </div>
         <div
-          class="sc-eqIVtm eJqVIb"
+          class="sc-eqIVtm hGfYed"
         >
           <h1
             class="sc-gZMcBi ctjDhW"
@@ -148,7 +148,7 @@ exports[`components/Home renders Home 1`] = `
           />
         </div>
         <div
-          class="sc-eqIVtm eJqVIb"
+          class="sc-eqIVtm hGfYed"
         >
           <h1
             class="sc-gZMcBi ctjDhW"
@@ -178,7 +178,7 @@ exports[`components/Home renders Home 1`] = `
     </div>
   </div>
   <div
-    class="sc-iwsKbI fwFOwW"
+    class="sc-iwsKbI cTexZb"
   >
     <div
       class="react-reveal"
@@ -189,10 +189,10 @@ exports[`components/Home renders Home 1`] = `
         data-test="block-"
       >
         <div
-          class="sc-bxivhb kgeHJJ"
+          class="sc-bxivhb cjRyOF"
         >
           <div
-            class="sc-ifAKCX cFlEyZ"
+            class="sc-ifAKCX fTHWMI"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -201,7 +201,7 @@ exports[`components/Home renders Home 1`] = `
             </h3>
           </div>
           <div
-            class="sc-bZQynM hmvJjY"
+            class="sc-bZQynM fQTIXp"
           >
             <div
               class="sc-caSCKo jjNSwx"

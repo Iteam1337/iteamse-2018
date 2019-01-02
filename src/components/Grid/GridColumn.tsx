@@ -23,6 +23,28 @@ const GridColumn = GridColumnClean.extend`
     padding-bottom: 100px;
     padding-top: 100px;
   }
+
+  /* IE 11 */
+  ${({ theme }) => theme.browsers.ie10Or11(`
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    > * {
+      max-width: 1024px;
+      width: 100%;
+    }
+
+    > * + * {
+      margin-top: 100px;
+    }
+
+    > img {
+      max-width: none;
+    }
+  `)}
 `
 
 export default GridColumn
