@@ -3,70 +3,70 @@
 exports[`components/Case renders Case 1`] = `
 <div>
   <div
-    class="sc-kkGfuU bDRSIz"
+    class="sc-jKJlTe fUigqN"
     data-test="header-case"
   >
     <div
-      class="sc-iAyFgw ABvqv"
+      class="sc-eNQAEJ fmIMta"
     >
       <div
-        class="sc-jwKygS jinUXi"
+        class="sc-kTUwUJ edcQtv"
       >
         <a
-          class="sc-kTUwUJ ijPJJc"
+          class="sc-dqBHgY BqHh"
         >
           <img
-            class="sc-dqBHgY kmuJpj"
+            class="sc-gxMtzJ guAkch"
             data-testid="logo"
             path="test-file-stub"
           />
         </a>
         <div
-          class="sc-gxMtzJ fEeBIz"
+          class="sc-dfVpRl joBoAS"
         >
           <a
-            class="sc-gzOgki dsuNbc"
+            class="sc-iyvyFf irQPJA"
             aria-current="false"
           >
             Erbjudanden
           </a>
           <a
-            class="sc-gzOgki dsuNbc active-nav"
+            class="sc-iyvyFf irQPJA active-nav"
             aria-current="true"
           >
             Våra case
           </a>
           <a
-            class="sc-gzOgki dsuNbc"
+            class="sc-iyvyFf irQPJA"
             aria-current="false"
           >
             Metod
           </a>
           <a
-            class="sc-gzOgki dsuNbc"
+            class="sc-iyvyFf irQPJA"
             aria-current="false"
           >
             Medarbetare
           </a>
           <a
-            class="sc-gzOgki dsuNbc"
+            class="sc-iyvyFf irQPJA"
             aria-current="false"
           >
             Karriär
           </a>
           <a
-            class="sc-gzOgki dsuNbc"
+            class="sc-iyvyFf irQPJA"
             aria-current="false"
           >
             Om
           </a>
           <div
-            class="sc-dfVpRl foeOrh"
+            class="sc-gzOgki bZZexF"
           />
         </div>
       </div>
       <div
-        class="sc-hSdWYo eqeaDo"
+        class="sc-hMqMXs cTHqZr"
       >
         <div
           class="sc-kEYyzF fitFfs"
@@ -218,7 +218,7 @@ exports[`components/Case renders Case 1`] = `
       </div>
     </div>
     <div
-      class="sc-eNQAEJ bMJWqn sc-dnqmqq eCKktF"
+      class="sc-kpOJdX ipmQY sc-dnqmqq eCKktF"
       data-test="block-"
     >
       <div
@@ -394,7 +394,7 @@ exports[`components/Case renders Case 1`] = `
       </div>
     </div>
     <div
-      class="sc-kpOJdX ePujIJ"
+      class="sc-kAzzGY wNyeR"
       data-test="block-"
     >
       <div
@@ -458,4 +458,4 @@ exports[`components/Case renders Case 1`] = `
     </div>
   </div>
 </div>
-`
+`;

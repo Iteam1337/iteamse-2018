@@ -4,72 +4,72 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
 <div>
   <div>
     <div
-      class="sc-iyvyFf hgIbDS"
+      class="sc-hwwEjo fdTaiy"
     >
       <div
-        class="sc-hwwEjo idbpfi"
+        class="sc-kPVwWT bfscyN"
       >
         <div
-          class="sc-jwKygS jinUXi"
+          class="sc-kTUwUJ edcQtv"
         >
           <a
-            class="sc-kTUwUJ ijPJJc"
+            class="sc-dqBHgY BqHh"
           >
             <img
-              class="sc-dqBHgY kmuJpj"
+              class="sc-gxMtzJ guAkch"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-gxMtzJ fEeBIz"
+            class="sc-dfVpRl joBoAS"
           >
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iyvyFf irQPJA"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iyvyFf irQPJA"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iyvyFf irQPJA"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iyvyFf irQPJA"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iyvyFf irQPJA"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iyvyFf irQPJA"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-dfVpRl foeOrh"
+              class="sc-gzOgki bZZexF"
             />
           </div>
         </div>
         <div
-          class="sc-kPVwWT bZitsY"
+          class="sc-kfGgVZ kPvaat"
         >
           <h1
-            class="sc-kfGgVZ evHcTd"
+            class="sc-esjQYD fESWtF"
           >
             <span>
               Så här jobbar vi 
@@ -168,14 +168,14 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
     style="opacity: 1;"
   >
     <div
-      class="sc-ksYbfQ hUOnFP"
+      class="sc-TOsTZ kWChkM"
     >
       <div
         class="sc-bdVaJa fGzlqx"
         data-test="block-"
       >
         <div
-          class="sc-hmzhuo boxVhl"
+          class="sc-kgAjT dzanHC"
         >
           <div
             class="sc-cJSrbW dLwzxs"
@@ -322,4 +322,4 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
     </div>
   </div>
 </div>
-`
+`;

@@ -3,76 +3,76 @@
 exports[`components/Team renders TeamMember 1`] = `
 <div>
   <div
-    class="sc-esjQYD gllmKO"
+    class="sc-kIPQKe iolMmX"
   >
     <div>
       <div
-        class="sc-iyvyFf jTeqVc"
+        class="sc-hwwEjo hWLlzg"
       >
         <div
-          class="sc-hwwEjo idbpfi"
+          class="sc-kPVwWT bfscyN"
         >
           <div
-            class="sc-jwKygS jinUXi"
+            class="sc-kTUwUJ edcQtv"
           >
             <a
-              class="sc-kTUwUJ ijPJJc"
+              class="sc-dqBHgY BqHh"
             >
               <img
-                class="sc-dqBHgY kmuJpj"
+                class="sc-gxMtzJ guAkch"
                 data-testid="logo"
                 path="test-file-stub"
               />
             </a>
             <div
-              class="sc-gxMtzJ fEeBIz"
+              class="sc-dfVpRl joBoAS"
             >
               <a
-                class="sc-gzOgki dsuNbc"
+                class="sc-iyvyFf irQPJA"
                 aria-current="false"
               >
                 Erbjudanden
               </a>
               <a
-                class="sc-gzOgki dsuNbc"
+                class="sc-iyvyFf irQPJA"
                 aria-current="false"
               >
                 Våra case
               </a>
               <a
-                class="sc-gzOgki dsuNbc"
+                class="sc-iyvyFf irQPJA"
                 aria-current="false"
               >
                 Metod
               </a>
               <a
-                class="sc-gzOgki dsuNbc active-nav"
+                class="sc-iyvyFf irQPJA active-nav"
                 aria-current="true"
               >
                 Medarbetare
               </a>
               <a
-                class="sc-gzOgki dsuNbc"
+                class="sc-iyvyFf irQPJA"
                 aria-current="false"
               >
                 Karriär
               </a>
               <a
-                class="sc-gzOgki dsuNbc"
+                class="sc-iyvyFf irQPJA"
                 aria-current="false"
               >
                 Om
               </a>
               <div
-                class="sc-dfVpRl foeOrh"
+                class="sc-gzOgki bZZexF"
               />
             </div>
           </div>
           <div
-            class="sc-kPVwWT bZitsY"
+            class="sc-kfGgVZ kPvaat"
           >
             <h1
-              class="sc-kfGgVZ evHcTd"
+              class="sc-esjQYD fESWtF"
             >
               <span>
                 Rickard Laurin
@@ -129,7 +129,7 @@ exports[`components/Team renders TeamMember 1`] = `
               >
                 <li>
                   <a
-                    class="sc-feJyhm lkGMcu"
+                    class="sc-iELTvK hcFloy"
                     href="mailto:rickard.laurin@iteam.se"
                   >
                     rickard.laurin@iteam.se
@@ -251,4 +251,4 @@ exports[`components/Team renders TeamMember 1`] = `
     </div>
   </div>
 </div>
-`
+`;

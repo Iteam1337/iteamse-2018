@@ -4,72 +4,72 @@ exports[`components/Header renders Header 1`] = `
 <div>
   <div>
     <div
-      class="sc-iQKALj cWDNta"
+      class="sc-bwCtUz cTVaQl"
     >
       <div
-        class="sc-bwCtUz gSKloM"
+        class="sc-hrWEMg Duheu"
       >
         <div
-          class="sc-dfVpRl ffdxbV"
+          class="sc-esjQYD dADbLW"
         >
           <a
-            class="sc-esjQYD iHjIyb"
+            class="sc-kIPQKe iQjozF"
           >
             <img
-              class="sc-kIPQKe gxmFfR"
+              class="sc-eXEjpC igSZfg"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-eXEjpC dbuBDu"
+            class="sc-ibxdXY hcDByR"
           >
             <a
-              class="sc-RefOD hSHoLv"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-RefOD hSHoLv"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-RefOD hSHoLv"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-RefOD hSHoLv"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-RefOD hSHoLv"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-RefOD hSHoLv"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-ibxdXY wRCfH"
+              class="sc-RefOD gogpDu"
             />
           </div>
         </div>
         <div
-          class="sc-hrWEMg gemQaG"
+          class="sc-eTuwsz iWQgqe"
         >
           <h1
-            class="sc-eTuwsz efzmhK"
+            class="sc-gwVKww exDyMP"
           >
             <span>
               Vi digitaliserar företag och organisationer
@@ -81,4 +81,4 @@ exports[`components/Header renders Header 1`] = `
     </div>
   </div>
 </div>
-`
+`;
