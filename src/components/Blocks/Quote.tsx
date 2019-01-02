@@ -1,16 +1,26 @@
 import * as React from 'react'
-import styled from '../../theme'
+import styled, { contrastCheck, withProps } from '../../theme'
 import { GridColumnClean } from '../Grid/GridColumn'
 import PaddedRow from '../Grid/PaddedRow'
 
 interface QuoteProps {
+  quoteBgColor: string | null
   children: string
   'data-test'?: string
   person: string | null
 }
 
-const QuoteWrap = GridColumnClean.extend`
-  background-color: ${({ theme }) => theme.colors.concrete};
+interface QuoteWrapProps {
+  backgroundColor?: string | null
+}
+
+const QuoteWrap = withProps<QuoteWrapProps>()(styled(GridColumnClean))`
+  background-color: ${({ theme, backgroundColor }) => backgroundColor ? backgroundColor : theme.colors.concrete};
+  color: ${({ theme, backgroundColor }) => (
+    backgroundColor 
+      ? contrastCheck(backgroundColor) 
+      : contrastCheck(theme.colors.concrete)
+  )};
   grid-column: -1 / 1;
   padding-bottom: 100px;
   padding-top: 100px;
@@ -40,12 +50,13 @@ const Person = styled.div`
 `
 
 const Quote: React.SFC<QuoteProps> = ({
+  quoteBgColor,
   children,
   'data-test': dataTest = '',
   person,
 }) => {
   return (
-    <QuoteWrap data-test={`block-${dataTest}`}>
+    <QuoteWrap backgroundColor={quoteBgColor} data-test={`block-${dataTest}`}>
       <PaddedRow>
         <ActualQuote>{`"${children}"`}</ActualQuote>
         <Person>{person}</Person>

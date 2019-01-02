@@ -27,7 +27,8 @@ export const workCase = {
     'Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum a nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras quis odio vel turpis pellentesque finibus. Pellentesque cursus diam ac ligula placerat volutpat. Vivamus dictum augue eu rutrum efficitur. Suspendisse ut pellentesque ante. Suspendisse odio velit, fringilla eu porta vel, elementum ac libero. Nam eu vestibulum magna. Vestibulum quis risus elementum, lobortis sapien at, rhoncus enim. Nam accumsan odio lacus, at facilisis lacus rhoncus vel. Suspendisse sollicitudin a ipsum at cursus.',
   processTitle: 'Process',
   quote:
-    '"We feel that our crew at Iteam are more colleagues than suppliers. Rather than specifying a tech spec to work on, we collaborate, carefully chiseling out functionality as we go along. This way of working has minimized waste and it has also taken us further than we ever imagined”',
+  '"We feel that our crew at Iteam are more colleagues than suppliers. Rather than specifying a tech spec to work on, we collaborate, carefully chiseling out functionality as we go along. This way of working has minimized waste and it has also taken us further than we ever imagined”',
+  quoteBgColor: '#1616B2',
   quotePerson: 'Anna Andersson, chef Arbetsförmedlingen',
   slug: 'arbetsformedlingen',
   tags: ['API', 'Docker', 'UX', 'React', 'Vue'],
