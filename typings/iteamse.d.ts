@@ -125,6 +125,22 @@ export interface CasesPageQuery {
   } | null >,
 };
 
+export interface ContactPageQuery {
+  pageContact:  {
+    __typename: "PageContact",
+    headerImage: string | null,
+    headerText1: string | null,
+    headerText2: string | null,
+    headerTextBgColor: string | null,
+    descriptionTitle: string,
+    descriptionText: string,
+    workTitle: string,
+    workText: string,
+    team: Array< string > | null,
+    contactTitle: string,
+  },
+};
+
 export interface HomePageQuery {
   pageStart:  {
     __typename: "PageStart",

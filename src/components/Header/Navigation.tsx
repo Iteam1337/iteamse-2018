@@ -5,6 +5,7 @@ import SVG from 'react-svg'
 import { ABOUT_PAGE_QUERY } from '../../pages/About'
 import { AI_PAGE_QUERY } from '../../pages/Ai'
 import { CASES_PAGE_QUERY } from '../../pages/Cases'
+import { CONTACT_PAGE_QUERY } from '../../pages/Contact'
 import { HOME_PAGE_QUERY } from '../../pages/Home'
 import { HOW_WE_WORK_PAGE_QUERY } from '../../pages/HowWeWork'
 import { TEAM_PAGE_QUERY } from '../../pages/Team'
@@ -28,10 +29,11 @@ const Wrap = styled.div`
   }
 
   /* IE 11 */
-  ${({ theme }) => theme.browsers.ie10Or11(`
+  ${({ theme }) =>
+    theme.browsers.ie10Or11(`
     display: flex;
     justify-content: space-between;
-  `)}
+  `)};
 `
 
 const LogoLink = styled(Link)`
@@ -174,6 +176,9 @@ export class Navigation extends React.Component<
         break
       case 'ai':
         query = AI_PAGE_QUERY
+        break
+      case 'contact':
+        query = CONTACT_PAGE_QUERY
         break
       default:
         break

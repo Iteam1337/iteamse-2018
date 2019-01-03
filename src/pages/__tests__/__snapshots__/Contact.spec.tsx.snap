@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Contact renders Contact Us 1`] = `
+<div>
+  <div>
+    <div
+      class="sc-kTUwUJ jHnPmH"
+    >
+      <div
+        class="sc-dqBHgY jzsvTx"
+      >
+        <div
+          class="sc-jwKygS jinUXi"
+        >
+          <a
+            class="sc-btzYZH iNlviF"
+          >
+            <img
+              class="sc-lhVmIH cZUBMJ"
+              data-testid="logo"
+              path="test-file-stub"
+            />
+          </a>
+          <div
+            class="sc-bYSBpT ffXmNN"
+          >
+            <a
+              class="sc-jtRfpW jkixbM"
+              aria-current="false"
+            >
+              Case
+            </a>
+            <a
+              class="sc-jtRfpW jkixbM"
+              aria-current="false"
+            >
+              AI
+            </a>
+            <a
+              class="sc-jtRfpW jkixbM"
+              aria-current="false"
+            >
+              Metod
+            </a>
+            <a
+              class="sc-jtRfpW jkixbM"
+              aria-current="false"
+            >
+              Medarbetare
+            </a>
+            <a
+              class="sc-jtRfpW jkixbM"
+              aria-current="false"
+            >
+              Karriär
+            </a>
+            <a
+              class="sc-jtRfpW jkixbM"
+              aria-current="false"
+            >
+              Om
+            </a>
+            <div
+              class="sc-elJkPf ruddK"
+            />
+          </div>
+        </div>
+        <div
+          class="sc-gxMtzJ gVSKut"
+        >
+          <h1
+            class="sc-dfVpRl jNyPKG"
+          >
+            <span>
+              Hör av dig till oss
+            </span>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-iwsKbI cTexZb"
+  >
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-bdVaJa fGzlqx"
+        data-test="block-"
+      >
+        <div
+          class="sc-bxivhb cjRyOF"
+        >
+          <div
+            class="sc-ifAKCX fTHWMI"
+          >
+            <h3
+              class="sc-bwzfXH kgEpTV"
+            >
+              Samarbete
+            </h3>
+          </div>
+          <div
+            class="sc-bZQynM fQTIXp"
+          >
+            Är du redo att ta klivet ut i digitaliseringens värld? Är du nyfiken på vad vi kan åstadkomma tillsammans? Oavsett vilka utmaningar du står inför är vill vi gärna höra mer om er affär. Sväng förbi vårat kontor i Stockholm eller Göteborg så bjuder vi på en kopp kaffe och diskuterar er väg framåt.
+            <div
+              class="sc-hXRMBi bVlxOX"
+            >
+              <section
+                class="sc-gwVKww lmvKOa"
+              >
+                <input
+                  class="sc-epnACN dIsQeD sc-bwCtUz llAhqa"
+                  type="text"
+                  placeholder="Ditt namn"
+                />
+                <input
+                  class="sc-epnACN dIsQeD sc-bwCtUz llAhqa"
+                  type="email"
+                  placeholder="E-post"
+                />
+                <textarea
+                  class="sc-iQNlJl hmoKWJ sc-eTuwsz jOLgju sc-hrWEMg gsIiNE"
+                  placeholder="Meddelande"
+                />
+              </section>
+              <button
+                class="sc-iQKALj gxWoCm"
+                color="primary"
+              >
+                Skicka
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        class="sc-bdVaJa fGzlqx"
+        data-test="block-"
+      >
+        <div
+          class="sc-bxivhb cjRyOF"
+        >
+          <div
+            class="sc-ifAKCX fTHWMI"
+          >
+            <h3
+              class="sc-bwzfXH kgEpTV"
+            >
+              Karriär
+            </h3>
+          </div>
+          <div
+            class="sc-bZQynM fQTIXp"
+          >
+            <div
+              class="sc-htpNat bkGJgg"
+            >
+              <div>
+                <p>
+                  Vill du sparka av dig skorna och hänga med oss varje dag? Spana in våra 
+                  <a
+                    title="Lediga tjänster"
+                    href="/jobba-hos-oss"
+                  >
+                    lediga tjänster
+                  </a>
+                  eller gör en 
+                  <a
+                    title="Gör en spontanansökan"
+                    href="mailto:joinus@iteam.se"
+                  >
+                    spontanansökan
+                  </a>
+                  . Vi ser fram emot att höra från dig!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

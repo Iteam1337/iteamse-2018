@@ -5,6 +5,7 @@ export interface Colors {
   aquamarine: '#54FBAC'
   concrete: '#F3F2F2'
   cornflowerBlue: '#668CFF'
+  emperor: '#555555'
   radicalRed: '#FF3B5C'
 }
 
@@ -37,13 +38,15 @@ interface Browsers {
 }
 
 export const browsers: Browsers = {
-  ie10Or11: (styleRules: string) => `@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {${styleRules}}`
+  ie10Or11: (styleRules: string) =>
+    `@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {${styleRules}}`,
 }
 
 export const colors: Colors = {
   aquamarine: '#54FBAC',
   concrete: '#F3F2F2',
   cornflowerBlue: '#668CFF',
+  emperor: '#555555',
   radicalRed: '#FF3B5C',
 }
 
