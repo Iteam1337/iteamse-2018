@@ -3,76 +3,76 @@
 exports[`components/Team renders TeamMember 1`] = `
 <div>
   <div
-    class="sc-gzOgki iGSfXK"
+    class="sc-iQKALj kORsmP"
   >
     <div>
       <div
-        class="sc-kTUwUJ fhhssO"
+        class="sc-kIPQKe kKLlac"
       >
         <div
-          class="sc-dqBHgY jzsvTx"
+          class="sc-eXEjpC fMVgDL"
         >
           <div
-            class="sc-jwKygS jinUXi"
+            class="sc-gzOgki ipvQIy"
           >
             <a
-              class="sc-btzYZH iNlviF"
+              class="sc-iyvyFf gbVIVA"
             >
               <img
-                class="sc-lhVmIH cZUBMJ"
+                class="sc-hwwEjo iMKlgE"
                 data-testid="logo"
                 path="test-file-stub"
               />
             </a>
             <div
-              class="sc-bYSBpT ffXmNN"
+              class="sc-kPVwWT iGguRZ"
             >
               <a
-                class="sc-jtRfpW jkixbM"
+                class="sc-esjQYD eLRVk"
                 aria-current="false"
               >
                 Case
               </a>
               <a
-                class="sc-jtRfpW jkixbM"
+                class="sc-esjQYD eLRVk"
                 aria-current="false"
               >
                 AI
               </a>
               <a
-                class="sc-jtRfpW jkixbM"
+                class="sc-esjQYD eLRVk"
                 aria-current="false"
               >
                 Metod
               </a>
               <a
-                class="sc-jtRfpW jkixbM active-nav"
+                class="sc-esjQYD eLRVk active-nav"
                 aria-current="true"
               >
                 Medarbetare
               </a>
               <a
-                class="sc-jtRfpW jkixbM"
+                class="sc-esjQYD eLRVk"
                 aria-current="false"
               >
                 Karriär
               </a>
               <a
-                class="sc-jtRfpW jkixbM"
+                class="sc-esjQYD eLRVk"
                 aria-current="false"
               >
                 Om
               </a>
               <div
-                class="sc-elJkPf ruddK"
+                class="sc-kfGgVZ hzXCUz"
               />
             </div>
           </div>
           <div
-            class="sc-gxMtzJ gVSKut"
+            class="sc-ibxdXY byXtiU"
           >
             <h1
-              class="sc-dfVpRl cFnozq"
+              class="sc-RefOD bfgpQk"
             >
               <span>
                 Rickard Laurin
@@ -125,11 +125,11 @@ exports[`components/Team renders TeamMember 1`] = `
               class="sc-bZQynM fQTIXp"
             >
               <ul
-                class="sc-kgAjT itLgf"
+                class="sc-bbmXgH gQXHHL"
               >
                 <li>
                   <a
-                    class="sc-tilXH klymXD"
+                    class="sc-lhVmIH gGpWCy"
                     href="mailto:rickard.laurin@iteam.se"
                   >
                     rickard.laurin@iteam.se

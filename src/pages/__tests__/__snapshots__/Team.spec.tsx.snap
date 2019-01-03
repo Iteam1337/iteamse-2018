@@ -4,72 +4,72 @@ exports[`components/Team renders Team 1`] = `
 <div>
   <div>
     <div
-      class="sc-iyvyFf kDzutv"
+      class="sc-bwCtUz qDveg"
     >
       <div
-        class="sc-hwwEjo idbpfi"
+        class="sc-hrWEMg Duheu"
       >
         <div
-          class="sc-jtRfpW eDquYG"
+          class="sc-esjQYD DIAPi"
         >
           <a
-            class="sc-kTUwUJ ijPJJc"
+            class="sc-kIPQKe iQjozF"
           >
             <img
-              class="sc-dqBHgY kmuJpj"
+              class="sc-eXEjpC igSZfg"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-gxMtzJ fEeBIz"
+            class="sc-ibxdXY hcDByR"
           >
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-dfVpRl foeOrh"
+              class="sc-RefOD gogpDu"
             />
           </div>
         </div>
         <div
-          class="sc-kPVwWT bZitsY"
+          class="sc-eTuwsz iWQgqe"
         >
           <h1
-            class="sc-kfGgVZ evHcTd"
+            class="sc-gwVKww cMKbwU"
           >
             <span>
               Det är vi som är Iteam
@@ -120,7 +120,7 @@ exports[`components/Team renders Team 1`] = `
             class="sc-kpOJdX eNhRjC"
           >
             <div
-              class="sc-eXEjpC hfOjGA"
+              class="sc-iQNlJl hGrovP"
             >
               <div>
                 <img
@@ -132,17 +132,17 @@ exports[`components/Team renders Team 1`] = `
             </div>
           </a>
           <div
-            class="sc-esjQYD cQpliv"
+            class="sc-hXRMBi hDwwrC"
           >
             Cookie M
           </div>
           <div
-            class="sc-kIPQKe hanGFu"
+            class="sc-epnACN eMjEvs"
           >
             Cookie master
           </div>
           <div
-            class="sc-ibxdXY fWCzmx"
+            class="sc-bsbRJL eDxRpJ"
           >
             <a
               class="sc-chPdSV hAACpH"
@@ -165,7 +165,7 @@ exports[`components/Team renders Team 1`] = `
             class="sc-kpOJdX eNhRjC"
           >
             <div
-              class="sc-eXEjpC hfOjGA"
+              class="sc-iQNlJl hGrovP"
             >
               <div>
                 <img
@@ -177,17 +177,17 @@ exports[`components/Team renders Team 1`] = `
             </div>
           </a>
           <div
-            class="sc-esjQYD cQpliv"
+            class="sc-hXRMBi hDwwrC"
           >
             Count van Count
           </div>
           <div
-            class="sc-kIPQKe hanGFu"
+            class="sc-epnACN eMjEvs"
           >
             1 ahahah
           </div>
           <div
-            class="sc-ibxdXY fWCzmx"
+            class="sc-bsbRJL eDxRpJ"
           >
             <a
               class="sc-chPdSV hAACpH"
@@ -213,72 +213,72 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
 <div>
   <div>
     <div
-      class="sc-iyvyFf kDzutv"
+      class="sc-bwCtUz qDveg"
     >
       <div
-        class="sc-hwwEjo idbpfi"
+        class="sc-hrWEMg Duheu"
       >
         <div
-          class="sc-jtRfpW eDquYG"
+          class="sc-esjQYD DIAPi"
         >
           <a
-            class="sc-kTUwUJ ijPJJc"
+            class="sc-kIPQKe iQjozF"
           >
             <img
-              class="sc-dqBHgY kmuJpj"
+              class="sc-eXEjpC igSZfg"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-gxMtzJ fEeBIz"
+            class="sc-ibxdXY hcDByR"
           >
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-dfVpRl foeOrh"
+              class="sc-RefOD gogpDu"
             />
           </div>
         </div>
         <div
-          class="sc-kPVwWT bZitsY"
+          class="sc-eTuwsz iWQgqe"
         >
           <h1
-            class="sc-kfGgVZ evHcTd"
+            class="sc-gwVKww cMKbwU"
           >
             <span>
               Det är vi som är Iteam
@@ -329,7 +329,7 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
             class="sc-kpOJdX eNhRjC"
           >
             <div
-              class="sc-eXEjpC hfOjGA"
+              class="sc-iQNlJl hGrovP"
             >
               <div>
                 <img
@@ -341,17 +341,17 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
             </div>
           </a>
           <div
-            class="sc-esjQYD cQpliv"
+            class="sc-hXRMBi hDwwrC"
           >
             Count van Count
           </div>
           <div
-            class="sc-kIPQKe hanGFu"
+            class="sc-epnACN eMjEvs"
           >
             1 ahahah
           </div>
           <div
-            class="sc-ibxdXY fWCzmx"
+            class="sc-bsbRJL eDxRpJ"
           >
             <a
               class="sc-chPdSV hAACpH"
@@ -377,72 +377,72 @@ exports[`components/Team should handle changing location using mouse 1`] = `
 <div>
   <div>
     <div
-      class="sc-iyvyFf kDzutv"
+      class="sc-bwCtUz qDveg"
     >
       <div
-        class="sc-hwwEjo idbpfi"
+        class="sc-hrWEMg Duheu"
       >
         <div
-          class="sc-jtRfpW eDquYG"
+          class="sc-esjQYD DIAPi"
         >
           <a
-            class="sc-kTUwUJ ijPJJc"
+            class="sc-kIPQKe iQjozF"
           >
             <img
-              class="sc-dqBHgY kmuJpj"
+              class="sc-eXEjpC igSZfg"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-gxMtzJ fEeBIz"
+            class="sc-ibxdXY hcDByR"
           >
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-dfVpRl foeOrh"
+              class="sc-RefOD gogpDu"
             />
           </div>
         </div>
         <div
-          class="sc-kPVwWT bZitsY"
+          class="sc-eTuwsz iWQgqe"
         >
           <h1
-            class="sc-kfGgVZ evHcTd"
+            class="sc-gwVKww cMKbwU"
           >
             <span>
               Det är vi som är Iteam
@@ -493,7 +493,7 @@ exports[`components/Team should handle changing location using mouse 1`] = `
             class="sc-kpOJdX eNhRjC"
           >
             <div
-              class="sc-eXEjpC hfOjGA"
+              class="sc-iQNlJl hGrovP"
             >
               <div>
                 <img
@@ -505,17 +505,17 @@ exports[`components/Team should handle changing location using mouse 1`] = `
             </div>
           </a>
           <div
-            class="sc-esjQYD cQpliv"
+            class="sc-hXRMBi hDwwrC"
           >
             Cookie M
           </div>
           <div
-            class="sc-kIPQKe hanGFu"
+            class="sc-epnACN eMjEvs"
           >
             Cookie master
           </div>
           <div
-            class="sc-ibxdXY fWCzmx"
+            class="sc-bsbRJL eDxRpJ"
           >
             <a
               class="sc-chPdSV hAACpH"
@@ -541,72 +541,72 @@ exports[`components/Team should not change using keyboard if not enter or space 
 <div>
   <div>
     <div
-      class="sc-iyvyFf kDzutv"
+      class="sc-bwCtUz qDveg"
     >
       <div
-        class="sc-hwwEjo idbpfi"
+        class="sc-hrWEMg Duheu"
       >
         <div
-          class="sc-jtRfpW eDquYG"
+          class="sc-esjQYD DIAPi"
         >
           <a
-            class="sc-kTUwUJ ijPJJc"
+            class="sc-kIPQKe iQjozF"
           >
             <img
-              class="sc-dqBHgY kmuJpj"
+              class="sc-eXEjpC igSZfg"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-gxMtzJ fEeBIz"
+            class="sc-ibxdXY hcDByR"
           >
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-gzOgki dsuNbc"
+              class="sc-iQKALj dvXjuy"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-dfVpRl foeOrh"
+              class="sc-RefOD gogpDu"
             />
           </div>
         </div>
         <div
-          class="sc-kPVwWT bZitsY"
+          class="sc-eTuwsz iWQgqe"
         >
           <h1
-            class="sc-kfGgVZ evHcTd"
+            class="sc-gwVKww cMKbwU"
           >
             <span>
               Det är vi som är Iteam
@@ -657,7 +657,7 @@ exports[`components/Team should not change using keyboard if not enter or space 
             class="sc-kpOJdX eNhRjC"
           >
             <div
-              class="sc-eXEjpC hfOjGA"
+              class="sc-iQNlJl hGrovP"
             >
               <div>
                 <img
@@ -669,17 +669,17 @@ exports[`components/Team should not change using keyboard if not enter or space 
             </div>
           </a>
           <div
-            class="sc-esjQYD cQpliv"
+            class="sc-hXRMBi hDwwrC"
           >
             Cookie M
           </div>
           <div
-            class="sc-kIPQKe hanGFu"
+            class="sc-epnACN eMjEvs"
           >
             Cookie master
           </div>
           <div
-            class="sc-ibxdXY fWCzmx"
+            class="sc-bsbRJL eDxRpJ"
           >
             <a
               class="sc-chPdSV hAACpH"
@@ -702,7 +702,7 @@ exports[`components/Team should not change using keyboard if not enter or space 
             class="sc-kpOJdX eNhRjC"
           >
             <div
-              class="sc-eXEjpC hfOjGA"
+              class="sc-iQNlJl hGrovP"
             >
               <div>
                 <img
@@ -714,17 +714,17 @@ exports[`components/Team should not change using keyboard if not enter or space 
             </div>
           </a>
           <div
-            class="sc-esjQYD cQpliv"
+            class="sc-hXRMBi hDwwrC"
           >
             Count van Count
           </div>
           <div
-            class="sc-kIPQKe hanGFu"
+            class="sc-epnACN eMjEvs"
           >
             1 ahahah
           </div>
           <div
-            class="sc-ibxdXY fWCzmx"
+            class="sc-bsbRJL eDxRpJ"
           >
             <a
               class="sc-chPdSV hAACpH"

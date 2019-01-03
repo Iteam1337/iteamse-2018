@@ -4,72 +4,72 @@ exports[`components/Cases renders Cases 1`] = `
 <div>
   <div>
     <div
-      class="sc-kTUwUJ kaowta"
+      class="sc-kIPQKe ecDLWP"
     >
       <div
-        class="sc-dqBHgY jzsvTx"
+        class="sc-eXEjpC fMVgDL"
       >
         <div
-          class="sc-jwKygS jinUXi"
+          class="sc-gzOgki ipvQIy"
         >
           <a
-            class="sc-btzYZH iNlviF"
+            class="sc-iyvyFf gbVIVA"
           >
             <img
-              class="sc-lhVmIH cZUBMJ"
+              class="sc-hwwEjo iMKlgE"
               data-testid="logo"
               path="test-file-stub"
             />
           </a>
           <div
-            class="sc-bYSBpT ffXmNN"
+            class="sc-kPVwWT iGguRZ"
           >
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-esjQYD eLRVk"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-esjQYD eLRVk"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-esjQYD eLRVk"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-esjQYD eLRVk"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-esjQYD eLRVk"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-esjQYD eLRVk"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-elJkPf ruddK"
+              class="sc-kfGgVZ hzXCUz"
             />
           </div>
         </div>
         <div
-          class="sc-gxMtzJ gVSKut"
+          class="sc-ibxdXY byXtiU"
         >
           <h1
-            class="sc-dfVpRl jNyPKG"
+            class="sc-RefOD kzZhha"
           >
             <span>
               Några exempel på
