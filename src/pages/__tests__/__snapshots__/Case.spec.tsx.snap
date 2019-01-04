@@ -3,140 +3,140 @@
 exports[`components/Case renders Case 1`] = `
 <div>
   <div
-    class="sc-kkGfuU bDRSIz"
     data-test="header-case"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-chPdSV cYkVcK"
   >
     <div
-      class="sc-iAyFgw ABvqv"
+      class="CaseHeader__Content-i46oib-0 dgxEQK"
     >
       <div
-        class="sc-jwKygS jinUXi"
+        class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
       >
         <a
-          class="sc-btzYZH iNlviF"
+          class="sc-csuQGl kBaCvS"
         >
           <img
-            class="sc-lhVmIH cZUBMJ"
             data-testid="logo"
             path="test-file-stub"
+            class="sc-Rmtcm jeZXze"
           />
         </a>
         <div
-          class="sc-bYSBpT ffXmNN"
+          class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
         >
           <a
-            class="sc-jtRfpW jkixbM active-nav"
+            class="sc-bRBYWo cBPUew active-nav"
             aria-current="true"
           >
             Case
           </a>
           <a
-            class="sc-jtRfpW jkixbM"
+            class="sc-bRBYWo cBPUew"
             aria-current="false"
           >
             AI
           </a>
           <a
-            class="sc-jtRfpW jkixbM"
+            class="sc-bRBYWo cBPUew"
             aria-current="false"
           >
             Metod
           </a>
           <a
-            class="sc-jtRfpW jkixbM"
+            class="sc-bRBYWo cBPUew"
             aria-current="false"
           >
             Medarbetare
           </a>
           <a
-            class="sc-jtRfpW jkixbM"
+            class="sc-bRBYWo cBPUew"
             aria-current="false"
           >
             Karriär
           </a>
           <a
-            class="sc-jtRfpW jkixbM"
+            class="sc-bRBYWo cBPUew"
             aria-current="false"
           >
             Om
           </a>
           <div
-            class="sc-elJkPf ruddK"
+            class="Navigation__Indicator-sc-1i56sr4-2 gdIgfK"
           />
         </div>
       </div>
       <div
-        class="sc-hSdWYo eqeaDo"
+        class="CaseHeader__Information-i46oib-1 fLzChM"
       >
         <div
-          class="sc-eHgmQL ksUOUN"
+          class="CaseHeader__Meta-i46oib-2 gbFvKk"
         >
           <img
-            class="sc-jWBwVP liuADi"
             alt="Logo"
             src="//images.ctfassets.net/rj4r6yfcesw5/4p0ptdLj9SaECekOI4c6C2/c2cdeab1cebc9650ebb0e7778357c231/AF_ordbild_vit.png"
+            class="CaseHeader__Logo-i46oib-4 jTjMzI"
           />
           <div
-            class="sc-brqgnP SqPLV"
+            class="CaseHeader__Tags-i46oib-5 fKdhSw"
           >
             <div
-              class="sc-cMljjf dOfBkb"
+              class="CaseHeader__Tag-i46oib-6 pwCzF"
             >
               API
             </div>
             <div
-              class="sc-cMljjf dOfBkb"
+              class="CaseHeader__Tag-i46oib-6 pwCzF"
             >
               Docker
             </div>
             <div
-              class="sc-cMljjf dOfBkb"
+              class="CaseHeader__Tag-i46oib-6 pwCzF"
             >
               UX
             </div>
             <div
-              class="sc-cMljjf dOfBkb"
+              class="CaseHeader__Tag-i46oib-6 pwCzF"
             >
               React
             </div>
             <div
-              class="sc-cMljjf dOfBkb"
+              class="CaseHeader__Tag-i46oib-6 pwCzF"
             >
               Vue
             </div>
           </div>
         </div>
         <div
-          class="sc-jAaTju gPDFYk"
+          class="CaseHeader__CaseImage-i46oib-7 cwQkDt"
         >
           <img
-            class="sc-cvbbAY imXRdJ"
             alt=""
             src="//images.ctfassets.net/rj4r6yfcesw5/4cWj2fKl3GOQgSKss0IW0q/0b2322470ffb780b925c8e446e745540/af-cropped-by-aeo.png"
+            class="CaseHeader__ProjectImage-i46oib-3 inDYdL"
           />
         </div>
       </div>
     </div>
   </div>
   <div
-    class="sc-jDwBTQ edDvhX"
+    class="CaseHeader__CaseImageMobile-i46oib-8 bQjXos"
   >
     <img
-      class="sc-cvbbAY imXRdJ"
       alt=""
       src="//images.ctfassets.net/rj4r6yfcesw5/4cWj2fKl3GOQgSKss0IW0q/0b2322470ffb780b925c8e446e745540/af-cropped-by-aeo.png"
+      class="CaseHeader__ProjectImage-i46oib-3 inDYdL"
     />
   </div>
   <div
-    class="sc-iwsKbI cTexZb"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-gzVnrw gPskFt"
   >
     <div
-      class="sc-gzVnrw jfvayO"
       data-test="breadcrumbs"
+      class="sc-bdVaJa sc-bZQynM fXeWOs"
     >
       <a>
         <span
-          class="sc-htoDjs hjXPuh"
+          class="Breadcrumbs__StyledSpan-sc-1ajw33n-0 bBBcLz"
         >
           Case
         </span>
@@ -150,14 +150,14 @@ exports[`components/Case renders Case 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="sc-bdVaJa fGzlqx"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="sc-htpNat wioCx"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="sc-bxivhb joTsHV"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -166,10 +166,10 @@ exports[`components/Case renders Case 1`] = `
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="sc-EHOje hJrdUN"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>
@@ -186,14 +186,14 @@ exports[`components/Case renders Case 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="sc-bdVaJa fGzlqx"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="sc-htpNat wioCx"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="sc-bxivhb joTsHV"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -202,10 +202,10 @@ exports[`components/Case renders Case 1`] = `
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="sc-EHOje hJrdUN"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>
@@ -218,19 +218,19 @@ exports[`components/Case renders Case 1`] = `
       </div>
     </div>
     <div
-      class="sc-eNQAEJ bMJWqn sc-dnqmqq eCKktF"
       data-test="block-"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kAzzGY hwdyEL"
     >
       <div
         class="sc-bdVaJa fGzlqx"
       >
         <div
-          class="sc-hMqMXs bQbgLN"
+          class="Quote__ActualQuote-sc-1t3qoo6-0 caUjjr"
         >
           ""We feel that our crew at Iteam are more colleagues than suppliers. Rather than specifying a tech spec to work on, we collaborate, carefully chiseling out functionality as we go along. This way of working has minimized waste and it has also taken us further than we ever imagined”"
         </div>
         <div
-          class="sc-kEYyzF cCpZHU"
+          class="Quote__Person-sc-1t3qoo6-1 gOYqcc"
         >
           Anna Andersson, chef Arbetsförmedlingen
         </div>
@@ -241,14 +241,14 @@ exports[`components/Case renders Case 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="sc-bdVaJa fGzlqx"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="sc-htpNat wioCx"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="sc-bxivhb joTsHV"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -257,10 +257,10 @@ exports[`components/Case renders Case 1`] = `
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="sc-EHOje hJrdUN"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>
@@ -277,14 +277,14 @@ exports[`components/Case renders Case 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="sc-bdVaJa fGzlqx"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="sc-htpNat wioCx"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="sc-bxivhb joTsHV"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -293,10 +293,10 @@ exports[`components/Case renders Case 1`] = `
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="sc-EHOje hJrdUN"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>
@@ -313,14 +313,14 @@ exports[`components/Case renders Case 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="sc-bdVaJa fGzlqx"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="sc-htpNat wioCx"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="sc-bxivhb joTsHV"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -329,10 +329,10 @@ exports[`components/Case renders Case 1`] = `
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="sc-EHOje hJrdUN"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>
@@ -353,14 +353,14 @@ exports[`components/Case renders Case 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="sc-bdVaJa fGzlqx"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="sc-htpNat wioCx"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="sc-bxivhb joTsHV"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -369,10 +369,10 @@ exports[`components/Case renders Case 1`] = `
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="sc-EHOje hJrdUN"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <ul>
@@ -394,8 +394,8 @@ exports[`components/Case renders Case 1`] = `
       </div>
     </div>
     <div
-      class="sc-kpOJdX ePujIJ"
       data-test="block-"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-cSHVUG eWEIce"
     >
       <div
         class="sc-bdVaJa fGzlqx"
@@ -406,50 +406,50 @@ exports[`components/Case renders Case 1`] = `
           Tekniker vi använt
         </h3>
         <div
-          class="sc-dxgOiQ cXONLV"
+          class="Frameworks__FrameworksWrap-qcim0a-0 cTevWf"
         >
           <div
-            class="sc-ckVGcZ hZNtaK"
+            class="Frameworks__Framework-qcim0a-1 gKQzeM"
           >
             <img
-              class="sc-jKJlTe WPpbf"
               src="https://images.ctfassets.net/rj4r6yfcesw5/3ipy8GBepacEyeKM0weI0i/39509f189b3f80400357320c6def15ad/docker.png"
+              class="Frameworks__FrameworkIcon-qcim0a-2 eJpXWR"
             />
             Docker
           </div>
           <div
-            class="sc-ckVGcZ hZNtaK"
+            class="Frameworks__Framework-qcim0a-1 gKQzeM"
           >
             <img
-              class="sc-jKJlTe WPpbf"
               src="https://images.ctfassets.net/rj4r6yfcesw5/6Khn8L48laAoQuCkaouyQG/08e4cf1fe02bd945c23807d5a8f29e87/react.png"
+              class="Frameworks__FrameworkIcon-qcim0a-2 eJpXWR"
             />
             React
           </div>
           <div
-            class="sc-ckVGcZ hZNtaK"
+            class="Frameworks__Framework-qcim0a-1 gKQzeM"
           >
             <img
-              class="sc-jKJlTe WPpbf"
               src="https://images.ctfassets.net/rj4r6yfcesw5/5EBgyxee0oiGqqOmAEmAUq/af8d1ae7d3d578197205205b2c33e8ff/Vue.png"
+              class="Frameworks__FrameworkIcon-qcim0a-2 eJpXWR"
             />
             Vue
           </div>
           <div
-            class="sc-ckVGcZ hZNtaK"
+            class="Frameworks__Framework-qcim0a-1 gKQzeM"
           >
             <img
-              class="sc-jKJlTe WPpbf"
               src="https://images.ctfassets.net/rj4r6yfcesw5/3CIQ81A1M4EueKkYA8YgMY/ff59095490dd17d1ab74282447e0a213/nodejs.png"
+              class="Frameworks__FrameworkIcon-qcim0a-2 eJpXWR"
             />
             NodeJS
           </div>
           <div
-            class="sc-ckVGcZ hZNtaK"
+            class="Frameworks__Framework-qcim0a-1 gKQzeM"
           >
             <img
-              class="sc-jKJlTe WPpbf"
               src="https://images.ctfassets.net/rj4r6yfcesw5/4RmR16im884ykaUgEaiscA/411607987ba022b96e9a29d000821aef/mandrill.png"
+              class="Frameworks__FrameworkIcon-qcim0a-2 eJpXWR"
             />
             Mandrill
           </div>

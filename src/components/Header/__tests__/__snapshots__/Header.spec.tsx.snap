@@ -4,72 +4,72 @@ exports[`components/Header renders Header 1`] = `
 <div>
   <div>
     <div
-      class="sc-esjQYD emLbYY"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-eqIVtm ILfyi"
     >
       <div
-        class="sc-kIPQKe cRzEQQ"
+        class="Header__Content-sc-1ofdv2r-0 limgqW"
       >
         <div
-          class="sc-dfVpRl ffdxbV"
+          class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
         >
           <a
-            class="sc-gzOgki fYazLb"
+            class="sc-fBuWsC hSqUTs"
           >
             <img
-              class="sc-iyvyFf irPqHj"
               data-testid="logo"
               path="test-file-stub"
+              class="sc-fMiknA jeihVP"
             />
           </a>
           <div
-            class="sc-hwwEjo jroJGa"
+            class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
           >
             <a
-              class="sc-kfGgVZ dRfPxx"
+              class="sc-dVhcbM huCQJf"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-kfGgVZ dRfPxx"
+              class="sc-dVhcbM huCQJf"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-kfGgVZ dRfPxx"
+              class="sc-dVhcbM huCQJf"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-kfGgVZ dRfPxx"
+              class="sc-dVhcbM huCQJf"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-kfGgVZ dRfPxx"
+              class="sc-dVhcbM huCQJf"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-kfGgVZ dRfPxx"
+              class="sc-dVhcbM huCQJf"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-kPVwWT hpTcRX"
+              class="Navigation__Indicator-sc-1i56sr4-2 gdIgfK"
             />
           </div>
         </div>
         <div
-          class="sc-eXEjpC jVUDZG"
+          class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="sc-ibxdXY iZEFyT"
+            class="sc-bwzfXH sc-fAjcbJ fRyUWC"
           >
             <span>
               Vi digitaliserar företag och organisationer
