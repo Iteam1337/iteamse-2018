@@ -37,7 +37,8 @@ interface Browsers {
 }
 
 export const browsers: Browsers = {
-  ie10Or11: (styleRules: string) => `@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {${styleRules}}`
+  ie10Or11: (styleRules: string) =>
+    `@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {${styleRules}}`,
 }
 
 export const colors: Colors = {
@@ -61,21 +62,21 @@ export const theme: Theme = {
   sizes,
 }
 
-export function withProps<U>() {
-  return <P, T, O>(
-    fn: styledComponents.ThemedStyledFunction<P, T, O>
-  ): styledComponents.ThemedStyledFunction<P & U, T, O & U> =>
-    fn as styledComponents.ThemedStyledFunction<P & U, T, O & U>
+declare module 'styled-components' {
+  // tslint:disable-next-line
+  interface DefaultTheme extends Theme {}
 }
+
 const {
   default: styled,
   css,
-  injectGlobal,
+  createGlobalStyle,
   keyframes,
+  ServerStyleSheet,
   ThemeProvider,
 } = styledComponents as styledComponents.ThemedStyledComponentsModule<Theme>
 
-const { ServerStyleSheet } = styledComponents
+type ThemedStyledProps<P> = styledComponents.ThemedStyledProps<P, Theme>
 
-export { css, injectGlobal, keyframes, ThemeProvider, ServerStyleSheet }
+export { css, createGlobalStyle, keyframes, ServerStyleSheet, ThemeProvider, ThemedStyledProps }
 export default styled

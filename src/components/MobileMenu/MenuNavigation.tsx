@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import styled, { keyframes } from 'styled-components'
+import styled, { keyframes } from '../../theme'
 
 interface MenuNavigationProps {
   open: boolean

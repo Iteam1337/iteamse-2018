@@ -11,10 +11,9 @@ import { renderToStaticMarkup } from 'react-dom/server'
 import Helmet from 'react-helmet'
 import { StaticRouter } from 'react-router-dom'
 import serialize from 'serialize-javascript'
-import { ServerStyleSheet, ThemeProvider } from 'styled-components'
 import App from './App'
 import Html from './Html'
-import { theme } from './theme'
+import { ServerStyleSheet, theme, ThemeProvider } from './theme'
 import { redirectHelper } from './utils/serverHelpers'
 
 const server = express()
@@ -73,7 +72,7 @@ server
         )
 
         const staticMarkup = renderToStaticMarkup(html)
-        
+
         const helmet = Helmet.renderStatic()
         const { meta, title } = helmet
 

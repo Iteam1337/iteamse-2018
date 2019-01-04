@@ -1,5 +1,5 @@
 import * as React from 'react'
-import styled, { contrastCheck, withProps } from '../../theme'
+import styled, { contrastCheck } from '../../theme'
 import { GridColumnClean } from '../Grid/GridColumn'
 import PaddedRow from '../Grid/PaddedRow'
 
@@ -14,19 +14,20 @@ interface QuoteWrapProps {
   backgroundColor?: string | null
 }
 
-const QuoteWrap = withProps<QuoteWrapProps>()(styled(GridColumnClean))`
-  background-color: ${({ theme, backgroundColor }) => backgroundColor ? backgroundColor : theme.colors.concrete};
-  color: ${({ theme, backgroundColor }) => (
-    backgroundColor 
-      ? contrastCheck(backgroundColor) 
-      : contrastCheck(theme.colors.concrete)
-  )};
+const QuoteWrap = styled(GridColumnClean)<QuoteWrapProps>`
+  background-color: ${({ theme, backgroundColor }) =>
+    backgroundColor ? backgroundColor : theme.colors.concrete};
+  color: ${({ theme, backgroundColor }) =>
+    backgroundColor
+      ? contrastCheck(backgroundColor)
+      : contrastCheck(theme.colors.concrete)};
   grid-column: -1 / 1;
   padding-bottom: 100px;
   padding-top: 100px;
 
   /* IE 11 */
-  ${({ theme }) => theme.browsers.ie10Or11(`
+  ${({ theme }) =>
+    theme.browsers.ie10Or11(`
     max-width: none;
     display: flex;
     justify-content: center;

@@ -21,7 +21,7 @@ const Address = styled.div`
   margin-bottom: 20px;
 `
 
-const NativeLinkUnderlined = NativeLink.extend`
+const NativeLinkUnderlined = styled(NativeLink)`
   border-bottom: 2px solid;
   color: black;
   margin-bottom: 6px;

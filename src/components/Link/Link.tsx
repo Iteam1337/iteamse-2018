@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom'
-import styled, { withProps } from '../../theme'
+import styled from '../../theme'
 
 interface StyledLinkProps {
   black?: boolean | number
 }
 
-const StyledLink = withProps<StyledLinkProps>()(styled(Link))`
+const StyledLink = styled(Link)<StyledLinkProps>`
   border-bottom: 2px solid ${({ black, theme }) =>
     black ? '#000' : theme.colors.cornflowerBlue};
   color: ${({ black, theme }) =>

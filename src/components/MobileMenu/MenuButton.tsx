@@ -1,5 +1,5 @@
 import React from 'react'
-import styled, { css, withProps } from '../../theme'
+import styled, { css } from '../../theme'
 
 interface MenuButtonProps {
   open: boolean
@@ -42,7 +42,7 @@ interface HamburgerProps {
   open: boolean
 }
 
-const Hamburger = withProps<HamburgerProps>()(styled.div)`
+const Hamburger = styled.div<HamburgerProps>`
   ${({ open }) =>
     open &&
     css`

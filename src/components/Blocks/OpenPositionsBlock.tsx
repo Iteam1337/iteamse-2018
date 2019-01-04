@@ -19,7 +19,7 @@ interface OpenPositionsBlockProps {
   title: string
 }
 
-const ColoredGridColumn = GridColumn.extend`
+const ColoredGridColumn = styled(GridColumn)`
   background-color: ${({ theme }) => theme.colors.concrete};
 `
 
@@ -47,7 +47,7 @@ const Content = styled.div`
 
 const SideWrap = styled.div``
 
-const UnstyledListWithMargin = UnstyledList.extend`
+const UnstyledListWithMargin = styled(UnstyledList)`
   margin-top: 10px;
 `
 

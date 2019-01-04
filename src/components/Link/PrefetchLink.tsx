@@ -2,7 +2,7 @@ import { DocumentNode } from 'graphql'
 import * as React from 'react'
 import { withApollo, WithApolloClient } from 'react-apollo'
 import { Link } from 'react-router-dom'
-import styled from 'styled-components'
+import styled from '../../theme'
 
 interface PrefetchLinkProps {
   query: DocumentNode

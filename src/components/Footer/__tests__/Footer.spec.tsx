@@ -25,7 +25,7 @@ describe('components/Footer', () => {
       </MockedQuery>
     )
 
-    await wait(() => getByText('Stockholm'))
+    await wait(() => getByText('Iteam Stockholm'))
 
     expect(container).toMatchSnapshot()
   })

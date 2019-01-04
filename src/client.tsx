@@ -2,11 +2,11 @@ import React from 'react'
 import { ApolloProvider } from 'react-apollo'
 import { hydrate } from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
-import { ThemeProvider } from 'styled-components'
+import 'what-input'
 import { client } from './apollo'
 import App from './App'
 import ScrollToTop from './ScrollToTop'
-import { theme } from './theme'
+import { theme, ThemeProvider } from './theme'
 
 hydrate(
   <ApolloProvider client={client}>
