@@ -105,7 +105,7 @@ const OfferIllustrationImage = styled.img`
   width: 256px;
 
   @media (min-width: 1025px) {
-    width: 384px;
+    width: 500px;
   }
 `
 
@@ -121,6 +121,8 @@ export class Offers extends React.Component {
           }
 
           const { pageOffers, offers } = data
+
+          console.log(offers)
 
           return (
             <>
