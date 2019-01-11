@@ -39,6 +39,7 @@ export const CASE_PAGE_QUERY = gql`
       team
       quote
       quotePerson
+      quoteBgColor
     }
   }
 `
@@ -66,14 +67,14 @@ export class CasePage extends React.Component<
             <>
               <Helmet>
                 <title>Iteam | {workCase.title}</title>
-                <meta name="og:title" content={`Iteam | ${workCase.title}`} />
+                <meta property="og:title" content={`Iteam | ${workCase.title}`} />
                 <meta
-                  name="twitter:title"
+                  property="twitter:title"
                   content={`Iteam | ${workCase.title}`}
                 />
                 {workCase.casePageBackgroundImage && (
                   <meta
-                    name="og:image"
+                    property="og:image"
                     content={`https:${workCase.casePageBackgroundImage}`}
                   />
                 )}
@@ -95,7 +96,12 @@ export class CasePage extends React.Component<
                 <Block title={workCase.processTitle}>{workCase.process}</Block>
 
                 {workCase.quote && (
-                  <Quote person={workCase.quotePerson}>{workCase.quote}</Quote>
+                  <Quote 
+                    quoteBgColor={workCase.quoteBgColor} 
+                    person={workCase.quotePerson}
+                  >
+                    {workCase.quote}
+                  </Quote>
                 )}
 
                 <Block title={workCase.developmentTitle}>

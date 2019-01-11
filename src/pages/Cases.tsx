@@ -40,6 +40,25 @@ const Cases = PaddedRow.extend`
     grid-column-gap: 30px;
     grid-template-columns: repeat(2, 1fr);
   }
+
+  /* IE 11 */
+  ${({ theme }) => theme.browsers.ie10Or11(`
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    > * {
+      flex: 1 0 50%;
+      box-sizing: border-box;
+    }
+
+    > a {
+      display: block;
+      margin-bottom: 25px;
+    }
+  `)}
 `
 
 const CaseImageWrap = styled.div`
@@ -56,6 +75,12 @@ const CaseImageWrap = styled.div`
 
 const CaseImage = styled.img`
   max-width: 90%;
+
+  /* IE 11 */
+  ${({ theme }) => theme.browsers.ie10Or11(`
+    max-width: 396px;
+    border: none;
+  `)};
 `
 
 const Meta = styled.div`
@@ -78,6 +103,11 @@ const Case = styled.div`
       padding-left: 10px;
     }
   }
+
+  /* IE 11 */
+  ${({ theme }) => theme.browsers.ie10Or11(`
+    max-width: 496px;
+  `)}
 `
 
 const Title = styled.div`
@@ -109,16 +139,16 @@ export class CasePage extends React.Component {
               <Helmet>
                 <title>Iteam | Case</title>
                 <meta
-                  name="og:title"
+                  property="og:title"
                   content="Iteam | Case"
                 />
                 <meta
-                  name="twitter:title"
+                  property="twitter:title"
                   content="Iteam | Case"
                 />
                 {pageCases.headerImage && (
                   <meta
-                    name="og:image"
+                    property="og:image"
                     content={`https:${pageCases.headerImage}`}
                   />
                 )}

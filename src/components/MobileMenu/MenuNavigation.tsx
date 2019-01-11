@@ -8,9 +8,11 @@ interface MenuNavigationProps {
 
 const StyledLink = styled(NavLink)`
   color: #000;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 300;
   text-decoration: none;
+  border-bottom: 2px solid black;
+  justify-self: right;
 
   &:not(:last-child) {
     margin-bottom: 30px;
@@ -34,7 +36,7 @@ const Menu = styled.div`
   bottom: 0;
   display: grid;
   left: 0;
-  padding: 20px 20px 100px;
+  padding: 20px 20px 150px;
   position: fixed;
   right: 0;
   text-align: right;
@@ -43,8 +45,7 @@ const Menu = styled.div`
 `
 
 const MenuInner = styled.div`
-  display: flex;
-  flex-direction: column;
+  display: grid;
 
   @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
     padding-top: 80px;

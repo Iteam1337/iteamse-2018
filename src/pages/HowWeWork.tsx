@@ -60,11 +60,11 @@ export class HowWeWork extends React.Component {
             <>
               <Helmet>
                 <title>Iteam | Hur vi jobbar</title>
-                <meta name="og:title" content="Iteam | Hur vi jobbar" />
-                <meta name="twitter:title" content="Iteam | Hur vi jobbar" />
+                <meta property="og:title" content="Iteam | Hur vi jobbar" />
+                <meta property="twitter:title" content="Iteam | Hur vi jobbar" />
                 {pageHowWeWork.headerImage && (
                   <meta
-                    name="og:image"
+                    property="og:image"
                     content={`https:${pageHowWeWork.headerImage}`}
                   />
                 )}

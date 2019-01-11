@@ -26,6 +26,12 @@ const Wrap = withProps<WrapProps>()(GridColumnClean.extend)`
     height: 500px;
     padding: 0px;
   }
+
+  /* IE 11 */
+  ${({ theme }) => theme.browsers.ie10Or11(`
+    display: flex;
+    justify-content: center;
+  `)}
 `
 
 const Content = styled.div`
@@ -38,6 +44,11 @@ const Content = styled.div`
     grid-template-columns: 1fr 1024px 1fr;
     grid-template-rows: auto 1fr;
   }
+
+  /* IE 11 */
+  ${({ theme }) => theme.browsers.ie10Or11(`
+    max-width: 1024px;
+  `)}
 `
 
 const Information = styled.div`
@@ -50,6 +61,11 @@ const Information = styled.div`
     grid-column-gap: 60px;
     grid-template-columns: 320px 1fr;
   }
+
+  /* IE 11 */
+  ${({ theme }) => theme.browsers.ie10Or11(`
+    display: flex;
+  `)}
 `
 
 const Meta = styled.div`
@@ -74,10 +90,12 @@ const Logo = styled.img`
   margin-bottom: 20px;
   max-width: 100%;
   vertical-align: top;
+  max-height: 100px;
 
   @media (min-width: 1025px) {
     margin-bottom: 40px;
     max-width: none;
+    max-height: none;
   }
 `
 

@@ -6,44 +6,44 @@ exports[`components/MobileMenu renders MobileMenu and can open it 1`] = `
     class="sc-bZQynM gxvPSJ"
   >
     <div
-      class="sc-ifAKCX cgZFIN"
+      class="sc-ifAKCX dJUpWM"
       data-test="mobile-menu"
     >
       <div
-        class="sc-EHOje eWBHPh"
+        class="sc-EHOje cEvxoD"
       >
         <a
-          class="sc-bxivhb gZkUsx"
+          class="sc-bxivhb iWxvfK"
           aria-current="false"
         >
           Case
         </a>
         <a
-          class="sc-bxivhb gZkUsx"
+          class="sc-bxivhb iWxvfK"
           aria-current="false"
         >
           AI
         </a>
         <a
-          class="sc-bxivhb gZkUsx"
+          class="sc-bxivhb iWxvfK"
           aria-current="false"
         >
           Metod
         </a>
         <a
-          class="sc-bxivhb gZkUsx"
+          class="sc-bxivhb iWxvfK"
           aria-current="false"
         >
           Medarbetare
         </a>
         <a
-          class="sc-bxivhb gZkUsx"
+          class="sc-bxivhb iWxvfK"
           aria-current="false"
         >
           Karriär
         </a>
         <a
-          class="sc-bxivhb gZkUsx"
+          class="sc-bxivhb iWxvfK"
           aria-current="false"
         >
           Om

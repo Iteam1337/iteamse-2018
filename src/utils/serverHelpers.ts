@@ -7,12 +7,13 @@ export const redirectHelper = (
   next: express.NextFunction
 ) => {
   const { path } = req
+  const pathLowerCase = path.toLowerCase()
 
   // Only redirect if it's an old route
-  const shouldRedirect = checkForRedirect(path)
+  const shouldRedirect = checkForRedirect(pathLowerCase)
 
   if (shouldRedirect) {
-    const redirectTo = handlePaths(path)
+    const redirectTo = handlePaths(pathLowerCase)
     res.redirect(301, redirectTo)
     return next()
   }
@@ -30,13 +31,16 @@ export const checkForRedirect = (path: string) => {
     '/ai',
     '/cases/tsab',
     '/cases/vimla',
+    '/news',
+    '/ms'
   ]
   if (
     oldPaths.includes(path) ||
     /(^\/team\/)/g.test(path) ||
     /(^\/teamet\/)/g.test(path) ||
     /(^\/career\/?)/g.test(path) ||
-    /(^\/operations\/?)/g.test(path)
+    /(^\/operations\/?)/g.test(path) ||
+    /(^\/news\/?)/g.test(path)
   ) {
     return true
   }
@@ -72,6 +76,10 @@ export const handlePaths = (path: string) => {
       return '/case/tsab'
     case '/cases/vimla':
       return '/case/vimla'
+    case '/news':
+      return '/'
+    case '/ms':
+      return '/'
     default:
       return '/404'
   }

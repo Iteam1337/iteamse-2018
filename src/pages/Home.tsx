@@ -66,12 +66,28 @@ const Content = styled.div`
     padding-bottom: 100px;
     padding-top: 100px;
   }
+
+  /* IE 11 */
+  ${({ theme }) => theme.browsers.ie10Or11(`
+    display: flex;
+    justify-content: center;
+  `)}
 `
 
 const Texts = styled.div`
   align-items: center;
   display: grid;
   grid-row-gap: 40px;
+
+  /* IE 11 */
+  ${({ theme }) => theme.browsers.ie10Or11(`
+    width: 100%;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+  `)}
 `
 
 const TextBlock = PaddedRow.extend`
@@ -84,6 +100,12 @@ const TextBlock = PaddedRow.extend`
       margin-bottom: 0;
     }
   }
+
+  /* IE 11 */
+  ${({ theme }) => theme.browsers.ie10Or11(`
+    width: 100%;
+    flex-shrink: 0;
+  `)}
 `
 
 const NarrowLink = Link.extend`
@@ -131,8 +153,8 @@ export class Home extends React.Component {
       <>
         <Helmet>
           <title>Iteam - There's a better way</title>
-          <meta name="og:title" content="Iteam - There's a better way" />
-          <meta name="twitter:title" content="Iteam - There's a better way" />
+          <meta property="og:title" content="Iteam - There's a better way" />
+          <meta property="twitter:title" content="Iteam - There's a better way" />
         </Helmet>
 
         <HomeQuery query={HOME_PAGE_QUERY}>
