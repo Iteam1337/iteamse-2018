@@ -84,13 +84,13 @@ exports[`components/Cases renders Cases 1`] = `
     class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-gzVnrw gPskFt"
   >
     <div
-      class="sc-bdVaJa sc-kgoBCf egZMLD"
+      class="sc-gPEVay bcENoJ"
     >
       <a
         class="sc-jzJRlG gdwHRy"
       >
         <div
-          class="Cases__Case-sc-1mpal5q-3 esTvuF"
+          class="sc-Rmtcm jEXrCX"
         >
           <div
             class="Cases__CaseImageWrap-sc-1mpal5q-0 bgAPjR"
@@ -121,7 +121,7 @@ exports[`components/Cases renders Cases 1`] = `
         class="sc-jzJRlG gdwHRy"
       >
         <div
-          class="Cases__Case-sc-1mpal5q-3 esTvuF"
+          class="sc-Rmtcm jEXrCX"
         >
           <div
             class="Cases__CaseImageWrap-sc-1mpal5q-0 bgAPjR"
@@ -152,7 +152,7 @@ exports[`components/Cases renders Cases 1`] = `
         class="sc-jzJRlG gdwHRy"
       >
         <div
-          class="Cases__Case-sc-1mpal5q-3 esTvuF"
+          class="sc-Rmtcm jEXrCX"
         >
           <div
             class="Cases__CaseImageWrap-sc-1mpal5q-0 bgAPjR"
@@ -177,7 +177,7 @@ exports[`components/Cases renders Cases 1`] = `
         class="sc-jzJRlG gdwHRy"
       >
         <div
-          class="Cases__Case-sc-1mpal5q-3 esTvuF"
+          class="sc-Rmtcm jEXrCX"
         >
           <div
             class="Cases__CaseImageWrap-sc-1mpal5q-0 bgAPjR"
@@ -207,4 +207,4 @@ exports[`components/Cases renders Cases 1`] = `
     </div>
   </div>
 </div>
-`;
+`

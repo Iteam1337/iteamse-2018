@@ -218,6 +218,7 @@ exports[`components/Case renders Case 1`] = `
       </div>
     </div>
     <div
+      class="sc-eNQAEJ dYClUO sc-dnqmqq eCKktF"
       data-test="block-"
       class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kAzzGY hwdyEL"
     >
@@ -458,4 +459,4 @@ exports[`components/Case renders Case 1`] = `
     </div>
   </div>
 </div>
-`;
+`

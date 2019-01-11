@@ -8,7 +8,7 @@ import fetch from 'node-fetch'
 import React from 'react'
 import { ApolloProvider, renderToStringWithData } from 'react-apollo'
 import { renderToStaticMarkup } from 'react-dom/server'
-import Helmet from 'react-helmet'
+import { FilledContext, HelmetProvider } from 'react-helmet-async'
 import { StaticRouter } from 'react-router-dom'
 import serialize from 'serialize-javascript'
 import App from './App'
@@ -47,15 +47,20 @@ server
 
         const sheet = new ServerStyleSheet()
         const context = {}
+        const helmetContext: FilledContext = {
+          helmet: {},
+        }
 
         const markup = sheet.collectStyles(
-          <ApolloProvider client={client}>
-            <ThemeProvider theme={theme}>
-              <StaticRouter context={context} location={req.url}>
-                <App />
-              </StaticRouter>
-            </ThemeProvider>
-          </ApolloProvider>
+          <HelmetProvider context={helmetContext}>
+            <ApolloProvider client={client}>
+              <ThemeProvider theme={theme}>
+                <StaticRouter context={context} location={req.url}>
+                  <App />
+                </StaticRouter>
+              </ThemeProvider>
+            </ApolloProvider>
+          </HelmetProvider>
         )
 
         const content = await renderToStringWithData(markup)
@@ -73,7 +78,7 @@ server
 
         const staticMarkup = renderToStaticMarkup(html)
 
-        const helmet = Helmet.renderStatic()
+        const { helmet } = helmetContext
         const { meta, title } = helmet
 
         res.send(`

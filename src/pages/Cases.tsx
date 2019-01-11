@@ -1,7 +1,7 @@
 import gql from 'graphql-tag'
 import * as React from 'react'
 import { Query } from 'react-apollo'
-import { Helmet } from 'react-helmet'
+import Helmet from 'react-helmet-async'
 import { CasesPageQuery } from '../../typings/iteamse'
 import GridColumn from '../components/Grid/GridColumn'
 import PaddedRow from '../components/Grid/PaddedRow'

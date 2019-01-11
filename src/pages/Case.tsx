@@ -1,7 +1,7 @@
 import gql from 'graphql-tag'
 import * as React from 'react'
 import { Query } from 'react-apollo'
-import { Helmet } from 'react-helmet'
+import Helmet from 'react-helmet-async'
 import { RouteComponentProps, withRouter } from 'react-router-dom'
 import { CasePageQuery, CasePageQueryVariables } from '../../typings/iteamse'
 import Block from '../components/Blocks/Block'
@@ -67,7 +67,10 @@ export class CasePage extends React.Component<
             <>
               <Helmet>
                 <title>Iteam | {workCase.title}</title>
-                <meta property="og:title" content={`Iteam | ${workCase.title}`} />
+                <meta
+                  property="og:title"
+                  content={`Iteam | ${workCase.title}`}
+                />
                 <meta
                   property="twitter:title"
                   content={`Iteam | ${workCase.title}`}
@@ -96,8 +99,8 @@ export class CasePage extends React.Component<
                 <Block title={workCase.processTitle}>{workCase.process}</Block>
 
                 {workCase.quote && (
-                  <Quote 
-                    quoteBgColor={workCase.quoteBgColor} 
+                  <Quote
+                    quoteBgColor={workCase.quoteBgColor}
                     person={workCase.quotePerson}
                   >
                     {workCase.quote}
