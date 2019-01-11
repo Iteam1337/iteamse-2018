@@ -53,23 +53,6 @@ export interface AboutPageQuery {
   },
 };
 
-export interface AiPageQuery {
-  pageAi:  {
-    __typename: "PageAi",
-    headerImage: string | null,
-    headerText1: string | null,
-    headerText2: string | null,
-    headerTextBgColor: string | null,
-    team: Array< string > | null,
-    aboutTitle: string,
-    aboutText: string,
-    contentImage: string | null,
-    offersText: string,
-    offersTitle: string,
-    contactTitle: string,
-  },
-};
-
 export interface CasePageQueryVariables {
   slug: string,
 };
