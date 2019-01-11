@@ -1,7 +1,7 @@
 import gql from 'graphql-tag'
 import * as React from 'react'
 import { Query } from 'react-apollo'
-import Helmet from 'react-helmet'
+import Helmet from 'react-helmet-async'
 import { AiPageQuery } from '../../typings/iteamse'
 import AiTable from '../components/Blocks/AiTable'
 import Block from '../components/Blocks/Block'

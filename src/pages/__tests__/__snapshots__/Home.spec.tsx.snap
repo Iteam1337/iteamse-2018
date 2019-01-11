@@ -84,17 +84,17 @@ exports[`components/Home renders Home 1`] = `
     class="sc-fBuWsC imqKqb"
   >
     <div
-      class="sc-fMiknA bCKhKj"
+      class="sc-fMiknA hVwfdV"
     >
       <img
         class="sc-gisBJw bdEFVB"
         src="test-file-stub"
       />
       <div
-        class="sc-dVhcbM naIib"
+        class="sc-dVhcbM dvyGTR"
       >
         <div
-          class="sc-eqIVtm hGfYed"
+          class="sc-eqIVtm dVKRSZ"
         >
           <h1
             class="sc-gZMcBi ctjDhW"
@@ -121,7 +121,7 @@ exports[`components/Home renders Home 1`] = `
           />
         </div>
         <div
-          class="sc-eqIVtm hGfYed"
+          class="sc-eqIVtm dVKRSZ"
         >
           <h1
             class="sc-gZMcBi ctjDhW"
@@ -148,7 +148,7 @@ exports[`components/Home renders Home 1`] = `
           />
         </div>
         <div
-          class="sc-eqIVtm hGfYed"
+          class="sc-eqIVtm dVKRSZ"
         >
           <h1
             class="sc-gZMcBi ctjDhW"
