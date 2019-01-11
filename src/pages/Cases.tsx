@@ -1,7 +1,7 @@
 import gql from 'graphql-tag'
 import * as React from 'react'
 import { Query } from 'react-apollo'
-import { Helmet } from 'react-helmet'
+import Helmet from 'react-helmet-async'
 import styled from 'styled-components'
 import { CasesPageQuery } from '../../typings/iteamse'
 import GridColumn from '../components/Grid/GridColumn'
@@ -42,7 +42,8 @@ const Cases = PaddedRow.extend`
   }
 
   /* IE 11 */
-  ${({ theme }) => theme.browsers.ie10Or11(`
+  ${({ theme }) =>
+    theme.browsers.ie10Or11(`
     width: 100%;
     display: flex;
     align-items: flex-start;
@@ -58,7 +59,7 @@ const Cases = PaddedRow.extend`
       display: block;
       margin-bottom: 25px;
     }
-  `)}
+  `)};
 `
 
 const CaseImageWrap = styled.div`
@@ -77,7 +78,8 @@ const CaseImage = styled.img`
   max-width: 90%;
 
   /* IE 11 */
-  ${({ theme }) => theme.browsers.ie10Or11(`
+  ${({ theme }) =>
+    theme.browsers.ie10Or11(`
     max-width: 396px;
     border: none;
   `)};
@@ -105,9 +107,10 @@ const Case = styled.div`
   }
 
   /* IE 11 */
-  ${({ theme }) => theme.browsers.ie10Or11(`
+  ${({ theme }) =>
+    theme.browsers.ie10Or11(`
     max-width: 496px;
-  `)}
+  `)};
 `
 
 const Title = styled.div`
@@ -138,14 +141,8 @@ export class CasePage extends React.Component {
             <>
               <Helmet>
                 <title>Iteam | Case</title>
-                <meta
-                  property="og:title"
-                  content="Iteam | Case"
-                />
-                <meta
-                  property="twitter:title"
-                  content="Iteam | Case"
-                />
+                <meta property="og:title" content="Iteam | Case" />
+                <meta property="twitter:title" content="Iteam | Case" />
                 {pageCases.headerImage && (
                   <meta
                     property="og:image"
