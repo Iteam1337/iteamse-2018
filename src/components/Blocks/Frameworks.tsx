@@ -11,7 +11,7 @@ interface FrameworksProps {
 }
 
 const Wrap = GridColumnClean.extend`
-  background-color: ${({ theme }) => theme.colors.concrete};
+  background-color: ${({ theme }) => theme.colors.alabaster};
   grid-column: -1 / 1;
   padding-bottom: 100px;
   padding-top: 100px;

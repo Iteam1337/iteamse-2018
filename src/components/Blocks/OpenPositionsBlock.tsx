@@ -20,7 +20,7 @@ interface OpenPositionsBlockProps {
 }
 
 const ColoredGridColumn = GridColumn.extend`
-  background-color: ${({ theme }) => theme.colors.concrete};
+  background-color: ${({ theme }) => theme.colors.alabaster};
 `
 
 const Content = styled.div`
@@ -33,16 +33,16 @@ const Content = styled.div`
     grid-row-gap: 0;
   }
 
-
   /* IE 11 */
-  ${({ theme }) => theme.browsers.ie10Or11(`
+  ${({ theme }) =>
+    theme.browsers.ie10Or11(`
     display: flex;
     width: 1024px;
     
     > * {
       flex-basis: 50%;
     }
-  `)}
+  `)};
 `
 
 const SideWrap = styled.div``

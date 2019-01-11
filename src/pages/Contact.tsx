@@ -61,7 +61,7 @@ const ContactTextArea = styled(TextArea)`
 `
 
 const MessageSentWrap = styled.div`
-  background-color: ${({ theme }) => theme.colors.concrete};
+  background-color: ${({ theme }) => theme.colors.alabaster};
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -137,7 +137,7 @@ export class Operations extends React.Component {
                           color="primary"
                           onClick={this.handleMessageSubmit}
                         >
-                          Skicka
+                          Skicka meddelande
                         </SecondaryButton>
                       </>
                     )}

@@ -30,21 +30,20 @@ interface SecondaryButtonProps {
 const getAccentColour = (theme: Theme, color: AccentColor): string => {
   switch (color) {
     case 'primary':
-      return theme.colors.radicalRed
+      return theme.colors.cornflowerBlue
     default:
       return '#fff'
   }
 }
 
 const SecondaryButton = withProps<SecondaryButtonProps>()(styled.button)`
-  background: transparent;
+  background-color: ${({ theme, color }) => getAccentColour(theme, color)};
   border: 1px solid ${({ theme, color }) => getAccentColour(theme, color)};
   border-radius: 5px;
-  color: ${({ theme, color }) => getAccentColour(theme, color)};
+  color: #fff;
   cursor: pointer;
   font-size: 18px;
   font-family: inherit;
-  font-weight: 500;
   outline: none;
   padding: 12px 72px;
   transition-property: background-color, border-color, color;
@@ -53,12 +52,6 @@ const SecondaryButton = withProps<SecondaryButtonProps>()(styled.button)`
   width: 100%;
 
   &:hover {
-    background-color: ${({ theme, color }) => getAccentColour(theme, color)};
-    color: #fff;
-  }
-
-  @media (min-width: 1025px) {
-    width: auto;
   }
 `
 

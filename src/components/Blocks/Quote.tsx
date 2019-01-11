@@ -15,18 +15,19 @@ interface QuoteWrapProps {
 }
 
 const QuoteWrap = withProps<QuoteWrapProps>()(styled(GridColumnClean))`
-  background-color: ${({ theme, backgroundColor }) => backgroundColor ? backgroundColor : theme.colors.concrete};
-  color: ${({ theme, backgroundColor }) => (
-    backgroundColor 
-      ? contrastCheck(backgroundColor) 
-      : contrastCheck(theme.colors.concrete)
-  )};
+  background-color: ${({ theme, backgroundColor }) =>
+    backgroundColor ? backgroundColor : theme.colors.alabaster};
+  color: ${({ theme, backgroundColor }) =>
+    backgroundColor
+      ? contrastCheck(backgroundColor)
+      : contrastCheck(theme.colors.alabaster)};
   grid-column: -1 / 1;
   padding-bottom: 100px;
   padding-top: 100px;
 
   /* IE 11 */
-  ${({ theme }) => theme.browsers.ie10Or11(`
+  ${({ theme }) =>
+    theme.browsers.ie10Or11(`
     max-width: none;
     display: flex;
     justify-content: center;
