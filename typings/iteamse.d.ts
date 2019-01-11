@@ -198,6 +198,7 @@ export interface OffersPageQuery {
     offerUspFourTitle: string | null,
     offerUspFourText: string | null,
     offerIllustrationImage: string,
+    offerOrder: number,
   } >,
 };
 

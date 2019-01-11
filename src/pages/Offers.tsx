@@ -39,6 +39,7 @@ export const OFFERS_PAGE_QUERY = gql`
       offerUspFourTitle
       offerUspFourText
       offerIllustrationImage
+      offerOrder
     }
   }
 `
@@ -146,77 +147,81 @@ export class Offers extends React.Component {
                   <Fade bottom distance="50px">
                     <Paragraph>{pageOffers.offersLeadText}</Paragraph>
                     <GridRow>
-                      {offers.map(offer => {
-                        const linkTitle = offer.offerTitle.toLowerCase()
+                      {[...offers]
+                        .sort((a, b) => a.offerOrder - b.offerOrder)
+                        .map(offer => {
+                          const linkTitle = offer.offerTitle.toLowerCase()
 
-                        return (
-                          <OfferIntroItem key={offer.offerTitle}>
-                            <OfferIntroImage src={offer.offerIntroImage} />
-                            <H3>{offer.offerTitle}</H3>
-                            <Paragraph>{offer.offerIntroText}</Paragraph>
-                            <OfferIntroLink
-                              scroll={(element: any) => {
-                                window.scrollBy({
-                                  behavior: 'smooth',
-                                  left: 0,
-                                  top: element.offsetTop - window.pageYOffset,
-                                })
-                              }}
-                              to={`#${linkTitle}`}
-                            >
-                              Läs mer om {linkTitle}
-                            </OfferIntroLink>
-                          </OfferIntroItem>
-                        )
-                      })}
+                          return (
+                            <OfferIntroItem key={offer.offerTitle}>
+                              <OfferIntroImage src={offer.offerIntroImage} />
+                              <H3>{offer.offerTitle}</H3>
+                              <Paragraph>{offer.offerIntroText}</Paragraph>
+                              <OfferIntroLink
+                                scroll={(element: any) => {
+                                  window.scrollBy({
+                                    behavior: 'smooth',
+                                    left: 0,
+                                    top: element.offsetTop - window.pageYOffset,
+                                  })
+                                }}
+                                to={`#${linkTitle}`}
+                              >
+                                Läs mer om {linkTitle}
+                              </OfferIntroLink>
+                            </OfferIntroItem>
+                          )
+                        })}
                     </GridRow>
                   </Fade>
                 </PaddedRow>
               </GridColumn>
 
-              {offers.map(offer => {
-                const linkTitle = offer.offerTitle.toLowerCase()
-                const offerUsps = [
-                  {
-                    text: offer.offerUspOneText,
-                    title: offer.offerUspOneTitle,
-                  },
-                  {
-                    text: offer.offerUspTwoText,
-                    title: offer.offerUspTwoTitle,
-                  },
-                  {
-                    text: offer.offerUspThreeText,
-                    title: offer.offerUspThreeTitle,
-                  },
-                  {
-                    text: offer.offerUspFourText,
-                    title: offer.offerUspFourTitle,
-                  },
-                ]
+              {[...offers]
+                .sort((a, b) => a.offerOrder - b.offerOrder)
+                .map(offer => {
+                  const linkTitle = offer.offerTitle.toLowerCase()
+                  const offerUsps = [
+                    {
+                      text: offer.offerUspOneText,
+                      title: offer.offerUspOneTitle,
+                    },
+                    {
+                      text: offer.offerUspTwoText,
+                      title: offer.offerUspTwoTitle,
+                    },
+                    {
+                      text: offer.offerUspThreeText,
+                      title: offer.offerUspThreeTitle,
+                    },
+                    {
+                      text: offer.offerUspFourText,
+                      title: offer.offerUspFourTitle,
+                    },
+                  ]
 
-                return (
-                  <OffersGridColumn id={linkTitle} key={offer.offerTitle}>
-                    <PaddedRow>
-                      <Fade bottom distance="50px">
-                        <H1Margin>{offer.offerTitle}</H1Margin>
-                        <Paragraph>{offer.offerLead}</Paragraph>
-                        <OfferUspRow>
-                          {offerUsps.map((usp: any) => (
-                            <OfferUspItem key={usp.title}>
-                              <H3>{usp.title}</H3>
-                              <Paragraph>{usp.text}</Paragraph>
-                            </OfferUspItem>
-                          ))}
-                        </OfferUspRow>
-                      </Fade>
-                      <OfferIllustrationImage
-                        src={offer.offerIllustrationImage}
-                      />
-                    </PaddedRow>
-                  </OffersGridColumn>
-                )
-              })}
+                  return (
+                    <OffersGridColumn id={linkTitle} key={offer.offerTitle}>
+                      <PaddedRow>
+                        <Fade bottom distance="50px">
+                          <H1Margin>{offer.offerTitle}</H1Margin>
+                          <Paragraph>{offer.offerLead}</Paragraph>
+                          <OfferUspRow>
+                            {offerUsps.map((usp: any) => (
+                              <OfferUspItem key={usp.title}>
+                                <H3>{usp.title}</H3>
+                                <Paragraph>{usp.text}</Paragraph>
+                              </OfferUspItem>
+                            ))}
+                          </OfferUspRow>
+                        </Fade>
+                        <OfferIllustrationImage
+                          src={offer.offerIllustrationImage}
+                        />
+                      </PaddedRow>
+                    </OffersGridColumn>
+                  )
+                })}
 
               <Team
                 bgColor="green"
