@@ -84,17 +84,17 @@ exports[`components/Home renders Home 1`] = `
     class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-gzVnrw sc-dxgOiQ jOraxb"
   >
     <div
-      class="sc-fMiknA hVwfdV"
+      class="Home__Content-sc-1cz0hle-0 geYJIV"
     >
       <img
         src="test-file-stub"
         class="Home__StylizedIteam-sc-1cz0hle-3 gCKdih"
       />
       <div
-        class="sc-dVhcbM dvyGTR"
+        class="Home__Texts-sc-1cz0hle-1 ifUVwV"
       >
         <div
-          class="sc-eqIVtm dVKRSZ"
+          class="sc-bdVaJa sc-ckVGcZ kcmZLT"
         >
           <h1
             class="sc-htoDjs bEbXpi"
@@ -121,7 +121,7 @@ exports[`components/Home renders Home 1`] = `
           />
         </div>
         <div
-          class="sc-eqIVtm dVKRSZ"
+          class="sc-bdVaJa sc-ckVGcZ kcmZLT"
         >
           <h1
             class="sc-htoDjs bEbXpi"
@@ -148,7 +148,7 @@ exports[`components/Home renders Home 1`] = `
           />
         </div>
         <div
-          class="sc-eqIVtm dVKRSZ"
+          class="sc-bdVaJa sc-ckVGcZ kcmZLT"
         >
           <h1
             class="sc-htoDjs bEbXpi"
@@ -223,4 +223,4 @@ exports[`components/Home renders Home 1`] = `
     </div>
   </div>
 </div>
-`
+`;
