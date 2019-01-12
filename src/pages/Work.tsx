@@ -1,7 +1,7 @@
 import gql from 'graphql-tag'
 import * as React from 'react'
 import { Query } from 'react-apollo'
-import { Helmet } from 'react-helmet'
+import Helmet from 'react-helmet-async'
 import { WorkPageQuery } from '../../typings/iteamse'
 import Block from '../components/Blocks/Block'
 import FilterByLocation from '../components/FilterByLocation/FilterByLocation'
@@ -51,7 +51,10 @@ export class Work extends React.Component {
               <Helmet>
                 <title>Iteam | Jobba hos oss</title>
                 <meta property="og:title" content="Iteam | Jobba hos oss" />
-                <meta property="twitter:title" content="Iteam | Jobba hos oss" />
+                <meta
+                  property="twitter:title"
+                  content="Iteam | Jobba hos oss"
+                />
                 {pageWork.headerImage && (
                   <meta
                     property="og:image"
