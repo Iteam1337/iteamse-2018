@@ -1,5 +1,5 @@
 import * as React from 'react'
-import styled, { colors, withProps } from '../../theme'
+import styled, { colors } from '../../theme'
 import { GridColumnClean } from '../Grid/GridColumn'
 import H2 from '../Typography/H2'
 
@@ -14,7 +14,7 @@ interface WrapProps {
   teamMembers: number
 }
 
-const Wrap = withProps<WrapProps>()(GridColumnClean.extend)`
+const Wrap = styled(GridColumnClean)<WrapProps>`
   background-color: ${({ bgColor }) => bgColor};
   color: ${({ bgColor, theme }) => theme.contrast(bgColor)};
   grid-column: -1 / 1;
@@ -42,7 +42,7 @@ const Wrap = withProps<WrapProps>()(GridColumnClean.extend)`
   `)}
 `
 
-const Header = H2.extend`
+const Header = styled(H2)`
   font-weight: 500;
   margin-bottom: 50px;
 
@@ -56,7 +56,7 @@ interface MembersProps {
   teamMembers: number
 }
 
-const Members = withProps<MembersProps>()(styled.div)`
+const Members = styled.div<MembersProps>`
   display: grid;
   grid-column-gap: 30px;
   grid-row-gap: 30px;

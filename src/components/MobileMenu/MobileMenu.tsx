@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { RouteComponentProps, withRouter } from 'react-router-dom'
-import styled from 'styled-components'
+import styled from '../../theme'
 import MenuButton from './MenuButton'
 import MenuNavigation from './MenuNavigation'
 

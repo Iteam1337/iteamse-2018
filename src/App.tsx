@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { Route, Switch } from 'react-router-dom'
-import { injectGlobal } from 'styled-components'
-import 'what-input'
+import { createGlobalStyle } from './theme'
 
 import Footer from './components/Footer/Footer'
 import MobileMenu from './components/MobileMenu/MobileMenu'
@@ -17,7 +16,7 @@ import Team from './pages/Team'
 import TeamMember from './pages/TeamMember'
 import Work from './pages/Work'
 
-injectGlobal`
+const GlobalStyle = createGlobalStyle`
   body {
     -webkit-font-smoothing: antialiased;
     font-family: 'Roboto', sans-serif;
@@ -28,7 +27,8 @@ injectGlobal`
 `
 
 const App = () => (
-  <React.Fragment>
+  <>
+    <GlobalStyle />
     <Switch>
       <Route exact path="/" component={Home} />
       <Route path="/om-oss" component={About} />
@@ -44,7 +44,7 @@ const App = () => (
     </Switch>
     <MobileMenu />
     <Footer />
-  </React.Fragment>
+  </>
 )
 
 export default App

@@ -4,72 +4,72 @@ exports[`components/Ops renders Ops 1`] = `
 <div>
   <div>
     <div
-      class="sc-kTUwUJ dTepxp"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-hzDkRC dpConc"
     >
       <div
-        class="sc-dqBHgY jzsvTx"
+        class="Header__Content-sc-1ofdv2r-0 limgqW"
       >
         <div
-          class="sc-jwKygS jinUXi"
+          class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
         >
           <a
-            class="sc-btzYZH iNlviF"
+            class="sc-csuQGl kBaCvS"
           >
             <img
-              class="sc-lhVmIH cZUBMJ"
               data-testid="logo"
               path="test-file-stub"
+              class="sc-Rmtcm jeZXze"
             />
           </a>
           <div
-            class="sc-bYSBpT ffXmNN"
+            class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
           >
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-bRBYWo cBPUew"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-bRBYWo cBPUew"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-bRBYWo cBPUew"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-bRBYWo cBPUew"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-bRBYWo cBPUew"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-bRBYWo cBPUew"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-elJkPf ruddK"
+              class="Navigation__Indicator-sc-1i56sr4-2 gdIgfK"
             />
           </div>
         </div>
         <div
-          class="sc-gxMtzJ gVSKut"
+          class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="sc-dfVpRl ckeprI"
+            class="sc-htoDjs sc-jhAzac gmHUok"
           >
             <span>
               Drift och support
@@ -80,21 +80,21 @@ exports[`components/Ops renders Ops 1`] = `
     </div>
   </div>
   <div
-    class="sc-iwsKbI cTexZb"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-gzVnrw gPskFt"
   >
     <div
       class="react-reveal"
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="sc-bdVaJa fGzlqx"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="sc-htpNat wioCx"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="sc-bxivhb joTsHV"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -103,10 +103,10 @@ exports[`components/Ops renders Ops 1`] = `
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="sc-EHOje hJrdUN"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>

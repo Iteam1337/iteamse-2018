@@ -1,12 +1,14 @@
 import { queries } from 'dom-testing-library'
 import 'dom-testing-library/extend-expect'
 import React from 'react'
-import { render, Simulate, wait } from 'react-testing-library'
+import { cleanup, fireEvent, render, wait } from 'react-testing-library'
 import MockedQuery from '../../../utils/test-utils/MockedQuery'
 import MobileMenu from '../MobileMenu'
 
+afterEach(cleanup)
+
 describe('components/MobileMenu', () => {
-  const mocks = {}
+  const mocks = []
 
   it('renders MobileMenu and can open it', async () => {
     window.resizeTo(411, 500)
@@ -18,14 +20,14 @@ describe('components/MobileMenu', () => {
     )
 
     // Mobile menu should not be open
-    expect(queries.queryByText(container, 'Om')).not.toBeInTheDOM()
+    expect(queries.queryByText(container, 'Om')).not.toBeInTheDocument()
 
     // Assert that we have a mobile button and click it
     await wait(() => getByTestId('btn-mobile-menu'))
-    Simulate.click(getByTestId('btn-mobile-menu'))
+    fireEvent.click(getByTestId('btn-mobile-menu'))
 
     // Mobile menu should be open
-    expect(getByText('Om')).toBeInTheDOM()
+    expect(getByText('Om')).toBeInTheDocument()
 
     expect(container).toMatchSnapshot()
   })
@@ -39,10 +41,10 @@ describe('components/MobileMenu', () => {
 
     // Assert that we have a mobile button and click it
     await wait(() => getByTestId('btn-mobile-menu'))
-    Simulate.click(getByTestId('btn-mobile-menu'))
+    fireEvent.click(getByTestId('btn-mobile-menu'))
 
     // Mobile menu should be open
-    expect(getByText('Om')).toBeInTheDOM()
+    expect(getByText('Om')).toBeInTheDocument()
 
     // Mock path transition since we don't have React router
     render(
@@ -53,6 +55,6 @@ describe('components/MobileMenu', () => {
     )
 
     // Mobile menu should not be open
-    expect(queries.queryByText(container, 'Om')).not.toBeInTheDOM()
+    expect(queries.queryByText(container, 'Om')).toMatchSnapshot()
   })
 })

@@ -1,13 +1,15 @@
-import React from 'react'
-import { render, Simulate, wait } from 'react-testing-library'
+import * as React from 'react'
+import { cleanup, fireEvent, render, wait } from 'react-testing-library'
 import MockedQuery from '../../../utils/test-utils/MockedQuery'
 import { Navigation } from '../Navigation'
 
 jest.mock('graphql-tag', () => jest.fn(input => input))
 
+afterEach(cleanup)
+
 describe('components/Navigation', () => {
   let client: any
-  const mocks = {}
+  const mocks = []
 
   beforeEach(() => {
     client = {
@@ -24,7 +26,7 @@ describe('components/Navigation', () => {
 
     await wait()
 
-    Simulate.mouseEnter(getByText('Om'))
+    fireEvent.mouseEnter(getByText('Om'))
 
     expect(client.query.mock.calls[0][0]).toMatchSnapshot()
   })
@@ -38,7 +40,9 @@ describe('components/Navigation', () => {
 
     await wait()
 
-    Simulate.mouseEnter(getByTestId('logo').parentNode)
+    fireEvent.mouseEnter(getByTestId('logo').parentNode)
+
+    await wait()
 
     expect(client.query.mock.calls[0][0]).toMatchSnapshot()
   })
@@ -52,7 +56,7 @@ describe('components/Navigation', () => {
 
     await wait()
 
-    Simulate.mouseEnter(getByText('Metod'))
+    fireEvent.mouseEnter(getByText('Metod'))
 
     expect(client.query.mock.calls[0][0]).toMatchSnapshot()
   })
@@ -66,7 +70,7 @@ describe('components/Navigation', () => {
 
     await wait()
 
-    Simulate.mouseEnter(getByText('Medarbetare'))
+    fireEvent.mouseEnter(getByText('Medarbetare'))
 
     expect(client.query.mock.calls[0][0]).toMatchSnapshot()
   })
@@ -80,7 +84,7 @@ describe('components/Navigation', () => {
 
     await wait()
 
-    Simulate.mouseEnter(getByText('Case'))
+    fireEvent.mouseEnter(getByText('Case'))
 
     expect(client.query.mock.calls[0][0]).toMatchSnapshot()
   })
@@ -94,7 +98,7 @@ describe('components/Navigation', () => {
 
     await wait()
 
-    Simulate.mouseEnter(getByText('Karriär'))
+    fireEvent.mouseEnter(getByText('Karriär'))
 
     expect(client.query.mock.calls[0][0]).toMatchSnapshot()
   })

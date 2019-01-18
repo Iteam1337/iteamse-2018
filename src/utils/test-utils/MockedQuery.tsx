@@ -10,7 +10,7 @@ import { theme } from '../../theme'
 
 interface MockedQueryProps {
   location?: object
-  mocks: object
+  mocks: any[]
   params?: object
 }
 

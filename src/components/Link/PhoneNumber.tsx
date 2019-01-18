@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { normalize, parse } from 'telefonnummer'
+import styled from '../../theme'
 import NativeLink from './NativeLink'
 
 interface PhoneNumberProps {
@@ -7,7 +8,7 @@ interface PhoneNumberProps {
   phoneNumber: string
 }
 
-const PhoneNumberLink = NativeLink.extend`
+const PhoneNumberLink = styled(NativeLink)`
   @media (min-width: 1025px) {
     text-decoration: none;
   }

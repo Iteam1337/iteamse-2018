@@ -13,7 +13,7 @@ export const GridColumnClean = styled.div`
   }
 `
 
-const GridColumn = GridColumnClean.extend`
+const GridColumn = styled(GridColumnClean)`
   grid-row-gap: 40px;
   padding-bottom: 40px;
   padding-top: 40px;
@@ -25,7 +25,8 @@ const GridColumn = GridColumnClean.extend`
   }
 
   /* IE 11 */
-  ${({ theme }) => theme.browsers.ie10Or11(`
+  ${({ theme }) =>
+    theme.browsers.ie10Or11(`
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -44,7 +45,7 @@ const GridColumn = GridColumnClean.extend`
     > img {
       max-width: none;
     }
-  `)}
+  `)};
 `
 
 export default GridColumn

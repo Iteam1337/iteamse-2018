@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { ValidLocation } from '../../../typings/iteam'
+import styled from '../../theme'
 import PaddedRow from '../Grid/PaddedRow'
 import Filter from './Filter'
 
@@ -11,7 +12,7 @@ type State = {
   location: ValidLocation
 }
 
-const Filters = PaddedRow.extend`
+const Filters = styled(PaddedRow)`
   display: flex;
 `
 

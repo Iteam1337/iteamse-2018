@@ -4,72 +4,72 @@ exports[`components/Work renders Work 1`] = `
 <div>
   <div>
     <div
-      class="sc-kTUwUJ hGsEAD"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-hzDkRC kPJnTe"
     >
       <div
-        class="sc-dqBHgY jzsvTx"
+        class="Header__Content-sc-1ofdv2r-0 limgqW"
       >
         <div
-          class="sc-jwKygS jinUXi"
+          class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
         >
           <a
-            class="sc-btzYZH iNlviF"
+            class="sc-csuQGl kBaCvS"
           >
             <img
-              class="sc-lhVmIH cZUBMJ"
               data-testid="logo"
               path="test-file-stub"
+              class="sc-Rmtcm jeZXze"
             />
           </a>
           <div
-            class="sc-bYSBpT ffXmNN"
+            class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
           >
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-bRBYWo cBPUew"
               aria-current="false"
             >
               Case
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-bRBYWo cBPUew"
               aria-current="false"
             >
               AI
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-bRBYWo cBPUew"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-bRBYWo cBPUew"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-bRBYWo cBPUew"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-jtRfpW jkixbM"
+              class="sc-bRBYWo cBPUew"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-elJkPf ruddK"
+              class="Navigation__Indicator-sc-1i56sr4-2 gdIgfK"
             />
           </div>
         </div>
         <div
-          class="sc-gxMtzJ gVSKut"
+          class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="sc-dfVpRl ckeprI"
+            class="sc-htoDjs sc-jhAzac gmHUok"
           >
             <span>
               Bli en del av teamet
@@ -80,29 +80,29 @@ exports[`components/Work renders Work 1`] = `
     </div>
   </div>
   <div
-    class="sc-iwsKbI cTexZb"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-gzVnrw gPskFt"
   >
     <div
-      class="sc-jqCOkK YHguG"
+      class="sc-bdVaJa sc-iAyFgw cCwTmS"
     >
       <div
-        class="sc-dNLxif pFwob"
         data-test="filter-"
         tabindex="0"
+        class="Filter__Wrap-sc-3nf4pp-0 euGVvx"
       >
         Alla
       </div>
       <div
-        class="sc-dNLxif kCTdee"
         data-test="filter-Stockholm"
         tabindex="0"
+        class="Filter__Wrap-sc-3nf4pp-0 kRhkKn"
       >
         Stockholm
       </div>
       <div
-        class="sc-dNLxif kCTdee"
         data-test="filter-Göteborg"
         tabindex="0"
+        class="Filter__Wrap-sc-3nf4pp-0 kRhkKn"
       >
         Göteborg
       </div>
@@ -112,14 +112,14 @@ exports[`components/Work renders Work 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-location"
+        class="sc-bdVaJa fGzlqx"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="sc-htpNat wioCx"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="sc-bxivhb joTsHV"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -127,16 +127,16 @@ exports[`components/Work renders Work 1`] = `
               Junior UX Designer
             </h3>
             <div
-              class="sc-EHOje cQMefO"
+              class="sc-ifAKCX jwmJJG"
             >
               Stockholm
             </div>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="sc-EHOje hJrdUN"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>
@@ -148,8 +148,8 @@ exports[`components/Work renders Work 1`] = `
               </div>
             </div>
             <a
-              class="sc-jhAzac eJSshj"
               black="0"
+              class="sc-kpOJdX jCjtGd"
             >
               Läs mer och ansök
             </a>
@@ -162,14 +162,14 @@ exports[`components/Work renders Work 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="sc-bdVaJa fGzlqx"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="sc-htpNat wioCx"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="sc-bxivhb joTsHV"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -178,10 +178,10 @@ exports[`components/Work renders Work 1`] = `
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="sc-EHOje hJrdUN"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>

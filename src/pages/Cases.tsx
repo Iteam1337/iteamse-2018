@@ -2,13 +2,13 @@ import gql from 'graphql-tag'
 import * as React from 'react'
 import { Query } from 'react-apollo'
 import Helmet from 'react-helmet-async'
-import styled from 'styled-components'
 import { CasesPageQuery } from '../../typings/iteamse'
 import GridColumn from '../components/Grid/GridColumn'
 import PaddedRow from '../components/Grid/PaddedRow'
 import Header from '../components/Header/Header'
 import PrefetchLink from '../components/Link/PrefetchLink'
 import Team from '../components/Team/Team'
+import styled from '../theme'
 import { CASE_PAGE_QUERY } from './Case'
 
 export const CASES_PAGE_QUERY = gql`
@@ -31,7 +31,7 @@ export const CASES_PAGE_QUERY = gql`
   }
 `
 
-const Cases = PaddedRow.extend`
+const Cases = styled(PaddedRow)`
   display: grid;
   grid-row-gap: 40px;
   grid-template-columns: 1fr;

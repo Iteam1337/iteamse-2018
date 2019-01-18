@@ -10,7 +10,7 @@ interface FrameworksProps {
   title: string
 }
 
-const Wrap = GridColumnClean.extend`
+const Wrap = styled(GridColumnClean)`
   background-color: ${({ theme }) => theme.colors.concrete};
   grid-column: -1 / 1;
   padding-bottom: 100px;

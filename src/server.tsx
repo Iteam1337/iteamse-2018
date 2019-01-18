@@ -11,10 +11,9 @@ import { renderToStaticMarkup } from 'react-dom/server'
 import { FilledContext, HelmetProvider } from 'react-helmet-async'
 import { StaticRouter } from 'react-router-dom'
 import serialize from 'serialize-javascript'
-import { ServerStyleSheet, ThemeProvider } from 'styled-components'
 import App from './App'
 import Html from './Html'
-import { theme } from './theme'
+import { ServerStyleSheet, theme, ThemeProvider } from './theme'
 import { redirectHelper } from './utils/serverHelpers'
 
 const server = express()

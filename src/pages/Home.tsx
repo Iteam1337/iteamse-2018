@@ -50,7 +50,7 @@ export const HOME_PAGE_QUERY = gql`
   }
 `
 
-const HomeGridColumn = GridColumn.extend`
+const HomeGridColumn = styled(GridColumn)`
   background-color: ${({ theme }) => theme.colors.concrete};
 `
 
@@ -92,7 +92,7 @@ const Texts = styled.div`
   `)};
 `
 
-const TextBlock = PaddedRow.extend`
+const TextBlock = styled(PaddedRow)`
   &:not(:last-child) {
     margin-bottom: 50px;
   }
@@ -111,7 +111,7 @@ const TextBlock = PaddedRow.extend`
   `)};
 `
 
-const NarrowLink = Link.extend`
+const NarrowLink = styled(Link)`
   @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
     letter-spacing: -0.5px;
   }
