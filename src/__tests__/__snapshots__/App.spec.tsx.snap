@@ -27,7 +27,7 @@ exports[`App renders App 1`] = `
     </button>
   </div>
   <div
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bZQynM sc-gisBJw hsFDSr"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bdVaJa sc-hSdWYo dgzEKM"
   >
     <div
       class="Footer__FooterSections-sc-1xlg8it-0 fyRAzu"
@@ -44,7 +44,7 @@ exports[`App renders App 1`] = `
           class="Location__Address-vwmy4q-2 eHaFTN"
         >
           <ul
-            class="sc-VigVT jORocD"
+            class="UnstyledList-r59lsu-0 dCBFDj"
           >
             <li>
               Haga Kyrkogata 28
@@ -56,7 +56,7 @@ exports[`App renders App 1`] = `
           </ul>
         </div>
         <ul
-          class="sc-VigVT jORocD"
+          class="UnstyledList-r59lsu-0 dCBFDj"
         >
           <li>
             +46 734 029 112
@@ -65,7 +65,7 @@ exports[`App renders App 1`] = `
             class="Location__ContactMail-vwmy4q-3 jaXxzV"
           >
             <a
-              class="sc-iwsKbI sc-caSCKo gXrKrP"
+              class="NativeLink-sc-1sy7t3m-0 sc-iAyFgw jHhUEQ"
             >
               johanna.grahn@iteam.se
             </a>
@@ -88,7 +88,7 @@ exports[`App renders App 1`] = `
           class="Location__Address-vwmy4q-2 eHaFTN"
         >
           <ul
-            class="sc-VigVT jORocD"
+            class="UnstyledList-r59lsu-0 dCBFDj"
           >
             <li>
               Östermalmsgatan 26A
@@ -100,7 +100,7 @@ exports[`App renders App 1`] = `
           </ul>
         </div>
         <ul
-          class="sc-VigVT jORocD"
+          class="UnstyledList-r59lsu-0 dCBFDj"
         >
           <li>
             +46 826 70 90
@@ -109,7 +109,7 @@ exports[`App renders App 1`] = `
             class="Location__ContactMail-vwmy4q-3 jaXxzV"
           >
             <a
-              class="sc-iwsKbI sc-caSCKo gXrKrP"
+              class="NativeLink-sc-1sy7t3m-0 sc-iAyFgw jHhUEQ"
             >
               info@iteam.se
             </a>
@@ -129,7 +129,7 @@ exports[`App renders App 1`] = `
           Följ oss
         </div>
         <ul
-          class="sc-VigVT jORocD"
+          class="UnstyledList-r59lsu-0 dCBFDj"
         >
           <li
             class="Footer__SocialMediaItem-sc-1xlg8it-3 jxvvt"
@@ -141,7 +141,7 @@ exports[`App renders App 1`] = `
             />
             <a
               href="https://www.facebook.com/iteam1337/"
-              class="sc-iwsKbI sc-kjoXOD kElEwn"
+              class="NativeLink-sc-1sy7t3m-0 sc-eHgmQL jHcoQv"
             >
               Facebook
             </a>
@@ -156,7 +156,7 @@ exports[`App renders App 1`] = `
             />
             <a
               href="https://instagram.com/iteam1337"
-              class="sc-iwsKbI sc-kjoXOD kElEwn"
+              class="NativeLink-sc-1sy7t3m-0 sc-eHgmQL jHcoQv"
             >
               Instagram
             </a>
@@ -171,7 +171,7 @@ exports[`App renders App 1`] = `
             />
             <a
               href="https://www.linkedin.com/company/270569/"
-              class="sc-iwsKbI sc-kjoXOD kElEwn"
+              class="NativeLink-sc-1sy7t3m-0 sc-eHgmQL jHcoQv"
             >
               LinkedIn
             </a>
@@ -186,7 +186,7 @@ exports[`App renders App 1`] = `
             />
             <a
               href="https://www.youtube.com/channel/UCU2TdLZ7p0jEuuGUxaod4lw"
-              class="sc-iwsKbI sc-kjoXOD kElEwn"
+              class="NativeLink-sc-1sy7t3m-0 sc-eHgmQL jHcoQv"
             >
               YouTube
             </a>
@@ -201,7 +201,7 @@ exports[`App renders App 1`] = `
             />
             <a
               href="http://www.mynewsdesk.com/se/iteam"
-              class="sc-iwsKbI sc-kjoXOD kElEwn"
+              class="NativeLink-sc-1sy7t3m-0 sc-eHgmQL jHcoQv"
             >
               MyNewsDesk
             </a>
@@ -214,11 +214,11 @@ exports[`App renders App 1`] = `
     >
       <a
         black="1"
-        class="sc-cMljjf guWhXl"
+        class="sc-gqjmRU ijjhUW"
       >
         Behöver du supporthjälp?
       </a>
     </div>
   </div>
 </div>
-`
+`;

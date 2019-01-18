@@ -75,10 +75,6 @@ Object {
       headerText1
       headerText2
       headerTextBgColor
-      aiTitle
-      aiText
-      aiSlug
-      aiLinkText
       codeMobileImage
       codeText
       codeTitle

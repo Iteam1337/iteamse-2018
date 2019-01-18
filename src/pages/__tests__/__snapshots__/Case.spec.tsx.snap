@@ -4,7 +4,7 @@ exports[`components/Case renders Case 1`] = `
 <div>
   <div
     data-test="header-case"
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-chPdSV cYkVcK"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-EHOje ehCRkd"
   >
     <div
       class="CaseHeader__Content-i46oib-0 dgxEQK"
@@ -13,49 +13,49 @@ exports[`components/Case renders Case 1`] = `
         class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
       >
         <a
-          class="sc-csuQGl kBaCvS"
+          class="sc-jKJlTe bIUarX"
         >
           <img
             data-testid="logo"
             path="test-file-stub"
-            class="sc-Rmtcm jeZXze"
+            class="sc-eNQAEJ gYmRno"
           />
         </a>
         <div
           class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
         >
           <a
-            class="sc-bRBYWo cBPUew active-nav"
-            aria-current="true"
+            class="sc-hMqMXs dApheh"
+            aria-current="false"
           >
             Erbjudanden
           </a>
           <a
-            class="sc-bRBYWo cBPUew"
-            aria-current="false"
+            class="sc-hMqMXs dApheh active-nav"
+            aria-current="true"
           >
             Våra case
           </a>
           <a
-            class="sc-bRBYWo cBPUew"
+            class="sc-hMqMXs dApheh"
             aria-current="false"
           >
             Metod
           </a>
           <a
-            class="sc-bRBYWo cBPUew"
+            class="sc-hMqMXs dApheh"
             aria-current="false"
           >
             Medarbetare
           </a>
           <a
-            class="sc-bRBYWo cBPUew"
+            class="sc-hMqMXs dApheh"
             aria-current="false"
           >
             Karriär
           </a>
           <a
-            class="sc-bRBYWo cBPUew"
+            class="sc-hMqMXs dApheh"
             aria-current="false"
           >
             Om
@@ -128,11 +128,11 @@ exports[`components/Case renders Case 1`] = `
     />
   </div>
   <div
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-gzVnrw gPskFt"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
   >
     <div
       data-test="breadcrumbs"
-      class="sc-bdVaJa sc-bZQynM fXeWOs"
+      class="PaddedRow-sc-13wt5gj-0 sc-bdVaJa gvAEMW"
     >
       <a>
         <span
@@ -151,22 +151,22 @@ exports[`components/Case renders Case 1`] = `
     >
       <div
         data-test="block-"
-        class="sc-bdVaJa fGzlqx"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-htpNat wioCx"
+          class="Block__Content-unfn3n-0 fZqjlq"
         >
           <div
-            class="sc-bxivhb joTsHV"
+            class="Block__TitleWrap-unfn3n-1 gqELJt"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               En ny digital tjänst
             </h3>
           </div>
           <div
-            class="sc-EHOje hJrdUN"
+            class="Block__Text-unfn3n-3 kUuzcn"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -187,22 +187,22 @@ exports[`components/Case renders Case 1`] = `
     >
       <div
         data-test="block-"
-        class="sc-bdVaJa fGzlqx"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-htpNat wioCx"
+          class="Block__Content-unfn3n-0 fZqjlq"
         >
           <div
-            class="sc-bxivhb joTsHV"
+            class="Block__TitleWrap-unfn3n-1 gqELJt"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Process
             </h3>
           </div>
           <div
-            class="sc-EHOje hJrdUN"
+            class="Block__Text-unfn3n-3 kUuzcn"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -219,10 +219,10 @@ exports[`components/Case renders Case 1`] = `
     </div>
     <div
       data-test="block-"
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kAzzGY hwdyEL"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-ifAKCX jRMFYW"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
           class="Quote__ActualQuote-sc-1t3qoo6-0 caUjjr"
@@ -242,22 +242,22 @@ exports[`components/Case renders Case 1`] = `
     >
       <div
         data-test="block-"
-        class="sc-bdVaJa fGzlqx"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-htpNat wioCx"
+          class="Block__Content-unfn3n-0 fZqjlq"
         >
           <div
-            class="sc-bxivhb joTsHV"
+            class="Block__TitleWrap-unfn3n-1 gqELJt"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Utveckling
             </h3>
           </div>
           <div
-            class="sc-EHOje hJrdUN"
+            class="Block__Text-unfn3n-3 kUuzcn"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -278,22 +278,22 @@ exports[`components/Case renders Case 1`] = `
     >
       <div
         data-test="block-"
-        class="sc-bdVaJa fGzlqx"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-htpNat wioCx"
+          class="Block__Content-unfn3n-0 fZqjlq"
         >
           <div
-            class="sc-bxivhb joTsHV"
+            class="Block__TitleWrap-unfn3n-1 gqELJt"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Arbetsförmedlingen
             </h3>
           </div>
           <div
-            class="sc-EHOje hJrdUN"
+            class="Block__Text-unfn3n-3 kUuzcn"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -314,22 +314,22 @@ exports[`components/Case renders Case 1`] = `
     >
       <div
         data-test="block-"
-        class="sc-bdVaJa fGzlqx"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-htpNat wioCx"
+          class="Block__Content-unfn3n-0 fZqjlq"
         >
           <div
-            class="sc-bxivhb joTsHV"
+            class="Block__TitleWrap-unfn3n-1 gqELJt"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Samarbetspartners
             </h3>
           </div>
           <div
-            class="sc-EHOje hJrdUN"
+            class="Block__Text-unfn3n-3 kUuzcn"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -354,22 +354,22 @@ exports[`components/Case renders Case 1`] = `
     >
       <div
         data-test="block-"
-        class="sc-bdVaJa fGzlqx"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-htpNat wioCx"
+          class="Block__Content-unfn3n-0 fZqjlq"
         >
           <div
-            class="sc-bxivhb joTsHV"
+            class="Block__TitleWrap-unfn3n-1 gqELJt"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Presskontakt
             </h3>
           </div>
           <div
-            class="sc-EHOje hJrdUN"
+            class="Block__Text-unfn3n-3 kUuzcn"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -395,13 +395,13 @@ exports[`components/Case renders Case 1`] = `
     </div>
     <div
       data-test="block-"
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-cSHVUG eWEIce"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bxivhb bopLEv"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <h3
-          class="sc-bwzfXH kgEpTV"
+          class="H3-sc-1kpkcxu-0 hpTLhF"
         >
           Tekniker vi använt
         </h3>

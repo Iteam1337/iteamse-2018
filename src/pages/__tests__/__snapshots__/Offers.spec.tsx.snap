@@ -4,72 +4,72 @@ exports[`components/Offers renders Offers 1`] = `
 <div>
   <div>
     <div
-      class="sc-hwwEjo bReNqI"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kEYyzF hhWAox"
     >
       <div
-        class="sc-kPVwWT bfscyN"
+        class="Header__Content-sc-1ofdv2r-0 limgqW"
       >
         <div
-          class="sc-kTUwUJ edcQtv"
+          class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
         >
           <a
-            class="sc-dqBHgY BqHh"
+            class="sc-jKJlTe bIUarX"
           >
             <img
-              class="sc-gxMtzJ guAkch"
               data-testid="logo"
               path="test-file-stub"
+              class="sc-eNQAEJ gYmRno"
             />
           </a>
           <div
-            class="sc-dfVpRl joBoAS"
+            class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
           >
             <a
-              class="sc-iyvyFf irQPJA"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-iyvyFf irQPJA"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-iyvyFf irQPJA"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-iyvyFf irQPJA"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-iyvyFf irQPJA"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-iyvyFf irQPJA"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-gzOgki bZZexF"
+              class="Navigation__Indicator-sc-1i56sr4-2 gdIgfK"
             />
           </div>
         </div>
         <div
-          class="sc-kfGgVZ kPvaat"
+          class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="sc-esjQYD hJXmNj"
+            class="H1-sc-1k64xg2-0 sc-kkGfuU clBDyh"
           >
             <span>
               Våra erbjudanden
@@ -80,17 +80,17 @@ exports[`components/Offers renders Offers 1`] = `
     </div>
   </div>
   <div
-    class="sc-iwsKbI cTexZb"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
   >
     <div
-      class="sc-bdVaJa fGzlqx"
+      class="PaddedRow-sc-13wt5gj-0 dtvxob"
     >
       <div
         class="react-reveal"
         style="opacity: 1;"
       >
         <div
-          class="sc-htpNat bkGJgg"
+          class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
         >
           <div>
             <p>
@@ -104,22 +104,22 @@ exports[`components/Offers renders Offers 1`] = `
         style="opacity: 1;"
       >
         <div
-          class="sc-kvZOFW jBOBKA sc-iwsKbI cTexZb"
+          class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH sc-fjdhpX mTDkJ"
         >
           <div
-            class="sc-jbKcbu fYIBew"
+            class="Offers__OfferIntroItem-sc-1rn487j-0 dGQKiC"
           >
             <img
-              class="sc-dNLxif mLmym"
               src="//images.ctfassets.net/rj4r6yfcesw5/5n7J4mzx3UWam0YwgsUQm/8e00d12d6e80eba927b2a313fb250d87/1.png"
+              class="Offers__OfferIntroImage-sc-1rn487j-1 fqUlA"
             />
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Kod
             </h3>
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>
@@ -128,7 +128,7 @@ exports[`components/Offers renders Offers 1`] = `
               </div>
             </div>
             <a
-              class="sc-jqCOkK jIipQE sc-Rmtcm dQDOMo"
+              class="sc-dnqmqq sc-cSHVUG kcYakR"
             >
               Läs mer om 
               kod
@@ -139,18 +139,18 @@ exports[`components/Offers renders Offers 1`] = `
     </div>
   </div>
   <div
-    class="sc-uJMKN bvzAXn sc-iwsKbI cTexZb"
     id="kod"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH sc-kAzzGY hHqyzp"
   >
     <div
-      class="sc-bdVaJa fGzlqx"
+      class="PaddedRow-sc-13wt5gj-0 dtvxob"
     >
       <div
         class="react-reveal"
         style="opacity: 1;"
       >
         <h1
-          class="sc-hqyNC ccXplx sc-gZMcBi ctjDhW"
+          class="H1-sc-1k64xg2-0 sc-jzJRlG dMbwqX"
         >
           Kod
         </h1>
@@ -160,7 +160,7 @@ exports[`components/Offers renders Offers 1`] = `
         style="opacity: 1;"
       >
         <div
-          class="sc-htpNat bkGJgg"
+          class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
         >
           <div>
             <p>
@@ -174,18 +174,18 @@ exports[`components/Offers renders Offers 1`] = `
         style="opacity: 1;"
       >
         <div
-          class="sc-bbmXgH kaceyp sc-iwsKbI cTexZb"
+          class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH sc-chPdSV iLjGUD"
         >
           <div
-            class="sc-gGBfsJ eKDMkt"
+            class="Offers__OfferUspItem-sc-1rn487j-2 stQCB"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Utveckling av pilot
             </h3>
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>
@@ -195,15 +195,15 @@ exports[`components/Offers renders Offers 1`] = `
             </div>
           </div>
           <div
-            class="sc-gGBfsJ eKDMkt"
+            class="Offers__OfferUspItem-sc-1rn487j-2 stQCB"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               API
             </h3>
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>
@@ -213,15 +213,15 @@ exports[`components/Offers renders Offers 1`] = `
             </div>
           </div>
           <div
-            class="sc-gGBfsJ eKDMkt"
+            class="Offers__OfferUspItem-sc-1rn487j-2 stQCB"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Mobila applikationer
             </h3>
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>
@@ -231,15 +231,15 @@ exports[`components/Offers renders Offers 1`] = `
             </div>
           </div>
           <div
-            class="sc-gGBfsJ eKDMkt"
+            class="Offers__OfferUspItem-sc-1rn487j-2 stQCB"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               AI-lösningar
             </h3>
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>
@@ -251,8 +251,8 @@ exports[`components/Offers renders Offers 1`] = `
         </div>
       </div>
       <img
-        class="sc-jnlKLf byHvzH"
         src="//images.ctfassets.net/rj4r6yfcesw5/5SAhc8YuL6OaQQsC6miokK/7c09d594e44ffa47781bf1bdb21aae7f/illustrations-group-2.png"
+        class="Offers__OfferIllustrationImage-sc-1rn487j-3 dPxKFl"
       />
     </div>
   </div>

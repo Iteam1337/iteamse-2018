@@ -4,7 +4,7 @@ exports[`components/Work renders Work 1`] = `
 <div>
   <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-hzDkRC kPJnTe"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kEYyzF iuvFbw"
     >
       <div
         class="Header__Content-sc-1ofdv2r-0 limgqW"
@@ -13,49 +13,49 @@ exports[`components/Work renders Work 1`] = `
           class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
         >
           <a
-            class="sc-csuQGl kBaCvS"
+            class="sc-jKJlTe bIUarX"
           >
             <img
               data-testid="logo"
               path="test-file-stub"
-              class="sc-Rmtcm jeZXze"
+              class="sc-eNQAEJ gYmRno"
             />
           </a>
           <div
             class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
           >
             <a
-              class="sc-bRBYWo cBPUew"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-bRBYWo cBPUew"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-bRBYWo cBPUew"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-bRBYWo cBPUew"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-bRBYWo cBPUew"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-bRBYWo cBPUew"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Om
@@ -69,7 +69,7 @@ exports[`components/Work renders Work 1`] = `
           class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="sc-htoDjs sc-jhAzac gmHUok"
+            class="H1-sc-1k64xg2-0 sc-kkGfuU iULgpw"
           >
             <span>
               Bli en del av teamet
@@ -80,10 +80,10 @@ exports[`components/Work renders Work 1`] = `
     </div>
   </div>
   <div
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-gzVnrw gPskFt"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
   >
     <div
-      class="sc-bdVaJa sc-iAyFgw cCwTmS"
+      class="PaddedRow-sc-13wt5gj-0 sc-kgoBCf gkOADH"
     >
       <div
         data-test="filter-"
@@ -113,27 +113,27 @@ exports[`components/Work renders Work 1`] = `
     >
       <div
         data-test="block-location"
-        class="sc-bdVaJa fGzlqx"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-htpNat wioCx"
+          class="Block__Content-unfn3n-0 fZqjlq"
         >
           <div
-            class="sc-bxivhb joTsHV"
+            class="Block__TitleWrap-unfn3n-1 gqELJt"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Junior UX Designer
             </h3>
             <div
-              class="sc-ifAKCX jwmJJG"
+              class="Block__Subtitle-unfn3n-2 bLXYDu"
             >
               Stockholm
             </div>
           </div>
           <div
-            class="sc-EHOje hJrdUN"
+            class="Block__Text-unfn3n-3 kUuzcn"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -149,7 +149,7 @@ exports[`components/Work renders Work 1`] = `
             </div>
             <a
               black="0"
-              class="sc-kpOJdX jCjtGd"
+              class="sc-htoDjs egoDMW"
             >
               Läs mer och ansök
             </a>
@@ -163,22 +163,22 @@ exports[`components/Work renders Work 1`] = `
     >
       <div
         data-test="block-"
-        class="sc-bdVaJa fGzlqx"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-htpNat wioCx"
+          class="Block__Content-unfn3n-0 fZqjlq"
         >
           <div
-            class="sc-bxivhb joTsHV"
+            class="Block__TitleWrap-unfn3n-1 gqELJt"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Inget som passar?
             </h3>
           </div>
           <div
-            class="sc-EHOje hJrdUN"
+            class="Block__Text-unfn3n-3 kUuzcn"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"

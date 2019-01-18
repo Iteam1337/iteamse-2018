@@ -4,7 +4,6 @@ import { Query } from 'react-apollo'
 import Helmet from 'react-helmet-async'
 import MediaQuery from 'react-responsive'
 import { HomePageQuery } from '../../typings/iteamse'
-import Block from '../components/Blocks/Block'
 import GridColumn from '../components/Grid/GridColumn'
 import PaddedRow from '../components/Grid/PaddedRow'
 import Header from '../components/Header/Header'
@@ -22,10 +21,6 @@ export const HOME_PAGE_QUERY = gql`
       headerText1
       headerText2
       headerTextBgColor
-      aiTitle
-      aiText
-      aiSlug
-      aiLinkText
       codeMobileImage
       codeText
       codeTitle
@@ -116,8 +111,6 @@ const NarrowLink = styled(Link)`
     letter-spacing: -0.5px;
   }
 `
-
-const AiTextBlock = styled.div``
 
 const StylizedIteam = styled.img`
   display: none;
@@ -242,17 +235,6 @@ export class Home extends React.Component {
                     </Texts>
                   </Content>
                 </HomeGridColumn>
-
-                <GridColumn>
-                  <Block title={pageStart.aiTitle}>
-                    <AiTextBlock>{pageStart.aiText}</AiTextBlock>
-                    <AiTextBlock>
-                      <Link to={`${pageStart.aiSlug}`}>
-                        {pageStart.aiLinkText}
-                      </Link>
-                    </AiTextBlock>
-                  </Block>
-                </GridColumn>
 
                 <Team
                   callToAction={pageStart.contactTitle}

@@ -1,14 +1,13 @@
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 import styled from '../../theme'
 
 interface StyledLinkProps {
   black?: boolean | number
 }
 
-const StyledLink =
-  styled(Link) <
-  StyledLinkProps >
-  `
+// tslint:disable-next-line:whitespace
+const StyledLink = styled(Link)<StyledLinkProps>`
   border-bottom: 2px solid ${({ black, theme }) =>
     black ? '#000' : theme.colors.cornflowerBlue};
   color: ${({ black, theme }) =>
