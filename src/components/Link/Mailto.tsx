@@ -1,7 +1,8 @@
 import * as React from 'react'
+import styled from '../../theme'
 import NativeLink from './NativeLink'
 
-const NativeLinkUnderlined = NativeLink.extend`
+const NativeLinkUnderlined = styled(NativeLink)`
   border-bottom: 2px solid;
   text-decoration: none;
 `

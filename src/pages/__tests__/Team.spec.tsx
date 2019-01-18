@@ -1,5 +1,5 @@
 import React from 'react'
-import { render, Simulate, wait } from 'react-testing-library'
+import { fireEvent, render, wait } from 'react-testing-library'
 import MockedQuery from '../../utils/test-utils/MockedQuery'
 import { pageTeam } from '../__fixtures__/pageTeam'
 import { teamMembers } from '../__fixtures__/teamMembers'
@@ -41,7 +41,7 @@ describe('components/Team', () => {
 
     await wait()
 
-    Simulate.click(getByText('Stockholm'))
+    fireEvent.click(getByText('Stockholm'))
 
     expect(container).toMatchSnapshot()
   })
@@ -55,7 +55,7 @@ describe('components/Team', () => {
 
     await wait()
 
-    Simulate.keyUp(getByText('Göteborg'), {
+    fireEvent.keyUp(getByText('Göteborg'), {
       keyCode: 13,
     })
 
@@ -71,7 +71,7 @@ describe('components/Team', () => {
 
     await wait()
 
-    Simulate.keyUp(getByText('Göteborg'), {
+    fireEvent.keyUp(getByText('Göteborg'), {
       keyCode: 9,
     })
 

@@ -3,47 +3,47 @@
 exports[`components/MobileMenu renders MobileMenu and can open it 1`] = `
 <div>
   <div
-    class="sc-bZQynM gxvPSJ"
+    class="MobileMenu__Wrap-sc-17iiwc2-0 kQPDPY"
   >
     <div
-      class="sc-ifAKCX dJUpWM"
       data-test="mobile-menu"
+      class="MenuNavigation__Menu-sc-1v6nh0d-0 dFnsAv"
     >
       <div
-        class="sc-EHOje cEvxoD"
+        class="MenuNavigation__MenuInner-sc-1v6nh0d-1 eXSVVO"
       >
         <a
-          class="sc-bxivhb iWxvfK"
+          class="sc-bdVaJa knFYzh"
           aria-current="false"
         >
           Erbjudanden
         </a>
         <a
-          class="sc-bxivhb iWxvfK"
+          class="sc-bdVaJa knFYzh"
           aria-current="false"
         >
           Våra case
         </a>
         <a
-          class="sc-bxivhb iWxvfK"
+          class="sc-bdVaJa knFYzh"
           aria-current="false"
         >
           Metod
         </a>
         <a
-          class="sc-bxivhb iWxvfK"
+          class="sc-bdVaJa knFYzh"
           aria-current="false"
         >
           Medarbetare
         </a>
         <a
-          class="sc-bxivhb iWxvfK"
+          class="sc-bdVaJa knFYzh"
           aria-current="false"
         >
           Karriär
         </a>
         <a
-          class="sc-bxivhb iWxvfK"
+          class="sc-bdVaJa knFYzh"
           aria-current="false"
         >
           Om
@@ -51,26 +51,28 @@ exports[`components/MobileMenu renders MobileMenu and can open it 1`] = `
       </div>
     </div>
     <button
-      class="sc-bdVaJa czpWlH"
       aria-label="Menu button"
       data-testid="btn-mobile-menu"
       role="button"
+      class="MenuButton__Button-sc-1kgtumg-0 eauQOa"
     >
       <div
-        class="sc-htpNat eOHwxm"
+        class="MenuButton__Hamburger-sc-1kgtumg-2 bKBMSv"
         open=""
       >
         <div
-          class="sc-bwzfXH huOONa"
+          class="MenuButton__Bar-sc-1kgtumg-1 hoEwLf"
         />
         <div
-          class="sc-bwzfXH huOONa"
+          class="MenuButton__Bar-sc-1kgtumg-1 hoEwLf"
         />
         <div
-          class="sc-bwzfXH huOONa"
+          class="MenuButton__Bar-sc-1kgtumg-1 hoEwLf"
         />
       </div>
     </button>
   </div>
 </div>
 `;
+
+exports[`components/MobileMenu should close the menu when navigating 1`] = `null`;

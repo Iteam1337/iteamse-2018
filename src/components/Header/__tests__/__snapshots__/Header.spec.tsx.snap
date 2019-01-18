@@ -4,72 +4,72 @@ exports[`components/Header renders Header 1`] = `
 <div>
   <div>
     <div
-      class="sc-bwCtUz cTVaQl"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-eqIVtm ILfyi"
     >
       <div
-        class="sc-hrWEMg Duheu"
+        class="Header__Content-sc-1ofdv2r-0 limgqW"
       >
         <div
-          class="sc-esjQYD dADbLW"
+          class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
         >
           <a
-            class="sc-kIPQKe iQjozF"
+            class="sc-fBuWsC hSqUTs"
           >
             <img
-              class="sc-eXEjpC igSZfg"
               data-testid="logo"
               path="test-file-stub"
+              class="sc-fMiknA jeihVP"
             />
           </a>
           <div
-            class="sc-ibxdXY hcDByR"
+            class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
           >
             <a
-              class="sc-iQKALj dvXjuy"
+              class="sc-dVhcbM huCQJf"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-iQKALj dvXjuy"
+              class="sc-dVhcbM huCQJf"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-iQKALj dvXjuy"
+              class="sc-dVhcbM huCQJf"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-iQKALj dvXjuy"
+              class="sc-dVhcbM huCQJf"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-iQKALj dvXjuy"
+              class="sc-dVhcbM huCQJf"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-iQKALj dvXjuy"
+              class="sc-dVhcbM huCQJf"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-RefOD gogpDu"
+              class="Navigation__Indicator-sc-1i56sr4-2 gdIgfK"
             />
           </div>
         </div>
         <div
-          class="sc-eTuwsz iWQgqe"
+          class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="sc-gwVKww exDyMP"
+            class="sc-bwzfXH sc-fAjcbJ fRyUWC"
           >
             <span>
               Vi digitaliserar företag och organisationer
@@ -81,4 +81,4 @@ exports[`components/Header renders Header 1`] = `
     </div>
   </div>
 </div>
-`;
+`

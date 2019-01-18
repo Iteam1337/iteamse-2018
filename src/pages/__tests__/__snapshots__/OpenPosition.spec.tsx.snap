@@ -4,72 +4,72 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
 <div>
   <div>
     <div
-      class="sc-hwwEjo hQrmlE"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-hzDkRC uZqXz"
     >
       <div
-        class="sc-kPVwWT bfscyN"
+        class="Header__Content-sc-1ofdv2r-0 limgqW"
       >
         <div
-          class="sc-kTUwUJ edcQtv"
+          class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
         >
           <a
-            class="sc-dqBHgY BqHh"
+            class="sc-csuQGl kBaCvS"
           >
             <img
-              class="sc-gxMtzJ guAkch"
               data-testid="logo"
               path="test-file-stub"
+              class="sc-Rmtcm jeZXze"
             />
           </a>
           <div
-            class="sc-dfVpRl joBoAS"
+            class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
           >
             <a
-              class="sc-iyvyFf irQPJA"
+              class="sc-bRBYWo cBPUew"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-iyvyFf irQPJA"
+              class="sc-bRBYWo cBPUew"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-iyvyFf irQPJA"
+              class="sc-bRBYWo cBPUew"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-iyvyFf irQPJA"
+              class="sc-bRBYWo cBPUew"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-iyvyFf irQPJA active-nav"
+              class="sc-bRBYWo cBPUew active-nav"
               aria-current="true"
             >
               Karriär
             </a>
             <a
-              class="sc-iyvyFf irQPJA"
+              class="sc-bRBYWo cBPUew"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-gzOgki bZZexF"
+              class="Navigation__Indicator-sc-1i56sr4-2 gdIgfK"
             />
           </div>
         </div>
         <div
-          class="sc-kfGgVZ kPvaat"
+          class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="sc-esjQYD fESWtF"
+            class="sc-htoDjs sc-jhAzac jWXEtZ"
           >
             <span>
               UX Designer
@@ -81,15 +81,15 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
     </div>
   </div>
   <div
-    class="sc-iwsKbI cTexZb"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-gzVnrw gPskFt"
   >
     <div
-      class="sc-gzVnrw jfvayO"
       data-test="breadcrumbs"
+      class="sc-bdVaJa sc-bZQynM fXeWOs"
     >
       <a>
         <span
-          class="sc-htoDjs hjXPuh"
+          class="Breadcrumbs__StyledSpan-sc-1ajw33n-0 bBBcLz"
         >
           Jobba hos oss
         </span>
@@ -103,14 +103,14 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="sc-bdVaJa fGzlqx"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="sc-htpNat wioCx"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="sc-bxivhb joTsHV"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -119,10 +119,10 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="sc-EHOje hJrdUN"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>
@@ -142,14 +142,14 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="sc-bdVaJa fGzlqx"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="sc-htpNat wioCx"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="sc-bxivhb joTsHV"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -158,10 +158,10 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="sc-EHOje hJrdUN"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <ul>
@@ -201,14 +201,14 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="sc-bdVaJa fGzlqx"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="sc-htpNat wioCx"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="sc-bxivhb joTsHV"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -217,10 +217,10 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="sc-EHOje hJrdUN"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <ul>
@@ -241,22 +241,22 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
       </div>
     </div>
     <img
-      class="sc-gqjmRU kaGJTv"
       src="//images.ctfassets.net/rj4r6yfcesw5/62hgzE8G3ueMa2YSEuG4og/db2b643db6041f9d26936bc2d6006607/bleed_howwework.jpg"
+      class="sc-dnqmqq LQEUe"
     />
     <div
       class="react-reveal"
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="sc-bdVaJa fGzlqx"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="sc-htpNat wioCx"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="sc-bxivhb joTsHV"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -265,10 +265,10 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="sc-EHOje hJrdUN"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>
@@ -291,14 +291,14 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="sc-bdVaJa fGzlqx"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="sc-htpNat wioCx"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="sc-bxivhb joTsHV"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -307,10 +307,10 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="sc-EHOje hJrdUN"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <ul>
@@ -350,14 +350,14 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="sc-bdVaJa fGzlqx"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="sc-htpNat wioCx"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="sc-bxivhb joTsHV"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -366,10 +366,10 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="sc-EHOje hJrdUN"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>
@@ -407,14 +407,14 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="sc-bdVaJa fGzlqx"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="sc-htpNat wioCx"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="sc-bxivhb joTsHV"
           >
             <h3
               class="sc-bwzfXH kgEpTV"
@@ -423,10 +423,10 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="sc-EHOje hJrdUN"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>

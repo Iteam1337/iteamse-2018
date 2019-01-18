@@ -1,6 +1,6 @@
 import * as React from 'react'
 import ReactMarkdown from 'react-markdown'
-import styled from 'styled-components'
+import styled from '../../theme'
 
 const StyledParagraph = styled.div`
   font-size: 18px;
@@ -8,8 +8,8 @@ const StyledParagraph = styled.div`
   line-height: 27px;
 
   a {
-    border-bottom: 2px solid #668CFF;
-    color: #668CFF;
+    border-bottom: 2px solid #668cff;
+    color: #668cff;
     line-height: 1.75;
     padding-bottom: 2px;
     text-decoration: none;

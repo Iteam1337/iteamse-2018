@@ -1,6 +1,6 @@
 import React from 'react'
 import LazyLoad from 'react-lazyload'
-import styled, { withProps } from '../../theme'
+import styled from '../../theme'
 import { handleColors } from '../../utils/handleColors'
 import { GridColumnClean } from '../Grid/GridColumn'
 import H1 from '../Typography/H1'
@@ -17,7 +17,7 @@ interface WrapProps {
   image?: string | null
 }
 
-const Wrap = withProps<WrapProps>()(GridColumnClean.extend)`
+const Wrap = styled(GridColumnClean)<WrapProps>`
   background-image: ${({ image }) => `url(${image})`};
   background-size: cover;
   background-position: top;
@@ -59,7 +59,7 @@ interface MessageProps {
   bgColor: string | null
 }
 
-const Message = withProps<MessageProps>()(H1.extend)`
+const Message = styled(H1)<MessageProps>`
   box-sizing: border-box;
   line-height: 1.5;
   margin: 0;

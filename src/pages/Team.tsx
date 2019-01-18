@@ -1,7 +1,7 @@
 import gql from 'graphql-tag'
 import * as React from 'react'
 import { Query } from 'react-apollo'
-import { Helmet } from 'react-helmet'
+import Helmet from 'react-helmet-async'
 import { TeamPageQuery } from '../../typings/iteamse'
 import FilterByLocation from '../components/FilterByLocation/FilterByLocation'
 import GridColumn from '../components/Grid/GridColumn'

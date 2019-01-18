@@ -9,7 +9,7 @@ import { HOW_WE_WORK_PAGE_QUERY } from '../../pages/HowWeWork'
 import { OFFERS_PAGE_QUERY } from '../../pages/Offers'
 import { TEAM_PAGE_QUERY } from '../../pages/Team'
 import { WORK_PAGE_QUERY } from '../../pages/Work'
-import styled, { injectGlobal, keyframes, withProps } from '../../theme'
+import styled, { createGlobalStyle, keyframes } from '../../theme'
 import logo from './img/iteam.svg'
 
 interface NavigationState {
@@ -28,10 +28,11 @@ const Wrap = styled.div`
   }
 
   /* IE 11 */
-  ${({ theme }) => theme.browsers.ie10Or11(`
+  ${({ theme }) =>
+    theme.browsers.ie10Or11(`
     display: flex;
     justify-content: space-between;
-  `)}
+  `)};
 `
 
 const LogoLink = styled(Link)`
@@ -81,7 +82,10 @@ interface IndicatorProps {
   indicatorWidth: number
 }
 
-const Indicator = withProps<IndicatorProps>()(styled.div)`
+const Indicator =
+  styled.div <
+  IndicatorProps >
+  `
   animation: ${slideDown} 300ms ease-in-out 1;
   background-color: #fff;
   top: 0;
@@ -112,7 +116,7 @@ const StyledLink = styled(NavLink)`
   }
 `
 
-injectGlobal`
+const GlobalStyle = createGlobalStyle`
   html[data-whatinput="keyboard"] {
     ${LogoLink} {
       &:focus {

@@ -1,7 +1,7 @@
 import gql from 'graphql-tag'
 import * as React from 'react'
 import { Query } from 'react-apollo'
-import { Helmet } from 'react-helmet'
+import Helmet from 'react-helmet-async'
 import MediaQuery from 'react-responsive'
 import { HomePageQuery } from '../../typings/iteamse'
 import Block from '../components/Blocks/Block'
@@ -50,7 +50,7 @@ export const HOME_PAGE_QUERY = gql`
   }
 `
 
-const HomeGridColumn = GridColumn.extend`
+const HomeGridColumn = styled(GridColumn)`
   background-color: ${({ theme }) => theme.colors.concrete};
 `
 
@@ -68,10 +68,11 @@ const Content = styled.div`
   }
 
   /* IE 11 */
-  ${({ theme }) => theme.browsers.ie10Or11(`
+  ${({ theme }) =>
+    theme.browsers.ie10Or11(`
     display: flex;
     justify-content: center;
-  `)}
+  `)};
 `
 
 const Texts = styled.div`
@@ -80,17 +81,18 @@ const Texts = styled.div`
   grid-row-gap: 40px;
 
   /* IE 11 */
-  ${({ theme }) => theme.browsers.ie10Or11(`
+  ${({ theme }) =>
+    theme.browsers.ie10Or11(`
     width: 100%;
     margin-left: 80px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-  `)}
+  `)};
 `
 
-const TextBlock = PaddedRow.extend`
+const TextBlock = styled(PaddedRow)`
   &:not(:last-child) {
     margin-bottom: 50px;
   }
@@ -102,13 +104,14 @@ const TextBlock = PaddedRow.extend`
   }
 
   /* IE 11 */
-  ${({ theme }) => theme.browsers.ie10Or11(`
+  ${({ theme }) =>
+    theme.browsers.ie10Or11(`
     width: 100%;
     flex-shrink: 0;
-  `)}
+  `)};
 `
 
-const NarrowLink = Link.extend`
+const NarrowLink = styled(Link)`
   @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
     letter-spacing: -0.5px;
   }
@@ -154,7 +157,10 @@ export class Home extends React.Component {
         <Helmet>
           <title>Iteam - There's a better way</title>
           <meta property="og:title" content="Iteam - There's a better way" />
-          <meta property="twitter:title" content="Iteam - There's a better way" />
+          <meta
+            property="twitter:title"
+            content="Iteam - There's a better way"
+          />
         </Helmet>
 
         <HomeQuery query={HOME_PAGE_QUERY}>

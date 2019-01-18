@@ -4,72 +4,72 @@ exports[`components/Team renders Team 1`] = `
 <div>
   <div>
     <div
-      class="sc-eXEjpC hLFdzU"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-jhAzac eoWks"
     >
       <div
-        class="sc-ibxdXY jEbWZG"
+        class="Header__Content-sc-1ofdv2r-0 limgqW"
       >
         <div
-          class="sc-iyvyFf dwBgqp"
+          class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
         >
           <a
-            class="sc-hwwEjo hoOrJO"
+            class="sc-Rmtcm lNLLs"
           >
             <img
-              class="sc-kPVwWT gfbDty"
               data-testid="logo"
               path="test-file-stub"
+              class="sc-bRBYWo VIhdC"
             />
           </a>
           <div
-            class="sc-kfGgVZ fIMaGV"
+            class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
           >
             <a
-              class="sc-kIPQKe cCUntY"
+              class="sc-hzDkRC jEdiIa"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-kIPQKe cCUntY"
+              class="sc-hzDkRC jEdiIa"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-kIPQKe cCUntY"
+              class="sc-hzDkRC jEdiIa"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-kIPQKe cCUntY"
+              class="sc-hzDkRC jEdiIa"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-kIPQKe cCUntY"
+              class="sc-hzDkRC jEdiIa"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-kIPQKe cCUntY"
+              class="sc-hzDkRC jEdiIa"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-esjQYD jyencr"
+              class="Navigation__Indicator-sc-1i56sr4-2 gdIgfK"
             />
           </div>
         </div>
         <div
-          class="sc-RefOD bWgdmm"
+          class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="sc-iQKALj atLyL"
+            class="sc-bxivhb sc-fBuWsC stMOM"
           >
             <span>
               Det är vi som är Iteam
@@ -80,125 +80,125 @@ exports[`components/Team renders Team 1`] = `
     </div>
   </div>
   <div
-    class="sc-ifAKCX gBIItr"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat kmHAwx"
   >
     <div
-      class="sc-htpNat eTTkxF"
+      class="sc-bdVaJa sc-bwzfXH cOkFIA"
     >
       <div
-        class="sc-bwzfXH kkDUXN"
         data-test="filter-"
         tabindex="0"
+        class="Filter__Wrap-sc-3nf4pp-0 euGVvx"
       >
         Alla
       </div>
       <div
-        class="sc-bwzfXH bJTJSt"
         data-test="filter-Stockholm"
         tabindex="0"
+        class="Filter__Wrap-sc-3nf4pp-0 kRhkKn"
       >
         Stockholm
       </div>
       <div
-        class="sc-bwzfXH bJTJSt"
         data-test="filter-Göteborg"
         tabindex="0"
+        class="Filter__Wrap-sc-3nf4pp-0 kRhkKn"
       >
         Göteborg
       </div>
     </div>
     <div
-      class="sc-jWBwVP jbjxKO"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-ckVGcZ bdVhoj"
     >
       <div
-        class="sc-cMljjf bBhzLW"
+        class="TeamMembers__Members-sc-1skewny-0 knmrbX"
       >
         <div
-          class="sc-ckVGcZ bZLjEW"
+          class="sc-kAzzGY iJbydX"
         >
           <a
-            class="sc-kpOJdX eNhRjC"
+            class="sc-jzJRlG gdwHRy"
           >
             <div
-              class="sc-eTuwsz eUwsNj"
+              class="sc-eqIVtm iSfYGG"
             >
               <div>
                 <img
-                  class="sc-dxgOiQ bXQPbj"
                   alt="Cookie M"
                   src=""
+                  class="sc-cSHVUG iDQKtZ"
                 />
               </div>
             </div>
           </a>
           <div
-            class="sc-bwCtUz jLFYBo"
+            class="sc-fMiknA eMKZhT"
           >
             Cookie M
           </div>
           <div
-            class="sc-hrWEMg IYhUU"
+            class="sc-dVhcbM bBtuwR"
           >
             Cookie master
           </div>
           <div
-            class="sc-gwVKww dWISzj"
+            class="sc-fAjcbJ fAIEwk"
           >
             <a
-              class="sc-chPdSV hAACpH"
               href="tel:0701234567"
+              class="sc-gZMcBi sc-VigVT cCwcxL"
             >
               070-123 45 67
             </a>
           </div>
           <a
-            class="sc-kAzzGY LovkB"
             href="mailto:cm@sesame.com"
+            class="sc-gZMcBi sc-gqjmRU hRniLu"
           >
             cm@sesame.com
           </a>
         </div>
         <div
-          class="sc-ckVGcZ bZLjEW"
+          class="sc-kAzzGY iJbydX"
         >
           <a
-            class="sc-kpOJdX eNhRjC"
+            class="sc-jzJRlG gdwHRy"
           >
             <div
-              class="sc-eTuwsz eUwsNj"
+              class="sc-eqIVtm iSfYGG"
             >
               <div>
                 <img
-                  class="sc-dxgOiQ bXQPbj"
                   alt="Count van Count"
                   src=""
+                  class="sc-cSHVUG iDQKtZ"
                 />
               </div>
             </div>
           </a>
           <div
-            class="sc-bwCtUz jLFYBo"
+            class="sc-fMiknA eMKZhT"
           >
             Count van Count
           </div>
           <div
-            class="sc-hrWEMg IYhUU"
+            class="sc-dVhcbM bBtuwR"
           >
             1 ahahah
           </div>
           <div
-            class="sc-gwVKww dWISzj"
+            class="sc-fAjcbJ fAIEwk"
           >
             <a
-              class="sc-chPdSV hAACpH"
               href="tel:0707654321"
+              class="sc-gZMcBi sc-VigVT cCwcxL"
             >
               070-765 43 21
             </a>
           </div>
           <a
-            class="sc-kAzzGY LovkB"
             href="mailto:count@sesame.com"
+            class="sc-gZMcBi sc-gqjmRU hRniLu"
           >
             count@sesame.com
           </a>
@@ -213,72 +213,72 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
 <div>
   <div>
     <div
-      class="sc-eXEjpC hLFdzU"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-jhAzac eoWks"
     >
       <div
-        class="sc-ibxdXY jEbWZG"
+        class="Header__Content-sc-1ofdv2r-0 limgqW"
       >
         <div
-          class="sc-iyvyFf dwBgqp"
+          class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
         >
           <a
-            class="sc-hwwEjo hoOrJO"
+            class="sc-Rmtcm lNLLs"
           >
             <img
-              class="sc-kPVwWT gfbDty"
               data-testid="logo"
               path="test-file-stub"
+              class="sc-bRBYWo VIhdC"
             />
           </a>
           <div
-            class="sc-kfGgVZ fIMaGV"
+            class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
           >
             <a
-              class="sc-kIPQKe cCUntY"
+              class="sc-hzDkRC jEdiIa"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-kIPQKe cCUntY"
+              class="sc-hzDkRC jEdiIa"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-kIPQKe cCUntY"
+              class="sc-hzDkRC jEdiIa"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-kIPQKe cCUntY"
+              class="sc-hzDkRC jEdiIa"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-kIPQKe cCUntY"
+              class="sc-hzDkRC jEdiIa"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-kIPQKe cCUntY"
+              class="sc-hzDkRC jEdiIa"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-esjQYD jyencr"
+              class="Navigation__Indicator-sc-1i56sr4-2 gdIgfK"
             />
           </div>
         </div>
         <div
-          class="sc-RefOD bWgdmm"
+          class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="sc-iQKALj atLyL"
+            class="sc-bxivhb sc-fBuWsC stMOM"
           >
             <span>
               Det är vi som är Iteam
@@ -289,80 +289,125 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
     </div>
   </div>
   <div
-    class="sc-ifAKCX gBIItr"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat kmHAwx"
   >
     <div
-      class="sc-htpNat eTTkxF"
+      class="sc-bdVaJa sc-bwzfXH cOkFIA"
     >
       <div
-        class="sc-bwzfXH bJTJSt"
         data-test="filter-"
         tabindex="0"
+        class="Filter__Wrap-sc-3nf4pp-0 euGVvx"
       >
         Alla
       </div>
       <div
-        class="sc-bwzfXH bJTJSt"
         data-test="filter-Stockholm"
         tabindex="0"
+        class="Filter__Wrap-sc-3nf4pp-0 kRhkKn"
       >
         Stockholm
       </div>
       <div
-        class="sc-bwzfXH kkDUXN"
         data-test="filter-Göteborg"
         tabindex="0"
+        class="Filter__Wrap-sc-3nf4pp-0 kRhkKn"
       >
         Göteborg
       </div>
     </div>
     <div
-      class="sc-jWBwVP jbjxKO"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-ckVGcZ bdVhoj"
     >
       <div
-        class="sc-cMljjf bBhzLW"
+        class="TeamMembers__Members-sc-1skewny-0 knmrbX"
       >
         <div
-          class="sc-ckVGcZ bZLjEW"
+          class="sc-kAzzGY iJbydX"
         >
           <a
-            class="sc-kpOJdX eNhRjC"
+            class="sc-jzJRlG gdwHRy"
           >
             <div
-              class="sc-eTuwsz eUwsNj"
+              class="sc-eqIVtm iSfYGG"
             >
               <div>
                 <img
-                  class="sc-dxgOiQ bXQPbj"
-                  alt="Count van Count"
+                  alt="Cookie M"
                   src=""
+                  class="sc-cSHVUG iDQKtZ"
                 />
               </div>
             </div>
           </a>
           <div
-            class="sc-bwCtUz jLFYBo"
+            class="sc-fMiknA eMKZhT"
+          >
+            Cookie M
+          </div>
+          <div
+            class="sc-dVhcbM bBtuwR"
+          >
+            Cookie master
+          </div>
+          <div
+            class="sc-fAjcbJ fAIEwk"
+          >
+            <a
+              href="tel:0701234567"
+              class="sc-gZMcBi sc-VigVT cCwcxL"
+            >
+              070-123 45 67
+            </a>
+          </div>
+          <a
+            href="mailto:cm@sesame.com"
+            class="sc-gZMcBi sc-gqjmRU hRniLu"
+          >
+            cm@sesame.com
+          </a>
+        </div>
+        <div
+          class="sc-kAzzGY iJbydX"
+        >
+          <a
+            class="sc-jzJRlG gdwHRy"
+          >
+            <div
+              class="sc-eqIVtm iSfYGG"
+            >
+              <div>
+                <img
+                  alt="Count van Count"
+                  src=""
+                  class="sc-cSHVUG iDQKtZ"
+                />
+              </div>
+            </div>
+          </a>
+          <div
+            class="sc-fMiknA eMKZhT"
           >
             Count van Count
           </div>
           <div
-            class="sc-hrWEMg IYhUU"
+            class="sc-dVhcbM bBtuwR"
           >
             1 ahahah
           </div>
           <div
-            class="sc-gwVKww dWISzj"
+            class="sc-fAjcbJ fAIEwk"
           >
             <a
-              class="sc-chPdSV hAACpH"
               href="tel:0707654321"
+              class="sc-gZMcBi sc-VigVT cCwcxL"
             >
               070-765 43 21
             </a>
           </div>
           <a
-            class="sc-kAzzGY LovkB"
             href="mailto:count@sesame.com"
+            class="sc-gZMcBi sc-gqjmRU hRniLu"
           >
             count@sesame.com
           </a>
@@ -377,72 +422,72 @@ exports[`components/Team should handle changing location using mouse 1`] = `
 <div>
   <div>
     <div
-      class="sc-eXEjpC hLFdzU"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-jhAzac eoWks"
     >
       <div
-        class="sc-ibxdXY jEbWZG"
+        class="Header__Content-sc-1ofdv2r-0 limgqW"
       >
         <div
-          class="sc-iyvyFf dwBgqp"
+          class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
         >
           <a
-            class="sc-hwwEjo hoOrJO"
+            class="sc-Rmtcm lNLLs"
           >
             <img
-              class="sc-kPVwWT gfbDty"
               data-testid="logo"
               path="test-file-stub"
+              class="sc-bRBYWo VIhdC"
             />
           </a>
           <div
-            class="sc-kfGgVZ fIMaGV"
+            class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
           >
             <a
-              class="sc-kIPQKe cCUntY"
+              class="sc-hzDkRC jEdiIa"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-kIPQKe cCUntY"
+              class="sc-hzDkRC jEdiIa"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-kIPQKe cCUntY"
+              class="sc-hzDkRC jEdiIa"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-kIPQKe cCUntY"
+              class="sc-hzDkRC jEdiIa"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-kIPQKe cCUntY"
+              class="sc-hzDkRC jEdiIa"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-kIPQKe cCUntY"
+              class="sc-hzDkRC jEdiIa"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-esjQYD jyencr"
+              class="Navigation__Indicator-sc-1i56sr4-2 gdIgfK"
             />
           </div>
         </div>
         <div
-          class="sc-RefOD bWgdmm"
+          class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="sc-iQKALj atLyL"
+            class="sc-bxivhb sc-fBuWsC stMOM"
           >
             <span>
               Det är vi som är Iteam
@@ -453,82 +498,127 @@ exports[`components/Team should handle changing location using mouse 1`] = `
     </div>
   </div>
   <div
-    class="sc-ifAKCX gBIItr"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat kmHAwx"
   >
     <div
-      class="sc-htpNat eTTkxF"
+      class="sc-bdVaJa sc-bwzfXH cOkFIA"
     >
       <div
-        class="sc-bwzfXH bJTJSt"
         data-test="filter-"
         tabindex="0"
+        class="Filter__Wrap-sc-3nf4pp-0 euGVvx"
       >
         Alla
       </div>
       <div
-        class="sc-bwzfXH kkDUXN"
         data-test="filter-Stockholm"
         tabindex="0"
+        class="Filter__Wrap-sc-3nf4pp-0 kRhkKn"
       >
         Stockholm
       </div>
       <div
-        class="sc-bwzfXH bJTJSt"
         data-test="filter-Göteborg"
         tabindex="0"
+        class="Filter__Wrap-sc-3nf4pp-0 kRhkKn"
       >
         Göteborg
       </div>
     </div>
     <div
-      class="sc-jWBwVP jbjxKO"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-ckVGcZ bdVhoj"
     >
       <div
-        class="sc-cMljjf bBhzLW"
+        class="TeamMembers__Members-sc-1skewny-0 knmrbX"
       >
         <div
-          class="sc-ckVGcZ bZLjEW"
+          class="sc-kAzzGY iJbydX"
         >
           <a
-            class="sc-kpOJdX eNhRjC"
+            class="sc-jzJRlG gdwHRy"
           >
             <div
-              class="sc-eTuwsz eUwsNj"
+              class="sc-eqIVtm iSfYGG"
             >
               <div>
                 <img
-                  class="sc-dxgOiQ bXQPbj"
                   alt="Cookie M"
                   src=""
+                  class="sc-cSHVUG iDQKtZ"
                 />
               </div>
             </div>
           </a>
           <div
-            class="sc-bwCtUz jLFYBo"
+            class="sc-fMiknA eMKZhT"
           >
             Cookie M
           </div>
           <div
-            class="sc-hrWEMg IYhUU"
+            class="sc-dVhcbM bBtuwR"
           >
             Cookie master
           </div>
           <div
-            class="sc-gwVKww dWISzj"
+            class="sc-fAjcbJ fAIEwk"
           >
             <a
-              class="sc-chPdSV hAACpH"
               href="tel:0701234567"
+              class="sc-gZMcBi sc-VigVT cCwcxL"
             >
               070-123 45 67
             </a>
           </div>
           <a
-            class="sc-kAzzGY LovkB"
             href="mailto:cm@sesame.com"
+            class="sc-gZMcBi sc-gqjmRU hRniLu"
           >
             cm@sesame.com
+          </a>
+        </div>
+        <div
+          class="sc-kAzzGY iJbydX"
+        >
+          <a
+            class="sc-jzJRlG gdwHRy"
+          >
+            <div
+              class="sc-eqIVtm iSfYGG"
+            >
+              <div>
+                <img
+                  alt="Count van Count"
+                  src=""
+                  class="sc-cSHVUG iDQKtZ"
+                />
+              </div>
+            </div>
+          </a>
+          <div
+            class="sc-fMiknA eMKZhT"
+          >
+            Count van Count
+          </div>
+          <div
+            class="sc-dVhcbM bBtuwR"
+          >
+            1 ahahah
+          </div>
+          <div
+            class="sc-fAjcbJ fAIEwk"
+          >
+            <a
+              href="tel:0707654321"
+              class="sc-gZMcBi sc-VigVT cCwcxL"
+            >
+              070-765 43 21
+            </a>
+          </div>
+          <a
+            href="mailto:count@sesame.com"
+            class="sc-gZMcBi sc-gqjmRU hRniLu"
+          >
+            count@sesame.com
           </a>
         </div>
       </div>
@@ -541,72 +631,72 @@ exports[`components/Team should not change using keyboard if not enter or space 
 <div>
   <div>
     <div
-      class="sc-eXEjpC hLFdzU"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-jhAzac eoWks"
     >
       <div
-        class="sc-ibxdXY jEbWZG"
+        class="Header__Content-sc-1ofdv2r-0 limgqW"
       >
         <div
-          class="sc-iyvyFf dwBgqp"
+          class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
         >
           <a
-            class="sc-hwwEjo hoOrJO"
+            class="sc-Rmtcm lNLLs"
           >
             <img
-              class="sc-kPVwWT gfbDty"
               data-testid="logo"
               path="test-file-stub"
+              class="sc-bRBYWo VIhdC"
             />
           </a>
           <div
-            class="sc-kfGgVZ fIMaGV"
+            class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
           >
             <a
-              class="sc-kIPQKe cCUntY"
+              class="sc-hzDkRC jEdiIa"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-kIPQKe cCUntY"
+              class="sc-hzDkRC jEdiIa"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-kIPQKe cCUntY"
+              class="sc-hzDkRC jEdiIa"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-kIPQKe cCUntY"
+              class="sc-hzDkRC jEdiIa"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-kIPQKe cCUntY"
+              class="sc-hzDkRC jEdiIa"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-kIPQKe cCUntY"
+              class="sc-hzDkRC jEdiIa"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-esjQYD jyencr"
+              class="Navigation__Indicator-sc-1i56sr4-2 gdIgfK"
             />
           </div>
         </div>
         <div
-          class="sc-RefOD bWgdmm"
+          class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="sc-iQKALj atLyL"
+            class="sc-bxivhb sc-fBuWsC stMOM"
           >
             <span>
               Det är vi som är Iteam
@@ -617,125 +707,125 @@ exports[`components/Team should not change using keyboard if not enter or space 
     </div>
   </div>
   <div
-    class="sc-ifAKCX gBIItr"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat kmHAwx"
   >
     <div
-      class="sc-htpNat eTTkxF"
+      class="sc-bdVaJa sc-bwzfXH cOkFIA"
     >
       <div
-        class="sc-bwzfXH kkDUXN"
         data-test="filter-"
         tabindex="0"
+        class="Filter__Wrap-sc-3nf4pp-0 euGVvx"
       >
         Alla
       </div>
       <div
-        class="sc-bwzfXH bJTJSt"
         data-test="filter-Stockholm"
         tabindex="0"
+        class="Filter__Wrap-sc-3nf4pp-0 kRhkKn"
       >
         Stockholm
       </div>
       <div
-        class="sc-bwzfXH bJTJSt"
         data-test="filter-Göteborg"
         tabindex="0"
+        class="Filter__Wrap-sc-3nf4pp-0 kRhkKn"
       >
         Göteborg
       </div>
     </div>
     <div
-      class="sc-jWBwVP jbjxKO"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-ckVGcZ bdVhoj"
     >
       <div
-        class="sc-cMljjf bBhzLW"
+        class="TeamMembers__Members-sc-1skewny-0 knmrbX"
       >
         <div
-          class="sc-ckVGcZ bZLjEW"
+          class="sc-kAzzGY iJbydX"
         >
           <a
-            class="sc-kpOJdX eNhRjC"
+            class="sc-jzJRlG gdwHRy"
           >
             <div
-              class="sc-eTuwsz eUwsNj"
+              class="sc-eqIVtm iSfYGG"
             >
               <div>
                 <img
-                  class="sc-dxgOiQ bXQPbj"
                   alt="Cookie M"
                   src=""
+                  class="sc-cSHVUG iDQKtZ"
                 />
               </div>
             </div>
           </a>
           <div
-            class="sc-bwCtUz jLFYBo"
+            class="sc-fMiknA eMKZhT"
           >
             Cookie M
           </div>
           <div
-            class="sc-hrWEMg IYhUU"
+            class="sc-dVhcbM bBtuwR"
           >
             Cookie master
           </div>
           <div
-            class="sc-gwVKww dWISzj"
+            class="sc-fAjcbJ fAIEwk"
           >
             <a
-              class="sc-chPdSV hAACpH"
               href="tel:0701234567"
+              class="sc-gZMcBi sc-VigVT cCwcxL"
             >
               070-123 45 67
             </a>
           </div>
           <a
-            class="sc-kAzzGY LovkB"
             href="mailto:cm@sesame.com"
+            class="sc-gZMcBi sc-gqjmRU hRniLu"
           >
             cm@sesame.com
           </a>
         </div>
         <div
-          class="sc-ckVGcZ bZLjEW"
+          class="sc-kAzzGY iJbydX"
         >
           <a
-            class="sc-kpOJdX eNhRjC"
+            class="sc-jzJRlG gdwHRy"
           >
             <div
-              class="sc-eTuwsz eUwsNj"
+              class="sc-eqIVtm iSfYGG"
             >
               <div>
                 <img
-                  class="sc-dxgOiQ bXQPbj"
                   alt="Count van Count"
                   src=""
+                  class="sc-cSHVUG iDQKtZ"
                 />
               </div>
             </div>
           </a>
           <div
-            class="sc-bwCtUz jLFYBo"
+            class="sc-fMiknA eMKZhT"
           >
             Count van Count
           </div>
           <div
-            class="sc-hrWEMg IYhUU"
+            class="sc-dVhcbM bBtuwR"
           >
             1 ahahah
           </div>
           <div
-            class="sc-gwVKww dWISzj"
+            class="sc-fAjcbJ fAIEwk"
           >
             <a
-              class="sc-chPdSV hAACpH"
               href="tel:0707654321"
+              class="sc-gZMcBi sc-VigVT cCwcxL"
             >
               070-765 43 21
             </a>
           </div>
           <a
-            class="sc-kAzzGY LovkB"
             href="mailto:count@sesame.com"
+            class="sc-gZMcBi sc-gqjmRU hRniLu"
           >
             count@sesame.com
           </a>

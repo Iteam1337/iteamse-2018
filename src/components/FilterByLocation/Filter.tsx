@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { ValidLocation } from '../../../typings/iteam'
-import styled, { injectGlobal, withProps } from '../../theme'
+import styled, { createGlobalStyle } from '../../theme'
 
 interface FilterProps {
   children: React.ReactNode
@@ -13,7 +13,7 @@ interface WrapProps {
   selected: boolean
 }
 
-const Wrap = withProps<WrapProps>()(styled.div)`
+const Wrap = styled.div<WrapProps>`
   color: ${({ theme }) => theme.colors.cornflowerBlue};
   cursor: pointer;
   font-weight: ${({ selected }) => (selected ? '500' : '300')};
@@ -27,7 +27,7 @@ const Wrap = withProps<WrapProps>()(styled.div)`
   }
 `
 
-injectGlobal`
+const GlobalStyle = createGlobalStyle`
   html[data-whatinput="keyboard"] {
     ${Wrap} {
       &:focus {
@@ -56,15 +56,18 @@ class Filter extends React.Component<FilterProps> {
 
   render() {
     return (
-      <Wrap
-        data-test={`filter-${this.props.location}`}
-        onClick={this.handleClick}
-        onKeyUp={this.handleKeyUp}
-        selected={this.props.selected}
-        tabIndex={0}
-      >
-        {this.props.children}
-      </Wrap>
+      <>
+        <Wrap
+          data-test={`filter-${this.props.location}`}
+          onClick={this.handleClick}
+          onKeyUp={this.handleKeyUp}
+          selected={this.props.selected}
+          tabIndex={0}
+        >
+          {this.props.children}
+        </Wrap>
+        <GlobalStyle selected={this.props.selected} />
+      </>
     )
   }
 }

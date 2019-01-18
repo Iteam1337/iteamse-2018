@@ -3,24 +3,24 @@
 exports[`components/Footer renders Footer 1`] = `
 <div>
   <div
-    class="sc-cMhqgX gxLYQH"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bZQynM sc-gisBJw hsFDSr"
   >
     <div
-      class="sc-iuJeZd TxOXT"
+      class="Footer__FooterSections-sc-1xlg8it-0 fyRAzu"
     >
       <div
-        class="sc-hXRMBi crFaMm"
+        class="Location__Wrap-vwmy4q-0 hUXELZ"
       >
         <div
-          class="sc-epnACN cMUoOM"
+          class="Location__Title-vwmy4q-1 jAlFay"
         >
           Iteam Göteborg
         </div>
         <div
-          class="sc-iQNlJl hGrovP"
+          class="Location__Address-vwmy4q-2 eHaFTN"
         >
           <ul
-            class="sc-kAzzGY bxsBVD"
+            class="sc-VigVT jORocD"
           >
             <li>
               Haga Kyrkogata 28
@@ -32,16 +32,16 @@ exports[`components/Footer renders Footer 1`] = `
           </ul>
         </div>
         <ul
-          class="sc-kAzzGY bxsBVD"
+          class="sc-VigVT jORocD"
         >
           <li>
             +46 734 029 112
           </li>
           <li
-            class="sc-hZSUBg jCNqnc"
+            class="Location__ContactMail-vwmy4q-3 jaXxzV"
           >
             <a
-              class="sc-bsbRJL drLWEl"
+              class="sc-iwsKbI sc-caSCKo gXrKrP"
             >
               johanna.grahn@iteam.se
             </a>
@@ -53,18 +53,18 @@ exports[`components/Footer renders Footer 1`] = `
         </ul>
       </div>
       <div
-        class="sc-hXRMBi crFaMm"
+        class="Location__Wrap-vwmy4q-0 hUXELZ"
       >
         <div
-          class="sc-epnACN cMUoOM"
+          class="Location__Title-vwmy4q-1 jAlFay"
         >
           Iteam Stockholm
         </div>
         <div
-          class="sc-iQNlJl hGrovP"
+          class="Location__Address-vwmy4q-2 eHaFTN"
         >
           <ul
-            class="sc-kAzzGY bxsBVD"
+            class="sc-VigVT jORocD"
           >
             <li>
               Östermalmsgatan 26A
@@ -76,16 +76,16 @@ exports[`components/Footer renders Footer 1`] = `
           </ul>
         </div>
         <ul
-          class="sc-kAzzGY bxsBVD"
+          class="sc-VigVT jORocD"
         >
           <li>
             +46 826 70 90
           </li>
           <li
-            class="sc-hZSUBg jCNqnc"
+            class="Location__ContactMail-vwmy4q-3 jaXxzV"
           >
             <a
-              class="sc-bsbRJL drLWEl"
+              class="sc-iwsKbI sc-caSCKo gXrKrP"
             >
               info@iteam.se
             </a>
@@ -97,87 +97,87 @@ exports[`components/Footer renders Footer 1`] = `
         </ul>
       </div>
       <div
-        class="sc-cmthru hjHKVg"
+        class="Footer__SocialMedia-sc-1xlg8it-2 bHiqIp"
       >
         <div
-          class="sc-esOvli brVuEP"
+          class="Footer__Title-sc-1xlg8it-1 cZudjP"
         >
           Följ oss
         </div>
         <ul
-          class="sc-kAzzGY bxsBVD"
+          class="sc-VigVT jORocD"
         >
           <li
-            class="sc-hMFtBS ZPQjN"
+            class="Footer__SocialMediaItem-sc-1xlg8it-3 jxvvt"
           >
             <img
-              class="sc-cLQEGU gdHizI"
               src="test-file-stub"
               alt=""
+              class="Footer__SocialMediaIcon-sc-1xlg8it-4 knWPqg"
             />
             <a
-              class="sc-gqPbQI cSNKRb"
               href="https://www.facebook.com/iteam1337/"
+              class="sc-iwsKbI sc-kjoXOD kElEwn"
             >
               Facebook
             </a>
           </li>
           <li
-            class="sc-hMFtBS ZPQjN"
+            class="Footer__SocialMediaItem-sc-1xlg8it-3 jxvvt"
           >
             <img
-              class="sc-cLQEGU gdHizI"
               src="test-file-stub"
               alt=""
+              class="Footer__SocialMediaIcon-sc-1xlg8it-4 knWPqg"
             />
             <a
-              class="sc-gqPbQI cSNKRb"
               href="https://instagram.com/iteam1337"
+              class="sc-iwsKbI sc-kjoXOD kElEwn"
             >
               Instagram
             </a>
           </li>
           <li
-            class="sc-hMFtBS ZPQjN"
+            class="Footer__SocialMediaItem-sc-1xlg8it-3 jxvvt"
           >
             <img
-              class="sc-cLQEGU gdHizI"
               src="test-file-stub"
               alt=""
+              class="Footer__SocialMediaIcon-sc-1xlg8it-4 knWPqg"
             />
             <a
-              class="sc-gqPbQI cSNKRb"
               href="https://www.linkedin.com/company/270569/"
+              class="sc-iwsKbI sc-kjoXOD kElEwn"
             >
               LinkedIn
             </a>
           </li>
           <li
-            class="sc-hMFtBS ZPQjN"
+            class="Footer__SocialMediaItem-sc-1xlg8it-3 jxvvt"
           >
             <img
-              class="sc-cLQEGU gdHizI"
               src="test-file-stub"
               alt=""
+              class="Footer__SocialMediaIcon-sc-1xlg8it-4 knWPqg"
             />
             <a
-              class="sc-gqPbQI cSNKRb"
               href="https://www.youtube.com/channel/UCU2TdLZ7p0jEuuGUxaod4lw"
+              class="sc-iwsKbI sc-kjoXOD kElEwn"
             >
               YouTube
             </a>
           </li>
           <li
-            class="sc-hMFtBS ZPQjN"
+            class="Footer__SocialMediaItem-sc-1xlg8it-3 jxvvt"
           >
             <img
-              class="sc-cLQEGU gdHizI"
               src="test-file-stub"
               alt=""
+              class="Footer__SocialMediaIcon-sc-1xlg8it-4 knWPqg"
             />
             <a
-              class="sc-gqPbQI cSNKRb"
               href="http://www.mynewsdesk.com/se/iteam"
+              class="sc-iwsKbI sc-kjoXOD kElEwn"
             >
               MyNewsDesk
             </a>
@@ -186,15 +186,15 @@ exports[`components/Footer renders Footer 1`] = `
       </div>
     </div>
     <div
-      class="sc-hORach bmKFEs"
+      class="Footer__SupportSection-sc-1xlg8it-5 fPrJRc"
     >
       <a
-        class="sc-frDJqD fUICHz"
         black="1"
+        class="sc-cMljjf guWhXl"
       >
         Behöver du supporthjälp?
       </a>
     </div>
   </div>
 </div>
-`;
+`

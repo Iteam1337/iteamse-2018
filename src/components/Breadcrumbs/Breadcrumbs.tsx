@@ -7,7 +7,7 @@ interface BreadcrumbsProps {
   title: string
 }
 
-const Wrap = PaddedRow.extend`
+const Wrap = styled(PaddedRow)`
   > :not(:last-child):after {
     font-weight: 300;
     content: '/';

@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom'
-import { HashLink } from 'react-router-hash-link'
-import styled, { withProps } from '../../theme'
+import styled from '../../theme'
 
 interface StyledLinkProps {
   black?: boolean | number
 }
 
-const StyledLink = withProps<StyledLinkProps>()(styled(Link))`
+const StyledLink =
+  styled(Link) <
+  StyledLinkProps >
+  `
   border-bottom: 2px solid ${({ black, theme }) =>
     black ? '#000' : theme.colors.cornflowerBlue};
   color: ${({ black, theme }) =>
@@ -16,7 +18,8 @@ const StyledLink = withProps<StyledLinkProps>()(styled(Link))`
   text-decoration: none;
 `
 
-export const StyledHashLink = withProps<StyledLinkProps>()(styled(HashLink))`
+// tslint:disable-next-line:whitespace
+export const StyledHashLink = styled(HashLink)<StyledLinkProps>`
   border-bottom: 2px solid ${({ black, theme }) =>
     black ? '#000' : theme.colors.cornflowerBlue};
   color: ${({ black, theme }) =>
