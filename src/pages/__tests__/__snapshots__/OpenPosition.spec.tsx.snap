@@ -4,7 +4,7 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
 <div>
   <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-hzDkRC uZqXz"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kEYyzF idvFSX"
     >
       <div
         class="Header__Content-sc-1ofdv2r-0 limgqW"
@@ -13,49 +13,49 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
           class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
         >
           <a
-            class="sc-csuQGl kBaCvS"
+            class="sc-jKJlTe bIUarX"
           >
             <img
               data-testid="logo"
               path="test-file-stub"
-              class="sc-Rmtcm jeZXze"
+              class="sc-eNQAEJ gYmRno"
             />
           </a>
           <div
             class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
           >
             <a
-              class="sc-bRBYWo cBPUew"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
-              Case
+              Erbjudanden
             </a>
             <a
-              class="sc-bRBYWo cBPUew"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
-              AI
+              Våra case
             </a>
             <a
-              class="sc-bRBYWo cBPUew"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-bRBYWo cBPUew"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-bRBYWo cBPUew active-nav"
+              class="sc-hMqMXs dApheh active-nav"
               aria-current="true"
             >
               Karriär
             </a>
             <a
-              class="sc-bRBYWo cBPUew"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Om
@@ -69,7 +69,7 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
           class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="sc-htoDjs sc-jhAzac jWXEtZ"
+            class="H1-sc-1k64xg2-0 sc-kkGfuU dBAbrk"
           >
             <span>
               UX Designer
@@ -81,11 +81,11 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
     </div>
   </div>
   <div
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-gzVnrw gPskFt"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
   >
     <div
       data-test="breadcrumbs"
-      class="sc-bdVaJa sc-bZQynM fXeWOs"
+      class="PaddedRow-sc-13wt5gj-0 sc-bdVaJa gvAEMW"
     >
       <a>
         <span
@@ -104,22 +104,22 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
     >
       <div
         data-test="block-"
-        class="sc-bdVaJa fGzlqx"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-htpNat wioCx"
+          class="Block__Content-unfn3n-0 fZqjlq"
         >
           <div
-            class="sc-bxivhb joTsHV"
+            class="Block__TitleWrap-unfn3n-1 gqELJt"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Din roll
             </h3>
           </div>
           <div
-            class="sc-EHOje hJrdUN"
+            class="Block__Text-unfn3n-3 kUuzcn"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -143,22 +143,22 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
     >
       <div
         data-test="block-"
-        class="sc-bdVaJa fGzlqx"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-htpNat wioCx"
+          class="Block__Content-unfn3n-0 fZqjlq"
         >
           <div
-            class="sc-bxivhb joTsHV"
+            class="Block__TitleWrap-unfn3n-1 gqELJt"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Du behöver kunna
             </h3>
           </div>
           <div
-            class="sc-EHOje hJrdUN"
+            class="Block__Text-unfn3n-3 kUuzcn"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -202,22 +202,22 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
     >
       <div
         data-test="block-"
-        class="sc-bdVaJa fGzlqx"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-htpNat wioCx"
+          class="Block__Content-unfn3n-0 fZqjlq"
         >
           <div
-            class="sc-bxivhb joTsHV"
+            class="Block__TitleWrap-unfn3n-1 gqELJt"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Plus i kanten
             </h3>
           </div>
           <div
-            class="sc-EHOje hJrdUN"
+            class="Block__Text-unfn3n-3 kUuzcn"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -242,7 +242,7 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
     </div>
     <img
       src="//images.ctfassets.net/rj4r6yfcesw5/62hgzE8G3ueMa2YSEuG4og/db2b643db6041f9d26936bc2d6006607/bleed_howwework.jpg"
-      class="sc-dnqmqq LQEUe"
+      class="ImageBleed__ImageContainer-sc-1qgs15y-0 dtCUjJ"
     />
     <div
       class="react-reveal"
@@ -250,22 +250,22 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
     >
       <div
         data-test="block-"
-        class="sc-bdVaJa fGzlqx"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-htpNat wioCx"
+          class="Block__Content-unfn3n-0 fZqjlq"
         >
           <div
-            class="sc-bxivhb joTsHV"
+            class="Block__TitleWrap-unfn3n-1 gqELJt"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Om oss
             </h3>
           </div>
           <div
-            class="sc-EHOje hJrdUN"
+            class="Block__Text-unfn3n-3 kUuzcn"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -292,22 +292,22 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
     >
       <div
         data-test="block-"
-        class="sc-bdVaJa fGzlqx"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-htpNat wioCx"
+          class="Block__Content-unfn3n-0 fZqjlq"
         >
           <div
-            class="sc-bxivhb joTsHV"
+            class="Block__TitleWrap-unfn3n-1 gqELJt"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Några av våra bonusar
             </h3>
           </div>
           <div
-            class="sc-EHOje hJrdUN"
+            class="Block__Text-unfn3n-3 kUuzcn"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -351,22 +351,22 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
     >
       <div
         data-test="block-"
-        class="sc-bdVaJa fGzlqx"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-htpNat wioCx"
+          class="Block__Content-unfn3n-0 fZqjlq"
         >
           <div
-            class="sc-bxivhb joTsHV"
+            class="Block__TitleWrap-unfn3n-1 gqELJt"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Teknikaliteter
             </h3>
           </div>
           <div
-            class="sc-EHOje hJrdUN"
+            class="Block__Text-unfn3n-3 kUuzcn"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -408,22 +408,22 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
     >
       <div
         data-test="block-"
-        class="sc-bdVaJa fGzlqx"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-htpNat wioCx"
+          class="Block__Content-unfn3n-0 fZqjlq"
         >
           <div
-            class="sc-bxivhb joTsHV"
+            class="Block__TitleWrap-unfn3n-1 gqELJt"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Ansökan
             </h3>
           </div>
           <div
-            class="sc-EHOje hJrdUN"
+            class="Block__Text-unfn3n-3 kUuzcn"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"

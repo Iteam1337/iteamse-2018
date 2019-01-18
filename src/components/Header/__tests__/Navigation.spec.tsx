@@ -84,7 +84,7 @@ describe('components/Navigation', () => {
 
     await wait()
 
-    fireEvent.mouseEnter(getByText('Case'))
+    fireEvent.mouseEnter(getByText('Våra case'))
 
     expect(client.query.mock.calls[0][0]).toMatchSnapshot()
   })

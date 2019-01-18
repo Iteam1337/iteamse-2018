@@ -60,11 +60,11 @@ const MenuNavigation: React.SFC<MenuNavigationProps> = ({ open }) => {
   return (
     <Menu data-test="mobile-menu">
       <MenuInner>
-        <StyledLink activeClassName="active-nav" to="/case">
-          Case
+        <StyledLink activeClassName="active-nav" to="/erbjudanden">
+          Erbjudanden
         </StyledLink>
-        <StyledLink activeClassName="active-nav" to="/erbjudanden/ai">
-          AI
+        <StyledLink activeClassName="active-nav" to="/case">
+          Våra case
         </StyledLink>
         <StyledLink activeClassName="active-nav" to="/hur-vi-jobbar">
           Metod

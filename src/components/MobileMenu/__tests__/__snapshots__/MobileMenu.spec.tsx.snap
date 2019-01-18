@@ -16,13 +16,13 @@ exports[`components/MobileMenu renders MobileMenu and can open it 1`] = `
           class="sc-bdVaJa knFYzh"
           aria-current="false"
         >
-          Case
+          Erbjudanden
         </a>
         <a
           class="sc-bdVaJa knFYzh"
           aria-current="false"
         >
-          AI
+          Våra case
         </a>
         <a
           class="sc-bdVaJa knFYzh"

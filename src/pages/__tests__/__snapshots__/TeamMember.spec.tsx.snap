@@ -3,11 +3,11 @@
 exports[`components/Team renders TeamMember 1`] = `
 <div>
   <div
-    class="sc-fBuWsC jhdvQT"
+    class="TeamMember-sc-1dabmxm-0 GfkES"
   >
     <div>
       <div
-        class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-hzDkRC idDhWk"
+        class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kEYyzF deict"
       >
         <div
           class="Header__Content-sc-1ofdv2r-0 limgqW"
@@ -16,49 +16,49 @@ exports[`components/Team renders TeamMember 1`] = `
             class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
           >
             <a
-              class="sc-csuQGl kBaCvS"
+              class="sc-jKJlTe bIUarX"
             >
               <img
                 data-testid="logo"
                 path="test-file-stub"
-                class="sc-Rmtcm jeZXze"
+                class="sc-eNQAEJ gYmRno"
               />
             </a>
             <div
               class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
             >
               <a
-                class="sc-bRBYWo cBPUew"
+                class="sc-hMqMXs dApheh"
                 aria-current="false"
               >
-                Case
+                Erbjudanden
               </a>
               <a
-                class="sc-bRBYWo cBPUew"
+                class="sc-hMqMXs dApheh"
                 aria-current="false"
               >
-                AI
+                Våra case
               </a>
               <a
-                class="sc-bRBYWo cBPUew"
+                class="sc-hMqMXs dApheh"
                 aria-current="false"
               >
                 Metod
               </a>
               <a
-                class="sc-bRBYWo cBPUew active-nav"
+                class="sc-hMqMXs dApheh active-nav"
                 aria-current="true"
               >
                 Medarbetare
               </a>
               <a
-                class="sc-bRBYWo cBPUew"
+                class="sc-hMqMXs dApheh"
                 aria-current="false"
               >
                 Karriär
               </a>
               <a
-                class="sc-bRBYWo cBPUew"
+                class="sc-hMqMXs dApheh"
                 aria-current="false"
               >
                 Om
@@ -72,7 +72,7 @@ exports[`components/Team renders TeamMember 1`] = `
             class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
           >
             <h1
-              class="sc-htoDjs sc-jhAzac jWXEtZ"
+              class="H1-sc-1k64xg2-0 sc-kkGfuU dBAbrk"
             >
               <span>
                 Rickard Laurin
@@ -84,11 +84,11 @@ exports[`components/Team renders TeamMember 1`] = `
       </div>
     </div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-gzVnrw gPskFt"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
     >
       <div
         data-test="breadcrumbs"
-        class="sc-bdVaJa sc-bZQynM fXeWOs"
+        class="PaddedRow-sc-13wt5gj-0 sc-bdVaJa gvAEMW"
       >
         <a>
           <span
@@ -107,30 +107,30 @@ exports[`components/Team renders TeamMember 1`] = `
       >
         <div
           data-test="block-"
-          class="sc-bdVaJa fGzlqx"
+          class="PaddedRow-sc-13wt5gj-0 dtvxob"
         >
           <div
-            class="sc-htpNat wioCx"
+            class="Block__Content-unfn3n-0 fZqjlq"
           >
             <div
-              class="sc-bxivhb joTsHV"
+              class="Block__TitleWrap-unfn3n-1 gqELJt"
             >
               <h3
-                class="sc-bwzfXH kgEpTV"
+                class="H3-sc-1kpkcxu-0 hpTLhF"
               >
                 Kontakt
               </h3>
             </div>
             <div
-              class="sc-EHOje hJrdUN"
+              class="Block__Text-unfn3n-3 kUuzcn"
             >
               <ul
-                class="sc-eNQAEJ kScmzq"
+                class="UnstyledList-r59lsu-0 dCBFDj"
               >
                 <li>
                   <a
                     href="mailto:rickard.laurin@iteam.se"
-                    class="sc-jWBwVP sc-brqgnP dWbqVo"
+                    class="NativeLink-sc-1sy7t3m-0 sc-dxgOiQ kCSnXk"
                   >
                     rickard.laurin@iteam.se
                   </a>
@@ -146,22 +146,22 @@ exports[`components/Team renders TeamMember 1`] = `
       >
         <div
           data-test="block-"
-          class="sc-bdVaJa fGzlqx"
+          class="PaddedRow-sc-13wt5gj-0 dtvxob"
         >
           <div
-            class="sc-htpNat wioCx"
+            class="Block__Content-unfn3n-0 fZqjlq"
           >
             <div
-              class="sc-bxivhb joTsHV"
+              class="Block__TitleWrap-unfn3n-1 gqELJt"
             >
               <h3
-                class="sc-bwzfXH kgEpTV"
+                class="H3-sc-1kpkcxu-0 hpTLhF"
               >
                 Varför jobbar du med teknik?
               </h3>
             </div>
             <div
-              class="sc-EHOje hJrdUN"
+              class="Block__Text-unfn3n-3 kUuzcn"
             >
               <div
                 class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -182,22 +182,22 @@ exports[`components/Team renders TeamMember 1`] = `
       >
         <div
           data-test="block-"
-          class="sc-bdVaJa fGzlqx"
+          class="PaddedRow-sc-13wt5gj-0 dtvxob"
         >
           <div
-            class="sc-htpNat wioCx"
+            class="Block__Content-unfn3n-0 fZqjlq"
           >
             <div
-              class="sc-bxivhb joTsHV"
+              class="Block__TitleWrap-unfn3n-1 gqELJt"
             >
               <h3
-                class="sc-bwzfXH kgEpTV"
+                class="H3-sc-1kpkcxu-0 hpTLhF"
               >
                 Bakgrund
               </h3>
             </div>
             <div
-              class="sc-EHOje hJrdUN"
+              class="Block__Text-unfn3n-3 kUuzcn"
             >
               <div
                 class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -218,22 +218,22 @@ exports[`components/Team renders TeamMember 1`] = `
       >
         <div
           data-test="block-"
-          class="sc-bdVaJa fGzlqx"
+          class="PaddedRow-sc-13wt5gj-0 dtvxob"
         >
           <div
-            class="sc-htpNat wioCx"
+            class="Block__Content-unfn3n-0 fZqjlq"
           >
             <div
-              class="sc-bxivhb joTsHV"
+              class="Block__TitleWrap-unfn3n-1 gqELJt"
             >
               <h3
-                class="sc-bwzfXH kgEpTV"
+                class="H3-sc-1kpkcxu-0 hpTLhF"
               >
                 Specialistkompetens
               </h3>
             </div>
             <div
-              class="sc-EHOje hJrdUN"
+              class="Block__Text-unfn3n-3 kUuzcn"
             >
               <div
                 class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"

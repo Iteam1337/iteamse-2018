@@ -4,7 +4,7 @@ exports[`components/Home renders Home 1`] = `
 <div>
   <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-hzDkRC ihcUlV"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kEYyzF dzedHC"
     >
       <div
         class="Header__Content-sc-1ofdv2r-0 limgqW"
@@ -13,49 +13,49 @@ exports[`components/Home renders Home 1`] = `
           class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
         >
           <a
-            class="sc-csuQGl kBaCvS"
+            class="sc-jKJlTe bIUarX"
           >
             <img
               data-testid="logo"
               path="test-file-stub"
-              class="sc-Rmtcm jeZXze"
+              class="sc-eNQAEJ gYmRno"
             />
           </a>
           <div
             class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
           >
             <a
-              class="sc-bRBYWo cBPUew"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
-              Case
+              Erbjudanden
             </a>
             <a
-              class="sc-bRBYWo cBPUew"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
-              AI
+              Våra case
             </a>
             <a
-              class="sc-bRBYWo cBPUew"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-bRBYWo cBPUew"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-bRBYWo cBPUew"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-bRBYWo cBPUew"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Om
@@ -69,7 +69,7 @@ exports[`components/Home renders Home 1`] = `
           class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="sc-htoDjs sc-jhAzac hghbNr"
+            class="H1-sc-1k64xg2-0 sc-kkGfuU goMdLu"
           >
             <span>
               Vi digitaliserar företag och organisationer
@@ -81,23 +81,23 @@ exports[`components/Home renders Home 1`] = `
     </div>
   </div>
   <div
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-gzVnrw sc-dxgOiQ jOraxb"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH sc-iwsKbI gNdBGH"
   >
     <div
       class="Home__Content-sc-1cz0hle-0 geYJIV"
     >
       <img
         src="test-file-stub"
-        class="Home__StylizedIteam-sc-1cz0hle-3 gCKdih"
+        class="Home__StylizedIteam-sc-1cz0hle-2 fLeIrA"
       />
       <div
         class="Home__Texts-sc-1cz0hle-1 ifUVwV"
       >
         <div
-          class="sc-bdVaJa sc-ckVGcZ kcmZLT"
+          class="PaddedRow-sc-13wt5gj-0 sc-gZMcBi fNPGgP"
         >
           <h1
-            class="sc-htoDjs bEbXpi"
+            class="H1-sc-1k64xg2-0 cauBje"
           >
             Kod
           </h1>
@@ -111,20 +111,20 @@ exports[`components/Home renders Home 1`] = `
             </div>
           </div>
           <a
-            class="sc-kpOJdX sc-jKJlTe fUMmsP"
+            class="sc-htoDjs sc-gqjmRU eEGOXn"
           >
             Läs om hur vi hjälper Arbetsförmedlingen med kod
           </a>
           <img
             src="//images.ctfassets.net/rj4r6yfcesw5/3qnZSfySW4cEGoUo6KCAae/8a656eba15e15b61dacc9fbea38aa4bd/logo_af.png"
-            class="Home__CompanyLogo-sc-1cz0hle-4 fycGAw"
+            class="Home__CompanyLogo-sc-1cz0hle-3 bkusqe"
           />
         </div>
         <div
-          class="sc-bdVaJa sc-ckVGcZ kcmZLT"
+          class="PaddedRow-sc-13wt5gj-0 sc-gZMcBi fNPGgP"
         >
           <h1
-            class="sc-htoDjs bEbXpi"
+            class="H1-sc-1k64xg2-0 cauBje"
           >
             Strategi
           </h1>
@@ -138,20 +138,20 @@ exports[`components/Home renders Home 1`] = `
             </div>
           </div>
           <a
-            class="sc-kpOJdX sc-jKJlTe fUMmsP"
+            class="sc-htoDjs sc-gqjmRU eEGOXn"
           >
             Läs om hur vi hjälper Taxi Stockholm med strategi
           </a>
           <img
             src="//images.ctfassets.net/rj4r6yfcesw5/1mv5fxBGLmeyWom4OI2WsI/a4d79cae2076b43aea926db2f1244b52/logo_tsab.png"
-            class="Home__CompanyLogo-sc-1cz0hle-4 fycGAw"
+            class="Home__CompanyLogo-sc-1cz0hle-3 bkusqe"
           />
         </div>
         <div
-          class="sc-bdVaJa sc-ckVGcZ kcmZLT"
+          class="PaddedRow-sc-13wt5gj-0 sc-gZMcBi fNPGgP"
         >
           <h1
-            class="sc-htoDjs bEbXpi"
+            class="H1-sc-1k64xg2-0 cauBje"
           >
             Kultur
           </h1>
@@ -165,59 +165,14 @@ exports[`components/Home renders Home 1`] = `
             </div>
           </div>
           <a
-            class="sc-kpOJdX sc-jKJlTe fUMmsP"
+            class="sc-htoDjs sc-gqjmRU eEGOXn"
           >
             Läs om hur vi hjälper SEB med kultur
           </a>
           <img
             src="//images.ctfassets.net/rj4r6yfcesw5/4D844WR1v20ICIOG4SK0y8/15a008277f5565d9f52fbd5312f6e121/logo_seb.png"
-            class="Home__CompanyLogo-sc-1cz0hle-4 fycGAw"
+            class="Home__CompanyLogo-sc-1cz0hle-3 bkusqe"
           />
-        </div>
-      </div>
-    </div>
-  </div>
-  <div
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-gzVnrw gPskFt"
-  >
-    <div
-      class="react-reveal"
-      style="opacity: 1;"
-    >
-      <div
-        data-test="block-"
-        class="sc-bdVaJa fGzlqx"
-      >
-        <div
-          class="sc-htpNat wioCx"
-        >
-          <div
-            class="sc-bxivhb joTsHV"
-          >
-            <h3
-              class="sc-bwzfXH kgEpTV"
-            >
-              Utforska möjligheterna med AI
-            </h3>
-          </div>
-          <div
-            class="sc-EHOje hJrdUN"
-          >
-            <div
-              class="Home__AiTextBlock-sc-1cz0hle-2 dfdKHY"
-            >
-              We are offering an Artificial Intelligence package to help you build AI products and services. We have a very competent Data Science team that will help you grow in the growing market of Artificial Intelligence.
-            </div>
-            <div
-              class="Home__AiTextBlock-sc-1cz0hle-2 dfdKHY"
-            >
-              <a
-                class="sc-kpOJdX jCjtGd"
-              >
-                Läs mer om våra erbjudanden inom AI
-              </a>
-            </div>
-          </div>
         </div>
       </div>
     </div>

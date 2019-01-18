@@ -3,10 +3,10 @@ import { withApollo, WithApolloClient } from 'react-apollo'
 import { Link, NavLink } from 'react-router-dom'
 import SVG from 'react-svg'
 import { ABOUT_PAGE_QUERY } from '../../pages/About'
-import { AI_PAGE_QUERY } from '../../pages/Ai'
 import { CASES_PAGE_QUERY } from '../../pages/Cases'
 import { HOME_PAGE_QUERY } from '../../pages/Home'
 import { HOW_WE_WORK_PAGE_QUERY } from '../../pages/HowWeWork'
+import { OFFERS_PAGE_QUERY } from '../../pages/Offers'
 import { TEAM_PAGE_QUERY } from '../../pages/Team'
 import { WORK_PAGE_QUERY } from '../../pages/Work'
 import styled, { createGlobalStyle, keyframes } from '../../theme'
@@ -82,7 +82,10 @@ interface IndicatorProps {
   indicatorWidth: number
 }
 
-const Indicator = styled.div<IndicatorProps>`
+const Indicator =
+  styled.div <
+  IndicatorProps >
+  `
   animation: ${slideDown} 300ms ease-in-out 1;
   background-color: #fff;
   top: 0;
@@ -173,8 +176,8 @@ export class Navigation extends React.Component<
       case 'work':
         query = WORK_PAGE_QUERY
         break
-      case 'ai':
-        query = AI_PAGE_QUERY
+      case 'erbjudanden':
+        query = OFFERS_PAGE_QUERY
         break
       default:
         break
@@ -191,60 +194,60 @@ export class Navigation extends React.Component<
     const { indicatorLocation, indicatorWidth } = this.state
 
     return (
-        <Wrap>
-          <GlobalStyle to="" />
-          <LogoLink onMouseEnter={this.prefetchPage('home')} to="/">
-            <Logo data-testid="logo" path={logo} />
-          </LogoLink>
-          <NavigationItems>
-            <StyledLink
-              activeClassName="active-nav"
-              onMouseEnter={this.prefetchPage('case')}
-              to="/case"
-            >
-              Case
-            </StyledLink>
-            <StyledLink
-              activeClassName="active-nav"
-              onMouseEnter={this.prefetchPage('ai')}
-              to="/erbjudanden/ai"
-            >
-              AI
-            </StyledLink>
-            <StyledLink
-              activeClassName="active-nav"
-              onMouseEnter={this.prefetchPage('how-we-work')}
-              to="/hur-vi-jobbar"
-            >
-              Metod
-            </StyledLink>
-            <StyledLink
-              activeClassName="active-nav"
-              onMouseEnter={this.prefetchPage('team')}
-              to="/medarbetare"
-            >
-              Medarbetare
-            </StyledLink>
-            <StyledLink
-              activeClassName="active-nav"
-              onMouseEnter={this.prefetchPage('work')}
-              to="/jobba-hos-oss"
-            >
-              Karriär
-            </StyledLink>
-            <StyledLink
-              activeClassName="active-nav"
-              onMouseEnter={this.prefetchPage('about')}
-              to="/om-oss"
-            >
-              Om
-            </StyledLink>
-            <Indicator
-              indicatorLocation={indicatorLocation}
-              indicatorWidth={indicatorWidth}
-            />
-          </NavigationItems>
-        </Wrap>
+      <Wrap>
+        <GlobalStyle />
+        <LogoLink onMouseEnter={this.prefetchPage('home')} to="/">
+          <Logo data-testid="logo" path={logo} />
+        </LogoLink>
+        <NavigationItems>
+          <StyledLink
+            activeClassName="active-nav"
+            onMouseEnter={this.prefetchPage('erbjudanden')}
+            to="/erbjudanden"
+          >
+            Erbjudanden
+          </StyledLink>
+          <StyledLink
+            activeClassName="active-nav"
+            onMouseEnter={this.prefetchPage('case')}
+            to="/case"
+          >
+            Våra case
+          </StyledLink>
+          <StyledLink
+            activeClassName="active-nav"
+            onMouseEnter={this.prefetchPage('how-we-work')}
+            to="/hur-vi-jobbar"
+          >
+            Metod
+          </StyledLink>
+          <StyledLink
+            activeClassName="active-nav"
+            onMouseEnter={this.prefetchPage('team')}
+            to="/medarbetare"
+          >
+            Medarbetare
+          </StyledLink>
+          <StyledLink
+            activeClassName="active-nav"
+            onMouseEnter={this.prefetchPage('work')}
+            to="/jobba-hos-oss"
+          >
+            Karriär
+          </StyledLink>
+          <StyledLink
+            activeClassName="active-nav"
+            onMouseEnter={this.prefetchPage('about')}
+            to="/om-oss"
+          >
+            Om
+          </StyledLink>
+          <Indicator
+            indicatorLocation={indicatorLocation}
+            indicatorWidth={indicatorWidth}
+          />
+        </NavigationItems>
+      </Wrap>
     )
   }
 }

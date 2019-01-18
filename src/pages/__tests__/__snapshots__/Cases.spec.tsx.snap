@@ -4,7 +4,7 @@ exports[`components/Cases renders Cases 1`] = `
 <div>
   <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-hzDkRC dwsAkq"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kEYyzF jFBmQV"
     >
       <div
         class="Header__Content-sc-1ofdv2r-0 limgqW"
@@ -13,49 +13,49 @@ exports[`components/Cases renders Cases 1`] = `
           class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
         >
           <a
-            class="sc-csuQGl kBaCvS"
+            class="sc-jKJlTe bIUarX"
           >
             <img
               data-testid="logo"
               path="test-file-stub"
-              class="sc-Rmtcm jeZXze"
+              class="sc-eNQAEJ gYmRno"
             />
           </a>
           <div
             class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
           >
             <a
-              class="sc-bRBYWo cBPUew"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
-              Case
+              Erbjudanden
             </a>
             <a
-              class="sc-bRBYWo cBPUew"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
-              AI
+              Våra case
             </a>
             <a
-              class="sc-bRBYWo cBPUew"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-bRBYWo cBPUew"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-bRBYWo cBPUew"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-bRBYWo cBPUew"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Om
@@ -69,7 +69,7 @@ exports[`components/Cases renders Cases 1`] = `
           class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="sc-htoDjs sc-jhAzac hTMvGu"
+            class="H1-sc-1k64xg2-0 sc-kkGfuU clBDyh"
           >
             <span>
               Några exempel på
@@ -81,13 +81,13 @@ exports[`components/Cases renders Cases 1`] = `
     </div>
   </div>
   <div
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-gzVnrw gPskFt"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
   >
     <div
-      class="sc-bdVaJa sc-kgoBCf egZMLD"
+      class="PaddedRow-sc-13wt5gj-0 sc-bZQynM cbgimB"
     >
       <a
-        class="sc-jzJRlG gdwHRy"
+        class="sc-htpNat kDzZbW"
       >
         <div
           class="Cases__Case-sc-1mpal5q-3 esTvuF"
@@ -118,7 +118,7 @@ exports[`components/Cases renders Cases 1`] = `
         </div>
       </a>
       <a
-        class="sc-jzJRlG gdwHRy"
+        class="sc-htpNat kDzZbW"
       >
         <div
           class="Cases__Case-sc-1mpal5q-3 esTvuF"
@@ -149,7 +149,7 @@ exports[`components/Cases renders Cases 1`] = `
         </div>
       </a>
       <a
-        class="sc-jzJRlG gdwHRy"
+        class="sc-htpNat kDzZbW"
       >
         <div
           class="Cases__Case-sc-1mpal5q-3 esTvuF"
@@ -174,7 +174,7 @@ exports[`components/Cases renders Cases 1`] = `
         </div>
       </a>
       <a
-        class="sc-jzJRlG gdwHRy"
+        class="sc-htpNat kDzZbW"
       >
         <div
           class="Cases__Case-sc-1mpal5q-3 esTvuF"

@@ -53,23 +53,6 @@ export interface AboutPageQuery {
   },
 };
 
-export interface AiPageQuery {
-  pageAi:  {
-    __typename: "PageAi",
-    headerImage: string | null,
-    headerText1: string | null,
-    headerText2: string | null,
-    headerTextBgColor: string | null,
-    team: Array< string > | null,
-    aboutTitle: string,
-    aboutText: string,
-    contentImage: string | null,
-    offersText: string,
-    offersTitle: string,
-    contactTitle: string,
-  },
-};
-
 export interface CasePageQueryVariables {
   slug: string,
 };
@@ -132,10 +115,6 @@ export interface HomePageQuery {
     headerText1: string | null,
     headerText2: string | null,
     headerTextBgColor: string | null,
-    aiTitle: string,
-    aiText: string,
-    aiSlug: string,
-    aiLinkText: string,
     codeMobileImage: string | null,
     codeText: string,
     codeTitle: string,
@@ -187,6 +166,36 @@ export interface HowWeWorkPageQuery {
     teamText: string,
     teamTitle: string,
   },
+};
+
+export interface OffersPageQuery {
+  pageOffers:  {
+    __typename: "PageOffers",
+    headerImage: string,
+    headerText1: string,
+    headerText2: string | null,
+    headerTextBgColor: string,
+    contactTitle: string,
+    team: Array< string > | null,
+    offersLeadText: string,
+  },
+  offers:  Array< {
+    __typename: "Offer",
+    offerIntroImage: string,
+    offerTitle: string,
+    offerIntroText: string,
+    offerLead: string,
+    offerUspOneTitle: string,
+    offerUspOneText: string,
+    offerUspTwoTitle: string,
+    offerUspTwoText: string,
+    offerUspThreeTitle: string | null,
+    offerUspThreeText: string | null,
+    offerUspFourTitle: string | null,
+    offerUspFourText: string | null,
+    offerIllustrationImage: string,
+    offerOrder: number,
+  } >,
 };
 
 export interface OpenPositionPageQueryVariables {
