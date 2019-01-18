@@ -35,7 +35,7 @@ const mocks = [
 describe('App', () => {
   it('renders App', async () => {
     const { container } = render(
-      <MockedQuery location={{ pathname: '/' }} mocks={mocks}>
+      <MockedQuery mocks={mocks}>
         <App />
       </MockedQuery>
     )

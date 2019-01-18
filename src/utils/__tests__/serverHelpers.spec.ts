@@ -90,8 +90,9 @@ describe('#redirectHelper', () => {
     })
 
     it('should return / if the path cannot be found', () => {
+      // TODO: Implement a 404 page
       const redirectsTo = handlePaths('/sesame-street')
-      expect(redirectsTo).toEqual('/404')
+      expect(redirectsTo).toEqual('/')
     })
   })
 

@@ -81,7 +81,7 @@ export const handlePaths = (path: string) => {
     case '/ms':
       return '/'
     default:
-      return '/404'
+      return '/' // TODO: Add a 404 for pages not found
   }
 }
 
