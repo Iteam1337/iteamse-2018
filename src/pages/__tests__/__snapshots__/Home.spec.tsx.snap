@@ -125,5 +125,42 @@ exports[`components/Home renders Home 1`] = `
       </div>
     </div>
   </div>
+  <div
+    class="CTABlock__BlockWrapper-sc-1l8kj5y-0 eKscWD"
+  >
+    <div
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
+    >
+      <div
+        data-test="block-"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
+      >
+        <div
+          class="CTABlock__Content-sc-1l8kj5y-1 jRcxvl"
+        >
+          <img
+            src="test-file-stub"
+          />
+          <div>
+            <h3
+              class="H3-sc-1kpkcxu-0 hpTLhF"
+            >
+              Nyfiken på vad vi kan åstadkomma tillsammans?
+            </h3>
+            <div
+              class="CTABlock__Text-sc-1l8kj5y-2 kVZbwI"
+            >
+              Hör av dig till oss så pratar vi vidare.
+            </div>
+            <a
+              class="sc-htoDjs ekgEfr"
+            >
+              Kontakta oss
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 `;

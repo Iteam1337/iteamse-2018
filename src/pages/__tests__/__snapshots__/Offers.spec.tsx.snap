@@ -4,7 +4,7 @@ exports[`components/Offers renders Offers 1`] = `
 <div>
   <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-jKJlTe fkFCRv"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-eNQAEJ bTxpVw"
     >
       <div
         class="Header__Content-sc-1ofdv2r-0 limgqW"
@@ -13,49 +13,49 @@ exports[`components/Offers renders Offers 1`] = `
           class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
         >
           <a
-            class="sc-kpOJdX VavJn"
+            class="sc-dxgOiQ gHXSyX"
           >
             <img
               data-testid="logo"
               path="test-file-stub"
-              class="sc-dxgOiQ cwJjyL"
+              class="sc-ckVGcZ jFJVsA"
             />
           </a>
           <div
             class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
           >
             <a
-              class="sc-ckVGcZ bBadja"
+              class="sc-jKJlTe bDcZLP"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-ckVGcZ bBadja"
+              class="sc-jKJlTe bDcZLP"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-ckVGcZ bBadja"
+              class="sc-jKJlTe bDcZLP"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-ckVGcZ bBadja"
+              class="sc-jKJlTe bDcZLP"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-ckVGcZ bBadja"
+              class="sc-jKJlTe bDcZLP"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-ckVGcZ bBadja"
+              class="sc-jKJlTe bDcZLP"
               aria-current="false"
             >
               Om
@@ -69,7 +69,7 @@ exports[`components/Offers renders Offers 1`] = `
           class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="H1-sc-1k64xg2-0 sc-eNQAEJ cLzQCX"
+            class="H1-sc-1k64xg2-0 sc-hMqMXs hBIhHM"
           >
             <span>
               Våra erbjudanden
@@ -104,7 +104,7 @@ exports[`components/Offers renders Offers 1`] = `
         style="opacity: 1;"
       >
         <div
-          class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH sc-gqjmRU hZxruJ"
+          class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH sc-VigVT ccWPzg"
         >
           <div
             class="Offers__OfferIntroItem-sc-1rn487j-0 dGQKiC"
@@ -128,7 +128,7 @@ exports[`components/Offers renders Offers 1`] = `
               </div>
             </div>
             <a
-              class="sc-dnqmqq sc-jTzLTM RcFwr"
+              class="sc-iwsKbI sc-fjdhpX dqvRjY"
             >
               Läs mer om 
               kod
@@ -140,7 +140,7 @@ exports[`components/Offers renders Offers 1`] = `
   </div>
   <div
     id="kod"
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH sc-fjdhpX cyWpde"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH sc-jzJRlG fFfGPb"
   >
     <div
       class="PaddedRow-sc-13wt5gj-0 dtvxob"
@@ -150,7 +150,7 @@ exports[`components/Offers renders Offers 1`] = `
         style="opacity: 1;"
       >
         <h1
-          class="H1-sc-1k64xg2-0 sc-VigVT hEiHmH"
+          class="H1-sc-1k64xg2-0 sc-jTzLTM eHDLMv"
         >
           Kod
         </h1>
@@ -174,7 +174,7 @@ exports[`components/Offers renders Offers 1`] = `
         style="opacity: 1;"
       >
         <div
-          class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH sc-jzJRlG kekzwM"
+          class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH sc-cSHVUG goYrCB"
         >
           <div
             class="Offers__OfferUspItem-sc-1rn487j-2 stQCB"

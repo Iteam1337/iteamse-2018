@@ -4,6 +4,7 @@ import { Query } from 'react-apollo'
 import Helmet from 'react-helmet-async'
 import { StartQuery } from '../../typings/iteamse'
 import Block from '../components/Blocks/Block'
+import CTABlock from '../components/Blocks/CTABlock'
 import ImageBlock from '../components/Blocks/ImageBlock'
 import GridColumn from '../components/Grid/GridColumn'
 import Team from '../components/Team/Team'
@@ -56,6 +57,9 @@ const Home = () => {
                   {pageStart2019.ourMethodText}
                 </Block>
               </GridColumn>
+              <CTABlock title="Nyfiken på vad vi kan åstadkomma tillsammans?">
+                Hör av dig till oss så pratar vi vidare.
+              </CTABlock>
               <Team shortName={pageStart2019.team} />
             </>
           )
