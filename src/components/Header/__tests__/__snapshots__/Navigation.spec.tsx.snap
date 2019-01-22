@@ -78,6 +78,9 @@ Object {
       weOfferText
       ourMethodTitle
       ourMethodText
+      ctaButtonText
+      ctaTitle
+      ctaText
     }
   }
 ",

@@ -20,6 +20,9 @@ export const HOME_PAGE_QUERY = gql`
       weOfferText
       ourMethodTitle
       ourMethodText
+      ctaButtonText
+      ctaTitle
+      ctaText
     }
   }
 `
@@ -57,8 +60,11 @@ const Home = () => {
                   {pageStart2019.ourMethodText}
                 </Block>
               </GridColumn>
-              <CTABlock title="Nyfiken på vad vi kan åstadkomma tillsammans?">
-                Hör av dig till oss så pratar vi vidare.
+              <CTABlock
+                title={pageStart2019.ctaTitle}
+                buttonText={pageStart2019.ctaButtonText}
+              >
+                {pageStart2019.ctaText}
               </CTABlock>
               <Team shortName={pageStart2019.team} />
             </>

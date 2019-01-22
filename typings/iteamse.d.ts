@@ -118,6 +118,9 @@ export interface StartQuery {
     weOfferText: string,
     ourMethodTitle: string,
     ourMethodText: string,
+    ctaButtonText: string,
+    ctaTitle: string,
+    ctaText: string,
   },
 };
 

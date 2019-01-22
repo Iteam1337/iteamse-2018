@@ -9,6 +9,7 @@ import H3 from '../Typography/H3'
 interface CTABlockProps {
   'data-test'?: string
   title: string
+  buttonText: string
 }
 
 const BlockWrapper = styled.div`
@@ -47,6 +48,7 @@ const CTABlock: React.SFC<CTABlockProps> = ({
   children,
   'data-test': dataTest = '',
   title,
+  buttonText,
 }) => {
   return (
     <BlockWrapper>
@@ -57,7 +59,7 @@ const CTABlock: React.SFC<CTABlockProps> = ({
             <div>
               <H3>{title}</H3>
               <Text>{children}</Text>
-              <SecondaryButton to="/">Kontakta oss</SecondaryButton>
+              <SecondaryButton to="/">{buttonText}</SecondaryButton>
             </div>
           </Content>
         </PaddedRow>

@@ -1,5 +1,8 @@
 export const pageStart2019 = {
   __typename: 'PageStart2019',
+  ctaButtonText: 'Kontakta oss',
+  ctaText: 'Hör av dig till oss så pratar vi vidare.',
+  ctaTitle: 'Nyfiken på vad vi kan åstadkomma tillsammans?',
   ourMethodText:
     'Vi har varit verksamma som digital innovationsbyrå i över 20 år. Så vi vet att glädje,  teknisk spetskompetens och strategiska perspektiv är viktigt. Men det är när personer med olika kompetenser och varierande bakgrunder samarbetar i tvärfunktionella team som innovation verkligen sker. Det är därför som jobbar vi alltid i team tillsammans med våra kunder. ',
   ourMethodTitle: 'Vår metod',
