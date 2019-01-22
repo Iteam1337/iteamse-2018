@@ -10,52 +10,52 @@ exports[`components/Case renders Case 1`] = `
       class="CaseHeader__Content-i46oib-0 dgxEQK"
     >
       <div
-        class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
+        class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
       >
         <a
-          class="sc-jKJlTe bIUarX"
+          class="sc-kpOJdX VavJn"
         >
           <img
             data-testid="logo"
             path="test-file-stub"
-            class="sc-eNQAEJ gYmRno"
+            class="sc-dxgOiQ cwJjyL"
           />
         </a>
         <div
           class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
         >
           <a
-            class="sc-hMqMXs dApheh"
+            class="sc-ckVGcZ bBadja"
             aria-current="false"
           >
             Erbjudanden
           </a>
           <a
-            class="sc-hMqMXs dApheh active-nav"
+            class="sc-ckVGcZ bBadja active-nav"
             aria-current="true"
           >
             Våra case
           </a>
           <a
-            class="sc-hMqMXs dApheh"
+            class="sc-ckVGcZ bBadja"
             aria-current="false"
           >
             Metod
           </a>
           <a
-            class="sc-hMqMXs dApheh"
+            class="sc-ckVGcZ bBadja"
             aria-current="false"
           >
             Medarbetare
           </a>
           <a
-            class="sc-hMqMXs dApheh"
+            class="sc-ckVGcZ bBadja"
             aria-current="false"
           >
             Karriär
           </a>
           <a
-            class="sc-hMqMXs dApheh"
+            class="sc-ckVGcZ bBadja"
             aria-current="false"
           >
             Om

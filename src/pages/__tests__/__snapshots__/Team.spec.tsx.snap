@@ -4,58 +4,58 @@ exports[`components/Team renders Team 1`] = `
 <div>
   <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kEYyzF cSkcD"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-jKJlTe jSnooH"
     >
       <div
         class="Header__Content-sc-1ofdv2r-0 limgqW"
       >
         <div
-          class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
+          class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
         >
           <a
-            class="sc-jKJlTe bIUarX"
+            class="sc-kpOJdX VavJn"
           >
             <img
               data-testid="logo"
               path="test-file-stub"
-              class="sc-eNQAEJ gYmRno"
+              class="sc-dxgOiQ cwJjyL"
             />
           </a>
           <div
             class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
           >
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-ckVGcZ bBadja"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-ckVGcZ bBadja"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-ckVGcZ bBadja"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-ckVGcZ bBadja"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-ckVGcZ bBadja"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-ckVGcZ bBadja"
               aria-current="false"
             >
               Om
@@ -69,7 +69,7 @@ exports[`components/Team renders Team 1`] = `
           class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="H1-sc-1k64xg2-0 sc-kkGfuU dBAbrk"
+            class="H1-sc-1k64xg2-0 sc-eNQAEJ dtBZTs"
           >
             <span>
               Det är vi som är Iteam
@@ -213,58 +213,58 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
 <div>
   <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kEYyzF cSkcD"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-jKJlTe jSnooH"
     >
       <div
         class="Header__Content-sc-1ofdv2r-0 limgqW"
       >
         <div
-          class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
+          class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
         >
           <a
-            class="sc-jKJlTe bIUarX"
+            class="sc-kpOJdX VavJn"
           >
             <img
               data-testid="logo"
               path="test-file-stub"
-              class="sc-eNQAEJ gYmRno"
+              class="sc-dxgOiQ cwJjyL"
             />
           </a>
           <div
             class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
           >
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-ckVGcZ bBadja"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-ckVGcZ bBadja"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-ckVGcZ bBadja"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-ckVGcZ bBadja"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-ckVGcZ bBadja"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-ckVGcZ bBadja"
               aria-current="false"
             >
               Om
@@ -278,7 +278,7 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
           class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="H1-sc-1k64xg2-0 sc-kkGfuU dBAbrk"
+            class="H1-sc-1k64xg2-0 sc-eNQAEJ dtBZTs"
           >
             <span>
               Det är vi som är Iteam
@@ -422,58 +422,58 @@ exports[`components/Team should handle changing location using mouse 1`] = `
 <div>
   <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kEYyzF cSkcD"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-jKJlTe jSnooH"
     >
       <div
         class="Header__Content-sc-1ofdv2r-0 limgqW"
       >
         <div
-          class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
+          class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
         >
           <a
-            class="sc-jKJlTe bIUarX"
+            class="sc-kpOJdX VavJn"
           >
             <img
               data-testid="logo"
               path="test-file-stub"
-              class="sc-eNQAEJ gYmRno"
+              class="sc-dxgOiQ cwJjyL"
             />
           </a>
           <div
             class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
           >
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-ckVGcZ bBadja"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-ckVGcZ bBadja"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-ckVGcZ bBadja"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-ckVGcZ bBadja"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-ckVGcZ bBadja"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-ckVGcZ bBadja"
               aria-current="false"
             >
               Om
@@ -487,7 +487,7 @@ exports[`components/Team should handle changing location using mouse 1`] = `
           class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="H1-sc-1k64xg2-0 sc-kkGfuU dBAbrk"
+            class="H1-sc-1k64xg2-0 sc-eNQAEJ dtBZTs"
           >
             <span>
               Det är vi som är Iteam
@@ -631,58 +631,58 @@ exports[`components/Team should not change using keyboard if not enter or space 
 <div>
   <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kEYyzF cSkcD"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-jKJlTe jSnooH"
     >
       <div
         class="Header__Content-sc-1ofdv2r-0 limgqW"
       >
         <div
-          class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
+          class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
         >
           <a
-            class="sc-jKJlTe bIUarX"
+            class="sc-kpOJdX VavJn"
           >
             <img
               data-testid="logo"
               path="test-file-stub"
-              class="sc-eNQAEJ gYmRno"
+              class="sc-dxgOiQ cwJjyL"
             />
           </a>
           <div
             class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
           >
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-ckVGcZ bBadja"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-ckVGcZ bBadja"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-ckVGcZ bBadja"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-ckVGcZ bBadja"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-ckVGcZ bBadja"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-ckVGcZ bBadja"
               aria-current="false"
             >
               Om
@@ -696,7 +696,7 @@ exports[`components/Team should not change using keyboard if not enter or space 
           class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="H1-sc-1k64xg2-0 sc-kkGfuU dBAbrk"
+            class="H1-sc-1k64xg2-0 sc-eNQAEJ dtBZTs"
           >
             <span>
               Det är vi som är Iteam

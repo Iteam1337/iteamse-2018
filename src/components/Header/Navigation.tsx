@@ -27,7 +27,6 @@ const Wrap = styled.div`
     padding: 0;
   }
 
-  /* IE 11 */
   ${({ theme }) =>
     theme.browsers.ie10Or11(`
     display: flex;

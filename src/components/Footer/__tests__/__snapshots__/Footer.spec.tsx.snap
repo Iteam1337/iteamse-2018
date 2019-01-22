@@ -3,7 +3,7 @@
 exports[`components/Footer renders Footer 1`] = `
 <div>
   <div
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bdVaJa sc-hSdWYo dgzEKM"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bdVaJa sc-kEYyzF QoRYH"
   >
     <div
       class="Footer__FooterSections-sc-1xlg8it-0 fyRAzu"
@@ -41,7 +41,7 @@ exports[`components/Footer renders Footer 1`] = `
             class="Location__ContactMail-vwmy4q-3 jaXxzV"
           >
             <a
-              class="NativeLink-sc-1sy7t3m-0 sc-iAyFgw jHhUEQ"
+              class="NativeLink-sc-1sy7t3m-0 sc-hMqMXs iDCWvR"
             >
               johanna.grahn@iteam.se
             </a>
@@ -85,7 +85,7 @@ exports[`components/Footer renders Footer 1`] = `
             class="Location__ContactMail-vwmy4q-3 jaXxzV"
           >
             <a
-              class="NativeLink-sc-1sy7t3m-0 sc-iAyFgw jHhUEQ"
+              class="NativeLink-sc-1sy7t3m-0 sc-hMqMXs iDCWvR"
             >
               info@iteam.se
             </a>
@@ -117,7 +117,7 @@ exports[`components/Footer renders Footer 1`] = `
             />
             <a
               href="https://www.facebook.com/iteam1337/"
-              class="NativeLink-sc-1sy7t3m-0 sc-eHgmQL jHcoQv"
+              class="NativeLink-sc-1sy7t3m-0 sc-kkGfuU jGzTMo"
             >
               Facebook
             </a>
@@ -132,7 +132,7 @@ exports[`components/Footer renders Footer 1`] = `
             />
             <a
               href="https://instagram.com/iteam1337"
-              class="NativeLink-sc-1sy7t3m-0 sc-eHgmQL jHcoQv"
+              class="NativeLink-sc-1sy7t3m-0 sc-kkGfuU jGzTMo"
             >
               Instagram
             </a>
@@ -147,7 +147,7 @@ exports[`components/Footer renders Footer 1`] = `
             />
             <a
               href="https://www.linkedin.com/company/270569/"
-              class="NativeLink-sc-1sy7t3m-0 sc-eHgmQL jHcoQv"
+              class="NativeLink-sc-1sy7t3m-0 sc-kkGfuU jGzTMo"
             >
               LinkedIn
             </a>
@@ -162,7 +162,7 @@ exports[`components/Footer renders Footer 1`] = `
             />
             <a
               href="https://www.youtube.com/channel/UCU2TdLZ7p0jEuuGUxaod4lw"
-              class="NativeLink-sc-1sy7t3m-0 sc-eHgmQL jHcoQv"
+              class="NativeLink-sc-1sy7t3m-0 sc-kkGfuU jGzTMo"
             >
               YouTube
             </a>
@@ -177,7 +177,7 @@ exports[`components/Footer renders Footer 1`] = `
             />
             <a
               href="http://www.mynewsdesk.com/se/iteam"
-              class="NativeLink-sc-1sy7t3m-0 sc-eHgmQL jHcoQv"
+              class="NativeLink-sc-1sy7t3m-0 sc-kkGfuU jGzTMo"
             >
               MyNewsDesk
             </a>
