@@ -3,6 +3,31 @@
 exports[`components/Home renders Home 1`] = `
 <div>
   <div
+    class="AnimatedHeader__Wrapper-ricml3-0 jcIvDv"
+  >
+    <div
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
+    >
+      <div
+        class="AnimatedHeader__GridWrapper-ricml3-2 kSLJeh"
+      >
+        <div>
+          <h2>
+            Hej! Vi är Iteam, vi digitaliserar företag genom kod, kultur och strategi.
+          </h2>
+          <p>
+            Läs mer om våra erbjudanden eller se våra case
+          </p>
+        </div>
+        <div
+          class="AnimatedHeader__AnimationWrapper-ricml3-1 qtNzP"
+        >
+          lottie
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
     class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
   >
     <div

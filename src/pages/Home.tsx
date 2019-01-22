@@ -7,6 +7,7 @@ import Block from '../components/Blocks/Block'
 import CTABlock from '../components/Blocks/CTABlock'
 import ImageBlock from '../components/Blocks/ImageBlock'
 import GridColumn from '../components/Grid/GridColumn'
+import AnimatedHeader from '../components/Header/AnimatedHeader'
 import Team from '../components/Team/Team'
 import howWeWorkImage from './img/illustrations-group-3.svg'
 
@@ -48,6 +49,7 @@ const Home = () => {
 
           return (
             <>
+              <AnimatedHeader />
               <GridColumn>
                 <Block title={pageStart2019.weAreTitle}>
                   {pageStart2019.weAreText}

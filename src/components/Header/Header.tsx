@@ -17,7 +17,10 @@ interface WrapProps {
   image?: string | null
 }
 
-const Wrap = styled(GridColumnClean)<WrapProps>`
+const Wrap =
+  styled(GridColumnClean) <
+  WrapProps >
+  `
   background-image: ${({ image }) => `url(${image})`};
   background-size: cover;
   background-position: top;
@@ -28,7 +31,7 @@ const Wrap = styled(GridColumnClean)<WrapProps>`
   }
 `
 
-const Content = styled.div`
+export const Content = styled.div`
   background-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.3),
@@ -59,7 +62,10 @@ interface MessageProps {
   bgColor: string | null
 }
 
-const Message = styled(H1)<MessageProps>`
+const Message =
+  styled(H1) <
+  MessageProps >
+  `
   box-sizing: border-box;
   line-height: 1.5;
   margin: 0;
@@ -99,7 +105,9 @@ const Header: React.SFC<HeaderProps> = ({
           <MessageRow>
             {messageOne && (
               <Message bgColor={backgroundColor}>
-                <span>{messageOne} {messageTwo}</span>
+                <span>
+                  {messageOne} {messageTwo}
+                </span>
               </Message>
             )}
           </MessageRow>
