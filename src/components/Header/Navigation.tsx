@@ -11,7 +11,12 @@ import { TEAM_PAGE_QUERY } from '../../pages/Team'
 import { WORK_PAGE_QUERY } from '../../pages/Work'
 import styled, { createGlobalStyle, keyframes } from '../../theme'
 import logo from './img/iteam.svg'
+import logoBlack from './img/iteam_black.svg'
 
+interface NavigationProps {
+  isInverted?: boolean
+  noShadow?: boolean
+}
 interface NavigationState {
   indicatorLocation: number
   indicatorWidth: number
@@ -94,12 +99,16 @@ const Indicator =
   width: ${({ indicatorWidth }) => `${indicatorWidth}px`};
 `
 
-const StyledLink = styled(NavLink)`
-  color: #fff;
+const StyledLink =
+  styled(NavLink) <
+  NavigationProps >
+  `
+  color: ${({ isInverted }) => (isInverted ? '#000' : '#fff')};
   font-size: 18px;
   font-weight: 400;
   text-decoration: none;
-  text-shadow: 0px 1px 14px rgba(0, 0, 0, 0.5);
+  text-shadow: ${({ noShadow }) =>
+    noShadow ? 'none' : `0px 1px 14px rgba(0, 0, 0, 0.5)`};
   transition: color 200ms ease-in-out;
 
   &:not(:last-child) {
@@ -107,7 +116,7 @@ const StyledLink = styled(NavLink)`
   }
 
   &:hover {
-    color: #ccc;
+    color: ${({ isInverted }) => (isInverted ? '#444' : '#ccc')};
   }
 
   &:focus {
@@ -134,7 +143,7 @@ const GlobalStyle = createGlobalStyle`
 `
 
 export class Navigation extends React.Component<
-  WithApolloClient<{}>,
+  WithApolloClient<NavigationProps>,
   NavigationState
 > {
   state = {
@@ -190,19 +199,22 @@ export class Navigation extends React.Component<
   }
 
   render() {
+    const { isInverted = false, noShadow = false } = this.props
     const { indicatorLocation, indicatorWidth } = this.state
 
     return (
       <Wrap>
         <GlobalStyle />
         <LogoLink onMouseEnter={this.prefetchPage('home')} to="/">
-          <Logo data-testid="logo" path={logo} />
+          <Logo data-testid="logo" path={isInverted ? logoBlack : logo} />
         </LogoLink>
         <NavigationItems>
           <StyledLink
             activeClassName="active-nav"
             onMouseEnter={this.prefetchPage('erbjudanden')}
             to="/erbjudanden"
+            isInverted={isInverted}
+            noShadow={noShadow}
           >
             Erbjudanden
           </StyledLink>
@@ -210,6 +222,8 @@ export class Navigation extends React.Component<
             activeClassName="active-nav"
             onMouseEnter={this.prefetchPage('case')}
             to="/case"
+            isInverted={isInverted}
+            noShadow={noShadow}
           >
             Våra case
           </StyledLink>
@@ -217,6 +231,8 @@ export class Navigation extends React.Component<
             activeClassName="active-nav"
             onMouseEnter={this.prefetchPage('how-we-work')}
             to="/hur-vi-jobbar"
+            isInverted={isInverted}
+            noShadow={noShadow}
           >
             Metod
           </StyledLink>
@@ -224,6 +240,8 @@ export class Navigation extends React.Component<
             activeClassName="active-nav"
             onMouseEnter={this.prefetchPage('team')}
             to="/medarbetare"
+            isInverted={isInverted}
+            noShadow={noShadow}
           >
             Medarbetare
           </StyledLink>
@@ -231,6 +249,8 @@ export class Navigation extends React.Component<
             activeClassName="active-nav"
             onMouseEnter={this.prefetchPage('work')}
             to="/jobba-hos-oss"
+            isInverted={isInverted}
+            noShadow={noShadow}
           >
             Karriär
           </StyledLink>
@@ -238,6 +258,8 @@ export class Navigation extends React.Component<
             activeClassName="active-nav"
             onMouseEnter={this.prefetchPage('about')}
             to="/om-oss"
+            isInverted={isInverted}
+            noShadow={noShadow}
           >
             Om
           </StyledLink>
@@ -251,4 +273,4 @@ export class Navigation extends React.Component<
   }
 }
 
-export default withApollo<{}>(Navigation)
+export default withApollo<NavigationProps>(Navigation)
