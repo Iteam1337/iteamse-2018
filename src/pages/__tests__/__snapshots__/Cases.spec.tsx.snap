@@ -4,7 +4,7 @@ exports[`components/Cases renders Cases 1`] = `
 <div>
   <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-eNQAEJ blMETL"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kEYyzF jFBmQV"
     >
       <div
         class="Header__Content-sc-1ofdv2r-0 limgqW"
@@ -13,49 +13,49 @@ exports[`components/Cases renders Cases 1`] = `
           class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
         >
           <a
-            class="sc-dxgOiQ gHXSyX"
+            class="sc-jKJlTe bIUarX"
           >
             <img
               data-testid="logo"
               path="test-file-stub"
-              class="sc-ckVGcZ jFJVsA"
+              class="sc-eNQAEJ gYmRno"
             />
           </a>
           <div
             class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
           >
             <a
-              class="sc-jKJlTe bDcZLP"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-jKJlTe bDcZLP"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-jKJlTe bDcZLP"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-jKJlTe bDcZLP"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-jKJlTe bDcZLP"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-jKJlTe bDcZLP"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Om
@@ -69,7 +69,7 @@ exports[`components/Cases renders Cases 1`] = `
           class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="H1-sc-1k64xg2-0 sc-hMqMXs hBIhHM"
+            class="H1-sc-1k64xg2-0 sc-kkGfuU clBDyh"
           >
             <span>
               Några exempel på

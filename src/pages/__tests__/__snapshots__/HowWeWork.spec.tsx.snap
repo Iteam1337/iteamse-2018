@@ -4,7 +4,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
 <div>
   <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-eNQAEJ jNmvhU"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kEYyzF hnzAey"
     >
       <div
         class="Header__Content-sc-1ofdv2r-0 limgqW"
@@ -13,49 +13,49 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
           class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
         >
           <a
-            class="sc-dxgOiQ gHXSyX"
+            class="sc-jKJlTe bIUarX"
           >
             <img
               data-testid="logo"
               path="test-file-stub"
-              class="sc-ckVGcZ jFJVsA"
+              class="sc-eNQAEJ gYmRno"
             />
           </a>
           <div
             class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
           >
             <a
-              class="sc-jKJlTe bDcZLP"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-jKJlTe bDcZLP"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-jKJlTe bDcZLP"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-jKJlTe bDcZLP"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-jKJlTe bDcZLP"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-jKJlTe bDcZLP"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Om
@@ -69,7 +69,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
           class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="H1-sc-1k64xg2-0 sc-hMqMXs dWwZdu"
+            class="H1-sc-1k64xg2-0 sc-kkGfuU dBAbrk"
           >
             <span>
               Så här jobbar vi 
@@ -91,10 +91,10 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
         class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="Block__Content-unfn3n-0 fZqjlq"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="Block__TitleWrap-unfn3n-1 gqELJt"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
               class="H3-sc-1kpkcxu-0 hpTLhF"
@@ -103,7 +103,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
             </h3>
           </div>
           <div
-            class="Block__Text-unfn3n-3 kUuzcn"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -135,10 +135,10 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
         class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="Block__Content-unfn3n-0 fZqjlq"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="Block__TitleWrap-unfn3n-1 gqELJt"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
               class="H3-sc-1kpkcxu-0 hpTLhF"
@@ -147,7 +147,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
             </h3>
           </div>
           <div
-            class="Block__Text-unfn3n-3 kUuzcn"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -168,7 +168,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
     style="opacity: 1;"
   >
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH sc-gZMcBi jTtTmQ"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH sc-VigVT dGBwXY"
     >
       <div
         data-test="block-"
@@ -186,14 +186,14 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
               Just nu söker vi
             </h3>
             <ul
-              class="UnstyledList-r59lsu-0 sc-gqjmRU PEkkl"
+              class="UnstyledList-r59lsu-0 sc-jTzLTM dCTFLg"
             >
               <li
                 class="OpenPositionsBlock__OpenPosition-sc-4d7r1m-3 bFAhdk"
               >
                 <a
                   black="0"
-                  class="sc-dnqmqq bmCoIv"
+                  class="sc-gZMcBi foZFVe"
                 >
                   Junior UX Designer
                 </a>
@@ -249,10 +249,10 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
         class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="Block__Content-unfn3n-0 fZqjlq"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="Block__TitleWrap-unfn3n-1 gqELJt"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
               class="H3-sc-1kpkcxu-0 hpTLhF"
@@ -261,7 +261,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
             </h3>
           </div>
           <div
-            class="Block__Text-unfn3n-3 kUuzcn"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -293,10 +293,10 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
         class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="Block__Content-unfn3n-0 fZqjlq"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="Block__TitleWrap-unfn3n-1 gqELJt"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
               class="H3-sc-1kpkcxu-0 hpTLhF"
@@ -305,7 +305,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
             </h3>
           </div>
           <div
-            class="Block__Text-unfn3n-3 kUuzcn"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"

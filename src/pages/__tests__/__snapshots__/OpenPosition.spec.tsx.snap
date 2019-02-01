@@ -4,7 +4,7 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
 <div>
   <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-eNQAEJ enWaTh"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kEYyzF idvFSX"
     >
       <div
         class="Header__Content-sc-1ofdv2r-0 limgqW"
@@ -13,49 +13,49 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
           class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
         >
           <a
-            class="sc-dxgOiQ gHXSyX"
+            class="sc-jKJlTe bIUarX"
           >
             <img
               data-testid="logo"
               path="test-file-stub"
-              class="sc-ckVGcZ jFJVsA"
+              class="sc-eNQAEJ gYmRno"
             />
           </a>
           <div
             class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
           >
             <a
-              class="sc-jKJlTe bDcZLP"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-jKJlTe bDcZLP"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-jKJlTe bDcZLP"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-jKJlTe bDcZLP"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-jKJlTe bDcZLP active-nav"
+              class="sc-hMqMXs dApheh active-nav"
               aria-current="true"
             >
               Karriär
             </a>
             <a
-              class="sc-jKJlTe bDcZLP"
+              class="sc-hMqMXs dApheh"
               aria-current="false"
             >
               Om
@@ -69,7 +69,7 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
           class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="H1-sc-1k64xg2-0 sc-hMqMXs dWwZdu"
+            class="H1-sc-1k64xg2-0 sc-kkGfuU dBAbrk"
           >
             <span>
               UX Designer
@@ -107,10 +107,10 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
         class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="Block__Content-unfn3n-0 fZqjlq"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="Block__TitleWrap-unfn3n-1 gqELJt"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
               class="H3-sc-1kpkcxu-0 hpTLhF"
@@ -119,7 +119,7 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
             </h3>
           </div>
           <div
-            class="Block__Text-unfn3n-3 kUuzcn"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -146,10 +146,10 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
         class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="Block__Content-unfn3n-0 fZqjlq"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="Block__TitleWrap-unfn3n-1 gqELJt"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
               class="H3-sc-1kpkcxu-0 hpTLhF"
@@ -158,7 +158,7 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
             </h3>
           </div>
           <div
-            class="Block__Text-unfn3n-3 kUuzcn"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -205,10 +205,10 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
         class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="Block__Content-unfn3n-0 fZqjlq"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="Block__TitleWrap-unfn3n-1 gqELJt"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
               class="H3-sc-1kpkcxu-0 hpTLhF"
@@ -217,7 +217,7 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
             </h3>
           </div>
           <div
-            class="Block__Text-unfn3n-3 kUuzcn"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -253,10 +253,10 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
         class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="Block__Content-unfn3n-0 fZqjlq"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="Block__TitleWrap-unfn3n-1 gqELJt"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
               class="H3-sc-1kpkcxu-0 hpTLhF"
@@ -265,7 +265,7 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
             </h3>
           </div>
           <div
-            class="Block__Text-unfn3n-3 kUuzcn"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -295,10 +295,10 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
         class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="Block__Content-unfn3n-0 fZqjlq"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="Block__TitleWrap-unfn3n-1 gqELJt"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
               class="H3-sc-1kpkcxu-0 hpTLhF"
@@ -307,7 +307,7 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
             </h3>
           </div>
           <div
-            class="Block__Text-unfn3n-3 kUuzcn"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -354,10 +354,10 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
         class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="Block__Content-unfn3n-0 fZqjlq"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="Block__TitleWrap-unfn3n-1 gqELJt"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
               class="H3-sc-1kpkcxu-0 hpTLhF"
@@ -366,7 +366,7 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
             </h3>
           </div>
           <div
-            class="Block__Text-unfn3n-3 kUuzcn"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -411,10 +411,10 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
         class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="Block__Content-unfn3n-0 fZqjlq"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="Block__TitleWrap-unfn3n-1 gqELJt"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
               class="H3-sc-1kpkcxu-0 hpTLhF"
@@ -423,7 +423,7 @@ exports[`components/OpenPosition renders OpenPosition 1`] = `
             </h3>
           </div>
           <div
-            class="Block__Text-unfn3n-3 kUuzcn"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"

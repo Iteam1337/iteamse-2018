@@ -2,27 +2,105 @@
 
 exports[`components/Home renders Home 1`] = `
 <div>
-  <div
-    class="AnimatedHeader__Wrapper-ricml3-0 jcIvDv"
-  >
+  <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-dnqmqq eCKktF"
     >
       <div
-        class="AnimatedHeader__GridWrapper-ricml3-2 kSLJeh"
+        class="HomeHeader__HomeContent-sc-1c6wbiz-0 kOhiuk"
       >
-        <div>
-          <h2>
-            Hej! Vi är Iteam, vi digitaliserar företag genom kod, kultur och strategi.
-          </h2>
-          <p>
-            Läs mer om våra erbjudanden eller se våra case
-          </p>
+        <div
+          class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
+        >
+          <a
+            class="sc-jKJlTe bIUarX"
+          >
+            <img
+              data-testid="logo"
+              path="test-file-stub"
+              class="sc-eNQAEJ gYmRno"
+            />
+          </a>
+          <div
+            class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
+          >
+            <a
+              class="sc-hMqMXs hzRhYm"
+              aria-current="false"
+            >
+              Erbjudanden
+            </a>
+            <a
+              class="sc-hMqMXs hzRhYm"
+              aria-current="false"
+            >
+              Våra case
+            </a>
+            <a
+              class="sc-hMqMXs hzRhYm"
+              aria-current="false"
+            >
+              Metod
+            </a>
+            <a
+              class="sc-hMqMXs hzRhYm"
+              aria-current="false"
+            >
+              Medarbetare
+            </a>
+            <a
+              class="sc-hMqMXs hzRhYm"
+              aria-current="false"
+            >
+              Karriär
+            </a>
+            <a
+              class="sc-hMqMXs hzRhYm"
+              aria-current="false"
+            >
+              Om
+            </a>
+            <div
+              class="Navigation__Indicator-sc-1i56sr4-2 gdIgfK"
+            />
+          </div>
         </div>
         <div
-          class="AnimatedHeader__AnimationWrapper-ricml3-1 qtNzP"
+          class="HomeHeader__HomeMessageRow-sc-1c6wbiz-1 csnMzA"
         >
-          lottie
+          <div
+            class="HomeHeader__HomeIntroWrap-sc-1c6wbiz-4 jJugZb"
+          >
+            <h1
+              class="H1-sc-1k64xg2-0 sc-iwsKbI cxdzLw"
+            >
+              Hej! Vi är Iteam, en utvecklingbyrå som digitaliserar företag genom kod, kultur och strategi.
+            </h1>
+            <p
+              class="HomeHeader__HomeLead-sc-1c6wbiz-5 brLTwV"
+            >
+              Läs mer om våra 
+              <a
+                href="/erbjudanden"
+              >
+                erbjudanden
+              </a>
+              eller se våra 
+              <a
+                href="/case"
+              >
+                case
+              </a>
+            </p>
+          </div>
+          <div
+            class="HomeHeader__HomeIllustrationWrap-sc-1c6wbiz-2 eXPeoA"
+          >
+            <img
+              src="test-file-stub"
+              class="HomeHeader__HomeIllustrationImage-sc-1c6wbiz-3 bVxJSw"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -39,10 +117,10 @@ exports[`components/Home renders Home 1`] = `
         class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="Block__Content-unfn3n-0 fZqjlq"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="Block__TitleWrap-unfn3n-1 gqELJt"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
               class="H3-sc-1kpkcxu-0 hpTLhF"
@@ -51,7 +129,7 @@ exports[`components/Home renders Home 1`] = `
             </h3>
           </div>
           <div
-            class="Block__Text-unfn3n-3 kUuzcn"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -78,10 +156,10 @@ exports[`components/Home renders Home 1`] = `
         class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="Block__Content-unfn3n-0 fZqjlq"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="Block__TitleWrap-unfn3n-1 gqELJt"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
               class="H3-sc-1kpkcxu-0 hpTLhF"
@@ -90,7 +168,7 @@ exports[`components/Home renders Home 1`] = `
             </h3>
           </div>
           <div
-            class="Block__Text-unfn3n-3 kUuzcn"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -122,10 +200,10 @@ exports[`components/Home renders Home 1`] = `
         class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="Block__Content-unfn3n-0 fZqjlq"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="Block__TitleWrap-unfn3n-1 gqELJt"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
               class="H3-sc-1kpkcxu-0 hpTLhF"
@@ -134,7 +212,7 @@ exports[`components/Home renders Home 1`] = `
             </h3>
           </div>
           <div
-            class="Block__Text-unfn3n-3 kUuzcn"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
