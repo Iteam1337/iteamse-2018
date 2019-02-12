@@ -1,16 +1,19 @@
 import React from 'react'
 import LazyLoad from 'react-lazyload'
-// import Lottie from 'react-lottie'
+import * as Markdown from 'react-markdown'
 import styled from '../../theme'
 import { GridColumnClean } from '../Grid/GridColumn'
 import H1 from '../Typography/H1'
 import Navigation from './Navigation'
 
+import cloudImage from '../../images/cloud.svg'
 import greenBlob from '../../images/green-blob.svg'
-// import animationData from '../../images/iteam_i.json'
 import iteamI from './img/iteam_i.png'
 
-const HomeGridColumn = styled(GridColumnClean)``
+interface HomeHeaderProps {
+  title: string
+  lead: string
+}
 
 const HomeContent = styled.div`
   background-image: url('${greenBlob}');
@@ -42,34 +45,49 @@ export const HomeMessageRow = styled.div`
   }
 `
 
-const HomeIllustrationWrap = styled.div`
+const IllustrationWrap = styled.div`
   align-items: flex-start;
   display: flex;
   flex-basis: 40%;
   justify-content: center;
-  transform: scale(-1, 1);
-  /* transform: scale(-1.4, 1.4) translateY(-60px); for animation */
+  margin-top: -60px;
+  transform: scale(-0.6, 0.6);
 
   @media (min-width: 1025px) {
-    /* transform: scale(-2, 2); for animation */
-    transform: scale(-1, 1);
     align-items: center;
     justify-content: flex-end;
-  }
-`
-
-const HomeIllustrationImage = styled.img`
-  height: auto;
-  margin-bottom: 50px;
-  width: 60%;
-
-  @media (min-width: 1025px) {
     margin: 0;
-    width: 100%;
+    transform: scale(-1, 1);
   }
 `
 
-const HomeIntroWrap = styled.div`
+const Cloud = styled.span`
+  background-image: url(${cloudImage});
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 76px;
+  position: absolute;
+  right: -80px;
+  top: 20px;
+  transform: scale(-1, 1);
+  width: 136px;
+`
+
+const SmallCloud = styled(Cloud)`
+  left: 40px;
+  top: -60px;
+  transform: scale(1, 1);
+  height: 53px;
+  width: 96px;
+`
+
+const IllustrationImage = styled.img`
+  height: auto;
+  margin: 0;
+  width: 100%;
+`
+
+const IntroWrap = styled.div`
   flex-basis: 60%;
   z-index: 1;
 `
@@ -97,37 +115,34 @@ const HomeLead = styled.p`
   }
 
   a {
-    text-decoration: none;
-    color: inherit;
     border-bottom: 1px solid #000;
+    color: inherit;
+    text-decoration: none;
   }
 `
 
-const HomeHeader: React.SFC = () => {
+const HomeHeader: React.SFC<HomeHeaderProps> = ({ title, lead }) => {
   return (
     <>
       <LazyLoad height={700} once>
-        <HomeGridColumn>
+        <GridColumnClean>
           <HomeContent>
             <Navigation isInverted noShadow />
             <HomeMessageRow>
-              <HomeIntroWrap>
-                <HomeH1>
-                  Hej! Vi är Iteam, en utvecklingbyrå som digitaliserar företag
-                  genom kod, kultur och strategi.
-                </HomeH1>
+              <IntroWrap>
+                <HomeH1>{title}</HomeH1>
                 <HomeLead>
-                  Läs mer om våra <a href="/erbjudanden">erbjudanden</a> eller
-                  se våra <a href="/case">case</a>
+                  <Markdown source={lead} />
                 </HomeLead>
-              </HomeIntroWrap>
-              <HomeIllustrationWrap>
-                {/* <Lottie options={{ animationData }} /> */}
-                <HomeIllustrationImage src={iteamI} />
-              </HomeIllustrationWrap>
+              </IntroWrap>
+              <IllustrationWrap>
+                <Cloud />
+                <SmallCloud />
+                <IllustrationImage src={iteamI} />
+              </IllustrationWrap>
             </HomeMessageRow>
           </HomeContent>
-        </HomeGridColumn>
+        </GridColumnClean>
       </LazyLoad>
     </>
   )

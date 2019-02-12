@@ -15,6 +15,8 @@ export const HOME_PAGE_QUERY = gql`
   query Start {
     pageStart2019 {
       team
+      headerText1
+      headerLead
       weAreTitle
       weAreText
       weOfferTitle
@@ -49,7 +51,10 @@ const Home = () => {
 
           return (
             <>
-              <HomeHeader />
+              <HomeHeader
+                title={pageStart2019.headerText1}
+                lead={pageStart2019.headerLead}
+              />
               <GridColumn>
                 <Block title={pageStart2019.weAreTitle}>
                   {pageStart2019.weAreText}

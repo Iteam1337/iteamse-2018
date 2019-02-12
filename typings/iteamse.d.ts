@@ -112,6 +112,8 @@ export interface StartQuery {
   pageStart2019:  {
     __typename: "PageStart2019",
     team: Array< string > | null,
+    headerText1: string,
+    headerLead: string,
     weAreTitle: string,
     weAreText: string,
     weOfferTitle: string,
