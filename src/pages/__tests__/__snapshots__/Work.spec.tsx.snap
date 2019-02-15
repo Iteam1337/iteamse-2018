@@ -22,46 +22,46 @@ exports[`components/Work renders Work 1`] = `
             />
           </a>
           <div
-            class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
+            class="Navigation__NavigationItems-sc-1i56sr4-2 gfiCRw"
           >
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="Navigation__Indicator-sc-1i56sr4-2 gdIgfK"
+              class="Navigation__Indicator-sc-1i56sr4-1 Vplmv"
             />
           </div>
         </div>

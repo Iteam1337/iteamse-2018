@@ -72,6 +72,8 @@ Object {
   query Start {
     pageStart2019 {
       team
+      headerText1
+      headerLead
       weAreTitle
       weAreText
       weOfferTitle

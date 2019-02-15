@@ -4,7 +4,7 @@ exports[`components/Home renders Home 1`] = `
 <div>
   <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-dnqmqq eCKktF"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 bNQCWe"
     >
       <div
         class="HomeHeader__HomeContent-sc-1c6wbiz-0 kOhiuk"
@@ -22,46 +22,46 @@ exports[`components/Home renders Home 1`] = `
             />
           </a>
           <div
-            class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
+            class="Navigation__NavigationItems-sc-1i56sr4-2 konLWw"
           >
             <a
-              class="sc-hMqMXs hzRhYm"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-hMqMXs hzRhYm"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-hMqMXs hzRhYm"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-hMqMXs hzRhYm"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-hMqMXs hzRhYm"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-hMqMXs hzRhYm"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="Navigation__Indicator-sc-1i56sr4-2 gdIgfK"
+              class="Navigation__Indicator-sc-1i56sr4-1 Vplmv"
             />
           </div>
         </div>
@@ -69,36 +69,48 @@ exports[`components/Home renders Home 1`] = `
           class="HomeHeader__HomeMessageRow-sc-1c6wbiz-1 csnMzA"
         >
           <div
-            class="HomeHeader__HomeIntroWrap-sc-1c6wbiz-4 jJugZb"
+            class="HomeHeader__IntroWrap-sc-1c6wbiz-5 khmVhO"
           >
             <h1
               class="H1-sc-1k64xg2-0 sc-iwsKbI cxdzLw"
             >
               Hej! Vi är Iteam, en utvecklingbyrå som digitaliserar företag genom kod, kultur och strategi.
             </h1>
-            <p
-              class="HomeHeader__HomeLead-sc-1c6wbiz-5 brLTwV"
+            <div
+              class="HomeHeader__HomeLead-sc-1c6wbiz-6 cNjEjy"
             >
-              Läs mer om våra 
-              <a
-                href="/erbjudanden"
-              >
-                erbjudanden
-              </a>
-              eller se våra 
-              <a
-                href="/case"
-              >
-                case
-              </a>
-            </p>
+              <div>
+                <p>
+                  Läs mer om våra 
+                  <a
+                    title="Erbjudanden"
+                    href="/erbjudanden"
+                  >
+                    erbjudanden
+                  </a>
+                  eller se våra 
+                  <a
+                    title="Våra case"
+                    href="/case"
+                  >
+                    case
+                  </a>
+                </p>
+              </div>
+            </div>
           </div>
           <div
-            class="HomeHeader__HomeIllustrationWrap-sc-1c6wbiz-2 eXPeoA"
+            class="HomeHeader__IllustrationWrap-sc-1c6wbiz-2 bmeExz"
           >
+            <span
+              class="HomeHeader__Cloud-sc-1c6wbiz-3 hKpUNC"
+            />
+            <span
+              class="HomeHeader__Cloud-sc-1c6wbiz-3 sc-dnqmqq cVkLAy"
+            />
             <img
               src="test-file-stub"
-              class="HomeHeader__HomeIllustrationImage-sc-1c6wbiz-3 bVxJSw"
+              class="HomeHeader__IllustrationImage-sc-1c6wbiz-4 crhUJf"
             />
           </div>
         </div>

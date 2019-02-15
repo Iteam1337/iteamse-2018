@@ -57,18 +57,6 @@ const Logo = styled(SVG)`
   }
 `
 
-const NavigationItems = styled.div`
-  display: none;
-  justify-self: flex-end;
-  padding-bottom: 40px;
-  padding-top: 40px;
-  position: relative;
-
-  @media (min-width: 1025px) {
-    display: block;
-  }
-`
-
 const slideDown = keyframes`
   from {
     opacity: 0;
@@ -99,28 +87,43 @@ const Indicator =
   width: ${({ indicatorWidth }) => `${indicatorWidth}px`};
 `
 
-const StyledLink =
-  styled(NavLink) <
-  NavigationProps >
-  `
-  color: ${({ isInverted }) => (isInverted ? '#000' : '#fff')};
+const StyledLink = styled(NavLink)`
   font-size: 18px;
   font-weight: 400;
   text-decoration: none;
-  text-shadow: ${({ noShadow }) =>
-    noShadow ? 'none' : `0px 1px 14px rgba(0, 0, 0, 0.5)`};
   transition: color 200ms ease-in-out;
 
   &:not(:last-child) {
     margin-right: 30px;
   }
 
-  &:hover {
-    color: ${({ isInverted }) => (isInverted ? '#444' : '#ccc')};
-  }
-
   &:focus {
     outline: none;
+  }
+`
+
+const NavigationItems =
+  styled.div <
+  NavigationProps >
+  `
+  display: none;
+  justify-self: flex-end;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  position: relative;
+
+  @media (min-width: 1025px) {
+    display: block;
+  }
+
+  ${StyledLink} {
+    color: ${({ isInverted }) => (isInverted ? '#000' : '#fff')};
+    text-shadow: ${({ noShadow }) =>
+      noShadow ? 'none' : `0px 1px 14px rgba(0, 0, 0, 0.5)`};
+
+    &:hover {
+      color: ${({ isInverted }) => (isInverted ? '#444' : '#ccc')};
+    }
   }
 `
 
@@ -208,13 +211,11 @@ export class Navigation extends React.Component<
         <LogoLink onMouseEnter={this.prefetchPage('home')} to="/">
           <Logo data-testid="logo" path={isInverted ? logoBlack : logo} />
         </LogoLink>
-        <NavigationItems>
+        <NavigationItems isInverted={isInverted} noShadow={noShadow}>
           <StyledLink
             activeClassName="active-nav"
             onMouseEnter={this.prefetchPage('erbjudanden')}
             to="/erbjudanden"
-            isInverted={isInverted}
-            noShadow={noShadow}
           >
             Erbjudanden
           </StyledLink>
@@ -222,8 +223,6 @@ export class Navigation extends React.Component<
             activeClassName="active-nav"
             onMouseEnter={this.prefetchPage('case')}
             to="/case"
-            isInverted={isInverted}
-            noShadow={noShadow}
           >
             Våra case
           </StyledLink>
@@ -231,8 +230,6 @@ export class Navigation extends React.Component<
             activeClassName="active-nav"
             onMouseEnter={this.prefetchPage('how-we-work')}
             to="/hur-vi-jobbar"
-            isInverted={isInverted}
-            noShadow={noShadow}
           >
             Metod
           </StyledLink>
@@ -240,8 +237,6 @@ export class Navigation extends React.Component<
             activeClassName="active-nav"
             onMouseEnter={this.prefetchPage('team')}
             to="/medarbetare"
-            isInverted={isInverted}
-            noShadow={noShadow}
           >
             Medarbetare
           </StyledLink>
@@ -249,8 +244,6 @@ export class Navigation extends React.Component<
             activeClassName="active-nav"
             onMouseEnter={this.prefetchPage('work')}
             to="/jobba-hos-oss"
-            isInverted={isInverted}
-            noShadow={noShadow}
           >
             Karriär
           </StyledLink>
@@ -258,8 +251,6 @@ export class Navigation extends React.Component<
             activeClassName="active-nav"
             onMouseEnter={this.prefetchPage('about')}
             to="/om-oss"
-            isInverted={isInverted}
-            noShadow={noShadow}
           >
             Om
           </StyledLink>
