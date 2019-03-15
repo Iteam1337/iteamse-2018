@@ -2,11 +2,9 @@ import gql from 'graphql-tag'
 import React from 'react'
 import { Query } from 'react-apollo'
 import { FooterQuery } from '../../../typings/iteamse'
-import { OPERATIONS_PAGE_QUERY } from '../../pages/Ops'
 import styled from '../../theme'
 import GridColumn from '../Grid/GridColumn'
 import NativeLink from '../Link/NativeLink'
-import StyledPrefetchLink from '../Link/StyledPrefetchLink'
 import UnstyledList from '../List/UnstyledList'
 import iconFb from './img/icon_fb.svg'
 import iconInstagram from './img/icon_instagram.svg'
@@ -85,15 +83,6 @@ const NativeLinkUnderlined = styled(NativeLink)`
   text-decoration: none;
 `
 
-const SupportSection = styled.div`
-  /* IE 11 */
-  ${({ theme }) =>
-    theme.browsers.ie10Or11(`
-    display: flex;
-    width: 100%;
-  `)};
-`
-
 class FooterQueryComponent extends Query<FooterQuery> {}
 
 const Footer = () => {
@@ -149,15 +138,6 @@ const Footer = () => {
                 </UnstyledList>
               </SocialMedia>
             </FooterSections>
-            <SupportSection>
-              <StyledPrefetchLink
-                black={true}
-                query={OPERATIONS_PAGE_QUERY}
-                to="ops"
-              >
-                Behöver du supporthjälp?
-              </StyledPrefetchLink>
-            </SupportSection>
           </Wrap>
         )
       }}

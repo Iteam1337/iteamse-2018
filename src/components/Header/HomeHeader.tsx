@@ -24,6 +24,11 @@ const HomeContent = styled.div`
   grid-template-columns: 20px 1fr 20px;
   grid-template-rows: auto 1fr;
 
+  @media (min-width: 481px) {
+    background-position: calc(50% - -220px) -120px;
+    background-size: 640px;
+  }
+
   @media (min-width: 1025px) {
     background-position: calc(50% - -220px) -170px;
     background-size: 960px;
@@ -40,6 +45,11 @@ export const HomeMessageRow = styled.div`
 
   @media (min-width: 481px) {
     flex-direction: row;
+    padding: 40px 0;
+  }
+
+  @media (min-width: 1025px) {
+    flex-direction: row;
     padding: 80px 0;
   }
 `
@@ -50,30 +60,42 @@ const IllustrationWrap = styled.div`
   flex-basis: 40%;
   justify-content: center;
   margin-top: -60px;
-  transform: scale(0.6, 0.6);
+  transform: scale(-0.6, 0.6);
 
   @media (min-width: 1025px) {
     align-items: center;
     justify-content: flex-end;
     margin: 0;
-    transform: scale(1, 1);
+    transform: scale(-1, 1);
   }
 `
 
 const float = keyframes`
   0% {
-    transform: translatey(0px);
+    transform: translateY(0px);
   }
   50% {
-    transform: translatey(-20px);
+    transform: translateY(-20px);
   }
   100% {
-    transform: translatey(0px);
+    transform: translateY(0px);
+  }
+`
+
+const floatInverse = keyframes`
+  0% {
+    transform: translateY(0px) scale(-1, 1);
+  }
+  50% {
+    transform: translateY(-20px) scale(-1, 1);
+  }
+  100% {
+    transform: translateY(0px) scale(-1, 1);
   }
 `
 
 const Cloud = styled.span`
-  animation: ${float} 6s ease-in-out infinite;
+  animation: ${floatInverse} 6s ease-in-out infinite;
   background-image: url(${cloudImage});
   background-repeat: no-repeat;
   background-size: contain;
@@ -81,15 +103,19 @@ const Cloud = styled.span`
   position: absolute;
   right: -80px;
   top: 20px;
-  transform: scale(-1, 1);
   width: 136px;
+  display: none;
+
+  @media (min-width: 1025px) {
+    display: inline-block;
+  }
 `
 
 const SmallCloud = styled(Cloud)`
+  animation: ${float} 6s ease-in-out infinite;
   animation-direction: reverse;
   left: 40px;
   top: -60px;
-  transform: scale(1, 1);
   height: 53px;
   width: 96px;
 `
@@ -98,6 +124,7 @@ const IllustrationImage = styled.img`
   height: auto;
   margin: 0;
   width: 100%;
+  transform: scale(-1, 1);
 `
 
 const IntroWrap = styled.div`

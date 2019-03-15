@@ -59,7 +59,9 @@ const CTABlock: React.SFC<CTABlockProps> = ({
             <div>
               <H3>{title}</H3>
               <Text>{children}</Text>
-              <SecondaryButton to="/">{buttonText}</SecondaryButton>
+              <SecondaryButton as="a" href="mailto:info@iteam.se">
+                {buttonText}
+              </SecondaryButton>
             </div>
           </Content>
         </PaddedRow>

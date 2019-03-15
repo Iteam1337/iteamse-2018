@@ -7,7 +7,7 @@ exports[`components/Home renders Home 1`] = `
       class="GridColumn__GridColumnClean-sc-1xz61ww-0 bNQCWe"
     >
       <div
-        class="HomeHeader__HomeContent-sc-1c6wbiz-0 kOhiuk"
+        class="HomeHeader__HomeContent-sc-1c6wbiz-0 eXNtNJ"
       >
         <div
           class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
@@ -66,7 +66,7 @@ exports[`components/Home renders Home 1`] = `
           </div>
         </div>
         <div
-          class="HomeHeader__HomeMessageRow-sc-1c6wbiz-1 csnMzA"
+          class="HomeHeader__HomeMessageRow-sc-1c6wbiz-1 hKqmyE"
         >
           <div
             class="HomeHeader__IntroWrap-sc-1c6wbiz-5 khmVhO"
@@ -100,17 +100,17 @@ exports[`components/Home renders Home 1`] = `
             </div>
           </div>
           <div
-            class="HomeHeader__IllustrationWrap-sc-1c6wbiz-2 bmeExz"
+            class="HomeHeader__IllustrationWrap-sc-1c6wbiz-2 cDaOZS"
           >
             <span
-              class="HomeHeader__Cloud-sc-1c6wbiz-3 hKpUNC"
+              class="HomeHeader__Cloud-sc-1c6wbiz-3 jFyEcR"
             />
             <span
-              class="HomeHeader__Cloud-sc-1c6wbiz-3 sc-dnqmqq cVkLAy"
+              class="HomeHeader__Cloud-sc-1c6wbiz-3 sc-dnqmqq jFHNyJ"
             />
             <img
               src="test-file-stub"
-              class="HomeHeader__IllustrationImage-sc-1c6wbiz-4 crhUJf"
+              class="HomeHeader__IllustrationImage-sc-1c6wbiz-4 eSkgZW"
             />
           </div>
         </div>
@@ -268,6 +268,7 @@ exports[`components/Home renders Home 1`] = `
               Hör av dig till oss så pratar vi vidare.
             </div>
             <a
+              href="mailto:info@iteam.se"
               class="sc-htoDjs ekgEfr"
             >
               Kontakta oss
