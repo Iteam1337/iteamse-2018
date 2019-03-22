@@ -69,32 +69,20 @@ exports[`components/Navigation handle hover of logo 1`] = `
 Object {
   "query": Array [
     "
-  query HomePage {
-    pageStart {
-      headerImage
-      headerText1
-      headerText2
-      headerTextBgColor
-      codeMobileImage
-      codeText
-      codeTitle
-      codeLogo
-      codeSlug
-      codeLinkText
-      contactTitle
-      cultureMobileImage
-      cultureText
-      cultureTitle
-      cultureLogo
-      cultureSlug
-      cultureLinkText
-      strategyMobileImage
-      strategyText
-      strategyTitle
-      strategyLogo
-      strategySlug
-      strategyLinkText
+  query Start {
+    pageStart2019 {
       team
+      headerText1
+      headerLead
+      weAreTitle
+      weAreText
+      weOfferTitle
+      weOfferText
+      ourMethodTitle
+      ourMethodText
+      ctaButtonText
+      ctaTitle
+      ctaText
     }
   }
 ",

@@ -108,33 +108,21 @@ export interface CasesPageQuery {
   } | null >,
 };
 
-export interface HomePageQuery {
-  pageStart:  {
-    __typename: "PageStart",
-    headerImage: string | null,
-    headerText1: string | null,
-    headerText2: string | null,
-    headerTextBgColor: string | null,
-    codeMobileImage: string | null,
-    codeText: string,
-    codeTitle: string,
-    codeLogo: string | null,
-    codeSlug: string,
-    codeLinkText: string,
-    contactTitle: string,
-    cultureMobileImage: string | null,
-    cultureText: string,
-    cultureTitle: string,
-    cultureLogo: string | null,
-    cultureSlug: string,
-    cultureLinkText: string,
-    strategyMobileImage: string | null,
-    strategyText: string,
-    strategyTitle: string,
-    strategyLogo: string | null,
-    strategySlug: string,
-    strategyLinkText: string,
+export interface StartQuery {
+  pageStart2019:  {
+    __typename: "PageStart2019",
     team: Array< string > | null,
+    headerText1: string,
+    headerLead: string,
+    weAreTitle: string,
+    weAreText: string,
+    weOfferTitle: string,
+    weOfferText: string,
+    ourMethodTitle: string,
+    ourMethodText: string,
+    ctaButtonText: string,
+    ctaTitle: string,
+    ctaText: string,
   },
 };
 

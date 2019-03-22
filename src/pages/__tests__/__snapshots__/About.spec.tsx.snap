@@ -10,7 +10,7 @@ exports[`components/About renders About 1`] = `
         class="Header__Content-sc-1ofdv2r-0 limgqW"
       >
         <div
-          class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
+          class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
         >
           <a
             class="sc-jKJlTe bIUarX"
@@ -22,46 +22,46 @@ exports[`components/About renders About 1`] = `
             />
           </a>
           <div
-            class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
+            class="Navigation__NavigationItems-sc-1i56sr4-2 gfiCRw"
           >
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="Navigation__Indicator-sc-1i56sr4-2 gdIgfK"
+              class="Navigation__Indicator-sc-1i56sr4-1 Vplmv"
             />
           </div>
         </div>
@@ -92,10 +92,10 @@ exports[`components/About renders About 1`] = `
         class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="Block__Content-unfn3n-0 fZqjlq"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="Block__TitleWrap-unfn3n-1 gqELJt"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
               class="H3-sc-1kpkcxu-0 hpTLhF"
@@ -104,7 +104,7 @@ exports[`components/About renders About 1`] = `
             </h3>
           </div>
           <div
-            class="Block__Text-unfn3n-3 kUuzcn"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -128,10 +128,10 @@ exports[`components/About renders About 1`] = `
         class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="Block__Content-unfn3n-0 fZqjlq"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="Block__TitleWrap-unfn3n-1 gqELJt"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
               class="H3-sc-1kpkcxu-0 hpTLhF"
@@ -140,7 +140,7 @@ exports[`components/About renders About 1`] = `
             </h3>
           </div>
           <div
-            class="Block__Text-unfn3n-3 kUuzcn"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -172,10 +172,10 @@ exports[`components/About renders About 1`] = `
         class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="Block__Content-unfn3n-0 fZqjlq"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="Block__TitleWrap-unfn3n-1 gqELJt"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
               class="H3-sc-1kpkcxu-0 hpTLhF"
@@ -184,7 +184,7 @@ exports[`components/About renders About 1`] = `
             </h3>
           </div>
           <div
-            class="Block__Text-unfn3n-3 kUuzcn"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
               class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -212,10 +212,10 @@ exports[`components/About renders About 1`] = `
         class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="Block__Content-unfn3n-0 fZqjlq"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="Block__TitleWrap-unfn3n-1 gqELJt"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
               class="H3-sc-1kpkcxu-0 hpTLhF"
@@ -224,7 +224,7 @@ exports[`components/About renders About 1`] = `
             </h3>
           </div>
           <div
-            class="Block__Text-unfn3n-3 kUuzcn"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             Löksås ipsum plats upprätthållande från sorgliga se, denna precis från brunsås strand år dock, stig färdväg genom äng varit. Erfarenheter regn groda tidigare trevnadens hwila ännu dimma kunde mjuka sällan, oss genom tidigare annat sista stora tid plats inom.
             <div

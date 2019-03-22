@@ -13,7 +13,7 @@ exports[`components/Team renders TeamMember 1`] = `
           class="Header__Content-sc-1ofdv2r-0 limgqW"
         >
           <div
-            class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
+            class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
           >
             <a
               class="sc-jKJlTe bIUarX"
@@ -25,46 +25,46 @@ exports[`components/Team renders TeamMember 1`] = `
               />
             </a>
             <div
-              class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
+              class="Navigation__NavigationItems-sc-1i56sr4-2 gfiCRw"
             >
               <a
-                class="sc-hMqMXs dApheh"
+                class="sc-hMqMXs fILlfv"
                 aria-current="false"
               >
                 Erbjudanden
               </a>
               <a
-                class="sc-hMqMXs dApheh"
+                class="sc-hMqMXs fILlfv"
                 aria-current="false"
               >
                 Våra case
               </a>
               <a
-                class="sc-hMqMXs dApheh"
+                class="sc-hMqMXs fILlfv"
                 aria-current="false"
               >
                 Metod
               </a>
               <a
-                class="sc-hMqMXs dApheh active-nav"
+                class="sc-hMqMXs fILlfv active-nav"
                 aria-current="true"
               >
                 Medarbetare
               </a>
               <a
-                class="sc-hMqMXs dApheh"
+                class="sc-hMqMXs fILlfv"
                 aria-current="false"
               >
                 Karriär
               </a>
               <a
-                class="sc-hMqMXs dApheh"
+                class="sc-hMqMXs fILlfv"
                 aria-current="false"
               >
                 Om
               </a>
               <div
-                class="Navigation__Indicator-sc-1i56sr4-2 gdIgfK"
+                class="Navigation__Indicator-sc-1i56sr4-1 Vplmv"
               />
             </div>
           </div>
@@ -110,10 +110,10 @@ exports[`components/Team renders TeamMember 1`] = `
           class="PaddedRow-sc-13wt5gj-0 dtvxob"
         >
           <div
-            class="Block__Content-unfn3n-0 fZqjlq"
+            class="Block__Content-unfn3n-0 cIXgTw"
           >
             <div
-              class="Block__TitleWrap-unfn3n-1 gqELJt"
+              class="Block__TitleWrap-unfn3n-1 jxTEsm"
             >
               <h3
                 class="H3-sc-1kpkcxu-0 hpTLhF"
@@ -122,7 +122,7 @@ exports[`components/Team renders TeamMember 1`] = `
               </h3>
             </div>
             <div
-              class="Block__Text-unfn3n-3 kUuzcn"
+              class="Block__Text-unfn3n-3 hyeDUp"
             >
               <ul
                 class="UnstyledList-r59lsu-0 dCBFDj"
@@ -149,10 +149,10 @@ exports[`components/Team renders TeamMember 1`] = `
           class="PaddedRow-sc-13wt5gj-0 dtvxob"
         >
           <div
-            class="Block__Content-unfn3n-0 fZqjlq"
+            class="Block__Content-unfn3n-0 cIXgTw"
           >
             <div
-              class="Block__TitleWrap-unfn3n-1 gqELJt"
+              class="Block__TitleWrap-unfn3n-1 jxTEsm"
             >
               <h3
                 class="H3-sc-1kpkcxu-0 hpTLhF"
@@ -161,7 +161,7 @@ exports[`components/Team renders TeamMember 1`] = `
               </h3>
             </div>
             <div
-              class="Block__Text-unfn3n-3 kUuzcn"
+              class="Block__Text-unfn3n-3 hyeDUp"
             >
               <div
                 class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -185,10 +185,10 @@ exports[`components/Team renders TeamMember 1`] = `
           class="PaddedRow-sc-13wt5gj-0 dtvxob"
         >
           <div
-            class="Block__Content-unfn3n-0 fZqjlq"
+            class="Block__Content-unfn3n-0 cIXgTw"
           >
             <div
-              class="Block__TitleWrap-unfn3n-1 gqELJt"
+              class="Block__TitleWrap-unfn3n-1 jxTEsm"
             >
               <h3
                 class="H3-sc-1kpkcxu-0 hpTLhF"
@@ -197,7 +197,7 @@ exports[`components/Team renders TeamMember 1`] = `
               </h3>
             </div>
             <div
-              class="Block__Text-unfn3n-3 kUuzcn"
+              class="Block__Text-unfn3n-3 hyeDUp"
             >
               <div
                 class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
@@ -221,10 +221,10 @@ exports[`components/Team renders TeamMember 1`] = `
           class="PaddedRow-sc-13wt5gj-0 dtvxob"
         >
           <div
-            class="Block__Content-unfn3n-0 fZqjlq"
+            class="Block__Content-unfn3n-0 cIXgTw"
           >
             <div
-              class="Block__TitleWrap-unfn3n-1 gqELJt"
+              class="Block__TitleWrap-unfn3n-1 jxTEsm"
             >
               <h3
                 class="H3-sc-1kpkcxu-0 hpTLhF"
@@ -233,7 +233,7 @@ exports[`components/Team renders TeamMember 1`] = `
               </h3>
             </div>
             <div
-              class="Block__Text-unfn3n-3 kUuzcn"
+              class="Block__Text-unfn3n-3 hyeDUp"
             >
               <div
                 class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"

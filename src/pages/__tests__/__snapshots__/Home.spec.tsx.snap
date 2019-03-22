@@ -4,13 +4,13 @@ exports[`components/Home renders Home 1`] = `
 <div>
   <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kEYyzF dzedHC"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 bNQCWe"
     >
       <div
-        class="Header__Content-sc-1ofdv2r-0 limgqW"
+        class="HomeHeader__HomeContent-sc-1c6wbiz-0 eXNtNJ"
       >
         <div
-          class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
+          class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
         >
           <a
             class="sc-jKJlTe bIUarX"
@@ -22,157 +22,258 @@ exports[`components/Home renders Home 1`] = `
             />
           </a>
           <div
-            class="Navigation__NavigationItems-sc-1i56sr4-1 kQCxjI"
+            class="Navigation__NavigationItems-sc-1i56sr4-2 konLWw"
           >
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-hMqMXs dApheh"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="Navigation__Indicator-sc-1i56sr4-2 gdIgfK"
+              class="Navigation__Indicator-sc-1i56sr4-1 Vplmv"
             />
           </div>
         </div>
         <div
-          class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
+          class="HomeHeader__HomeMessageRow-sc-1c6wbiz-1 hKqmyE"
         >
-          <h1
-            class="H1-sc-1k64xg2-0 sc-kkGfuU goMdLu"
+          <div
+            class="HomeHeader__IntroWrap-sc-1c6wbiz-5 khmVhO"
           >
-            <span>
-              Vi digitaliserar företag och organisationer
-              genom strategi, kod och kultur
-            </span>
-          </h1>
+            <h1
+              class="H1-sc-1k64xg2-0 sc-iwsKbI cxdzLw"
+            >
+              Hej! Vi är Iteam, en utvecklingbyrå som digitaliserar företag genom kod, kultur och strategi.
+            </h1>
+            <div
+              class="HomeHeader__HomeLead-sc-1c6wbiz-6 cNjEjy"
+            >
+              <div>
+                <p>
+                  Läs mer om våra 
+                  <a
+                    title="Erbjudanden"
+                    href="/erbjudanden"
+                  >
+                    erbjudanden
+                  </a>
+                  eller se våra 
+                  <a
+                    title="Våra case"
+                    href="/case"
+                  >
+                    case
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="HomeHeader__IllustrationWrap-sc-1c6wbiz-2 cDaOZS"
+          >
+            <span
+              class="HomeHeader__Cloud-sc-1c6wbiz-3 jFyEcR"
+            />
+            <span
+              class="HomeHeader__Cloud-sc-1c6wbiz-3 sc-dnqmqq jFHNyJ"
+            />
+            <img
+              src="test-file-stub"
+              class="HomeHeader__IllustrationImage-sc-1c6wbiz-4 eSkgZW"
+            />
+          </div>
         </div>
       </div>
     </div>
   </div>
   <div
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH sc-iwsKbI gNdBGH"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
   >
     <div
-      class="Home__Content-sc-1cz0hle-0 geYJIV"
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        data-test="block-"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
+      >
+        <div
+          class="Block__Content-unfn3n-0 cIXgTw"
+        >
+          <div
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
+          >
+            <h3
+              class="H3-sc-1kpkcxu-0 hpTLhF"
+            >
+              Vi är Iteam
+            </h3>
+          </div>
+          <div
+            class="Block__Text-unfn3n-3 hyeDUp"
+          >
+            <div
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
+            >
+              <div>
+                <p>
+                  Vi är en digital utvecklingsbyrå med kontor i Stockholm och Göteborg. Totalt är vi är 35 utvecklare, värdecoacher,  UX-designers och stateger som drivs av tre grundläggande värderingar - att göra något bra, att ha kul och att skapa värde. 
+                </p>
+                <p>
+                  Vi kombinerar strategi, kod och kultur för att ta fram digitala lösningar som möter användarnas behov. Vi utvecklar inte bara appar. Vi tar ett helhetligt perspektiv på din affär för att skapa förändring på riktigt. Vi leder förändringsarbetet och hjälper er att digitalisera er affär.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        data-test="block-"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
+      >
+        <div
+          class="Block__Content-unfn3n-0 cIXgTw"
+        >
+          <div
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
+          >
+            <h3
+              class="H3-sc-1kpkcxu-0 hpTLhF"
+            >
+              Vi erbjuder
+            </h3>
+          </div>
+          <div
+            class="Block__Text-unfn3n-3 hyeDUp"
+          >
+            <div
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
+            >
+              <div>
+                <p>
+                  Med ett långsiktigt engagemang hjälper våra kunder att navigera i den digitala världen. Vi omvandlar visioner till verkliget, utmanar föråldrade metoder och tillsammans med er utvecklar vi digitala tjänster som era kunder älskar att använda.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ImageBlock__Content-sc-1efhaqb-0 gFrHlU"
     >
       <img
         src="test-file-stub"
-        class="Home__StylizedIteam-sc-1cz0hle-2 fLeIrA"
+        class="ImageBlock__ImageContainer-sc-1efhaqb-1 cjpGnT"
       />
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
       <div
-        class="Home__Texts-sc-1cz0hle-1 ifUVwV"
+        data-test="block-"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="PaddedRow-sc-13wt5gj-0 sc-gZMcBi fNPGgP"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
-          <h1
-            class="H1-sc-1k64xg2-0 cauBje"
-          >
-            Kod
-          </h1>
           <div
-            class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
-            <div>
-              <p>
-                Systemutveckling, automatisering, artificiell intelligens, maskininlärning. Vi har alla redskap du behöver för att bygga vad du vill. Det du vill. Och vet du inte vad du behöver så hjälper vi dig med det med.
-              </p>
+            <h3
+              class="H3-sc-1kpkcxu-0 hpTLhF"
+            >
+              Vår metod
+            </h3>
+          </div>
+          <div
+            class="Block__Text-unfn3n-3 hyeDUp"
+          >
+            <div
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
+            >
+              <div>
+                <p>
+                  Vi har varit verksamma som digital innovationsbyrå i över 20 år. Så vi vet att glädje,  teknisk spetskompetens och strategiska perspektiv är viktigt. Men det är när personer med olika kompetenser och varierande bakgrunder samarbetar i tvärfunktionella team som innovation verkligen sker. Det är därför som jobbar vi alltid i team tillsammans med våra kunder. 
+                </p>
+              </div>
             </div>
           </div>
-          <a
-            class="sc-htoDjs sc-gqjmRU eEGOXn"
-          >
-            Läs om hur vi hjälper Arbetsförmedlingen med kod
-          </a>
-          <img
-            src="//images.ctfassets.net/rj4r6yfcesw5/3qnZSfySW4cEGoUo6KCAae/8a656eba15e15b61dacc9fbea38aa4bd/logo_af.png"
-            class="Home__CompanyLogo-sc-1cz0hle-3 bkusqe"
-          />
         </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="CTABlock__BlockWrapper-sc-1l8kj5y-0 eKscWD"
+  >
+    <div
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
+    >
+      <div
+        data-test="block-"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
+      >
         <div
-          class="PaddedRow-sc-13wt5gj-0 sc-gZMcBi fNPGgP"
+          class="CTABlock__Content-sc-1l8kj5y-1 jRcxvl"
         >
-          <h1
-            class="H1-sc-1k64xg2-0 cauBje"
-          >
-            Strategi
-          </h1>
-          <div
-            class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
-          >
-            <div>
-              <p>
-                Vi digitaliserar Sverige. Pompigt! Men det betyder att vi hjälper dig att leda digitaliseringen istället för att vara den som blir lämnad på efterkälken. Både på den marknad där du verkar, och de marknader du inte ens visste att du borde verka på.
-              </p>
-            </div>
-          </div>
-          <a
-            class="sc-htoDjs sc-gqjmRU eEGOXn"
-          >
-            Läs om hur vi hjälper Taxi Stockholm med strategi
-          </a>
           <img
-            src="//images.ctfassets.net/rj4r6yfcesw5/1mv5fxBGLmeyWom4OI2WsI/a4d79cae2076b43aea926db2f1244b52/logo_tsab.png"
-            class="Home__CompanyLogo-sc-1cz0hle-3 bkusqe"
+            src="test-file-stub"
           />
-        </div>
-        <div
-          class="PaddedRow-sc-13wt5gj-0 sc-gZMcBi fNPGgP"
-        >
-          <h1
-            class="H1-sc-1k64xg2-0 cauBje"
-          >
-            Kultur
-          </h1>
-          <div
-            class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
-          >
-            <div>
-              <p>
-                Ibland ser vi oss som kulturarbetare. Det räcker inte att bygga digitala tjänster åt sina användare. Det är först när hela din organisation tänker, andas och lever digitalt som ni digitaliseras. på riktigt. Vi rustar dig för framtiden helt enkelt.
-              </p>
+          <div>
+            <h3
+              class="H3-sc-1kpkcxu-0 hpTLhF"
+            >
+              Nyfiken på vad vi kan åstadkomma tillsammans?
+            </h3>
+            <div
+              class="CTABlock__Text-sc-1l8kj5y-2 kVZbwI"
+            >
+              Hör av dig till oss så pratar vi vidare.
             </div>
+            <a
+              href="mailto:info@iteam.se"
+              class="sc-htoDjs ekgEfr"
+            >
+              Kontakta oss
+            </a>
           </div>
-          <a
-            class="sc-htoDjs sc-gqjmRU eEGOXn"
-          >
-            Läs om hur vi hjälper SEB med kultur
-          </a>
-          <img
-            src="//images.ctfassets.net/rj4r6yfcesw5/4D844WR1v20ICIOG4SK0y8/15a008277f5565d9f52fbd5312f6e121/logo_seb.png"
-            class="Home__CompanyLogo-sc-1cz0hle-3 bkusqe"
-          />
         </div>
       </div>
     </div>

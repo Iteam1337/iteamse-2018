@@ -11,7 +11,12 @@ import { TEAM_PAGE_QUERY } from '../../pages/Team'
 import { WORK_PAGE_QUERY } from '../../pages/Work'
 import styled, { createGlobalStyle, keyframes } from '../../theme'
 import logo from './img/iteam.svg'
+import logoBlack from './img/iteam_black.svg'
 
+interface NavigationProps {
+  isInverted?: boolean
+  noShadow?: boolean
+}
 interface NavigationState {
   indicatorLocation: number
   indicatorWidth: number
@@ -27,7 +32,6 @@ const Wrap = styled.div`
     padding: 0;
   }
 
-  /* IE 11 */
   ${({ theme }) =>
     theme.browsers.ie10Or11(`
     display: flex;
@@ -50,18 +54,6 @@ const Logo = styled(SVG)`
     > * svg {
       max-width: 100%;
     }
-  }
-`
-
-const NavigationItems = styled.div`
-  display: none;
-  justify-self: flex-end;
-  padding-bottom: 40px;
-  padding-top: 40px;
-  position: relative;
-
-  @media (min-width: 1025px) {
-    display: block;
   }
 `
 
@@ -96,23 +88,42 @@ const Indicator =
 `
 
 const StyledLink = styled(NavLink)`
-  color: #fff;
   font-size: 18px;
   font-weight: 400;
   text-decoration: none;
-  text-shadow: 0px 1px 14px rgba(0, 0, 0, 0.5);
   transition: color 200ms ease-in-out;
 
   &:not(:last-child) {
     margin-right: 30px;
   }
 
-  &:hover {
-    color: #ccc;
-  }
-
   &:focus {
     outline: none;
+  }
+`
+
+const NavigationItems =
+  styled.div <
+  NavigationProps >
+  `
+  display: none;
+  justify-self: flex-end;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  position: relative;
+
+  @media (min-width: 1025px) {
+    display: block;
+  }
+
+  ${StyledLink} {
+    color: ${({ isInverted }) => (isInverted ? '#000' : '#fff')};
+    text-shadow: ${({ noShadow }) =>
+      noShadow ? 'none' : `0px 1px 14px rgba(0, 0, 0, 0.5)`};
+
+    &:hover {
+      color: ${({ isInverted }) => (isInverted ? '#444' : '#ccc')};
+    }
   }
 `
 
@@ -135,7 +146,7 @@ const GlobalStyle = createGlobalStyle`
 `
 
 export class Navigation extends React.Component<
-  WithApolloClient<{}>,
+  WithApolloClient<NavigationProps>,
   NavigationState
 > {
   state = {
@@ -191,15 +202,16 @@ export class Navigation extends React.Component<
   }
 
   render() {
+    const { isInverted = false, noShadow = false } = this.props
     const { indicatorLocation, indicatorWidth } = this.state
 
     return (
       <Wrap>
         <GlobalStyle />
         <LogoLink onMouseEnter={this.prefetchPage('home')} to="/">
-          <Logo data-testid="logo" path={logo} />
+          <Logo data-testid="logo" path={isInverted ? logoBlack : logo} />
         </LogoLink>
-        <NavigationItems>
+        <NavigationItems isInverted={isInverted} noShadow={noShadow}>
           <StyledLink
             activeClassName="active-nav"
             onMouseEnter={this.prefetchPage('erbjudanden')}
@@ -252,4 +264,4 @@ export class Navigation extends React.Component<
   }
 }
 
-export default withApollo<{}>(Navigation)
+export default withApollo<NavigationProps>(Navigation)
