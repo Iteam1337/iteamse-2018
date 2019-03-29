@@ -69,10 +69,17 @@ exports[`components/About renders About 1`] = `
           class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="H1-sc-1k64xg2-0 sc-kkGfuU clBDyh"
+            class="H1-sc-1k64xg2-0 sc-kkGfuU kTbLSL"
           >
-            <span>
+            <span
+              class="Header__MessageLine-sc-1ofdv2r-2 hcZgwB"
+            >
               Vi skapades ur en vilja att skapa värde,
+            </span>
+            <br />
+            <span
+              class="Header__MessageLine-sc-1ofdv2r-2 hcZgwB"
+            >
               ha kul och göra något bra
             </span>
           </h1>

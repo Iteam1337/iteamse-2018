@@ -79,13 +79,15 @@ const Message =
     padding: 0.2rem 0.6rem;
   }
 
-  &:not(:last-of-type) {
-    margin-bottom: 5px;
-  }
-
   @media (min-width: 1025px) {
     width: auto;
     line-height: 1.4;
+  }
+`
+
+const MessageLine = styled.span`
+  &:not(:last-of-type) {
+    margin-bottom: 5px;
   }
 `
 
@@ -103,11 +105,15 @@ const Header: React.SFC<HeaderProps> = ({
         <Content>
           <Navigation />
           <MessageRow>
-            {messageOne && (
+            {(messageOne || messageTwo) && (
               <Message bgColor={backgroundColor}>
-                <span>
-                  {messageOne} {messageTwo}
-                </span>
+                {messageOne && <MessageLine>{messageOne}</MessageLine>}
+                {messageTwo && (
+                  <>
+                    <br />
+                    <MessageLine>{messageTwo}</MessageLine>
+                  </>
+                )}
               </Message>
             )}
           </MessageRow>

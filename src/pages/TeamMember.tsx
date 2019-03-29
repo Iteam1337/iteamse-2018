@@ -37,7 +37,7 @@ export const TEAM_MEMBER_PAGE_QUERY = gql`
 `
 
 const TeamMember = styled.div`
-  h1:first-of-type {
+  h1 span:first-of-type {
     font-weight: 300;
   }
 `
