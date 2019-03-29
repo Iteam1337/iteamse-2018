@@ -69,10 +69,17 @@ exports[`components/Header renders Header 1`] = `
           class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="H1-sc-1k64xg2-0 sc-kkGfuU kxsLEW"
+            class="H1-sc-1k64xg2-0 sc-kkGfuU kDnXHl"
           >
-            <span>
+            <span
+              class="Header__MessageLine-sc-1ofdv2r-2 hcZgwB"
+            >
               Vi digitaliserar företag och organisationer
+            </span>
+            <br />
+            <span
+              class="Header__MessageLine-sc-1ofdv2r-2 hcZgwB"
+            >
               genom strategi, kod och kultur
             </span>
           </h1>
