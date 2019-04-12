@@ -82,7 +82,7 @@ exports[`components/Work renders Work 1`] = `
     </div>
   </div>
   <div
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat kmHAwx"
   >
     <div
       class="PaddedRow-sc-13wt5gj-0 sc-kgoBCf gkOADH"
@@ -123,11 +123,15 @@ exports[`components/Work renders Work 1`] = `
           <div
             class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
-            <h3
-              class="H3-sc-1kpkcxu-0 hpTLhF"
+            <a
+              class="sc-bdVaJa bssnas"
             >
-              Junior UX Designer
-            </h3>
+              <h3
+                class="H3-sc-1kpkcxu-0 hpTLhF"
+              >
+                Junior UX Designer
+              </h3>
+            </a>
             <div
               class="Block__Subtitle-unfn3n-2 bLXYDu"
             >
