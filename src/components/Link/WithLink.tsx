@@ -8,16 +8,7 @@ interface WithLinkProps {
   variables: object
 }
 
-const WithLink: React.SFC<WithLinkProps> = ({
-  children,
-  to,
-  query,
-  variables = {},
-}) => {
-  return (
-    <PrefetchLink to={to} query={query} variables={variables}>
-      {children}
-    </PrefetchLink>
-  )
+const WithLink: React.SFC<WithLinkProps> = ({ children, ...rest }) => {
+  return <PrefetchLink {...rest}>{children}</PrefetchLink>
 }
 export default WithLink
