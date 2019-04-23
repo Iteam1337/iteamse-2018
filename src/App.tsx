@@ -1,24 +1,23 @@
 import * as React from 'react'
 import { Route, Switch } from 'react-router-dom'
-import { injectGlobal } from 'styled-components'
-import 'what-input'
+import { createGlobalStyle } from './theme'
 
 import Footer from './components/Footer/Footer'
 import MobileMenu from './components/MobileMenu/MobileMenu'
 import About from './pages/About'
-import Ai from './pages/Ai'
 import Case from './pages/Case'
 import Cases from './pages/Cases'
 import Contact from './pages/Contact'
 import Home from './pages/Home'
 import HowWeWork from './pages/HowWeWork'
+import Offers from './pages/Offers'
 import OpenPosition from './pages/OpenPosition'
 import Ops from './pages/Ops'
 import Team from './pages/Team'
 import TeamMember from './pages/TeamMember'
 import Work from './pages/Work'
 
-injectGlobal`
+const GlobalStyle = createGlobalStyle`
   body {
     -webkit-font-smoothing: antialiased;
     font-family: 'Roboto', sans-serif;
@@ -29,7 +28,8 @@ injectGlobal`
 `
 
 const App = () => (
-  <React.Fragment>
+  <>
+    <GlobalStyle />
     <Switch>
       <Route exact path="/" component={Home} />
       <Route path="/om-oss" component={About} />
@@ -42,11 +42,11 @@ const App = () => (
       <Route exact path="/jobba-hos-oss" component={Work} />
       <Route path="/jobba-hos-oss/:id" component={OpenPosition} />
       <Route path="/ops" component={Ops} />
-      <Route path="/erbjudanden/ai" component={Ai} />
+      <Route path="/erbjudanden" component={Offers} />
     </Switch>
     <MobileMenu />
     <Footer />
-  </React.Fragment>
+  </>
 )
 
 export default App

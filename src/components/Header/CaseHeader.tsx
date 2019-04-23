@@ -1,6 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
-import { withProps } from '../../theme'
+import styled from '../../theme'
 import { GridColumnClean } from '../Grid/GridColumn'
 import Navigation from './Navigation'
 
@@ -15,7 +14,10 @@ interface WrapProps {
   image?: string | null
 }
 
-const Wrap = withProps<WrapProps>()(GridColumnClean.extend)`
+const Wrap =
+  styled(GridColumnClean) <
+  WrapProps >
+  `
   background-image: ${({ image }) => `url(${image})`};
   background-position: center;
   background-size: cover;
@@ -28,7 +30,8 @@ const Wrap = withProps<WrapProps>()(GridColumnClean.extend)`
   }
 
   /* IE 11 */
-  ${({ theme }) => theme.browsers.ie10Or11(`
+  ${({ theme }) =>
+    theme.browsers.ie10Or11(`
     display: flex;
     justify-content: center;
   `)}
@@ -46,9 +49,10 @@ const Content = styled.div`
   }
 
   /* IE 11 */
-  ${({ theme }) => theme.browsers.ie10Or11(`
+  ${({ theme }) =>
+    theme.browsers.ie10Or11(`
     max-width: 1024px;
-  `)}
+  `)};
 `
 
 const Information = styled.div`
@@ -63,9 +67,10 @@ const Information = styled.div`
   }
 
   /* IE 11 */
-  ${({ theme }) => theme.browsers.ie10Or11(`
+  ${({ theme }) =>
+    theme.browsers.ie10Or11(`
     display: flex;
-  `)}
+  `)};
 `
 
 const Meta = styled.div`

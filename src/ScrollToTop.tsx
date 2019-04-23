@@ -9,7 +9,7 @@ type MergedProps = ScrollToTopProps & RouteComponentProps<{}>
 
 class ScrollToTop extends React.Component<MergedProps> {
   componentDidUpdate(prevProps: MergedProps) {
-    if (this.props.location !== prevProps.location) {
+    if (this.props.location.pathname !== prevProps.location.pathname) {
       window.scrollTo(0, 0)
     }
   }

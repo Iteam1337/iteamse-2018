@@ -1,7 +1,7 @@
 import gql from 'graphql-tag'
 import * as React from 'react'
 import { Query } from 'react-apollo'
-import { Helmet } from 'react-helmet'
+import Helmet from 'react-helmet-async'
 import { HowWeWorkPageQuery } from '../../typings/iteamse'
 import Block from '../components/Blocks/Block'
 import ImageBleed from '../components/Blocks/ImageBleed'
@@ -61,7 +61,10 @@ export class HowWeWork extends React.Component {
               <Helmet>
                 <title>Iteam | Hur vi jobbar</title>
                 <meta property="og:title" content="Iteam | Hur vi jobbar" />
-                <meta property="twitter:title" content="Iteam | Hur vi jobbar" />
+                <meta
+                  property="twitter:title"
+                  content="Iteam | Hur vi jobbar"
+                />
                 {pageHowWeWork.headerImage && (
                   <meta
                     property="og:image"

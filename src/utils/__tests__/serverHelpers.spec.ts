@@ -34,7 +34,7 @@ describe('#redirectHelper', () => {
 
     it('should return the path for /ai', () => {
       const redirectsTo = handlePaths('/ai')
-      expect(redirectsTo).toEqual('/erbjudanden/ai')
+      expect(redirectsTo).toEqual('/erbjudanden')
     })
 
     it('should return the path for /operations', () => {
@@ -259,12 +259,12 @@ describe('#redirectHelper', () => {
       expect(next).toHaveBeenCalled()
     })
 
-    it('should redirect from /ai to /erbjudanden/ai', () => {
+    it('should redirect from /ai to /erbjudanden', () => {
       req = {
         path: '/ai',
       }
       redirectHelper(req, res, next)
-      expect(res.redirect).toHaveBeenCalledWith(301, '/erbjudanden/ai')
+      expect(res.redirect).toHaveBeenCalledWith(301, '/erbjudanden')
       expect(next).toHaveBeenCalled()
     })
 

@@ -3,16 +3,21 @@ import { withApollo, WithApolloClient } from 'react-apollo'
 import { Link, NavLink } from 'react-router-dom'
 import SVG from 'react-svg'
 import { ABOUT_PAGE_QUERY } from '../../pages/About'
-import { AI_PAGE_QUERY } from '../../pages/Ai'
 import { CASES_PAGE_QUERY } from '../../pages/Cases'
 import { CONTACT_PAGE_QUERY } from '../../pages/Contact'
 import { HOME_PAGE_QUERY } from '../../pages/Home'
 import { HOW_WE_WORK_PAGE_QUERY } from '../../pages/HowWeWork'
+import { OFFERS_PAGE_QUERY } from '../../pages/Offers'
 import { TEAM_PAGE_QUERY } from '../../pages/Team'
 import { WORK_PAGE_QUERY } from '../../pages/Work'
-import styled, { injectGlobal, keyframes, withProps } from '../../theme'
+import styled, { createGlobalStyle, keyframes } from '../../theme'
 import logo from './img/iteam.svg'
+import logoBlack from './img/iteam_black.svg'
 
+interface NavigationProps {
+  isInverted?: boolean
+  noShadow?: boolean
+}
 interface NavigationState {
   indicatorLocation: number
   indicatorWidth: number
@@ -54,18 +59,6 @@ const Logo = styled(SVG)`
   }
 `
 
-const NavigationItems = styled.div`
-  display: none;
-  justify-self: flex-end;
-  padding-bottom: 40px;
-  padding-top: 40px;
-  position: relative;
-
-  @media (min-width: 1025px) {
-    display: block;
-  }
-`
-
 const slideDown = keyframes`
   from {
     opacity: 0;
@@ -83,7 +76,10 @@ interface IndicatorProps {
   indicatorWidth: number
 }
 
-const Indicator = withProps<IndicatorProps>()(styled.div)`
+const Indicator =
+  styled.div <
+  IndicatorProps >
+  `
   animation: ${slideDown} 300ms ease-in-out 1;
   background-color: #fff;
   top: 0;
@@ -94,19 +90,13 @@ const Indicator = withProps<IndicatorProps>()(styled.div)`
 `
 
 const StyledLink = styled(NavLink)`
-  color: #fff;
   font-size: 18px;
   font-weight: 400;
   text-decoration: none;
-  text-shadow: 0px 1px 14px rgba(0, 0, 0, 0.5);
   transition: color 200ms ease-in-out;
 
   &:not(:last-child) {
     margin-right: 30px;
-  }
-
-  &:hover {
-    color: #ccc;
   }
 
   &:focus {
@@ -114,7 +104,32 @@ const StyledLink = styled(NavLink)`
   }
 `
 
-injectGlobal`
+const NavigationItems =
+  styled.div <
+  NavigationProps >
+  `
+  display: none;
+  justify-self: flex-end;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  position: relative;
+
+  @media (min-width: 1025px) {
+    display: block;
+  }
+
+  ${StyledLink} {
+    color: ${({ isInverted }) => (isInverted ? '#000' : '#fff')};
+    text-shadow: ${({ noShadow }) =>
+      noShadow ? 'none' : `0px 1px 14px rgba(0, 0, 0, 0.5)`};
+
+    &:hover {
+      color: ${({ isInverted }) => (isInverted ? '#444' : '#ccc')};
+    }
+  }
+`
+
+const GlobalStyle = createGlobalStyle`
   html[data-whatinput="keyboard"] {
     ${LogoLink} {
       &:focus {
@@ -133,7 +148,7 @@ injectGlobal`
 `
 
 export class Navigation extends React.Component<
-  WithApolloClient<{}>,
+  WithApolloClient<NavigationProps>,
   NavigationState
 > {
   state = {
@@ -174,8 +189,8 @@ export class Navigation extends React.Component<
       case 'work':
         query = WORK_PAGE_QUERY
         break
-      case 'ai':
-        query = AI_PAGE_QUERY
+      case 'erbjudanden':
+        query = OFFERS_PAGE_QUERY
         break
       case 'contact':
         query = CONTACT_PAGE_QUERY
@@ -192,27 +207,29 @@ export class Navigation extends React.Component<
   }
 
   render() {
+    const { isInverted = false, noShadow = false } = this.props
     const { indicatorLocation, indicatorWidth } = this.state
 
     return (
       <Wrap>
+        <GlobalStyle />
         <LogoLink onMouseEnter={this.prefetchPage('home')} to="/">
-          <Logo data-testid="logo" path={logo} />
+          <Logo data-testid="logo" path={isInverted ? logoBlack : logo} />
         </LogoLink>
-        <NavigationItems>
+        <NavigationItems isInverted={isInverted} noShadow={noShadow}>
+          <StyledLink
+            activeClassName="active-nav"
+            onMouseEnter={this.prefetchPage('erbjudanden')}
+            to="/erbjudanden"
+          >
+            Erbjudanden
+          </StyledLink>
           <StyledLink
             activeClassName="active-nav"
             onMouseEnter={this.prefetchPage('case')}
             to="/case"
           >
-            Case
-          </StyledLink>
-          <StyledLink
-            activeClassName="active-nav"
-            onMouseEnter={this.prefetchPage('ai')}
-            to="/erbjudanden/ai"
-          >
-            AI
+            Våra case
           </StyledLink>
           <StyledLink
             activeClassName="active-nav"
@@ -252,4 +269,4 @@ export class Navigation extends React.Component<
   }
 }
 
-export default withApollo<{}>(Navigation)
+export default withApollo<NavigationProps>(Navigation)

@@ -1,6 +1,6 @@
 import React from 'react'
 import LazyLoad from 'react-lazyload'
-import styled, { withProps } from '../../theme'
+import styled from '../../theme'
 import { handleColors } from '../../utils/handleColors'
 import { GridColumnClean } from '../Grid/GridColumn'
 import H1 from '../Typography/H1'
@@ -17,7 +17,10 @@ interface WrapProps {
   image?: string | null
 }
 
-const Wrap = withProps<WrapProps>()(GridColumnClean.extend)`
+const Wrap =
+  styled(GridColumnClean) <
+  WrapProps >
+  `
   background-image: ${({ image }) => `url(${image})`};
   background-size: cover;
   background-position: top;
@@ -28,7 +31,7 @@ const Wrap = withProps<WrapProps>()(GridColumnClean.extend)`
   }
 `
 
-const Content = styled.div`
+export const Content = styled.div`
   background-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.3),
@@ -59,7 +62,10 @@ interface MessageProps {
   bgColor: string | null
 }
 
-const Message = withProps<MessageProps>()(H1.extend)`
+const Message =
+  styled(H1) <
+  MessageProps >
+  `
   box-sizing: border-box;
   line-height: 1.5;
   margin: 0;
@@ -73,13 +79,15 @@ const Message = withProps<MessageProps>()(H1.extend)`
     padding: 0.2rem 0.6rem;
   }
 
-  &:not(:last-of-type) {
-    margin-bottom: 5px;
-  }
-
   @media (min-width: 1025px) {
     width: auto;
     line-height: 1.4;
+  }
+`
+
+const MessageLine = styled.span`
+  &:not(:last-of-type) {
+    margin-bottom: 5px;
   }
 `
 
@@ -97,9 +105,15 @@ const Header: React.SFC<HeaderProps> = ({
         <Content>
           <Navigation />
           <MessageRow>
-            {messageOne && (
+            {(messageOne || messageTwo) && (
               <Message bgColor={backgroundColor}>
-                <span>{messageOne} {messageTwo}</span>
+                {messageOne && <MessageLine>{messageOne}</MessageLine>}
+                {messageTwo && (
+                  <>
+                    <br />
+                    <MessageLine>{messageTwo}</MessageLine>
+                  </>
+                )}
               </Message>
             )}
           </MessageRow>

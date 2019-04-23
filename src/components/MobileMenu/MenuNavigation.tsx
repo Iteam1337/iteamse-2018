@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import styled, { keyframes } from 'styled-components'
+import styled, { keyframes } from '../../theme'
 
 interface MenuNavigationProps {
   open: boolean
@@ -60,11 +60,11 @@ const MenuNavigation: React.SFC<MenuNavigationProps> = ({ open }) => {
   return (
     <Menu data-test="mobile-menu">
       <MenuInner>
-        <StyledLink activeClassName="active-nav" to="/case">
-          Case
+        <StyledLink activeClassName="active-nav" to="/erbjudanden">
+          Erbjudanden
         </StyledLink>
-        <StyledLink activeClassName="active-nav" to="/erbjudanden/ai">
-          AI
+        <StyledLink activeClassName="active-nav" to="/case">
+          Våra case
         </StyledLink>
         <StyledLink activeClassName="active-nav" to="/hur-vi-jobbar">
           Metod

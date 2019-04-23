@@ -47,7 +47,7 @@ const Content = styled.div`
 
 const SideWrap = styled.div``
 
-const UnstyledListWithMargin = UnstyledList.extend`
+const UnstyledListWithMargin = styled(UnstyledList)`
   margin-top: 10px;
 `
 

@@ -1,12 +1,10 @@
 import gql from 'graphql-tag'
 import React from 'react'
 import { Query } from 'react-apollo'
-import styled from 'styled-components'
 import { FooterQuery } from '../../../typings/iteamse'
-import { OPERATIONS_PAGE_QUERY } from '../../pages/Ops'
+import styled from '../../theme'
 import GridColumn from '../Grid/GridColumn'
 import NativeLink from '../Link/NativeLink'
-import StyledPrefetchLink from '../Link/StyledPrefetchLink'
 import UnstyledList from '../List/UnstyledList'
 import iconFb from './img/icon_fb.svg'
 import iconInstagram from './img/icon_instagram.svg'
@@ -29,7 +27,7 @@ export const FOOTER_QUERY = gql`
   }
 `
 
-const Wrap = GridColumn.extend`
+const Wrap = styled(GridColumn)`
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 40px;
@@ -51,7 +49,8 @@ const FooterSections = styled.div`
   }
 
   /* IE 11 */
-  ${({ theme }) => theme.browsers.ie10Or11(`
+  ${({ theme }) =>
+    theme.browsers.ie10Or11(`
     width: 100%;
     max-width: 1024px;
     display: flex;
@@ -60,7 +59,7 @@ const FooterSections = styled.div`
     > * {
       flex: 1 0 25%;
     }
-  `)}
+  `)};
 `
 
 const Title = styled.div`
@@ -78,18 +77,10 @@ const SocialMediaIcon = styled.img`
   margin-right: 15px;
 `
 
-const NativeLinkUnderlined = NativeLink.extend`
+const NativeLinkUnderlined = styled(NativeLink)`
   border-bottom: 2px solid;
   color: black;
   text-decoration: none;
-`
-
-const SupportSection = styled.div`
-  /* IE 11 */
-  ${({ theme }) => theme.browsers.ie10Or11(`
-    display: flex;
-    width: 100%;
-  `)}
 `
 
 class FooterQueryComponent extends Query<FooterQuery> {}
@@ -147,15 +138,6 @@ const Footer = () => {
                 </UnstyledList>
               </SocialMedia>
             </FooterSections>
-            <SupportSection>
-              <StyledPrefetchLink
-                black={true}
-                query={OPERATIONS_PAGE_QUERY}
-                to="ops"
-              >
-                Behöver du supporthjälp?
-              </StyledPrefetchLink>
-            </SupportSection>
           </Wrap>
         )
       }}

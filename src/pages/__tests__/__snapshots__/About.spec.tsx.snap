@@ -4,75 +4,82 @@ exports[`components/About renders About 1`] = `
 <div>
   <div>
     <div
-      class="sc-kIPQKe htvFLh"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kEYyzF hnzAey"
     >
       <div
-        class="sc-eXEjpC fMVgDL"
+        class="Header__Content-sc-1ofdv2r-0 limgqW"
       >
         <div
-          class="sc-gzOgki ipvQIy"
+          class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
         >
           <a
-            class="sc-iyvyFf gbVIVA"
+            class="sc-jKJlTe bIUarX"
           >
             <img
-              class="sc-hwwEjo iMKlgE"
               data-testid="logo"
               path="test-file-stub"
+              class="sc-eNQAEJ gYmRno"
             />
           </a>
           <div
-            class="sc-kPVwWT iGguRZ"
+            class="Navigation__NavigationItems-sc-1i56sr4-2 gfiCRw"
           >
             <a
-              class="sc-esjQYD eLRVk"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
-              Case
+              Erbjudanden
             </a>
             <a
-              class="sc-esjQYD eLRVk"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
-              AI
+              Våra case
             </a>
             <a
-              class="sc-esjQYD eLRVk"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-esjQYD eLRVk"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-esjQYD eLRVk"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-esjQYD eLRVk"
+              class="sc-hMqMXs fILlfv"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-kfGgVZ hzXCUz"
+              class="Navigation__Indicator-sc-1i56sr4-1 Vplmv"
             />
           </div>
         </div>
         <div
-          class="sc-ibxdXY byXtiU"
+          class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="sc-RefOD kzZhha"
+            class="H1-sc-1k64xg2-0 sc-kkGfuU kTbLSL"
           >
-            <span>
+            <span
+              class="Header__MessageLine-sc-1ofdv2r-2 hcZgwB"
+            >
               Vi skapades ur en vilja att skapa värde,
+            </span>
+            <br />
+            <span
+              class="Header__MessageLine-sc-1ofdv2r-2 hcZgwB"
+            >
               ha kul och göra något bra
             </span>
           </h1>
@@ -81,33 +88,33 @@ exports[`components/About renders About 1`] = `
     </div>
   </div>
   <div
-    class="sc-iwsKbI cTexZb"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
   >
     <div
       class="react-reveal"
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Skapa värde
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>
@@ -124,26 +131,26 @@ exports[`components/About renders About 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Ha kul
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>
@@ -156,11 +163,11 @@ exports[`components/About renders About 1`] = `
       </div>
     </div>
     <div
-      class="sc-VigVT laHvOe"
+      class="ImageBlock__Content-sc-1efhaqb-0 gFrHlU"
     >
       <img
-        class="sc-jTzLTM jKPziq"
         src="test-file-stub"
+        class="ImageBlock__ImageContainer-sc-1efhaqb-1 cjpGnT"
       />
     </div>
     <div
@@ -168,26 +175,26 @@ exports[`components/About renders About 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Göra något bra
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>
@@ -200,45 +207,45 @@ exports[`components/About renders About 1`] = `
       </div>
     </div>
     <img
-      class="sc-gqjmRU kaGJTv"
       src="//images.ctfassets.net/rj4r6yfcesw5/7bwz7g2GuQu8A68QmCQAMw/2c6391a40ebe2d0bee958dacf72aa174/bleed_aboutus.jpg"
+      class="ImageBleed__ImageContainer-sc-1qgs15y-0 dtCUjJ"
     />
     <div
       class="react-reveal"
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Vi står stabilt
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             Löksås ipsum plats upprätthållande från sorgliga se, denna precis från brunsås strand år dock, stig färdväg genom äng varit. Erfarenheter regn groda tidigare trevnadens hwila ännu dimma kunde mjuka sällan, oss genom tidigare annat sista stora tid plats inom.
             <div
-              class="sc-fjdhpX bYgbrg"
+              class="About__StabilityIcons-wy4hjw-0 dgBwwQ"
             >
               <img
-                class="sc-jzJRlG gpuIau"
                 alt=""
                 src="//images.ctfassets.net/rj4r6yfcesw5/2jLXgnJMdqcMIWgiYAEyq2/d88293e3899d0e65ad99754aa45f5f85/aaa_logo_web_ny.png"
+                class="About__StabilityIcon-wy4hjw-1 cWjwBI"
               />
               <img
-                class="sc-jzJRlG gpuIau"
                 alt=""
                 src="//images.ctfassets.net/rj4r6yfcesw5/6tIo0BhFEki6Iyc68AkgiQ/98253a689d719382d5d13f4896f10941/vas-superforetagen-2016._300dppipng.png"
+                class="About__StabilityIcon-wy4hjw-1 cWjwBI"
               />
             </div>
           </div>
@@ -247,4 +254,4 @@ exports[`components/About renders About 1`] = `
     </div>
   </div>
 </div>
-`;
+`

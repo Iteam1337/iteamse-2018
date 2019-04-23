@@ -1,7 +1,7 @@
 import React from 'react'
 import { render, wait } from 'react-testing-library'
 import MockedQuery from '../../utils/test-utils/MockedQuery'
-import { pageStart } from '../__fixtures__/pageStart'
+import { pageStart2019 } from '../__fixtures__/pageStart2019'
 import { TeamQueryMock } from '../__fixtures__/teamMock'
 import Home, { HOME_PAGE_QUERY } from '../Home'
 
@@ -12,7 +12,7 @@ const mocks = [
     },
     result: {
       data: {
-        pageStart,
+        pageStart2019,
       },
     },
   },

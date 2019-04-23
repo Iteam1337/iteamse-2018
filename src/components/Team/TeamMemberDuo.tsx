@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import { TeamQuery } from '../../../typings/iteamse'
 import { TEAM_MEMBER_PAGE_QUERY } from '../../pages/TeamMember'
 import styled from '../../theme'

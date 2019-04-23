@@ -1,5 +1,5 @@
 import * as React from 'react'
-import styled, { contrastCheck, withProps } from '../../theme'
+import styled, { contrastCheck } from '../../theme'
 import { GridColumnClean } from '../Grid/GridColumn'
 import PaddedRow from '../Grid/PaddedRow'
 
@@ -14,7 +14,10 @@ interface QuoteWrapProps {
   backgroundColor?: string | null
 }
 
-const QuoteWrap = withProps<QuoteWrapProps>()(styled(GridColumnClean))`
+const QuoteWrap =
+  styled(GridColumnClean) <
+  QuoteWrapProps >
+  `
   background-color: ${({ theme, backgroundColor }) =>
     backgroundColor ? backgroundColor : theme.colors.alabaster};
   color: ${({ theme, backgroundColor }) =>

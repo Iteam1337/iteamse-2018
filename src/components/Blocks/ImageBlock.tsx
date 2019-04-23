@@ -1,5 +1,5 @@
 import * as React from 'react'
-import styled, { withProps } from '../../theme'
+import styled from '../../theme'
 
 interface ImageBlockProps {
   column?: number
@@ -20,7 +20,7 @@ interface ImageContainerProps {
   column: number
 }
 
-const ImageContainer = withProps<ImageContainerProps>()(styled.img)`
+const ImageContainer = styled.img<ImageContainerProps>`
   grid-column: 3;
   max-width: 100%;
 

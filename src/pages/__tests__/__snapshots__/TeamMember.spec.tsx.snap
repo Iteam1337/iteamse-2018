@@ -3,79 +3,86 @@
 exports[`components/Team renders TeamMember 1`] = `
 <div>
   <div
-    class="sc-iQKALj kORsmP"
+    class="TeamMember-sc-1dabmxm-0 essGSG"
   >
     <div>
       <div
-        class="sc-kIPQKe kKLlac"
+        class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kEYyzF deict"
       >
         <div
-          class="sc-eXEjpC fMVgDL"
+          class="Header__Content-sc-1ofdv2r-0 limgqW"
         >
           <div
-            class="sc-gzOgki ipvQIy"
+            class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
           >
             <a
-              class="sc-iyvyFf gbVIVA"
+              class="sc-jKJlTe bIUarX"
             >
               <img
-                class="sc-hwwEjo iMKlgE"
                 data-testid="logo"
                 path="test-file-stub"
+                class="sc-eNQAEJ gYmRno"
               />
             </a>
             <div
-              class="sc-kPVwWT iGguRZ"
+              class="Navigation__NavigationItems-sc-1i56sr4-2 gfiCRw"
             >
               <a
-                class="sc-esjQYD eLRVk"
+                class="sc-hMqMXs fILlfv"
                 aria-current="false"
               >
-                Case
+                Erbjudanden
               </a>
               <a
-                class="sc-esjQYD eLRVk"
+                class="sc-hMqMXs fILlfv"
                 aria-current="false"
               >
-                AI
+                Våra case
               </a>
               <a
-                class="sc-esjQYD eLRVk"
+                class="sc-hMqMXs fILlfv"
                 aria-current="false"
               >
                 Metod
               </a>
               <a
-                class="sc-esjQYD eLRVk active-nav"
+                class="sc-hMqMXs fILlfv active-nav"
                 aria-current="true"
               >
                 Medarbetare
               </a>
               <a
-                class="sc-esjQYD eLRVk"
+                class="sc-hMqMXs fILlfv"
                 aria-current="false"
               >
                 Karriär
               </a>
               <a
-                class="sc-esjQYD eLRVk"
+                class="sc-hMqMXs fILlfv"
                 aria-current="false"
               >
                 Om
               </a>
               <div
-                class="sc-kfGgVZ hzXCUz"
+                class="Navigation__Indicator-sc-1i56sr4-1 Vplmv"
               />
             </div>
           </div>
           <div
-            class="sc-ibxdXY byXtiU"
+            class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
           >
             <h1
-              class="sc-RefOD bfgpQk"
+              class="H1-sc-1k64xg2-0 sc-kkGfuU hAhygW"
             >
-              <span>
+              <span
+                class="Header__MessageLine-sc-1ofdv2r-2 hcZgwB"
+              >
                 Rickard Laurin
+              </span>
+              <br />
+              <span
+                class="Header__MessageLine-sc-1ofdv2r-2 hcZgwB"
+              >
                 Webbutvecklare
               </span>
             </h1>
@@ -84,15 +91,15 @@ exports[`components/Team renders TeamMember 1`] = `
       </div>
     </div>
     <div
-      class="sc-iwsKbI cTexZb"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
     >
       <div
-        class="sc-gzVnrw jfvayO"
         data-test="breadcrumbs"
+        class="PaddedRow-sc-13wt5gj-0 sc-bdVaJa gvAEMW"
       >
         <a>
           <span
-            class="sc-htoDjs hjXPuh"
+            class="Breadcrumbs__StyledSpan-sc-1ajw33n-0 bBBcLz"
           >
             Medarbetare
           </span>
@@ -106,31 +113,31 @@ exports[`components/Team renders TeamMember 1`] = `
         style="opacity: 1;"
       >
         <div
-          class="sc-bdVaJa fGzlqx"
           data-test="block-"
+          class="PaddedRow-sc-13wt5gj-0 dtvxob"
         >
           <div
-            class="sc-bxivhb cjRyOF"
+            class="Block__Content-unfn3n-0 cIXgTw"
           >
             <div
-              class="sc-ifAKCX fTHWMI"
+              class="Block__TitleWrap-unfn3n-1 jxTEsm"
             >
               <h3
-                class="sc-bwzfXH kgEpTV"
+                class="H3-sc-1kpkcxu-0 hpTLhF"
               >
                 Kontakt
               </h3>
             </div>
             <div
-              class="sc-bZQynM fQTIXp"
+              class="Block__Text-unfn3n-3 hyeDUp"
             >
               <ul
-                class="sc-bbmXgH gQXHHL"
+                class="UnstyledList-r59lsu-0 dCBFDj"
               >
                 <li>
                   <a
-                    class="sc-lhVmIH gGpWCy"
                     href="mailto:rickard.laurin@iteam.se"
+                    class="NativeLink-sc-1sy7t3m-0 sc-dxgOiQ kCSnXk"
                   >
                     rickard.laurin@iteam.se
                   </a>
@@ -145,26 +152,26 @@ exports[`components/Team renders TeamMember 1`] = `
         style="opacity: 1;"
       >
         <div
-          class="sc-bdVaJa fGzlqx"
           data-test="block-"
+          class="PaddedRow-sc-13wt5gj-0 dtvxob"
         >
           <div
-            class="sc-bxivhb cjRyOF"
+            class="Block__Content-unfn3n-0 cIXgTw"
           >
             <div
-              class="sc-ifAKCX fTHWMI"
+              class="Block__TitleWrap-unfn3n-1 jxTEsm"
             >
               <h3
-                class="sc-bwzfXH kgEpTV"
+                class="H3-sc-1kpkcxu-0 hpTLhF"
               >
                 Varför jobbar du med teknik?
               </h3>
             </div>
             <div
-              class="sc-bZQynM fQTIXp"
+              class="Block__Text-unfn3n-3 hyeDUp"
             >
               <div
-                class="sc-htpNat bkGJgg"
+                class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
               >
                 <div>
                   <p>
@@ -181,26 +188,26 @@ exports[`components/Team renders TeamMember 1`] = `
         style="opacity: 1;"
       >
         <div
-          class="sc-bdVaJa fGzlqx"
           data-test="block-"
+          class="PaddedRow-sc-13wt5gj-0 dtvxob"
         >
           <div
-            class="sc-bxivhb cjRyOF"
+            class="Block__Content-unfn3n-0 cIXgTw"
           >
             <div
-              class="sc-ifAKCX fTHWMI"
+              class="Block__TitleWrap-unfn3n-1 jxTEsm"
             >
               <h3
-                class="sc-bwzfXH kgEpTV"
+                class="H3-sc-1kpkcxu-0 hpTLhF"
               >
                 Bakgrund
               </h3>
             </div>
             <div
-              class="sc-bZQynM fQTIXp"
+              class="Block__Text-unfn3n-3 hyeDUp"
             >
               <div
-                class="sc-htpNat bkGJgg"
+                class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
               >
                 <div>
                   <p>
@@ -217,26 +224,26 @@ exports[`components/Team renders TeamMember 1`] = `
         style="opacity: 1;"
       >
         <div
-          class="sc-bdVaJa fGzlqx"
           data-test="block-"
+          class="PaddedRow-sc-13wt5gj-0 dtvxob"
         >
           <div
-            class="sc-bxivhb cjRyOF"
+            class="Block__Content-unfn3n-0 cIXgTw"
           >
             <div
-              class="sc-ifAKCX fTHWMI"
+              class="Block__TitleWrap-unfn3n-1 jxTEsm"
             >
               <h3
-                class="sc-bwzfXH kgEpTV"
+                class="H3-sc-1kpkcxu-0 hpTLhF"
               >
                 Specialistkompetens
               </h3>
             </div>
             <div
-              class="sc-bZQynM fQTIXp"
+              class="Block__Text-unfn3n-3 hyeDUp"
             >
               <div
-                class="sc-htpNat bkGJgg"
+                class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
               >
                 <div>
                   <p>
@@ -251,4 +258,4 @@ exports[`components/Team renders TeamMember 1`] = `
     </div>
   </div>
 </div>
-`;
+`

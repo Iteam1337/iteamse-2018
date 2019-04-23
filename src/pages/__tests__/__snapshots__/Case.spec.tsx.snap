@@ -3,140 +3,140 @@
 exports[`components/Case renders Case 1`] = `
 <div>
   <div
-    class="sc-kkGfuU bDRSIz"
     data-test="header-case"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-EHOje ehCRkd"
   >
     <div
-      class="sc-iAyFgw ABvqv"
+      class="CaseHeader__Content-i46oib-0 dgxEQK"
     >
       <div
-        class="sc-gzOgki ipvQIy"
+        class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
       >
         <a
-          class="sc-iyvyFf gbVIVA"
+          class="sc-jKJlTe bIUarX"
         >
           <img
-            class="sc-hwwEjo iMKlgE"
             data-testid="logo"
             path="test-file-stub"
+            class="sc-eNQAEJ gYmRno"
           />
         </a>
         <div
-          class="sc-kPVwWT iGguRZ"
+          class="Navigation__NavigationItems-sc-1i56sr4-2 gfiCRw"
         >
           <a
-            class="sc-esjQYD eLRVk active-nav"
-            aria-current="true"
-          >
-            Case
-          </a>
-          <a
-            class="sc-esjQYD eLRVk"
+            class="sc-hMqMXs fILlfv"
             aria-current="false"
           >
-            AI
+            Erbjudanden
           </a>
           <a
-            class="sc-esjQYD eLRVk"
+            class="sc-hMqMXs fILlfv active-nav"
+            aria-current="true"
+          >
+            Våra case
+          </a>
+          <a
+            class="sc-hMqMXs fILlfv"
             aria-current="false"
           >
             Metod
           </a>
           <a
-            class="sc-esjQYD eLRVk"
+            class="sc-hMqMXs fILlfv"
             aria-current="false"
           >
             Medarbetare
           </a>
           <a
-            class="sc-esjQYD eLRVk"
+            class="sc-hMqMXs fILlfv"
             aria-current="false"
           >
             Karriär
           </a>
           <a
-            class="sc-esjQYD eLRVk"
+            class="sc-hMqMXs fILlfv"
             aria-current="false"
           >
             Om
           </a>
           <div
-            class="sc-kfGgVZ hzXCUz"
+            class="Navigation__Indicator-sc-1i56sr4-1 Vplmv"
           />
         </div>
       </div>
       <div
-        class="sc-hSdWYo eqeaDo"
+        class="CaseHeader__Information-i46oib-1 fLzChM"
       >
         <div
-          class="sc-eHgmQL ksUOUN"
+          class="CaseHeader__Meta-i46oib-2 gbFvKk"
         >
           <img
-            class="sc-jWBwVP liuADi"
             alt="Logo"
             src="//images.ctfassets.net/rj4r6yfcesw5/4p0ptdLj9SaECekOI4c6C2/c2cdeab1cebc9650ebb0e7778357c231/AF_ordbild_vit.png"
+            class="CaseHeader__Logo-i46oib-4 jTjMzI"
           />
           <div
-            class="sc-brqgnP SqPLV"
+            class="CaseHeader__Tags-i46oib-5 fKdhSw"
           >
             <div
-              class="sc-cMljjf dOfBkb"
+              class="CaseHeader__Tag-i46oib-6 pwCzF"
             >
               API
             </div>
             <div
-              class="sc-cMljjf dOfBkb"
+              class="CaseHeader__Tag-i46oib-6 pwCzF"
             >
               Docker
             </div>
             <div
-              class="sc-cMljjf dOfBkb"
+              class="CaseHeader__Tag-i46oib-6 pwCzF"
             >
               UX
             </div>
             <div
-              class="sc-cMljjf dOfBkb"
+              class="CaseHeader__Tag-i46oib-6 pwCzF"
             >
               React
             </div>
             <div
-              class="sc-cMljjf dOfBkb"
+              class="CaseHeader__Tag-i46oib-6 pwCzF"
             >
               Vue
             </div>
           </div>
         </div>
         <div
-          class="sc-jAaTju gPDFYk"
+          class="CaseHeader__CaseImage-i46oib-7 cwQkDt"
         >
           <img
-            class="sc-cvbbAY imXRdJ"
             alt=""
             src="//images.ctfassets.net/rj4r6yfcesw5/4cWj2fKl3GOQgSKss0IW0q/0b2322470ffb780b925c8e446e745540/af-cropped-by-aeo.png"
+            class="CaseHeader__ProjectImage-i46oib-3 inDYdL"
           />
         </div>
       </div>
     </div>
   </div>
   <div
-    class="sc-jDwBTQ edDvhX"
+    class="CaseHeader__CaseImageMobile-i46oib-8 bQjXos"
   >
     <img
-      class="sc-cvbbAY imXRdJ"
       alt=""
       src="//images.ctfassets.net/rj4r6yfcesw5/4cWj2fKl3GOQgSKss0IW0q/0b2322470ffb780b925c8e446e745540/af-cropped-by-aeo.png"
+      class="CaseHeader__ProjectImage-i46oib-3 inDYdL"
     />
   </div>
   <div
-    class="sc-iwsKbI cTexZb"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
   >
     <div
-      class="sc-gzVnrw jfvayO"
       data-test="breadcrumbs"
+      class="PaddedRow-sc-13wt5gj-0 sc-bdVaJa gvAEMW"
     >
       <a>
         <span
-          class="sc-htoDjs hjXPuh"
+          class="Breadcrumbs__StyledSpan-sc-1ajw33n-0 bBBcLz"
         >
           Case
         </span>
@@ -150,26 +150,26 @@ exports[`components/Case renders Case 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               En ny digital tjänst
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>
@@ -186,26 +186,26 @@ exports[`components/Case renders Case 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Process
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>
@@ -218,19 +218,19 @@ exports[`components/Case renders Case 1`] = `
       </div>
     </div>
     <div
-      class="sc-eNQAEJ dYClUO sc-dnqmqq eCKktF"
       data-test="block-"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-ifAKCX jRMFYW"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-hMqMXs bQbgLN"
+          class="Quote__ActualQuote-sc-1t3qoo6-0 caUjjr"
         >
           ""We feel that our crew at Iteam are more colleagues than suppliers. Rather than specifying a tech spec to work on, we collaborate, carefully chiseling out functionality as we go along. This way of working has minimized waste and it has also taken us further than we ever imagined”"
         </div>
         <div
-          class="sc-kEYyzF cCpZHU"
+          class="Quote__Person-sc-1t3qoo6-1 gOYqcc"
         >
           Anna Andersson, chef Arbetsförmedlingen
         </div>
@@ -241,26 +241,26 @@ exports[`components/Case renders Case 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Utveckling
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>
@@ -277,26 +277,26 @@ exports[`components/Case renders Case 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Arbetsförmedlingen
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>
@@ -313,26 +313,26 @@ exports[`components/Case renders Case 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Samarbetspartners
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>
@@ -353,26 +353,26 @@ exports[`components/Case renders Case 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Presskontakt
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <ul>
@@ -394,62 +394,62 @@ exports[`components/Case renders Case 1`] = `
       </div>
     </div>
     <div
-      class="sc-kpOJdX ePujIJ"
       data-test="block-"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bxivhb bopLEv"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <h3
-          class="sc-bwzfXH kgEpTV"
+          class="H3-sc-1kpkcxu-0 hpTLhF"
         >
           Tekniker vi använt
         </h3>
         <div
-          class="sc-dxgOiQ cXONLV"
+          class="Frameworks__FrameworksWrap-qcim0a-0 cTevWf"
         >
           <div
-            class="sc-ckVGcZ hZNtaK"
+            class="Frameworks__Framework-qcim0a-1 gKQzeM"
           >
             <img
-              class="sc-jKJlTe WPpbf"
               src="https://images.ctfassets.net/rj4r6yfcesw5/3ipy8GBepacEyeKM0weI0i/39509f189b3f80400357320c6def15ad/docker.png"
+              class="Frameworks__FrameworkIcon-qcim0a-2 eJpXWR"
             />
             Docker
           </div>
           <div
-            class="sc-ckVGcZ hZNtaK"
+            class="Frameworks__Framework-qcim0a-1 gKQzeM"
           >
             <img
-              class="sc-jKJlTe WPpbf"
               src="https://images.ctfassets.net/rj4r6yfcesw5/6Khn8L48laAoQuCkaouyQG/08e4cf1fe02bd945c23807d5a8f29e87/react.png"
+              class="Frameworks__FrameworkIcon-qcim0a-2 eJpXWR"
             />
             React
           </div>
           <div
-            class="sc-ckVGcZ hZNtaK"
+            class="Frameworks__Framework-qcim0a-1 gKQzeM"
           >
             <img
-              class="sc-jKJlTe WPpbf"
               src="https://images.ctfassets.net/rj4r6yfcesw5/5EBgyxee0oiGqqOmAEmAUq/af8d1ae7d3d578197205205b2c33e8ff/Vue.png"
+              class="Frameworks__FrameworkIcon-qcim0a-2 eJpXWR"
             />
             Vue
           </div>
           <div
-            class="sc-ckVGcZ hZNtaK"
+            class="Frameworks__Framework-qcim0a-1 gKQzeM"
           >
             <img
-              class="sc-jKJlTe WPpbf"
               src="https://images.ctfassets.net/rj4r6yfcesw5/3CIQ81A1M4EueKkYA8YgMY/ff59095490dd17d1ab74282447e0a213/nodejs.png"
+              class="Frameworks__FrameworkIcon-qcim0a-2 eJpXWR"
             />
             NodeJS
           </div>
           <div
-            class="sc-ckVGcZ hZNtaK"
+            class="Frameworks__Framework-qcim0a-1 gKQzeM"
           >
             <img
-              class="sc-jKJlTe WPpbf"
               src="https://images.ctfassets.net/rj4r6yfcesw5/4RmR16im884ykaUgEaiscA/411607987ba022b96e9a29d000821aef/mandrill.png"
+              class="Frameworks__FrameworkIcon-qcim0a-2 eJpXWR"
             />
             Mandrill
           </div>
@@ -458,4 +458,4 @@ exports[`components/Case renders Case 1`] = `
     </div>
   </div>
 </div>
-`;
+`

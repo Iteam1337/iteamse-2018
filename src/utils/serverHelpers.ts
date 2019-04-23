@@ -32,7 +32,7 @@ export const checkForRedirect = (path: string) => {
     '/cases/tsab',
     '/cases/vimla',
     '/news',
-    '/ms'
+    '/ms',
   ]
   if (
     oldPaths.includes(path) ||
@@ -71,7 +71,7 @@ export const handlePaths = (path: string) => {
     case '/operations/sv':
       return '/ops'
     case '/ai':
-      return '/erbjudanden/ai'
+      return '/erbjudanden'
     case '/cases/tsab':
       return '/case/tsab'
     case '/cases/vimla':

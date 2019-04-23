@@ -14,22 +14,25 @@ interface BlockProps {
 
 const Content = styled.div`
   display: grid;
+  grid-row-gap: 10px;
 
   @media (min-width: 1025px) {
     grid-column-gap: 60px;
     grid-template-columns: 320px 1fr;
   }
 
-  ${({ theme }) => theme.browsers.ie10Or11(`
+  ${({ theme }) =>
+    theme.browsers.ie10Or11(`
     display: flex;
-  `)}
+  `)};
 `
 
 const TitleWrap = styled.div`
-  ${({ theme }) => theme.browsers.ie10Or11(`
+  ${({ theme }) =>
+    theme.browsers.ie10Or11(`
     flex-basis: 30%;
     margin-right: 60px;
-  `)}
+  `)};
 `
 
 const Subtitle = styled.div`
@@ -41,9 +44,10 @@ const Text = styled.div`
   font-weight: 300;
   line-height: 31px;
 
-  ${({ theme }) => theme.browsers.ie10Or11(`
+  ${({ theme }) =>
+    theme.browsers.ie10Or11(`
     flex: 1;
-  `)}
+  `)};
 `
 
 const Block: React.SFC<BlockProps> = ({
