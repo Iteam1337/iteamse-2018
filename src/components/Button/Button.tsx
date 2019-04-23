@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import styled, { Theme, withProps } from '../../theme'
+import styled, { Theme } from '../../theme'
 
 const Button = styled(Link)`
   background-color: ${({ theme }) => theme.colors.radicalRed};
@@ -36,7 +36,10 @@ const getAccentColour = (theme: Theme, color: AccentColor): string => {
   }
 }
 
-const SecondaryButton = withProps<SecondaryButtonProps>()(styled.button)`
+const SecondaryButton =
+  styled.button <
+  SecondaryButtonProps >
+  `
   background-color: ${({ theme, color }) => getAccentColour(theme, color)};
   border: 1px solid ${({ theme, color }) => getAccentColour(theme, color)};
   border-radius: 5px;

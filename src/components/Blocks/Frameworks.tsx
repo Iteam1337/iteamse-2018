@@ -10,7 +10,7 @@ interface FrameworksProps {
   title: string
 }
 
-const Wrap = GridColumnClean.extend`
+const Wrap = styled(GridColumnClean)`
   background-color: ${({ theme }) => theme.colors.alabaster};
   grid-column: -1 / 1;
   padding-bottom: 100px;
@@ -58,23 +58,23 @@ const getFrameworkIconUrl = (icon: string) => {
   const images = {
     '.net core':
       'https://images.ctfassets.net/rj4r6yfcesw5/7kXFrkHsXeg2so8Uk6AYMQ/eee0016885250e0091ece79321692621/netcore.png',
-    "angular":
+    'angular':
       'https://images.ctfassets.net/rj4r6yfcesw5/2wha2JlrsIcQG6U8AqO4AG/549dd8cebb672517592aece9c0690c0c/angular.png',
-    "aws":
+    'aws':
       'https://images.ctfassets.net/rj4r6yfcesw5/2pfNGDxhuEMOwwKW2oECI8/a623d94b7b70a69cc282d164c883c9a0/aws.png',
-    "docker":
+    'docker':
       'https://images.ctfassets.net/rj4r6yfcesw5/3ipy8GBepacEyeKM0weI0i/39509f189b3f80400357320c6def15ad/docker.png',
-    "elasticsearch":
+    'elasticsearch':
       'https://images.ctfassets.net/rj4r6yfcesw5/jmeL3zsuukSESmaC8YAW0/d5ba2837791378cf7043c569eba1dae3/elasticsearch.png',
-    "graphql":
+    'graphql':
       'https://images.ctfassets.net/rj4r6yfcesw5/KaXjqfppMi0E0qOOuqwc8/a5574ea7cfcfa42c69f45761e0e0e914/graphQL.png',
-    "jasmine":
+    'jasmine':
       'https://images.ctfassets.net/rj4r6yfcesw5/4UL58bFxM4AOkq02yUiqIC/2c0b2966497c8f6bb11d3f64a543d0cb/jasmine.png',
-    "jest":
+    'jest':
       'https://images.ctfassets.net/rj4r6yfcesw5/1Lco5Lr8s4624Ik0SCsO80/783d4222502a5fe5189a0e6037d0ab38/jest.png',
-    "mandrill":
+    'mandrill':
       'https://images.ctfassets.net/rj4r6yfcesw5/4RmR16im884ykaUgEaiscA/411607987ba022b96e9a29d000821aef/mandrill.png',
-    "metabase":
+    'metabase':
       'https://images.ctfassets.net/rj4r6yfcesw5/5wKyIIwpFYgcYYSKcgYucq/705d6135de1724c3d49091b6c3558fac/metabase.png',
     'nodejs':
       'https://images.ctfassets.net/rj4r6yfcesw5/3CIQ81A1M4EueKkYA8YgMY/ff59095490dd17d1ab74282447e0a213/nodejs.png',

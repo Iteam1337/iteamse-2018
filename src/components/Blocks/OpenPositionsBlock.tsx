@@ -19,7 +19,7 @@ interface OpenPositionsBlockProps {
   title: string
 }
 
-const ColoredGridColumn = GridColumn.extend`
+const ColoredGridColumn = styled(GridColumn)`
   background-color: ${({ theme }) => theme.colors.alabaster};
 `
 
