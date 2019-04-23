@@ -77,7 +77,7 @@ const OffersGridColumn = styled(GridColumn)`
   grid-row-gap: 60px;
 
   :nth-child(odd) {
-    background-color: ${({ theme }) => theme.colors.concrete};
+    background-color: ${({ theme }) => theme.colors.alabaster};
   }
 `
 
