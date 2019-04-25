@@ -36,7 +36,7 @@ const Fieldset = styled.section`
   display: grid;
   grid-auto-columns: auto;
   grid-gap: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 
   @media (min-width: 1025px) {
     margin-top: 48px;
@@ -75,7 +75,7 @@ const MessageSentWrap = styled.div`
 
 class ContactQuery extends Query<ContactPageQuery> {}
 
-export class Operations extends React.Component {
+export class Contact extends React.Component {
   state = {
     messageSent: false,
   }
@@ -113,7 +113,6 @@ export class Operations extends React.Component {
               <GridColumn>
                 <Block title={pageContact.descriptionTitle}>
                   {pageContact.descriptionText}
-
                   <ContactWrap>
                     {this.state.messageSent ? (
                       <MessageSentWrap>
@@ -133,12 +132,7 @@ export class Operations extends React.Component {
                           <ContactInput type="email" placeholder="E-post" />
                           <ContactTextArea placeholder="Meddelande" />
                         </Fieldset>
-                        <SecondaryButton
-                          color="primary"
-                          onClick={this.handleMessageSubmit}
-                        >
-                          Skicka meddelande
-                        </SecondaryButton>
+                        <SecondaryButton>Skicka meddelande</SecondaryButton>
                       </>
                     )}
                   </ContactWrap>
@@ -161,4 +155,4 @@ export class Operations extends React.Component {
   }
 }
 
-export default Operations
+export default Contact

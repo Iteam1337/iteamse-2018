@@ -4,74 +4,76 @@ exports[`components/Contact renders Contact Us 1`] = `
 <div>
   <div>
     <div
-      class="sc-kIPQKe kMxSKn"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-eHgmQL NqLxi"
     >
       <div
-        class="sc-eXEjpC fMVgDL"
+        class="Header__Content-sc-1ofdv2r-0 limgqW"
       >
         <div
-          class="sc-gzOgki ipvQIy"
+          class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
         >
           <a
-            class="sc-iyvyFf gbVIVA"
+            class="sc-kkGfuU PdfaT"
           >
             <img
-              class="sc-hwwEjo iMKlgE"
               data-testid="logo"
               path="test-file-stub"
+              class="sc-iAyFgw jRKeOl"
             />
           </a>
           <div
-            class="sc-kPVwWT iGguRZ"
+            class="Navigation__NavigationItems-sc-1i56sr4-2 ewwCML"
           >
             <a
-              class="sc-esjQYD eLRVk"
+              class="sc-hSdWYo mcbNV"
               aria-current="false"
             >
-              Case
+              Erbjudanden
             </a>
             <a
-              class="sc-esjQYD eLRVk"
+              class="sc-hSdWYo mcbNV"
               aria-current="false"
             >
-              AI
+              Våra case
             </a>
             <a
-              class="sc-esjQYD eLRVk"
+              class="sc-hSdWYo mcbNV"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-esjQYD eLRVk"
+              class="sc-hSdWYo mcbNV"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-esjQYD eLRVk"
+              class="sc-hSdWYo mcbNV"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-esjQYD eLRVk"
+              class="sc-hSdWYo mcbNV"
               aria-current="false"
             >
               Om
             </a>
             <div
-              class="sc-kfGgVZ hzXCUz"
+              class="Navigation__Indicator-sc-1i56sr4-1 Vplmv"
             />
           </div>
         </div>
         <div
-          class="sc-ibxdXY byXtiU"
+          class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="sc-RefOD kzZhha"
+            class="H1-sc-1k64xg2-0 sc-cvbbAY dIpdkm"
           >
-            <span>
+            <span
+              class="Header__MessageLine-sc-1ofdv2r-2 hcZgwB"
+            >
               Hör av dig till oss
             </span>
           </h1>
@@ -80,58 +82,57 @@ exports[`components/Contact renders Contact Us 1`] = `
     </div>
   </div>
   <div
-    class="sc-iwsKbI cTexZb"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
   >
     <div
       class="react-reveal"
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Samarbete
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             Är du redo att ta klivet ut i digitaliseringens värld? Är du nyfiken på vad vi kan åstadkomma tillsammans? Oavsett vilka utmaningar du står inför är vill vi gärna höra mer om er affär. Sväng förbi vårat kontor i Stockholm eller Göteborg så bjuder vi på en kopp kaffe och diskuterar er väg framåt.
             <div
-              class="sc-kjoXOD eNpflp"
+              class="Contact__ContactWrap-m5zxr6-1 AbDjM"
             >
               <section
-                class="sc-gisBJw ekGtLS"
+                class="Contact__Fieldset-m5zxr6-0 bSTaT"
               >
                 <input
-                  class="sc-cHGsZl iExBWF sc-fMiknA kTxQqO"
                   type="text"
                   placeholder="Ditt namn"
+                  class="Input-fzgg5-0 sc-gqjmRU jXOtSE"
                 />
                 <input
-                  class="sc-cHGsZl iExBWF sc-fMiknA kTxQqO"
                   type="email"
                   placeholder="E-post"
+                  class="Input-fzgg5-0 sc-gqjmRU jXOtSE"
                 />
                 <textarea
-                  class="sc-TOsTZ kEWrLb sc-eqIVtm hFcKOJ sc-dVhcbM cFOyEl"
                   placeholder="Meddelande"
+                  class="Input-fzgg5-0-textarea sc-dnqmqq sc-VigVT dQxlPQ"
                 />
               </section>
               <button
-                class="sc-fBuWsC dBCrku"
-                color="primary"
+                class="Button__SecondaryButton-sc-11pjqxt-0 ekObxq"
               >
-                Skicka
+                Skicka meddelande
               </button>
             </div>
           </div>
@@ -143,26 +144,26 @@ exports[`components/Contact renders Contact Us 1`] = `
       style="opacity: 1;"
     >
       <div
-        class="sc-bdVaJa fGzlqx"
         data-test="block-"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="sc-bxivhb cjRyOF"
+          class="Block__Content-unfn3n-0 cIXgTw"
         >
           <div
-            class="sc-ifAKCX fTHWMI"
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
           >
             <h3
-              class="sc-bwzfXH kgEpTV"
+              class="H3-sc-1kpkcxu-0 hpTLhF"
             >
               Karriär
             </h3>
           </div>
           <div
-            class="sc-bZQynM fQTIXp"
+            class="Block__Text-unfn3n-3 hyeDUp"
           >
             <div
-              class="sc-htpNat bkGJgg"
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
             >
               <div>
                 <p>

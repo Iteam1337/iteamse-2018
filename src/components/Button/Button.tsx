@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import styled, { Theme } from '../../theme'
+import styled from '../../theme'
 
 const Button = styled(Link)`
   background-color: ${({ theme }) => theme.colors.radicalRed};
@@ -22,37 +22,19 @@ const Button = styled(Link)`
   }
 `
 
-type AccentColor = 'primary' | 'default' | undefined
-interface SecondaryButtonProps {
-  color?: AccentColor
-}
-
-const getAccentColour = (theme: Theme, color: AccentColor): string => {
-  switch (color) {
-    case 'primary':
-      return theme.colors.cornflowerBlue
-    default:
-      return '#fff'
-  }
-}
-
-const SecondaryButton =
-  styled.button <
-  SecondaryButtonProps >
-  `
-  background-color: ${({ theme, color }) => getAccentColour(theme, color)};
-  border: 1px solid ${({ theme, color }) => getAccentColour(theme, color)};
+const SecondaryButton = styled.button`
+  background-color: ${({ theme }) => theme.colors.white};
+  border: 1px solid #000;
   border-radius: 5px;
-  color: #fff;
+  color: #000;
   cursor: pointer;
   font-size: 18px;
   font-family: inherit;
   outline: none;
-  padding: 12px 72px;
+  padding: 12px 44px;
   transition-property: background-color, border-color, color;
   transition-timing-function: ease-in-out;
   transition-duration: 150ms;
-  width: 100%;
 
   &:hover {
   }
