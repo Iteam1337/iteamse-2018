@@ -6,7 +6,7 @@ import { ContactPageQuery } from '../../typings/iteamse'
 import Block from '../components/Blocks/Block'
 import { SecondaryButton } from '../components/Button/Button'
 import GridColumn from '../components/Grid/GridColumn'
-import Header from '../components/Header/Header'
+import ContactHeader from '../components/Header/ContactHeader'
 import Input, { TextArea } from '../components/Input/Input'
 import Link from '../components/Link/Link'
 import Team from '../components/Team/Team'
@@ -103,12 +103,7 @@ export class Contact extends React.Component {
                 <meta property="og:title" content="Iteam | Kontakt" />
                 <meta property="twitter:title" content="Iteam | Kontakt" />
               </Helmet>
-              <Header
-                backgroundImage={pageContact.headerImage}
-                messageBgColor={pageContact.headerTextBgColor}
-                messageOne={pageContact.headerText1}
-                messageTwo={pageContact.headerText2}
-              />
+              <ContactHeader />
 
               <GridColumn>
                 <Block title={pageContact.descriptionTitle}>

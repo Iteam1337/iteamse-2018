@@ -23,7 +23,7 @@ const Button = styled(Link)`
 `
 
 const SecondaryButton = styled.button`
-  background-color: ${({ theme }) => theme.colors.white};
+  background-color: #ffffff;
   border: 1px solid #000;
   border-radius: 5px;
   color: #000;

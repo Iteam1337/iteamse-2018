@@ -1,4 +1,5 @@
-import * as React from 'react'
+/* tslint:disable */
+import React from 'react'
 import { withApollo, WithApolloClient } from 'react-apollo'
 import { Link, NavLink } from 'react-router-dom'
 import SVG from 'react-svg'
