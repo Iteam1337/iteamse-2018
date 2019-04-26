@@ -17,6 +17,19 @@ import messageSentImage from './img/heart-emoji.svg'
 
 export const CONTACT_PAGE_QUERY = gql`
   query ContactPage {
+    addresses {
+      address1
+      city
+      contactMail
+      contactPhone
+      mapLocation {
+        lat
+        lon
+      }
+      orgNumber
+      title
+      zip
+    }
     pageContact {
       headerImage
       headerText1
@@ -94,7 +107,7 @@ export class Contact extends React.Component {
             return null
           }
 
-          const { pageContact } = data
+          const { pageContact, addresses } = data
 
           return (
             <>
@@ -103,7 +116,7 @@ export class Contact extends React.Component {
                 <meta property="og:title" content="Iteam | Kontakt" />
                 <meta property="twitter:title" content="Iteam | Kontakt" />
               </Helmet>
-              <ContactHeader />
+              <ContactHeader addresses={addresses} />
 
               <GridColumn>
                 <Block title={pageContact.descriptionTitle}>

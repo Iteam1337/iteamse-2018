@@ -1,3 +1,4 @@
+import L from 'leaflet'
 import React from 'react'
 import LazyLoad from 'react-lazyload'
 import { Map, Marker, TileLayer } from 'react-leaflet'
@@ -16,38 +17,7 @@ const Wrap = styled(GridColumnClean)`
   }
 `
 
-const MapNavButton =
-  styled(SecondaryButton) <
-  { isActive: boolean } >
-  `
-  background-color: ${({ theme, isActive }) =>
-    isActive ? theme.colors.cornflowerBlue : theme.colors.alabaster};
-  border-color: #E8E8E8;
-  border-radius: 0;
-  color: ${({ isActive }) => (isActive ? '#ffffff' : '#000000')};
-  font-size: 14px;
-  padding: 12px 34px;
-
-  &:first-child {
-    border-radius: 3px 0 0 3px;
-  }
-
-  &:last-child {
-    border-radius: 0 3px 3px 0;
-  }
-
-  @media (min-width: 481px) {
-    font-size: 16px;
-    padding: 12px 44px;
-  }
-`
-
 export const Content = styled.div`
-  background-image: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.3),
-    rgba(0, 0, 0, 0) 100px
-  );
   display: grid;
   grid-column: -1 / 1;
   grid-template-rows: auto 1fr;
@@ -59,7 +29,7 @@ export const Content = styled.div`
   }
 `
 
-const MapNav = styled.div`
+const LocationNavigation = styled.div`
   align-self: flex-end;
   grid-column: 2;
   grid-row: 2;
@@ -72,7 +42,6 @@ const MapNav = styled.div`
 
 const MapWrapper = styled(Map)`
   bottom: 0;
-  filter: grayscale(100%);
   grid-column: 1 / -1;
   left: 0;
   position: absolute;
@@ -81,34 +50,75 @@ const MapWrapper = styled(Map)`
   z-index: 1;
 `
 
-const DisplayMap = ({ coords }: { coords: [number, number] }) => (
-  <MapWrapper center={coords} zoom={15} zoomControl={false}>
-    <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-    <Marker position={coords} />
+const StyledTileLayer = styled(TileLayer)`
+  filter: grayscale(100%);
+`
+
+const LocationButton =
+  styled(SecondaryButton) <
+  { isActive: boolean } >
+  `
+  background-color: ${({ theme, isActive }) =>
+    isActive ? theme.colors.cornflowerBlue : theme.colors.alabaster};
+  border-color: #E8E8E8;
+  border-radius: 0;
+  color: ${({ isActive }) => (isActive ? '#ffffff' : '#000000')};
+  font-size: 14px;
+  padding: 10px 24px;
+
+  &:first-child {
+    border-radius: 3px 0 0 3px;
+  }
+
+  &:last-child {
+    border-radius: 0 3px 3px 0;
+  }
+
+  @media (min-width: 481px) {
+    font-size: 16px;
+    padding: 14px 34px;
+  }
+`
+
+const markerIcon = L.icon({
+  iconSize: L.point(60, 73),
+  iconUrl: require('./img/marker-icon.png'),
+})
+
+const LocationMap = ({ coords }: { coords: [number, number] }) => (
+  <MapWrapper center={coords} zoom={18} zoomControl={false}>
+    <StyledTileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+    <Marker icon={markerIcon} position={coords} />
   </MapWrapper>
 )
 
-interface MapLocation {
-  coords: [number, number]
-  name: 'Stockholm' | 'Göteborg'
+type Address = {
+  address1: string
+  city: string
+  contactMail: string
+  contactPhone: string
+  mapLocation: {
+    lat: number
+    lon: number
+  }
+  title: string
+  zip: string
 }
 
-const Stockholm: MapLocation = {
-  coords: [59.3439169, 18.0672357],
-  name: 'Stockholm',
+interface ContactHeaderProps {
+  addresses: Address[]
 }
 
-const Gothenburg: MapLocation = {
-  coords: [57.7001628, 11.9725684],
-  name: 'Göteborg',
+interface ContactHeaderState {
+  currentLocation: Address
 }
 
-class Header extends React.Component {
+class Header extends React.Component<ContactHeaderProps, ContactHeaderState> {
   state = {
-    currentLocation: Stockholm,
+    currentLocation: this.props.addresses[0],
   }
 
-  setCoords = (location: MapLocation) =>
+  setLocation = (location: Address) =>
     this.setState({
       currentLocation: location,
     })
@@ -119,24 +129,25 @@ class Header extends React.Component {
     return (
       <LazyLoad height={700} once>
         <Wrap>
-          <DisplayMap coords={currentLocation.coords} />
+          <LocationMap
+            coords={[
+              currentLocation.mapLocation.lat,
+              currentLocation.mapLocation.lon,
+            ]}
+          />
           <Content>
             <Navigation isInverted noShadow />
-            <MapNav>
-              <MapNavButton
-                isActive={currentLocation === Stockholm}
-                onClick={() => this.setCoords(Stockholm)}
-              >
-                {Stockholm.name}
-              </MapNavButton>
-
-              <MapNavButton
-                isActive={currentLocation === Gothenburg}
-                onClick={() => this.setCoords(Gothenburg)}
-              >
-                {Gothenburg.name}
-              </MapNavButton>
-            </MapNav>
+            <LocationNavigation>
+              {this.props.addresses.map(address => (
+                <LocationButton
+                  key={address.city}
+                  isActive={currentLocation.city === address.city}
+                  onClick={() => this.setLocation(address)}
+                >
+                  {address.city}
+                </LocationButton>
+              ))}
+            </LocationNavigation>
           </Content>
         </Wrap>
       </LazyLoad>

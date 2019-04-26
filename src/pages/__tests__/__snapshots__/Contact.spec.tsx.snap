@@ -4,58 +4,140 @@ exports[`components/Contact renders Contact Us 1`] = `
 <div>
   <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-eHgmQL NqLxi"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-dnqmqq ezKdmT"
     >
       <div
-        class="Header__Content-sc-1ofdv2r-0 limgqW"
+        class="sc-iwsKbI jnvSkI leaflet-container leaflet-grab leaflet-touch-drag"
+        style="position: relative;"
+        tabindex="0"
+      >
+        <div
+          class="leaflet-pane leaflet-map-pane"
+          style="left: 0px; top: 0px;"
+        >
+          <div
+            class="leaflet-pane leaflet-tile-pane"
+          >
+            <div
+              class="leaflet-layer sc-gZMcBi swJin"
+              style="z-index: 1;"
+            >
+              <div
+                class="leaflet-tile-container leaflet-zoom-animated"
+                style="left: 0px; top: 0px;"
+              >
+                <img
+                  alt=""
+                  role="presentation"
+                  src="https://a.tile.openstreetmap.org/18/144229/77072.png"
+                  class="leaflet-tile"
+                  style="width: 256px; height: 256px; left: -193px; top: -175px;"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="leaflet-pane leaflet-shadow-pane"
+          />
+          <div
+            class="leaflet-pane leaflet-overlay-pane"
+          />
+          <div
+            class="leaflet-pane leaflet-marker-pane"
+          >
+            <img
+              src="test-file-stub"
+              class="leaflet-marker-icon leaflet-zoom-hide leaflet-interactive"
+              style="margin-left: -30px; margin-top: -36.5px; width: 60px; height: 73px; left: 0px; top: 0px; z-index: 0;"
+              alt=""
+              tabindex="0"
+            />
+          </div>
+          <div
+            class="leaflet-pane leaflet-tooltip-pane"
+          />
+          <div
+            class="leaflet-pane leaflet-popup-pane"
+          />
+        </div>
+        <div
+          class="leaflet-control-container"
+        >
+          <div
+            class="leaflet-top leaflet-left"
+          />
+          <div
+            class="leaflet-top leaflet-right"
+          />
+          <div
+            class="leaflet-bottom leaflet-left"
+          />
+          <div
+            class="leaflet-bottom leaflet-right"
+          >
+            <div
+              class="leaflet-control-attribution leaflet-control"
+            >
+              <a
+                href="http://leafletjs.com"
+                title="A JS library for interactive maps"
+              >
+                Leaflet
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ContactHeader__Content-sc-1yzki2w-0 iPUpGZ"
       >
         <div
           class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
         >
           <a
-            class="sc-kkGfuU PdfaT"
+            class="sc-cvbbAY dhRuSr"
           >
             <img
               data-testid="logo"
               path="test-file-stub"
-              class="sc-iAyFgw jRKeOl"
+              class="sc-jWBwVP jxyVEp"
             />
           </a>
           <div
-            class="Navigation__NavigationItems-sc-1i56sr4-2 ewwCML"
+            class="Navigation__NavigationItems-sc-1i56sr4-2 jEIEGu"
           >
             <a
-              class="sc-hSdWYo mcbNV"
+              class="sc-brqgnP ejUSoY"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-hSdWYo mcbNV"
+              class="sc-brqgnP ejUSoY"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-hSdWYo mcbNV"
+              class="sc-brqgnP ejUSoY"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-hSdWYo mcbNV"
+              class="sc-brqgnP ejUSoY"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-hSdWYo mcbNV"
+              class="sc-brqgnP ejUSoY"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-hSdWYo mcbNV"
+              class="sc-brqgnP ejUSoY"
               aria-current="false"
             >
               Om
@@ -66,17 +148,18 @@ exports[`components/Contact renders Contact Us 1`] = `
           </div>
         </div>
         <div
-          class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
+          class="ContactHeader__LocationNavigation-sc-1yzki2w-1 fPxAeA"
         >
-          <h1
-            class="H1-sc-1k64xg2-0 sc-cvbbAY dIpdkm"
+          <button
+            class="Button__SecondaryButton-sc-11pjqxt-0 sc-gqjmRU gsOsEG"
           >
-            <span
-              class="Header__MessageLine-sc-1ofdv2r-2 hcZgwB"
-            >
-              Hör av dig till oss
-            </span>
-          </h1>
+            Stockholm
+          </button>
+          <button
+            class="Button__SecondaryButton-sc-11pjqxt-0 sc-gqjmRU kVVKNe"
+          >
+            Göteborg
+          </button>
         </div>
       </div>
     </div>
@@ -117,20 +200,20 @@ exports[`components/Contact renders Contact Us 1`] = `
                 <input
                   type="text"
                   placeholder="Ditt namn"
-                  class="Input-fzgg5-0 sc-gqjmRU jXOtSE"
+                  class="Input-fzgg5-0 sc-jzJRlG ghkPch"
                 />
                 <input
                   type="email"
                   placeholder="E-post"
-                  class="Input-fzgg5-0 sc-gqjmRU jXOtSE"
+                  class="Input-fzgg5-0 sc-jzJRlG ghkPch"
                 />
                 <textarea
                   placeholder="Meddelande"
-                  class="Input-fzgg5-0-textarea sc-dnqmqq sc-VigVT dQxlPQ"
+                  class="Input-fzgg5-0-textarea sc-VigVT sc-cSHVUG jYnsRi"
                 />
               </section>
               <button
-                class="Button__SecondaryButton-sc-11pjqxt-0 ekObxq"
+                class="Button__SecondaryButton-sc-11pjqxt-0 cELpxG"
               >
                 Skicka meddelande
               </button>

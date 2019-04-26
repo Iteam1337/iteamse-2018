@@ -4,7 +4,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
 <div>
   <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-eHgmQL hYnWIR"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-cMljjf hOUuBi"
     >
       <div
         class="Header__Content-sc-1ofdv2r-0 limgqW"
@@ -13,49 +13,49 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
           class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
         >
           <a
-            class="sc-kkGfuU PdfaT"
+            class="sc-cvbbAY dhRuSr"
           >
             <img
               data-testid="logo"
               path="test-file-stub"
-              class="sc-iAyFgw jRKeOl"
+              class="sc-jWBwVP jxyVEp"
             />
           </a>
           <div
-            class="Navigation__NavigationItems-sc-1i56sr4-2 ewwCML"
+            class="Navigation__NavigationItems-sc-1i56sr4-2 jieJqQ"
           >
             <a
-              class="sc-hSdWYo mcbNV"
+              class="sc-brqgnP ejUSoY"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-hSdWYo mcbNV"
+              class="sc-brqgnP ejUSoY"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-hSdWYo mcbNV"
+              class="sc-brqgnP ejUSoY"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-hSdWYo mcbNV"
+              class="sc-brqgnP ejUSoY"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-hSdWYo mcbNV"
+              class="sc-brqgnP ejUSoY"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-hSdWYo mcbNV"
+              class="sc-brqgnP ejUSoY"
               aria-current="false"
             >
               Om
@@ -69,7 +69,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
           class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="H1-sc-1k64xg2-0 sc-cvbbAY fiCoLS"
+            class="H1-sc-1k64xg2-0 sc-jAaTju iTTMQC"
           >
             <span
               class="Header__MessageLine-sc-1ofdv2r-2 hcZgwB"
@@ -170,7 +170,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
     style="opacity: 1;"
   >
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH sc-cSHVUG kGiacQ"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH sc-kGXeez ekbFjj"
     >
       <div
         data-test="block-"
@@ -188,14 +188,14 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
               Just nu söker vi
             </h3>
             <ul
-              class="UnstyledList-r59lsu-0 sc-kAzzGY jmXFdh"
+              class="UnstyledList-r59lsu-0 sc-kpOJdX kmQqdS"
             >
               <li
                 class="OpenPositionsBlock__OpenPosition-sc-4d7r1m-3 bFAhdk"
               >
                 <a
                   black="0"
-                  class="sc-iwsKbI iXjmUM"
+                  class="sc-jTzLTM YZUPv"
                 >
                   Junior UX Designer
                 </a>
