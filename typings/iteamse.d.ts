@@ -108,6 +108,37 @@ export interface CasesPageQuery {
   } | null >,
 };
 
+export interface ContactPageQuery {
+  addresses:  Array< {
+    __typename: "Address",
+    address1: string,
+    city: string,
+    contactMail: string,
+    contactPhone: string,
+    mapLocation:  {
+      __typename: "MapLocation",
+      lat: number,
+      lon: number,
+    },
+    orgNumber: string,
+    title: string,
+    zip: string,
+  } >,
+  pageContact:  {
+    __typename: "PageContact",
+    headerImage: string | null,
+    headerText1: string | null,
+    headerText2: string | null,
+    headerTextBgColor: string | null,
+    descriptionTitle: string,
+    descriptionText: string,
+    workTitle: string,
+    workText: string,
+    team: Array< string > | null,
+    contactTitle: string,
+  },
+};
+
 export interface StartQuery {
   pageStart2019:  {
     __typename: "PageStart2019",

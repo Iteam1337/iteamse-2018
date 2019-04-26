@@ -14,13 +14,16 @@ interface QuoteWrapProps {
   backgroundColor?: string | null
 }
 
-const QuoteWrap = styled(GridColumnClean)<QuoteWrapProps>`
+const QuoteWrap =
+  styled(GridColumnClean) <
+  QuoteWrapProps >
+  `
   background-color: ${({ theme, backgroundColor }) =>
-    backgroundColor ? backgroundColor : theme.colors.concrete};
+    backgroundColor ? backgroundColor : theme.colors.alabaster};
   color: ${({ theme, backgroundColor }) =>
     backgroundColor
       ? contrastCheck(backgroundColor)
-      : contrastCheck(theme.colors.concrete)};
+      : contrastCheck(theme.colors.alabaster)};
   grid-column: -1 / 1;
   padding-bottom: 100px;
   padding-top: 100px;

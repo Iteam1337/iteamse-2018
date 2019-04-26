@@ -22,4 +22,22 @@ const Button = styled(Link)`
   }
 `
 
-export default Button
+const SecondaryButton = styled.button`
+  background-color: #ffffff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  color: #000;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: inherit;
+  outline: none;
+  padding: 12px 44px;
+  transition-property: background-color, border-color, color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 150ms;
+
+  &:hover {
+  }
+`
+
+export { Button as default, SecondaryButton }

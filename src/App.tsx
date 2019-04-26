@@ -7,6 +7,7 @@ import MobileMenu from './components/MobileMenu/MobileMenu'
 import About from './pages/About'
 import Case from './pages/Case'
 import Cases from './pages/Cases'
+import Contact from './pages/Contact'
 import Home from './pages/Home'
 import HowWeWork from './pages/HowWeWork'
 import Offers from './pages/Offers'
@@ -33,6 +34,7 @@ const App = () => (
       <Route exact path="/" component={Home} />
       <Route path="/om-oss" component={About} />
       <Route path="/hur-vi-jobbar" component={HowWeWork} />
+      <Route path="/kontakt" component={Contact} />
       <Route exact path="/medarbetare" component={Team} />
       <Route path="/medarbetare/:shortName" component={TeamMember} />
       <Route exact path="/case" component={Cases} />

@@ -2,9 +2,10 @@ import * as contrast from 'contrast'
 import * as styledComponents from 'styled-components'
 
 export interface Colors {
+  alabaster: '#FAFAFA'
   aquamarine: '#54FBAC'
-  concrete: '#F3F2F2'
   cornflowerBlue: '#668CFF'
+  emperor: '#555555'
   radicalRed: '#FF3B5C'
 }
 
@@ -42,9 +43,10 @@ export const browsers: Browsers = {
 }
 
 export const colors: Colors = {
+  alabaster: '#FAFAFA',
   aquamarine: '#54FBAC',
-  concrete: '#F3F2F2',
   cornflowerBlue: '#668CFF',
+  emperor: '#555555',
   radicalRed: '#FF3B5C',
 }
 

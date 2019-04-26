@@ -84,6 +84,9 @@ server
         res.send(`
           <!doctype html>
             <head>
+              <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+              integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+              crossorigin=""/>
               ${title.toString()}
               ${meta.toString()}
             </head>

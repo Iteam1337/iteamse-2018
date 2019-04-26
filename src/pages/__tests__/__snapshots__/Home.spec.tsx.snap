@@ -10,52 +10,52 @@ exports[`components/Home renders Home 1`] = `
         class="HomeHeader__HomeContent-sc-1c6wbiz-0 eXNtNJ"
       >
         <div
-          class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
+          class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
         >
           <a
-            class="sc-jKJlTe bIUarX"
+            class="sc-cvbbAY dhRuSr"
           >
             <img
               data-testid="logo"
               path="test-file-stub"
-              class="sc-eNQAEJ gYmRno"
+              class="sc-jWBwVP jxyVEp"
             />
           </a>
           <div
-            class="Navigation__NavigationItems-sc-1i56sr4-2 konLWw"
+            class="Navigation__NavigationItems-sc-1i56sr4-2 jEIEGu"
           >
             <a
-              class="sc-hMqMXs fILlfv"
+              class="sc-brqgnP ejUSoY"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-hMqMXs fILlfv"
+              class="sc-brqgnP ejUSoY"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-hMqMXs fILlfv"
+              class="sc-brqgnP ejUSoY"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-hMqMXs fILlfv"
+              class="sc-brqgnP ejUSoY"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-hMqMXs fILlfv"
+              class="sc-brqgnP ejUSoY"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-hMqMXs fILlfv"
+              class="sc-brqgnP ejUSoY"
               aria-current="false"
             >
               Om
@@ -72,7 +72,7 @@ exports[`components/Home renders Home 1`] = `
             class="HomeHeader__IntroWrap-sc-1c6wbiz-5 khmVhO"
           >
             <h1
-              class="H1-sc-1k64xg2-0 sc-iwsKbI cxdzLw"
+              class="H1-sc-1k64xg2-0 sc-kgoBCf csUxSe"
             >
               Hej! Vi är Iteam, en utvecklingbyrå som digitaliserar företag genom kod, kultur och strategi.
             </h1>
@@ -106,7 +106,7 @@ exports[`components/Home renders Home 1`] = `
               class="HomeHeader__Cloud-sc-1c6wbiz-3 jFyEcR"
             />
             <span
-              class="HomeHeader__Cloud-sc-1c6wbiz-3 sc-dnqmqq jFHNyJ"
+              class="HomeHeader__Cloud-sc-1c6wbiz-3 sc-chPdSV htYhbm"
             />
             <img
               src="test-file-stub"
@@ -269,7 +269,7 @@ exports[`components/Home renders Home 1`] = `
             </div>
             <a
               href="mailto:info@iteam.se"
-              class="sc-htoDjs ekgEfr"
+              class="sc-kAzzGY lmaPrw"
             >
               Kontakta oss
             </a>

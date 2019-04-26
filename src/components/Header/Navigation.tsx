@@ -1,9 +1,11 @@
-import * as React from 'react'
+/* tslint:disable */
+import React from 'react'
 import { withApollo, WithApolloClient } from 'react-apollo'
 import { Link, NavLink } from 'react-router-dom'
 import SVG from 'react-svg'
 import { ABOUT_PAGE_QUERY } from '../../pages/About'
 import { CASES_PAGE_QUERY } from '../../pages/Cases'
+import { CONTACT_PAGE_QUERY } from '../../pages/Contact'
 import { HOME_PAGE_QUERY } from '../../pages/Home'
 import { HOW_WE_WORK_PAGE_QUERY } from '../../pages/HowWeWork'
 import { OFFERS_PAGE_QUERY } from '../../pages/Offers'
@@ -32,6 +34,7 @@ const Wrap = styled.div`
     padding: 0;
   }
 
+  /* IE 11 */
   ${({ theme }) =>
     theme.browsers.ie10Or11(`
     display: flex;
@@ -189,6 +192,9 @@ export class Navigation extends React.Component<
         break
       case 'erbjudanden':
         query = OFFERS_PAGE_QUERY
+        break
+      case 'contact':
+        query = CONTACT_PAGE_QUERY
         break
       default:
         break

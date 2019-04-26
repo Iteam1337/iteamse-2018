@@ -4,58 +4,58 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
 <div>
   <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kEYyzF hnzAey"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-cMljjf hOUuBi"
     >
       <div
         class="Header__Content-sc-1ofdv2r-0 limgqW"
       >
         <div
-          class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
+          class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
         >
           <a
-            class="sc-jKJlTe bIUarX"
+            class="sc-cvbbAY dhRuSr"
           >
             <img
               data-testid="logo"
               path="test-file-stub"
-              class="sc-eNQAEJ gYmRno"
+              class="sc-jWBwVP jxyVEp"
             />
           </a>
           <div
-            class="Navigation__NavigationItems-sc-1i56sr4-2 gfiCRw"
+            class="Navigation__NavigationItems-sc-1i56sr4-2 jieJqQ"
           >
             <a
-              class="sc-hMqMXs fILlfv"
+              class="sc-brqgnP ejUSoY"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-hMqMXs fILlfv"
+              class="sc-brqgnP ejUSoY"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-hMqMXs fILlfv"
+              class="sc-brqgnP ejUSoY"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-hMqMXs fILlfv"
+              class="sc-brqgnP ejUSoY"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-hMqMXs fILlfv"
+              class="sc-brqgnP ejUSoY"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-hMqMXs fILlfv"
+              class="sc-brqgnP ejUSoY"
               aria-current="false"
             >
               Om
@@ -69,7 +69,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
           class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
         >
           <h1
-            class="H1-sc-1k64xg2-0 sc-kkGfuU hAhygW"
+            class="H1-sc-1k64xg2-0 sc-jAaTju iTTMQC"
           >
             <span
               class="Header__MessageLine-sc-1ofdv2r-2 hcZgwB"
@@ -170,14 +170,14 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
     style="opacity: 1;"
   >
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH sc-VigVT dGBwXY"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH sc-kGXeez ekbFjj"
     >
       <div
         data-test="block-"
         class="PaddedRow-sc-13wt5gj-0 dtvxob"
       >
         <div
-          class="OpenPositionsBlock__Content-sc-4d7r1m-0 hLZENg"
+          class="OpenPositionsBlock__Content-sc-4d7r1m-0 QUtKc"
         >
           <div
             class="OpenPositionsBlock__SideWrap-sc-4d7r1m-1 kDeeFH"
@@ -188,14 +188,14 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
               Just nu söker vi
             </h3>
             <ul
-              class="UnstyledList-r59lsu-0 sc-jTzLTM dCTFLg"
+              class="UnstyledList-r59lsu-0 sc-kpOJdX kmQqdS"
             >
               <li
                 class="OpenPositionsBlock__OpenPosition-sc-4d7r1m-3 bFAhdk"
               >
                 <a
                   black="0"
-                  class="sc-gZMcBi foZFVe"
+                  class="sc-jTzLTM YZUPv"
                 >
                   Junior UX Designer
                 </a>

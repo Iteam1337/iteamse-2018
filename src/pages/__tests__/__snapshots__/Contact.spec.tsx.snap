@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Contact renders Contact Us 1`] = `
+<div>
+  <div>
+    <div
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-dnqmqq ezKdmT"
+    >
+      <div
+        class="sc-iwsKbI jnvSkI leaflet-container leaflet-grab leaflet-touch-drag"
+        style="position: relative;"
+        tabindex="0"
+      >
+        <div
+          class="leaflet-pane leaflet-map-pane"
+          style="left: 0px; top: 0px;"
+        >
+          <div
+            class="leaflet-pane leaflet-tile-pane"
+          >
+            <div
+              class="leaflet-layer sc-gZMcBi swJin"
+              style="z-index: 1;"
+            >
+              <div
+                class="leaflet-tile-container leaflet-zoom-animated"
+                style="left: 0px; top: 0px;"
+              >
+                <img
+                  alt=""
+                  role="presentation"
+                  src="https://a.tile.openstreetmap.org/18/144229/77072.png"
+                  class="leaflet-tile"
+                  style="width: 256px; height: 256px; left: -193px; top: -175px;"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="leaflet-pane leaflet-shadow-pane"
+          />
+          <div
+            class="leaflet-pane leaflet-overlay-pane"
+          />
+          <div
+            class="leaflet-pane leaflet-marker-pane"
+          >
+            <img
+              src="test-file-stub"
+              class="leaflet-marker-icon leaflet-zoom-hide leaflet-interactive"
+              style="margin-left: -30px; margin-top: -36.5px; width: 60px; height: 73px; left: 0px; top: 0px; z-index: 0;"
+              alt=""
+              tabindex="0"
+            />
+          </div>
+          <div
+            class="leaflet-pane leaflet-tooltip-pane"
+          />
+          <div
+            class="leaflet-pane leaflet-popup-pane"
+          />
+        </div>
+        <div
+          class="leaflet-control-container"
+        >
+          <div
+            class="leaflet-top leaflet-left"
+          />
+          <div
+            class="leaflet-top leaflet-right"
+          />
+          <div
+            class="leaflet-bottom leaflet-left"
+          />
+          <div
+            class="leaflet-bottom leaflet-right"
+          >
+            <div
+              class="leaflet-control-attribution leaflet-control"
+            >
+              <a
+                href="http://leafletjs.com"
+                title="A JS library for interactive maps"
+              >
+                Leaflet
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ContactHeader__Content-sc-1yzki2w-0 iPUpGZ"
+      >
+        <div
+          class="Navigation__Wrap-sc-1i56sr4-0 dNCifP"
+        >
+          <a
+            class="sc-cvbbAY dhRuSr"
+          >
+            <img
+              data-testid="logo"
+              path="test-file-stub"
+              class="sc-jWBwVP jxyVEp"
+            />
+          </a>
+          <div
+            class="Navigation__NavigationItems-sc-1i56sr4-2 jEIEGu"
+          >
+            <a
+              class="sc-brqgnP ejUSoY"
+              aria-current="false"
+            >
+              Erbjudanden
+            </a>
+            <a
+              class="sc-brqgnP ejUSoY"
+              aria-current="false"
+            >
+              Våra case
+            </a>
+            <a
+              class="sc-brqgnP ejUSoY"
+              aria-current="false"
+            >
+              Metod
+            </a>
+            <a
+              class="sc-brqgnP ejUSoY"
+              aria-current="false"
+            >
+              Medarbetare
+            </a>
+            <a
+              class="sc-brqgnP ejUSoY"
+              aria-current="false"
+            >
+              Karriär
+            </a>
+            <a
+              class="sc-brqgnP ejUSoY"
+              aria-current="false"
+            >
+              Om
+            </a>
+            <div
+              class="Navigation__Indicator-sc-1i56sr4-1 Vplmv"
+            />
+          </div>
+        </div>
+        <div
+          class="ContactHeader__LocationNavigation-sc-1yzki2w-1 fPxAeA"
+        >
+          <button
+            class="Button__SecondaryButton-sc-11pjqxt-0 sc-gqjmRU gsOsEG"
+          >
+            Stockholm
+          </button>
+          <button
+            class="Button__SecondaryButton-sc-11pjqxt-0 sc-gqjmRU kVVKNe"
+          >
+            Göteborg
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
+  >
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        data-test="block-"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
+      >
+        <div
+          class="Block__Content-unfn3n-0 cIXgTw"
+        >
+          <div
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
+          >
+            <h3
+              class="H3-sc-1kpkcxu-0 hpTLhF"
+            >
+              Samarbete
+            </h3>
+          </div>
+          <div
+            class="Block__Text-unfn3n-3 hyeDUp"
+          >
+            Är du redo att ta klivet ut i digitaliseringens värld? Är du nyfiken på vad vi kan åstadkomma tillsammans? Oavsett vilka utmaningar du står inför är vill vi gärna höra mer om er affär. Sväng förbi vårat kontor i Stockholm eller Göteborg så bjuder vi på en kopp kaffe och diskuterar er väg framåt.
+            <div
+              class="Contact__ContactWrap-m5zxr6-1 AbDjM"
+            >
+              <section
+                class="Contact__Fieldset-m5zxr6-0 bSTaT"
+              >
+                <input
+                  type="text"
+                  placeholder="Ditt namn"
+                  class="Input-fzgg5-0 sc-jzJRlG ghkPch"
+                />
+                <input
+                  type="email"
+                  placeholder="E-post"
+                  class="Input-fzgg5-0 sc-jzJRlG ghkPch"
+                />
+                <textarea
+                  placeholder="Meddelande"
+                  class="Input-fzgg5-0-textarea sc-VigVT sc-cSHVUG jYnsRi"
+                />
+              </section>
+              <button
+                class="Button__SecondaryButton-sc-11pjqxt-0 cELpxG"
+              >
+                Skicka meddelande
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        data-test="block-"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
+      >
+        <div
+          class="Block__Content-unfn3n-0 cIXgTw"
+        >
+          <div
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
+          >
+            <h3
+              class="H3-sc-1kpkcxu-0 hpTLhF"
+            >
+              Karriär
+            </h3>
+          </div>
+          <div
+            class="Block__Text-unfn3n-3 hyeDUp"
+          >
+            <div
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
+            >
+              <div>
+                <p>
+                  Vill du sparka av dig skorna och hänga med oss varje dag? Spana in våra 
+                  <a
+                    title="Lediga tjänster"
+                    href="/jobba-hos-oss"
+                  >
+                    lediga tjänster
+                  </a>
+                  eller gör en 
+                  <a
+                    title="Gör en spontanansökan"
+                    href="mailto:joinus@iteam.se"
+                  >
+                    spontanansökan
+                  </a>
+                  . Vi ser fram emot att höra från dig!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
