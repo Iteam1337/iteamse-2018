@@ -3,9 +3,10 @@ import * as React from 'react'
 import Fade from 'react-reveal/Fade'
 import styled from '../../theme'
 import PaddedRow from '../Grid/PaddedRow'
-import WithLink from '../Link/WithLink'
+import PrefetchLink from '../Link/PrefetchLink'
 import H3 from '../Typography/H3'
 import Paragraph from '../Typography/Paragraph'
+
 interface BlockProps {
   'data-test'?: string
   readMore?: React.ReactNode
@@ -70,13 +71,13 @@ const Block: React.SFC<BlockProps> = ({
         <Content>
           <TitleWrap>
             {to ? (
-              <WithLink
+              <PrefetchLink
                 to={to}
                 query={query as DocumentNode}
                 variables={variables as object}
               >
                 <H3>{title}</H3>
-              </WithLink>
+              </PrefetchLink>
             ) : (
               <H3>{title}</H3>
             )}
