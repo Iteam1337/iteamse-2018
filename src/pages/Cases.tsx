@@ -27,6 +27,7 @@ export const CASES_PAGE_QUERY = gql`
       slug
       thumbnailImage
       title
+      tags
     }
   }
 `
@@ -62,12 +63,40 @@ const Cases = styled(PaddedRow)`
   `)};
 `
 
+const CaseTagContainer = styled.div`
+  opacity: 0;
+  transition: opacity 400ms ease-in-out;
+  position: absolute;
+  width: 250px;
+  left: 0;
+  bottom: 0;
+  padding-left: 10px;
+`
+
+const CaseTag = styled.div`
+  display: inline-block;
+  font-size: 14px;
+  background: ${({ theme }) => theme.colors.aquamarine};
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  text-align: center;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  @media (min-width: 1025px) {
+    font-size: 16px;
+    padding: 10px;
+  }
+`
+
 const CaseImageWrap = styled.div`
   align-items: center;
   background-color: #f1f1f1;
   display: flex;
   justify-content: center;
-
+  position: relative;
   @media (min-width: 1025px) {
     height: 500px;
     width: 500px;
@@ -76,7 +105,7 @@ const CaseImageWrap = styled.div`
 
 const CaseImage = styled.img`
   max-width: 90%;
-
+  transition: opacity 300ms ease-in-out;
   /* IE 11 */
   ${({ theme }) =>
     theme.browsers.ie10Or11(`
@@ -103,6 +132,12 @@ const Case = styled.div`
     ${Meta} {
       border-left-width: 10px;
       padding-left: 10px;
+    }
+    ${CaseImage} {
+      opacity: 0.4;
+    }
+    ${CaseTagContainer} {
+      opacity: 1;
     }
   }
 
@@ -136,7 +171,6 @@ export class CasePage extends React.Component {
           }
 
           const { pageCases, cases } = data
-
           return (
             <>
               <Helmet>
@@ -178,6 +212,12 @@ export class CasePage extends React.Component {
                             {workCase.thumbnailImage && (
                               <CaseImage src={workCase.thumbnailImage} alt="" />
                             )}
+                            <CaseTagContainer>
+                              {workCase.tags &&
+                                workCase.tags.map((tag, i) => (
+                                  <CaseTag key={i}>{tag}</CaseTag>
+                                ))}
+                            </CaseTagContainer>
                           </CaseImageWrap>
                           <Meta>
                             <Title>{workCase.title}</Title>

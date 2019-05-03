@@ -105,6 +105,7 @@ export interface CasesPageQuery {
     slug: string,
     thumbnailImage: string | null,
     title: string,
+    tags: Array< string | null >,
   } | null >,
 };
 
