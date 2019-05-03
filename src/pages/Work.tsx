@@ -69,6 +69,11 @@ const Work: React.SFC = () => {
                 <Block
                   data-test="location"
                   key={annons.title}
+                  to={`/jobba-hos-oss/${annons.id}`}
+                  query={OPEN_POSITION_PAGE_QUERY}
+                  variables={{
+                    id: annons.id,
+                  }}
                   readMore={
                     <StyledPrefetchLink
                       query={OPEN_POSITION_PAGE_QUERY}

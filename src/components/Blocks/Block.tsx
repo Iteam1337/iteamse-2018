@@ -1,7 +1,9 @@
+import { DocumentNode } from 'graphql'
 import * as React from 'react'
 import Fade from 'react-reveal/Fade'
 import styled from '../../theme'
 import PaddedRow from '../Grid/PaddedRow'
+import PrefetchLink from '../Link/PrefetchLink'
 import H3 from '../Typography/H3'
 import Paragraph from '../Typography/Paragraph'
 
@@ -10,6 +12,9 @@ interface BlockProps {
   readMore?: React.ReactNode
   subtitle?: string
   title: string
+  to?: string
+  query?: DocumentNode
+  variables?: object
 }
 
 const Content = styled.div`
@@ -56,13 +61,27 @@ const Block: React.SFC<BlockProps> = ({
   readMore,
   subtitle,
   title,
+  query,
+  to,
+  variables,
 }) => {
   return (
     <Fade bottom distance="50px">
       <PaddedRow data-test={`block-${dataTest}`}>
         <Content>
           <TitleWrap>
-            <H3>{title}</H3>
+            {to ? (
+              <PrefetchLink
+                to={to}
+                query={query as DocumentNode}
+                variables={variables as object}
+              >
+                <H3>{title}</H3>
+              </PrefetchLink>
+            ) : (
+              <H3>{title}</H3>
+            )}
+
             {subtitle && <Subtitle>{subtitle}</Subtitle>}
           </TitleWrap>
 

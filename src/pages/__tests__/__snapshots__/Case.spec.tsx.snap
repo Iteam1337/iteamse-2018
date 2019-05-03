@@ -128,11 +128,11 @@ exports[`components/Case renders Case 1`] = `
     />
   </div>
   <div
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat kmHAwx"
   >
     <div
       data-test="breadcrumbs"
-      class="PaddedRow-sc-13wt5gj-0 sc-bdVaJa gvAEMW"
+      class="PaddedRow-sc-13wt5gj-0 sc-bwzfXH eaLDDC"
     >
       <a>
         <span

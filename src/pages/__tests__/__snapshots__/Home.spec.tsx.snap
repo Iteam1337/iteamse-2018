@@ -118,7 +118,7 @@ exports[`components/Home renders Home 1`] = `
     </div>
   </div>
   <div
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat kmHAwx"
   >
     <div
       class="react-reveal"
@@ -244,7 +244,7 @@ exports[`components/Home renders Home 1`] = `
     class="CTABlock__BlockWrapper-sc-1l8kj5y-0 eKscWD"
   >
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat kmHAwx"
     >
       <div
         data-test="block-"
