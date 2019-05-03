@@ -85,31 +85,6 @@ exports[`components/Work renders Work 1`] = `
     class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat kmHAwx"
   >
     <div
-      class="PaddedRow-sc-13wt5gj-0 sc-kgoBCf gkOADH"
-    >
-      <div
-        data-test="filter-"
-        tabindex="0"
-        class="Filter__Wrap-sc-3nf4pp-0 euGVvx"
-      >
-        Alla
-      </div>
-      <div
-        data-test="filter-Stockholm"
-        tabindex="0"
-        class="Filter__Wrap-sc-3nf4pp-0 kRhkKn"
-      >
-        Stockholm
-      </div>
-      <div
-        data-test="filter-Göteborg"
-        tabindex="0"
-        class="Filter__Wrap-sc-3nf4pp-0 kRhkKn"
-      >
-        Göteborg
-      </div>
-    </div>
-    <div
       class="react-reveal"
       style="opacity: 1;"
     >
