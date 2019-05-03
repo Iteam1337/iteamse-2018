@@ -37,7 +37,8 @@ const Colleague = styled.div`
   }
 
   /* IE 11 */
-  ${({ theme }) => theme.browsers.ie10Or11(`
+  ${({ theme }) =>
+    theme.browsers.ie10Or11(`
     flex: 1 0 50%;
 
     display: flex;
@@ -45,7 +46,7 @@ const Colleague = styled.div`
     > * + * {
       padding-left: 40px;
     }
-  `)}
+  `)};
 `
 
 const Meta = styled.div``
@@ -71,7 +72,6 @@ const TeamMemberDuo: React.SFC<TeamMemberDuoProps> = ({ member }) => {
       <Meta>
         <MetaSection>
           <Title>{member.title}</Title>
-          <div>{member.location}</div>
         </MetaSection>
         <Title>{member.name}</Title>
         {member.phoneNumber && (

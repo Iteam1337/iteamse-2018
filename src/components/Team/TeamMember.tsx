@@ -17,8 +17,6 @@ const Title = styled.div`
 
 const Wrap = styled.div``
 
-const Location = styled.div``
-
 const AvatarWrap = styled.div`
   margin-bottom: 20px;
   margin-top: 20px;
@@ -29,7 +27,6 @@ const TeamMember: React.SFC<TeamMemberProps> = ({ member }) => {
     <Colleague>
       <Wrap>
         <Title>{member.title}</Title>
-        <Location data-test="team-member-location">{member.location}</Location>
       </Wrap>
       <Wrap>
         <PrefetchLink
