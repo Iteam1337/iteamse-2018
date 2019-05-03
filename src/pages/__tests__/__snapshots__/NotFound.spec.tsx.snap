@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/NotFound renders NotFound 1`] = `
+<div>
+  <div
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-EHOje cXqWlV"
+  >
+    <div
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat fLNxzH"
+    >
+      <div
+        class="HeaderClean__Content-sc-135p41j-2 ijPUvR"
+      >
+        <div
+          class="HeaderClean__Header-sc-135p41j-0 iowroM"
+        >
+          <a
+            class="sc-bwzfXH crrApc"
+          >
+            <img
+              alt="Logo"
+              src="test-file-stub"
+              class="HeaderClean__Logo-sc-135p41j-1 iYvyxH"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="NotFound__Content-sc-1ek65ix-0 dlbIVK"
+    >
+      <img
+        alt="broken"
+        src="test-file-stub"
+        class="NotFound__Broken-sc-1ek65ix-1 enFbDE"
+      />
+      <div
+        class="NotFound__Message-sc-1ek65ix-2 uFNvi"
+      >
+        <h1
+          class="H1-sc-1k64xg2-0 sc-bZQynM glXzNS"
+        >
+          Oj, någonting gick snett!
+        </h1>
+        <div
+          class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
+        >
+          <div>
+            <p>
+              404 error. Eller som man säger på svenska, något har blivit fel. Tyvärr finns inte sidan du försökte nå, antingen är länken fel eller så har sidan flyttats. Men du behöver inte oroa dig, vi ska göra allt vi kan för att detta inte ska hända igen.
+            </p>
+          </div>
+        </div>
+        <a
+          class="sc-bxivhb sc-gzVnrw kyAMuE"
+        >
+          Ta mig till startsidan
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

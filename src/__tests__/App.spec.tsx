@@ -3,7 +3,7 @@ import { render, wait } from 'react-testing-library'
 import App from '../App'
 import { addresses } from '../components/Footer/__fixtures__/addresses'
 import { FOOTER_QUERY } from '../components/Footer/Footer'
-import { pageStart } from '../pages/__fixtures__/pageStart'
+import { pageStart2019 } from '../pages/__fixtures__/pageStart2019'
 import { TeamQueryMock } from '../pages/__fixtures__/teamMock'
 import { HOME_PAGE_QUERY } from '../pages/Home'
 import MockedQuery from '../utils/test-utils/MockedQuery'
@@ -15,7 +15,7 @@ const mocks = [
     },
     result: {
       data: {
-        pageStart,
+        pageStart2019,
       },
     },
   },
@@ -35,7 +35,7 @@ const mocks = [
 describe('App', () => {
   it('renders App', async () => {
     const { container } = render(
-      <MockedQuery mocks={mocks}>
+      <MockedQuery location={{ pathname: '/' }} mocks={mocks}>
         <App />
       </MockedQuery>
     )

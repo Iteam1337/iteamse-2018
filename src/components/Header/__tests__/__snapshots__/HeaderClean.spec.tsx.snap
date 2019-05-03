@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/HeaderClean renders HeaderClean 1`] = `
+<div>
+  <div
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat fLNxzH"
+  >
+    <div
+      class="HeaderClean__Content-sc-135p41j-2 ijPUvR"
+    >
+      <div
+        class="HeaderClean__Header-sc-135p41j-0 iowroM"
+      >
+        <a
+          class="sc-bwzfXH crrApc"
+        >
+          <img
+            alt="Logo"
+            src="test-file-stub"
+            class="HeaderClean__Logo-sc-135p41j-1 iYvyxH"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
