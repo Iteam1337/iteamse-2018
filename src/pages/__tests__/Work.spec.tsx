@@ -4,7 +4,7 @@ import MockedQuery from '../../utils/test-utils/MockedQuery'
 import { openpositions } from '../__fixtures__/openpositions'
 import { pageWork } from '../__fixtures__/pageWork'
 import { TeamQueryMock } from '../__fixtures__/teamMock'
-import { Work, WORK_PAGE_QUERY } from '../Work'
+import Work, { WORK_PAGE_QUERY } from '../Work'
 
 const mocks = [
   {
