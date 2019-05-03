@@ -25,9 +25,7 @@ const AvatarWrap = styled.div`
 const TeamMember: React.SFC<TeamMemberProps> = ({ member }) => {
   return (
     <Colleague>
-      <Wrap>
-        <Title>{member.title}</Title>
-      </Wrap>
+      <Title>{member.title}</Title>
       <Wrap>
         <PrefetchLink
           query={TEAM_MEMBER_PAGE_QUERY}
