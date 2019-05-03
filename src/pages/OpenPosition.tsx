@@ -5,7 +5,6 @@ import Helmet from 'react-helmet-async'
 import { RouteComponentProps, withRouter } from 'react-router-dom'
 import { OpenPositionPageQuery } from '../../typings/iteamse'
 import Block from '../components/Blocks/Block'
-import ImageBleed from '../components/Blocks/ImageBleed'
 import Breadcrumbs from '../components/Breadcrumbs/Breadcrumbs'
 import GridColumn from '../components/Grid/GridColumn'
 import Header from '../components/Header/Header'
@@ -25,7 +24,6 @@ export const OPEN_POSITION_PAGE_QUERY = gql`
       bonusKnowledge
       bonusKnowledgeTitle
       contactTitle
-      contentImage
       knowledge
       knowledgeTitle
       location
@@ -108,8 +106,6 @@ export class OpenPosition extends React.Component<
                 <Block title={pageOpenPosition.bonusKnowledgeTitle}>
                   {pageOpenPosition.bonusKnowledge}
                 </Block>
-
-                <ImageBleed image={pageOpenPosition.contentImage} />
 
                 <Block title={pageOpenPosition.aboutUsTitle}>
                   {pageOpenPosition.aboutUs}
