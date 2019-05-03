@@ -52,10 +52,10 @@ const Colleague = styled.div`
 const Meta = styled.div``
 const Title = styled.div`
   font-weight: 500;
+  margin-bottom: 10px;
 `
-const MetaSection = styled.div`
-  margin-bottom: 20px;
-`
+
+const Name = styled.div``
 
 const TeamMemberDuo: React.SFC<TeamMemberDuoProps> = ({ member }) => {
   return (
@@ -70,10 +70,8 @@ const TeamMemberDuo: React.SFC<TeamMemberDuoProps> = ({ member }) => {
         <Avatar alt={member.name} image={member.avatar} />
       </PrefetchLink>
       <Meta>
-        <MetaSection>
-          <Title>{member.title}</Title>
-        </MetaSection>
-        <Title>{member.name}</Title>
+        <Title>{member.title}</Title>
+        <Name>{member.name}</Name>
         {member.phoneNumber && (
           <div>
             <PhoneNumber phoneNumber={member.phoneNumber}>
