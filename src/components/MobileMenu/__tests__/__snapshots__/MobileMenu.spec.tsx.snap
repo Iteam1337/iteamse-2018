@@ -48,6 +48,12 @@ exports[`components/MobileMenu renders MobileMenu and can open it 1`] = `
         >
           Om
         </a>
+        <a
+          class="sc-bdVaJa knFYzh"
+          aria-current="false"
+        >
+          Kontakt
+        </a>
       </div>
     </div>
     <button

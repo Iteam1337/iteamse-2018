@@ -96,13 +96,19 @@ const StyledLink = styled(NavLink)`
   text-decoration: none;
   transition: color 200ms ease-in-out;
 
-  &:not(:last-child) {
+  &:not(:last-of-type) {
     margin-right: 30px;
   }
 
   &:focus {
     outline: none;
   }
+`
+
+const BorderLink = styled(StyledLink)`
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 6px 18px;
 `
 
 const NavigationItems =
@@ -119,8 +125,9 @@ const NavigationItems =
     display: block;
   }
 
-  ${StyledLink} {
+  ${StyledLink}, ${BorderLink} {
     color: ${({ isInverted }) => (isInverted ? '#000' : '#fff')};
+    border-color: ${({ isInverted }) => (isInverted ? '#000' : '#fff')};
     text-shadow: ${({ noShadow }) =>
       noShadow ? 'none' : `0px 1px 14px rgba(0, 0, 0, 0.5)`};
 
@@ -260,6 +267,13 @@ export class Navigation extends React.Component<
           >
             Om
           </StyledLink>
+          <BorderLink
+            activeClassName="active-nav"
+            onMouseEnter={this.prefetchPage('contact')}
+            to="/kontakt"
+          >
+            Kontakt
+          </BorderLink>
           <Indicator
             indicatorLocation={indicatorLocation}
             indicatorWidth={indicatorWidth}

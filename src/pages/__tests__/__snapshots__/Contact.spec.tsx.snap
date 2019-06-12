@@ -104,43 +104,49 @@ exports[`components/Contact renders Contact Us 1`] = `
             />
           </a>
           <div
-            class="Navigation__NavigationItems-sc-1i56sr4-2 jEIEGu"
+            class="Navigation__NavigationItems-sc-1i56sr4-2 dkGlbO"
           >
             <a
-              class="sc-brqgnP ejUSoY"
+              class="sc-brqgnP hvWfHh"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-brqgnP ejUSoY"
+              class="sc-brqgnP hvWfHh"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-brqgnP ejUSoY"
+              class="sc-brqgnP hvWfHh"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-brqgnP ejUSoY"
+              class="sc-brqgnP hvWfHh"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-brqgnP ejUSoY"
+              class="sc-brqgnP hvWfHh"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-brqgnP ejUSoY"
+              class="sc-brqgnP hvWfHh"
               aria-current="false"
             >
               Om
+            </a>
+            <a
+              class="sc-brqgnP sc-cMljjf lbGDpV"
+              aria-current="false"
+            >
+              Kontakt
             </a>
             <div
               class="Navigation__Indicator-sc-1i56sr4-1 Vplmv"
