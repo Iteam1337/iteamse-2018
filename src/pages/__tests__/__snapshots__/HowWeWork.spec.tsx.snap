@@ -176,7 +176,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
     style="opacity: 1;"
   >
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat sc-VigVT dGBwXY"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat sc-kGXeez ekbFjj"
     >
       <div
         data-test="block-"
@@ -330,4 +330,4 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
     </div>
   </div>
 </div>
-`
+`;
