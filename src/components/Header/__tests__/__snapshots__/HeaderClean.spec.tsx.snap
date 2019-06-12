@@ -17,7 +17,7 @@ exports[`components/HeaderClean renders HeaderClean 1`] = `
           <img
             alt="Logo"
             src="test-file-stub"
-            class="HeaderClean__Logo-sc-135p41j-1 iYvyxH"
+            class="HeaderClean__Logo-sc-135p41j-1 iIOSxZ"
           />
         </a>
       </div>

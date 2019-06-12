@@ -25,7 +25,7 @@ const Header = styled.div`
 `
 
 const Logo = styled.img`
-  padding: 35px 0;
+  padding: 38px 0;
   max-width: 75%;
   @media (min-width: 1025px) {
     max-width: 100%;

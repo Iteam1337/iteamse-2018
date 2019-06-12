@@ -16,12 +16,12 @@ const Wrap = styled(GridColumnClean)`
   left: 0;
   bottom: 0;
   right: 0;
-  grid-template-columns: 30px 1fr 30px;
+  grid-template-columns: 20px 1fr 20px;
   grid-template-rows: auto 1fr;
   background-color: #f3f2f2;
   overflow-y: scroll;
   @media (min-width: 1025px) {
-    grid-template-columns: minmax(30px, 1fr) 1024px minmax(30px, 1fr);
+    grid-template-columns: minmax(20px, 1fr) 1024px minmax(20px, 1fr);
   }
 `
 
@@ -29,9 +29,12 @@ const Content = styled.div`
   display: grid;
   grid-row: 2;
   grid-column: 2;
-  grid-column-gap: 50px;
+  grid-gap: 50px;
   grid-template-rows: 200px 1fr;
+  justify-items: center;
+
   @media (min-width: 480px) {
+    justify-items: start;
     margin-top: 150px;
     grid-template-rows: auto 1fr;
     grid-template-columns: 1fr 2fr;
