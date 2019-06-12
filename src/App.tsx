@@ -9,6 +9,7 @@ import Case from './pages/Case'
 import Cases from './pages/Cases'
 import Home from './pages/Home'
 import HowWeWork from './pages/HowWeWork'
+import NotFound from './pages/NotFound'
 import Offers from './pages/Offers'
 import OpenPosition from './pages/OpenPosition'
 import Ops from './pages/Ops'
@@ -26,24 +27,31 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 
+const withRoot = (Component: any) => () => (
+  <>
+    <Component />
+    <MobileMenu />
+    <Footer />
+  </>
+)
+
 const App = () => (
   <>
     <GlobalStyle />
     <Switch>
-      <Route exact path="/" component={Home} />
-      <Route path="/om-oss" component={About} />
-      <Route path="/hur-vi-jobbar" component={HowWeWork} />
-      <Route exact path="/medarbetare" component={Team} />
-      <Route path="/medarbetare/:shortName" component={TeamMember} />
-      <Route exact path="/case" component={Cases} />
-      <Route path="/case/:slug" component={Case} />
-      <Route exact path="/jobba-hos-oss" component={Work} />
-      <Route path="/jobba-hos-oss/:id" component={OpenPosition} />
-      <Route path="/ops" component={Ops} />
-      <Route path="/erbjudanden" component={Offers} />
+      <Route exact path="/" component={withRoot(Home)} />
+      <Route path="/om-oss" component={withRoot(About)} />
+      <Route path="/hur-vi-jobbar" component={withRoot(HowWeWork)} />
+      <Route exact path="/medarbetare" component={withRoot(Team)} />
+      <Route path="/medarbetare/:shortName" component={withRoot(TeamMember)} />
+      <Route exact path="/case" component={withRoot(Cases)} />
+      <Route path="/case/:slug" component={withRoot(Case)} />
+      <Route exact path="/jobba-hos-oss" component={withRoot(Work)} />
+      <Route path="/jobba-hos-oss/:id" component={withRoot(OpenPosition)} />
+      <Route path="/ops" component={withRoot(Ops)} />
+      <Route path="/erbjudanden" component={withRoot(Offers)} />
+      <Route component={NotFound} />
     </Switch>
-    <MobileMenu />
-    <Footer />
   </>
 )
 

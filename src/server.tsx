@@ -16,6 +16,10 @@ import Html from './Html'
 import { ServerStyleSheet, theme, ThemeProvider } from './theme'
 import { redirectHelper } from './utils/serverHelpers'
 
+interface StaticContext {
+  statusCode?: number
+}
+
 const server = express()
 const { RAZZLE_CMS_NODE_URL, RAZZLE_PUBLIC_DIR, RAZZLE_HOST } = process.env
 
@@ -46,7 +50,8 @@ server
         })
 
         const sheet = new ServerStyleSheet()
-        const context = {}
+
+        const context: StaticContext = {}
         const helmetContext: FilledContext = {
           helmet: {},
         }
@@ -77,6 +82,10 @@ server
         )
 
         const staticMarkup = renderToStaticMarkup(html)
+
+        if (context.statusCode) {
+          res.status(context.statusCode)
+        }
 
         const { helmet } = helmetContext
         const { meta, title } = helmet
