@@ -69,7 +69,7 @@ export const handlePaths = (path: string) => {
       return '/case'
     case '/operations':
     case '/operations/sv':
-      return '/ops'
+      return '/erbjudanden'
     case '/ai':
       return '/erbjudanden'
     case '/cases/tsab':

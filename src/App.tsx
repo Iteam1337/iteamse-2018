@@ -12,7 +12,6 @@ import HowWeWork from './pages/HowWeWork'
 import NotFound from './pages/NotFound'
 import Offers from './pages/Offers'
 import OpenPosition from './pages/OpenPosition'
-import Ops from './pages/Ops'
 import Team from './pages/Team'
 import TeamMember from './pages/TeamMember'
 import Work from './pages/Work'
@@ -48,7 +47,6 @@ const App = () => (
       <Route path="/case/:slug" component={withRoot(Case)} />
       <Route exact path="/jobba-hos-oss" component={withRoot(Work)} />
       <Route path="/jobba-hos-oss/:id" component={withRoot(OpenPosition)} />
-      <Route path="/ops" component={withRoot(Ops)} />
       <Route path="/erbjudanden" component={withRoot(Offers)} />
       <Route component={NotFound} />
     </Switch>

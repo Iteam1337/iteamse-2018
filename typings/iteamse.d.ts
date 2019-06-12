@@ -219,19 +219,6 @@ export interface OpenPositionPageQuery {
   },
 };
 
-export interface OperationsPageQuery {
-  pageOps:  {
-    __typename: "PageOps",
-    body: string | null,
-    headerImage: string | null,
-    headerText1: string,
-    headerText2: string,
-    headerTextBgColor: string | null,
-    team: Array< string > | null,
-    contactTitle: string,
-  },
-};
-
 export interface TeamPageQuery {
   pageTeam:  {
     __typename: "PageTeam",
