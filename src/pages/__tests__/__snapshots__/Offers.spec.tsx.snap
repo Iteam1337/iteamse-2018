@@ -88,7 +88,7 @@ exports[`components/Offers renders Offers 1`] = `
     </div>
   </div>
   <div
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat kmHAwx"
   >
     <div
       class="PaddedRow-sc-13wt5gj-0 dtvxob"
@@ -112,7 +112,7 @@ exports[`components/Offers renders Offers 1`] = `
         style="opacity: 1;"
       >
         <div
-          class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH sc-dxgOiQ bRAsXH"
+          class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat sc-fjdhpX mTDkJ"
         >
           <div
             class="Offers__OfferIntroItem-sc-1rn487j-0 dGQKiC"
@@ -148,7 +148,7 @@ exports[`components/Offers renders Offers 1`] = `
   </div>
   <div
     id="kod"
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH sc-eNQAEJ kAEGqg"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat sc-kAzzGY hHqyzp"
   >
     <div
       class="PaddedRow-sc-13wt5gj-0 dtvxob"
@@ -182,7 +182,7 @@ exports[`components/Offers renders Offers 1`] = `
         style="opacity: 1;"
       >
         <div
-          class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH sc-hMqMXs hWNnio"
+          class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat sc-chPdSV iLjGUD"
         >
           <div
             class="Offers__OfferUspItem-sc-1rn487j-2 stQCB"
@@ -265,4 +265,4 @@ exports[`components/Offers renders Offers 1`] = `
     </div>
   </div>
 </div>
-`;
+`

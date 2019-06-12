@@ -88,7 +88,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
     </div>
   </div>
   <div
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat kmHAwx"
   >
     <div
       class="react-reveal"
@@ -176,7 +176,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
     style="opacity: 1;"
   >
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH sc-kGXeez ekbFjj"
+      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat sc-VigVT dGBwXY"
     >
       <div
         data-test="block-"
@@ -246,7 +246,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
     class="ImageBleed__ImageContainer-sc-1qgs15y-0 dtCUjJ"
   />
   <div
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
+    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat kmHAwx"
   >
     <div
       class="react-reveal"
@@ -330,4 +330,4 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
     </div>
   </div>
 </div>
-`;
+`
