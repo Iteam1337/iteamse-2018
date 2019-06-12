@@ -37,7 +37,8 @@ const Colleague = styled.div`
   }
 
   /* IE 11 */
-  ${({ theme }) => theme.browsers.ie10Or11(`
+  ${({ theme }) =>
+    theme.browsers.ie10Or11(`
     flex: 1 0 50%;
 
     display: flex;
@@ -45,16 +46,16 @@ const Colleague = styled.div`
     > * + * {
       padding-left: 40px;
     }
-  `)}
+  `)};
 `
 
 const Meta = styled.div``
 const Title = styled.div`
   font-weight: 500;
+  margin-bottom: 10px;
 `
-const MetaSection = styled.div`
-  margin-bottom: 20px;
-`
+
+const Name = styled.div``
 
 const TeamMemberDuo: React.SFC<TeamMemberDuoProps> = ({ member }) => {
   return (
@@ -69,11 +70,8 @@ const TeamMemberDuo: React.SFC<TeamMemberDuoProps> = ({ member }) => {
         <Avatar alt={member.name} image={member.avatar} />
       </PrefetchLink>
       <Meta>
-        <MetaSection>
-          <Title>{member.title}</Title>
-          <div>{member.location}</div>
-        </MetaSection>
-        <Title>{member.name}</Title>
+        <Title>{member.title}</Title>
+        <Name>{member.name}</Name>
         {member.phoneNumber && (
           <div>
             <PhoneNumber phoneNumber={member.phoneNumber}>
