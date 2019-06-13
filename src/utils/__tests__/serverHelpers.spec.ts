@@ -37,14 +37,14 @@ describe('#redirectHelper', () => {
       expect(redirectsTo).toEqual('/erbjudanden')
     })
 
-    it('should return the path for /operations', () => {
+    it('should return offers for /operations', () => {
       const redirectsTo = handlePaths('/operations')
-      expect(redirectsTo).toEqual('/ops')
+      expect(redirectsTo).toEqual('/erbjudanden')
     })
 
-    it('should return the path for /operations/sv', () => {
+    it('should return offers for /operations/sv', () => {
       const redirectsTo = handlePaths('/operations/sv')
-      expect(redirectsTo).toEqual('/ops')
+      expect(redirectsTo).toEqual('/erbjudanden')
     })
 
     it('should return the path for the tsab case', () => {
@@ -241,21 +241,21 @@ describe('#redirectHelper', () => {
       expect(next).toHaveBeenCalled()
     })
 
-    it('should redirect from /operations to /ops', () => {
+    it('should redirect from /operations to /erbjudanden', () => {
       req = {
         path: '/operations',
       }
       redirectHelper(req, res, next)
-      expect(res.redirect).toHaveBeenCalledWith(301, '/ops')
+      expect(res.redirect).toHaveBeenCalledWith(301, '/erbjudanden')
       expect(next).toHaveBeenCalled()
     })
 
-    it('should redirect from /operations/sv to /ops', () => {
+    it('should redirect from /operations/sv to /erbjudanden', () => {
       req = {
         path: '/operations/sv',
       }
       redirectHelper(req, res, next)
-      expect(res.redirect).toHaveBeenCalledWith(301, '/ops')
+      expect(res.redirect).toHaveBeenCalledWith(301, '/erbjudanden')
       expect(next).toHaveBeenCalled()
     })
 
