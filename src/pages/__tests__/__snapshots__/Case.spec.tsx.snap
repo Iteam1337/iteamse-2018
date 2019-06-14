@@ -22,7 +22,7 @@ exports[`components/Case renders Case 1`] = `
           />
         </a>
         <div
-          class="Navigation__NavigationItems-sc-1i56sr4-2 gfiCRw"
+          class="Navigation__NavigationItems-sc-1i56sr4-2 feZbmX"
         >
           <a
             class="sc-hMqMXs fILlfv"
@@ -59,6 +59,14 @@ exports[`components/Case renders Case 1`] = `
             aria-current="false"
           >
             Om
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://blog.iteam.life/"
+            class="NativeLink-sc-1sy7t3m-0 sc-kEYyzF grsRKu"
+          >
+            Labs
           </a>
           <div
             class="Navigation__Indicator-sc-1i56sr4-1 Vplmv"

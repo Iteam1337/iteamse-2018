@@ -1,12 +1,26 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import styled, { keyframes } from '../../theme'
+import NativeLink from '../Link/NativeLink'
 
 interface MenuNavigationProps {
   open: boolean
 }
 
 const StyledLink = styled(NavLink)`
+  color: #000;
+  font-size: 28px;
+  font-weight: 300;
+  text-decoration: none;
+  border-bottom: 2px solid black;
+  justify-self: right;
+
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+`
+
+const ExternalLink = styled(NativeLink)`
   color: #000;
   font-size: 28px;
   font-weight: 300;
@@ -78,6 +92,14 @@ const MenuNavigation: React.SFC<MenuNavigationProps> = ({ open }) => {
         <StyledLink activeClassName="active-nav" to="/om-oss">
           Om
         </StyledLink>
+        <ExternalLink
+          target="_blank"
+          rel="noopener noreferrer"
+          activeClassName="active-nav"
+          href="https://blog.iteam.life/"
+        >
+          Labs
+        </ExternalLink>
       </MenuInner>
     </Menu>
   )

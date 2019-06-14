@@ -13,52 +13,60 @@ exports[`App renders App 1`] = `
           class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
         >
           <a
-            class="sc-kkGfuU PdfaT"
+            class="sc-iAyFgw XGqZT"
           >
             <img
               data-testid="logo"
               path="test-file-stub"
-              class="sc-iAyFgw jRKeOl"
+              class="sc-hSdWYo jWbCrv"
             />
           </a>
           <div
-            class="Navigation__NavigationItems-sc-1i56sr4-2 gPvElI"
+            class="Navigation__NavigationItems-sc-1i56sr4-2 jaCpVR"
           >
             <a
-              class="sc-hSdWYo mcbNV"
+              class="sc-eHgmQL hdzdNM"
               aria-current="false"
             >
               Erbjudanden
             </a>
             <a
-              class="sc-hSdWYo mcbNV"
+              class="sc-eHgmQL hdzdNM"
               aria-current="false"
             >
               Våra case
             </a>
             <a
-              class="sc-hSdWYo mcbNV"
+              class="sc-eHgmQL hdzdNM"
               aria-current="false"
             >
               Metod
             </a>
             <a
-              class="sc-hSdWYo mcbNV"
+              class="sc-eHgmQL hdzdNM"
               aria-current="false"
             >
               Medarbetare
             </a>
             <a
-              class="sc-hSdWYo mcbNV"
+              class="sc-eHgmQL hdzdNM"
               aria-current="false"
             >
               Karriär
             </a>
             <a
-              class="sc-hSdWYo mcbNV"
+              class="sc-eHgmQL hdzdNM"
               aria-current="false"
             >
               Om
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://blog.iteam.life/"
+              class="NativeLink-sc-1sy7t3m-0 sc-cvbbAY ciTdxY"
+            >
+              Labs
             </a>
             <div
               class="Navigation__Indicator-sc-1i56sr4-1 Vplmv"
@@ -72,7 +80,7 @@ exports[`App renders App 1`] = `
             class="HomeHeader__IntroWrap-sc-1c6wbiz-5 khmVhO"
           >
             <h1
-              class="H1-sc-1k64xg2-0 sc-kAzzGY fqsiOY"
+              class="H1-sc-1k64xg2-0 sc-chPdSV gxTToH"
             >
               Hej! Vi är Iteam, en utvecklingbyrå som digitaliserar företag genom kod, kultur och strategi.
             </h1>
@@ -106,7 +114,7 @@ exports[`App renders App 1`] = `
               class="HomeHeader__Cloud-sc-1c6wbiz-3 jFyEcR"
             />
             <span
-              class="HomeHeader__Cloud-sc-1c6wbiz-3 sc-cSHVUG fGKFHw"
+              class="HomeHeader__Cloud-sc-1c6wbiz-3 sc-kAzzGY bwQoic"
             />
             <img
               src="test-file-stub"
@@ -269,7 +277,7 @@ exports[`App renders App 1`] = `
             </div>
             <a
               href="mailto:info@iteam.se"
-              class="sc-jzJRlG dUqHrj"
+              class="sc-cSHVUG cwDrGG"
             >
               Kontakta oss
             </a>

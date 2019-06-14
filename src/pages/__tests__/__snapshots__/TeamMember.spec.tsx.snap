@@ -7,7 +7,7 @@ exports[`components/Team renders TeamMember 1`] = `
   >
     <div>
       <div
-        class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kEYyzF deict"
+        class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kkGfuU fdtGCh"
       >
         <div
           class="Header__Content-sc-1ofdv2r-0 limgqW"
@@ -25,7 +25,7 @@ exports[`components/Team renders TeamMember 1`] = `
               />
             </a>
             <div
-              class="Navigation__NavigationItems-sc-1i56sr4-2 gfiCRw"
+              class="Navigation__NavigationItems-sc-1i56sr4-2 feZbmX"
             >
               <a
                 class="sc-hMqMXs fILlfv"
@@ -63,6 +63,14 @@ exports[`components/Team renders TeamMember 1`] = `
               >
                 Om
               </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://blog.iteam.life/"
+                class="NativeLink-sc-1sy7t3m-0 sc-kEYyzF grsRKu"
+              >
+                Labs
+              </a>
               <div
                 class="Navigation__Indicator-sc-1i56sr4-1 Vplmv"
               />
@@ -72,7 +80,7 @@ exports[`components/Team renders TeamMember 1`] = `
             class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
           >
             <h1
-              class="H1-sc-1k64xg2-0 sc-kkGfuU hAhygW"
+              class="H1-sc-1k64xg2-0 sc-iAyFgw bOBImS"
             >
               <span
                 class="Header__MessageLine-sc-1ofdv2r-2 hcZgwB"
