@@ -48,6 +48,14 @@ exports[`components/MobileMenu renders MobileMenu and can open it 1`] = `
         >
           Om
         </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://blog.iteam.life/"
+          class="NativeLink-sc-1sy7t3m-0 sc-bwzfXH eYkjRL"
+        >
+          Labs
+        </a>
       </div>
     </div>
     <button

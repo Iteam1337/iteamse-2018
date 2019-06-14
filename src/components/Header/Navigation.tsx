@@ -10,6 +10,7 @@ import { OFFERS_PAGE_QUERY } from '../../pages/Offers'
 import { TEAM_PAGE_QUERY } from '../../pages/Team'
 import { WORK_PAGE_QUERY } from '../../pages/Work'
 import styled, { createGlobalStyle, keyframes } from '../../theme'
+import NativeLink from '../Link/NativeLink'
 import logo from './img/iteam.svg'
 import logoBlack from './img/iteam_black.svg'
 
@@ -102,6 +103,21 @@ const StyledLink = styled(NavLink)`
   }
 `
 
+const ExternalLink = styled(NativeLink)`
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: color 200ms ease-in-out;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &:focus {
+    outline: none;
+  }
+`
+
 const NavigationItems =
   styled.div <
   NavigationProps >
@@ -116,7 +132,7 @@ const NavigationItems =
     display: block;
   }
 
-  ${StyledLink} {
+  ${StyledLink}, ${ExternalLink} {
     color: ${({ isInverted }) => (isInverted ? '#000' : '#fff')};
     text-shadow: ${({ noShadow }) =>
       noShadow ? 'none' : `0px 1px 14px rgba(0, 0, 0, 0.5)`};
@@ -254,6 +270,14 @@ export class Navigation extends React.Component<
           >
             Om
           </StyledLink>
+          <ExternalLink
+            target="_blank"
+            rel="noopener noreferrer"
+            activeClassName="active-nav"
+            href="https://blog.iteam.life/"
+          >
+            Labs
+          </ExternalLink>
           <Indicator
             indicatorLocation={indicatorLocation}
             indicatorWidth={indicatorWidth}
