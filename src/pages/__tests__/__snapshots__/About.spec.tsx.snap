@@ -252,6 +252,42 @@ exports[`components/About renders About 1`] = `
         </div>
       </div>
     </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        data-test="block-"
+        class="PaddedRow-sc-13wt5gj-0 dtvxob"
+      >
+        <div
+          class="Block__Content-unfn3n-0 cIXgTw"
+        >
+          <div
+            class="Block__TitleWrap-unfn3n-1 jxTEsm"
+          >
+            <h3
+              class="H3-sc-1kpkcxu-0 hpTLhF"
+            >
+              Om oss
+            </h3>
+          </div>
+          <div
+            class="Block__Text-unfn3n-3 hyeDUp"
+          >
+            <div
+              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
+            >
+              <div>
+                <p>
+                  Vi är bäst
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;

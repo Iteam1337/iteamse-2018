@@ -31,6 +31,8 @@ export const ABOUT_PAGE_QUERY = gql`
       team
       valueText
       valueTitle
+      valueeText
+      valueIteam
     }
   }
 `
@@ -103,6 +105,9 @@ export class About extends React.Component {
                       ) : null
                     })}
                   </StabilityIcons>
+                </Block>
+                <Block title={pageAboutUs.valueeText}>
+                  {pageAboutUs.valueIteam}
                 </Block>
               </GridColumn>
               <Team
