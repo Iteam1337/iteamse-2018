@@ -22,6 +22,8 @@ Object {
       team
       valueText
       valueTitle
+      valueeText
+      valueIteam
     }
   }
 ",

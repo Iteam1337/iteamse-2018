@@ -115,19 +115,17 @@ export class CasePage extends React.Component<
                   {workCase.aboutCompany}
                 </Block>
 
-                {workCase.partners &&
-                  workCase.partnersTitle && (
-                    <Block title={workCase.partnersTitle}>
-                      {workCase.partners}
-                    </Block>
-                  )}
+                {workCase.partners && workCase.partnersTitle && (
+                  <Block title={workCase.partnersTitle}>
+                    {workCase.partners}
+                  </Block>
+                )}
 
-                {workCase.contact &&
-                  workCase.contactTitle && (
-                    <Block title={workCase.contactTitle}>
-                      {workCase.contact}
-                    </Block>
-                  )}
+                {workCase.contact && workCase.contactTitle && (
+                  <Block title={workCase.contactTitle}>
+                    {workCase.contact}
+                  </Block>
+                )}
 
                 {workCase.frameworks && (
                   <Frameworks

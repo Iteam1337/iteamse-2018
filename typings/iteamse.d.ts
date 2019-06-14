@@ -50,6 +50,8 @@ export interface AboutPageQuery {
     team: Array< string > | null,
     valueText: string,
     valueTitle: string,
+    valueeText: string,
+    valueIteam: string,
   },
 };
 
