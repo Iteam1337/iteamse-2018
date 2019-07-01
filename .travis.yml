@@ -33,7 +33,7 @@ jobs:
         - npm run test
       after_success:
         - docker login -u $DOCKER_USER -p $DOCKER_PASS
-        - export REPO=ekander/iteamse
+        - export REPO=iteam1337/iteamse
         - export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH
           ; fi`
         - docker build -f ./packages/iteam-se/Dockerfile -t $REPO:$TAG ./packages/iteam-se/
