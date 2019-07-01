@@ -4,13 +4,13 @@ exports[`components/Offers renders Offers 1`] = `
 <div>
   <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kkGfuU bwBdeQ"
+      class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-kkGfuU bwBdeQ"
     >
       <div
-        class="Header__Content-sc-1ofdv2r-0 limgqW"
+        class="Header__Content-dm3ycw-0 beGtUJ"
       >
         <div
-          class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
+          class="Navigation__Wrap-fdgx9g-0 ehbMFf"
         >
           <a
             class="sc-jKJlTe bIUarX"
@@ -22,7 +22,7 @@ exports[`components/Offers renders Offers 1`] = `
             />
           </a>
           <div
-            class="Navigation__NavigationItems-sc-1i56sr4-2 feZbmX"
+            class="Navigation__NavigationItems-fdgx9g-2 eVDHVt"
           >
             <a
               class="sc-hMqMXs fILlfv"
@@ -64,23 +64,23 @@ exports[`components/Offers renders Offers 1`] = `
               target="_blank"
               rel="noopener noreferrer"
               href="https://blog.iteam.life/"
-              class="NativeLink-sc-1sy7t3m-0 sc-kEYyzF grsRKu"
+              class="NativeLink-fvundc-0 sc-kEYyzF grsRKu"
             >
               Labs
             </a>
             <div
-              class="Navigation__Indicator-sc-1i56sr4-1 Vplmv"
+              class="Navigation__Indicator-fdgx9g-1 bOcqdk"
             />
           </div>
         </div>
         <div
-          class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
+          class="Header__MessageRow-dm3ycw-1 cbRVND"
         >
           <h1
-            class="H1-sc-1k64xg2-0 sc-iAyFgw dXQSFr"
+            class="H1-sc-1we7oaz-0 sc-iAyFgw dXQSFr"
           >
             <span
-              class="Header__MessageLine-sc-1ofdv2r-2 hcZgwB"
+              class="Header__MessageLine-dm3ycw-2 iOLoPT"
             >
               Våra erbjudanden
             </span>
@@ -90,17 +90,17 @@ exports[`components/Offers renders Offers 1`] = `
     </div>
   </div>
   <div
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat kmHAwx"
+    class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-htpNat kmHAwx"
   >
     <div
-      class="PaddedRow-sc-13wt5gj-0 dtvxob"
+      class="PaddedRow-qwtz4d-0 glcQGC"
     >
       <div
         class="react-reveal"
         style="opacity: 1;"
       >
         <div
-          class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
+          class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
         >
           <div>
             <p>
@@ -114,22 +114,22 @@ exports[`components/Offers renders Offers 1`] = `
         style="opacity: 1;"
       >
         <div
-          class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat sc-fjdhpX mTDkJ"
+          class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-htpNat sc-fjdhpX mTDkJ"
         >
           <div
-            class="Offers__OfferIntroItem-sc-1rn487j-0 dGQKiC"
+            class="Offers__OfferIntroItem-sc-1hl4bau-0 hAyxHb"
           >
             <img
               src="//images.ctfassets.net/rj4r6yfcesw5/5n7J4mzx3UWam0YwgsUQm/8e00d12d6e80eba927b2a313fb250d87/1.png"
-              class="Offers__OfferIntroImage-sc-1rn487j-1 fqUlA"
+              class="Offers__OfferIntroImage-sc-1hl4bau-1 iYouKR"
             />
             <h3
-              class="H3-sc-1kpkcxu-0 hpTLhF"
+              class="H3-sc-13x7erc-0 cKRnEQ"
             >
               Kod
             </h3>
             <div
-              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
+              class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
             >
               <div>
                 <p>
@@ -150,17 +150,17 @@ exports[`components/Offers renders Offers 1`] = `
   </div>
   <div
     id="kod"
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat sc-kAzzGY hHqyzp"
+    class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-htpNat sc-kAzzGY hHqyzp"
   >
     <div
-      class="PaddedRow-sc-13wt5gj-0 dtvxob"
+      class="PaddedRow-qwtz4d-0 glcQGC"
     >
       <div
         class="react-reveal"
         style="opacity: 1;"
       >
         <h1
-          class="H1-sc-1k64xg2-0 sc-jzJRlG dMbwqX"
+          class="H1-sc-1we7oaz-0 sc-jzJRlG dMbwqX"
         >
           Kod
         </h1>
@@ -170,7 +170,7 @@ exports[`components/Offers renders Offers 1`] = `
         style="opacity: 1;"
       >
         <div
-          class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
+          class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
         >
           <div>
             <p>
@@ -184,18 +184,18 @@ exports[`components/Offers renders Offers 1`] = `
         style="opacity: 1;"
       >
         <div
-          class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat sc-chPdSV iLjGUD"
+          class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-htpNat sc-chPdSV iLjGUD"
         >
           <div
-            class="Offers__OfferUspItem-sc-1rn487j-2 stQCB"
+            class="Offers__OfferUspItem-sc-1hl4bau-2 kxYlho"
           >
             <h3
-              class="H3-sc-1kpkcxu-0 hpTLhF"
+              class="H3-sc-13x7erc-0 cKRnEQ"
             >
               Utveckling av pilot
             </h3>
             <div
-              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
+              class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
             >
               <div>
                 <p>
@@ -205,15 +205,15 @@ exports[`components/Offers renders Offers 1`] = `
             </div>
           </div>
           <div
-            class="Offers__OfferUspItem-sc-1rn487j-2 stQCB"
+            class="Offers__OfferUspItem-sc-1hl4bau-2 kxYlho"
           >
             <h3
-              class="H3-sc-1kpkcxu-0 hpTLhF"
+              class="H3-sc-13x7erc-0 cKRnEQ"
             >
               API
             </h3>
             <div
-              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
+              class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
             >
               <div>
                 <p>
@@ -223,15 +223,15 @@ exports[`components/Offers renders Offers 1`] = `
             </div>
           </div>
           <div
-            class="Offers__OfferUspItem-sc-1rn487j-2 stQCB"
+            class="Offers__OfferUspItem-sc-1hl4bau-2 kxYlho"
           >
             <h3
-              class="H3-sc-1kpkcxu-0 hpTLhF"
+              class="H3-sc-13x7erc-0 cKRnEQ"
             >
               Mobila applikationer
             </h3>
             <div
-              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
+              class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
             >
               <div>
                 <p>
@@ -241,15 +241,15 @@ exports[`components/Offers renders Offers 1`] = `
             </div>
           </div>
           <div
-            class="Offers__OfferUspItem-sc-1rn487j-2 stQCB"
+            class="Offers__OfferUspItem-sc-1hl4bau-2 kxYlho"
           >
             <h3
-              class="H3-sc-1kpkcxu-0 hpTLhF"
+              class="H3-sc-13x7erc-0 cKRnEQ"
             >
               AI-lösningar
             </h3>
             <div
-              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
+              class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
             >
               <div>
                 <p>
@@ -262,7 +262,7 @@ exports[`components/Offers renders Offers 1`] = `
       </div>
       <img
         src="//images.ctfassets.net/rj4r6yfcesw5/5SAhc8YuL6OaQQsC6miokK/7c09d594e44ffa47781bf1bdb21aae7f/illustrations-group-2.png"
-        class="Offers__OfferIllustrationImage-sc-1rn487j-3 dPxKFl"
+        class="Offers__OfferIllustrationImage-sc-1hl4bau-3 dwaSOF"
       />
     </div>
   </div>

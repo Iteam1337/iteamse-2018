@@ -4,13 +4,13 @@ exports[`components/Team renders Team 1`] = `
 <div>
   <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kkGfuU jcbKtj"
+      class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-kkGfuU jcbKtj"
     >
       <div
-        class="Header__Content-sc-1ofdv2r-0 limgqW"
+        class="Header__Content-dm3ycw-0 beGtUJ"
       >
         <div
-          class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
+          class="Navigation__Wrap-fdgx9g-0 ehbMFf"
         >
           <a
             class="sc-jKJlTe bIUarX"
@@ -22,7 +22,7 @@ exports[`components/Team renders Team 1`] = `
             />
           </a>
           <div
-            class="Navigation__NavigationItems-sc-1i56sr4-2 feZbmX"
+            class="Navigation__NavigationItems-fdgx9g-2 eVDHVt"
           >
             <a
               class="sc-hMqMXs fILlfv"
@@ -64,23 +64,23 @@ exports[`components/Team renders Team 1`] = `
               target="_blank"
               rel="noopener noreferrer"
               href="https://blog.iteam.life/"
-              class="NativeLink-sc-1sy7t3m-0 sc-kEYyzF grsRKu"
+              class="NativeLink-fvundc-0 sc-kEYyzF grsRKu"
             >
               Labs
             </a>
             <div
-              class="Navigation__Indicator-sc-1i56sr4-1 Vplmv"
+              class="Navigation__Indicator-fdgx9g-1 bOcqdk"
             />
           </div>
         </div>
         <div
-          class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
+          class="Header__MessageRow-dm3ycw-1 cbRVND"
         >
           <h1
-            class="H1-sc-1k64xg2-0 sc-iAyFgw bOBImS"
+            class="H1-sc-1we7oaz-0 sc-iAyFgw bOBImS"
           >
             <span
-              class="Header__MessageLine-sc-1ofdv2r-2 hcZgwB"
+              class="Header__MessageLine-dm3ycw-2 iOLoPT"
             >
               Det är vi som är Iteam
             </span>
@@ -90,125 +90,125 @@ exports[`components/Team renders Team 1`] = `
     </div>
   </div>
   <div
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
+    class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-bwzfXH hpcCKS"
   >
     <div
-      class="PaddedRow-sc-13wt5gj-0 sc-bdVaJa HChwM"
+      class="PaddedRow-qwtz4d-0 sc-bdVaJa HChwM"
     >
       <div
         data-test="filter-"
         tabindex="0"
-        class="Filter__Wrap-sc-3nf4pp-0 euGVvx"
+        class="Filter__Wrap-mppe0o-0 ccMcoo"
       >
         Alla
       </div>
       <div
         data-test="filter-Stockholm"
         tabindex="0"
-        class="Filter__Wrap-sc-3nf4pp-0 kRhkKn"
+        class="Filter__Wrap-mppe0o-0 qxpJU"
       >
         Stockholm
       </div>
       <div
         data-test="filter-Göteborg"
         tabindex="0"
-        class="Filter__Wrap-sc-3nf4pp-0 kRhkKn"
+        class="Filter__Wrap-mppe0o-0 qxpJU"
       >
         Göteborg
       </div>
     </div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bZQynM svAwu"
+      class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-bZQynM svAwu"
     >
       <div
-        class="TeamMembers__Members-sc-1skewny-0 knmrbX"
+        class="TeamMembers__Members-zojp0w-0 eTvNth"
       >
         <div
-          class="Colleague-fj37xp-0 jRaYiQ"
+          class="Colleague-sc-1lhltsp-0 bxBxSP"
         >
           <a
             class="sc-htpNat kDzZbW"
           >
             <div
-              class="TeamPageMember__AvatarWrap-sc-1a8kswp-2 kzBeRL"
+              class="TeamPageMember__AvatarWrap-ngt1y6-2 ehUcrz"
             >
               <div>
                 <img
                   alt="Cookie M"
                   src=""
-                  class="Avatar__AvatarImage-sc-1v5vzph-0 fqhskt"
+                  class="Avatar__AvatarImage-sc-1si56gp-0 blHcLW"
                 />
               </div>
             </div>
           </a>
           <div
-            class="TeamPageMember__Name-sc-1a8kswp-0 iYiJif"
+            class="TeamPageMember__Name-ngt1y6-0 kONqkV"
           >
             Cookie M
           </div>
           <div
-            class="TeamPageMember__Title-sc-1a8kswp-1 dqGprz"
+            class="TeamPageMember__Title-ngt1y6-1 hVIguW"
           >
             Cookie master
           </div>
           <div
-            class="TeamPageMember__PhoneNumberWrap-sc-1a8kswp-3 bfobLH"
+            class="TeamPageMember__PhoneNumberWrap-ngt1y6-3 JeHJQ"
           >
             <a
               href="tel:0701234567"
-              class="NativeLink-sc-1sy7t3m-0 sc-EHOje goTsLn"
+              class="NativeLink-fvundc-0 sc-EHOje goTsLn"
             >
               070-123 45 67
             </a>
           </div>
           <a
             href="mailto:cm@sesame.com"
-            class="NativeLink-sc-1sy7t3m-0 sc-ifAKCX cASXVu"
+            class="NativeLink-fvundc-0 sc-ifAKCX cASXVu"
           >
             cm@sesame.com
           </a>
         </div>
         <div
-          class="Colleague-fj37xp-0 jRaYiQ"
+          class="Colleague-sc-1lhltsp-0 bxBxSP"
         >
           <a
             class="sc-htpNat kDzZbW"
           >
             <div
-              class="TeamPageMember__AvatarWrap-sc-1a8kswp-2 kzBeRL"
+              class="TeamPageMember__AvatarWrap-ngt1y6-2 ehUcrz"
             >
               <div>
                 <img
                   alt="Count van Count"
                   src=""
-                  class="Avatar__AvatarImage-sc-1v5vzph-0 fqhskt"
+                  class="Avatar__AvatarImage-sc-1si56gp-0 blHcLW"
                 />
               </div>
             </div>
           </a>
           <div
-            class="TeamPageMember__Name-sc-1a8kswp-0 iYiJif"
+            class="TeamPageMember__Name-ngt1y6-0 kONqkV"
           >
             Count van Count
           </div>
           <div
-            class="TeamPageMember__Title-sc-1a8kswp-1 dqGprz"
+            class="TeamPageMember__Title-ngt1y6-1 hVIguW"
           >
             1 ahahah
           </div>
           <div
-            class="TeamPageMember__PhoneNumberWrap-sc-1a8kswp-3 bfobLH"
+            class="TeamPageMember__PhoneNumberWrap-ngt1y6-3 JeHJQ"
           >
             <a
               href="tel:0707654321"
-              class="NativeLink-sc-1sy7t3m-0 sc-EHOje goTsLn"
+              class="NativeLink-fvundc-0 sc-EHOje goTsLn"
             >
               070-765 43 21
             </a>
           </div>
           <a
             href="mailto:count@sesame.com"
-            class="NativeLink-sc-1sy7t3m-0 sc-ifAKCX cASXVu"
+            class="NativeLink-fvundc-0 sc-ifAKCX cASXVu"
           >
             count@sesame.com
           </a>
@@ -223,13 +223,13 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
 <div>
   <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kkGfuU jcbKtj"
+      class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-kkGfuU jcbKtj"
     >
       <div
-        class="Header__Content-sc-1ofdv2r-0 limgqW"
+        class="Header__Content-dm3ycw-0 beGtUJ"
       >
         <div
-          class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
+          class="Navigation__Wrap-fdgx9g-0 ehbMFf"
         >
           <a
             class="sc-jKJlTe bIUarX"
@@ -241,7 +241,7 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
             />
           </a>
           <div
-            class="Navigation__NavigationItems-sc-1i56sr4-2 feZbmX"
+            class="Navigation__NavigationItems-fdgx9g-2 eVDHVt"
           >
             <a
               class="sc-hMqMXs fILlfv"
@@ -283,23 +283,23 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
               target="_blank"
               rel="noopener noreferrer"
               href="https://blog.iteam.life/"
-              class="NativeLink-sc-1sy7t3m-0 sc-kEYyzF grsRKu"
+              class="NativeLink-fvundc-0 sc-kEYyzF grsRKu"
             >
               Labs
             </a>
             <div
-              class="Navigation__Indicator-sc-1i56sr4-1 Vplmv"
+              class="Navigation__Indicator-fdgx9g-1 bOcqdk"
             />
           </div>
         </div>
         <div
-          class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
+          class="Header__MessageRow-dm3ycw-1 cbRVND"
         >
           <h1
-            class="H1-sc-1k64xg2-0 sc-iAyFgw bOBImS"
+            class="H1-sc-1we7oaz-0 sc-iAyFgw bOBImS"
           >
             <span
-              class="Header__MessageLine-sc-1ofdv2r-2 hcZgwB"
+              class="Header__MessageLine-dm3ycw-2 iOLoPT"
             >
               Det är vi som är Iteam
             </span>
@@ -309,125 +309,125 @@ exports[`components/Team should handle changing location using keyboard 1`] = `
     </div>
   </div>
   <div
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
+    class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-bwzfXH hpcCKS"
   >
     <div
-      class="PaddedRow-sc-13wt5gj-0 sc-bdVaJa HChwM"
+      class="PaddedRow-qwtz4d-0 sc-bdVaJa HChwM"
     >
       <div
         data-test="filter-"
         tabindex="0"
-        class="Filter__Wrap-sc-3nf4pp-0 euGVvx"
+        class="Filter__Wrap-mppe0o-0 ccMcoo"
       >
         Alla
       </div>
       <div
         data-test="filter-Stockholm"
         tabindex="0"
-        class="Filter__Wrap-sc-3nf4pp-0 kRhkKn"
+        class="Filter__Wrap-mppe0o-0 qxpJU"
       >
         Stockholm
       </div>
       <div
         data-test="filter-Göteborg"
         tabindex="0"
-        class="Filter__Wrap-sc-3nf4pp-0 kRhkKn"
+        class="Filter__Wrap-mppe0o-0 qxpJU"
       >
         Göteborg
       </div>
     </div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bZQynM svAwu"
+      class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-bZQynM svAwu"
     >
       <div
-        class="TeamMembers__Members-sc-1skewny-0 knmrbX"
+        class="TeamMembers__Members-zojp0w-0 eTvNth"
       >
         <div
-          class="Colleague-fj37xp-0 jRaYiQ"
+          class="Colleague-sc-1lhltsp-0 bxBxSP"
         >
           <a
             class="sc-htpNat kDzZbW"
           >
             <div
-              class="TeamPageMember__AvatarWrap-sc-1a8kswp-2 kzBeRL"
+              class="TeamPageMember__AvatarWrap-ngt1y6-2 ehUcrz"
             >
               <div>
                 <img
                   alt="Cookie M"
                   src=""
-                  class="Avatar__AvatarImage-sc-1v5vzph-0 fqhskt"
+                  class="Avatar__AvatarImage-sc-1si56gp-0 blHcLW"
                 />
               </div>
             </div>
           </a>
           <div
-            class="TeamPageMember__Name-sc-1a8kswp-0 iYiJif"
+            class="TeamPageMember__Name-ngt1y6-0 kONqkV"
           >
             Cookie M
           </div>
           <div
-            class="TeamPageMember__Title-sc-1a8kswp-1 dqGprz"
+            class="TeamPageMember__Title-ngt1y6-1 hVIguW"
           >
             Cookie master
           </div>
           <div
-            class="TeamPageMember__PhoneNumberWrap-sc-1a8kswp-3 bfobLH"
+            class="TeamPageMember__PhoneNumberWrap-ngt1y6-3 JeHJQ"
           >
             <a
               href="tel:0701234567"
-              class="NativeLink-sc-1sy7t3m-0 sc-EHOje goTsLn"
+              class="NativeLink-fvundc-0 sc-EHOje goTsLn"
             >
               070-123 45 67
             </a>
           </div>
           <a
             href="mailto:cm@sesame.com"
-            class="NativeLink-sc-1sy7t3m-0 sc-ifAKCX cASXVu"
+            class="NativeLink-fvundc-0 sc-ifAKCX cASXVu"
           >
             cm@sesame.com
           </a>
         </div>
         <div
-          class="Colleague-fj37xp-0 jRaYiQ"
+          class="Colleague-sc-1lhltsp-0 bxBxSP"
         >
           <a
             class="sc-htpNat kDzZbW"
           >
             <div
-              class="TeamPageMember__AvatarWrap-sc-1a8kswp-2 kzBeRL"
+              class="TeamPageMember__AvatarWrap-ngt1y6-2 ehUcrz"
             >
               <div>
                 <img
                   alt="Count van Count"
                   src=""
-                  class="Avatar__AvatarImage-sc-1v5vzph-0 fqhskt"
+                  class="Avatar__AvatarImage-sc-1si56gp-0 blHcLW"
                 />
               </div>
             </div>
           </a>
           <div
-            class="TeamPageMember__Name-sc-1a8kswp-0 iYiJif"
+            class="TeamPageMember__Name-ngt1y6-0 kONqkV"
           >
             Count van Count
           </div>
           <div
-            class="TeamPageMember__Title-sc-1a8kswp-1 dqGprz"
+            class="TeamPageMember__Title-ngt1y6-1 hVIguW"
           >
             1 ahahah
           </div>
           <div
-            class="TeamPageMember__PhoneNumberWrap-sc-1a8kswp-3 bfobLH"
+            class="TeamPageMember__PhoneNumberWrap-ngt1y6-3 JeHJQ"
           >
             <a
               href="tel:0707654321"
-              class="NativeLink-sc-1sy7t3m-0 sc-EHOje goTsLn"
+              class="NativeLink-fvundc-0 sc-EHOje goTsLn"
             >
               070-765 43 21
             </a>
           </div>
           <a
             href="mailto:count@sesame.com"
-            class="NativeLink-sc-1sy7t3m-0 sc-ifAKCX cASXVu"
+            class="NativeLink-fvundc-0 sc-ifAKCX cASXVu"
           >
             count@sesame.com
           </a>
@@ -442,13 +442,13 @@ exports[`components/Team should handle changing location using mouse 1`] = `
 <div>
   <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kkGfuU jcbKtj"
+      class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-kkGfuU jcbKtj"
     >
       <div
-        class="Header__Content-sc-1ofdv2r-0 limgqW"
+        class="Header__Content-dm3ycw-0 beGtUJ"
       >
         <div
-          class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
+          class="Navigation__Wrap-fdgx9g-0 ehbMFf"
         >
           <a
             class="sc-jKJlTe bIUarX"
@@ -460,7 +460,7 @@ exports[`components/Team should handle changing location using mouse 1`] = `
             />
           </a>
           <div
-            class="Navigation__NavigationItems-sc-1i56sr4-2 feZbmX"
+            class="Navigation__NavigationItems-fdgx9g-2 eVDHVt"
           >
             <a
               class="sc-hMqMXs fILlfv"
@@ -502,23 +502,23 @@ exports[`components/Team should handle changing location using mouse 1`] = `
               target="_blank"
               rel="noopener noreferrer"
               href="https://blog.iteam.life/"
-              class="NativeLink-sc-1sy7t3m-0 sc-kEYyzF grsRKu"
+              class="NativeLink-fvundc-0 sc-kEYyzF grsRKu"
             >
               Labs
             </a>
             <div
-              class="Navigation__Indicator-sc-1i56sr4-1 Vplmv"
+              class="Navigation__Indicator-fdgx9g-1 bOcqdk"
             />
           </div>
         </div>
         <div
-          class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
+          class="Header__MessageRow-dm3ycw-1 cbRVND"
         >
           <h1
-            class="H1-sc-1k64xg2-0 sc-iAyFgw bOBImS"
+            class="H1-sc-1we7oaz-0 sc-iAyFgw bOBImS"
           >
             <span
-              class="Header__MessageLine-sc-1ofdv2r-2 hcZgwB"
+              class="Header__MessageLine-dm3ycw-2 iOLoPT"
             >
               Det är vi som är Iteam
             </span>
@@ -528,125 +528,125 @@ exports[`components/Team should handle changing location using mouse 1`] = `
     </div>
   </div>
   <div
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
+    class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-bwzfXH hpcCKS"
   >
     <div
-      class="PaddedRow-sc-13wt5gj-0 sc-bdVaJa HChwM"
+      class="PaddedRow-qwtz4d-0 sc-bdVaJa HChwM"
     >
       <div
         data-test="filter-"
         tabindex="0"
-        class="Filter__Wrap-sc-3nf4pp-0 euGVvx"
+        class="Filter__Wrap-mppe0o-0 ccMcoo"
       >
         Alla
       </div>
       <div
         data-test="filter-Stockholm"
         tabindex="0"
-        class="Filter__Wrap-sc-3nf4pp-0 kRhkKn"
+        class="Filter__Wrap-mppe0o-0 qxpJU"
       >
         Stockholm
       </div>
       <div
         data-test="filter-Göteborg"
         tabindex="0"
-        class="Filter__Wrap-sc-3nf4pp-0 kRhkKn"
+        class="Filter__Wrap-mppe0o-0 qxpJU"
       >
         Göteborg
       </div>
     </div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bZQynM svAwu"
+      class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-bZQynM svAwu"
     >
       <div
-        class="TeamMembers__Members-sc-1skewny-0 knmrbX"
+        class="TeamMembers__Members-zojp0w-0 eTvNth"
       >
         <div
-          class="Colleague-fj37xp-0 jRaYiQ"
+          class="Colleague-sc-1lhltsp-0 bxBxSP"
         >
           <a
             class="sc-htpNat kDzZbW"
           >
             <div
-              class="TeamPageMember__AvatarWrap-sc-1a8kswp-2 kzBeRL"
+              class="TeamPageMember__AvatarWrap-ngt1y6-2 ehUcrz"
             >
               <div>
                 <img
                   alt="Cookie M"
                   src=""
-                  class="Avatar__AvatarImage-sc-1v5vzph-0 fqhskt"
+                  class="Avatar__AvatarImage-sc-1si56gp-0 blHcLW"
                 />
               </div>
             </div>
           </a>
           <div
-            class="TeamPageMember__Name-sc-1a8kswp-0 iYiJif"
+            class="TeamPageMember__Name-ngt1y6-0 kONqkV"
           >
             Cookie M
           </div>
           <div
-            class="TeamPageMember__Title-sc-1a8kswp-1 dqGprz"
+            class="TeamPageMember__Title-ngt1y6-1 hVIguW"
           >
             Cookie master
           </div>
           <div
-            class="TeamPageMember__PhoneNumberWrap-sc-1a8kswp-3 bfobLH"
+            class="TeamPageMember__PhoneNumberWrap-ngt1y6-3 JeHJQ"
           >
             <a
               href="tel:0701234567"
-              class="NativeLink-sc-1sy7t3m-0 sc-EHOje goTsLn"
+              class="NativeLink-fvundc-0 sc-EHOje goTsLn"
             >
               070-123 45 67
             </a>
           </div>
           <a
             href="mailto:cm@sesame.com"
-            class="NativeLink-sc-1sy7t3m-0 sc-ifAKCX cASXVu"
+            class="NativeLink-fvundc-0 sc-ifAKCX cASXVu"
           >
             cm@sesame.com
           </a>
         </div>
         <div
-          class="Colleague-fj37xp-0 jRaYiQ"
+          class="Colleague-sc-1lhltsp-0 bxBxSP"
         >
           <a
             class="sc-htpNat kDzZbW"
           >
             <div
-              class="TeamPageMember__AvatarWrap-sc-1a8kswp-2 kzBeRL"
+              class="TeamPageMember__AvatarWrap-ngt1y6-2 ehUcrz"
             >
               <div>
                 <img
                   alt="Count van Count"
                   src=""
-                  class="Avatar__AvatarImage-sc-1v5vzph-0 fqhskt"
+                  class="Avatar__AvatarImage-sc-1si56gp-0 blHcLW"
                 />
               </div>
             </div>
           </a>
           <div
-            class="TeamPageMember__Name-sc-1a8kswp-0 iYiJif"
+            class="TeamPageMember__Name-ngt1y6-0 kONqkV"
           >
             Count van Count
           </div>
           <div
-            class="TeamPageMember__Title-sc-1a8kswp-1 dqGprz"
+            class="TeamPageMember__Title-ngt1y6-1 hVIguW"
           >
             1 ahahah
           </div>
           <div
-            class="TeamPageMember__PhoneNumberWrap-sc-1a8kswp-3 bfobLH"
+            class="TeamPageMember__PhoneNumberWrap-ngt1y6-3 JeHJQ"
           >
             <a
               href="tel:0707654321"
-              class="NativeLink-sc-1sy7t3m-0 sc-EHOje goTsLn"
+              class="NativeLink-fvundc-0 sc-EHOje goTsLn"
             >
               070-765 43 21
             </a>
           </div>
           <a
             href="mailto:count@sesame.com"
-            class="NativeLink-sc-1sy7t3m-0 sc-ifAKCX cASXVu"
+            class="NativeLink-fvundc-0 sc-ifAKCX cASXVu"
           >
             count@sesame.com
           </a>
@@ -661,13 +661,13 @@ exports[`components/Team should not change using keyboard if not enter or space 
 <div>
   <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kkGfuU jcbKtj"
+      class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-kkGfuU jcbKtj"
     >
       <div
-        class="Header__Content-sc-1ofdv2r-0 limgqW"
+        class="Header__Content-dm3ycw-0 beGtUJ"
       >
         <div
-          class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
+          class="Navigation__Wrap-fdgx9g-0 ehbMFf"
         >
           <a
             class="sc-jKJlTe bIUarX"
@@ -679,7 +679,7 @@ exports[`components/Team should not change using keyboard if not enter or space 
             />
           </a>
           <div
-            class="Navigation__NavigationItems-sc-1i56sr4-2 feZbmX"
+            class="Navigation__NavigationItems-fdgx9g-2 eVDHVt"
           >
             <a
               class="sc-hMqMXs fILlfv"
@@ -721,23 +721,23 @@ exports[`components/Team should not change using keyboard if not enter or space 
               target="_blank"
               rel="noopener noreferrer"
               href="https://blog.iteam.life/"
-              class="NativeLink-sc-1sy7t3m-0 sc-kEYyzF grsRKu"
+              class="NativeLink-fvundc-0 sc-kEYyzF grsRKu"
             >
               Labs
             </a>
             <div
-              class="Navigation__Indicator-sc-1i56sr4-1 Vplmv"
+              class="Navigation__Indicator-fdgx9g-1 bOcqdk"
             />
           </div>
         </div>
         <div
-          class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
+          class="Header__MessageRow-dm3ycw-1 cbRVND"
         >
           <h1
-            class="H1-sc-1k64xg2-0 sc-iAyFgw bOBImS"
+            class="H1-sc-1we7oaz-0 sc-iAyFgw bOBImS"
           >
             <span
-              class="Header__MessageLine-sc-1ofdv2r-2 hcZgwB"
+              class="Header__MessageLine-dm3ycw-2 iOLoPT"
             >
               Det är vi som är Iteam
             </span>
@@ -747,125 +747,125 @@ exports[`components/Team should not change using keyboard if not enter or space 
     </div>
   </div>
   <div
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bwzfXH hpcCKS"
+    class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-bwzfXH hpcCKS"
   >
     <div
-      class="PaddedRow-sc-13wt5gj-0 sc-bdVaJa HChwM"
+      class="PaddedRow-qwtz4d-0 sc-bdVaJa HChwM"
     >
       <div
         data-test="filter-"
         tabindex="0"
-        class="Filter__Wrap-sc-3nf4pp-0 euGVvx"
+        class="Filter__Wrap-mppe0o-0 ccMcoo"
       >
         Alla
       </div>
       <div
         data-test="filter-Stockholm"
         tabindex="0"
-        class="Filter__Wrap-sc-3nf4pp-0 kRhkKn"
+        class="Filter__Wrap-mppe0o-0 qxpJU"
       >
         Stockholm
       </div>
       <div
         data-test="filter-Göteborg"
         tabindex="0"
-        class="Filter__Wrap-sc-3nf4pp-0 kRhkKn"
+        class="Filter__Wrap-mppe0o-0 qxpJU"
       >
         Göteborg
       </div>
     </div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-bZQynM svAwu"
+      class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-bZQynM svAwu"
     >
       <div
-        class="TeamMembers__Members-sc-1skewny-0 knmrbX"
+        class="TeamMembers__Members-zojp0w-0 eTvNth"
       >
         <div
-          class="Colleague-fj37xp-0 jRaYiQ"
+          class="Colleague-sc-1lhltsp-0 bxBxSP"
         >
           <a
             class="sc-htpNat kDzZbW"
           >
             <div
-              class="TeamPageMember__AvatarWrap-sc-1a8kswp-2 kzBeRL"
+              class="TeamPageMember__AvatarWrap-ngt1y6-2 ehUcrz"
             >
               <div>
                 <img
                   alt="Cookie M"
                   src=""
-                  class="Avatar__AvatarImage-sc-1v5vzph-0 fqhskt"
+                  class="Avatar__AvatarImage-sc-1si56gp-0 blHcLW"
                 />
               </div>
             </div>
           </a>
           <div
-            class="TeamPageMember__Name-sc-1a8kswp-0 iYiJif"
+            class="TeamPageMember__Name-ngt1y6-0 kONqkV"
           >
             Cookie M
           </div>
           <div
-            class="TeamPageMember__Title-sc-1a8kswp-1 dqGprz"
+            class="TeamPageMember__Title-ngt1y6-1 hVIguW"
           >
             Cookie master
           </div>
           <div
-            class="TeamPageMember__PhoneNumberWrap-sc-1a8kswp-3 bfobLH"
+            class="TeamPageMember__PhoneNumberWrap-ngt1y6-3 JeHJQ"
           >
             <a
               href="tel:0701234567"
-              class="NativeLink-sc-1sy7t3m-0 sc-EHOje goTsLn"
+              class="NativeLink-fvundc-0 sc-EHOje goTsLn"
             >
               070-123 45 67
             </a>
           </div>
           <a
             href="mailto:cm@sesame.com"
-            class="NativeLink-sc-1sy7t3m-0 sc-ifAKCX cASXVu"
+            class="NativeLink-fvundc-0 sc-ifAKCX cASXVu"
           >
             cm@sesame.com
           </a>
         </div>
         <div
-          class="Colleague-fj37xp-0 jRaYiQ"
+          class="Colleague-sc-1lhltsp-0 bxBxSP"
         >
           <a
             class="sc-htpNat kDzZbW"
           >
             <div
-              class="TeamPageMember__AvatarWrap-sc-1a8kswp-2 kzBeRL"
+              class="TeamPageMember__AvatarWrap-ngt1y6-2 ehUcrz"
             >
               <div>
                 <img
                   alt="Count van Count"
                   src=""
-                  class="Avatar__AvatarImage-sc-1v5vzph-0 fqhskt"
+                  class="Avatar__AvatarImage-sc-1si56gp-0 blHcLW"
                 />
               </div>
             </div>
           </a>
           <div
-            class="TeamPageMember__Name-sc-1a8kswp-0 iYiJif"
+            class="TeamPageMember__Name-ngt1y6-0 kONqkV"
           >
             Count van Count
           </div>
           <div
-            class="TeamPageMember__Title-sc-1a8kswp-1 dqGprz"
+            class="TeamPageMember__Title-ngt1y6-1 hVIguW"
           >
             1 ahahah
           </div>
           <div
-            class="TeamPageMember__PhoneNumberWrap-sc-1a8kswp-3 bfobLH"
+            class="TeamPageMember__PhoneNumberWrap-ngt1y6-3 JeHJQ"
           >
             <a
               href="tel:0707654321"
-              class="NativeLink-sc-1sy7t3m-0 sc-EHOje goTsLn"
+              class="NativeLink-fvundc-0 sc-EHOje goTsLn"
             >
               070-765 43 21
             </a>
           </div>
           <a
             href="mailto:count@sesame.com"
-            class="NativeLink-sc-1sy7t3m-0 sc-ifAKCX cASXVu"
+            class="NativeLink-fvundc-0 sc-ifAKCX cASXVu"
           >
             count@sesame.com
           </a>

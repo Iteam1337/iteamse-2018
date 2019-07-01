@@ -4,13 +4,13 @@ exports[`components/Home renders Home 1`] = `
 <div>
   <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 bNQCWe"
+      class="GridColumn__GridColumnClean-sc-1y5e0ej-0 codQSz"
     >
       <div
-        class="HomeHeader__HomeContent-sc-1c6wbiz-0 eXNtNJ"
+        class="HomeHeader__HomeContent-j7f4se-0 iUBpRy"
       >
         <div
-          class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
+          class="Navigation__Wrap-fdgx9g-0 ehbMFf"
         >
           <a
             class="sc-jKJlTe bIUarX"
@@ -22,7 +22,7 @@ exports[`components/Home renders Home 1`] = `
             />
           </a>
           <div
-            class="Navigation__NavigationItems-sc-1i56sr4-2 ilrCfI"
+            class="Navigation__NavigationItems-fdgx9g-2 hiRnwt"
           >
             <a
               class="sc-hMqMXs fILlfv"
@@ -64,28 +64,28 @@ exports[`components/Home renders Home 1`] = `
               target="_blank"
               rel="noopener noreferrer"
               href="https://blog.iteam.life/"
-              class="NativeLink-sc-1sy7t3m-0 sc-kEYyzF grsRKu"
+              class="NativeLink-fvundc-0 sc-kEYyzF grsRKu"
             >
               Labs
             </a>
             <div
-              class="Navigation__Indicator-sc-1i56sr4-1 Vplmv"
+              class="Navigation__Indicator-fdgx9g-1 bOcqdk"
             />
           </div>
         </div>
         <div
-          class="HomeHeader__HomeMessageRow-sc-1c6wbiz-1 hKqmyE"
+          class="HomeHeader__HomeMessageRow-j7f4se-1 cALqNw"
         >
           <div
-            class="HomeHeader__IntroWrap-sc-1c6wbiz-5 khmVhO"
+            class="HomeHeader__IntroWrap-j7f4se-5 jfaBjk"
           >
             <h1
-              class="H1-sc-1k64xg2-0 sc-iwsKbI cxdzLw"
+              class="H1-sc-1we7oaz-0 sc-iwsKbI cxdzLw"
             >
               Hej! Vi är Iteam, en utvecklingbyrå som digitaliserar företag genom kod, kultur och strategi.
             </h1>
             <div
-              class="HomeHeader__HomeLead-sc-1c6wbiz-6 cNjEjy"
+              class="HomeHeader__HomeLead-j7f4se-6 gucGvT"
             >
               <div>
                 <p>
@@ -108,17 +108,17 @@ exports[`components/Home renders Home 1`] = `
             </div>
           </div>
           <div
-            class="HomeHeader__IllustrationWrap-sc-1c6wbiz-2 cDaOZS"
+            class="HomeHeader__IllustrationWrap-j7f4se-2 iFQcWG"
           >
             <span
-              class="HomeHeader__Cloud-sc-1c6wbiz-3 jFyEcR"
+              class="HomeHeader__Cloud-j7f4se-3 MvjLB"
             />
             <span
-              class="HomeHeader__Cloud-sc-1c6wbiz-3 sc-dnqmqq jFHNyJ"
+              class="HomeHeader__Cloud-j7f4se-3 sc-dnqmqq jFHNyJ"
             />
             <img
               src="test-file-stub"
-              class="HomeHeader__IllustrationImage-sc-1c6wbiz-4 eSkgZW"
+              class="HomeHeader__IllustrationImage-j7f4se-4 bNOAKW"
             />
           </div>
         </div>
@@ -126,7 +126,7 @@ exports[`components/Home renders Home 1`] = `
     </div>
   </div>
   <div
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat kmHAwx"
+    class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-htpNat kmHAwx"
   >
     <div
       class="react-reveal"
@@ -134,25 +134,25 @@ exports[`components/Home renders Home 1`] = `
     >
       <div
         data-test="block-"
-        class="PaddedRow-sc-13wt5gj-0 dtvxob"
+        class="PaddedRow-qwtz4d-0 glcQGC"
       >
         <div
-          class="Block__Content-unfn3n-0 cIXgTw"
+          class="Block__Content-sc-73lkvi-0 cmDqNt"
         >
           <div
-            class="Block__TitleWrap-unfn3n-1 jxTEsm"
+            class="Block__TitleWrap-sc-73lkvi-1 jjTrxf"
           >
             <h3
-              class="H3-sc-1kpkcxu-0 hpTLhF"
+              class="H3-sc-13x7erc-0 cKRnEQ"
             >
               Vi är Iteam
             </h3>
           </div>
           <div
-            class="Block__Text-unfn3n-3 hyeDUp"
+            class="Block__Text-sc-73lkvi-3 jzbETd"
           >
             <div
-              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
+              class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
             >
               <div>
                 <p>
@@ -173,25 +173,25 @@ exports[`components/Home renders Home 1`] = `
     >
       <div
         data-test="block-"
-        class="PaddedRow-sc-13wt5gj-0 dtvxob"
+        class="PaddedRow-qwtz4d-0 glcQGC"
       >
         <div
-          class="Block__Content-unfn3n-0 cIXgTw"
+          class="Block__Content-sc-73lkvi-0 cmDqNt"
         >
           <div
-            class="Block__TitleWrap-unfn3n-1 jxTEsm"
+            class="Block__TitleWrap-sc-73lkvi-1 jjTrxf"
           >
             <h3
-              class="H3-sc-1kpkcxu-0 hpTLhF"
+              class="H3-sc-13x7erc-0 cKRnEQ"
             >
               Vi erbjuder
             </h3>
           </div>
           <div
-            class="Block__Text-unfn3n-3 hyeDUp"
+            class="Block__Text-sc-73lkvi-3 jzbETd"
           >
             <div
-              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
+              class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
             >
               <div>
                 <p>
@@ -204,11 +204,11 @@ exports[`components/Home renders Home 1`] = `
       </div>
     </div>
     <div
-      class="ImageBlock__Content-sc-1efhaqb-0 gFrHlU"
+      class="ImageBlock__Content-sc-15ih60h-0 hVrqrK"
     >
       <img
         src="test-file-stub"
-        class="ImageBlock__ImageContainer-sc-1efhaqb-1 cjpGnT"
+        class="ImageBlock__ImageContainer-sc-15ih60h-1 efhZFd"
       />
     </div>
     <div
@@ -217,25 +217,25 @@ exports[`components/Home renders Home 1`] = `
     >
       <div
         data-test="block-"
-        class="PaddedRow-sc-13wt5gj-0 dtvxob"
+        class="PaddedRow-qwtz4d-0 glcQGC"
       >
         <div
-          class="Block__Content-unfn3n-0 cIXgTw"
+          class="Block__Content-sc-73lkvi-0 cmDqNt"
         >
           <div
-            class="Block__TitleWrap-unfn3n-1 jxTEsm"
+            class="Block__TitleWrap-sc-73lkvi-1 jjTrxf"
           >
             <h3
-              class="H3-sc-1kpkcxu-0 hpTLhF"
+              class="H3-sc-13x7erc-0 cKRnEQ"
             >
               Vår metod
             </h3>
           </div>
           <div
-            class="Block__Text-unfn3n-3 hyeDUp"
+            class="Block__Text-sc-73lkvi-3 jzbETd"
           >
             <div
-              class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
+              class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
             >
               <div>
                 <p>
@@ -249,29 +249,29 @@ exports[`components/Home renders Home 1`] = `
     </div>
   </div>
   <div
-    class="CTABlock__BlockWrapper-sc-1l8kj5y-0 eKscWD"
+    class="CTABlock__BlockWrapper-sc-1dha9r9-0 fRfYTD"
   >
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat kmHAwx"
+      class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-htpNat kmHAwx"
     >
       <div
         data-test="block-"
-        class="PaddedRow-sc-13wt5gj-0 dtvxob"
+        class="PaddedRow-qwtz4d-0 glcQGC"
       >
         <div
-          class="CTABlock__Content-sc-1l8kj5y-1 jRcxvl"
+          class="CTABlock__Content-sc-1dha9r9-1 kQKBtN"
         >
           <img
             src="test-file-stub"
           />
           <div>
             <h3
-              class="H3-sc-1kpkcxu-0 hpTLhF"
+              class="H3-sc-13x7erc-0 cKRnEQ"
             >
               Nyfiken på vad vi kan åstadkomma tillsammans?
             </h3>
             <div
-              class="CTABlock__Text-sc-1l8kj5y-2 kVZbwI"
+              class="CTABlock__Text-sc-1dha9r9-2 hBwMAL"
             >
               Hör av dig till oss så pratar vi vidare.
             </div>

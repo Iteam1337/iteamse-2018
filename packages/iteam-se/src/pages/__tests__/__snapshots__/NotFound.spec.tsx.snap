@@ -3,16 +3,16 @@
 exports[`components/NotFound renders NotFound 1`] = `
 <div>
   <div
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-EHOje bApAQr"
+    class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-EHOje bApAQr"
   >
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat fLNxzH"
+      class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-htpNat fLNxzH"
     >
       <div
-        class="HeaderClean__Content-sc-135p41j-2 ijPUvR"
+        class="HeaderClean__Content-nmswwc-2 dmOnMv"
       >
         <div
-          class="HeaderClean__Header-sc-135p41j-0 iowroM"
+          class="HeaderClean__Header-nmswwc-0 frpPwv"
         >
           <a
             class="sc-bwzfXH crrApc"
@@ -20,30 +20,30 @@ exports[`components/NotFound renders NotFound 1`] = `
             <img
               alt="Logo"
               src="test-file-stub"
-              class="HeaderClean__Logo-sc-135p41j-1 iIOSxZ"
+              class="HeaderClean__Logo-nmswwc-1 goZBhG"
             />
           </a>
         </div>
       </div>
     </div>
     <div
-      class="NotFound__Content-sc-1ek65ix-0 bRaQdi"
+      class="NotFound__Content-xslswo-0 gCWvuc"
     >
       <img
         alt="broken"
         src="test-file-stub"
-        class="NotFound__Broken-sc-1ek65ix-1 enFbDE"
+        class="NotFound__Broken-xslswo-1 kmugLl"
       />
       <div
-        class="NotFound__Message-sc-1ek65ix-2 uFNvi"
+        class="NotFound__Message-xslswo-2 ionwZv"
       >
         <h1
-          class="H1-sc-1k64xg2-0 sc-bZQynM glXzNS"
+          class="H1-sc-1we7oaz-0 sc-bZQynM glXzNS"
         >
           Oj, någonting gick snett!
         </h1>
         <div
-          class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
+          class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
         >
           <div>
             <p>

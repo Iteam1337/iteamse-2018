@@ -3,14 +3,14 @@
 exports[`components/MobileMenu renders MobileMenu and can open it 1`] = `
 <div>
   <div
-    class="MobileMenu__Wrap-sc-17iiwc2-0 kQPDPY"
+    class="MobileMenu__Wrap-sc-1k7u490-0 cYrXHt"
   >
     <div
       data-test="mobile-menu"
-      class="MenuNavigation__Menu-sc-1v6nh0d-0 dFnsAv"
+      class="MenuNavigation__Menu-unfaa8-0 DOVqg"
     >
       <div
-        class="MenuNavigation__MenuInner-sc-1v6nh0d-1 eXSVVO"
+        class="MenuNavigation__MenuInner-unfaa8-1 gOpHSC"
       >
         <a
           class="sc-bdVaJa knFYzh"
@@ -52,7 +52,7 @@ exports[`components/MobileMenu renders MobileMenu and can open it 1`] = `
           target="_blank"
           rel="noopener noreferrer"
           href="https://blog.iteam.life/"
-          class="NativeLink-sc-1sy7t3m-0 sc-bwzfXH eYkjRL"
+          class="NativeLink-fvundc-0 sc-bwzfXH eYkjRL"
         >
           Labs
         </a>
@@ -62,20 +62,20 @@ exports[`components/MobileMenu renders MobileMenu and can open it 1`] = `
       aria-label="Menu button"
       data-testid="btn-mobile-menu"
       role="button"
-      class="MenuButton__Button-sc-1kgtumg-0 eauQOa"
+      class="MenuButton__Button-ulut0i-0 hPPslc"
     >
       <div
-        class="MenuButton__Hamburger-sc-1kgtumg-2 bKBMSv"
+        class="MenuButton__Hamburger-ulut0i-2 cykepV"
         open=""
       >
         <div
-          class="MenuButton__Bar-sc-1kgtumg-1 hoEwLf"
+          class="MenuButton__Bar-ulut0i-1 Bqhsd"
         />
         <div
-          class="MenuButton__Bar-sc-1kgtumg-1 hoEwLf"
+          class="MenuButton__Bar-ulut0i-1 Bqhsd"
         />
         <div
-          class="MenuButton__Bar-sc-1kgtumg-1 hoEwLf"
+          class="MenuButton__Bar-ulut0i-1 Bqhsd"
         />
       </div>
     </button>

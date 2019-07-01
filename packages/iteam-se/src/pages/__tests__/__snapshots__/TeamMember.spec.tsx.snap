@@ -3,17 +3,17 @@
 exports[`components/Team renders TeamMember 1`] = `
 <div>
   <div
-    class="TeamMember-sc-1dabmxm-0 essGSG"
+    class="TeamMember-t9t8cg-0 efnPfF"
   >
     <div>
       <div
-        class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kkGfuU fdtGCh"
+        class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-kkGfuU fdtGCh"
       >
         <div
-          class="Header__Content-sc-1ofdv2r-0 limgqW"
+          class="Header__Content-dm3ycw-0 beGtUJ"
         >
           <div
-            class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
+            class="Navigation__Wrap-fdgx9g-0 ehbMFf"
           >
             <a
               class="sc-jKJlTe bIUarX"
@@ -25,7 +25,7 @@ exports[`components/Team renders TeamMember 1`] = `
               />
             </a>
             <div
-              class="Navigation__NavigationItems-sc-1i56sr4-2 feZbmX"
+              class="Navigation__NavigationItems-fdgx9g-2 eVDHVt"
             >
               <a
                 class="sc-hMqMXs fILlfv"
@@ -67,29 +67,29 @@ exports[`components/Team renders TeamMember 1`] = `
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://blog.iteam.life/"
-                class="NativeLink-sc-1sy7t3m-0 sc-kEYyzF grsRKu"
+                class="NativeLink-fvundc-0 sc-kEYyzF grsRKu"
               >
                 Labs
               </a>
               <div
-                class="Navigation__Indicator-sc-1i56sr4-1 Vplmv"
+                class="Navigation__Indicator-fdgx9g-1 bOcqdk"
               />
             </div>
           </div>
           <div
-            class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
+            class="Header__MessageRow-dm3ycw-1 cbRVND"
           >
             <h1
-              class="H1-sc-1k64xg2-0 sc-iAyFgw bOBImS"
+              class="H1-sc-1we7oaz-0 sc-iAyFgw bOBImS"
             >
               <span
-                class="Header__MessageLine-sc-1ofdv2r-2 hcZgwB"
+                class="Header__MessageLine-dm3ycw-2 iOLoPT"
               >
                 Rickard Laurin
               </span>
               <br />
               <span
-                class="Header__MessageLine-sc-1ofdv2r-2 hcZgwB"
+                class="Header__MessageLine-dm3ycw-2 iOLoPT"
               >
                 Webbutvecklare
               </span>
@@ -99,15 +99,15 @@ exports[`components/Team renders TeamMember 1`] = `
       </div>
     </div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat kmHAwx"
+      class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-htpNat kmHAwx"
     >
       <div
         data-test="breadcrumbs"
-        class="PaddedRow-sc-13wt5gj-0 sc-bwzfXH eaLDDC"
+        class="PaddedRow-qwtz4d-0 sc-bwzfXH eaLDDC"
       >
         <a>
           <span
-            class="Breadcrumbs__StyledSpan-sc-1ajw33n-0 bBBcLz"
+            class="Breadcrumbs__StyledSpan-sc-1ydztqh-0 kmHyGa"
           >
             Medarbetare
           </span>
@@ -122,30 +122,30 @@ exports[`components/Team renders TeamMember 1`] = `
       >
         <div
           data-test="block-"
-          class="PaddedRow-sc-13wt5gj-0 dtvxob"
+          class="PaddedRow-qwtz4d-0 glcQGC"
         >
           <div
-            class="Block__Content-unfn3n-0 cIXgTw"
+            class="Block__Content-sc-73lkvi-0 cmDqNt"
           >
             <div
-              class="Block__TitleWrap-unfn3n-1 jxTEsm"
+              class="Block__TitleWrap-sc-73lkvi-1 jjTrxf"
             >
               <h3
-                class="H3-sc-1kpkcxu-0 hpTLhF"
+                class="H3-sc-13x7erc-0 cKRnEQ"
               >
                 Kontakt
               </h3>
             </div>
             <div
-              class="Block__Text-unfn3n-3 hyeDUp"
+              class="Block__Text-sc-73lkvi-3 jzbETd"
             >
               <ul
-                class="UnstyledList-r59lsu-0 dCBFDj"
+                class="UnstyledList-sc-47y4yg-0 cyDAf"
               >
                 <li>
                   <a
                     href="mailto:rickard.laurin@iteam.se"
-                    class="NativeLink-sc-1sy7t3m-0 sc-dxgOiQ kCSnXk"
+                    class="NativeLink-fvundc-0 sc-dxgOiQ kCSnXk"
                   >
                     rickard.laurin@iteam.se
                   </a>
@@ -161,25 +161,25 @@ exports[`components/Team renders TeamMember 1`] = `
       >
         <div
           data-test="block-"
-          class="PaddedRow-sc-13wt5gj-0 dtvxob"
+          class="PaddedRow-qwtz4d-0 glcQGC"
         >
           <div
-            class="Block__Content-unfn3n-0 cIXgTw"
+            class="Block__Content-sc-73lkvi-0 cmDqNt"
           >
             <div
-              class="Block__TitleWrap-unfn3n-1 jxTEsm"
+              class="Block__TitleWrap-sc-73lkvi-1 jjTrxf"
             >
               <h3
-                class="H3-sc-1kpkcxu-0 hpTLhF"
+                class="H3-sc-13x7erc-0 cKRnEQ"
               >
                 Varför jobbar du med teknik?
               </h3>
             </div>
             <div
-              class="Block__Text-unfn3n-3 hyeDUp"
+              class="Block__Text-sc-73lkvi-3 jzbETd"
             >
               <div
-                class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
+                class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
               >
                 <div>
                   <p>
@@ -197,25 +197,25 @@ exports[`components/Team renders TeamMember 1`] = `
       >
         <div
           data-test="block-"
-          class="PaddedRow-sc-13wt5gj-0 dtvxob"
+          class="PaddedRow-qwtz4d-0 glcQGC"
         >
           <div
-            class="Block__Content-unfn3n-0 cIXgTw"
+            class="Block__Content-sc-73lkvi-0 cmDqNt"
           >
             <div
-              class="Block__TitleWrap-unfn3n-1 jxTEsm"
+              class="Block__TitleWrap-sc-73lkvi-1 jjTrxf"
             >
               <h3
-                class="H3-sc-1kpkcxu-0 hpTLhF"
+                class="H3-sc-13x7erc-0 cKRnEQ"
               >
                 Bakgrund
               </h3>
             </div>
             <div
-              class="Block__Text-unfn3n-3 hyeDUp"
+              class="Block__Text-sc-73lkvi-3 jzbETd"
             >
               <div
-                class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
+                class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
               >
                 <div>
                   <p>
@@ -233,25 +233,25 @@ exports[`components/Team renders TeamMember 1`] = `
       >
         <div
           data-test="block-"
-          class="PaddedRow-sc-13wt5gj-0 dtvxob"
+          class="PaddedRow-qwtz4d-0 glcQGC"
         >
           <div
-            class="Block__Content-unfn3n-0 cIXgTw"
+            class="Block__Content-sc-73lkvi-0 cmDqNt"
           >
             <div
-              class="Block__TitleWrap-unfn3n-1 jxTEsm"
+              class="Block__TitleWrap-sc-73lkvi-1 jjTrxf"
             >
               <h3
-                class="H3-sc-1kpkcxu-0 hpTLhF"
+                class="H3-sc-13x7erc-0 cKRnEQ"
               >
                 Specialistkompetens
               </h3>
             </div>
             <div
-              class="Block__Text-unfn3n-3 hyeDUp"
+              class="Block__Text-sc-73lkvi-3 jzbETd"
             >
               <div
-                class="Paragraph__StyledParagraph-n6tulf-0 kcTDfe"
+                class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
               >
                 <div>
                   <p>

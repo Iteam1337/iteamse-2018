@@ -4,13 +4,13 @@ exports[`components/Header renders Header 1`] = `
 <div>
   <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kkGfuU jAUXRS"
+      class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-kkGfuU jAUXRS"
     >
       <div
-        class="Header__Content-sc-1ofdv2r-0 limgqW"
+        class="Header__Content-dm3ycw-0 beGtUJ"
       >
         <div
-          class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
+          class="Navigation__Wrap-fdgx9g-0 ehbMFf"
         >
           <a
             class="sc-jKJlTe bIUarX"
@@ -22,7 +22,7 @@ exports[`components/Header renders Header 1`] = `
             />
           </a>
           <div
-            class="Navigation__NavigationItems-sc-1i56sr4-2 feZbmX"
+            class="Navigation__NavigationItems-fdgx9g-2 eVDHVt"
           >
             <a
               class="sc-hMqMXs fILlfv"
@@ -64,29 +64,29 @@ exports[`components/Header renders Header 1`] = `
               target="_blank"
               rel="noopener noreferrer"
               href="https://blog.iteam.life/"
-              class="NativeLink-sc-1sy7t3m-0 sc-kEYyzF grsRKu"
+              class="NativeLink-fvundc-0 sc-kEYyzF grsRKu"
             >
               Labs
             </a>
             <div
-              class="Navigation__Indicator-sc-1i56sr4-1 Vplmv"
+              class="Navigation__Indicator-fdgx9g-1 bOcqdk"
             />
           </div>
         </div>
         <div
-          class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
+          class="Header__MessageRow-dm3ycw-1 cbRVND"
         >
           <h1
-            class="H1-sc-1k64xg2-0 sc-iAyFgw dbXZLP"
+            class="H1-sc-1we7oaz-0 sc-iAyFgw dbXZLP"
           >
             <span
-              class="Header__MessageLine-sc-1ofdv2r-2 hcZgwB"
+              class="Header__MessageLine-dm3ycw-2 iOLoPT"
             >
               Vi digitaliserar företag och organisationer
             </span>
             <br />
             <span
-              class="Header__MessageLine-sc-1ofdv2r-2 hcZgwB"
+              class="Header__MessageLine-dm3ycw-2 iOLoPT"
             >
               genom strategi, kod och kultur
             </span>

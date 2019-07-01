@@ -4,13 +4,13 @@ exports[`components/Cases renders Cases 1`] = `
 <div>
   <div>
     <div
-      class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-kkGfuU fonsan"
+      class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-kkGfuU fonsan"
     >
       <div
-        class="Header__Content-sc-1ofdv2r-0 limgqW"
+        class="Header__Content-dm3ycw-0 beGtUJ"
       >
         <div
-          class="Navigation__Wrap-sc-1i56sr4-0 cGavfh"
+          class="Navigation__Wrap-fdgx9g-0 ehbMFf"
         >
           <a
             class="sc-jKJlTe bIUarX"
@@ -22,7 +22,7 @@ exports[`components/Cases renders Cases 1`] = `
             />
           </a>
           <div
-            class="Navigation__NavigationItems-sc-1i56sr4-2 feZbmX"
+            class="Navigation__NavigationItems-fdgx9g-2 eVDHVt"
           >
             <a
               class="sc-hMqMXs fILlfv"
@@ -64,29 +64,29 @@ exports[`components/Cases renders Cases 1`] = `
               target="_blank"
               rel="noopener noreferrer"
               href="https://blog.iteam.life/"
-              class="NativeLink-sc-1sy7t3m-0 sc-kEYyzF grsRKu"
+              class="NativeLink-fvundc-0 sc-kEYyzF grsRKu"
             >
               Labs
             </a>
             <div
-              class="Navigation__Indicator-sc-1i56sr4-1 Vplmv"
+              class="Navigation__Indicator-fdgx9g-1 bOcqdk"
             />
           </div>
         </div>
         <div
-          class="Header__MessageRow-sc-1ofdv2r-1 indJOe"
+          class="Header__MessageRow-dm3ycw-1 cbRVND"
         >
           <h1
-            class="H1-sc-1k64xg2-0 sc-iAyFgw dXQSFr"
+            class="H1-sc-1we7oaz-0 sc-iAyFgw dXQSFr"
           >
             <span
-              class="Header__MessageLine-sc-1ofdv2r-2 hcZgwB"
+              class="Header__MessageLine-dm3ycw-2 iOLoPT"
             >
               Några exempel på
             </span>
             <br />
             <span
-              class="Header__MessageLine-sc-1ofdv2r-2 hcZgwB"
+              class="Header__MessageLine-dm3ycw-2 iOLoPT"
             >
               sådant vi gjort
             </span>
@@ -96,36 +96,36 @@ exports[`components/Cases renders Cases 1`] = `
     </div>
   </div>
   <div
-    class="GridColumn__GridColumnClean-sc-1xz61ww-0 sc-htpNat kmHAwx"
+    class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-htpNat kmHAwx"
   >
     <div
-      class="PaddedRow-sc-13wt5gj-0 sc-bZQynM cbgimB"
+      class="PaddedRow-qwtz4d-0 sc-bZQynM cbgimB"
     >
       <a
         class="sc-bdVaJa bssnas"
       >
         <div
-          class="Cases__Case-sc-1mpal5q-3 esTvuF"
+          class="Cases__Case-sc-2cdncr-3 ggVqeo"
         >
           <div
-            class="Cases__CaseImageWrap-sc-1mpal5q-0 bgAPjR"
+            class="Cases__CaseImageWrap-sc-2cdncr-0 eMqsDY"
           >
             <img
               src="//images.ctfassets.net/rj4r6yfcesw5/68OlBclfQAGMcEUsQgcIUY/9bdf52bb8a9a17be06e11ef3fa32d3de/vimla-case-phone.png"
               alt=""
-              class="Cases__CaseImage-sc-1mpal5q-1 hDbRnX"
+              class="Cases__CaseImage-sc-2cdncr-1 iotjvD"
             />
           </div>
           <div
-            class="Cases__Meta-sc-1mpal5q-2 dBHSfq"
+            class="Cases__Meta-sc-2cdncr-2 hScWTB"
           >
             <div
-              class="Cases__Title-sc-1mpal5q-4 dFAQib"
+              class="Cases__Title-sc-2cdncr-4 hJMmIA"
             >
               Vimla
             </div>
             <div
-              class="Cases__ShortDescription-sc-1mpal5q-5 dpJsLd"
+              class="Cases__ShortDescription-sc-2cdncr-5 iPcSGr"
             >
               Synliggörande av asylsökandes kompetens med digitala verktyg
             </div>
@@ -136,27 +136,27 @@ exports[`components/Cases renders Cases 1`] = `
         class="sc-bdVaJa bssnas"
       >
         <div
-          class="Cases__Case-sc-1mpal5q-3 esTvuF"
+          class="Cases__Case-sc-2cdncr-3 ggVqeo"
         >
           <div
-            class="Cases__CaseImageWrap-sc-1mpal5q-0 bgAPjR"
+            class="Cases__CaseImageWrap-sc-2cdncr-0 eMqsDY"
           >
             <img
               src="//images.ctfassets.net/rj4r6yfcesw5/UGucAeFycSqIGw0CAc0ys/3d58300261bcff64dba751de9228a150/tsab-case-phone.png"
               alt=""
-              class="Cases__CaseImage-sc-1mpal5q-1 hDbRnX"
+              class="Cases__CaseImage-sc-2cdncr-1 iotjvD"
             />
           </div>
           <div
-            class="Cases__Meta-sc-1mpal5q-2 dBHSfq"
+            class="Cases__Meta-sc-2cdncr-2 hScWTB"
           >
             <div
-              class="Cases__Title-sc-1mpal5q-4 dFAQib"
+              class="Cases__Title-sc-2cdncr-4 hJMmIA"
             >
               Taxi Stockholm
             </div>
             <div
-              class="Cases__ShortDescription-sc-1mpal5q-5 dpJsLd"
+              class="Cases__ShortDescription-sc-2cdncr-5 iPcSGr"
             >
               Synliggörande av asylsökandes kompetens med digitala verktyg
             </div>
@@ -167,21 +167,21 @@ exports[`components/Cases renders Cases 1`] = `
         class="sc-bdVaJa bssnas"
       >
         <div
-          class="Cases__Case-sc-1mpal5q-3 esTvuF"
+          class="Cases__Case-sc-2cdncr-3 ggVqeo"
         >
           <div
-            class="Cases__CaseImageWrap-sc-1mpal5q-0 bgAPjR"
+            class="Cases__CaseImageWrap-sc-2cdncr-0 eMqsDY"
           />
           <div
-            class="Cases__Meta-sc-1mpal5q-2 dBHSfq"
+            class="Cases__Meta-sc-2cdncr-2 hScWTB"
           >
             <div
-              class="Cases__Title-sc-1mpal5q-4 dFAQib"
+              class="Cases__Title-sc-2cdncr-4 hJMmIA"
             >
               SEB
             </div>
             <div
-              class="Cases__ShortDescription-sc-1mpal5q-5 dpJsLd"
+              class="Cases__ShortDescription-sc-2cdncr-5 iPcSGr"
             >
               Synliggörande av asylsökandes kompetens med digitala verktyg
             </div>
@@ -192,27 +192,27 @@ exports[`components/Cases renders Cases 1`] = `
         class="sc-bdVaJa bssnas"
       >
         <div
-          class="Cases__Case-sc-1mpal5q-3 esTvuF"
+          class="Cases__Case-sc-2cdncr-3 ggVqeo"
         >
           <div
-            class="Cases__CaseImageWrap-sc-1mpal5q-0 bgAPjR"
+            class="Cases__CaseImageWrap-sc-2cdncr-0 eMqsDY"
           >
             <img
               src="//images.ctfassets.net/rj4r6yfcesw5/3Y7zZ25WbeOCU8w84kAEos/b97ff1899cf6f2e4dca0eb2b4f0d5a44/af.png"
               alt=""
-              class="Cases__CaseImage-sc-1mpal5q-1 hDbRnX"
+              class="Cases__CaseImage-sc-2cdncr-1 iotjvD"
             />
           </div>
           <div
-            class="Cases__Meta-sc-1mpal5q-2 dBHSfq"
+            class="Cases__Meta-sc-2cdncr-2 hScWTB"
           >
             <div
-              class="Cases__Title-sc-1mpal5q-4 dFAQib"
+              class="Cases__Title-sc-2cdncr-4 hJMmIA"
             >
               Arbetsförmedlingen
             </div>
             <div
-              class="Cases__ShortDescription-sc-1mpal5q-5 dpJsLd"
+              class="Cases__ShortDescription-sc-2cdncr-5 iPcSGr"
             >
               Synliggörande av asylsökandes kompetens med digitala verktyg
             </div>
