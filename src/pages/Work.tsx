@@ -47,9 +47,9 @@ const Work: React.SFC = () => {
         return (
           <>
             <Helmet>
-              <title>Iteam | Jobba hos oss</title>
-              <meta property="og:title" content="Iteam | Jobba hos oss" />
-              <meta property="twitter:title" content="Iteam | Jobba hos oss" />
+              <title>Iteam | Karriär</title>
+              <meta property="og:title" content="Iteam | Karriär" />
+              <meta property="twitter:title" content="Iteam | Karriär" />
               {pageWork.headerImage && (
                 <meta
                   property="og:image"
