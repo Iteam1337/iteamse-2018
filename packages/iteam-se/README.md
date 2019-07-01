@@ -5,8 +5,6 @@ The iteam.se website using content served from [Contentful](http://contentful.co
 ## Getting started
 
 ```
-$ git clone https://github.com/Iteam1337/iteamse.git
-$ cd iteamse
 $ npm install
 $ npm start
 ```
