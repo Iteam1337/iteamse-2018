@@ -104,11 +104,11 @@ export const getCareerPath = (path: string) => {
   switch (jobOpening) {
     case 'senior-backend-developer':
     case 'senior-backend-developer-sv':
-      return '/jobba-hos-oss/senior-backend-developer-stockholm'
+      return '/karriar/senior-backend-developer-stockholm'
     case 'senior-frontend-developer':
     case 'senior-frontend-developer-sv':
-      return '/jobba-hos-oss/senior-frontend-developer-stockholm'
+      return '/karriar/senior-frontend-developer-stockholm'
     default:
-      return '/jobba-hos-oss'
+      return '/karriar'
   }
 }

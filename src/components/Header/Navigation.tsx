@@ -259,7 +259,7 @@ export class Navigation extends React.Component<
           <StyledLink
             activeClassName="active-nav"
             onMouseEnter={this.prefetchPage('work')}
-            to="/jobba-hos-oss"
+            to="/karriar"
           >
             Karriär
           </StyledLink>

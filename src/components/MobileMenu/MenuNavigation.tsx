@@ -86,7 +86,7 @@ const MenuNavigation: React.SFC<MenuNavigationProps> = ({ open }) => {
         <StyledLink activeClassName="active-nav" to="/medarbetare">
           Medarbetare
         </StyledLink>
-        <StyledLink activeClassName="active-nav" to="/jobba-hos-oss">
+        <StyledLink activeClassName="active-nav" to="/karriar">
           Karriär
         </StyledLink>
         <StyledLink activeClassName="active-nav" to="/om-oss">

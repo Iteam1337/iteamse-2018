@@ -4,7 +4,7 @@ describe('#redirectHelper', () => {
   describe('#handlePaths', () => {
     it('should return the path for /career', () => {
       const redirectsTo = handlePaths('/career/')
-      expect(redirectsTo).toEqual('/jobba-hos-oss')
+      expect(redirectsTo).toEqual('/karriar')
     })
 
     it('should return the path for /cases', () => {
@@ -58,29 +58,25 @@ describe('#redirectHelper', () => {
 
     it('should return the path for /career/senior-backend-developer', () => {
       const redirectsTo = handlePaths('/career/senior-backend-developer')
-      expect(redirectsTo).toEqual(
-        '/jobba-hos-oss/senior-backend-developer-stockholm'
-      )
+      expect(redirectsTo).toEqual('/karriar/senior-backend-developer-stockholm')
     })
 
     it('should return the path for /career/senior-backend-developer-sv', () => {
       const redirectsTo = handlePaths('/career/senior-backend-developer-sv')
-      expect(redirectsTo).toEqual(
-        '/jobba-hos-oss/senior-backend-developer-stockholm'
-      )
+      expect(redirectsTo).toEqual('/karriar/senior-backend-developer-stockholm')
     })
 
     it('should return the path for /career/senior-frontend-developer', () => {
       const redirectsTo = handlePaths('/career/senior-frontend-developer')
       expect(redirectsTo).toEqual(
-        '/jobba-hos-oss/senior-frontend-developer-stockholm'
+        '/karriar/senior-frontend-developer-stockholm'
       )
     })
 
     it('should return the path for /career/senior-frontend-developer-sv', () => {
       const redirectsTo = handlePaths('/career/senior-frontend-developer-sv')
       expect(redirectsTo).toEqual(
-        '/jobba-hos-oss/senior-frontend-developer-stockholm'
+        '/karriar/senior-frontend-developer-stockholm'
       )
     })
 
@@ -131,39 +127,39 @@ describe('#redirectHelper', () => {
       expect(next).toHaveBeenCalled()
     })
 
-    it('should redirect from /career to /jobba-hos-oss', () => {
+    it('should redirect from /career to /karriar', () => {
       req = {
         path: '/career',
       }
       redirectHelper(req, res, next)
-      expect(res.redirect).toHaveBeenCalledWith(301, '/jobba-hos-oss')
+      expect(res.redirect).toHaveBeenCalledWith(301, '/karriar')
       expect(next).toHaveBeenCalled()
     })
 
-    it('should redirect from /CAREER to /jobba-hos-oss', () => {
+    it('should redirect from /CAREER to /karriar', () => {
       req = {
         path: '/CAREER',
       }
       redirectHelper(req, res, next)
-      expect(res.redirect).toHaveBeenCalledWith(301, '/jobba-hos-oss')
+      expect(res.redirect).toHaveBeenCalledWith(301, '/karriar')
       expect(next).toHaveBeenCalled()
     })
 
-    it('should redirect from /CAREER/SomeSlug to /jobba-hos-oss', () => {
+    it('should redirect from /CAREER/SomeSlug to /karriar', () => {
       req = {
         path: '/CAREER/SomeSlug',
       }
       redirectHelper(req, res, next)
-      expect(res.redirect).toHaveBeenCalledWith(301, '/jobba-hos-oss')
+      expect(res.redirect).toHaveBeenCalledWith(301, '/karriar')
       expect(next).toHaveBeenCalled()
     })
 
-    it('should redirect from /Career/slug?foo=bar to /jobba-hos-oss', () => {
+    it('should redirect from /Career/slug?foo=bar to /karriar', () => {
       req = {
         path: '/Career/slug?foo=bar',
       }
       redirectHelper(req, res, next)
-      expect(res.redirect).toHaveBeenCalledWith(301, '/jobba-hos-oss')
+      expect(res.redirect).toHaveBeenCalledWith(301, '/karriar')
       expect(next).toHaveBeenCalled()
     })
 
@@ -286,26 +282,26 @@ describe('#redirectHelper', () => {
       expect(next).toHaveBeenCalled()
     })
 
-    it('should redirect from /career/senior-backend-developer to /jobba-hos-oss/senior-backend-developer-stockholm', () => {
+    it('should redirect from /career/senior-backend-developer to /karriar/senior-backend-developer-stockholm', () => {
       req = {
         path: '/career/senior-backend-developer',
       }
       redirectHelper(req, res, next)
       expect(res.redirect).toHaveBeenCalledWith(
         301,
-        '/jobba-hos-oss/senior-backend-developer-stockholm'
+        '/karriar/senior-backend-developer-stockholm'
       )
       expect(next).toHaveBeenCalled()
     })
 
-    it('should redirect from /career/senior-frontend-developer to /jobba-hos-oss/senior-frontend-developer-stockholm', () => {
+    it('should redirect from /career/senior-frontend-developer to /karriar/senior-frontend-developer-stockholm', () => {
       req = {
         path: '/career/senior-frontend-developer',
       }
       redirectHelper(req, res, next)
       expect(res.redirect).toHaveBeenCalledWith(
         301,
-        '/jobba-hos-oss/senior-frontend-developer-stockholm'
+        '/karriar/senior-frontend-developer-stockholm'
       )
       expect(next).toHaveBeenCalled()
     })

@@ -1,7 +1,5 @@
 import * as React from 'react'
-import { Route, Switch } from 'react-router-dom'
-import { createGlobalStyle } from './theme'
-
+import { Redirect, Route, Switch } from 'react-router-dom'
 import Footer from './components/Footer/Footer'
 import MobileMenu from './components/MobileMenu/MobileMenu'
 import About from './pages/About'
@@ -15,6 +13,7 @@ import OpenPosition from './pages/OpenPosition'
 import Team from './pages/Team'
 import TeamMember from './pages/TeamMember'
 import Work from './pages/Work'
+import { createGlobalStyle } from './theme'
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -45,8 +44,10 @@ const App = () => (
       <Route path="/medarbetare/:shortName" component={withRoot(TeamMember)} />
       <Route exact path="/case" component={withRoot(Cases)} />
       <Route path="/case/:slug" component={withRoot(Case)} />
-      <Route exact path="/jobba-hos-oss" component={withRoot(Work)} />
-      <Route path="/jobba-hos-oss/:id" component={withRoot(OpenPosition)} />
+      <Redirect exact from="/jobba-hos-oss" to="/karriar" />
+      <Route exact path="/karriar" component={withRoot(Work)} />
+      <Redirect from="/jobba-hos-oss/:id" to="/karriar/:id" />
+      <Route path="/karriar/:id" component={withRoot(OpenPosition)} />
       <Route path="/erbjudanden" component={withRoot(Offers)} />
       <Route component={NotFound} />
     </Switch>

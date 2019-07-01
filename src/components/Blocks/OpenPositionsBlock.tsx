@@ -33,16 +33,16 @@ const Content = styled.div`
     grid-row-gap: 0;
   }
 
-
   /* IE 11 */
-  ${({ theme }) => theme.browsers.ie10Or11(`
+  ${({ theme }) =>
+    theme.browsers.ie10Or11(`
     display: flex;
     width: 1024px;
     
     > * {
       flex-basis: 50%;
     }
-  `)}
+  `)};
 `
 
 const SideWrap = styled.div``
@@ -78,7 +78,7 @@ const OpenPositionsBlock: React.SFC<OpenPositionsBlockProps> = ({
                   <OpenPosition key={position.id}>
                     <StyledPrefetchLink
                       query={OPEN_POSITION_PAGE_QUERY}
-                      to={`/jobba-hos-oss/${position.id}`}
+                      to={`/karriar/${position.id}`}
                       variables={{
                         id: position.id,
                       }}
