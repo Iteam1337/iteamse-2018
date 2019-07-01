@@ -21,12 +21,6 @@
     "max-classes-per-file": false,
     "max-line-length": [false, 80],
     "member-access": false,
-    "member-ordering": [
-      true,
-      "private-before-public",
-      "static-before-instance",
-      "variables-before-functions"
-    ],
     "no-any": false,
     "no-arg": true,
     "no-bitwise": true,
@@ -44,7 +38,6 @@
     "no-switch-case-fall-through": true,
     "no-trailing-whitespace": false,
     "no-unused-expression": [true, "allow-tagged-template"],
-    "no-use-before-declare": true,
     "object-literal-sort-keys": true,
     "one-line": [
       true,

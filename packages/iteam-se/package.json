@@ -1,5 +1,5 @@
 {
-  "name": "iteamse",
+  "name": "iteam-se",
   "version": "0.7.0",
   "license": "MIT",
   "scripts": {
@@ -10,19 +10,17 @@
     "coverage": "razzle test --env=jsdom --coverage",
     "start:prod": "NODE_ENV=production node build/server.js",
     "lint": "tslint -c tslint.json 'src/**/*.ts' 'src/**/*.tsx'",
-    "schema": "apollo-codegen introspect-schema http://localhost:4000 --output ./src/schema.json",
-    "types": "apollo-codegen generate './src/**/*.tsx' --schema src/schema.json --addTypename --target typescript --output typings/iteamse.d.ts",
+    "schema":
+      "apollo-codegen introspect-schema http://localhost:3000 --output ./src/schema.json",
+    "types":
+      "apollo-codegen generate './src/**/*.tsx' --schema src/schema.json --addTypename --target typescript --output typings/iteamse.d.ts",
     "cypress": "cypress open",
     "cypress:run": "cypress run",
     "precommit": "lint-staged",
     "commitmsg": "commitlint -e $GIT_PARAMS"
   },
   "lint-staged": {
-    "*.js": [
-      "prettier --write",
-      "tslint --fix",
-      "git add"
-    ]
+    "*.js": ["prettier --write", "tslint --fix", "git add"]
   },
   "prettier": {
     "semi": false,
@@ -107,27 +105,20 @@
         "useBabelrc": true
       }
     },
-    "setupFiles": [
-      "./src/setupTests.js"
-    ],
+    "setupFiles": ["./src/setupTests.js"],
     "transform": {
       ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js",
       "^.+\\.css$": "<rootDir>/node_modules/razzle/config/jest/cssTransform.js",
-      "^(?!.*\\.(js|jsx|css|json)$)": "<rootDir>/node_modules/razzle/config/jest/fileTransform.js"
+      "^(?!.*\\.(js|jsx|css|json)$)":
+        "<rootDir>/node_modules/razzle/config/jest/fileTransform.js"
     },
     "moduleNameMapper": {
-      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.tsx",
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$":
+        "<rootDir>/__mocks__/fileMock.tsx",
       "\\.(css)$": "<rootDir>/node_modules/jest-css-modules"
     },
-    "testMatch": [
-      "<rootDir>/src/**/__tests__/**/*.(ts|tsx)"
-    ],
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "json"
-    ],
+    "testMatch": ["<rootDir>/src/**/__tests__/**/*.(ts|tsx)"],
+    "moduleFileExtensions": ["ts", "tsx", "js", "json"],
     "collectCoverageFrom": [
       "src/**/*.tsx?",
       "src/**/*.ts",

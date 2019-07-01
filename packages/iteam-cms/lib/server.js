@@ -16,16 +16,14 @@ const resolvers = {
 }
 
 const server = new ApolloServer({
-  playground: true,
+  playground: process.env.NODE_ENV !== 'production',
   introspection: true,
   typeDefs,
   resolvers,
-  context: async () => {
-    return {
-      client,
-      getByContentType: getByContentType(client),
-    }
-  },
+  context: () => ({
+    client,
+    getByContentType: getByContentType(client),
+  }),
 })
 
 module.exports = cors({ origin: '*' })((req, res) => {
