@@ -144,6 +144,8 @@ module.exports = gql`
     stabilityTitle: String!
     valueText: String!
     valueTitle: String!
+    valueeText: String!
+    valueIteam: String!
     contactTitle: String!
   }
 
