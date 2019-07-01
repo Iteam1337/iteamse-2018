@@ -19,11 +19,9 @@ describe('#server', () => {
     expect(ApolloServer).toMatchSnapshot()
   })
 
-  it('should setup context for GraphQL', async () => {
+  it('should setup context for GraphQL', () => {
     require('../server')
 
-    await expect(
-      ApolloServer.mock.calls[0][0].context()
-    ).resolves.toMatchSnapshot()
+    expect(ApolloServer.mock.calls[0][0].context()).toMatchSnapshot()
   })
 })

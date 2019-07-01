@@ -6,3 +6,39 @@ Object {
   "getByContentType": [MockFunction getByContentType],
 }
 `;
+
+exports[`#server should setup server 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "context": [Function],
+        "introspection": true,
+        "playground": true,
+        "resolvers": Object {
+          "Query": Object {
+            "addresses": [Function],
+            "case": [Function],
+            "cases": [Function],
+            "offers": [Function],
+            "openpositions": [Function],
+            "pageAboutUs": [Function],
+            "pageCases": [Function],
+            "pageHowWeWork": [Function],
+            "pageOffers": [Function],
+            "pageOpenPosition": [Function],
+            "pageStart": [Function],
+            "pageStart2019": [Function],
+            "pageTeam": [Function],
+            "pageWork": [Function],
+            "team": [Function],
+            "teamMember": [Function],
+            "teamMembers": [Function],
+          },
+        },
+        "typeDefs": undefined,
+      },
+    ],
+  ],
+}
+`;
