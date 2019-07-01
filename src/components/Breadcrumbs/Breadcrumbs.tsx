@@ -39,14 +39,12 @@ const Breadcrumbs: React.SFC<BreadcrumbsProps & RouteComponentProps<{}>> = ({
           case 'case':
             return (
               <Link key={`link-${i}`} to="/case">
-                <StyledSpan>
-                  Case
-                </StyledSpan>
+                <StyledSpan>Case</StyledSpan>
               </Link>
             )
-          case 'jobba-hos-oss':
+          case 'karriar':
             return (
-              <Link key={`link-${i}`} to="/jobba-hos-oss">
+              <Link key={`link-${i}`} to="/karriar">
                 <StyledSpan>Jobba hos oss</StyledSpan>
               </Link>
             )

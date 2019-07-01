@@ -6,7 +6,7 @@ import { TeamQueryMock } from '../__fixtures__/teamMock'
 import OpenPosition, { OPEN_POSITION_PAGE_QUERY } from '../OpenPosition'
 
 const location = {
-  pathname: '/jobba-hos-oss/junior-ux-designer',
+  pathname: '/karriar/junior-ux-designer',
 }
 
 const params = {
