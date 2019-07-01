@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#server should setup context for GraphQL 1`] = `
+Object {
+  "client": undefined,
+  "getByContentType": [MockFunction getByContentType],
+}
+`;

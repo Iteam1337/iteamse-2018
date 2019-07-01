@@ -9,6 +9,18 @@ module.exports = {
       ".tsx",
     ]);
 
+    // Turn off webpack-hints for Travis build
+    if (!dev) {
+      config.performance = Object.assign(
+        {},
+        {
+          hints: false,
+          maxAssetSize: 100000,
+          maxEntrypointSize: 300000,
+        },
+      );
+    }
+
     config.devtool = "cheap-module-source-map";
 
     // Locate eslint-loader and remove it (we're using tslint instead)

@@ -13,12 +13,13 @@ $ npm start
 
 ### Environment setup
 
-Add a `.env.local` file in the root of this project and set the following values to the correct url (the example is for a local instance of the [API](https://github.com/Iteam1337/iteamse-cms))
+Add a `.env.development` file in the root of this project and set the following values to the correct url (the example is for a local instance of the [API](https://github.com /Iteam1337/iteamse-cms))
 
 ```
-RAZZLE_CMS_URL=http://localhost:4000
-RAZZLE_CMS_NODE_URL=http://localhost:4000
-RAZZLE_HOST=http://localhost:4000
+PORT=4000
+RAZZLE_CMS_URL=http://localhost:3000/api/graphql
+RAZZLE_CMS_NODE_URL=http://localhost:3000/api/graphql
+RAZZLE_HOST=http://localhost:3000/api/graphql
 ```
 
 ## Code standards

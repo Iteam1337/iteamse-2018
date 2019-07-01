@@ -1,0 +1,156 @@
+{
+  "name": "iteamse",
+  "version": "0.7.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "razzle start",
+    "build": "razzle build",
+    "test:once": "jest --env=jsdom",
+    "test": "jest --env=jsdom --watch",
+    "coverage": "razzle test --env=jsdom --coverage",
+    "start:prod": "NODE_ENV=production node build/server.js",
+    "lint": "tslint -c tslint.json 'src/**/*.ts' 'src/**/*.tsx'",
+    "schema": "apollo-codegen introspect-schema http://localhost:4000 --output ./src/schema.json",
+    "types": "apollo-codegen generate './src/**/*.tsx' --schema src/schema.json --addTypename --target typescript --output typings/iteamse.d.ts",
+    "cypress": "cypress open",
+    "cypress:run": "cypress run",
+    "precommit": "lint-staged",
+    "commitmsg": "commitlint -e $GIT_PARAMS"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "tslint --fix",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "semi": false,
+    "trailingComma": "es5",
+    "singleQuote": true
+  },
+  "dependencies": {
+    "apollo-cache-inmemory": "1.3.12",
+    "apollo-client": "2.4.8",
+    "apollo-link": "1.2.6",
+    "apollo-link-http": "1.5.4",
+    "apollo-server-express": "1.3.6",
+    "compression": "1.7.2",
+    "contrast": "1.0.1",
+    "express": "4.17.1",
+    "graphql": "0.13.2",
+    "graphql-tag": "2.9.2",
+    "http-proxy-middleware": "0.18.0",
+    "node-fetch": "2.1.2",
+    "raf": "3.4.0",
+    "razzle": "2.0.0-alpha.12",
+    "react": "16.7.0",
+    "react-apollo": "2.1.4",
+    "react-dom": "16.7.0",
+    "react-helmet-async": "0.2.0",
+    "react-lazyload": "2.3.0",
+    "react-lottie": "^1.2.3",
+    "react-markdown": "3.3.0",
+    "react-responsive": "4.1.0",
+    "react-reveal": "1.2.1",
+    "react-router-dom": "4.2.2",
+    "react-router-hash-link": "^1.2.1",
+    "react-safe": "1.1.1",
+    "react-svg": "3.0.1",
+    "react-table": "6.8.6",
+    "serialize-javascript": "1.5.0",
+    "styled-components": "4.1.3",
+    "telefonnummer": "1.1.1",
+    "what-input": "5.0.7"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "6.2.0",
+    "@commitlint/config-conventional": "6.1.3",
+    "@types/compression": "0.0.36",
+    "@types/express": "^4.17.0",
+    "@types/graphql": "14.0.4",
+    "@types/http-proxy-middleware": "0.17.5",
+    "@types/jest": "22.2.3",
+    "@types/node": "10.12.18",
+    "@types/react": "16.3.13",
+    "@types/react-dom": "16.0.5",
+    "@types/react-lazyload": "2.3.0",
+    "@types/react-lottie": "^1.2.1",
+    "@types/react-responsive": "3.0.1",
+    "@types/react-router-dom": "4.2.6",
+    "@types/react-svg": "2.2.0",
+    "@types/react-table": "6.7.11",
+    "@types/serialize-javascript": "1.3.2",
+    "@types/styled-components": "4.1.4",
+    "@types/webpack-env": "1.13.6",
+    "apollo-codegen": "0.19.1",
+    "babel-plugin-styled-components": "1.10.0",
+    "dom-testing-library": "2.7.0",
+    "husky": "0.14.3",
+    "jest-css-modules": "1.1.0",
+    "jest-dom": "^3.0.0",
+    "jest-styled-components": "6.3.1",
+    "lint-staged": "7.0.5",
+    "prettier": "1.12.1",
+    "react-mock-router": "1.0.15",
+    "react-testing-library": "5.4.2",
+    "ts-jest": "22.4.4",
+    "ts-loader": "5.3.2",
+    "tslint": "5.12.1",
+    "tslint-loader": "3.6.0",
+    "tslint-react": "3.6.0",
+    "typescript": "3.2.2"
+  },
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "useBabelrc": true
+      }
+    },
+    "setupFiles": [
+      "./src/setupTests.js"
+    ],
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js",
+      "^.+\\.css$": "<rootDir>/node_modules/razzle/config/jest/cssTransform.js",
+      "^(?!.*\\.(js|jsx|css|json)$)": "<rootDir>/node_modules/razzle/config/jest/fileTransform.js"
+    },
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.tsx",
+      "\\.(css)$": "<rootDir>/node_modules/jest-css-modules"
+    },
+    "testMatch": [
+      "<rootDir>/src/**/__tests__/**/*.(ts|tsx)"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.tsx?",
+      "src/**/*.ts",
+      "!**/__generated__/**",
+      "!**/__fixtures__/**",
+      "!**/typings/**",
+      "!src/utils/test-utils/**",
+      "!src/client.tsx",
+      "!src/server.tsx",
+      "!src/index.ts",
+      "!src/apollo.ts",
+      "!src/Html.js",
+      "!src/ScrollToTop.tsx",
+      "!src/setupTests.js",
+      "!src/theme.ts"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 90,
+        "lines": 90,
+        "statements": 90
+      }
+    }
+  }
+}

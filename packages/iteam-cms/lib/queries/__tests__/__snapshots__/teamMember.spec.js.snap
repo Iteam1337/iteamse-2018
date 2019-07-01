@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`queries/teamMember should return all fields 1`] = `
+Object {
+  "avatar": "https://www.gravatar.com/avatar/08053b9b0035a1ad64dc9be5485f2cf5?s=300",
+  "email": "rickard.laurin@iteam.se",
+  "headerImage": undefined,
+  "location": "Stockholm",
+  "name": "Rickard Laurin",
+  "short": "rln",
+  "title": "Webbutvecklare",
+}
+`;

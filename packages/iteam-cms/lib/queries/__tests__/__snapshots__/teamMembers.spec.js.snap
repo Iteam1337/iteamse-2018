@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`queries/teamMembers should return all fields 1`] = `
+Array [
+  Object {
+    "avatar": "https://www.gravatar.com/avatar/147291c6bde9bd3b18201d637917af97?s=300",
+    "email": "mats.egardt@iteam.se",
+    "headerImage": undefined,
+    "location": "Stockholm",
+    "name": "Mats Egardt",
+    "short": "met",
+    "title": "Drift & support",
+  },
+  Object {
+    "avatar": "//images.ctfassets.net/rj4r6yfcesw5/2uQtyFGphOCg4U6e2mm2oY/c433294b7e3f0dfe9becd87c1c9907d3/hrn.jpg",
+    "email": "hans.rollman@iteam.se",
+    "headerImage": undefined,
+    "location": "Stockholm",
+    "name": "Hans Rollman",
+    "short": "hrn",
+    "title": "Samarbete",
+  },
+  Object {
+    "avatar": "https://www.gravatar.com/avatar/08053b9b0035a1ad64dc9be5485f2cf5?s=300",
+    "email": "rickard.laurin@iteam.se",
+    "headerImage": undefined,
+    "location": "Stockholm",
+    "name": "Rickard Laurin",
+    "short": "rln",
+    "title": "Webbutvecklare",
+  },
+]
+`;

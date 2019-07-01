@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`queries/pageStart2019 should return all fields 1`] = `
+Object {
+  "ctaButtonText": "Kontakta oss",
+  "ctaText": "Hör av dig till oss så pratar vi vidare.",
+  "ctaTitle": "Nyfiken på vad vi kan åstadkomma tillsammans?",
+  "headerLead": "Läs mer om våra [erbjudanden](/erbjudanden \\"Erbjudanden\\") eller se våra [case](/case \\"Våra case\\")",
+  "headerText1": "Hej! Vi är Iteam, en utvecklingbyrå som digitaliserar företag genom kod, kultur och strategi.",
+  "ourMethodText": "Vi har varit verksamma som digital innovationsbyrå i över 20 år. Så vi vet att glädje,  teknisk spetskompetens och strategiska perspektiv är viktigt. Mendet är när personer med olika kompetenser och varierande bakgrunder samarbetar i tvärfunktionella team som innovation verkligen sker. Det är därför som jobbar vi alltid i team tillsammans med våra kunder. ",
+  "ourMethodTitle": "Vår metod",
+  "team": Array [
+    "hrn",
+    "mrs",
+    "jmn",
+    "jhn",
+  ],
+  "weAreText": "Vi är en digital utvecklingsbyrå med kontor i Stockholm och Göteborg. Totalt är vi är 35 utvecklare, värdecoacher,  UX-designers och stateger som drivs av tre grundläggande värderingar - att göra något bra, att ha kul och att skapa värde. 
+
+Vi kombinerar strategi, kod och kultur för att ta fram digitala lösningar som möter användarnas behov. Vi utvecklar inte bara appar. Vi tar ett helhetligt perspektiv på din affär för att skapa förändring på riktigt. Vi leder förändringsarbetet och hjälper er att digitalisera er affär.
+
+",
+  "weAreTitle": "Vi är Iteam",
+  "weOfferText": "Med ett långsiktigt engagemang hjälper våra kunder att navigera i den digitala världen. Vi omvandlar visioner till verkliget, utmanar föråldrade metoder och tillsammans med er utvecklar vi digitala tjänster som era kunder älskar att använda.",
+  "weOfferTitle": "Vi erbjuder",
+}
+`;

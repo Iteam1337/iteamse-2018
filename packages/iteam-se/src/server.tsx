@@ -21,13 +21,17 @@ interface StaticContext {
 }
 
 const server = express()
-const { RAZZLE_CMS_NODE_URL, RAZZLE_PUBLIC_DIR, RAZZLE_HOST } = process.env
+const {
+  RAZZLE_CMS_NODE_URL = '/api/graphql',
+  RAZZLE_PUBLIC_DIR = '/api/graphql',
+  RAZZLE_HOST = '/api/graphql',
+} = process.env
 
 server.use(compression())
 server.use(
-  '/cms',
+  '/api/graphql',
   proxy({
-    pathRewrite: (path: string) => path.replace('/cms', ''),
+    pathRewrite: (path: string) => path.replace('/api/graphql', ''),
     target: RAZZLE_CMS_NODE_URL,
   })
 )
