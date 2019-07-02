@@ -27,8 +27,6 @@
     { "src": "/(.*)", "dest": "packages/iteam-se/build/server.js" }
   ],
   "env": {
-    "CONTENTFUL_SPACE": "@iteamse-contentful-space",
-    "CONTENTFUL_ACCESS_TOKEN": "@iteamse-contentful-access-token",
     "RAZZLE_CMS_NODE_URL": "/api/graphql",
     "RAZZLE_PUBLIC_DIR": "/api/graphql",
     "RAZZLE_HOST": "/api/graphql",

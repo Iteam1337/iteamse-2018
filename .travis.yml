@@ -15,7 +15,7 @@ jobs:
         - npm run test
         - npm run build:web
         - npm install now --no-save
-        - now --token $NOW_TOKEN_ITEAMSE 
+        - now --token $NOW_TOKEN_ITEAMSE -e CONTENTFUL_SPACE=$CONTENTFUL_SPACE CONTENTFUL_ACCESS_TOKEN=$CONTENTFUL_ACCESS_TOKEN
         - now alias $TRAVIS_COMMIT --token $NOW_TOKEN_ITEAMSE
 
     - stage: release 
