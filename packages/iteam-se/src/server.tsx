@@ -46,6 +46,9 @@ server
           link: createHttpLink({
             fetch,
             uri: apolloUri(RAZZLE_HOST, req),
+            fetchOptions: {
+              method: 'POST',
+            },
           }),
           ssrMode: true,
         })
