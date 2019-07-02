@@ -45,10 +45,10 @@ server
           cache: new InMemoryCache(),
           link: createHttpLink({
             fetch,
-            uri: apolloUri(RAZZLE_HOST, req),
             fetchOptions: {
               method: 'POST',
             },
+            uri: apolloUri(RAZZLE_HOST, req),
           }),
           ssrMode: true,
         })

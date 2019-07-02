@@ -10,8 +10,8 @@ describe('#apolloUri', () => {
   test('it handles relative urls', () => {
     expect(
       apolloUri('/test', {
-        protocol: 'https',
         hostname: 'iteam.se',
+        protocol: 'https',
       })
     ).toEqual('https://iteam.se/test')
   })
