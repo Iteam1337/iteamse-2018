@@ -223,7 +223,7 @@ export class Navigation extends React.Component<
 
     return (
       <Wrap>
-        <GlobalStyle />
+        <GlobalStyle to="" />
         <LogoLink onMouseEnter={this.prefetchPage('home')} to="/">
           <Logo data-testid="logo" path={isInverted ? logoBlack : logo} />
         </LogoLink>
@@ -273,7 +273,6 @@ export class Navigation extends React.Component<
           <ExternalLink
             target="_blank"
             rel="noopener noreferrer"
-            activeClassName="active-nav"
             href="https://blog.iteam.life/"
           >
             Labs

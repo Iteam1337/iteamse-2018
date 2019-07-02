@@ -6,19 +6,22 @@ import express from 'express'
 import proxy from 'http-proxy-middleware'
 import fetch from 'node-fetch'
 import React from 'react'
-import { ApolloProvider, renderToStringWithData } from 'react-apollo'
-import { renderToStaticMarkup } from 'react-dom/server'
+import { ApolloProvider, getDataFromTree } from 'react-apollo'
+import { renderToString } from 'react-dom/server'
 import { FilledContext, HelmetProvider } from 'react-helmet-async'
 import { StaticRouter } from 'react-router-dom'
-import serialize from 'serialize-javascript'
+//import serialize from 'serialize-javascript'
 import App from './App'
-import Html from './Html'
+//import Html from './Html'
 import { ServerStyleSheet, theme, ThemeProvider } from './theme'
 import { redirectHelper } from './utils/serverHelpers'
 
 interface StaticContext {
   statusCode?: number
 }
+
+const assets = require(process.env.RAZZLE_ASSETS_MANIFEST!)
+const isProduction = process.env.NODE_ENV === 'production'
 
 const server = express()
 const {
@@ -54,13 +57,12 @@ server
         })
 
         const sheet = new ServerStyleSheet()
-
         const context: StaticContext = {}
         const helmetContext: FilledContext = {
           helmet: {},
         }
 
-        const markup = sheet.collectStyles(
+        const Root = () => (
           <HelmetProvider context={helmetContext}>
             <ApolloProvider client={client}>
               <ThemeProvider theme={theme}>
@@ -72,36 +74,85 @@ server
           </HelmetProvider>
         )
 
-        const content = await renderToStringWithData(markup)
-
+        // Get Apollo State
+        await getDataFromTree(<Root />)
         const apolloState = client.extract()
-        const styleTags = sheet.getStyleElement()
 
-        const html = (
-          <Html
-            apolloState={serialize(apolloState, { isJSON: true })}
-            content={content}
-            styleTags={styleTags}
-          />
-        )
+        // Render tree and collect CSS data
+        const content = renderToString(sheet.collectStyles(<Root />))
+        const styleTags = sheet.getStyleTags()
 
-        const staticMarkup = renderToStaticMarkup(html)
-
-        if (context.statusCode) {
-          res.status(context.statusCode)
-        }
-
+        // Get react-helmet properties
         const { helmet } = helmetContext
         const { meta, title } = helmet
 
         res.send(`
           <!doctype html>
-            <head>
-              ${title.toString()}
-              ${meta.toString()}
-            </head>
-            ${staticMarkup}
-        `)
+<html lang="sv">
+      <head>
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Vi digitaliserar företag och organisationer genom strategi, kod och kultur"
+        />
+
+        ${meta.toString()}
+        ${title.toString()}
+        <link rel="icon" href="/favicon.png?v=2" />
+        <link
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+          rel="stylesheet"
+        />
+
+        ${
+          assets.client.css
+            ? `<link rel="stylesheet" href="${assets.client.css}" />`
+            : ''
+        }
+
+        ${
+          isProduction
+            ? `<script src="${assets.client.js}" defer></script>`
+            : `<script src="${
+                assets.client.js
+              }" defer crossOrigin="true"></script>`
+        }
+
+        ${
+          isProduction
+            ? `
+        <!-- Google Tag Manager -->
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MP7MZVC');</script>
+        <!-- End Google Tag Manager --> 
+              `
+            : ''
+        }
+
+        ${styleTags}
+      </head>
+      <body>
+        ${
+          isProduction
+            ? `
+        <!-- Google Tag Manager (noscript) -->
+            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MP7MZVC"
+              height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+            `
+            : ''
+        }
+
+        <div id="root">${content}</div>
+
+        <script>window.__APOLLO_STATE__ = ${JSON.stringify(apolloState).replace(
+          /</g,
+          '\\u003c'
+        )}</script>
+        </body>
+    </html>
+          `)
       } catch (error) {
         console.error(error)
 

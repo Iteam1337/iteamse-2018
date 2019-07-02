@@ -95,7 +95,6 @@ const MenuNavigation: React.SFC<MenuNavigationProps> = ({ open }) => {
         <ExternalLink
           target="_blank"
           rel="noopener noreferrer"
-          activeClassName="active-nav"
           href="https://blog.iteam.life/"
         >
           Labs

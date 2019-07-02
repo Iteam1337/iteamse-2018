@@ -277,6 +277,7 @@ exports[`components/Home renders Home 1`] = `
             </div>
             <a
               href="mailto:info@iteam.se"
+              to=""
               class="sc-htoDjs ekgEfr"
             >
               Kontakta oss
