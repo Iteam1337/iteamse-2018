@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "iteam",
+  "name": "iteamse",
   "builds": [
     { "src": "packages/iteam-cms/lib/server.js", "use": "@now/node" },
     { "src": "packages/iteam-se/build/server.js", "use": "@now/node-server" },
