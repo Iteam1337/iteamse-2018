@@ -3,7 +3,6 @@ import { ApolloClient } from 'apollo-client'
 import { createHttpLink } from 'apollo-link-http'
 import compression from 'compression'
 import express from 'express'
-import proxy from 'http-proxy-middleware'
 import fetch from 'node-fetch'
 import React from 'react'
 import { ApolloProvider, getDataFromTree } from 'react-apollo'
@@ -30,20 +29,9 @@ syncAssets()
 const isProduction = process.env.NODE_ENV === 'production'
 
 const server = express()
-const {
-  RAZZLE_CMS_NODE_URL = '/api/graphql',
-  RAZZLE_PUBLIC_DIR = '/api/graphql',
-  RAZZLE_HOST = '/api/graphql',
-} = process.env
+const { RAZZLE_HOST = '/api/graphql', RAZZLE_PUBLIC_DIR } = process.env
 
 server.use(compression())
-server.use(
-  '/api/graphql',
-  proxy({
-    pathRewrite: (path: string) => path.replace('/api/graphql', ''),
-    target: RAZZLE_CMS_NODE_URL,
-  })
-)
 
 server
   .disable('x-powered-by')
