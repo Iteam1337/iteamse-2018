@@ -33,12 +33,16 @@ jobs:
         - npm run test
       after_success:
         - docker login -u $DOCKER_USER -p $DOCKER_PASS
-        - export REPO=iteam1337/iteamse
+        - export REPO_WEB=iteam1337/iteamse
+        - export REPO_CMS=iteam1337/iteamse-cms
         - export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH
           ; fi`
-        - docker build -f ./packages/iteam-se/Dockerfile -t $REPO:$TAG ./packages/iteam-se/
-        - docker tag $TAG $REPO:TAG
-        - docker push $REPO:$TAG
+        - docker build -f ./packages/iteam-se/Dockerfile -t $REPO_WEB:$TAG ./packages/iteam-se/
+        - docker tag $TAG $REPO_WEB:TAG
+        - docker push $REPO_WEB:$TAG
+        - docker build -f ./packages/iteam-cms/Dockerfile -t $REPO_CMS:$TAG ./packages/iteam-cms/
+        - docker tag $TAG $REPO_CMS:TAG
+        - docker push $REPO_CMS:$TAG
 
 stages:
   - name: preview
