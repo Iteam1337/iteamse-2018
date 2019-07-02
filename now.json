@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "name": "iteamse",
+  "builds": [
+    { "src": "packages/iteam-cms/lib/server.js", "use": "@now/node" },
+    { "src": "packages/iteam-se/build/server.js", "use": "@now/node-server" },
+    { "src": "packages/iteam-se/build/public/**/*", "use": "@now/static" }
+  ],
+  "routes": [
+    { "src": "/api/graphql", "dest": "packages/iteam-cms/lib/server.js" },
+    {
+      "src": "/static/(.*)",
+      "dest": "packages/iteam-se/build/public/static/$1"
+    },
+    {
+      "src": "/favicon.ico",
+      "dest": "packages/iteam-se/build/public/favicon.ico"
+    },
+    {
+      "src": "/favicon.png(.*)",
+      "dest": "packages/iteam-se/build/public/favicon.png"
+    },
+    {
+      "src": "/robots.txt",
+      "dest": "packages/iteam-se/build/public/robots.txt"
+    },
+    { "src": "/(.*)", "dest": "packages/iteam-se/build/server.js" }
+  ],
+  "env": {
+    "RAZZLE_CMS_NODE_URL": "/api/graphql",
+    "RAZZLE_HOST": "/api/graphql",
+    "NODE_ENV": "production"
+  },
+  "files": ["packages/iteam-se/build", "packages/iteam-cms"],
+  "regions": ["arn1"],
+  "github": {
+    "enabled": false
+  }
+}

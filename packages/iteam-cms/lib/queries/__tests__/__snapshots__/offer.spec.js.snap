@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`queries/offers should return all fields 1`] = `
+Array [
+  Object {
+    "offerFourUspText": "Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum.",
+    "offerIllustrationImage": "//images.ctfassets.net/rj4r6yfcesw5/6greZtlabmmQqsqoSE640m/2c0cf022b7b9f5c25f871905c6fe9a32/illustrations-group-1.png",
+    "offerIntroImage": "//images.ctfassets.net/rj4r6yfcesw5/1oqMfeZBnuQAAGweIGCKEW/60143ba037ba021f0f1090f571207e8a/Laptop-Large.png",
+    "offerIntroText": "Vi digitaliserar Sverige. Pompigt! Men det betyder att vi hjälper dig att leda digitaliseringen istället för att vara den som blir lämnad på efterkälken. Både på den marknad där du verkar, och de marknader du inte ens visste att du borde verka på. ",
+    "offerLead": "Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum a nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras quis odio vel turpis pellentesque finibus.",
+    "offerOneUspText": "Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum a nisi.",
+    "offerOrder": 2,
+    "offerThreeUspText": "Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum a nisi.",
+    "offerTitle": "Strategi",
+    "offerTwoUspText": "Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum a nisi.",
+    "offerUspFourText": "Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum.",
+    "offerUspFourTitle": "Labb",
+    "offerUspOneText": "Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum a nisi.",
+    "offerUspOneTitle": "Datadrivet beslutsfattande",
+    "offerUspThreeText": "Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum a nisi.",
+    "offerUspThreeTitle": "Förstudier",
+    "offerUspTwoText": "Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum a nisi.",
+    "offerUspTwoTitle": "Koncept och business case",
+  },
+]
+`;

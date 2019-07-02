@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`queries/pageStart should return all fields 1`] = `
+Object {
+  "codeLinkText": "Läs om hur vi hjälper Arbetsförmedlingen med kod",
+  "codeLogo": "//images.ctfassets.net/rj4r6yfcesw5/3qnZSfySW4cEGoUo6KCAae/dd66159c0de05dca84b18e497efd831d/AF_ordbild_bla__.png",
+  "codeMobileImage": "//images.ctfassets.net/rj4r6yfcesw5/2mxfqVCqiw4CQYguMSYwYU/7da84bff9b325ddb8ce9fd7e1f90e78e/Mac-Medium.png",
+  "codeSlug": "arbetsformedlingen",
+  "codeText": "Systemutveckling, automatisering, artificiell intelligens, maskininlärning. Vi har alla redskap du behöver för att bygga vad du vill. Det du vill. Och vet du inte vad du behöver så hjälper vi dig med det med.",
+  "codeTitle": "Kod",
+  "contactTitle": "Hör av dig till oss!",
+  "cultureLinkText": "Läs om hur vi hjälper SEB med kultur",
+  "cultureLogo": "//images.ctfassets.net/rj4r6yfcesw5/4D844WR1v20ICIOG4SK0y8/717c7385b8c47355f25183f4b7efca5d/SEB_2.png",
+  "cultureMobileImage": "//images.ctfassets.net/rj4r6yfcesw5/2y9WBlATsssIcSQmuQ6Ky8/03ba2f2c9cfcd6a67ffd112c8b703759/Video-Call-Large.png",
+  "cultureSlug": "seb",
+  "cultureText": "Ibland ser vi oss som kulturarbetare. Det räcker inte att bygga digitala tjänster åt sina användare. Det är först när hela din organisation tänker, andas och lever digitalt som ni digitaliseras. på riktigt. Vi rustar dig för framtiden helt enkelt.",
+  "cultureTitle": "Kultur",
+  "headerImage": "//images.ctfassets.net/rj4r6yfcesw5/6WZT7iYMZGkuEUIc4S0KgK/a7bd9adbf261421465fa03ef7a49a065/Mikael-Nisse-Mimmi-Highres.jpg",
+  "headerText1": "Vi digitaliserar företag och organisationer",
+  "headerText2": "genom strategi, kod och kultur",
+  "headerTextBgColor": "#FF3B5C",
+  "strategyLinkText": "Läs om hur vi hjälper Taxi Stockholm med strategi",
+  "strategyLogo": "//images.ctfassets.net/rj4r6yfcesw5/1mv5fxBGLmeyWom4OI2WsI/fe6d2c6d19544cff23b033cba5ce221a/logo-footer_2x.png",
+  "strategyMobileImage": "//images.ctfassets.net/rj4r6yfcesw5/1oqMfeZBnuQAAGweIGCKEW/60143ba037ba021f0f1090f571207e8a/Laptop-Large.png",
+  "strategySlug": "tsab",
+  "strategyText": "Vi digitaliserar Sverige. Pompigt! Men det betyder att vi hjälper dig att leda digitaliseringen istället för att vara den som blir lämnad på efterkälken. Både på den marknad där du verkar, och de marknader du inte ens visste att du borde verka på.",
+  "strategyTitle": "Strategi",
+  "team": Array [
+    "hrn",
+    "met",
+    "mrs",
+    "jmn",
+  ],
+}
+`;

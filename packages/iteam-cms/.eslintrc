@@ -1,0 +1,14 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "comma-dangle": ["error", "always-multiline"],
+    "object-curly-spacing": [2, "always"],
+    "no-var": 2,
+    "no-unused-vars": 2,
+    "prefer-const": 2,
+    "space-before-blocks": ["error", "always"],
+    "space-before-function-paren": ["error", "always"],
+    "semi": ["error", "never"],
+    "quotes": ["error", "single"]
+  }
+}

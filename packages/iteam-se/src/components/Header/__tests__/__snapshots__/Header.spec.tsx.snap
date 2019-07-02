@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Header renders Header 1`] = `
+<div>
+  <div>
+    <div
+      class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-kkGfuU jAUXRS"
+    >
+      <div
+        class="Header__Content-dm3ycw-0 beGtUJ"
+      >
+        <div
+          class="Navigation__Wrap-fdgx9g-0 ehbMFf"
+        >
+          <a
+            class="sc-jKJlTe bIUarX"
+          >
+            <img
+              data-testid="logo"
+              path="test-file-stub"
+              class="sc-eNQAEJ gYmRno"
+            />
+          </a>
+          <div
+            class="Navigation__NavigationItems-fdgx9g-2 eVDHVt"
+          >
+            <a
+              class="sc-hMqMXs fILlfv"
+              aria-current="false"
+            >
+              Erbjudanden
+            </a>
+            <a
+              class="sc-hMqMXs fILlfv"
+              aria-current="false"
+            >
+              Våra case
+            </a>
+            <a
+              class="sc-hMqMXs fILlfv"
+              aria-current="false"
+            >
+              Metod
+            </a>
+            <a
+              class="sc-hMqMXs fILlfv"
+              aria-current="false"
+            >
+              Medarbetare
+            </a>
+            <a
+              class="sc-hMqMXs fILlfv"
+              aria-current="false"
+            >
+              Karriär
+            </a>
+            <a
+              class="sc-hMqMXs fILlfv"
+              aria-current="false"
+            >
+              Om
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://blog.iteam.life/"
+              class="NativeLink-fvundc-0 sc-kEYyzF grsRKu"
+            >
+              Labs
+            </a>
+            <div
+              class="Navigation__Indicator-fdgx9g-1 bOcqdk"
+            />
+          </div>
+        </div>
+        <div
+          class="Header__MessageRow-dm3ycw-1 cbRVND"
+        >
+          <h1
+            class="H1-sc-1we7oaz-0 sc-iAyFgw dbXZLP"
+          >
+            <span
+              class="Header__MessageLine-dm3ycw-2 iOLoPT"
+            >
+              Vi digitaliserar företag och organisationer
+            </span>
+            <br />
+            <span
+              class="Header__MessageLine-dm3ycw-2 iOLoPT"
+            >
+              genom strategi, kod och kultur
+            </span>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

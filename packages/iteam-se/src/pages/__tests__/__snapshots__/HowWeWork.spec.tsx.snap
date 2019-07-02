@@ -1,0 +1,335 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/HowWeWork renders HowWeWork 1`] = `
+<div>
+  <div>
+    <div
+      class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-kkGfuU kBhhRb"
+    >
+      <div
+        class="Header__Content-dm3ycw-0 beGtUJ"
+      >
+        <div
+          class="Navigation__Wrap-fdgx9g-0 ehbMFf"
+        >
+          <a
+            class="sc-jKJlTe bIUarX"
+          >
+            <img
+              data-testid="logo"
+              path="test-file-stub"
+              class="sc-eNQAEJ gYmRno"
+            />
+          </a>
+          <div
+            class="Navigation__NavigationItems-fdgx9g-2 eVDHVt"
+          >
+            <a
+              class="sc-hMqMXs fILlfv"
+              aria-current="false"
+            >
+              Erbjudanden
+            </a>
+            <a
+              class="sc-hMqMXs fILlfv"
+              aria-current="false"
+            >
+              Våra case
+            </a>
+            <a
+              class="sc-hMqMXs fILlfv"
+              aria-current="false"
+            >
+              Metod
+            </a>
+            <a
+              class="sc-hMqMXs fILlfv"
+              aria-current="false"
+            >
+              Medarbetare
+            </a>
+            <a
+              class="sc-hMqMXs fILlfv"
+              aria-current="false"
+            >
+              Karriär
+            </a>
+            <a
+              class="sc-hMqMXs fILlfv"
+              aria-current="false"
+            >
+              Om
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://blog.iteam.life/"
+              class="NativeLink-fvundc-0 sc-kEYyzF grsRKu"
+            >
+              Labs
+            </a>
+            <div
+              class="Navigation__Indicator-fdgx9g-1 bOcqdk"
+            />
+          </div>
+        </div>
+        <div
+          class="Header__MessageRow-dm3ycw-1 cbRVND"
+        >
+          <h1
+            class="H1-sc-1we7oaz-0 sc-iAyFgw bOBImS"
+          >
+            <span
+              class="Header__MessageLine-dm3ycw-2 iOLoPT"
+            >
+              Så här jobbar vi 
+            </span>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-htpNat kmHAwx"
+  >
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        data-test="block-"
+        class="PaddedRow-qwtz4d-0 glcQGC"
+      >
+        <div
+          class="Block__Content-sc-73lkvi-0 cmDqNt"
+        >
+          <div
+            class="Block__TitleWrap-sc-73lkvi-1 jjTrxf"
+          >
+            <h3
+              class="H3-sc-13x7erc-0 cKRnEQ"
+            >
+              I team
+            </h3>
+          </div>
+          <div
+            class="Block__Text-sc-73lkvi-3 jzbETd"
+          >
+            <div
+              class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
+            >
+              <div>
+                <p>
+                  Vi jobbar alltid i team. Systemutvecklare, strateger, interaktionsdesigners, visuella designers och värdecoacher. Alla är vi värdefulla var och en för sig och ännu mer ihop. Vi jobbar alltid tillsammans. Alltid i tvärfunktionella team. Aldrig uthyrda. Aldrig ensamma.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ImageBlock__Content-sc-15ih60h-0 hVrqrK"
+    >
+      <img
+        src="test-file-stub"
+        class="ImageBlock__ImageContainer-sc-15ih60h-1 efhZFd"
+      />
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        data-test="block-"
+        class="PaddedRow-qwtz4d-0 glcQGC"
+      >
+        <div
+          class="Block__Content-sc-73lkvi-0 cmDqNt"
+        >
+          <div
+            class="Block__TitleWrap-sc-73lkvi-1 jjTrxf"
+          >
+            <h3
+              class="H3-sc-13x7erc-0 cKRnEQ"
+            >
+              Ständigt sökande
+            </h3>
+          </div>
+          <div
+            class="Block__Text-sc-73lkvi-3 jzbETd"
+          >
+            <div
+              class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
+            >
+              <div>
+                <p>
+                  Vi söker alltid efter den bästa processen. Den bästa metoden. Vi vågar ta risker, byta spår, byta teknik, experimentera och ifrågasätta både oss själva och våra kunder. Det är liksom det vi gör. Hela tiden.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="react-reveal"
+    style="opacity: 1;"
+  >
+    <div
+      class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-htpNat sc-VigVT dGBwXY"
+    >
+      <div
+        data-test="block-"
+        class="PaddedRow-qwtz4d-0 glcQGC"
+      >
+        <div
+          class="OpenPositionsBlock__Content-ioq2mr-0 dylyKJ"
+        >
+          <div
+            class="OpenPositionsBlock__SideWrap-ioq2mr-1 iqjsPo"
+          >
+            <h3
+              class="H3-sc-13x7erc-0 cKRnEQ"
+            >
+              Just nu söker vi
+            </h3>
+            <ul
+              class="UnstyledList-sc-47y4yg-0 sc-jTzLTM dCTFLg"
+            >
+              <li
+                class="OpenPositionsBlock__OpenPosition-ioq2mr-3 eloToW"
+              >
+                <a
+                  black="0"
+                  class="sc-gZMcBi foZFVe"
+                >
+                  Junior UX Designer
+                </a>
+                (
+                Stockholm
+                )
+              </li>
+            </ul>
+          </div>
+          <div
+            class="OpenPositionsBlock__SideWrap-ioq2mr-1 iqjsPo"
+          >
+            <h4
+              class="H4-sc-1wluqnb-0 jECykT"
+            >
+              Inget som passar?
+            </h4>
+            <div
+              class="OpenPositionsBlock__ParagraphWrap-ioq2mr-2 hLqVwx"
+            >
+              <div
+                class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
+              >
+                <div>
+                  <p>
+                    <a
+                      href="mailto:joinus@iteam.se"
+                    >
+                      Spontanansök
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img
+    src="//images.ctfassets.net/rj4r6yfcesw5/62hgzE8G3ueMa2YSEuG4og/db2b643db6041f9d26936bc2d6006607/bleed_howwework.jpg"
+    class="ImageBleed__ImageContainer-sc-1jaho49-0 kEiPqu"
+  />
+  <div
+    class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-htpNat kmHAwx"
+  >
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        data-test="block-"
+        class="PaddedRow-qwtz4d-0 glcQGC"
+      >
+        <div
+          class="Block__Content-sc-73lkvi-0 cmDqNt"
+        >
+          <div
+            class="Block__TitleWrap-sc-73lkvi-1 jjTrxf"
+          >
+            <h3
+              class="H3-sc-13x7erc-0 cKRnEQ"
+            >
+              Delar allt
+            </h3>
+          </div>
+          <div
+            class="Block__Text-sc-73lkvi-3 jzbETd"
+          >
+            <div
+              class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
+            >
+              <div>
+                <p>
+                  På våra kodluncher lär vi av varandra. Vi mentorerar och vi labbar ihop. Vi anordnar Lounge Hack, bidrar till open source, till forumet kodapor tillsammans med 12000 andra utvecklare och deltar på konferenser. Vår kunskap är din kunskap.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ImageBlock__Content-sc-15ih60h-0 hVrqrK"
+    >
+      <img
+        src="test-file-stub"
+        class="ImageBlock__ImageContainer-sc-15ih60h-1 efhZFd"
+      />
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        data-test="block-"
+        class="PaddedRow-qwtz4d-0 glcQGC"
+      >
+        <div
+          class="Block__Content-sc-73lkvi-0 cmDqNt"
+        >
+          <div
+            class="Block__TitleWrap-sc-73lkvi-1 jjTrxf"
+          >
+            <h3
+              class="H3-sc-13x7erc-0 cKRnEQ"
+            >
+              Långa strömmar, inte korta projekt
+            </h3>
+          </div>
+          <div
+            class="Block__Text-sc-73lkvi-3 jzbETd"
+          >
+            <div
+              class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
+            >
+              <div>
+                <p>
+                  Våra kunder har alla stora möjligheter att göra skillnad på sina marknader. De är förbi datorisering och har redan lagt upp alla sina formulär på webben. Nu är de ute efter digitalisering. Och det tar tid. Därför har vi ofta långa relationer med våra kunder. Ofta blir vi vänner längs vägen.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

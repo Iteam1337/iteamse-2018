@@ -1,0 +1,469 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Case renders Case 1`] = `
+<div>
+  <div
+    data-test="header-case"
+    class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-EHOje ehCRkd"
+  >
+    <div
+      class="CaseHeader__Content-sc-1emy1u7-0 bDAdLc"
+    >
+      <div
+        class="Navigation__Wrap-fdgx9g-0 ehbMFf"
+      >
+        <a
+          class="sc-jKJlTe bIUarX"
+        >
+          <img
+            data-testid="logo"
+            path="test-file-stub"
+            class="sc-eNQAEJ gYmRno"
+          />
+        </a>
+        <div
+          class="Navigation__NavigationItems-fdgx9g-2 eVDHVt"
+        >
+          <a
+            class="sc-hMqMXs fILlfv"
+            aria-current="false"
+          >
+            Erbjudanden
+          </a>
+          <a
+            class="sc-hMqMXs fILlfv active-nav"
+            aria-current="true"
+          >
+            Våra case
+          </a>
+          <a
+            class="sc-hMqMXs fILlfv"
+            aria-current="false"
+          >
+            Metod
+          </a>
+          <a
+            class="sc-hMqMXs fILlfv"
+            aria-current="false"
+          >
+            Medarbetare
+          </a>
+          <a
+            class="sc-hMqMXs fILlfv"
+            aria-current="false"
+          >
+            Karriär
+          </a>
+          <a
+            class="sc-hMqMXs fILlfv"
+            aria-current="false"
+          >
+            Om
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://blog.iteam.life/"
+            class="NativeLink-fvundc-0 sc-kEYyzF grsRKu"
+          >
+            Labs
+          </a>
+          <div
+            class="Navigation__Indicator-fdgx9g-1 bOcqdk"
+          />
+        </div>
+      </div>
+      <div
+        class="CaseHeader__Information-sc-1emy1u7-1 kSpgMJ"
+      >
+        <div
+          class="CaseHeader__Meta-sc-1emy1u7-2 cVaYxz"
+        >
+          <img
+            alt="Logo"
+            src="//images.ctfassets.net/rj4r6yfcesw5/4p0ptdLj9SaECekOI4c6C2/c2cdeab1cebc9650ebb0e7778357c231/AF_ordbild_vit.png"
+            class="CaseHeader__Logo-sc-1emy1u7-4 etvJXV"
+          />
+          <div
+            class="CaseHeader__Tags-sc-1emy1u7-5 jMGaNt"
+          >
+            <div
+              class="CaseHeader__Tag-sc-1emy1u7-6 kseyTp"
+            >
+              API
+            </div>
+            <div
+              class="CaseHeader__Tag-sc-1emy1u7-6 kseyTp"
+            >
+              Docker
+            </div>
+            <div
+              class="CaseHeader__Tag-sc-1emy1u7-6 kseyTp"
+            >
+              UX
+            </div>
+            <div
+              class="CaseHeader__Tag-sc-1emy1u7-6 kseyTp"
+            >
+              React
+            </div>
+            <div
+              class="CaseHeader__Tag-sc-1emy1u7-6 kseyTp"
+            >
+              Vue
+            </div>
+          </div>
+        </div>
+        <div
+          class="CaseHeader__CaseImage-sc-1emy1u7-7 kHMofp"
+        >
+          <img
+            alt=""
+            src="//images.ctfassets.net/rj4r6yfcesw5/4cWj2fKl3GOQgSKss0IW0q/0b2322470ffb780b925c8e446e745540/af-cropped-by-aeo.png"
+            class="CaseHeader__ProjectImage-sc-1emy1u7-3 fbyXkd"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="CaseHeader__CaseImageMobile-sc-1emy1u7-8 kEkjsl"
+  >
+    <img
+      alt=""
+      src="//images.ctfassets.net/rj4r6yfcesw5/4cWj2fKl3GOQgSKss0IW0q/0b2322470ffb780b925c8e446e745540/af-cropped-by-aeo.png"
+      class="CaseHeader__ProjectImage-sc-1emy1u7-3 fbyXkd"
+    />
+  </div>
+  <div
+    class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-htpNat kmHAwx"
+  >
+    <div
+      data-test="breadcrumbs"
+      class="PaddedRow-qwtz4d-0 sc-bwzfXH eaLDDC"
+    >
+      <a>
+        <span
+          class="Breadcrumbs__StyledSpan-sc-1ydztqh-0 kmHyGa"
+        >
+          Case
+        </span>
+      </a>
+      <span>
+        Arbetsförmedlingen
+      </span>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        data-test="block-"
+        class="PaddedRow-qwtz4d-0 glcQGC"
+      >
+        <div
+          class="Block__Content-sc-73lkvi-0 cmDqNt"
+        >
+          <div
+            class="Block__TitleWrap-sc-73lkvi-1 jjTrxf"
+          >
+            <h3
+              class="H3-sc-13x7erc-0 cKRnEQ"
+            >
+              En ny digital tjänst
+            </h3>
+          </div>
+          <div
+            class="Block__Text-sc-73lkvi-3 jzbETd"
+          >
+            <div
+              class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
+            >
+              <div>
+                <p>
+                  Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum a nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras quis odio vel turpis pellentesque finibus. Pellentesque cursus diam ac ligula placerat volutpat. Vivamus dictum augue eu rutrum efficitur. Suspendisse ut pellentesque ante. Suspendisse odio velit, fringilla eu porta vel, elementum ac libero. Nam eu vestibulum magna. Vestibulum quis risus elementum, lobortis sapien at, rhoncus enim. Nam accumsan odio lacus, at facilisis lacus rhoncus vel. Suspendisse sollicitudin a ipsum at cursus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        data-test="block-"
+        class="PaddedRow-qwtz4d-0 glcQGC"
+      >
+        <div
+          class="Block__Content-sc-73lkvi-0 cmDqNt"
+        >
+          <div
+            class="Block__TitleWrap-sc-73lkvi-1 jjTrxf"
+          >
+            <h3
+              class="H3-sc-13x7erc-0 cKRnEQ"
+            >
+              Process
+            </h3>
+          </div>
+          <div
+            class="Block__Text-sc-73lkvi-3 jzbETd"
+          >
+            <div
+              class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
+            >
+              <div>
+                <p>
+                  Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum a nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras quis odio vel turpis pellentesque finibus. Pellentesque cursus diam ac ligula placerat volutpat. Vivamus dictum augue eu rutrum efficitur. Suspendisse ut pellentesque ante. Suspendisse odio velit, fringilla eu porta vel, elementum ac libero. Nam eu vestibulum magna. Vestibulum quis risus elementum, lobortis sapien at, rhoncus enim. Nam accumsan odio lacus, at facilisis lacus rhoncus vel. Suspendisse sollicitudin a ipsum at cursus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      data-test="block-"
+      class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-ifAKCX jRMFYW"
+    >
+      <div
+        class="PaddedRow-qwtz4d-0 glcQGC"
+      >
+        <div
+          class="Quote__ActualQuote-eij22x-0 jFvUu"
+        >
+          ""We feel that our crew at Iteam are more colleagues than suppliers. Rather than specifying a tech spec to work on, we collaborate, carefully chiseling out functionality as we go along. This way of working has minimized waste and it has also taken us further than we ever imagined”"
+        </div>
+        <div
+          class="Quote__Person-eij22x-1 eEHJCa"
+        >
+          Anna Andersson, chef Arbetsförmedlingen
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        data-test="block-"
+        class="PaddedRow-qwtz4d-0 glcQGC"
+      >
+        <div
+          class="Block__Content-sc-73lkvi-0 cmDqNt"
+        >
+          <div
+            class="Block__TitleWrap-sc-73lkvi-1 jjTrxf"
+          >
+            <h3
+              class="H3-sc-13x7erc-0 cKRnEQ"
+            >
+              Utveckling
+            </h3>
+          </div>
+          <div
+            class="Block__Text-sc-73lkvi-3 jzbETd"
+          >
+            <div
+              class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
+            >
+              <div>
+                <p>
+                  Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum a nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras quis odio vel turpis pellentesque finibus. Pellentesque cursus diam ac ligula placerat volutpat. Vivamus dictum augue eu rutrum efficitur. Suspendisse ut pellentesque ante. Suspendisse odio velit, fringilla eu porta vel, elementum ac libero. Nam eu vestibulum magna. Vestibulum quis risus elementum, lobortis sapien at, rhoncus enim. Nam accumsan odio lacus, at facilisis lacus rhoncus vel. Suspendisse sollicitudin a ipsum at cursus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        data-test="block-"
+        class="PaddedRow-qwtz4d-0 glcQGC"
+      >
+        <div
+          class="Block__Content-sc-73lkvi-0 cmDqNt"
+        >
+          <div
+            class="Block__TitleWrap-sc-73lkvi-1 jjTrxf"
+          >
+            <h3
+              class="H3-sc-13x7erc-0 cKRnEQ"
+            >
+              Arbetsförmedlingen
+            </h3>
+          </div>
+          <div
+            class="Block__Text-sc-73lkvi-3 jzbETd"
+          >
+            <div
+              class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
+            >
+              <div>
+                <p>
+                  Aeneanurutrum, erat at tempus porttitor, mi eros vestibulum magna, eget semper mauris ipsum a nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras quis odio vel turpis pellentesque finibus. Pellentesque cursus diam ac ligula placerat volutpat. Vivamus dictum augue eu rutrum efficitur. Suspendisse ut pellentesque ante. Suspendisse odio velit, fringilla eu porta vel, elementum ac libero. Nam eu vestibulum magna. Vestibulum quis risus elementum, lobortis sapien at, rhoncus enim. Nam accumsan odio lacus, at facilisis lacus rhoncus vel. Suspendisse sollicitudin a ipsum at cursus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        data-test="block-"
+        class="PaddedRow-qwtz4d-0 glcQGC"
+      >
+        <div
+          class="Block__Content-sc-73lkvi-0 cmDqNt"
+        >
+          <div
+            class="Block__TitleWrap-sc-73lkvi-1 jjTrxf"
+          >
+            <h3
+              class="H3-sc-13x7erc-0 cKRnEQ"
+            >
+              Samarbetspartners
+            </h3>
+          </div>
+          <div
+            class="Block__Text-sc-73lkvi-3 jzbETd"
+          >
+            <div
+              class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
+            >
+              <div>
+                <p>
+                  <a
+                    href="https://hej.com"
+                  >
+                    Digitalbyrån
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        data-test="block-"
+        class="PaddedRow-qwtz4d-0 glcQGC"
+      >
+        <div
+          class="Block__Content-sc-73lkvi-0 cmDqNt"
+        >
+          <div
+            class="Block__TitleWrap-sc-73lkvi-1 jjTrxf"
+          >
+            <h3
+              class="H3-sc-13x7erc-0 cKRnEQ"
+            >
+              Presskontakt
+            </h3>
+          </div>
+          <div
+            class="Block__Text-sc-73lkvi-3 jzbETd"
+          >
+            <div
+              class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
+            >
+              <div>
+                <ul>
+                  <li>
+                    <a
+                      href="mailto:hans.rollman@iteam.se"
+                    >
+                      Hans Rollman
+                    </a>
+                  </li>
+                  <li>
+                    Johan Littorin, Telenor, 0734 41 72 85
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      data-test="block-"
+      class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-bxivhb bopLEv"
+    >
+      <div
+        class="PaddedRow-qwtz4d-0 glcQGC"
+      >
+        <h3
+          class="H3-sc-13x7erc-0 cKRnEQ"
+        >
+          Tekniker vi använt
+        </h3>
+        <div
+          class="Frameworks__FrameworksWrap-zw1rp5-0 dsUhlG"
+        >
+          <div
+            class="Frameworks__Framework-zw1rp5-1 deQbwH"
+          >
+            <img
+              src="https://images.ctfassets.net/rj4r6yfcesw5/3ipy8GBepacEyeKM0weI0i/39509f189b3f80400357320c6def15ad/docker.png"
+              class="Frameworks__FrameworkIcon-zw1rp5-2 dptMgy"
+            />
+            Docker
+          </div>
+          <div
+            class="Frameworks__Framework-zw1rp5-1 deQbwH"
+          >
+            <img
+              src="https://images.ctfassets.net/rj4r6yfcesw5/6Khn8L48laAoQuCkaouyQG/08e4cf1fe02bd945c23807d5a8f29e87/react.png"
+              class="Frameworks__FrameworkIcon-zw1rp5-2 dptMgy"
+            />
+            React
+          </div>
+          <div
+            class="Frameworks__Framework-zw1rp5-1 deQbwH"
+          >
+            <img
+              src="https://images.ctfassets.net/rj4r6yfcesw5/5EBgyxee0oiGqqOmAEmAUq/af8d1ae7d3d578197205205b2c33e8ff/Vue.png"
+              class="Frameworks__FrameworkIcon-zw1rp5-2 dptMgy"
+            />
+            Vue
+          </div>
+          <div
+            class="Frameworks__Framework-zw1rp5-1 deQbwH"
+          >
+            <img
+              src="https://images.ctfassets.net/rj4r6yfcesw5/3CIQ81A1M4EueKkYA8YgMY/ff59095490dd17d1ab74282447e0a213/nodejs.png"
+              class="Frameworks__FrameworkIcon-zw1rp5-2 dptMgy"
+            />
+            NodeJS
+          </div>
+          <div
+            class="Frameworks__Framework-zw1rp5-1 deQbwH"
+          >
+            <img
+              src="https://images.ctfassets.net/rj4r6yfcesw5/4RmR16im884ykaUgEaiscA/411607987ba022b96e9a29d000821aef/mandrill.png"
+              class="Frameworks__FrameworkIcon-zw1rp5-2 dptMgy"
+            />
+            Mandrill
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

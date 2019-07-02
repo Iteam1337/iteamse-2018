@@ -1,0 +1,50 @@
+jobs:
+  include:
+    - stage: preview
+      language: node_js
+      node_js:
+        - 10
+      cache:
+        directories:
+          - '~/.npm'
+          - '~/node_modules'
+      install:
+        - npm i -g lerna
+        - lerna bootstrap
+      script:
+        - npm run test
+        - npm run build:web
+        - npm install now --no-save
+        - now --token=$NOW_TOKEN_ITEAMSE --scope=iteam -e CONTENTFUL_SPACE=$CONTENTFUL_SPACE -e CONTENTFUL_ACCESS_TOKEN=$CONTENTFUL_ACCESS_TOKEN -e RAZZLE_HOST=$RAZZLE_HOST
+        - now alias $TRAVIS_COMMIT --token=$NOW_TOKEN_ITEAMSE --scope=iteam
+
+    - stage: release 
+      language: node_js
+      node_js:
+        - 10
+      cache:
+        directories:
+          - '~/.npm'
+          - '~/node_modules'
+      install:
+        - npm i -g lerna
+        - lerna bootstrap
+      script:
+        - npm run test
+      after_success:
+        - docker login -u $DOCKER_USER -p $DOCKER_PASS
+        - export REPO=iteam1337/iteamse
+        - export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH
+          ; fi`
+        - docker build -f ./packages/iteam-se/Dockerfile -t $REPO:$TAG ./packages/iteam-se/
+        - docker tag $TAG $REPO:TAG
+        - docker push $REPO:$TAG
+
+stages:
+  - name: preview
+    if: branch != master AND type = push
+  - name: release
+    if: branch = master AND type != pull_request
+
+notifications:
+  email: false

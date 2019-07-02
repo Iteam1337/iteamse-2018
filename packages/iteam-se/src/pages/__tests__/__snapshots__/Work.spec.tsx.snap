@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Work renders Work 1`] = `
+<div>
+  <div>
+    <div
+      class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-kkGfuU jdkWvC"
+    >
+      <div
+        class="Header__Content-dm3ycw-0 beGtUJ"
+      >
+        <div
+          class="Navigation__Wrap-fdgx9g-0 ehbMFf"
+        >
+          <a
+            class="sc-jKJlTe bIUarX"
+          >
+            <img
+              data-testid="logo"
+              path="test-file-stub"
+              class="sc-eNQAEJ gYmRno"
+            />
+          </a>
+          <div
+            class="Navigation__NavigationItems-fdgx9g-2 eVDHVt"
+          >
+            <a
+              class="sc-hMqMXs fILlfv"
+              aria-current="false"
+            >
+              Erbjudanden
+            </a>
+            <a
+              class="sc-hMqMXs fILlfv"
+              aria-current="false"
+            >
+              Våra case
+            </a>
+            <a
+              class="sc-hMqMXs fILlfv"
+              aria-current="false"
+            >
+              Metod
+            </a>
+            <a
+              class="sc-hMqMXs fILlfv"
+              aria-current="false"
+            >
+              Medarbetare
+            </a>
+            <a
+              class="sc-hMqMXs fILlfv"
+              aria-current="false"
+            >
+              Karriär
+            </a>
+            <a
+              class="sc-hMqMXs fILlfv"
+              aria-current="false"
+            >
+              Om
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://blog.iteam.life/"
+              class="NativeLink-fvundc-0 sc-kEYyzF grsRKu"
+            >
+              Labs
+            </a>
+            <div
+              class="Navigation__Indicator-fdgx9g-1 bOcqdk"
+            />
+          </div>
+        </div>
+        <div
+          class="Header__MessageRow-dm3ycw-1 cbRVND"
+        >
+          <h1
+            class="H1-sc-1we7oaz-0 sc-iAyFgw cylnsh"
+          >
+            <span
+              class="Header__MessageLine-dm3ycw-2 iOLoPT"
+            >
+              Bli en del av teamet
+            </span>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="GridColumn__GridColumnClean-sc-1y5e0ej-0 sc-htpNat kmHAwx"
+  >
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        data-test="block-location"
+        class="PaddedRow-qwtz4d-0 glcQGC"
+      >
+        <div
+          class="Block__Content-sc-73lkvi-0 cmDqNt"
+        >
+          <div
+            class="Block__TitleWrap-sc-73lkvi-1 jjTrxf"
+          >
+            <a
+              class="sc-bdVaJa bssnas"
+            >
+              <h3
+                class="H3-sc-13x7erc-0 cKRnEQ"
+              >
+                Junior UX Designer
+              </h3>
+            </a>
+            <div
+              class="Block__Subtitle-sc-73lkvi-2 hqFiHL"
+            >
+              Stockholm
+            </div>
+          </div>
+          <div
+            class="Block__Text-sc-73lkvi-3 jzbETd"
+          >
+            <div
+              class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
+            >
+              <div>
+                <p>
+                  Som UX designer på Iteam är din roll att hjälpa våra kunder med digitala lösningar som skapar värde på riktigt. Som gör något bra både för kunden, slutanvändaren och samhället. Med hjälp av olika researchmetoder undersöker du både användarens och kundens behov och kontext, samt definierar och testar användarupplevelser.
+                </p>
+                <p>
+                  Du delar med dig av din kunskap inom user experience. Du förstår också att om lösningar ska vara verkligt användarvänliga behöver även arbetsprocesserna och kulturen vara användarcentrerad. Vi strävar mot att UX aldrig ska få vara bara en fas eller en eftertanke. Det ska genomsyra hela projektet. Alltid. 
+                </p>
+              </div>
+            </div>
+            <a
+              black="0"
+              class="sc-gZMcBi foZFVe"
+            >
+              Läs mer och ansök
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-reveal"
+      style="opacity: 1;"
+    >
+      <div
+        data-test="block-"
+        class="PaddedRow-qwtz4d-0 glcQGC"
+      >
+        <div
+          class="Block__Content-sc-73lkvi-0 cmDqNt"
+        >
+          <div
+            class="Block__TitleWrap-sc-73lkvi-1 jjTrxf"
+          >
+            <h3
+              class="H3-sc-13x7erc-0 cKRnEQ"
+            >
+              Inget som passar?
+            </h3>
+          </div>
+          <div
+            class="Block__Text-sc-73lkvi-3 jzbETd"
+          >
+            <div
+              class="Paragraph__StyledParagraph-sc-18re3wf-0 kFBGJT"
+            >
+              <div>
+                <p>
+                  Gör en 
+                  <a
+                    href="mailto:joinus@iteam.se"
+                  >
+                    spontanansökan
+                  </a>
+                  !
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
