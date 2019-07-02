@@ -28,7 +28,6 @@
   ],
   "env": {
     "RAZZLE_CMS_NODE_URL": "/api/graphql",
-    "RAZZLE_PUBLIC_DIR": "/api/graphql",
     "RAZZLE_HOST": "/api/graphql",
     "NODE_ENV": "production"
   },
