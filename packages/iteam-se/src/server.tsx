@@ -56,7 +56,7 @@ server
           helmet: {},
         }
 
-        const Root = () => (
+        const Root = (
           <HelmetProvider context={helmetContext}>
             <ApolloProvider client={client}>
               <ThemeProvider theme={theme}>
@@ -70,7 +70,7 @@ server
 
         // Get Apollo State
         try {
-          await getDataFromTree(<Root />)
+          await getDataFromTree(Root)
         } catch (e) {
           console.log(e)
         }
@@ -78,7 +78,7 @@ server
         const apolloState = client.extract()
 
         // Render tree and collect CSS data
-        const content = renderToString(sheet.collectStyles(<Root />))
+        const content = renderToString(sheet.collectStyles(Root))
         const styleTags = sheet.getStyleTags()
 
         // Get react-helmet properties
