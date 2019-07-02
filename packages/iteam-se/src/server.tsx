@@ -5,6 +5,7 @@ import compression from 'compression'
 import express from 'express'
 import fetch from 'node-fetch'
 import React from 'react'
+import proxy from 'http-proxy-middleware'
 import { ApolloProvider, getDataFromTree } from 'react-apollo'
 import { renderToString } from 'react-dom/server'
 import { FilledContext, HelmetProvider } from 'react-helmet-async'
@@ -29,9 +30,20 @@ syncAssets()
 const isProduction = process.env.NODE_ENV === 'production'
 
 const server = express()
-const { RAZZLE_HOST = '/api/graphql', RAZZLE_PUBLIC_DIR } = process.env
+const {
+  RAZZLE_CMS_NODE_URL,
+  RAZZLE_HOST = '/api/graphql',
+  RAZZLE_PUBLIC_DIR,
+} = process.env
 
 server.use(compression())
+server.use(
+  '/cms',
+  proxy({
+    pathRewrite: (path: string) => path.replace('/cms', ''),
+    target: RAZZLE_CMS_NODE_URL,
+  })
+)
 
 server
   .disable('x-powered-by')
