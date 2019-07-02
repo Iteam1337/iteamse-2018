@@ -40,7 +40,7 @@ server.use(compression())
 server.use(
   '/cms',
   proxy({
-    pathRewrite: (path: string) => path.replace('/cms', ''),
+    pathRewrite: (path: string) => path.replace('/cms', '/api/graphql'),
     target: RAZZLE_CMS_NODE_URL,
   })
 )
