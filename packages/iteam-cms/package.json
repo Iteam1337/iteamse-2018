@@ -7,7 +7,7 @@
   "main": "lib/server.js",
   "scripts": {
     "start": "micro",
-    "dev": "micro",
+    "dev": "micro-dev",
     "lint": "eslint lib",
     "test": "jest --watch",
     "test:once": "jest",
@@ -15,11 +15,7 @@
     "commitmsg": "commitlint -e $GIT_PARAMS"
   },
   "lint-staged": {
-    "*.js": [
-      "prettier --write",
-      "eslint --fix",
-      "git add"
-    ]
+    "*.js": ["prettier --write", "eslint --fix", "git add"]
   },
   "dependencies": {
     "apollo-server-micro": "^2.6.3",
@@ -27,7 +23,6 @@
     "contentful": "6.1.0",
     "dotenv": "^8.0.0",
     "graphql": "^14.3.1",
-    "graphql-yoga": "1.13.1",
     "md5": "2.2.1",
     "micro": "^9.3.4",
     "micro-cors": "^0.1.1",
@@ -43,13 +38,12 @@
     "husky": "0.14.3",
     "jest": "22.4.3",
     "lint-staged": "7.0.5",
+    "micro-dev": "3.0.0",
     "nodemon": "1.17.5",
     "prettier": "1.12.1"
   },
   "jest": {
     "testEnvironment": "node",
-    "collectCoverageFrom": [
-      "lib/**/*.js"
-    ]
+    "collectCoverageFrom": ["lib/**/*.js"]
   }
 }
