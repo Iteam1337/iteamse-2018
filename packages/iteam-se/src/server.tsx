@@ -13,6 +13,7 @@ import { StaticRouter } from 'react-router-dom'
 import App from './App'
 import { ServerStyleSheet, theme, ThemeProvider } from './theme'
 import { redirectHelper } from './utils/serverHelpers'
+import { apolloUri } from './utils/serverUtils'
 
 interface StaticContext {
   statusCode?: number
@@ -56,7 +57,7 @@ server
           cache: new InMemoryCache(),
           link: createHttpLink({
             fetch,
-            uri: RAZZLE_HOST,
+            uri: apolloUri(RAZZLE_HOST, req),
           }),
           ssrMode: true,
         })
