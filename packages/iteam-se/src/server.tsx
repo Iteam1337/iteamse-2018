@@ -40,6 +40,8 @@ server
     '/*',
     redirectHelper,
     async (req: express.Request, res: express.Response) => {
+      console.log(apolloUri(RAZZLE_HOST, req))
+
       try {
         const client = new ApolloClient({
           cache: new InMemoryCache(),
@@ -70,6 +72,8 @@ server
             </ApolloProvider>
           </HelmetProvider>
         )
+
+        console.log('before state')
 
         // Get Apollo State
         await getDataFromTree(<Root />)
