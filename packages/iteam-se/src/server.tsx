@@ -18,7 +18,14 @@ interface StaticContext {
   statusCode?: number
 }
 
-const assets = require(process.env.RAZZLE_ASSETS_MANIFEST!)
+let assets: any
+
+function syncAssets() {
+  assets = require(process.env.RAZZLE_ASSETS_MANIFEST!)
+}
+
+syncAssets()
+
 const isProduction = process.env.NODE_ENV === 'production'
 
 const server = express()
