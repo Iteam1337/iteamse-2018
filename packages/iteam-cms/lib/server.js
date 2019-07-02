@@ -1,4 +1,5 @@
 require('dotenv').config()
+
 const cors = require('micro-cors')
 const { ApolloServer } = require('apollo-server-micro')
 const contentful = require('contentful')
@@ -31,5 +32,6 @@ module.exports = cors({ origin: '*' })((req, res) => {
     res.end()
     return
   }
+
   return server.createHandler({ path: '/api/graphql' })(req, res)
 })
