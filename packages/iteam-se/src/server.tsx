@@ -40,16 +40,11 @@ server
     '/*',
     redirectHelper,
     async (req: express.Request, res: express.Response) => {
-      console.log(apolloUri(RAZZLE_HOST, req))
-
       try {
         const client = new ApolloClient({
           cache: new InMemoryCache(),
           link: createHttpLink({
             fetch,
-            fetchOptions: {
-              method: 'POST',
-            },
             uri: apolloUri(RAZZLE_HOST, req),
           }),
           ssrMode: true,
@@ -73,10 +68,13 @@ server
           </HelmetProvider>
         )
 
-        console.log('before state')
-
         // Get Apollo State
-        await getDataFromTree(<Root />)
+        try {
+          await getDataFromTree(<Root />)
+        } catch (e) {
+          console.log(e)
+        }
+
         const apolloState = client.extract()
 
         // Render tree and collect CSS data
