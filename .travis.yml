@@ -15,8 +15,8 @@ jobs:
         - npm run test
         - npm run build:web
         - npm install now --no-save
-        - now --token $NOW_TOKEN_ITEAMSE -e CONTENTFUL_SPACE=$CONTENTFUL_SPACE -e CONTENTFUL_ACCESS_TOKEN=$CONTENTFUL_ACCESS_TOKEN -e RAZZLE_PUBLIC_DIR=/api/graphql -e RAZZLE_CMS_NODE_URL=/api/graphql -e RAZZLE_HOST=/api/graphql
-        - now alias $TRAVIS_COMMIT --token $NOW_TOKEN_ITEAMSE
+        - now --token $NOW_TOKEN_ITEAMSE --scope iteam -e CONTENTFUL_SPACE=$CONTENTFUL_SPACE -e CONTENTFUL_ACCESS_TOKEN=$CONTENTFUL_ACCESS_TOKEN -e RAZZLE_PUBLIC_DIR=/api/graphql -e RAZZLE_CMS_NODE_URL=/api/graphql -e RAZZLE_HOST=/api/graphql
+        - now alias $TRAVIS_COMMIT --token $NOW_TOKEN_ITEAMSE --scope iteam
 
     - stage: release 
       language: node_js
