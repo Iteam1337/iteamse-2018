@@ -78,7 +78,7 @@ export const NotFound: React.SFC = () => {
         </Helmet>
         <HeaderClean />
         <Content>
-          <Broken alt="broken" src={brokenComputer} />
+          <Broken alt="" src={brokenComputer} />
           <Message>
             <StyledH1>Oj, någonting gick snett!</StyledH1>
             <Paragraph>{message}</Paragraph>
