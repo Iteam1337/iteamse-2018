@@ -2,6 +2,7 @@ import * as React from 'react'
 import styled from '../../theme'
 
 interface ImageBlockProps {
+  alt?: string
   column?: number
   image: string
 }
@@ -17,6 +18,7 @@ const Content = styled.div`
 `
 
 interface ImageContainerProps {
+  alt?: string
   column: number
 }
 
@@ -30,10 +32,14 @@ const ImageContainer = styled.img<ImageContainerProps>`
   }
 `
 
-const ImageBlock: React.SFC<ImageBlockProps> = ({ column = 6, image }) => {
+const ImageBlock: React.SFC<ImageBlockProps> = ({
+  alt = '',
+  column = 6,
+  image,
+}) => {
   return (
     <Content>
-      <ImageContainer column={column} src={image} />
+      <ImageContainer alt={alt} column={column} src={image} />
     </Content>
   )
 }

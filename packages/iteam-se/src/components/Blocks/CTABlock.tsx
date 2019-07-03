@@ -55,7 +55,7 @@ const CTABlock: React.SFC<CTABlockProps> = ({
       <GridColumn>
         <PaddedRow data-test={`block-${dataTest}`}>
           <Content>
-            <img src={craneImage} />
+            <img alt="" src={craneImage} />
             <div>
               <H3>{title}</H3>
               <Text>{children}</Text>

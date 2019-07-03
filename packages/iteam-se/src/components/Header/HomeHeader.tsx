@@ -178,7 +178,7 @@ const HomeHeader: React.SFC<HomeHeaderProps> = ({ title, lead }) => {
               <IllustrationWrap>
                 <Cloud />
                 <SmallCloud />
-                <IllustrationImage src={iteamI} />
+                <IllustrationImage alt="" src={iteamI} />
               </IllustrationWrap>
             </HomeMessageRow>
           </HomeContent>

@@ -132,6 +132,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
       class="ImageBlock__Content-sc-15ih60h-0 hVrqrK"
     >
       <img
+        alt=""
         src="test-file-stub"
         class="ImageBlock__ImageContainer-sc-15ih60h-1 efhZFd"
       />
@@ -244,6 +245,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
     </div>
   </div>
   <img
+    alt=""
     src="//images.ctfassets.net/rj4r6yfcesw5/62hgzE8G3ueMa2YSEuG4og/db2b643db6041f9d26936bc2d6006607/bleed_howwework.jpg"
     class="ImageBleed__ImageContainer-sc-1jaho49-0 kEiPqu"
   />
@@ -290,6 +292,7 @@ exports[`components/HowWeWork renders HowWeWork 1`] = `
       class="ImageBlock__Content-sc-15ih60h-0 hVrqrK"
     >
       <img
+        alt=""
         src="test-file-stub"
         class="ImageBlock__ImageContainer-sc-15ih60h-1 efhZFd"
       />

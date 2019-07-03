@@ -117,6 +117,7 @@ exports[`App renders App 1`] = `
               class="HomeHeader__Cloud-j7f4se-3 sc-kAzzGY bwQoic"
             />
             <img
+              alt=""
               src="test-file-stub"
               class="HomeHeader__IllustrationImage-j7f4se-4 bNOAKW"
             />
@@ -207,6 +208,7 @@ exports[`App renders App 1`] = `
       class="ImageBlock__Content-sc-15ih60h-0 hVrqrK"
     >
       <img
+        alt=""
         src="test-file-stub"
         class="ImageBlock__ImageContainer-sc-15ih60h-1 efhZFd"
       />
@@ -262,6 +264,7 @@ exports[`App renders App 1`] = `
           class="CTABlock__Content-sc-1dha9r9-1 kQKBtN"
         >
           <img
+            alt=""
             src="test-file-stub"
           />
           <div>
