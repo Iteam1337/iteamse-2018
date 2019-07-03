@@ -30,7 +30,7 @@ exports[`components/NotFound renders NotFound 1`] = `
       class="NotFound__Content-xslswo-0 gCWvuc"
     >
       <img
-        alt="broken"
+        alt=""
         src="test-file-stub"
         class="NotFound__Broken-xslswo-1 kmugLl"
       />
