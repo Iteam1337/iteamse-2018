@@ -2,6 +2,7 @@ import React from 'react'
 import styled from '../../theme'
 
 interface ImageBleedProps {
+  alt?: string
   image: string
 }
 
@@ -11,8 +12,8 @@ const ImageContainer = styled.img`
   width: 100%;
 `
 
-const ImageBleed = ({ image }: ImageBleedProps) => {
-  return <ImageContainer src={image} />
+const ImageBleed = ({ alt = '', image }: ImageBleedProps) => {
+  return <ImageContainer alt={alt} src={image} />
 }
 
 export default ImageBleed
