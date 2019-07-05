@@ -17,6 +17,8 @@ jobs:
         - npm install now --no-save
         - now --token=$NOW_TOKEN_ITEAMSE --scope=iteam -e CONTENTFUL_SPACE=$CONTENTFUL_SPACE -e CONTENTFUL_ACCESS_TOKEN=$CONTENTFUL_ACCESS_TOKEN -e RAZZLE_CMS_NODE_URL=$RAZZLE_HOST -e RAZZLE_HOST=$RAZZLE_HOST
         - now alias $TRAVIS_COMMIT --token=$NOW_TOKEN_ITEAMSE --scope=iteam
+      after_success:
+        - bash ./bin/comment.sh
 
     - stage: release 
       language: node_js
