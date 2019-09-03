@@ -4,10 +4,6 @@ jobs:
       language: node_js
       node_js:
         - "10"
-      cache:
-        directories:
-          - "~/.npm"
-          - "~/node_modules"
       install:
         - npm i -g lerna
         - lerna bootstrap
