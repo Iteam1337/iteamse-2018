@@ -11,6 +11,7 @@ jobs:
       install:
         - npm i -g lerna
         - lerna bootstrap
+        - npm install now@16.1.0 --no-save
       script:
         - |
           FEATURE=$(echo $TRAVIS_PULL_REQUEST_BRANCH | sed 's/\+/-/g; s/\//-/g; s/\=/-/g')
@@ -19,9 +20,8 @@ jobs:
           echo "this is the feature: $FEATURE"
           npm run test
           npm run build:web
-          npm install now@16.1.0 --no-save
           now -e CONTENTFUL_SPACE=$CONTENTFUL_SPACE -e CONTENTFUL_ACCESS_TOKEN=$CONTENTFUL_ACCESS_TOKEN -e RAZZLE_CMS_NODE_URL=$RAZZLE_HOST -e RAZZLE_HOST=$RAZZLE_HOST --token $NOW_TOKEN_ITEAMSE --scope=iteam
-          now alias $DEPLOYMENT --token NOW_TOKEN_ITEAMSE --scope=iteam
+          now alias $DEPLOYMENT --token NOW_TOKEN_ITEAMSE
       after_success:
         - |
           curl -H "Authorization: token ${GITHUB_TOKEN}" -X POST \
