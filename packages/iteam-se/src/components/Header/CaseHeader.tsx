@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from '../../theme'
 import { GridColumnClean } from '../Grid/GridColumn'
+import Tags from '../Tags/Tags'
 import Navigation from './Navigation'
 
 interface CaseHeaderProps {
@@ -103,28 +104,6 @@ const Logo = styled.img`
     max-height: none;
   }
 `
-
-const Tags = styled.div``
-
-const Tag = styled.div`
-  background-color: rgba(255, 255, 255, 0.15);
-  color: #fff;
-  display: inline-block;
-  font-size: 14px;
-  margin-bottom: 5px;
-  padding: 5px 10px;
-  text-align: center;
-
-  &:not(:last-child) {
-    margin-right: 5px;
-  }
-
-  @media (min-width: 1025px) {
-    font-size: 16px;
-    padding: 10px;
-  }
-`
-
 const CaseImage = styled.div`
   display: none;
 
@@ -158,12 +137,7 @@ const CaseHeader: React.SFC<CaseHeaderProps> = ({
           <Information>
             <Meta>
               <Logo alt="Logo" src={logo} />
-              <Tags>
-                {tags.map(
-                  tag =>
-                    typeof tag === 'string' ? <Tag key={tag}>{tag}</Tag> : null
-                )}
-              </Tags>
+              <Tags tags={tags} />
             </Meta>
             <CaseImage>
               {caseImage && <ProjectImage alt="" src={caseImage} />}
