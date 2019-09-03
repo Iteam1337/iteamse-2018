@@ -3,31 +3,39 @@ jobs:
     - stage: preview
       language: node_js
       node_js:
-        - 10
+        - "10"
       cache:
         directories:
-          - '~/.npm'
-          - '~/node_modules'
+          - "~/.npm"
+          - "~/node_modules"
       install:
         - npm i -g lerna
         - lerna bootstrap
       script:
-        - npm run test
-        - npm run build:web
-        - npm install now --no-save
-        - now --token=$NOW_TOKEN_ITEAMSE --scope=iteam -e CONTENTFUL_SPACE=$CONTENTFUL_SPACE -e CONTENTFUL_ACCESS_TOKEN=$CONTENTFUL_ACCESS_TOKEN -e RAZZLE_CMS_NODE_URL=$RAZZLE_HOST -e RAZZLE_HOST=$RAZZLE_HOST
-        - now alias $TRAVIS_COMMIT --token=$NOW_TOKEN_ITEAMSE --scope=iteam
-      after_success:
-        - bash ./bin/comment.sh
+        - |
+          FEATURE=$(echo $TRAVIS_PULL_REQUEST_BRANCH | sed 's/\+/-/g; s/\//-/g; s/\=/-/g')
+          DEPLOYMENT=deployment-preview-$FEATURE
+          DEPLOYMENT_URL="https://$DEPLOYMENT.now.sh"
+          npm run test
+          npm run build:web
+          npm install now --no-save
+          now --token=$NOW_TOKEN_ITEAMSE --scope=iteam -e CONTENTFUL_SPACE=$CONTENTFUL_SPACE -e CONTENTFUL_ACCESS_TOKEN=$CONTENTFUL_ACCESS_TOKEN -e RAZZLE_CMS_NODE_URL=$RAZZLE_HOST -e RAZZLE_HOST=$RAZZLE_HOST
+          now alias $DEPLOYMENT --token=$NOW_TOKEN_ITEAMSE --scope=iteam
 
-    - stage: release 
+      after_success:
+        - |
+          curl -H "Authorization: token ${GITHUB_TOKEN}" -X POST \
+          -d "{\"body\": \"Deployment preview ready at: ${DEPLOYMENT_URL}\"}" \
+          "https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/${TRAVIS_PULL_REQUEST}/comments"
+
+    - stage: release
       language: node_js
       node_js:
-        - 10
+        - "10"
       cache:
         directories:
-          - '~/.npm'
-          - '~/node_modules'
+          - "~/.npm"
+          - "~/node_modules"
       install:
         - npm i -g lerna
         - lerna bootstrap
@@ -48,7 +56,7 @@ jobs:
 
 stages:
   - name: preview
-    if: branch != master AND type = push
+    if: branch = master AND type = pull_request
   - name: release
     if: branch = master AND type != pull_request
 
