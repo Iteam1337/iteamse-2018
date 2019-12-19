@@ -59,7 +59,7 @@ const Quote: React.SFC<QuoteProps> = ({
   return (
     <QuoteWrap backgroundColor={quoteBgColor} data-test={`block-${dataTest}`}>
       <PaddedRow>
-        <ActualQuote>{`"${children}"`}</ActualQuote>
+        <ActualQuote>{`${children}`}</ActualQuote>
         <Person>{person}</Person>
       </PaddedRow>
     </QuoteWrap>
