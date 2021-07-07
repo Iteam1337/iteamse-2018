@@ -85,37 +85,37 @@ exports[`components/Case renders Case 1`] = `
             class="CaseHeader__Logo-sc-1emy1u7-4 etvJXV"
           />
           <div
-            class="CaseHeader__Tags-sc-1emy1u7-5 jMGaNt"
+            class="Tags__Container-nkyp96-0 fMCmPy"
           >
             <div
-              class="CaseHeader__Tag-sc-1emy1u7-6 kseyTp"
+              class="Tags__Tag-nkyp96-1 jpCwB"
             >
               API
             </div>
             <div
-              class="CaseHeader__Tag-sc-1emy1u7-6 kseyTp"
+              class="Tags__Tag-nkyp96-1 jpCwB"
             >
               Docker
             </div>
             <div
-              class="CaseHeader__Tag-sc-1emy1u7-6 kseyTp"
+              class="Tags__Tag-nkyp96-1 jpCwB"
             >
               UX
             </div>
             <div
-              class="CaseHeader__Tag-sc-1emy1u7-6 kseyTp"
+              class="Tags__Tag-nkyp96-1 jpCwB"
             >
               React
             </div>
             <div
-              class="CaseHeader__Tag-sc-1emy1u7-6 kseyTp"
+              class="Tags__Tag-nkyp96-1 jpCwB"
             >
               Vue
             </div>
           </div>
         </div>
         <div
-          class="CaseHeader__CaseImage-sc-1emy1u7-7 kHMofp"
+          class="CaseHeader__CaseImage-sc-1emy1u7-5 kGWYdk"
         >
           <img
             alt=""
@@ -127,7 +127,7 @@ exports[`components/Case renders Case 1`] = `
     </div>
   </div>
   <div
-    class="CaseHeader__CaseImageMobile-sc-1emy1u7-8 kEkjsl"
+    class="CaseHeader__CaseImageMobile-sc-1emy1u7-6 cgbcYt"
   >
     <img
       alt=""

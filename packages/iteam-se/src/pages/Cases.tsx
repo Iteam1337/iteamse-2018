@@ -7,6 +7,7 @@ import GridColumn from '../components/Grid/GridColumn'
 import PaddedRow from '../components/Grid/PaddedRow'
 import Header from '../components/Header/Header'
 import PrefetchLink from '../components/Link/PrefetchLink'
+import Tags from '../components/Tags/Tags'
 import Team from '../components/Team/Team'
 import styled from '../theme'
 import { CASE_PAGE_QUERY } from './Case'
@@ -27,6 +28,7 @@ export const CASES_PAGE_QUERY = gql`
       slug
       thumbnailImage
       title
+      tags
     }
   }
 `
@@ -68,6 +70,7 @@ const CaseImageWrap = styled.div`
   display: flex;
   justify-content: center;
 
+  position: relative;
   @media (min-width: 1025px) {
     height: 500px;
     width: 500px;
@@ -76,7 +79,7 @@ const CaseImageWrap = styled.div`
 
 const CaseImage = styled.img`
   max-width: 90%;
-
+  transition: opacity 200ms ease-in-out;
   /* IE 11 */
   ${({ theme }) =>
     theme.browsers.ie10Or11(`
@@ -89,7 +92,7 @@ const Meta = styled.div`
   border-left: 0px solid ${({ theme }) => theme.colors.aquamarine};
   margin-top: 30px;
   transition-property: border-left-width, padding-left;
-  transition-duration: 300ms;
+  transition-duration: 200ms;
   transition-timing-function: ease-in-out;
 `
 
@@ -98,11 +101,30 @@ const CaseLink = styled(PrefetchLink)`
   text-decoration: none;
 `
 
+const TagContainer = styled.div`
+  position: absolute;
+  max-width: 320px;
+  transition: opacity 300ms ease-in-out;
+  padding: 0 0 5px 10px;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+
+  div > div {
+    background-color: rgba(120, 120, 120, 0.65);
+  }
+`
 const Case = styled.div`
   &:hover {
     ${Meta} {
       border-left-width: 10px;
       padding-left: 10px;
+    }
+    ${TagContainer} {
+      opacity: 1;
+    }
+    ${CaseImage} {
+      opacity: 0.3;
     }
   }
 
@@ -136,7 +158,6 @@ export class CasePage extends React.Component {
           }
 
           const { pageCases, cases } = data
-
           return (
             <>
               <Helmet>
@@ -178,6 +199,9 @@ export class CasePage extends React.Component {
                             {workCase.thumbnailImage && (
                               <CaseImage src={workCase.thumbnailImage} alt="" />
                             )}
+                            <TagContainer>
+                              <Tags tags={workCase.tags} />
+                            </TagContainer>
                           </CaseImageWrap>
                           <Meta>
                             <Title>{workCase.title}</Title>

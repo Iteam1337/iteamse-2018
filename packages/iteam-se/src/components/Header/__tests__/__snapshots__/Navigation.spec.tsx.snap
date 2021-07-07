@@ -111,6 +111,7 @@ Object {
       slug
       thumbnailImage
       title
+      tags
     }
   }
 ",
